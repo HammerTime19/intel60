@@ -265,7 +265,9 @@
  "last_digest": "2026-10-10",
  "last_digest_at": "2026-10-10T11:00:30Z",
  "health": {
-  "feeds": {},
+  "feeds": {
+   "The Record": 1
+  },
   "alerted": {
    "ai": "2026-10-08T14:00:37Z"
   }
