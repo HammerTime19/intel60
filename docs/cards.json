@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-11T14:00:32Z",
+ "updated": "2026-10-11T14:30:34Z",
  "cards": [
+  {
+   "id": "4c28b0c9be",
+   "headline": "Nippon Columbia malware exposes 8.6 million karaoke records",
+   "summary": "A malware infection at Nippon Columbia, a contractor for Japanese entertainment system maker Daiichi Kosho, compromised over 8.6 million customer and employee records. The breach exposed personal data from karaoke system users and staff. The incident was discovered and disclosed by Daiichi Kosho. SOC teams should monitor for unauthorized access attempts and review karaoke system security in their environment.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+   "published": "2026-10-11T14:23:46Z",
+   "added": "2026-10-11T14:30:33Z",
+   "also": []
+  },
   {
    "id": "63a609a6b1",
    "headline": "Canadian cybersecurity executive arrested extortion charges",
