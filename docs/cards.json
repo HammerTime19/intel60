@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-12T20:00:33Z",
+ "updated": "2026-10-12T20:30:31Z",
  "cards": [
+  {
+   "id": "d0137ba408",
+   "headline": "Norway fines Microsoft Xandr $9.6 million Grindr privacy breach",
+   "summary": "Norway's Data Protection Authority fined Microsoft-owned advertising firm Xandr NOK 92 million for unlawfully processing and sharing sensitive data of Grindr users without proper consent. The violation involved personal information exposed through Xandr's ad network connections. The fine represents enforcement of GDPR-like protections in Norway and signals regulatory action against data misuse by tech companies.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+   "published": "2026-10-12T20:13:52Z",
+   "added": "2026-10-12T20:30:31Z",
+   "also": []
+  },
   {
    "id": "5ae29bf7b5",
    "headline": "French supermarket refrigerators remotely defrosted cyberattack",
@@ -198,6 +212,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges"
     }
    ]
   },
