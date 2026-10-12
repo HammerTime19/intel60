@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T21:30:27Z",
+ "updated": "2026-10-12T22:00:36Z",
  "cards": [
   {
    "id": "d0137ba408",
@@ -390,6 +390,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack"
     }
    ],
    "cve_info": {
