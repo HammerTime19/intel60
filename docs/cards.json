@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T19:00:34Z",
+ "updated": "2026-10-12T19:30:34Z",
  "cards": [
   {
    "id": "5ae29bf7b5",
@@ -69,7 +69,12 @@
    "url": "https://therecord.media/ukraine-strikes-third-yandex-data-center",
    "published": "2026-10-12T12:00:00Z",
    "added": "2026-10-12T12:30:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
+    }
+   ]
   },
   {
    "id": "89310c4a86",
