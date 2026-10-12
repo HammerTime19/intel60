@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-12T09:30:30Z",
+ "updated": "2026-10-12T10:00:44Z",
  "cards": [
+  {
+   "id": "815b7a9464",
+   "headline": "Bricksforge WordPress plugin maximum-severity RCE exploited",
+   "summary": "CVE-2026-85097 (CVSS 10.0) in the Bricksforge WordPress plugin allows unauthenticated attackers to upload and execute arbitrary PHP code, enabling remote code execution. The vulnerability is actively exploited in the wild. WordPress site administrators should immediately update Bricksforge to a patched version and review access logs for suspicious activity.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-85097"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+   "published": "2026-10-12T09:02:14Z",
+   "added": "2026-10-12T10:00:42Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-85097": {
+     "kev": false,
+     "epss": 0.00312,
+     "pct": 0.22188,
+     "cvss": 9.8,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-12T10:00:43Z"
+  },
   {
    "id": "d261b6b9e6",
    "headline": "CyberXero steals 628,000 Ukrainian records via Claude AI",
