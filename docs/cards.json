@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T11:00:44Z",
+ "updated": "2026-10-12T11:30:30Z",
  "cards": [
   {
    "id": "bebb1cfd54",
@@ -158,7 +158,12 @@
    "url": "https://therecord.media/irhythm-data-breach-reports",
    "published": "2026-10-09T16:06:00Z",
    "added": "2026-10-09T16:30:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/"
+    }
+   ]
   },
   {
    "id": "0419de820a",
@@ -250,7 +255,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
    "published": "2026-10-09T12:32:16Z",
    "added": "2026-10-09T13:00:40Z",
-   "also": [],
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
+    }
+   ],
    "cve_info": {
     "CVE-2026-102255": {
      "kev": false,
@@ -274,7 +284,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
    "published": "2026-10-09T11:14:28Z",
    "added": "2026-10-09T11:30:32Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/"
+    }
+   ]
   },
   {
    "id": "fb457f8b9a",
