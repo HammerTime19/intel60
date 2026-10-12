@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-12T13:00:34Z",
+ "updated": "2026-10-12T13:31:21Z",
  "cards": [
+  {
+   "id": "175a7df5c5",
+   "headline": "GitLab maximum-severity code execution vulnerability patched",
+   "summary": "GitLab disclosed a critical vulnerability in the CI/CD Regular Expression Compiler allowing remote code execution on affected instances. Attackers can exploit this flaw without authentication to run arbitrary code. GitLab urges immediate patching. Defenders should prioritize updating all GitLab deployments and verify no unauthorized access occurred via logs.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+   "published": "2026-10-12T13:09:09Z",
+   "added": "2026-10-12T13:31:20Z",
+   "also": []
+  },
   {
    "id": "128ef325e3",
    "headline": "Ukrainian drones destroy third Yandex Russian data center",
@@ -71,7 +85,12 @@
    "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
    "published": "2026-10-12T09:02:14Z",
    "added": "2026-10-12T10:00:42Z",
-   "also": [],
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-85097": {
      "kev": false,
