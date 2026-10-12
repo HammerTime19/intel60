@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-12T14:00:44Z",
+ "updated": "2026-10-12T14:30:35Z",
  "cards": [
+  {
+   "id": "7a7fbf93e1",
+   "headline": "AvisLoader Windows malware resists command-control disruption",
+   "summary": "Researchers identified AvisLoader, a Windows malware loader that uses encrypted peer-to-peer communications to harden its command-and-control infrastructure against disruption. The malware employs ClickFix delivery mechanisms, persistence via shortcuts, and remote command execution. Defenders should monitor for suspicious shortcut files and ClickFix social engineering campaigns.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+   "published": "2026-10-12T14:00:10Z",
+   "added": "2026-10-12T14:30:35Z",
+   "also": []
+  },
   {
    "id": "8bf2f9414a",
    "headline": "Ahold Delhaize retail chain takes systems offline cyberattack",
