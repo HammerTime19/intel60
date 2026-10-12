@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T18:30:31Z",
+ "updated": "2026-10-12T19:00:34Z",
  "cards": [
   {
    "id": "5ae29bf7b5",
@@ -111,7 +111,12 @@
    "url": "https://cyberscoop.com/ai-agent-software-supply-chain-security-op-ed/",
    "published": "2026-10-12T10:00:00Z",
    "added": "2026-10-12T10:30:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/"
+    }
+   ]
   },
   {
    "id": "815b7a9464",
