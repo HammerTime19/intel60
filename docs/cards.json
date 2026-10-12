@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-12T13:31:21Z",
+ "updated": "2026-10-12T14:00:44Z",
  "cards": [
+  {
+   "id": "8bf2f9414a",
+   "headline": "Ahold Delhaize retail chain takes systems offline cyberattack",
+   "summary": "Ahold Delhaize, one of the world's largest food retail chains, took systems offline in response to a cybersecurity incident affecting its network. The company confirmed the breach but details about the attack's scope, method, and data accessed remain unclear. Defenders should monitor for indicators related to this incident and assess potential supply chain impacts.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+   "published": "2026-10-12T13:51:07Z",
+   "added": "2026-10-12T14:00:44Z",
+   "also": []
+  },
   {
    "id": "175a7df5c5",
    "headline": "GitLab maximum-severity code execution vulnerability patched",
