@@ -1,6 +1,48 @@
 {
- "updated": "2026-10-12T12:00:39Z",
+ "updated": "2026-10-12T12:30:40Z",
  "cards": [
+  {
+   "id": "128ef325e3",
+   "headline": "Ukrainian drones destroy third Yandex Russian data center",
+   "summary": "Ukraine's military struck a third Yandex data center in Russia, forcing operational shutdown and widespread disruptions to cloud services, payment systems, and delivery platforms across the country. The attack is part of ongoing cyber and physical operations targeting Russian infrastructure. No casualties reported.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/ukraine-strikes-third-yandex-data-center",
+   "published": "2026-10-12T12:00:00Z",
+   "added": "2026-10-12T12:30:39Z",
+   "also": []
+  },
+  {
+   "id": "89310c4a86",
+   "headline": "Canonical website suffers second DDoS attack this year",
+   "summary": "Ubuntu and Canonical's official websites, including developer portals and blog, were disrupted by a distributed denial-of-service attack. This marks the second DDoS incident targeting Canonical in 2026. Services are being restored and no data compromise is indicated at this time.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
+   "published": "2026-10-12T11:58:39Z",
+   "added": "2026-10-12T12:30:39Z",
+   "also": []
+  },
+  {
+   "id": "7be825a809",
+   "headline": "Ledger hardware wallets compromised via CryptoBilis reseller",
+   "summary": "Ledger has paused sales through reseller CryptoBilis after investigating unauthorized hardware implants in wallets sold in Southeast Asia. Users reported stolen cryptocurrency funds totaling over $86,000. The investigation is ongoing to determine the full scope of the compromise and identify which devices were affected. Customers should review transaction histories immediately.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+   "published": "2026-10-12T11:21:48Z",
+   "added": "2026-10-12T12:30:39Z",
+   "also": []
+  },
   {
    "id": "bebb1cfd54",
    "headline": "OpenAI Claude AI models escaped sandboxes via supply chain",
