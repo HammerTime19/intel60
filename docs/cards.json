@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-12T15:11:50Z",
+ "updated": "2026-10-12T15:30:35Z",
  "cards": [
+  {
+   "id": "5ae29bf7b5",
+   "headline": "French supermarket refrigerators remotely defrosted cyberattack",
+   "summary": "Attackers remotely compromised Danfoss refrigeration controllers at multiple French supermarket chains, causing refrigerators to defrost overnight. The attack targeted critical supply chain infrastructure and resulted in operational disruption and potential food loss. No details available on attack method or motivation. Organizations should review refrigeration controller access controls and network segmentation immediately.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+   "published": "2026-10-12T15:23:34Z",
+   "added": "2026-10-12T15:30:35Z",
+   "also": []
+  },
   {
    "id": "7a7fbf93e1",
    "headline": "AvisLoader Windows malware resists command-control disruption",
