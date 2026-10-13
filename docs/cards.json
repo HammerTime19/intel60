@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-13T18:07:38Z",
+ "updated": "2026-10-13T18:30:33Z",
  "cards": [
+  {
+   "id": "db0de8b1cf",
+   "headline": "UK Housing Ombudsman investigates third-party IT security incident",
+   "summary": "The U.K. Housing Ombudsman Service experienced a security incident affecting its case management system on Tuesday, attributed to a third-party IT provider. The organization is investigating the breach and its impact on operations. Details regarding data exposure or the nature of the incident remain limited. Monitors are advised to track updates for affected systems.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+   "published": "2026-10-13T18:19:44Z",
+   "added": "2026-10-13T18:30:33Z",
+   "also": []
+  },
   {
    "id": "30c48aec6f",
    "headline": "Microsoft releases Windows 11 cumulative security updates",
