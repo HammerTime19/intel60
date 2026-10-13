@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T08:30:31Z",
+ "updated": "2026-10-13T09:00:36Z",
  "cards": [
   {
    "id": "585594f86c",
@@ -41,7 +41,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
    "published": "2026-10-12T15:23:34Z",
    "added": "2026-10-12T15:30:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/"
+    }
+   ]
   },
   {
    "id": "7a7fbf93e1",
