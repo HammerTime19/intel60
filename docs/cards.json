@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-13T13:00:40Z",
+ "updated": "2026-10-13T13:30:35Z",
  "cards": [
+  {
+   "id": "32a5798850",
+   "headline": "Russian ISP SkyNet experiences DDoS attack from Ukrainian hackers",
+   "summary": "SkyNet, a major internet provider in St. Petersburg, has been experiencing distributed denial-of-service attacks since October 6, according to the company. Ukrainian hackers claimed responsibility. The outages have disrupted online gaming, voice calls, and video conferencing services. The attack represents continued cyber tensions between Russia and Ukraine.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/russian-internet-provider-skynet-reports-outages-ddos",
+   "published": "2026-10-13T13:20:00Z",
+   "added": "2026-10-13T13:30:35Z",
+   "also": []
+  },
   {
    "id": "4dee64c03b",
    "headline": "Foschini Group cyberattack disrupts British fashion brands",
@@ -200,6 +214,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/ledger-cryptocurrency-wallet-implant-theft"
     }
    ]
   },
