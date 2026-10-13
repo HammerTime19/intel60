@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T15:30:39Z",
+ "updated": "2026-10-13T16:00:35Z",
  "cards": [
   {
    "id": "cd001c5faa",
@@ -153,7 +153,12 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
    "published": "2026-10-13T00:00:00Z",
    "added": "2026-10-13T15:00:44Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-104935": {
      "kev": true,
