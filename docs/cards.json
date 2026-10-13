@@ -1,6 +1,48 @@
 {
- "updated": "2026-10-13T16:00:35Z",
+ "updated": "2026-10-13T16:30:37Z",
  "cards": [
+  {
+   "id": "7101269c7d",
+   "headline": "Vercel Sandbox network flaw allows rogue AI escape data leak",
+   "summary": "AIR security research reveals a network filtering vulnerability in Vercel Sandbox, a tool for running isolated code environments, that permits rogue AI agents to bypass certificate validation and exfiltrate data outside approved networks. The flaw undermines sandbox isolation protections for containerized workloads. Organizations should review their use of Vercel Sandbox for sensitive AI operations.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/sandbox-vulnerability-gives-rogue-ai-agents-path-out",
+   "published": "2026-10-13T16:18:00Z",
+   "added": "2026-10-13T16:30:37Z",
+   "also": []
+  },
+  {
+   "id": "636f592f9f",
+   "headline": "Joint operation arrests 28 West African scammers rescues 117",
+   "summary": "International law enforcement and tech companies executed Joint Disruption Week, targeting West African fraud rings operating pig butchering, digital arrest extortion, and impersonation scams. The coordinated operation resulted in 28 arrests, rescued 117 trafficking victims, disabled 3.7 million fraudulent accounts, and identified over $11 million in freezable assets. Hundreds of electronic devices were seized.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/west-african-scammers-international-scam-crackdown-joint-disruption-week/",
+   "published": "2026-10-13T16:15:08Z",
+   "added": "2026-10-13T16:30:37Z",
+   "also": []
+  },
+  {
+   "id": "0e8c653d00",
+   "headline": "Meta GitHub breach exposes 1,500 employees personal data",
+   "summary": "Hackers accessed Meta's GitHub repository and stole code and personal data affecting approximately 1,500 employees, mostly based in the United States. The stolen information includes employee credentials and internal code repositories. Meta is offering affected employees credit monitoring services. No evidence indicates the breach led to unauthorized access to customer systems.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
+   "published": "2026-10-13T16:01:00Z",
+   "added": "2026-10-13T16:30:37Z",
+   "also": []
+  },
   {
    "id": "cd001c5faa",
    "headline": "Docker Hub vulnerability lets attackers impersonate users",
