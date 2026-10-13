@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T14:30:36Z",
+ "updated": "2026-10-13T15:00:45Z",
  "cards": [
   {
    "id": "36d6c42e8f",
@@ -100,6 +100,32 @@
    "also": []
   },
   {
+   "id": "132cb4fa6d",
+   "headline": "Ivanti Connect Secure remote unauthenticated RCE added KEV",
+   "summary": "CISA added CVE-2026-104935 to the Known Exploited Vulnerabilities catalog. Ivanti Connect Secure contains an authentication bypass vulnerability allowing remote unauthenticated attackers to execute arbitrary commands. Federal systems must apply mitigations or discontinue use by October 16, 2026. Organizations should evaluate internet exposure and follow BOD 26-04 patching guidance immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-104935"
+   ],
+   "watch": [
+    "Ivanti"
+   ],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+   "published": "2026-10-13T00:00:00Z",
+   "added": "2026-10-13T15:00:44Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-104935": {
+     "kev": true,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-10-13T15:00:44Z"
+  },
+  {
    "id": "d0137ba408",
    "headline": "Norway fines Microsoft Xandr $9.6 million Grindr privacy breach",
    "summary": "Norway's Data Protection Authority fined Microsoft-owned advertising firm Xandr NOK 92 million for unlawfully processing and sharing sensitive data of Grindr users without proper consent. The violation involved personal information exposed through Xandr's ad network connections. The fine represents enforcement of GDPR-like protections in Norway and signals regulatory action against data misuse by tech companies.",
@@ -111,7 +137,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
    "published": "2026-10-12T20:13:52Z",
    "added": "2026-10-12T20:30:31Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html"
+    }
+   ]
   },
   {
    "id": "5ae29bf7b5",
