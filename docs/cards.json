@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T09:30:37Z",
+ "updated": "2026-10-13T10:00:35Z",
  "cards": [
   {
    "id": "339f93492e",
@@ -88,7 +88,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
    "published": "2026-10-12T13:51:07Z",
    "added": "2026-10-12T14:00:44Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/"
+    }
+   ]
   },
   {
    "id": "175a7df5c5",
