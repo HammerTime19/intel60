@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-13T09:00:36Z",
+ "updated": "2026-10-13T09:30:37Z",
  "cards": [
+  {
+   "id": "339f93492e",
+   "headline": "MarkLogic flaws grant delegated managers persistent admin control",
+   "summary": "Progress Software's MarkLogic Server contains two critical flaws among 31 newly disclosed vulnerabilities. Delegated managers with limited privileges can exploit these flaws to gain administrator control of the database server. Patches have been available since September 10 in MarkLogic 11.3.7 and 12.1.0. Organizations should apply these updates immediately to prevent unauthorized privilege escalation.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+   "published": "2026-10-13T08:44:01Z",
+   "added": "2026-10-13T09:30:37Z",
+   "also": []
+  },
   {
    "id": "585594f86c",
    "headline": "Low-cost Android phones ship preinstalled malware residential proxies",
