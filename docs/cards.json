@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T18:30:33Z",
+ "updated": "2026-10-13T19:00:39Z",
  "cards": [
   {
    "id": "db0de8b1cf",
@@ -127,7 +127,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
    "published": "2026-10-13T15:20:20Z",
    "added": "2026-10-13T15:30:38Z",
-   "also": [],
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
+    }
+   ],
    "cve_info": {
     "CVE-2026-105445": {
      "kev": false,
@@ -163,7 +168,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
    "published": "2026-10-13T13:51:02Z",
    "added": "2026-10-13T14:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html"
+    }
+   ]
   },
   {
    "id": "32a5798850",
@@ -274,6 +284,14 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/"
     }
    ],
    "cve_info": {
