@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-13T20:00:36Z",
+ "updated": "2026-10-13T20:30:39Z",
  "cards": [
+  {
+   "id": "cfa7b65538",
+   "headline": "FTC sues company scamming sextortion victims out $60 million",
+   "summary": "An Ohio-based company defrauded individuals by charging thousands of dollars to help combat sextortion scams, but the company itself was the scam, according to FTC complaints. The operation netted at least $60 million by exploiting victims already targeted by extortion. The company promised services it never delivered. Individuals should report sextortion to FBI and avoid paying scammers.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/sextortion-assistance-company-alleged-fraud-ftc-complaint",
+   "published": "2026-10-13T20:12:00Z",
+   "added": "2026-10-13T20:30:39Z",
+   "also": []
+  },
   {
    "id": "21edffe120",
    "headline": "Microsoft October 2026 Patch Tuesday 1,411 flaws",
