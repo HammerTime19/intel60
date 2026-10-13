@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-13T16:30:37Z",
+ "updated": "2026-10-13T17:00:35Z",
  "cards": [
+  {
+   "id": "3770e65c49",
+   "headline": "GitHub tightens npm publishing after hijacking flaw",
+   "summary": "GitHub fixed a vulnerability that allowed attackers to hijack npm packages by pushing new versions without stealing credentials. The company now expires unvalidated npm trusted publishing configurations after 48 hours and requires successful validation. Developers should review their npm publishing setup and ensure configurations are properly validated.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+   "published": "2026-10-13T16:18:18Z",
+   "added": "2026-10-13T17:00:35Z",
+   "also": []
+  },
   {
    "id": "7101269c7d",
    "headline": "Vercel Sandbox network flaw allows rogue AI escape data leak",
@@ -121,7 +135,12 @@
    "url": "https://therecord.media/foschini-group-south-africa-cyber",
    "published": "2026-10-13T13:00:00Z",
    "added": "2026-10-13T13:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/"
+    }
+   ]
   },
   {
    "id": "fb6e12345e",
