@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-13T21:30:40Z",
+ "updated": "2026-10-13T22:00:52Z",
  "cards": [
+  {
+   "id": "5d5d52d490",
+   "headline": "Ghostscript heap overflow allows PDF-based remote code execution",
+   "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in Ghostscript rendering engine allows remote code execution through malicious PDF uploads. The flaw affects organizations processing untrusted PDF files from users or external sources. No patch availability mentioned in reporting. Administrators should disable PDF processing where possible and restrict file upload permissions immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-39919"
+   ],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+   "published": "2026-10-13T21:33:26Z",
+   "added": "2026-10-13T22:00:44Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-39919": {
+     "kev": false,
+     "epss": 0.00784,
+     "pct": 0.54868,
+     "cvss": 9.8,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-13T22:00:44Z"
+  },
   {
    "id": "f8c07b4f34",
    "headline": "DOJ shuts down North Korean laptop scam farm network",
@@ -13,7 +39,12 @@
    "url": "https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas",
    "published": "2026-10-13T20:55:00Z",
    "added": "2026-10-13T21:30:37Z",
-   "also": []
+   "also": [
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/doj-north-korea-remote-work-laptop-farms/"
+    }
+   ]
   },
   {
    "id": "a240599f4f",
@@ -202,11 +233,11 @@
    "cve_info": {
     "CVE-2026-105445": {
      "kev": false,
-     "cvss": null,
-     "sev": null
+     "cvss": 9.4,
+     "sev": "critical"
     }
    },
-   "cve_checked": "2026-10-13T15:30:38Z"
+   "cve_checked": "2026-10-13T22:00:51Z"
   },
   {
    "id": "120d43c94e",
@@ -220,7 +251,12 @@
    "url": "https://therecord.media/north-korea-hackers-russia-ukraine",
    "published": "2026-10-13T15:15:00Z",
    "added": "2026-10-13T15:30:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/north-korea-phishes-ukrainians-war-intel"
+    }
+   ]
   },
   {
    "id": "36d6c42e8f",
