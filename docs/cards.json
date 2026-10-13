@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T10:30:31Z",
+ "updated": "2026-10-13T10:59:45Z",
  "cards": [
   {
    "id": "339f93492e",
@@ -154,7 +154,12 @@
    "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
    "published": "2026-10-12T11:21:48Z",
    "added": "2026-10-12T12:30:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/"
+    }
+   ]
   },
   {
    "id": "bebb1cfd54",
