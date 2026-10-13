@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-13T06:30:29Z",
+ "updated": "2026-10-13T07:00:41Z",
  "cards": [
+  {
+   "id": "585594f86c",
+   "headline": "Low-cost Android phones ship preinstalled malware residential proxies",
+   "summary": "Low-cost Android smartphones built on MediaTek platforms ship with malware baked into firmware, tracked as Midnight Mimosa. The malware enables covert app installation, ad fraud, and turns devices into residential proxies for attackers. Bitdefender identified the activity across multiple brands. Users should verify device sources and apply security patches when available.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+   "published": "2026-10-13T06:00:11Z",
+   "added": "2026-10-13T07:00:41Z",
+   "also": []
+  },
   {
    "id": "d0137ba408",
    "headline": "Norway fines Microsoft Xandr $9.6 million Grindr privacy breach",
