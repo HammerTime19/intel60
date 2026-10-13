@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T19:00:39Z",
+ "updated": "2026-10-13T19:30:33Z",
  "cards": [
   {
    "id": "db0de8b1cf",
@@ -27,7 +27,12 @@
    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
    "published": "2026-10-13T17:49:38Z",
    "added": "2026-10-13T18:00:37Z",
-   "also": []
+   "also": [
+    {
+     "source": "SANS ISC",
+     "url": "https://isc.sans.edu/diary/rss/33422"
+    }
+   ]
   },
   {
    "id": "21816e632b",
@@ -302,6 +307,30 @@
     }
    },
    "cve_checked": "2026-10-13T15:00:44Z"
+  },
+  {
+   "id": "f8e6abe81c",
+   "headline": "Microsoft Windows command injection added CISA KEV",
+   "summary": "Microsoft Windows Shell contains a command injection vulnerability allowing unauthorized attackers to bypass security features over a network. CVE-2026-96951 affects widely deployed systems and is already exploited in the wild. CISA added it to the Known Exploited Vulnerabilities catalog with a federal patching deadline of October 16. Organizations must prioritize applying mitigations per vendor guidance and CISA BOD 26-04.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-96951"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
+   "published": "2026-10-13T00:00:00Z",
+   "added": "2026-10-13T19:30:33Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-96951": {
+     "kev": true,
+     "cvss": 8.8,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-13T19:30:33Z"
   },
   {
    "id": "d0137ba408",
