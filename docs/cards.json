@@ -1,6 +1,44 @@
 {
- "updated": "2026-10-13T15:00:45Z",
+ "updated": "2026-10-13T15:30:39Z",
  "cards": [
+  {
+   "id": "cd001c5faa",
+   "headline": "Docker Hub vulnerability lets attackers impersonate users",
+   "summary": "Docker Hub disclosed a critical flaw (CVE-2026-105445) allowing attackers to access other users' container repositories by tampering with personal access tokens (PAT). The vulnerability enables unauthorized access and potential image manipulation. Developers should immediately rotate PATs, audit repository access logs, and verify container image integrity. Docker has patched the issue.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-105445"
+   ],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+   "published": "2026-10-13T15:20:20Z",
+   "added": "2026-10-13T15:30:38Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-105445": {
+     "kev": false,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-10-13T15:30:38Z"
+  },
+  {
+   "id": "120d43c94e",
+   "headline": "North Korean hackers target Ukrainian experts",
+   "summary": "North Korean threat actors are conducting targeted campaigns against Ukrainian experts in diplomacy, security and international policy. The attacks align with Pyongyang's reported military cooperation with Russia during the ongoing war. Defenders should implement enhanced authentication protocols and monitor communications of high-value targets. Consider briefing diplomatic and policy staff on current threat landscape.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/north-korea-hackers-russia-ukraine",
+   "published": "2026-10-13T15:15:00Z",
+   "added": "2026-10-13T15:30:38Z",
+   "also": []
+  },
   {
    "id": "36d6c42e8f",
    "headline": "SAP Cloud SDK Python maximum-severity OAuth2 SSRF flaw",
