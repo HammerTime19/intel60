@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-13T12:30:29Z",
+ "updated": "2026-10-13T13:00:40Z",
  "cards": [
+  {
+   "id": "4dee64c03b",
+   "headline": "Foschini Group cyberattack disrupts British fashion brands",
+   "summary": "South African retail giant The Foschini Group (TFG) disclosed a cyberattack affecting three of its British fashion brands, causing IT system disruptions and service unavailability. The attack's scope, method, and whether customer data was accessed remain under investigation. The retailer is working to restore affected systems and has not identified the threat actor.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/foschini-group-south-africa-cyber",
+   "published": "2026-10-13T13:00:00Z",
+   "added": "2026-10-13T13:00:40Z",
+   "also": []
+  },
   {
    "id": "fb6e12345e",
    "headline": "XWorm RAT malware evolves into advanced surveillance platform",
