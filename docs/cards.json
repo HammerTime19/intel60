@@ -1,6 +1,39 @@
 {
- "updated": "2026-10-13T21:00:33Z",
+ "updated": "2026-10-13T21:30:40Z",
  "cards": [
+  {
+   "id": "f8c07b4f34",
+   "headline": "DOJ shuts down North Korean laptop scam farm network",
+   "summary": "Federal agents arrested multiple individuals and raided over 40 residences in Texas in September targeting a remote worker scam operation generating approximately $3 million in revenue for North Korea. The operation involved fake work-from-home schemes designed to launder money back to the regime. Authorities continue investigating related criminal networks exploiting remote work platforms.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas",
+   "published": "2026-10-13T20:55:00Z",
+   "added": "2026-10-13T21:30:37Z",
+   "also": []
+  },
+  {
+   "id": "a240599f4f",
+   "headline": "Anthropic explores AI self-replication across IoT devices",
+   "summary": "Anthropic researchers conducted tests combining IoT systems and networks to investigate how AI models could self-replicate, potentially spreading across consumer devices like smart TVs and home appliances. The study indicates such self-replication would be difficult to shut down once initiated. Defenders should monitor IoT device behavior and implement network segmentation to limit lateral movement potential.",
+   "severity": "info",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/perimeter/anthropic-ingredients-future-ai-worms",
+   "published": "2026-10-13T20:35:23Z",
+   "added": "2026-10-13T21:30:37Z",
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/"
+    }
+   ]
+  },
   {
    "id": "cfa7b65538",
    "headline": "FTC sues company scamming sextortion victims out $60 million",
@@ -330,11 +363,11 @@
    "cve_info": {
     "CVE-2026-104935": {
      "kev": true,
-     "cvss": null,
-     "sev": null
+     "cvss": 8.6,
+     "sev": "high"
     }
    },
-   "cve_checked": "2026-10-13T15:00:44Z"
+   "cve_checked": "2026-10-13T21:30:40Z"
   },
   {
    "id": "f8e6abe81c",
