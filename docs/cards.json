@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-13T17:00:35Z",
+ "updated": "2026-10-13T17:30:35Z",
  "cards": [
+  {
+   "id": "21816e632b",
+   "headline": "Adobe patches 140 vulnerabilities across 10 products",
+   "summary": "Adobe released security updates addressing 140 vulnerabilities across 10 products including Commerce, Photoshop, ColdFusion, Substance 3D, Dimension, FrameMaker, and Bridge. Organizations using these widely deployed tools should review the patch bulletin and update affected software promptly to mitigate exploitation risks.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
+   "published": "2026-10-13T17:14:42Z",
+   "added": "2026-10-13T17:30:35Z",
+   "also": []
+  },
+  {
+   "id": "19a292ee37",
+   "headline": "Google restructures Chrome bug bounty program rewards",
+   "summary": "Google is restructuring its Chrome bug bounty program with increased focus on complex memory safety vulnerabilities. The changes represent a partial reversal of previous reward cuts, aiming to incentivize researchers to focus on high-impact security issues that are harder to find but critical for browser security.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
+   "published": "2026-10-13T17:00:00Z",
+   "added": "2026-10-13T17:30:35Z",
+   "also": []
+  },
   {
    "id": "3770e65c49",
    "headline": "GitHub tightens npm publishing after hijacking flaw",
