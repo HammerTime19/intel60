@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-13T13:30:35Z",
+ "updated": "2026-10-13T14:00:37Z",
  "cards": [
+  {
+   "id": "36d6c42e8f",
+   "headline": "SAP Cloud SDK Python maximum-severity OAuth2 SSRF flaw",
+   "summary": "SAP patched 20 security flaws across multiple products in its October 2026 updates, including a maximum-severity OAuth2 Server-Side Request Forgery vulnerability in the Cloud SDK for Python. The flaw could enable attackers to bypass authentication and access unauthorized resources. Organizations using SAP Cloud SDK for Python should apply patches immediately to mitigate exploitation risks.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
+   "published": "2026-10-13T13:51:02Z",
+   "added": "2026-10-13T14:00:36Z",
+   "also": []
+  },
   {
    "id": "32a5798850",
    "headline": "Russian ISP SkyNet experiences DDoS attack from Ukrainian hackers",
