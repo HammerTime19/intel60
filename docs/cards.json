@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-13T19:30:33Z",
+ "updated": "2026-10-13T20:00:36Z",
  "cards": [
+  {
+   "id": "21edffe120",
+   "headline": "Microsoft October 2026 Patch Tuesday 1,411 flaws",
+   "summary": "Microsoft released October 2026 Patch Tuesday updates addressing a record-breaking 1,411 vulnerabilities across Windows and other products, including one actively exploited and two publicly disclosed zero-day flaws. The updates cover critical security issues affecting widely deployed systems. Administrators should prioritize applying these patches to maintain system security and reduce exploitation risk.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+   "published": "2026-10-13T19:56:09Z",
+   "added": "2026-10-13T20:00:35Z",
+   "also": []
+  },
   {
    "id": "db0de8b1cf",
    "headline": "UK Housing Ombudsman investigates third-party IT security incident",
