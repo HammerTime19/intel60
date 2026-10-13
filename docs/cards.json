@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T22:00:52Z",
+ "updated": "2026-10-13T22:30:31Z",
  "cards": [
   {
    "id": "5d5d52d490",
@@ -394,6 +394,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/ivanti-connect-secure-zero-day-actively-exploited/"
     }
    ],
    "cve_info": {
