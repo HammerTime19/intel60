@@ -21,7 +21,6 @@ permissions:
   contents: write
   pages: write
   id-token: write
-  models: read      # free AI summaries through GitHub Models
   actions: read     # lets the health job see whether the previous run failed
 
 concurrency:

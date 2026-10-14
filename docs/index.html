@@ -352,6 +352,7 @@ function myHits(c) {
   return myTerms.filter((t) => new RegExp(`(^|[^\\w])${escapeRe(t)}(?![\\w])`, "i").test(text));
 }
 
+const safeUrl = (u) => (/^https?:\/\//i.test(String(u || "")) ? u : "#");
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 function ago(isoStr) {
@@ -436,7 +437,7 @@ function cardHTML(c, n) {
   ].join("");
   const level = SEV_LEVEL[c.severity] || 1;
   const meter = `<span class="meter" aria-hidden="true">${[1, 2, 3].map((n) => `<i${n <= level ? ' class="on"' : ""}></i>`).join("")}</span>`;
-  const also = (c.also || []).map((a) => `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(", ");
+  const also = (c.also || []).map((a) => `<a href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(", ");
   return `
   <section class="slot" id="${esc(c.id)}" data-n="${n}">
     <article class="card" data-sev="${esc(c.severity)}">
@@ -454,7 +455,7 @@ function cardHTML(c, n) {
         <div class="foot">
           <div>
             <div class="source">${esc(c.source)}${also ? `, also covered by ${also}` : ""}</div>
-            <a class="read" href="${esc(c.url)}" target="_blank" rel="noopener">Read the full story</a>
+            <a class="read" href="${esc(safeUrl(c.url))}" target="_blank" rel="noopener">Read the full story</a>
           </div>
           <button class="share" data-share="${esc(c.id)}" aria-label="Share this story">${SHARE_ICON}</button>
         </div>

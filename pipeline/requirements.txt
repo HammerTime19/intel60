@@ -1,3 +1,3 @@
-anthropic>=0.40
-feedparser>=6.0
-requests>=2.31
+anthropic==1.13.0
+feedparser==6.0.14
+requests==2.34.2
