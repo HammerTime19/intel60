@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T11:30:34Z",
+ "updated": "2026-10-14T12:00:37Z",
  "cards": [
   {
    "id": "ecd984dc6b",
@@ -27,7 +27,12 @@
    "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
    "published": "2026-10-14T11:08:22Z",
    "added": "2026-10-14T11:30:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/"
+    }
+   ]
   },
   {
    "id": "0aa13b1d83",
