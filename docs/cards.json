@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-14T11:00:37Z",
+ "updated": "2026-10-14T11:30:34Z",
  "cards": [
+  {
+   "id": "ecd984dc6b",
+   "headline": "XBOW builds Chrome full-chain exploit using AI model",
+   "summary": "Security researchers at XBOW chained three previously unknown Google Chrome vulnerabilities into a working full-chain exploit achieving Windows code execution from a web page. The team built the attack in six days using OpenAI's GPT-5.6 Sol model. Google confirmed and patched all three bugs. Users should update Chrome immediately; organizations should consider restricting AI model access for security research.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+   "published": "2026-10-14T11:19:02Z",
+   "added": "2026-10-14T11:30:33Z",
+   "also": []
+  },
+  {
+   "id": "065e262fb0",
+   "headline": "Hirudo Android trojan bypasses banking app security",
+   "summary": "Security researchers disclosed Hirudo, an Android banking trojan that replaces legitimate banking apps with patched versions designed to bypass built-in security checks. The malware targets Indonesian banks and represents escalation in mobile financial fraud tactics. Organizations should alert users to download banking apps only from official sources and monitor for suspicious app replacements on compromised devices.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+   "published": "2026-10-14T11:08:22Z",
+   "added": "2026-10-14T11:30:33Z",
+   "also": []
+  },
   {
    "id": "0aa13b1d83",
    "headline": "Windows Remote Desktop failures after security updates",
@@ -148,6 +176,10 @@
     {
      "source": "CyberScoop",
      "url": "https://cyberscoop.com/doj-north-korea-remote-work-laptop-farms/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/"
     }
    ]
   },
