@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-14T21:34:34Z",
+ "updated": "2026-10-14T22:00:40Z",
  "cards": [
+  {
+   "id": "e1c5b3e9fc",
+   "headline": "Ivanti ICS authentication bypass RCE vulnerability exploitation continues",
+   "summary": "CVE-2026-104935, a high-severity vulnerability combining authentication bypass and remote code execution in Ivanti ICS products, was only partially patched in July. Threat actors have continued exploiting the incomplete fix. Organizations running Ivanti ICS should verify patches were fully applied and monitor for exploitation attempts.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-104935"
+   ],
+   "watch": [
+    "Ivanti"
+   ],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+   "published": "2026-10-14T21:20:13Z",
+   "added": "2026-10-14T22:00:39Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-104935": {
+     "kev": true,
+     "epss": 0.25982,
+     "pct": 0.97961,
+     "cvss": 8.6,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-14T22:00:39Z"
+  },
   {
    "id": "e634a1670f",
    "headline": "North Macedonian police arrest OLVX market administrator",
@@ -13,7 +41,12 @@
    "url": "https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia",
    "published": "2026-10-14T21:10:00Z",
    "added": "2026-10-14T21:30:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/olvx-cybercrime-marketplace-operator-charged-north-macedonia/"
+    }
+   ]
   },
   {
    "id": "f2c5c74b74",
