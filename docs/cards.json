@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-14T10:30:31Z",
+ "updated": "2026-10-14T11:00:37Z",
  "cards": [
+  {
+   "id": "0aa13b1d83",
+   "headline": "Windows Remote Desktop failures after security updates",
+   "summary": "Microsoft confirmed that recent Windows security updates may prevent non-admin users from connecting via Remote Desktop when the Administrator protection feature is enabled. The issue affects Remote Desktop connectivity across multiple Windows versions. Microsoft has not yet released a fix. Administrators should test Remote Desktop connectivity in their environment before deploying updates to end-user machines.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
+   "published": "2026-10-14T10:48:09Z",
+   "added": "2026-10-14T11:00:36Z",
+   "also": []
+  },
   {
    "id": "0a34dc42ef",
    "headline": "Linux vhost kernel flaw enables local root escalation",
