@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-14T09:00:37Z",
+ "updated": "2026-10-14T09:30:35Z",
  "cards": [
+  {
+   "id": "0a34dc42ef",
+   "headline": "Linux vhost kernel flaw enables local root escalation",
+   "summary": "A vulnerability in Linux's vhost subsystem (CVE-2026-74580, named Vghost) allows local users to read and write kernel memory, escalate to root, and potentially escape virtual machines to access the host system. The flaw affects kernel versions spanning nearly a decade. Discovered by Tencent Zhuque Lab, it impacts both local and virtualization security. Affected systems should prioritize kernel updates.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-74580"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+   "published": "2026-10-14T07:46:57Z",
+   "added": "2026-10-14T09:30:33Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-74580": {
+     "kev": false,
+     "epss": 0.00121,
+     "pct": 0.01739,
+     "cvss": 8.8,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-14T09:30:34Z"
+  },
   {
    "id": "ca2337ba7a",
    "headline": "Chrome and Firefox patch 114 vulnerabilities combined",
