@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-14T17:30:45Z",
+ "updated": "2026-10-14T17:57:24Z",
  "cards": [
+  {
+   "id": "91d989b5fb",
+   "headline": "Ledger halts Asian sales after supply-chain tampering",
+   "summary": "Ledger has suspended hardware wallet sales across Indonesia, Singapore, Thailand, Philippines, Vietnam, Malaysia, and Hong Kong following a supply-chain attack involving device tampering. The company is investigating the extent and nature of the compromise affecting its resellers and distributors in the region. Customers should verify device authenticity and monitor accounts for unauthorized activity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+   "published": "2026-10-14T17:46:50Z",
+   "added": "2026-10-14T17:57:24Z",
+   "also": []
+  },
   {
    "id": "a7632caf16",
    "headline": "Cisco Secure Email Gateway zero-day patched",
@@ -400,6 +414,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/microsoft-patch-tuesday-october-2026/"
     }
    ]
   },
