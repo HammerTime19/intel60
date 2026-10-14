@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T04:30:31Z",
+ "updated": "2026-10-14T05:00:40Z",
  "cards": [
   {
    "id": "ff21bb8aab",
@@ -118,6 +118,10 @@
     {
      "source": "Krebs on Security",
      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
     }
    ]
   },
