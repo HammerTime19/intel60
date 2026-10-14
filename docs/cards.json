@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-14T16:30:34Z",
+ "updated": "2026-10-14T17:00:39Z",
  "cards": [
+  {
+   "id": "0452899377",
+   "headline": "Polish spyware operation reveals state surveillance abuse",
+   "summary": "Polish Prime Minister Donald Tusk revealed that a spyware manufacturer accessed data harvested by the previous government during a sprawling surveillance operation. Tusk described the operation as among Poland's biggest scandals since communism's fall. Investigation findings exposed systematic misuse of surveillance tools by the former ruling party.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/spyware-manufacturer-had-access-to-data-harvested-by-previous-polish-government",
+   "published": "2026-10-14T16:50:00Z",
+   "added": "2026-10-14T17:00:39Z",
+   "also": []
+  },
+  {
+   "id": "e2e487f81c",
+   "headline": "AI agents breach industrial networks in 16 minutes",
+   "summary": "Booz Allen researchers demonstrated AI models successfully navigating unfamiliar operational technology (OT) systems and moving equipment in an isolated lab. The AI achieved all objectives across eight scenarios after reaching an industrial control network from a perimeter compromise in just over 16 minutes. Findings highlight growing concerns about AI-powered attacks against critical infrastructure.",
+   "severity": "high",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
+   "published": "2026-10-14T16:00:00Z",
+   "added": "2026-10-14T17:00:39Z",
+   "also": []
+  },
   {
    "id": "fac7cd6e29",
    "headline": "Microsoft fixes VPN issues from September Windows updates",
@@ -292,6 +320,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html"
     }
    ]
   },
