@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T19:30:36Z",
+ "updated": "2026-10-14T20:00:59Z",
  "cards": [
   {
    "id": "91d989b5fb",
@@ -47,6 +47,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
     }
    ]
   },
@@ -306,6 +310,84 @@
    "also": []
   },
   {
+   "id": "45ee4e8f72",
+   "headline": "Palo Alto Networks PAN-OS code injection flaw added to CISA KEV",
+   "summary": "Palo Alto Networks PAN-OS contains a code injection vulnerability allowing authenticated attackers with network access to execute arbitrary code with root privileges on firewalls. The flaw was added to CISA's Known Exploited Vulnerabilities catalog on October 14. Organizations must apply patches by October 17 per BOD 26-04 guidance, or discontinue use if mitigations are unavailable.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-0322"
+   ],
+   "watch": [
+    "Palo Alto"
+   ],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
+   "published": "2026-10-14T00:00:00Z",
+   "added": "2026-10-14T20:00:42Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-0322": {
+     "kev": true,
+     "cvss": 8.6,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-14T20:00:42Z"
+  },
+  {
+   "id": "eb20c74d6c",
+   "headline": "Ahsay AhsayCBS improper authentication flaw added to CISA KEV",
+   "summary": "Ahsay AhsayCBS contains an improper authentication vulnerability allowing remote attackers to bypass authentication via parameter manipulation in the checkSysPwd API function. The flaw chains with CVE-2026-105134 for remote command execution. CISA added it to the Known Exploited Vulnerabilities catalog with a federal patching deadline of October 17, 2026.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-105133"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+   "published": "2026-10-14T00:00:00Z",
+   "added": "2026-10-14T20:00:42Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-105133": {
+     "kev": true,
+     "epss": 0.00383,
+     "pct": 0.30672,
+     "cvss": 7.3,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-14T20:00:50Z"
+  },
+  {
+   "id": "f04894a760",
+   "headline": "Ahsay AhsayCBS command injection flaw added to CISA KEV",
+   "summary": "Ahsay AhsayCBS contains a command injection vulnerability in the Replication Receiver component's /rps/api/json/UpdateReceivers.do endpoint allowing remote attackers to execute OS commands. This vulnerability chains with CVE-2026-105133 for full authentication bypass and code execution. CISA added it to the Known Exploited Vulnerabilities catalog with October 17 patching deadline.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-105134"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
+   "published": "2026-10-14T00:00:00Z",
+   "added": "2026-10-14T20:00:42Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-105134": {
+     "kev": true,
+     "epss": 0.01843,
+     "pct": 0.78594,
+     "cvss": 10.0,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-14T20:00:56Z"
+  },
+  {
    "id": "ff21bb8aab",
    "headline": "OpenAI engineer arrested for planting spy device",
    "summary": "A Saudi engineer employed by OpenAI was arrested for allegedly placing a hidden recording device in an executive conference room at the company's San Francisco office to secretly record sensitive conversations. The device was discovered during a security sweep. OpenAI has not disclosed details about the investigation's status or potential criminal charges.",
@@ -378,6 +460,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/"
     }
    ]
   },
@@ -1265,14 +1351,14 @@
    ],
    "cve_info": {
     "CVE-2026-105133": {
-     "kev": false,
+     "kev": true,
      "epss": 0.00383,
      "pct": 0.30256,
      "cvss": 7.3,
      "sev": "high"
     },
     "CVE-2026-105134": {
-     "kev": false,
+     "kev": true,
      "epss": 0.01843,
      "pct": 0.78372,
      "cvss": 10.0,
