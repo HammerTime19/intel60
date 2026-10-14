@@ -1,6 +1,22 @@
 {
- "updated": "2026-10-14T17:00:39Z",
+ "updated": "2026-10-14T17:30:45Z",
  "cards": [
+  {
+   "id": "a7632caf16",
+   "headline": "Cisco Secure Email Gateway zero-day patched",
+   "summary": "Cisco released patches for an actively exploited zero-day vulnerability in Secure Email Gateway that allows remote unauthenticated attackers to execute arbitrary commands with root privileges. The flaw affects widely deployed email security infrastructure. Administrators should apply patches immediately and monitor for signs of exploitation in their deployments.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [
+    "Cisco"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+   "published": "2026-10-14T17:29:14Z",
+   "added": "2026-10-14T17:30:43Z",
+   "also": []
+  },
   {
    "id": "0452899377",
    "headline": "Polish spyware operation reveals state surveillance abuse",
