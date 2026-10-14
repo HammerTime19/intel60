@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-14T12:30:31Z",
+ "updated": "2026-10-14T13:00:42Z",
  "cards": [
+  {
+   "id": "b9b58f38aa",
+   "headline": "Microsoft seizes Chinese phishing market domains YAM Store",
+   "summary": "Microsoft, backed by federal court order, disrupted YAM Store, CoGUI, and Iron Man—Chinese-language phishing infrastructure behind over 1 billion messages. Health-ISAC partnered in the coordinated takedown. The operation targeted the criminal ecosystem powering mass phishing campaigns. Organizations should monitor for alternative infrastructure.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
+   "published": "2026-10-14T13:00:00Z",
+   "added": "2026-10-14T13:00:42Z",
+   "also": []
+  },
+  {
+   "id": "01ccdefefe",
+   "headline": "curl HTTP/2 upload flaw allows client code execution",
+   "summary": "curl versions prior to 8.23.0 contain a vulnerability in HTTP/2 upload handling that allows malicious servers to corrupt client memory and achieve code execution. The flaw requires precise knowledge of the client's build and memory layout. curl patched the issue on October 14, 2026. Users should upgrade to the latest version immediately.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
+   "published": "2026-10-14T12:13:36Z",
+   "added": "2026-10-14T13:00:42Z",
+   "also": []
+  },
   {
    "id": "ecd984dc6b",
    "headline": "XBOW builds Chrome full-chain exploit using AI model",
@@ -553,6 +581,10 @@
     {
      "source": "CyberScoop",
      "url": "https://cyberscoop.com/ivanti-connect-secure-zero-day-actively-exploited/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/new-ivanti-microsoft-bugs-exploitation"
     }
    ],
    "cve_info": {
