@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T07:00:34Z",
+ "updated": "2026-10-14T07:28:19Z",
  "cards": [
   {
    "id": "107051ae55",
@@ -150,6 +150,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/"
     }
    ]
   },
