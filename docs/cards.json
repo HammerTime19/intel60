@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T23:30:34Z",
+ "updated": "2026-10-14T00:00:36Z",
  "cards": [
   {
    "id": "ff21bb8aab",
@@ -110,7 +110,12 @@
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
    "published": "2026-10-13T19:56:09Z",
    "added": "2026-10-13T20:00:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "Krebs on Security",
+     "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/"
+    }
+   ]
   },
   {
    "id": "db0de8b1cf",
