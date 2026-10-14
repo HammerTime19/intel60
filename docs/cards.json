@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T19:00:36Z",
+ "updated": "2026-10-14T19:30:36Z",
  "cards": [
   {
    "id": "91d989b5fb",
@@ -16,6 +16,20 @@
    "also": []
   },
   {
+   "id": "639d0d6e00",
+   "headline": "Nextcloud servers backdoored via Collabora CODE flaw",
+   "summary": "Attackers exploited a critical vulnerability in Collabora Online's built-in CODE app for Nextcloud to plant web shells on affected servers. The flaw allows unauthenticated remote code execution with web server privileges. Reported attacks began September 10. Organizations should immediately patch Collabora Online and audit Nextcloud instances for suspicious shell files.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+   "published": "2026-10-14T17:38:31Z",
+   "added": "2026-10-14T19:30:36Z",
+   "also": []
+  },
+  {
    "id": "a7632caf16",
    "headline": "Cisco Secure Email Gateway zero-day patched",
    "summary": "Cisco released patches for an actively exploited zero-day vulnerability in Secure Email Gateway that allows remote unauthenticated attackers to execute arbitrary commands with root privileges. The flaw affects widely deployed email security infrastructure. Administrators should apply patches immediately and monitor for signs of exploitation in their deployments.",
@@ -29,7 +43,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
    "published": "2026-10-14T17:29:14Z",
    "added": "2026-10-14T17:30:43Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html"
+    }
+   ]
   },
   {
    "id": "0452899377",
@@ -99,7 +118,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
    "published": "2026-10-14T13:12:52Z",
    "added": "2026-10-14T13:30:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html"
+    }
+   ]
   },
   {
    "id": "a7d7c0f109",
