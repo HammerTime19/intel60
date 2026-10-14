@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T03:30:30Z",
+ "updated": "2026-10-14T04:00:34Z",
  "cards": [
   {
    "id": "ff21bb8aab",
@@ -17,6 +17,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html"
     }
    ]
   },
