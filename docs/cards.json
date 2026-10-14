@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T13:00:42Z",
+ "updated": "2026-10-14T13:02:31Z",
  "cards": [
   {
    "id": "b9b58f38aa",
@@ -13,7 +13,12 @@
    "url": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
    "published": "2026-10-14T13:00:00Z",
    "added": "2026-10-14T13:00:42Z",
-   "also": []
+   "also": [
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/microsoft-disrupts-chinese-language-phishing-kit-ecosystem/"
+    }
+   ]
   },
   {
    "id": "01ccdefefe",
