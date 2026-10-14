@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-14T14:00:39Z",
+ "updated": "2026-10-14T14:30:35Z",
  "cards": [
+  {
+   "id": "fac7cd6e29",
+   "headline": "Microsoft fixes VPN issues from September Windows updates",
+   "summary": "Microsoft resolved a known issue that caused Always On VPN connection failures following the September 2026 Windows 11 security updates. The company has now released a fix addressing the compatibility problems. Organizations that experienced VPN disruptions after the September patches should install the latest updates to restore connectivity.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
+   "published": "2026-10-14T14:27:01Z",
+   "added": "2026-10-14T14:30:35Z",
+   "also": []
+  },
+  {
+   "id": "78394b2e6b",
+   "headline": "UK sanctions Cryptomus cryptocurrency platform for money laundering",
+   "summary": "The UK government imposed economic sanctions against Cryptomus, a cryptocurrency platform used to process payments for ransomware, darknet markets, fraud and other cybercrime services that help Russia evade financial restrictions. The sanctions freeze Cryptomus assets in UK banks and prohibit British companies from doing business with it. Related platforms VexPay, TokenSpot, and Tsunami Payments were also targeted.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "Krebs on Security",
+   "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+   "published": "2026-10-14T14:22:49Z",
+   "added": "2026-10-14T14:30:35Z",
+   "also": []
+  },
   {
    "id": "91795601b1",
    "headline": "Global takedown disrupts network behind 1 billion phishing messages",
