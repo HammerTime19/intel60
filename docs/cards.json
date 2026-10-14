@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-14T13:02:31Z",
+ "updated": "2026-10-14T13:30:38Z",
  "cards": [
+  {
+   "id": "91795601b1",
+   "headline": "Global takedown disrupts network behind 1 billion phishing messages",
+   "summary": "Law enforcement and cybersecurity partners worldwide disrupted a major cybercriminal ecosystem responsible for over one billion malicious messages targeting 75,000 organizations across 150 countries. The coordinated action took down infrastructure facilitating large-scale phishing campaigns. Organizations should review email logs for suspicious activity and reinforce user training on phishing detection.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+   "published": "2026-10-14T13:12:52Z",
+   "added": "2026-10-14T13:30:38Z",
+   "also": []
+  },
+  {
+   "id": "a7d7c0f109",
+   "headline": "Russian travel booking platform Anywayanyday hit by cyberattack",
+   "summary": "Russian travel website Anywayanyday suspended operations after a cyberattack disrupted its booking systems, preventing customers from reserving tickets and hotel rooms. The company responded by taking services offline to contain the incident. No details on attacker identity, data exposure, or ransom demands were immediately disclosed. Investigation status remains unclear.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/russia-anywayanyday-travel-website-cyberattack",
+   "published": "2026-10-14T13:05:00Z",
+   "added": "2026-10-14T13:30:38Z",
+   "also": []
+  },
   {
    "id": "b9b58f38aa",
    "headline": "Microsoft seizes Chinese phishing market domains YAM Store",
@@ -17,8 +45,26 @@
     {
      "source": "CyberScoop",
      "url": "https://cyberscoop.com/microsoft-disrupts-chinese-language-phishing-kit-ecosystem/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms"
     }
    ]
+  },
+  {
+   "id": "319aa986d3",
+   "headline": "Russian influence operation targets Latin America schools",
+   "summary": "An AI-enabled Russian operation used spoofed emails and fake government documents to target schools in Peru, Ecuador, and other Latin American countries. The campaign created fraudulent local organizations to increase credibility. Defenders should enhance email security, verify official communications through independent channels, and educate staff on document verification procedures to resist sophisticated phishing and influence campaigns.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
+   "published": "2026-10-14T13:00:00Z",
+   "added": "2026-10-14T13:30:38Z",
+   "also": []
   },
   {
    "id": "01ccdefefe",
