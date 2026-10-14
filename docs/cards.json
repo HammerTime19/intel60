@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-14T21:00:43Z",
+ "updated": "2026-10-14T21:30:40Z",
  "cards": [
+  {
+   "id": "e634a1670f",
+   "headline": "North Macedonian police arrest OLVX market administrator",
+   "summary": "Macedonian law enforcement and the FBI arrested the suspected administrator of OLVX, a cybercrime marketplace. OLVX operated as an underground market facilitating illegal activities. The arrest follows a raid on a residence in a North Macedonian village. This operation represents ongoing law enforcement efforts to dismantle international cybercriminal infrastructure and hold operators accountable.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia",
+   "published": "2026-10-14T21:10:00Z",
+   "added": "2026-10-14T21:30:40Z",
+   "also": []
+  },
   {
    "id": "f2c5c74b74",
    "headline": "Brooklyn DA dismantles cryptocurrency fraud targeting Russians",
