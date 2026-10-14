@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T22:30:33Z",
+ "updated": "2026-10-14T23:00:38Z",
  "cards": [
   {
    "id": "e1c5b3e9fc",
@@ -402,7 +402,12 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
    "published": "2026-10-14T00:00:00Z",
    "added": "2026-10-14T20:00:42Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-0322": {
      "kev": true,
