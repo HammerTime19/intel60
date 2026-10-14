@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-14T07:30:30Z",
+ "updated": "2026-10-14T08:00:37Z",
  "cards": [
+  {
+   "id": "ca2337ba7a",
+   "headline": "Chrome and Firefox patch 114 vulnerabilities combined",
+   "summary": "Google Chrome and Mozilla Firefox released updates addressing 114 cumulative vulnerabilities. Mozilla also introduced Firefox Enterprise, a new offering targeting organizations with stringent compliance, governance, and security requirements. Users should apply the latest updates to both browsers immediately to remediate known security flaws.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/",
+   "published": "2026-10-14T07:38:51Z",
+   "added": "2026-10-14T08:00:37Z",
+   "also": []
+  },
   {
    "id": "107051ae55",
    "headline": "SAP NetWeaver S/4HANA critical vulnerabilities patched",
