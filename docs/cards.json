@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-15T12:00:40Z",
+ "updated": "2026-10-15T12:30:37Z",
  "cards": [
+  {
+   "id": "ce862b886d",
+   "headline": "Drupal Field UI module critical RCE flaw patched",
+   "summary": "Drupal core's Field UI module contains a critical remote code execution vulnerability allowing unauthenticated attackers to execute code via contributed modules. Patches were released October 14 in versions 11.4.10, 11.3.19, and 10.6.19. At least one known exploitation path requires no login credentials. Administrators should update immediately to patch systems.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+   "published": "2026-10-15T12:07:20Z",
+   "added": "2026-10-15T12:30:36Z",
+   "also": []
+  },
   {
    "id": "3565d45fa9",
    "headline": "95 arrested in INTERPOL CSAM distribution crackdown",
@@ -13,6 +27,20 @@
    "url": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
    "published": "2026-10-15T11:55:38Z",
    "added": "2026-10-15T12:00:40Z",
+   "also": []
+  },
+  {
+   "id": "999e9923be",
+   "headline": "Fake AI products distribute malware to US companies",
+   "summary": "Attackers impersonating popular AI tools are distributing malware and stealing browser sessions and business account credentials. ANY.RUN identified 1,258 sandbox analyses linked to fake AI campaigns between April and October 2026. US businesses accounted for 16% of targeted organizations. MSSPs serving these companies face increased operational pressure from these deceptive campaigns.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+   "published": "2026-10-15T11:46:59Z",
+   "added": "2026-10-15T12:30:36Z",
    "also": []
   },
   {
