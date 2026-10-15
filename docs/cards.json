@@ -1,6 +1,48 @@
 {
- "updated": "2026-10-15T14:00:42Z",
+ "updated": "2026-10-15T14:22:12Z",
  "cards": [
+  {
+   "id": "ada0693d26",
+   "headline": "Kazakhstan-linked hackers target former Soviet governments",
+   "summary": "Researchers identified a roughly 2-year-old cyber-espionage campaign targeting Central Asian governments that appears to originate from Kazakhstan. Attribution and targets remain under investigation by security researchers monitoring the campaign.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/suspected-kazakhstan-phishing-central-asia-espionage",
+   "published": "2026-10-15T13:55:00Z",
+   "added": "2026-10-15T14:22:11Z",
+   "also": []
+  },
+  {
+   "id": "12b5084185",
+   "headline": "NGINX patches five vulnerabilities including possible RCE",
+   "summary": "NGINX released versions 1.30.6 and 1.31.7 fixing five vulnerabilities, including three memory bugs that could crash a worker process or enable code execution, and a TLS flaw that may bypass client certificate checks. One bug existed since May 2005. Updates require specific configurations to exploit.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+   "published": "2026-10-15T12:58:05Z",
+   "added": "2026-10-15T14:22:11Z",
+   "also": []
+  },
+  {
+   "id": "e7e0582933",
+   "headline": "Next.js patches critical RCE flaws in caching and SVG",
+   "summary": "Next.js released an out-of-band security update fixing two critical unauthenticated remote code execution vulnerabilities and one high-severity denial-of-service flaw. One RCE affects React Server Components; the other is in librsvg used via the sharp package for SVG image handling. Update immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+   "published": "2026-10-15T12:28:13Z",
+   "added": "2026-10-15T14:22:11Z",
+   "also": []
+  },
   {
    "id": "ce862b886d",
    "headline": "Drupal Field UI module critical RCE flaw patched",
