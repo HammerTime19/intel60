@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T12:30:37Z",
+ "updated": "2026-10-15T12:59:36Z",
  "cards": [
   {
    "id": "ce862b886d",
@@ -151,7 +151,12 @@
    "url": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware",
    "published": "2026-10-15T07:00:00Z",
    "added": "2026-10-15T07:00:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/"
+    }
+   ]
   },
   {
    "id": "e981b7de3f",
