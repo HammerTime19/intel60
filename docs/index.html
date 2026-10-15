@@ -295,7 +295,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
       <button class="btn" data-action="watchlist">&#9733; Set up my watchlist</button>
       <a class="btn" id="telegram-link" target="_blank" rel="noopener" hidden>Get critical alerts on Telegram</a>
     </div>
-    <p class="fine">No accounts and no tracking: your watchlist stays on this device.
+    <p class="fine">No accounts, no cookies, no personal data: visits are counted anonymously, and your watchlist stays on this device.
       <a href="workflow.html">How Intel60 works</a> &middot; Built by Kushal Mankar.</p>
     <div class="actions"><button class="btn primary" data-action="close-sheet">Start reading</button></div>
   </div>
@@ -331,6 +331,7 @@ const SEV_LEVEL = { critical: 3, high: 2, info: 1 };
 const LAST_SEEN_KEY = "intel60:lastSeen";
 const WELCOMED_KEY = "intel60:welcomed";
 const WATCHLIST_KEY = "intel60:watchlist";
+const GOATCOUNTER = "intel60";  // GoatCounter site code, e.g. "intel60" for intel60.goatcounter.com; counting stays off while empty
 const TELEGRAM_URL = "https://t.me/intel60news";  // public channel link, e.g. https://t.me/intel60news; the button stays hidden while empty
 const SUGGESTIONS = ["Microsoft", "Google", "Apple", "AWS", "Cisco", "Fortinet", "Palo Alto", "Ivanti",
   "Citrix", "Okta", "VMware", "Linux", "Chrome", "Ransomware", "Healthcare", "Education"];
@@ -616,6 +617,12 @@ function saveWatchlist() {
   renderFilters();
   renderFeed();
   toast(myTerms.length ? `Watching ${myTerms.length} ${myTerms.length === 1 ? "term" : "terms"}` : "Watchlist cleared");
+  if (myTerms.length) track("watchlist-saved");
+}
+
+// anonymous event counts (no cookies, no personal data); does nothing until GoatCounter is set up
+function track(name) {
+  try { window.goatcounter?.count?.({ path: name, title: name, event: true }); } catch {}
 }
 
 async function shareCard(id) {
@@ -625,9 +632,11 @@ async function shareCard(id) {
   try {
     if (navigator.share) {
       await navigator.share({ title: c.headline, text: `${c.headline} (via Intel60)`, url });
+      track("share-card");
     } else {
       await navigator.clipboard.writeText(`${c.headline} ${url}`);
       toast("Link copied");
+      track("share-card");
     }
   } catch (err) {
     if (err?.name !== "AbortError") toast("Couldn't share this story");
@@ -654,6 +663,7 @@ document.addEventListener("click", (e) => {
   }
 });
 $("about").addEventListener("click", showWelcome);
+$("telegram-link").addEventListener("click", () => track("telegram-join"));
 $("welcome").addEventListener("close", () => { try { localStorage.setItem(WELCOMED_KEY, "1"); } catch {} });
 $("brand").addEventListener("click", () => { feed.scrollTo({ top: 0 }); load(); });
 window.addEventListener("hashchange", jumpToHash);
@@ -671,6 +681,13 @@ setInterval(renderMeta, 60000);
 
 renderFilters();
 load();
+if (GOATCOUNTER && location.hostname.endsWith("github.io")) {
+  const gc = document.createElement("script");
+  gc.async = true;
+  gc.src = "https://gc.zgo.at/count.js";
+  gc.dataset.goatcounter = `https://${GOATCOUNTER}.goatcounter.com/count`;
+  document.head.append(gc);
+}
 let welcomed = false;
 try { welcomed = !!localStorage.getItem(WELCOMED_KEY); } catch {}
 if (!welcomed) showWelcome();
