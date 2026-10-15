@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-15T06:30:29Z",
+ "updated": "2026-10-15T07:00:35Z",
  "cards": [
+  {
+   "id": "c86f8dee64",
+   "headline": "EU grocery stores lose millions over unpatched fridge firmware",
+   "summary": "Hundreds of European grocery stores suffered significant financial losses due to outdated operating technology firmware in their cooling systems. The stores relied on third-party vendors to manage the unpatched firmware, which left systems vulnerable to compromise. The incident highlights how operational technology in retail infrastructure remains a security blind spot. Organizations should prioritize firmware updates and vendor accountability.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware",
+   "published": "2026-10-15T07:00:00Z",
+   "added": "2026-10-15T07:00:35Z",
+   "also": []
+  },
   {
    "id": "e981b7de3f",
    "headline": "Panchan crypto mining worm continues spreading via SSH key theft",
@@ -420,6 +434,14 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/"
     }
    ],
    "cve_info": {
