@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-15T18:00:42Z",
+ "updated": "2026-10-15T18:30:35Z",
  "cards": [
+  {
+   "id": "b14fd86847",
+   "headline": "Hackers hijack D-Link, Ubiquiti devices to resell bandwidth",
+   "summary": "A proxyjacking campaign compromises D-Link and Ubiquiti devices across 34 countries, hijacking victims' internet connections and reselling their bandwidth through a commercial residential proxy network. The attack monetizes stolen connectivity without user knowledge or consent. Organizations should patch affected D-Link and Ubiquiti devices and monitor network traffic for unauthorized proxy activity.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+   "published": "2026-10-15T18:20:59Z",
+   "added": "2026-10-15T18:30:35Z",
+   "also": []
+  },
   {
    "id": "20dc09b781",
    "headline": "Fake Arch Linux packages push malware with root privileges",
