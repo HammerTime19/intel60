@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-15T11:10:54Z",
+ "updated": "2026-10-15T11:30:38Z",
  "cards": [
+  {
+   "id": "a28002aabf",
+   "headline": "CikaBika Bot RAT malware uses Discord for command control",
+   "summary": "CikaBika Bot is a remote access trojan delivered via phishing emails that leverages Discord servers for command-and-control communications. The malware provides reconnaissance, remote code execution, and data exfiltration capabilities to attackers. Defenders should block phishing emails, monitor for Discord-based C2 traffic, and educate users on suspicious message attachments.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/",
+   "published": "2026-10-15T11:25:58Z",
+   "added": "2026-10-15T11:30:38Z",
+   "also": []
+  },
   {
    "id": "950d0b7bf2",
    "headline": "AdFection zero-click spyware distributed via targeted ads",
