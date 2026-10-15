@@ -1,6 +1,44 @@
 {
- "updated": "2026-10-15T20:30:35Z",
+ "updated": "2026-10-15T21:00:45Z",
  "cards": [
+  {
+   "id": "c5cb3c9094",
+   "headline": "Federal bankruptcy courts disrupted by contractor cyberattack",
+   "summary": "A cyberattack on a government contractor has caused outages affecting U.S. federal bankruptcy courts. The incident has halted all production of bankruptcy notices, disrupting critical judicial operations. The attack's scope and whether the contractor itself or downstream systems were compromised remains unclear. Court operations recovery status and incident details are under investigation.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
+   "published": "2026-10-15T20:46:00Z",
+   "added": "2026-10-15T21:00:43Z",
+   "also": []
+  },
+  {
+   "id": "222e66a510",
+   "headline": "Linux kernel PwnEscape flaw leaks host memory from VMs",
+   "summary": "A critical kernel vulnerability allows guest virtual machines to read memory on the host system. The flaw affects Linux networking code, impacting cloud providers like Vercel who use shared infrastructure. Researchers demonstrated successful exploitation against production sandboxes. Cloud providers should patch immediately as the vulnerability affects the core OS rather than individual deployments.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-99999"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+   "published": "2026-10-15T20:24:36Z",
+   "added": "2026-10-15T21:00:43Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-99999": {
+     "kev": false,
+     "cvss": 9.3,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-15T21:00:43Z"
+  },
   {
    "id": "85a01d9a03",
    "headline": "AI chatbots become targets for election influence campaigns",
