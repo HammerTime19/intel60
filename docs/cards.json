@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-15T19:30:30Z",
+ "updated": "2026-10-15T20:00:36Z",
  "cards": [
+  {
+   "id": "85a01d9a03",
+   "headline": "AI chatbots become targets for election influence campaigns",
+   "summary": "Threat actors are setting up networks of hyperlocal websites across multiple U.S. states to inject propaganda into AI chatbot systems and influence American voters. Research from VisionHeight reveals bad actors increasingly target AI systems as more effective vehicles for coordinated disinformation than traditional social media. Organizations deploying chatbots should implement content validation and source verification mechanisms to counter influence campaigns.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/ai-chatbots-election-influence-hyperlocal-networks/",
+   "published": "2026-10-15T19:29:58Z",
+   "added": "2026-10-15T20:00:36Z",
+   "also": []
+  },
   {
    "id": "b14fd86847",
    "headline": "Hackers hijack D-Link, Ubiquiti devices to resell bandwidth",
