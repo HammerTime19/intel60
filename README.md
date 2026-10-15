@@ -95,3 +95,5 @@ Everything else, including feeds, watchlist, quiet hours, morning brief time, al
 ---
 
 Built by Kushal Mankar with AI-assisted development (Claude Code).
+
+Released under the [MIT License](LICENSE).
