@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-15T10:00:40Z",
+ "updated": "2026-10-15T10:30:34Z",
  "cards": [
+  {
+   "id": "950d0b7bf2",
+   "headline": "AdFection zero-click spyware distributed via targeted ads",
+   "summary": "Citizen Lab discovered AdFection, zero-click spyware delivered through targeted advertising by Israeli firm Discover-Tech, which facilitates mercenary spyware operations including Candiru. The campaign infected devices at Al Jazeera and appeared on sensitive networks including the U.S. Department of Defense, NATO, and the IAEA. Users are advised to apply security patches and consider ad blocking.",
+   "severity": "critical",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/adfection-zero-click-spyware-discover-tech/",
+   "published": "2026-10-15T10:00:00Z",
+   "added": "2026-10-15T10:30:33Z",
+   "also": []
+  },
   {
    "id": "fbda5a8420",
    "headline": "CenterPoint Energy breach exposes 1 million Texans",
@@ -397,6 +411,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/"
     }
    ]
   },
