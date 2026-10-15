@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T16:00:43Z",
+ "updated": "2026-10-15T16:30:36Z",
  "cards": [
   {
    "id": "ba5ef20dc7",
@@ -27,7 +27,12 @@
    "url": "https://therecord.media/suspected-kazakhstan-phishing-central-asia-espionage",
    "published": "2026-10-15T13:55:00Z",
    "added": "2026-10-15T14:22:11Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html"
+    }
+   ]
   },
   {
    "id": "12b5084185",
@@ -125,7 +130,12 @@
    "url": "https://cyberscoop.com/adfection-zero-click-spyware-discover-tech/",
    "published": "2026-10-15T10:00:00Z",
    "added": "2026-10-15T10:30:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html"
+    }
+   ]
   },
   {
    "id": "fbda5a8420",
