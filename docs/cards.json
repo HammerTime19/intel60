@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-15T11:30:38Z",
+ "updated": "2026-10-15T12:00:40Z",
  "cards": [
+  {
+   "id": "3565d45fa9",
+   "headline": "95 arrested in INTERPOL CSAM distribution crackdown",
+   "summary": "Law enforcement from 17 countries across Latin America and Europe arrested 95 suspects in an INTERPOL-coordinated operation targeting child sexual abuse material distribution via online messaging groups. The international effort focused on dismantling networks facilitating CSAM sharing. Authorities continue investigations to identify additional victims and perpetrators.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
+   "published": "2026-10-15T11:55:38Z",
+   "added": "2026-10-15T12:00:40Z",
+   "also": []
+  },
   {
    "id": "a28002aabf",
    "headline": "CikaBika Bot RAT malware uses Discord for command control",
