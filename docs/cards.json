@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-15T09:30:30Z",
+ "updated": "2026-10-15T10:00:40Z",
  "cards": [
+  {
+   "id": "fbda5a8420",
+   "headline": "CenterPoint Energy breach exposes 1 million Texans",
+   "summary": "CenterPoint Energy, a major Texas utility company, suffered a data breach compromising personal information of approximately 1 million customers. Exposed data includes names, addresses, Social Security numbers, and driver's license numbers. The breach status and cause remain under investigation. Affected individuals should monitor financial accounts and consider fraud protection services.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
+   "published": "2026-10-15T09:55:19Z",
+   "added": "2026-10-15T10:00:40Z",
+   "also": []
+  },
   {
    "id": "1d72630bae",
    "headline": "GhostAction campaign compromises 1,900 GitHub accounts",
