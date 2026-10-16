@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T15:00:39Z",
+ "updated": "2026-10-16T15:30:33Z",
  "cards": [
   {
    "id": "39925f2a64",
@@ -55,7 +55,12 @@
    "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
    "published": "2026-10-16T10:32:11Z",
    "added": "2026-10-16T11:00:42Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html"
+    }
+   ]
   },
   {
    "id": "c426150a84",
@@ -160,6 +165,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/bae-systems-cybersecurity-incident-us-bankruptcy-courts/"
     }
    ]
   },
