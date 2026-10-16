@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-16T18:30:35Z",
+ "updated": "2026-10-16T18:45:07Z",
  "cards": [
+  {
+   "id": "2f67e7ff74",
+   "headline": "OpenBSD root exploit chains 37-year-old shared-memory bug",
+   "summary": "Researchers demonstrated a local privilege escalation exploit that gains root access on OpenBSD 7.9 by chaining an integer overflow vulnerability with a separate kernel flaw. The exploit bypasses OpenBSD's KARL kernel-address randomization and hardware protections SMAP and SMEP. Proof-of-concept code was published after patches shipped. Local access is required.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+   "published": "2026-10-16T17:48:45Z",
+   "added": "2026-10-16T18:45:07Z",
+   "also": []
+  },
   {
    "id": "c0b88e2e8c",
    "headline": "Chinese espionage group Armory Castle exploits BeyondTrust",
