@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-16T09:39:37Z",
+ "updated": "2026-10-16T10:00:45Z",
  "cards": [
+  {
+   "id": "c426150a84",
+   "headline": "F5 and Juniper Networks patch critical RCE vulnerabilities",
+   "summary": "F5 and Juniper Networks released patches for critical vulnerabilities that could enable remote code execution and full device takeover. The specific vulnerabilities and affected products were not detailed in the source. Organizations running F5 and Juniper equipment should apply patches immediately. Device takeover risks warrant urgent attention from network defenders.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
+   "published": "2026-10-16T09:54:34Z",
+   "added": "2026-10-16T10:00:40Z",
+   "also": []
+  },
   {
    "id": "509b1847c7",
    "headline": "Microsoft Office patches two dozen RCE vulnerabilities",
