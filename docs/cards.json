@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T17:30:50Z",
+ "updated": "2026-10-16T18:00:34Z",
  "cards": [
   {
    "id": "c0b88e2e8c",
@@ -29,6 +29,20 @@
     }
    },
    "cve_checked": "2026-10-16T17:30:42Z"
+  },
+  {
+   "id": "2f6312b776",
+   "headline": "AOMEI Backupper update servers compromised, backdoor delivered",
+   "summary": "Attackers gained access to AOMEI Backupper's update servers and replaced legitimate files with backdoored versions in brief windows between May and July 2026. Users checking for updates during these periods downloaded and executed malware. Google Threat Intelligence Group and Mandiant discovered the campaign. Users should verify their system integrity and update to the latest patched version.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+   "published": "2026-10-16T16:43:39Z",
+   "added": "2026-10-16T18:00:34Z",
+   "also": []
   },
   {
    "id": "7ca5392923",
