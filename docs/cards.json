@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-16T07:30:37Z",
+ "updated": "2026-10-16T08:00:39Z",
  "cards": [
+  {
+   "id": "509b1847c7",
+   "headline": "Microsoft Office patches two dozen RCE vulnerabilities",
+   "summary": "Microsoft released security updates for Office addressing over 20 remote code execution vulnerabilities, alongside multiple information disclosure bugs and security bypass issues. The patches cover critical flaws that could allow attackers to execute arbitrary code on affected systems. Organizations should prioritize applying these updates to their Office deployments to prevent potential exploitation.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
+   "published": "2026-10-16T07:55:06Z",
+   "added": "2026-10-16T08:00:38Z",
+   "also": []
+  },
   {
    "id": "494b44d4dd",
    "headline": "BeyondTrust patches critical Remote Support zero-day",
@@ -60,7 +74,12 @@
    "url": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
    "published": "2026-10-15T20:46:00Z",
    "added": "2026-10-15T21:00:43Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/"
+    }
+   ]
   },
   {
    "id": "222e66a510",
