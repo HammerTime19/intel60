@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-16T16:00:33Z",
+ "updated": "2026-10-16T16:30:38Z",
  "cards": [
+  {
+   "id": "7ca5392923",
+   "headline": "APT UAT-11985 targets Taiwan researchers with AitM phishing",
+   "summary": "An advanced persistent threat group tracked as UAT-11985 is conducting targeted spear-phishing campaigns against Taiwan research organizations. Attackers use fake calendar event invites to direct victims to an adversary-in-the-middle phishing framework designed to steal Google credentials and MFA codes. Security researchers disclosed the campaign details. Defenders should apply email security controls, MFA protection, and security awareness training.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+   "published": "2026-10-16T16:16:44Z",
+   "added": "2026-10-16T16:30:38Z",
+   "also": []
+  },
   {
    "id": "39925f2a64",
    "headline": "Russian police detain DataSuckers hacking group members",
