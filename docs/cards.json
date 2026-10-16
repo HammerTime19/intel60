@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T20:30:34Z",
+ "updated": "2026-10-16T21:00:32Z",
  "cards": [
   {
    "id": "8dfac5c34b",
@@ -215,6 +215,10 @@
     {
      "source": "CISA KEV",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs"
     }
    ]
   },
