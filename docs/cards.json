@@ -1,6 +1,35 @@
 {
- "updated": "2026-10-16T17:00:34Z",
+ "updated": "2026-10-16T17:30:50Z",
  "cards": [
+  {
+   "id": "c0b88e2e8c",
+   "headline": "Chinese espionage group Armory Castle exploits BeyondTrust",
+   "summary": "Mandiant and Google Threat Intelligence tracked Chinese government-backed threat group Armory Castle exploiting CVE-2026-102764 in BeyondTrust Remote Support since late August. The group used privilege escalation and lateral movement tactics to evade detection. Only a small number of confirmed victims exist, but researchers warn wider exploitation is likely given zero-day use. Patch immediately and audit for unauthorized access.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-102764"
+   ],
+   "watch": [
+    "Ivanti",
+    "Citrix"
+   ],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/china-espionage-attacks-beyondtrust-zero-day-armory-castle/",
+   "published": "2026-10-16T17:09:09Z",
+   "added": "2026-10-16T17:30:41Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-102764": {
+     "kev": true,
+     "epss": 0.00601,
+     "pct": 0.47647,
+     "cvss": 9.3,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-16T17:30:42Z"
+  },
   {
    "id": "7ca5392923",
    "headline": "APT UAT-11985 targets Taiwan researchers with AitM phishing",
@@ -128,6 +157,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/beyond-trust-cyberattack-china"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
     }
    ]
   },
@@ -150,7 +183,7 @@
    "also": [],
    "cve_info": {
     "CVE-2025-61624": {
-     "kev": false,
+     "kev": true,
      "epss": 0.00535,
      "pct": 0.4383,
      "cvss": 6.5,
@@ -158,6 +191,34 @@
     }
    },
    "cve_checked": "2026-10-16T06:30:40Z"
+  },
+  {
+   "id": "51427f5a76",
+   "headline": "Fortinet products path traversal added to CISA KEV",
+   "summary": "CISA added CVE-2025-61624 to its Known Exploited Vulnerabilities catalog. The path traversal flaw affects FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager. An authenticated admin with read-write permissions can write or delete arbitrary files via CLI commands. Federal deadline to patch is October 19, 2026. Apply vendor mitigations immediately per BOD 26-04 guidance.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2025-61624"
+   ],
+   "watch": [
+    "Fortinet"
+   ],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+   "published": "2026-10-16T00:00:00Z",
+   "added": "2026-10-16T17:30:41Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2025-61624": {
+     "kev": true,
+     "epss": 0.0058,
+     "pct": 0.46551,
+     "cvss": 6.5,
+     "sev": "medium"
+    }
+   },
+   "cve_checked": "2026-10-16T17:30:48Z"
   },
   {
    "id": "c5cb3c9094",
@@ -385,6 +446,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/"
     }
    ]
   },
