@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-16T13:30:38Z",
+ "updated": "2026-10-16T14:00:38Z",
  "cards": [
+  {
+   "id": "39925f2a64",
+   "headline": "Russian police detain DataSuckers hacking group members",
+   "summary": "Russian authorities have detained three suspected members of the DataSuckers hacking group following a cyberattack on a restaurant chain that exposed customer information. The group has been linked to breaches in Ukraine and Russia. The arrests represent law enforcement action against the threat actor, though investigation details remain limited at this time.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/russia-datasuckers-hackers-arrested",
+   "published": "2026-10-16T13:30:00Z",
+   "added": "2026-10-16T14:00:38Z",
+   "also": []
+  },
   {
    "id": "38208afe28",
    "headline": "Anne Arundel County, Maryland confirms government data breach",
