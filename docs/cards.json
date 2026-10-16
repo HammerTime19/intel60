@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T07:00:33Z",
+ "updated": "2026-10-16T07:30:37Z",
  "cards": [
   {
    "id": "494b44d4dd",
@@ -13,7 +13,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
    "published": "2026-10-16T06:18:08Z",
    "added": "2026-10-16T06:30:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html"
+    }
+   ]
   },
   {
    "id": "5fc8c6dd8c",
@@ -556,7 +561,12 @@
    "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
    "published": "2026-10-14T16:00:00Z",
    "added": "2026-10-14T17:00:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html"
+    }
+   ]
   },
   {
    "id": "fac7cd6e29",
