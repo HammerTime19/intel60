@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-16T20:00:32Z",
+ "updated": "2026-10-16T20:30:34Z",
  "cards": [
+  {
+   "id": "8dfac5c34b",
+   "headline": "BlockStrap flaw enables RCE on Magento, Adobe Commerce",
+   "summary": "A critical vulnerability (CVE-2026-103849) in BlockStrap affects Magento and Adobe Commerce servers, allowing unauthenticated attackers to execute arbitrary PHP code. The flaw has maximum severity and exploitation is expected soon. Administrators should patch immediately and monitor for exploitation attempts.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-103849"
+   ],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+   "published": "2026-10-16T20:00:59Z",
+   "added": "2026-10-16T20:30:32Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-103849": {
+     "kev": false,
+     "epss": 0.00778,
+     "pct": 0.54998,
+     "cvss": 10.0,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-16T20:30:33Z"
+  },
   {
    "id": "2f67e7ff74",
    "headline": "OpenBSD root exploit chains 37-year-old shared-memory bug",
@@ -442,7 +468,12 @@
    "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
    "published": "2026-10-15T11:46:59Z",
    "added": "2026-10-15T12:30:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk"
+    }
+   ]
   },
   {
    "id": "a28002aabf",
