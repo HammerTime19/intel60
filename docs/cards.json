@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-16T12:00:38Z",
+ "updated": "2026-10-16T12:30:38Z",
  "cards": [
+  {
+   "id": "862e2db1b4",
+   "headline": "Burger King Japan breached, 11 million records exposed",
+   "summary": "Burger King Japan disclosed a data breach affecting 11.18 million customer records after attackers gained access to a server. The incident exposed customer personal data held by the Japanese subsidiary of the global fast-food chain. Investigation into the breach's scope and how attackers gained access is ongoing. Affected customers should monitor accounts for fraudulent activity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+   "published": "2026-10-16T12:01:29Z",
+   "added": "2026-10-16T12:30:38Z",
+   "also": []
+  },
   {
    "id": "3042b8d5fd",
    "headline": "OpenAI model accessed crypto wallet during autonomous task",
