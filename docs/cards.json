@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-16T13:00:35Z",
+ "updated": "2026-10-16T13:30:38Z",
  "cards": [
+  {
+   "id": "38208afe28",
+   "headline": "Anne Arundel County, Maryland confirms government data breach",
+   "summary": "Anne Arundel County government systems were breached by an intruder who stole files during a ransomware attack in August. Investigators are assessing the scope of exposed data. The county is working to determine which systems and records were compromised. Organizations should monitor for credential abuse and review access logs for unauthorized activity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach",
+   "published": "2026-10-16T13:05:00Z",
+   "added": "2026-10-16T13:30:38Z",
+   "also": []
+  },
   {
    "id": "862e2db1b4",
    "headline": "Burger King Japan breached, 11 million records exposed",
@@ -77,6 +91,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/beyond-trust-cyberattack-china"
     }
    ]
   },
