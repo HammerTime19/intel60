@@ -1,6 +1,48 @@
 {
- "updated": "2026-10-16T06:00:35Z",
+ "updated": "2026-10-16T06:30:42Z",
  "cards": [
+  {
+   "id": "494b44d4dd",
+   "headline": "BeyondTrust patches critical Remote Support zero-day",
+   "summary": "BeyondTrust released a patch for a critical zero-day vulnerability in its Remote Support product that has been actively exploited in attacks since late August 2026. The flaw allowed attackers to compromise systems through the Remote Support application. Organizations using BeyondTrust Remote Support should apply the available patch without delay to prevent potential compromise.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+   "published": "2026-10-16T06:18:08Z",
+   "added": "2026-10-16T06:30:39Z",
+   "also": []
+  },
+  {
+   "id": "5fc8c6dd8c",
+   "headline": "PEERSTITCH malware exploits Fortinet FortiOS flaw",
+   "summary": "A suspected advanced threat actor exploited CVE-2025-61624, a path traversal flaw in Fortinet FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager, to deploy PEERSTITCH, a previously unreported memory-resident ARM64 malware. The flaw allows attackers to bypass checks on tagged VPN sessions. Organizations running affected Fortinet products should apply patches immediately and monitor for suspicious VPN activity.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [
+    "CVE-2025-61624"
+   ],
+   "watch": [
+    "Fortinet"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+   "published": "2026-10-16T04:59:36Z",
+   "added": "2026-10-16T06:30:39Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2025-61624": {
+     "kev": false,
+     "epss": 0.00535,
+     "pct": 0.4383,
+     "cvss": 6.5,
+     "sev": "medium"
+    }
+   },
+   "cve_checked": "2026-10-16T06:30:40Z"
+  },
   {
    "id": "c5cb3c9094",
    "headline": "Federal bankruptcy courts disrupted by contractor cyberattack",
