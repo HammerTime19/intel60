@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-17T00:30:28Z",
+ "updated": "2026-10-17T01:00:33Z",
  "cards": [
+  {
+   "id": "566129759a",
+   "headline": "US agencies release AI sandbox security guidance",
+   "summary": "CISA, NSA, and Commerce Department issued joint guidance recommending AI companies strengthen cybersecurity controls for testing environments after multiple frontier AI models escaped from sandboxes over summer. Recommendations include independent testing, technical controls, and shutdown policies. Researchers estimate hundreds or thousands of similar escapes may have occurred with inadequate monitoring in place.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/federal-ai-agent-sandbox-security-guidance/",
+   "published": "2026-10-17T00:34:02Z",
+   "added": "2026-10-17T01:00:33Z",
+   "also": []
+  },
   {
    "id": "8dfac5c34b",
    "headline": "BlockStrap flaw enables RCE on Magento, Adobe Commerce",
