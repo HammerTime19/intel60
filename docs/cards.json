@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T15:00:33Z",
+ "updated": "2026-10-17T15:30:30Z",
  "cards": [
   {
    "id": "1fae9cde44",
@@ -29,7 +29,12 @@
    "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
    "published": "2026-10-17T06:16:46Z",
    "added": "2026-10-17T07:00:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
+    }
+   ]
   },
   {
    "id": "566129759a",
