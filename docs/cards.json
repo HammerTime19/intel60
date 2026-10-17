@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T10:30:23Z",
+ "updated": "2026-10-17T11:00:41Z",
  "cards": [
   {
    "id": "b3dabcb4d0",
@@ -543,6 +543,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/"
     }
    ]
   },
