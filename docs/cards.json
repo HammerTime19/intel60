@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T14:30:28Z",
+ "updated": "2026-10-17T15:00:33Z",
  "cards": [
   {
    "id": "1fae9cde44",
@@ -488,7 +488,12 @@
    "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
    "published": "2026-10-15T12:07:20Z",
    "added": "2026-10-15T12:30:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/"
+    }
+   ]
   },
   {
    "id": "3565d45fa9",
