@@ -1,6 +1,22 @@
 {
- "updated": "2026-10-17T06:30:26Z",
+ "updated": "2026-10-17T07:00:34Z",
  "cards": [
+  {
+   "id": "b3dabcb4d0",
+   "headline": "Hackers use compromised ConnectWise credential on 173 M365 tenants",
+   "summary": "Unknown threat actors abused a compromised Microsoft 365 credential belonging to ConnectWise Cloud Backup to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud backup and recovery service for managed service providers. The campaign is actively ongoing. Organizations using this service should reset credentials and review account access logs immediately.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "Microsoft 365"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+   "published": "2026-10-17T06:16:46Z",
+   "added": "2026-10-17T07:00:33Z",
+   "also": []
+  },
   {
    "id": "566129759a",
    "headline": "US agencies release AI sandbox security guidance",
