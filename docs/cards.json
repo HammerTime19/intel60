@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-18T14:30:29Z",
+ "updated": "2026-10-18T15:00:35Z",
  "cards": [
+  {
+   "id": "74ff0a30f9",
+   "headline": "SiteGuard WAF command injection enables SYSTEM root access",
+   "summary": "Attackers exploit an OS command injection vulnerability in SiteGuard Server Edition to execute commands as root or SYSTEM on affected servers. The vulnerability allows unauthenticated remote code execution with elevated privileges. Organizations running SiteGuard should immediately patch to the latest version and monitor logs for suspicious command execution activity.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+   "published": "2026-10-18T14:23:16Z",
+   "added": "2026-10-18T15:00:34Z",
+   "also": []
+  },
   {
    "id": "1fae9cde44",
    "headline": "MALFEX npm package imgdecode hides shellcode loader",
