@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-19T09:30:28Z",
+ "updated": "2026-10-19T10:00:44Z",
  "cards": [
+  {
+   "id": "82c7537f54",
+   "headline": "MITRE ATT&CK v20 adds AI abuse, MFA bypass tactics",
+   "summary": "MITRE ATT&CK framework version 20 introduces 15 new detection strategies covering emerging threats including AI abuse, MFA bypass techniques, and water utility attacks. The update adds six Enterprise and nine ICS tactics supported by 38 analytics to help defenders detect adversary behaviors across these threat categories.",
+   "severity": "info",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
+   "published": "2026-10-19T09:37:04Z",
+   "added": "2026-10-19T10:00:43Z",
+   "also": []
+  },
   {
    "id": "15156651e2",
    "headline": "October Windows Server updates break Exchange mail flow",
@@ -3779,20 +3793,6 @@
    "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
    "published": "2026-10-05T13:00:00Z",
    "added": "2026-10-05T18:37:19Z",
-   "also": []
-  },
-  {
-   "id": "22036833f2",
-   "headline": "Iranian hackers target US water systems in 12 states",
-   "summary": "Iranian cyber actors conducted attacks on water infrastructure across 12 U.S. states during summer 2026, exposing critical vulnerabilities in systems where 80% lack basic security. AI advances enable attackers to identify zero-day vulnerabilities and execute attacks in minutes. Water systems face technical, legal, and practical barriers to defense. Defenders should prioritize critical infrastructure hardening and AI-assisted threat detection.",
-   "severity": "critical",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/us-water-system-cybersecurity-ai-threats-op-ed/",
-   "published": "2026-10-05T10:00:00Z",
-   "added": "2026-10-05T18:50:17Z",
    "also": []
   }
  ]
