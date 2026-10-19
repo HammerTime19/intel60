@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T13:00:40Z",
+ "updated": "2026-10-19T13:30:33Z",
  "cards": [
   {
    "id": "bcca2fd24d",
@@ -175,6 +175,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/"
     }
    ]
   },
@@ -3817,44 +3821,6 @@
    "published": "2026-10-05T13:55:00Z",
    "added": "2026-10-05T18:37:19Z",
    "also": []
-  },
-  {
-   "id": "e90d56921e",
-   "headline": "Nikkei discloses intrusions targeting employees, sources",
-   "summary": "Japanese media giant Nikkei disclosed a cyber incident involving compromised employee email accounts that may have exposed journalistic sources. The intrusion highlights targeting of media organizations to access sensitive editorial information and confidential sources. Organizations should audit email security and review journalist communication channels for unauthorized access.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/nikkei-cyberattack-japan-data",
-   "published": "2026-10-05T13:15:00Z",
-   "added": "2026-10-05T18:37:19Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/"
-    }
-   ]
-  },
-  {
-   "id": "68db8daed7",
-   "headline": "Ploutus ATM malware developer arrested in US",
-   "summary": "The U.S. Department of Justice arrested the alleged developer of Ploutus, malware used in ATM jackpotting attacks that stole millions across the United States. The arrest represents a major enforcement action against ATM fraud infrastructure. Financial institutions should review ATM security controls and monitor for Ploutus variants.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/",
-   "published": "2026-10-05T13:01:45Z",
-   "added": "2026-10-05T18:37:19Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/atm-malware-creator-appears-in-nebraska-court"
-    }
-   ]
   }
  ]
 }
