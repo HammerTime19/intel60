@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-19T10:00:44Z",
+ "updated": "2026-10-19T10:30:34Z",
  "cards": [
+  {
+   "id": "3c5cedb37c",
+   "headline": "Serbian critics targeted with Pegasus, NoviSpy spyware",
+   "summary": "Spyware including Pegasus and NoviSpy has been deployed against prominent Serbian figures ahead of elections, including the University of Belgrade rector and a lawyer from the Public Prosecutor's Office for Organized Crime. The SHARE Foundation and Citizen Lab confirmed the targeting. This follows a September wave affecting 14 people including an MP. The campaign appears linked to political pressure on anti-corruption activists.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/pegasus-spyware-serbia-critics-elections/",
+   "published": "2026-10-19T10:00:00Z",
+   "added": "2026-10-19T10:30:34Z",
+   "also": []
+  },
   {
    "id": "82c7537f54",
    "headline": "MITRE ATT&CK v20 adds AI abuse, MFA bypass tactics",
