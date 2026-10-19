@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-19T18:00:37Z",
+ "updated": "2026-10-19T18:30:34Z",
  "cards": [
+  {
+   "id": "561dd3f2ed",
+   "headline": "Siemens Software Center DLL hijacking exploited in ClickFix attacks",
+   "summary": "Attackers weaponized a genuine Siemens Software Center application by bundling malicious DLLs to compromise Windows systems through ClickFix social engineering lures. The vulnerability allows DLL hijacking attacks that exploit legitimate signed executables. Users should avoid clicking suspicious links and validate software downloads from official sources only.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
+   "published": "2026-10-19T18:15:39Z",
+   "added": "2026-10-19T18:30:34Z",
+   "also": []
+  },
   {
    "id": "425846ce93",
    "headline": "Ahold Delhaize cyberattack disrupts US, European grocery operations",
