@@ -108,7 +108,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   scrollbar-width: none;
 }
 .feed::-webkit-scrollbar { display: none; }
-.slot { height: 100%; padding: 0 0.75rem 0.75rem; scroll-snap-align: start; scroll-snap-stop: always; }
+.slot { height: 100%; padding: 0 0.75rem 0.75rem; scroll-snap-align: start; scroll-snap-stop: always; content-visibility: auto; }  /* off-screen cards are not drawn */
 
 .card {
   --sev: var(--info);
@@ -703,7 +703,25 @@ function fitCard(card) {
   }
   card.style.setProperty("--fit", String(lo));
 }
-function fitAll() { feed.querySelectorAll(".card").forEach(fitCard); }
+// Fitting is lazy: only the card on screen and the next few are measured, once each, as you swipe.
+// (Measuring all ~200 cards up front took seconds on phones and made swiping lag.)
+function fitNear() {
+  const slots = feed.children;
+  if (!slots.length || feed.hidden) return;
+  const i = Math.round(feed.scrollTop / Math.max(1, feed.clientHeight));
+  for (let k = Math.max(0, i - 1); k <= Math.min(slots.length - 1, i + 3); k++) {
+    const card = slots[k].querySelector(".card");
+    if (card && !card.dataset.fitted) { fitCard(card); card.dataset.fitted = "1"; }
+  }
+}
+let fitFrame = 0;
+feed.addEventListener("scroll", () => {
+  if (!fitFrame) fitFrame = requestAnimationFrame(() => { fitFrame = 0; fitNear(); });
+}, { passive: true });
+function fitAll() {  // after a re-render or resize: forget old measurements and fit what's on screen
+  feed.querySelectorAll(".card[data-fitted]").forEach((c) => delete c.dataset.fitted);
+  fitNear();
+}
 let fitTimer;
 window.addEventListener("resize", () => { clearTimeout(fitTimer); fitTimer = setTimeout(fitAll, 150); });
 document.fonts?.ready.then(fitAll);
@@ -887,6 +905,7 @@ function scrollToCard(id) {
   const slot = document.getElementById(id);
   if (!slot) return;
   slot.scrollIntoView({ block: "start" });
+  fitNear();
   if (slot.dataset.n) setPosition(Number(slot.dataset.n), feed.querySelectorAll(".slot[data-n]").length);
 }
 
