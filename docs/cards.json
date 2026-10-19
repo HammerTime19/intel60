@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-19T14:00:45Z",
+ "updated": "2026-10-19T14:30:39Z",
  "cards": [
+  {
+   "id": "10c7257940",
+   "headline": "Underground market sells forged KYC bypass services",
+   "summary": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client checks. These underground services operate to create and maintain fraudulent verified accounts, enabling bad actors to circumvent identity verification safeguards used by financial institutions and payment platforms.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+   "published": "2026-10-19T14:00:10Z",
+   "added": "2026-10-19T14:30:39Z",
+   "also": []
+  },
   {
    "id": "5f2037864b",
    "headline": "Feds suspect ransom negotiator ran ShinyHunters extortion",
@@ -3802,44 +3816,6 @@
    "published": "2026-10-05T14:53:06Z",
    "added": "2026-10-05T18:37:19Z",
    "also": []
-  },
-  {
-   "id": "7c115c8fd8",
-   "headline": "Google halts open source bug bounty amid invalid reports",
-   "summary": "Google temporarily stopped accepting product vulnerability reports through its Open Source Software Vulnerability Reward Program due to a wave of invalid automated submissions. The suspension aims to improve report quality and reduce noise. Security researchers should await program reopening and follow updated submission guidelines.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/",
-   "published": "2026-10-05T14:26:00Z",
-   "added": "2026-10-05T18:37:19Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html"
-    }
-   ]
-  },
-  {
-   "id": "68acfff980",
-   "headline": "South Korea probes bank breaches amid AI-powered attacks",
-   "summary": "South Korea's Financial Services Commission held an emergency meeting following cyberattacks on financial institutions, suspected to involve AI-powered techniques. The coordinated targeting of banks suggests organized, sophisticated attack infrastructure. Financial institutions should increase monitoring, implement behavioral analytics, and share threat intelligence with regulators and peers.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
-   "published": "2026-10-05T14:22:12Z",
-   "added": "2026-10-05T18:37:19Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/south-korean-bank-hacks-ai-agents"
-    }
-   ]
   }
  ]
 }
