@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T11:00:36Z",
+ "updated": "2026-10-19T11:30:34Z",
  "cards": [
   {
    "id": "3c5cedb37c",
@@ -373,7 +373,12 @@
    "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
    "published": "2026-10-16T04:59:36Z",
    "added": "2026-10-16T06:30:39Z",
-   "also": [],
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/"
+    }
+   ],
    "cve_info": {
     "CVE-2025-61624": {
      "kev": true,
