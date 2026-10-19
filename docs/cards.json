@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-19T15:00:38Z",
+ "updated": "2026-10-19T15:30:35Z",
  "cards": [
+  {
+   "id": "c513afb976",
+   "headline": "Rank Math PRO WordPress plugin compromised in supply chain",
+   "summary": "Hackers injected malware into Rank Math PRO version 3.0.123 distributed between October 15-16. The compromised WordPress plugin affected users who downloaded packages during this window. WordPress administrators should update immediately and audit any installations that ran the affected version for signs of compromise.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
+   "published": "2026-10-19T15:20:53Z",
+   "added": "2026-10-19T15:30:35Z",
+   "also": []
+  },
   {
    "id": "6e689f5871",
    "headline": "Microsoft fixes game crashes in Windows 11 update",
@@ -13,6 +27,20 @@
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
    "published": "2026-10-19T14:55:23Z",
    "added": "2026-10-19T15:00:38Z",
+   "also": []
+  },
+  {
+   "id": "e4ddb72db3",
+   "headline": "OnlyFans copyright takedowns exploit vulnerable websites",
+   "summary": "Attackers are leveraging OnlyFans copyright takedown requests to manipulate search results and compromise vulnerable university and government websites. The campaign exposes weaknesses in how organizations handle administrative processes and SEO manipulation. Security teams should review takedown request handling procedures and patch web vulnerabilities to prevent similar exploitation.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites",
+   "published": "2026-10-19T14:28:11Z",
+   "added": "2026-10-19T15:30:35Z",
    "also": []
   },
   {
@@ -3779,43 +3807,6 @@
    "published": "2026-10-05T15:52:59Z",
    "added": "2026-10-05T18:37:34Z",
    "also": []
-  },
-  {
-   "id": "567f3a4f3f",
-   "headline": "University of Illinois Chicago ransomware hits medical school",
-   "summary": "University of Illinois Chicago College of Medicine was targeted by a ransomware attack resulting in theft of information from its servers. The attack affected a healthcare institution, causing operational disruption. The university is investigating the incident and notifying impacted parties. Healthcare entities should review access controls and backup strategies.",
-   "severity": "critical",
-   "category": "Ransomware",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/ransomware-university-illinois-chicago",
-   "published": "2026-10-05T15:30:00Z",
-   "added": "2026-10-05T18:37:34Z",
-   "also": []
-  },
-  {
-   "id": "7ebb9ff569",
-   "headline": "Denmark population registry breach exposes 8.8 million",
-   "summary": "Denmark's Central Population Register suffered a data breach exposing personal information of approximately 8.8 million registered individuals. The breach affects a significant portion of Denmark's population. Authorities are investigating the incident and notifying affected individuals. Residents should monitor for identity theft and consider credit monitoring services.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
-   "published": "2026-10-05T15:21:10Z",
-   "added": "2026-10-05T18:37:34Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/8-8-million-impacted-by-data-breach-at-denmarks-central-person-register/"
-    }
-   ]
   }
  ]
 }
