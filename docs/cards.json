@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-19T20:00:39Z",
+ "updated": "2026-10-19T20:30:37Z",
  "cards": [
+  {
+   "id": "553c25ef77",
+   "headline": "AdFection uses targeted ads to deliver spyware",
+   "summary": "Spyware vendors are exploiting targeted ad bidding in digital advertising to identify and track individuals and organizations of interest. The AdFection technique leverages programmatic advertising infrastructure for zero-click malware delivery. This represents a novel attack vector combining advertising and surveillance capabilities. Organizations should review ad network security and consider ad-blocking or stricter content filtering for critical systems.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
+   "published": "2026-10-19T19:55:01Z",
+   "added": "2026-10-19T20:30:37Z",
+   "also": []
+  },
   {
    "id": "06accfcb31",
    "headline": "Bullhorn staffing platform attacked, system offline",
@@ -3771,32 +3785,6 @@
      "url": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage"
     }
    ]
-  },
-  {
-   "id": "ac27d72d61",
-   "headline": "Rejetto HFS actively scanned for critical RCE flaw",
-   "summary": "Hackers are actively scanning for CVE-2026-61500, a critical vulnerability in Rejetto HFS servers caused by weak signing keys. The flaw enables session forgery, account takeover, and unauthenticated remote code execution. Organizations running HFS should prioritize patching or access restrictions to prevent compromise.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-61500"
-   ],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
-   "published": "2026-10-05T20:20:05Z",
-   "added": "2026-10-06T00:16:58Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-61500": {
-     "kev": false,
-     "epss": 0.00987,
-     "pct": 0.61241,
-     "cvss": 9.8,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-07T20:29:53Z"
   }
  ]
 }
