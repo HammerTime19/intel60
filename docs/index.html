@@ -323,6 +323,8 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
 }
 .suggest { display: flex; flex-wrap: wrap; gap: 0.375rem; }
 .suggest button { font-size: 0.8125rem; padding: 0.3125rem 0.625rem; border-radius: 999px; border: 1px dashed var(--rule); background: transparent; }
+#watch-current:empty { display: none; }
+#watch-current button { border-style: solid; border-color: var(--ink); font-weight: 700; }
 .toast {
   position: fixed; left: 50%; bottom: calc(1.5rem + env(safe-area-inset-bottom)); transform: translateX(-50%);
   background: var(--ink); color: var(--paper); padding: 0.5rem 1rem; border-radius: 999px; font-size: 0.875rem;
@@ -377,7 +379,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
     <label class="switch"><input type="checkbox" id="explain-toggle" checked> Explain security terms (tap a dotted word)</label>
     <div id="install-help"></div>
     <div class="actions">
-      <button class="btn" data-action="watchlist">&#9733; Set up my watchlist</button>
+      <button class="btn" data-action="watchlist" id="watch-btn">&#9733; Set up my watchlist</button>
       <a class="btn" id="telegram-link" target="_blank" rel="noopener" hidden>Get critical alerts on Telegram</a>
     </div>
     <p class="fine">No accounts, no cookies, no personal data: visits are counted anonymously, and your watchlist stays on this device.
@@ -392,11 +394,13 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
       <h2 id="watchlist-title">My watchlist</h2>
       <p class="tagline">Vendors, products or keywords you care about, separated by commas. Stories that mention them get a &#9733; tag and appear under &#9733; My watchlist.</p>
     </div>
+    <div class="suggest" id="watch-current" aria-label="On your watchlist"></div>
     <textarea id="watch-input" placeholder="Fortinet, Okta, AWS, Chrome"></textarea>
     <div class="suggest" id="watch-suggest"></div>
     <p class="fine">Saved on this device only.</p>
     <div class="actions">
       <button class="btn primary" data-action="save-watchlist">Save</button>
+      <button class="btn" data-action="clear-watchlist">Clear all</button>
       <button class="btn" data-action="close-sheet">Cancel</button>
     </div>
   </div>
@@ -444,11 +448,11 @@ const GLOSSARY = [
   ["xss", /cross-site scripting|\bXSS\b/i, "Cross-site scripting (XSS)", "Injecting malicious script into a website so it runs in other visitors' browsers."],
   ["traversal", /path traversal|directory traversal/i, "Path traversal", "Using paths like ../ to read or write files outside the folder an app is supposed to allow."],
   ["overflow", /(heap|buffer|stack) overflow/i, "Memory overflow", "Writing more data than a memory area can hold. It can crash software or let attackers run their own code."],
-  ["apt", /\bAPT\b|state-sponsored|government-backed|nation-state/i, "State-backed hackers (APT)", "A well-funded group, often working for a government, that runs long, targeted espionage or sabotage campaigns."],
+  ["apt", /\bAPTs?\b|[Ss]tate-sponsored|[Gg]overnment-backed|[Nn]ation-state/, "State-backed hackers (APT)", "A well-funded group, often working for a government, that runs long, targeted espionage or sabotage campaigns."],
   ["ransomware", /ransomware/i, "Ransomware", "Malware that encrypts or steals data, then demands payment to restore it or to keep it from being leaked."],
   ["phishing", /phishing/i, "Phishing", "Fake emails, messages or sites that trick people into handing over passwords or running malware."],
   ["backdoor", /backdoor(ed)?/i, "Backdoor", "Hidden access an attacker plants so they can get back in later."],
-  ["rat", /\bRAT\b|remote access trojan/i, "Remote access trojan (RAT)", "Malware that gives an attacker remote control of the infected device."],
+  ["rat", /\bRATs?\b|[Rr]emote access [Tt]rojan/, "Remote access trojan (RAT)", "Malware that gives an attacker remote control of the infected device."],
   ["c2", /command[- ]and[- ]control|\bC2\b/i, "Command and control (C2)", "The servers attackers use to send instructions to infected machines and collect stolen data."],
   ["botnet", /botnet/i, "Botnet", "A network of hijacked devices that attackers control together, for spam, DDoS attacks or proxying traffic."],
   ["infostealer", /info-?stealer/i, "Infostealer", "Malware built to grab passwords, browser cookies, crypto wallets and other secrets from a device."],
@@ -548,8 +552,8 @@ function renderFilters() {
   const vendorChip = filter.startsWith("vendor:")
     ? `<button data-filter="all" aria-pressed="true" aria-label="Clear vendor filter">${esc(filter.slice(7))} &#10005;</button>` : "";
   $("filters").innerHTML = vendorChip + FILTERS.map(([key, label]) =>
-    `<button data-filter="${esc(key)}" aria-pressed="${key === filter}">${esc(label)}</button>`).join("")
-    + (filter === "mine" && myTerms.length ? '<button data-action="watchlist">Edit</button>' : "");
+    `<button data-filter="${esc(key)}" aria-pressed="${key === filter}">${esc(label)}</button>`
+    + (key === "mine" && filter === "mine" ? '<button data-action="watchlist" aria-label="Edit my watchlist">&#9998; Edit</button>' : "")).join("");
   $("filters").querySelector('[aria-pressed="true"]')?.scrollIntoView({ inline: "nearest", block: "nearest" });
 }
 
@@ -858,7 +862,7 @@ function showView(v) {
 function openCard(id) {
   showView("feed");
   if (!document.getElementById(id)) { filter = "all"; renderFilters(); renderFeed(); }
-  document.getElementById(id)?.scrollIntoView({ block: "start" });
+  scrollToCard(id);
 }
 
 function showTerm(key) {
@@ -874,7 +878,16 @@ function jumpToHash() {
   if (!id) return;
   if (view !== "feed") showView("feed");
   if (!document.getElementById(id) && filter !== "all") { filter = "all"; renderFilters(); renderFeed(); }
-  document.getElementById(id)?.scrollIntoView({ block: "start" });
+  scrollToCard(id);
+  // forget the link once used, so later refreshes don't pull the reader back to this story
+  try { history.replaceState(null, "", location.pathname + location.search); } catch {}
+}
+
+function scrollToCard(id) {
+  const slot = document.getElementById(id);
+  if (!slot) return;
+  slot.scrollIntoView({ block: "start" });
+  if (slot.dataset.n) setPosition(Number(slot.dataset.n), feed.querySelectorAll(".slot[data-n]").length);
 }
 
 function markSeen() {
@@ -897,6 +910,7 @@ function openSheet(id) {
 }
 
 function showWelcome() {
+  $("watch-btn").innerHTML = myTerms.length ? "&#9733; Edit my watchlist" : "&#9733; Set up my watchlist";
   const ua = navigator.userAgent;
   const installed = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
   const how = /iPhone|iPad|iPod/.test(ua) ? "In Safari, tap <b>Share</b>, then <b>Add to Home Screen</b>."
@@ -909,9 +923,19 @@ function showWelcome() {
   openSheet("welcome");
 }
 
+const watchInputTerms = () => $("watch-input").value.split(/[,\n]/).map((t) => t.trim()).filter(Boolean);
+
+// chips for what's on the list (tap to remove) and suggestions that aren't on it yet
+function renderWatchChips() {
+  const cur = watchInputTerms();
+  const has = (t) => cur.some((c) => c.toLowerCase() === t.toLowerCase());
+  $("watch-current").innerHTML = cur.map((t) => `<button data-remove="${esc(t)}" aria-label="Remove ${esc(t)}">${esc(t)} &#10005;</button>`).join("");
+  $("watch-suggest").innerHTML = SUGGESTIONS.filter((t) => !has(t)).map((t) => `<button data-suggest="${esc(t)}">+ ${esc(t)}</button>`).join("");
+}
+
 function showWatchlist() {
   $("watch-input").value = myTerms.join(", ");
-  $("watch-suggest").innerHTML = SUGGESTIONS.map((t) => `<button data-suggest="${esc(t)}">+ ${esc(t)}</button>`).join("");
+  renderWatchChips();
   openSheet("watchlist");
 }
 
@@ -966,7 +990,20 @@ document.addEventListener("click", (e) => {
   const term = e.target.closest("[data-term]");
   if (term && !(term.classList.contains("term") && document.body.classList.contains("no-explain"))) { showTerm(term.dataset.term); return; }
   const f = e.target.closest("[data-filter]");
-  if (f) { filter = f.dataset.filter; if (view !== "feed") showView("feed"); renderFilters(); renderFeed(); return; }
+  if (f) {
+    const next = f.dataset.filter;
+    // the watchlist chip opens the editor when it's already selected, or when nothing is on the list yet
+    if (next === "mine" && (filter === "mine" || !myTerms.length)) {
+      if (filter !== "mine") { filter = "mine"; renderFilters(); renderFeed(); }
+      showWatchlist();
+      return;
+    }
+    filter = next;
+    if (view !== "feed") showView("feed");
+    renderFilters();
+    renderFeed();
+    return;
+  }
   if (e.target.closest("[data-action=reload]")) load();
   const share = e.target.closest("[data-share]");
   if (share) { shareCard(share.dataset.share); return; }
@@ -977,14 +1014,20 @@ document.addEventListener("click", (e) => {
   if (action === "close-sheet") e.target.closest("dialog")?.close();
   const sug = e.target.closest("[data-suggest]");
   if (sug) {
-    const box = $("watch-input");
-    const cur = box.value.split(",").map((t) => t.trim()).filter(Boolean);
+    const cur = watchInputTerms();
     if (!cur.some((t) => t.toLowerCase() === sug.dataset.suggest.toLowerCase())) cur.push(sug.dataset.suggest);
-    box.value = cur.join(", ");
-    sug.remove();
+    $("watch-input").value = cur.join(", ");
+    renderWatchChips();
   }
+  const rm = e.target.closest("[data-remove]");
+  if (rm) {
+    $("watch-input").value = watchInputTerms().filter((t) => t !== rm.dataset.remove).join(", ");
+    renderWatchChips();
+  }
+  if (action === "clear-watchlist") { $("watch-input").value = ""; renderWatchChips(); }
 });
 $("about").addEventListener("click", showWelcome);
+$("watch-input").addEventListener("input", renderWatchChips);
 $("telegram-link").addEventListener("click", () => track("telegram-join"));
 $("welcome").addEventListener("close", () => { try { localStorage.setItem(WELCOMED_KEY, "1"); } catch {} });
 $("brand").addEventListener("click", () => { showView("feed"); feed.scrollTo({ top: 0 }); load(); loadDeadlines(); });
