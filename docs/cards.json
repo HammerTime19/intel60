@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T16:00:41Z",
+ "updated": "2026-10-19T16:30:30Z",
  "cards": [
   {
    "id": "f650fcc751",
@@ -3807,34 +3807,6 @@
    "published": "2026-10-05T17:00:00Z",
    "added": "2026-10-05T18:37:34Z",
    "also": []
-  },
-  {
-   "id": "cb207012ca",
-   "headline": "Microsoft Exchange privilege escalation flaw CVE-2026-96940",
-   "summary": "Microsoft released out-of-band updates for Exchange Server vulnerability CVE-2026-96940 (CVSS 8.8) allowing authenticated attackers to escalate privileges and read other users' mailboxes. Weak authorization controls enable lateral movement. Patch available now. Exchange administrators should apply updates immediately to prevent unauthorized mailbox access.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-96940"
-   ],
-   "watch": [
-    "Exchange"
-   ],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
-   "published": "2026-10-05T16:21:52Z",
-   "added": "2026-10-05T18:37:34Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-96940": {
-     "kev": false,
-     "epss": 0.00496,
-     "pct": 0.40558,
-     "cvss": 8.8,
-     "sev": "high"
-    }
-   },
-   "cve_checked": "2026-10-07T20:30:00Z"
   }
  ]
 }
