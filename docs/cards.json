@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T19:14:30Z",
+ "updated": "2026-10-19T19:30:32Z",
  "cards": [
   {
    "id": "06accfcb31",
@@ -3788,33 +3788,6 @@
     }
    },
    "cve_checked": "2026-10-07T20:29:53Z"
-  },
-  {
-   "id": "76475e6020",
-   "headline": "ShinyHunters member detained in Jordan, aiding FBI",
-   "summary": "Saif al-Din Khader, an alleged member of the ShinyHunters cybercriminal group, was detained in Jordan and is cooperating with the FBI. The group was linked to a massive breach exposing employee data. Law enforcement is leveraging his assistance to investigate the incident and the group's broader criminal activities.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/alleged-shinyhunters-member-detained-jordan-fbi",
-   "published": "2026-10-05T19:15:00Z",
-   "added": "2026-10-06T00:16:58Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/fbi-blames-contractors-missed-patch-for-shinyhunters-breach/"
-    },
-    {
-     "source": "Krebs on Security",
-     "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/"
-    }
-   ]
   }
  ]
 }
