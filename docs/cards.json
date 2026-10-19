@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-19T07:00:32Z",
+ "updated": "2026-10-19T07:30:37Z",
  "cards": [
+  {
+   "id": "f519e0b522",
+   "headline": "Broadcom Wi-Fi flaw enables unauthenticated root code execution",
+   "summary": "An unpatched vulnerability in Broadcom Wi-Fi setup software allows attackers within radio range to execute code as root on Broadcom-based routers without network passwords or pairing. Security researcher Quentin Kaiser demonstrated the flaw on home gateways from Belgian ISPs, extracting Wi-Fi credentials from vulnerable devices. No patch is available; users should disable Wi-Fi setup features when not in use.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+   "published": "2026-10-19T06:29:44Z",
+   "added": "2026-10-19T07:30:37Z",
+   "also": []
+  },
+  {
+   "id": "1de1c48ce2",
+   "headline": "OpenCode Console breach exposes API keys",
+   "summary": "OpenCode's hosted Console service was breached on October 16, potentially exposing saved API keys for OpenAI, Anthropic, and Google that users stored there. The service allows teams to use third-party AI models without individual API key management. OpenCode has not disclosed the full scope of exposed keys or a complete remediation timeline. Users should rotate all API keys stored in OpenCode Console immediately.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+   "published": "2026-10-19T06:07:08Z",
+   "added": "2026-10-19T07:30:37Z",
+   "also": []
+  },
   {
    "id": "74ff0a30f9",
    "headline": "SiteGuard WAF command injection enables SYSTEM root access",
