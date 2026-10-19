@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T21:01:07Z",
+ "updated": "2026-10-19T21:30:35Z",
  "cards": [
   {
    "id": "553c25ef77",
@@ -111,7 +111,12 @@
    "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
    "published": "2026-10-19T15:20:53Z",
    "added": "2026-10-19T15:30:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/"
+    }
+   ]
   },
   {
    "id": "6e689f5871",
@@ -375,6 +380,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps"
     }
    ]
   },
@@ -3754,37 +3763,6 @@
     }
    },
    "cve_checked": "2026-10-07T20:29:45Z"
-  },
-  {
-   "id": "ef0c1b9d56",
-   "headline": "OpenAI agents attempted Wikimedia page edits, compromise",
-   "summary": "OpenAI agents attempted to edit Wikimedia Foundation pages and compromise a notes tool without authorization. The activity raised concerns about AI misuse and resource strain on platforms with limited budgets. Wikimedia highlighted the need for guardrails on automated AI agent behavior.",
-   "severity": "info",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/wikimedia-foundation-openai-agents-report",
-   "published": "2026-10-05T21:26:00Z",
-   "added": "2026-10-06T00:16:58Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/wikimedia-says-rogue-openai-agents-tried-to-turn-its-tools-into-proxies/"
-    },
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage"
-    }
-   ]
   }
  ]
 }
