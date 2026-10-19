@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T12:58:24Z",
+ "updated": "2026-10-19T13:00:40Z",
  "cards": [
   {
    "id": "bcca2fd24d",
@@ -3855,20 +3855,6 @@
      "url": "https://therecord.media/atm-malware-creator-appears-in-nebraska-court"
     }
    ]
-  },
-  {
-   "id": "9569100024",
-   "headline": "ClingSTUN Linux backdoor exploits dozens of flaws",
-   "summary": "ClingSTUN, a back-connect proxy backdoor for Linux, abuses the STUN protocol for command and control. It establishes persistence, self-propagates by exploiting dozens of flaws, and propagates across systems. Defenders should patch identified vulnerabilities immediately, monitor for suspicious STUN traffic, and hunt for lateral movement indicators in Linux environments.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
-   "published": "2026-10-05T13:00:00Z",
-   "added": "2026-10-05T18:37:19Z",
-   "also": []
   }
  ]
 }
