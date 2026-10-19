@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T23:02:39Z",
+ "updated": "2026-10-19T23:30:30Z",
  "cards": [
   {
    "id": "5a8d0413be",
@@ -3763,34 +3763,6 @@
      "url": "https://www.securityweek.com/asos-confirms-cyberattack-data-breach/"
     }
    ]
-  },
-  {
-   "id": "96873dc265",
-   "headline": "Citrix NetScaler third zero-day in week exploited",
-   "summary": "Citrix disclosed CVE-2026-88779, a third actively exploited NetScaler zero-day within a week. The vulnerability causes denial of service and only affects deployments with SAML enabled, limiting its impact. Citrix released patches and mitigation guidance; customers should apply the fix promptly.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-88779"
-   ],
-   "watch": [
-    "Citrix"
-   ],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/citrix-netscaler-third-exploited-zero-day-vulnerability/",
-   "published": "2026-10-05T23:07:17Z",
-   "added": "2026-10-06T00:16:58Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-88779": {
-     "kev": true,
-     "epss": 0.00592,
-     "pct": 0.46593,
-     "cvss": 7.5,
-     "sev": "high"
-    }
-   },
-   "cve_checked": "2026-10-07T20:29:45Z"
   }
  ]
 }
