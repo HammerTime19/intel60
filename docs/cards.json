@@ -1,6 +1,48 @@
 {
- "updated": "2026-10-19T15:30:35Z",
+ "updated": "2026-10-19T16:00:41Z",
  "cards": [
+  {
+   "id": "f650fcc751",
+   "headline": "VK social media disrupted by data center drone strike",
+   "summary": "Russian social media platform VK experienced widespread service disruptions starting Sunday following a drone strike on one of its data centers. Users reported inability to load news feeds, access music, and use other platform features. The incident highlights infrastructure vulnerability to aerial attacks during ongoing military conflict.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/russian-social-media-giant-vk-faces-disruptions-drone-strike-data-center",
+   "published": "2026-10-19T15:55:00Z",
+   "added": "2026-10-19T16:00:40Z",
+   "also": []
+  },
+  {
+   "id": "c2afa77235",
+   "headline": "Drupal patches critical RCE in Entity List, Field UI modules",
+   "summary": "Drupal has released patches for critical remote code execution flaws affecting the Entity List and Field UI core modules. Exploitation paths exist when contributed modules are also present. The vulnerability poses fast exploitation risk. Administrators should update to the latest patched versions immediately to prevent unauthenticated code execution.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
+   "published": "2026-10-19T15:47:50Z",
+   "added": "2026-10-19T16:00:40Z",
+   "also": []
+  },
+  {
+   "id": "8b887cc388",
+   "headline": "DHS bans Chinese AI model DeepSeek from federal agencies",
+   "summary": "The Department of Homeland Security has banned the use of Chinese AI model DeepSeek and its parent company Hangzhou DeepSeek Artificial Intelligence by civilian federal agencies. The ban, effective since June 2026, cites national security concerns including data storage in China, privacy risks, and mass data collection potential. Agencies must cease procurement of DeepSeek products and services immediately.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/",
+   "published": "2026-10-19T15:27:20Z",
+   "added": "2026-10-19T16:00:40Z",
+   "also": []
+  },
   {
    "id": "c513afb976",
    "headline": "Rank Math PRO WordPress plugin compromised in supply chain",
@@ -3793,20 +3835,6 @@
     }
    },
    "cve_checked": "2026-10-07T20:30:00Z"
-  },
-  {
-   "id": "1b8095594e",
-   "headline": "Chinese TA419 impersonates US officials for AI espionage",
-   "summary": "Threat group TA419 established fake professional relationships with AI policy experts at US think tanks, universities, and legal organizations. The campaign targets high-value sources with access to US artificial intelligence policy discussions. Exploitation status unknown but relationship-building indicates preparation for future data theft. Organizations should verify contact authenticity and restrict policy information access.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage",
-   "published": "2026-10-05T15:52:59Z",
-   "added": "2026-10-05T18:37:34Z",
-   "also": []
   }
  ]
 }
