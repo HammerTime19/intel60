@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T19:30:32Z",
+ "updated": "2026-10-19T20:00:39Z",
  "cards": [
   {
    "id": "06accfcb31",
@@ -357,6 +357,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack"
     }
    ]
   },
@@ -455,7 +459,12 @@
    "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
    "published": "2026-10-16T16:43:39Z",
    "added": "2026-10-16T18:00:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/"
+    }
+   ]
   },
   {
    "id": "7ca5392923",
