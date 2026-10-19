@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-19T13:30:33Z",
+ "updated": "2026-10-19T14:00:45Z",
  "cards": [
+  {
+   "id": "5f2037864b",
+   "headline": "Feds suspect ransom negotiator ran ShinyHunters extortion",
+   "summary": "US investigators identified executives at ransomware negotiation firms with unusually close ties to ShinyHunters. One US executive allegedly helped operate ShinyHunters' victim pressure website. ShinyHunters, including FBI recruitment site breach, has extorted over $70 million this year. The group's control passed to 'Rey', a teenage hacker from Jordan, after original French members were arrested. Law enforcement continues pursuing the group.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Krebs on Security",
+   "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+   "published": "2026-10-19T13:48:56Z",
+   "added": "2026-10-19T14:00:45Z",
+   "also": []
+  },
+  {
+   "id": "47f4fcfb34",
+   "headline": "GhostAction malware disguised as font in GitHub repos",
+   "summary": "GhostAction attackers expanded their supply chain campaign by planting credential stealer malware disguised as a fake font file across 94 GitHub repositories. The group previously injected malicious GitHub Actions workflows into compromised projects. The attackers are refining their tactics to target open-source developers through phishing. Organizations should audit GitHub repositories for suspicious font files and unexpected Actions workflows.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+   "published": "2026-10-19T13:05:45Z",
+   "added": "2026-10-19T14:00:45Z",
+   "also": []
+  },
   {
    "id": "bcca2fd24d",
    "headline": "Plex2Shell exploit chain weaponized against Plex servers",
@@ -616,7 +644,12 @@
    "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
    "published": "2026-10-15T12:58:05Z",
    "added": "2026-10-15T14:22:11Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/"
+    }
+   ]
   },
   {
    "id": "e7e0582933",
@@ -3807,20 +3840,6 @@
      "url": "https://therecord.media/south-korean-bank-hacks-ai-agents"
     }
    ]
-  },
-  {
-   "id": "356db830ef",
-   "headline": "Belarusian Cyber Partisans inside Russian healthcare network",
-   "summary": "Russian cybersecurity researchers attributed a two-year espionage campaign inside a Russian healthcare network to Belarusian Cyber Partisans. The quiet, persistent intrusion contrasts with the group's public attacks and indicates expanded targeting. Healthcare organizations should review network access logs, enforce multi-factor authentication, and segment critical systems from general networks.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/belarusian-hacktivists-two-years-Russian-healthcare-network",
-   "published": "2026-10-05T13:55:00Z",
-   "added": "2026-10-05T18:37:19Z",
-   "also": []
   }
  ]
 }
