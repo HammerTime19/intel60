@@ -22,6 +22,7 @@ import config
 
 ROOT = Path(__file__).resolve().parent.parent
 CARDS_PATH = ROOT / "docs" / "cards.json"
+DEADLINES_PATH = ROOT / "docs" / "deadlines.json"
 STATE_PATH = ROOT / "pipeline" / "state.json"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; Intel60/1.0; personal news reader)"}
 UTC = dt.timezone.utc
@@ -109,6 +110,7 @@ def app_url():
 
 feed_errors = {}   # feed name -> error text, for this run
 kev_cves = set()   # every CVE in the CISA KEV catalog
+kev_entries = []   # the full KEV catalog from this run, for the patch-deadline tracker
 
 
 def fetch_rss(name, url):
@@ -149,6 +151,7 @@ def fetch_kev():
         feed_errors["CISA KEV"] = str(e)[:200]
         return []
     kev_cves.update(v.get("cveID", "") for v in vulns)
+    kev_entries[:] = vulns
     cutoff = now() - dt.timedelta(hours=config.MAX_ITEM_AGE_HOURS)
     items = []
     for v in vulns:
@@ -453,6 +456,28 @@ def send_digest(cards, state, local):
          priority=3, tags=["newspaper"], click=app_url() or None)
 
 
+# ---------- patch deadlines ----------
+
+def write_deadlines(cards):
+    """docs/deadlines.json: CVEs CISA added to KEV in the last DEADLINE_WINDOW_DAYS, with their due dates."""
+    if not kev_entries:  # KEV download failed this run: keep the previous file
+        return
+    since = (now() - dt.timedelta(days=config.DEADLINE_WINDOW_DAYS)).strftime("%Y-%m-%d")
+    card_for = {}
+    for c in sorted(cards, key=lambda c: c["published"]):  # newest card wins
+        for cve in c.get("cves", []):
+            card_for[cve] = c["id"]
+    items = [{
+        "cve": v.get("cveID", ""), "vendor": v.get("vendorProject", ""), "product": v.get("product", ""),
+        "name": clean(v.get("vulnerabilityName"), 160), "added": v.get("dateAdded", ""), "due": v.get("dueDate", ""),
+        "ransomware": v.get("knownRansomwareCampaignUse") == "Known",
+        "action": clean(v.get("requiredAction"), 220), "card": card_for.get(v.get("cveID", "")),
+    } for v in kev_entries if v.get("dateAdded", "") >= since and v.get("dueDate")]
+    items.sort(key=lambda x: (x["added"], x["due"]), reverse=True)
+    save_json(DEADLINES_PATH, {"updated": iso(now()), "items": items})
+    log(f"Patch deadlines: {len(items)} KEV entries from the last {config.DEADLINE_WINDOW_DAYS} days")
+
+
 # ---------- CVE details ----------
 
 NVD_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
@@ -645,6 +670,7 @@ def main():
                     state, key="ai", every_hours=6)
 
     enrich_cves(cards)
+    write_deadlines(cards)
 
     local = now().astimezone(ZoneInfo(config.TIMEZONE))
 

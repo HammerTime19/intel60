@@ -62,6 +62,7 @@ DIGEST_HOUR = 7           # morning summary notification (local hour); None to d
 CVE_LOOKUPS_PER_RUN = 12  # NVD allows ~5 requests per 30 seconds without a key
 CVE_RECHECK_HOURS = 6     # new CVEs often have no score yet; check again after this long
 CVE_RECHECK_DAYS = 7      # stop rechecking cards older than this
+DEADLINE_WINDOW_DAYS = 30 # patch-deadline tracker: KEV additions from this many days back
 
 # Owner alerts (sent to the NTFY_ADMIN_TOPIC secret, never to readers' topic)
 FEED_DOWN_AFTER_RUNS = 6  # alert when a feed has failed this many runs in a row (~3 hours)

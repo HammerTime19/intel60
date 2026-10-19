@@ -220,7 +220,78 @@ button { font: inherit; color: inherit; cursor: pointer; }
   text-decoration-color: var(--sev); text-underline-offset: 4px;
 }
 
-.status { display: flex; justify-content: space-between; padding: 0 1.25rem 0.625rem; font-size: 0.75rem; color: var(--muted); }
+/* bottom tabs */
+.tabs {
+  display: grid; grid-template-columns: repeat(3, 1fr); flex: none;
+  border-top: 1px solid var(--rule); padding: 0.375rem 0.5rem 0.25rem;
+}
+.tabs button {
+  position: relative; background: none; border: 0; padding: 0.3125rem 0; color: var(--muted);
+  display: grid; justify-items: center; gap: 0.1875rem; font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.02em;
+}
+.tabs svg { width: 1.375rem; height: 1.375rem; }
+.tabs button[aria-current="page"] { color: var(--ink); }
+.tabs .count {
+  position: absolute; top: 0.125rem; left: calc(50% + 0.5rem); min-width: 1.125rem; height: 1.125rem; padding: 0 0.3125rem;
+  border-radius: 999px; background: var(--critical); color: var(--on-sev); font-size: 0.6875rem; line-height: 1.125rem;
+}
+
+/* Deadlines and Trends views */
+.view { flex: 1; min-height: 0; overflow-y: auto; padding: 0.25rem 1rem 1.25rem; scrollbar-width: none; }
+.view::-webkit-scrollbar { display: none; }
+.view h2 { font-size: 1.875rem; font-weight: 800; font-variation-settings: "wdth" 66; line-height: 1; }
+.view .intro { color: var(--muted); font-size: 0.875rem; line-height: 1.45; margin: 0.5rem 0 1rem; }
+.view h3 {
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
+  margin: 1.25rem 0 0.5rem;
+}
+.dl {
+  width: 100%; text-align: left; display: grid; grid-template-columns: 4.5rem 1fr; gap: 0.75rem; align-items: start;
+  background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 0.75rem; margin-bottom: 0.5rem; color: var(--ink);
+}
+.pill {
+  border-radius: 8px; padding: 0.375rem 0.25rem; text-align: center; font-size: 0.75rem; font-weight: 800; line-height: 1.15;
+  background: color-mix(in srgb, var(--muted) 18%, transparent); color: var(--muted);
+}
+.pill b { display: block; font-size: 1.25rem; font-variation-settings: "wdth" 70; }
+.pill.soon { background: var(--critical); color: var(--on-sev); }
+.pill.today { background: var(--high); color: var(--on-sev); }
+.dl .what { font-weight: 800; font-variation-settings: "wdth" 80; font-size: 1rem; line-height: 1.2; }
+.dl .cve-line { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.75rem; color: var(--muted); margin-top: 0.1875rem; }
+.dl .name { font-size: 0.8125rem; color: var(--muted); margin-top: 0.25rem; line-height: 1.35; }
+.dl .flags { display: flex; flex-wrap: wrap; gap: 0.375rem; margin-top: 0.375rem; font-size: 0.6875rem; font-weight: 700; }
+.dl .flags span { padding: 0.125rem 0.4375rem; border-radius: 5px; border: 1px solid var(--rule); color: var(--muted); }
+.dl .flags .rw { border-color: var(--critical); color: var(--critical); }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+.tile { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 0.75rem; }
+.tile b { display: block; font-size: 1.875rem; font-weight: 800; font-variation-settings: "wdth" 70; line-height: 1; }
+.tile span { font-size: 0.75rem; color: var(--muted); }
+.tile.hot b { color: var(--critical); }
+.days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 0.375rem; align-items: end; height: 8rem;
+        background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 0.75rem 0.75rem 0.5rem; }
+.day { display: grid; grid-template-rows: 1fr auto; height: 100%; gap: 0.25rem; }
+.stack { display: flex; flex-direction: column-reverse; justify-content: flex-start; border-radius: 4px; overflow: hidden; }
+.stack i { display: block; }
+.day small { text-align: center; font-size: 0.6875rem; color: var(--muted); }
+.legend { display: flex; gap: 0.75rem; font-size: 0.6875rem; color: var(--muted); margin-top: 0.375rem; }
+.legend i { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 2px; margin-right: 0.25rem; }
+.bars { display: grid; gap: 0.375rem; }
+.bar {
+  width: 100%; display: grid; grid-template-columns: 6.5rem 1fr 1.75rem; gap: 0.5rem; align-items: center;
+  background: none; border: 0; padding: 0; color: var(--ink); font-size: 0.8125rem; text-align: left;
+}
+.bar .track { height: 0.625rem; border-radius: 999px; background: color-mix(in srgb, var(--muted) 15%, transparent); overflow: hidden; }
+.bar .track i { display: block; height: 100%; border-radius: 999px; background: var(--ink); }
+.bar.vendor .track i { background: var(--critical); }
+.bar .n { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+.note { font-size: 0.75rem; color: var(--muted); margin-top: 0.75rem; line-height: 1.4; }
+
+/* explain mode */
+.term { text-decoration: underline dotted color-mix(in srgb, var(--ink) 55%, transparent); text-underline-offset: 3px; cursor: help; }
+.no-explain .term { text-decoration: none; cursor: inherit; }
+[data-term].score { cursor: help; }
+.switch { display: flex; align-items: center; gap: 0.625rem; font-weight: 600; }
+.switch input { width: 1.125rem; height: 1.125rem; accent-color: var(--ink); }
 
 .empty { height: 100%; display: grid; place-content: center; gap: 0.75rem; padding: 2rem; text-align: center; color: var(--muted); }
 .empty strong { color: var(--ink); font-size: 1.125rem; }
@@ -276,7 +347,16 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
   </header>
   <nav class="filters" id="filters" aria-label="Filter stories"></nav>
   <main class="feed" id="feed" tabindex="-1"></main>
-  <footer class="status"><span id="position"></span></footer>
+  <section class="view" id="view-deadlines" hidden></section>
+  <section class="view" id="view-trends" hidden></section>
+  <nav class="tabs" aria-label="Sections">
+    <button data-view="feed" aria-current="page">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>Feed</button>
+    <button data-view="deadlines">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg>Deadlines<span class="count" id="dl-count" hidden></span></button>
+    <button data-view="trends">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Trends</button>
+  </nav>
 </div>
 
 <dialog class="sheet" id="welcome" aria-labelledby="welcome-title">
@@ -290,6 +370,11 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
       <li>Every story is rated <b>Critical</b>, <b>High</b> or <b>Info</b>, with CVSS, exploit chance and an <b>Exploited</b> tag for CVEs.</li>
       <li>Written by AI from 8 trusted security sources and CISA, updated every 30 minutes.</li>
     </ul>
+    <ul>
+      <li><b>Deadlines</b> counts down to the patch date for every bug CISA confirms is being exploited.</li>
+      <li><b>Trends</b> shows the week at a glance: the busiest days and the most-hit vendors.</li>
+    </ul>
+    <label class="switch"><input type="checkbox" id="explain-toggle" checked> Explain security terms (tap a dotted word)</label>
     <div id="install-help"></div>
     <div class="actions">
       <button class="btn" data-action="watchlist">&#9733; Set up my watchlist</button>
@@ -317,6 +402,14 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
   </div>
 </dialog>
 
+<dialog class="sheet" id="term-sheet" aria-labelledby="term-title">
+  <div class="sheet-body">
+    <h2 id="term-title"></h2>
+    <p id="term-def"></p>
+    <div class="actions"><button class="btn primary" data-action="close-sheet">Got it</button></div>
+  </div>
+</dialog>
+
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
@@ -333,6 +426,72 @@ const WELCOMED_KEY = "intel60:welcomed";
 const WATCHLIST_KEY = "intel60:watchlist";
 const GOATCOUNTER = "intel60";  // GoatCounter site code, e.g. "intel60" for intel60.goatcounter.com; counting stays off while empty
 const TELEGRAM_URL = "https://t.me/intel60news";  // public channel link, e.g. https://t.me/intel60news; the button stays hidden while empty
+const EXPLAIN_KEY = "intel60:explain";
+
+// plain-English glossary for explain mode; checked in this order, at most 3 terms marked per card
+const GLOSSARY = [
+  ["wild", /in the wild/i, "Exploited in the wild", "Real attackers are already using this against real victims. It isn't just a lab demo, so patch it first."],
+  ["zeroday", /zero-days?/i, "Zero-day", "A flaw attackers exploited before the vendor had a fix, so defenders got zero days of warning."],
+  ["rce", /remote code execution|\bRCE\b/i, "Remote code execution (RCE)", "An attacker can run their own commands on the system from elsewhere. Usually the most serious kind of bug, because it can lead to a full takeover."],
+  ["kev", /\bKEV\b|Known Exploited Vulnerabilities/i, "CISA KEV", "CISA's Known Exploited Vulnerabilities catalog: bugs with confirmed real-world attacks. US federal agencies must patch them by a deadline; everyone else should treat them as top priority."],
+  ["authbypass", /authentication bypass/i, "Authentication bypass", "A flaw that lets an attacker get in without a valid login."],
+  ["cmdinj", /command injection/i, "Command injection", "Input that ends up being run as a system command, letting an attacker execute commands of their choice."],
+  ["privesc", /privilege escalation|escalate privileges/i, "Privilege escalation", "Gaining more access than allowed, such as going from a normal user to administrator or root."],
+  ["lateral", /lateral movement/i, "Lateral movement", "After breaking in, attackers move from the first machine to other systems inside the network."],
+  ["supply", /supply[- ]chain/i, "Supply-chain attack", "Compromising a trusted vendor, software library or update so the attack spreads to everyone who uses it."],
+  ["ssrf", /\bSSRF\b|server-side request forgery/i, "SSRF", "Server-side request forgery: tricking a server into making requests it shouldn't, often to internal systems that aren't exposed to the internet."],
+  ["sqli", /SQL injection/i, "SQL injection", "Sneaking database commands into an input field to read, change or delete data."],
+  ["xss", /cross-site scripting|\bXSS\b/i, "Cross-site scripting (XSS)", "Injecting malicious script into a website so it runs in other visitors' browsers."],
+  ["traversal", /path traversal|directory traversal/i, "Path traversal", "Using paths like ../ to read or write files outside the folder an app is supposed to allow."],
+  ["overflow", /(heap|buffer|stack) overflow/i, "Memory overflow", "Writing more data than a memory area can hold. It can crash software or let attackers run their own code."],
+  ["apt", /\bAPT\b|state-sponsored|government-backed|nation-state/i, "State-backed hackers (APT)", "A well-funded group, often working for a government, that runs long, targeted espionage or sabotage campaigns."],
+  ["ransomware", /ransomware/i, "Ransomware", "Malware that encrypts or steals data, then demands payment to restore it or to keep it from being leaked."],
+  ["phishing", /phishing/i, "Phishing", "Fake emails, messages or sites that trick people into handing over passwords or running malware."],
+  ["backdoor", /backdoor(ed)?/i, "Backdoor", "Hidden access an attacker plants so they can get back in later."],
+  ["rat", /\bRAT\b|remote access trojan/i, "Remote access trojan (RAT)", "Malware that gives an attacker remote control of the infected device."],
+  ["c2", /command[- ]and[- ]control|\bC2\b/i, "Command and control (C2)", "The servers attackers use to send instructions to infected machines and collect stolen data."],
+  ["botnet", /botnet/i, "Botnet", "A network of hijacked devices that attackers control together, for spam, DDoS attacks or proxying traffic."],
+  ["infostealer", /info-?stealer/i, "Infostealer", "Malware built to grab passwords, browser cookies, crypto wallets and other secrets from a device."],
+  ["spyware", /spyware/i, "Spyware", "Software that secretly monitors a device: messages, location, microphone and more."],
+  ["ddos", /\bDDoS\b/i, "DDoS", "Distributed denial of service: flooding a service with traffic from many machines until it goes down."],
+  ["mfa", /\bMFA\b|multi-factor/i, "Multi-factor authentication (MFA)", "Requiring a second proof besides a password, such as a code or a security key."],
+  ["cvss", /\bCVSS\b/, "CVSS", "A 0 to 10 severity score for a vulnerability. 9.0 or higher is critical, 7.0 to 8.9 is high."],
+  ["epss", /\bEPSS\b/, "EPSS", "The estimated chance (0 to 100%) that a vulnerability will be exploited in the next 30 days, from FIRST. Higher means patch sooner."],
+];
+const TERM = Object.fromEntries(GLOSSARY.map(([key, , title, def]) => [key, { title, def }]));
+TERM.exploited = { title: "Exploited", def: "This CVE is in CISA's Known Exploited Vulnerabilities catalog, which means attacks are confirmed. Treat it as patch-now." };
+
+// marks up to 3 glossary terms in already-escaped text
+function explainTerms(text) {
+  const hits = [];
+  for (const [key, re] of GLOSSARY) {
+    if (hits.length === 3) break;
+    const m = re.exec(text);
+    if (!m) continue;
+    const start = m.index, end = m.index + m[0].length;
+    if (hits.some((h) => start < h.end && end > h.start)) continue;
+    hits.push({ start, end, key });
+  }
+  hits.sort((a, b) => a.start - b.start);
+  let out = "", at = 0;
+  for (const h of hits) {
+    out += text.slice(at, h.start) + `<span class="term" data-term="${h.key}" role="button" tabindex="0">${text.slice(h.start, h.end)}</span>`;
+    at = h.end;
+  }
+  return out + text.slice(at);
+}
+
+// vendors counted in Trends (first name is the label, the rest are aliases)
+const VENDORS = [
+  ["Microsoft", "Windows", "Exchange", "Azure", "Office", "Outlook"], ["Google", "Chrome", "Android"], ["Apple", "iOS", "macOS", "Safari"],
+  ["Cisco"], ["Fortinet", "FortiGate", "FortiOS"], ["Palo Alto", "PAN-OS"], ["Ivanti"], ["Citrix", "NetScaler"], ["VMware", "vCenter", "ESXi"],
+  ["Atlassian", "Confluence", "Jira"], ["Oracle"], ["SAP", "NetWeaver"], ["Adobe"], ["Linux"], ["AWS", "Amazon"], ["Okta"], ["GitHub"], ["GitLab"],
+  ["OpenAI", "ChatGPT"], ["Anthropic", "Claude"], ["Meta", "WhatsApp", "Facebook"], ["BeyondTrust"], ["F5"], ["Juniper"], ["SonicWall"],
+  ["WordPress"], ["Docker"], ["Zoom"], ["Salesforce"], ["Mozilla", "Firefox"], ["Samsung"], ["Ubiquiti"], ["D-Link"], ["NGINX"],
+  ["Apache"], ["Drupal"], ["Next.js"], ["Ledger"], ["Ahsay"],
+];
+const vendorRe = (names) => new RegExp(`(^|[^\\w])(${names.map(escapeRe).join("|")})(?![\\w])`, "i");
+
 const SUGGESTIONS = ["Microsoft", "Google", "Apple", "AWS", "Cisco", "Fortinet", "Palo Alto", "Ivanti",
   "Citrix", "Okta", "VMware", "Linux", "Chrome", "Ransomware", "Healthcare", "Education"];
 
@@ -344,6 +503,10 @@ let loadedAt = 0;
 let lastSeen = "";
 try { lastSeen = localStorage.getItem(LAST_SEEN_KEY) || ""; } catch {}
 let myTerms = [];
+let view = "feed";
+let deadlines = null;  // { updated, items } from deadlines.json
+let showAllPast = false;
+let position = "";
 try { myTerms = JSON.parse(localStorage.getItem(WATCHLIST_KEY) || "[]").filter((t) => typeof t === "string"); } catch {}
 
 const escapeRe = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -382,7 +545,9 @@ function dayLabel(key) {
 }
 
 function renderFilters() {
-  $("filters").innerHTML = FILTERS.map(([key, label]) =>
+  const vendorChip = filter.startsWith("vendor:")
+    ? `<button data-filter="all" aria-pressed="true" aria-label="Clear vendor filter">${esc(filter.slice(7))} &#10005;</button>` : "";
+  $("filters").innerHTML = vendorChip + FILTERS.map(([key, label]) =>
     `<button data-filter="${esc(key)}" aria-pressed="${key === filter}">${esc(label)}</button>`).join("")
     + (filter === "mine" && myTerms.length ? '<button data-action="watchlist">Edit</button>' : "");
   $("filters").querySelector('[aria-pressed="true"]')?.scrollIntoView({ inline: "nearest", block: "nearest" });
@@ -392,6 +557,11 @@ function visibleCards() {
   if (filter === "all") return data.cards;
   if (filter === "critical") return data.cards.filter((c) => c.severity === "critical");
   if (filter === "mine") return data.cards.filter((c) => myHits(c).length);
+  if (filter.startsWith("vendor:")) {
+    const names = VENDORS.find((v) => v[0] === filter.slice(7)) || [filter.slice(7)];
+    const re = vendorRe(names);
+    return data.cards.filter((c) => re.test(`${c.headline} ${c.summary}`));
+  }
   if (filter === "today" || filter === "yesterday") {
     return data.cards.filter((c) => dayLabel(dayKey(c.published)).toLowerCase() === filter);
   }
@@ -402,13 +572,13 @@ function visibleCards() {
 function cveHTML(cve, info) {
   const parts = [`<span class="cve-id">${esc(cve)}</span>`];
   if (info.cvss != null) {
-    parts.push(`<b class="score" data-level="${esc(info.sev || "")}" title="CVSS base score (NVD)">CVSS ${esc(Number(info.cvss).toFixed(1))}</b>`);
+    parts.push(`<b class="score" data-term="cvss" role="button" tabindex="0" data-level="${esc(info.sev || "")}" title="CVSS base score (NVD)">CVSS ${esc(Number(info.cvss).toFixed(1))}</b>`);
   }
   if (info.epss != null) {
     const pct = info.epss * 100;
-    parts.push(`<b class="score" title="Chance of exploitation in the next 30 days (FIRST EPSS)">EPSS ${esc(pct < 1 ? pct.toFixed(1) : Math.round(pct))}%</b>`);
+    parts.push(`<b class="score" data-term="epss" role="button" tabindex="0" title="Chance of exploitation in the next 30 days (FIRST EPSS)">EPSS ${esc(pct < 1 ? pct.toFixed(1) : Math.round(pct))}%</b>`);
   }
-  if (info.kev) parts.push(`<b class="score kev" title="In CISA's Known Exploited Vulnerabilities catalog">Exploited</b>`);
+  if (info.kev) parts.push(`<b class="score kev" data-term="exploited" role="button" tabindex="0" title="In CISA's Known Exploited Vulnerabilities catalog">Exploited</b>`);
   return `<span class="tag cve">${parts.join("")}</span>`;
 }
 
@@ -451,7 +621,7 @@ function cardHTML(c, n) {
           ${meter}
         </div>
         <h2 class="headline">${esc(c.headline)}</h2>
-        <p class="summary">${esc(c.summary)}</p>
+        <p class="summary">${explainTerms(esc(c.summary))}</p>
         ${tags ? `<div class="tags">${tags}</div>` : ""}
         <div class="foot">
           <div>
@@ -535,11 +705,15 @@ window.addEventListener("resize", () => { clearTimeout(fitTimer); fitTimer = set
 document.fonts?.ready.then(fitAll);
 
 function setPosition(n, total) {
-  $("position").textContent = total ? `${n} of ${total}` : "";
+  position = total ? `${n}/${total}` : "";
+  renderMeta();
 }
 
 function renderMeta() {
-  $("updated").textContent = data.updated ? `Updated ${ago(data.updated)}` : "";
+  const parts = [];
+  if (view === "feed" && position) parts.push(position);
+  if (data.updated) parts.push(`Updated ${ago(data.updated)}`);
+  $("updated").textContent = parts.join(" · ");
 }
 
 async function load() {
@@ -560,11 +734,145 @@ async function load() {
   renderMeta();
   renderFeed();
   jumpToHash();
+  if (view === "trends") renderTrends();
+}
+
+// ---------- Deadlines and Trends ----------
+
+const DAY = 86400000;
+function daysUntil(isoDate) {  // whole days from today (local) to a YYYY-MM-DD date
+  const [y, m, d] = isoDate.split("-").map(Number);
+  const t = new Date(); t.setHours(0, 0, 0, 0);
+  return Math.round((new Date(y, m - 1, d) - t) / DAY);
+}
+
+async function loadDeadlines() {
+  try {
+    const res = await fetch(`deadlines.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(res.status);
+    deadlines = await res.json();
+  } catch {
+    deadlines = deadlines || { items: [] };
+  }
+  const soon = deadlines.items.filter((x) => { const d = daysUntil(x.due); return d >= 0 && d <= 7; }).length;
+  $("dl-count").textContent = soon;
+  $("dl-count").hidden = !soon;
+  if (view === "deadlines") renderDeadlines();
+  if (view === "trends") renderTrends();
+}
+
+function deadlineRow(x) {
+  const d = daysUntil(x.due);
+  const pill = d > 1 ? `<span class="pill soon"><b>${d}</b>days left</span>`
+    : d === 1 ? `<span class="pill soon"><b>1</b>day left</span>`
+    : d === 0 ? `<span class="pill today"><b>Due</b>today</span>`
+    : `<span class="pill"><b>${-d}d</b>past due</span>`;
+  const flags = [`<span>Added ${esc(ago(x.added + "T12:00:00Z"))}</span>`];
+  if (x.ransomware) flags.push('<span class="rw">Used in ransomware</span>');
+  if (x.card) flags.push("<span>Read the story &rarr;</span>");
+  return `<button class="dl" data-deadline="${esc(x.cve)}">${pill}<span>
+    <span class="what">${esc(x.vendor)} ${esc(x.product)}</span>
+    <span class="cve-line" style="display:block">${esc(x.cve)}</span>
+    <span class="name" style="display:block">${esc(x.name)}</span>
+    <span class="flags">${flags.join("")}</span></span></button>`;
+}
+
+function renderDeadlines() {
+  const el = $("view-deadlines");
+  if (!deadlines) { el.innerHTML = emptyHTML("Loading deadlines", "One moment.", ""); return; }
+  const items = deadlines.items;
+  const open = items.filter((x) => daysUntil(x.due) >= 0).sort((a, b) => a.due.localeCompare(b.due));
+  const past = items.filter((x) => daysUntil(x.due) < 0);
+  el.innerHTML = `<h2>Patch deadlines</h2>
+    <p class="intro">Bugs CISA confirmed attackers are exploiting (last 30 days), with the US federal patch deadline. If it has passed and you haven't patched, you're behind.</p>
+    ${open.length ? `<h3>Due soon &middot; ${open.length}</h3>${open.map(deadlineRow).join("")}` : `<p class="note">Nothing due right now.</p>`}
+    ${past.length ? `<h3>Deadline passed &middot; still patch &middot; ${past.length}</h3>${past.slice(0, showAllPast ? past.length : 8).map(deadlineRow).join("")}
+      ${!showAllPast && past.length > 8 ? `<button class="btn" data-action="more-deadlines" style="width:100%">Show ${past.length - 8} more</button>` : ""}` : ""}
+    <p class="note">Source: CISA Known Exploited Vulnerabilities catalog. Tap a row to read Intel60's card, or the NVD entry when there isn't one.</p>`;
+}
+
+function renderTrends() {
+  const el = $("view-trends");
+  const since = Date.now() - 7 * DAY;
+  const week = data.cards.filter((c) => new Date(c.published) >= since);
+  const crit = week.filter((c) => c.severity === "critical").length;
+  const merged = week.reduce((n, c) => n + (c.also || []).length, 0);
+  const exploited = (deadlines?.items || []).filter((x) => daysUntil(x.added) >= -7).length;
+
+  const days = [];
+  for (let i = 6; i >= 0; i--) {
+    const dt = new Date(Date.now() - i * DAY);
+    const key = dayKey(dt.toISOString());
+    const list = week.filter((c) => dayKey(c.published) === key);
+    days.push({ label: dt.toLocaleDateString(undefined, { weekday: "short" }).slice(0, 2), list });
+  }
+  const maxDay = Math.max(1, ...days.map((d) => d.list.length));
+  const seg = (list, sev, color) => {
+    const n = list.filter((c) => c.severity === sev).length;
+    return n ? `<i style="height:${(n / maxDay) * 100}%;background:var(--${color})" title="${n} ${sev}"></i>` : "";
+  };
+  const dayBars = days.map((d) => `<div class="day"><div class="stack">${seg(d.list, "critical", "critical")}${seg(d.list, "high", "high")}${seg(d.list, "info", "info")}</div><small>${esc(d.label)}</small></div>`).join("");
+
+  const vendors = VENDORS.map((names) => {
+    const re = vendorRe(names);
+    return [names[0], week.filter((c) => re.test(`${c.headline} ${c.summary}`)).length];
+  }).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]).slice(0, 8);
+  const maxV = Math.max(1, ...vendors.map(([, n]) => n));
+  const vendorBars = vendors.map(([name, n]) => `<button class="bar vendor" data-vendor="${esc(name)}"><span>${esc(name)}</span><span class="track"><i style="width:${(n / maxV) * 100}%"></i></span><span class="n">${n}</span></button>`).join("");
+
+  const cats = {};
+  for (const c of week) cats[c.category] = (cats[c.category] || 0) + 1;
+  const catList = Object.entries(cats).sort((a, b) => b[1] - a[1]);
+  const maxC = Math.max(1, ...catList.map(([, n]) => n));
+  const catBars = catList.map(([name, n]) => `<button class="bar" data-filter="${esc(name)}"><span>${esc(name)}</span><span class="track"><i style="width:${(n / maxC) * 100}%"></i></span><span class="n">${n}</span></button>`).join("");
+
+  el.innerHTML = `<h2>This week</h2>
+    <p class="intro">The last 7 days of security news at a glance. Tap a vendor or category to see its stories.</p>
+    <div class="tiles">
+      <div class="tile"><b>${week.length}</b><span>stories</span></div>
+      <div class="tile hot"><b>${crit}</b><span>rated critical</span></div>
+      <div class="tile hot"><b>${exploited}</b><span>newly exploited CVEs (CISA)</span></div>
+      <div class="tile"><b>${merged}</b><span>duplicate reports merged</span></div>
+    </div>
+    <h3>Stories per day</h3>
+    <div class="days">${dayBars}</div>
+    <div class="legend"><span><i style="background:var(--critical)"></i>Critical</span><span><i style="background:var(--high)"></i>High</span><span><i style="background:var(--info)"></i>Info</span></div>
+    ${vendors.length ? `<h3>Most mentioned vendors</h3><div class="bars">${vendorBars}</div>` : ""}
+    <h3>By category</h3><div class="bars">${catBars}</div>`;
+}
+
+function showView(v) {
+  view = v;
+  document.querySelectorAll(".tabs [data-view]").forEach((b) => b.toggleAttribute("aria-current", b.dataset.view === v));
+  document.querySelectorAll(".tabs [aria-current]").forEach((b) => b.setAttribute("aria-current", "page"));
+  feed.hidden = v !== "feed";
+  $("filters").hidden = v !== "feed";
+  $("view-deadlines").hidden = v !== "deadlines";
+  $("view-trends").hidden = v !== "trends";
+  if (v === "deadlines") { renderDeadlines(); $("view-deadlines").scrollTop = 0; }
+  if (v === "trends") { renderTrends(); $("view-trends").scrollTop = 0; }
+  if (v === "feed") fitAll();
+  renderMeta();
+}
+
+function openCard(id) {
+  showView("feed");
+  if (!document.getElementById(id)) { filter = "all"; renderFilters(); renderFeed(); }
+  document.getElementById(id)?.scrollIntoView({ block: "start" });
+}
+
+function showTerm(key) {
+  const t = TERM[key];
+  if (!t) return;
+  $("term-title").textContent = t.title;
+  $("term-def").textContent = t.def;
+  openSheet("term-sheet");
 }
 
 function jumpToHash() {
   const id = decodeURIComponent(location.hash.slice(1));
   if (!id) return;
+  if (view !== "feed") showView("feed");
   if (!document.getElementById(id) && filter !== "all") { filter = "all"; renderFilters(); renderFeed(); }
   document.getElementById(id)?.scrollIntoView({ block: "start" });
 }
@@ -644,13 +952,27 @@ async function shareCard(id) {
 }
 
 document.addEventListener("click", (e) => {
+  const tab = e.target.closest("[data-view]");
+  if (tab) { showView(tab.dataset.view); return; }
+  const dl = e.target.closest("[data-deadline]");
+  if (dl) {
+    const x = deadlines.items.find((i) => i.cve === dl.dataset.deadline);
+    if (x?.card && data.cards.some((c) => c.id === x.card)) openCard(x.card);
+    else window.open(`https://nvd.nist.gov/vuln/detail/${encodeURIComponent(dl.dataset.deadline)}`, "_blank", "noopener");
+    return;
+  }
+  const vend = e.target.closest("[data-vendor]");
+  if (vend) { filter = `vendor:${vend.dataset.vendor}`; showView("feed"); renderFilters(); renderFeed(); return; }
+  const term = e.target.closest("[data-term]");
+  if (term && !(term.classList.contains("term") && document.body.classList.contains("no-explain"))) { showTerm(term.dataset.term); return; }
   const f = e.target.closest("[data-filter]");
-  if (f) { filter = f.dataset.filter; renderFilters(); renderFeed(); return; }
+  if (f) { filter = f.dataset.filter; if (view !== "feed") showView("feed"); renderFilters(); renderFeed(); return; }
   if (e.target.closest("[data-action=reload]")) load();
   const share = e.target.closest("[data-share]");
   if (share) { shareCard(share.dataset.share); return; }
   const action = e.target.closest("[data-action]")?.dataset.action;
   if (action === "watchlist") showWatchlist();
+  if (action === "more-deadlines") { showAllPast = true; renderDeadlines(); return; }
   if (action === "save-watchlist") saveWatchlist();
   if (action === "close-sheet") e.target.closest("dialog")?.close();
   const sug = e.target.closest("[data-suggest]");
@@ -665,22 +987,33 @@ document.addEventListener("click", (e) => {
 $("about").addEventListener("click", showWelcome);
 $("telegram-link").addEventListener("click", () => track("telegram-join"));
 $("welcome").addEventListener("close", () => { try { localStorage.setItem(WELCOMED_KEY, "1"); } catch {} });
-$("brand").addEventListener("click", () => { feed.scrollTo({ top: 0 }); load(); });
+$("brand").addEventListener("click", () => { showView("feed"); feed.scrollTo({ top: 0 }); load(); loadDeadlines(); });
 window.addEventListener("hashchange", jumpToHash);
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState === "hidden") markSeen();
   else if (Date.now() - loadedAt > 5 * 60000) load();
 });
 document.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && e.target.dataset?.term) { e.target.click(); return; }
   const step = { ArrowDown: 1, j: 1, ArrowUp: -1, k: -1 }[e.key];
-  if (!step) return;
+  if (!step || view !== "feed") return;
   e.preventDefault();
   feed.scrollBy({ top: step * feed.clientHeight });
 });
 setInterval(renderMeta, 60000);
 
+let explainOn = true;
+try { explainOn = localStorage.getItem(EXPLAIN_KEY) !== "off"; } catch {}
+document.body.classList.toggle("no-explain", !explainOn);
+$("explain-toggle").checked = explainOn;
+$("explain-toggle").addEventListener("change", (e) => {
+  document.body.classList.toggle("no-explain", !e.target.checked);
+  try { localStorage.setItem(EXPLAIN_KEY, e.target.checked ? "on" : "off"); } catch {}
+});
+
 renderFilters();
 load();
+loadDeadlines();
 if (GOATCOUNTER && location.hostname.endsWith("github.io")) {
   const gc = document.createElement("script");
   gc.async = true;

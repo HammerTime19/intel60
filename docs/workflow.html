@@ -52,6 +52,14 @@ h1 { font-size: 28px; letter-spacing: -0.01em; }
 .box li { color: var(--muted); font-size: 13.5px; margin: 3px 0 3px 18px; }
 .key { margin-top: 22px; padding: 14px 16px; border-radius: 12px; border: 1px dashed var(--rule); color: var(--muted); }
 .key b { color: var(--ink); }
+.back {
+  display: inline-flex; align-items: center; gap: 6px; margin-bottom: 18px; padding: 8px 14px; border-radius: 999px;
+  border: 1px solid var(--rule); color: var(--ink); text-decoration: none; font-weight: 700; font-size: 14px; background: var(--panel);
+}
+.start {
+  display: block; margin: 26px auto 0; width: fit-content; padding: 12px 22px; border-radius: 999px;
+  background: var(--ink); color: var(--bg); text-decoration: none; font-weight: 800;
+}
 
 @media (max-width: 640px) {
   .branch { grid-template-columns: 1fr; margin-left: 0; }
@@ -64,6 +72,7 @@ h1 { font-size: 28px; letter-spacing: -0.01em; }
 </head>
 <body>
 <div class="wrap">
+  <a class="back" href="./">&larr; Back to Intel60</a>
   <h1>How Intel60 works</h1>
   <p class="lede">Every 30 minutes, a short automated run turns new security news into 60-word cards. It takes about a minute, and readers see the result the next time they open the app.</p>
 
@@ -168,6 +177,9 @@ h1 { font-size: 28px; letter-spacing: -0.01em; }
       <ul>
         <li>Swipe up for the next card</li>
         <li>Today / Yesterday dividers and filters</li>
+        <li>Deadlines: countdown to patch every exploited bug</li>
+        <li>Trends: the week's busiest days and most-hit vendors</li>
+        <li>Tap a dotted term for a plain-English explanation</li>
         <li>Severity strip and 3-bar threat meter</li>
         <li>Text shrinks so every card fits the screen</li>
         <li>Works offline and updates itself</li>
@@ -187,6 +199,8 @@ h1 { font-size: 28px; letter-spacing: -0.01em; }
   <div class="key">
     <b>The key idea:</b> the expensive work (Claude) happens <b>once per story</b> on GitHub's computer. Readers only download the finished result, which is why 1 reader and 1,000 readers cost the same.
   </div>
+
+  <a class="start" href="./">Start reading &rarr;</a>
 </div>
 <script data-goatcounter="https://intel60.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>

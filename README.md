@@ -19,6 +19,9 @@
 - **Adds vulnerability context.** Cards that mention CVEs show the CVSS score (NVD), the probability of exploitation in the next 30 days (FIRST EPSS), and an **Exploited** tag for CVEs on CISA's KEV list.
 - **Pushes what matters.** Critical stories, and high-severity stories that match a watchlist of vendors, go to subscribers' phones through [ntfy](https://ntfy.sh), plus a 7am morning brief. Overnight alerts arrive silently.
 - **Personal and shareable.** Each reader can set a private **My watchlist** (vendors and products, stored only on their device) to get a filtered feed with ★ tags, and every card has a share button that links straight to that story.
+- **Patch deadlines.** A Deadlines tab lists every vulnerability CISA added to its exploited catalog in the last 30 days, with a countdown to the federal patch date, linked to the matching card.
+- **Trends.** A Trends tab shows the past 7 days at a glance: stories per day by severity, the most-mentioned vendors (tap one to filter the feed) and the category split.
+- **Explain mode.** Key terms in summaries (RCE, zero-day, KEV, lateral movement and more) get a dotted underline; tap one for a plain-English definition. It can be switched off in the info menu.
 - **Works like an app.** Installable progressive web app with offline support, one card per screen, Today/Yesterday grouping, severity filters, and text that resizes so every story fits.
 
 ## How it works
@@ -66,6 +69,7 @@ Python (requests, feedparser) · GitHub Actions · GitHub Pages · Anthropic API
 | `docs/sw.js` | Offline support and automatic app updates |
 | `docs/workflow.html` | Visual guide to how the pipeline works |
 | `docs/cards.json` | Current cards (written by the pipeline) |
+| `docs/deadlines.json` | Recent CISA KEV additions and their patch deadlines (written by the pipeline) |
 | `.github/workflows/update.yml` | Runs the pipeline, commits cards, deploys Pages, reports failures |
 
 ## Run your own copy
