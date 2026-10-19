@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-19T21:30:35Z",
+ "updated": "2026-10-19T22:00:36Z",
  "cards": [
+  {
+   "id": "5a8d0413be",
+   "headline": "Nikkei suffers third breach in a month, 1.83M records exposed",
+   "summary": "Nikkei Inc. disclosed its third data breach within approximately one month, exposing 1.83 million personal information records. The repeated breaches indicate persistent security vulnerabilities or ongoing compromise of the company's systems. Affected individuals should monitor accounts for unauthorized activity and consider credit monitoring services as a precaution.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+   "published": "2026-10-19T21:49:48Z",
+   "added": "2026-10-19T22:00:36Z",
+   "also": []
+  },
+  {
+   "id": "cd2448e33b",
+   "headline": "Microsoft support scam uses Russian TDS, Cloudflare abuse",
+   "summary": "Researchers infiltrated a large-scale scam operation impersonating Microsoft support. The scheme leverages a malicious traffic distribution system operated by a Russian organization and abuses thousands of Cloudflare links to route victims. This phishing infrastructure is widely deployed and targets unsuspecting users. Users should verify support contacts independently and avoid clicking suspicious links.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation",
+   "published": "2026-10-19T21:13:41Z",
+   "added": "2026-10-19T22:00:36Z",
+   "also": []
+  },
   {
    "id": "553c25ef77",
    "headline": "AdFection uses targeted ads to deliver spyware",
