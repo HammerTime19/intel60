@@ -1,6 +1,22 @@
 {
- "updated": "2026-10-19T08:30:31Z",
+ "updated": "2026-10-19T09:00:36Z",
  "cards": [
+  {
+   "id": "15156651e2",
+   "headline": "October Windows Server updates break Exchange mail flow",
+   "summary": "Microsoft's October security updates for Windows Server are causing Outlook Web Access (OWA) sign-in failures and mail delivery disruption on some Exchange Server systems. The issue affects organizations running affected Windows Server and Exchange versions. Microsoft is investigating and working on a resolution. Administrators should monitor systems and consider delaying updates or applying workarounds until a fix is available.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [
+    "Exchange"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+   "published": "2026-10-19T08:58:41Z",
+   "added": "2026-10-19T09:00:35Z",
+   "also": []
+  },
   {
    "id": "f519e0b522",
    "headline": "Broadcom Wi-Fi flaw enables unauthenticated root code execution",
