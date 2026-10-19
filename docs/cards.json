@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-19T16:30:30Z",
+ "updated": "2026-10-19T17:00:39Z",
  "cards": [
+  {
+   "id": "425846ce93",
+   "headline": "Ahold Delhaize cyberattack disrupts US, European grocery operations",
+   "summary": "Ahold Delhaize, a major multinational grocery retailer, confirmed a cyberattack forced it to take systems offline across most U.S. and European brands, impacting customers on both continents. The nature and scope of the attack remain unclear from available details. The retailer has taken systems offline as a containment measure. Retailers should review incident response protocols and monitor for similar attacks.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
+   "published": "2026-10-19T16:45:00Z",
+   "added": "2026-10-19T17:00:39Z",
+   "also": []
+  },
   {
    "id": "f650fcc751",
    "headline": "VK social media disrupted by data center drone strike",
@@ -3791,20 +3805,6 @@
    "source": "BleepingComputer",
    "url": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
    "published": "2026-10-05T17:19:53Z",
-   "added": "2026-10-05T18:37:34Z",
-   "also": []
-  },
-  {
-   "id": "9824afb5bb",
-   "headline": "Ukraine ATB grocery chain hit by extortion cyberattack",
-   "summary": "ATB, Ukraine's largest grocery chain, confirmed a cyberattack with hackers demanding ransom and threatening to leak stolen data. The attack disrupted operations at a critical supply infrastructure. Incident status under investigation. Customers and employees should monitor for compromised data and watch for follow-up threats.",
-   "severity": "high",
-   "category": "Ransomware",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/atb-ukraine-cyberattack-ransomware",
-   "published": "2026-10-05T17:00:00Z",
    "added": "2026-10-05T18:37:34Z",
    "also": []
   }
