@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-19T12:30:28Z",
+ "updated": "2026-10-19T12:58:24Z",
  "cards": [
+  {
+   "id": "bcca2fd24d",
+   "headline": "Plex2Shell exploit chain weaponized against Plex servers",
+   "summary": "Threat actors exploited the Plex2Shell vulnerability chain within hours of public disclosure to deliver cryptocurrency miners and proxy software to Plex media servers. The exploitation demonstrates active weaponization of the flaw in production environments. Server administrators should immediately update Plex to the latest patched version to prevent compromise.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
+   "published": "2026-10-19T12:44:39Z",
+   "added": "2026-10-19T12:58:24Z",
+   "also": []
+  },
   {
    "id": "6e3176643e",
    "headline": "Compromised login exposes millions of California students' records",
