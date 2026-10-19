@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-19T18:30:34Z",
+ "updated": "2026-10-19T19:00:40Z",
  "cards": [
+  {
+   "id": "06accfcb31",
+   "headline": "Bullhorn staffing platform attacked, system offline",
+   "summary": "Staffing software company Bullhorn has taken its platform offline to contain a cyberattack that caused system-wide outages. The extent of the breach and whether attacker data was exfiltrated remains unclear. Users should monitor for notifications from Bullhorn regarding restoration and potential credential compromise. Organizations should prepare incident response procedures and credential rotation plans.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+   "published": "2026-10-19T18:51:13Z",
+   "added": "2026-10-19T19:00:40Z",
+   "also": []
+  },
   {
    "id": "561dd3f2ed",
    "headline": "Siemens Software Center DLL hijacking exploited in ClickFix attacks",
@@ -167,7 +181,12 @@
    "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
    "published": "2026-10-19T12:44:39Z",
    "added": "2026-10-19T12:58:24Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html"
+    }
+   ]
   },
   {
    "id": "6e3176643e",
@@ -223,7 +242,12 @@
    "url": "https://cyberscoop.com/pegasus-spyware-serbia-critics-elections/",
    "published": "2026-10-19T10:00:00Z",
    "added": "2026-10-19T10:30:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/serbia-spyware-pegasus-elections"
+    }
+   ]
   },
   {
    "id": "82c7537f54",
