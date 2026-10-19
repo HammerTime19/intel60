@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T17:00:39Z",
+ "updated": "2026-10-19T17:30:34Z",
  "cards": [
   {
    "id": "425846ce93",
@@ -3777,36 +3777,6 @@
      "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/"
     }
    ]
-  },
-  {
-   "id": "a38fefbaa9",
-   "headline": "Citrix NetScaler new vulnerability tracked by US Australia",
-   "summary": "Citrix confirmed tracking a newly observed issue in customer-managed NetScaler deployments following earlier advisory. US and Australia warn of the latest vulnerability. Citrix claims it differs from last week's reported flaws. Details limited. NetScaler administrators should monitor Citrix advisories and apply patches when released.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "Citrix"
-   ],
-   "source": "The Record",
-   "url": "https://therecord.media/us-australia-warn-of-latest-citrix-vulnerability",
-   "published": "2026-10-05T17:22:00Z",
-   "added": "2026-10-05T18:37:34Z",
-   "also": []
-  },
-  {
-   "id": "6a61b4fe42",
-   "headline": "IQVIA fined €7M for failing to anonymize health data",
-   "summary": "Italy's Data Protection Authority fined IQVIA €7 million for poor data-processing practices that risked de-anonymization of approximately one million patients' health records. Regulatory enforcement action highlights data governance failures. No active breach reported but control deficiencies exposed. Healthcare organizations should strengthen anonymization and data handling procedures.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
-   "published": "2026-10-05T17:19:53Z",
-   "added": "2026-10-05T18:37:34Z",
-   "also": []
   }
  ]
 }
