@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T14:00:52Z",
+ "updated": "2026-10-20T14:30:37Z",
  "cards": [
+  {
+   "id": "ba5b9e5d87",
+   "headline": "Pro-Ukraine group disrupts Russian school assessments",
+   "summary": "Hackers claiming to be a pro-Ukraine group placed anti-Putin messages on a Russian education assessment platform used nationwide, disrupting school testing. Russian authorities said they restored systems. The incident highlights vulnerabilities in critical infrastructure serving education sector operations.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/anti-putin-messages-disrupt-russian-education-platform",
+   "published": "2026-10-20T14:05:00Z",
+   "added": "2026-10-20T14:30:37Z",
+   "also": []
+  },
   {
    "id": "0db72c8bc2",
    "headline": "AOMEI Backupper compromised distributing ShinyRoad backdoor",
@@ -13,7 +27,12 @@
    "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
    "published": "2026-10-20T13:51:01Z",
    "added": "2026-10-20T14:00:52Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/aomei-yet-to-notify-customers-hijack-software"
+    }
+   ]
   },
   {
    "id": "b8cb67bf0a",
@@ -294,7 +313,12 @@
    "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/",
    "published": "2026-10-19T15:27:20Z",
    "added": "2026-10-19T16:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/"
+    }
+   ]
   },
   {
    "id": "c513afb976",
