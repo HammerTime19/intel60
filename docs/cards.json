@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T11:00:36Z",
+ "updated": "2026-10-20T11:30:33Z",
  "cards": [
   {
    "id": "87e932b60d",
@@ -163,7 +163,12 @@
    "url": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
    "published": "2026-10-19T16:45:00Z",
    "added": "2026-10-19T17:00:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/"
+    }
+   ]
   },
   {
    "id": "f650fcc751",
@@ -3709,20 +3714,6 @@
    "source": "SecurityWeek",
    "url": "https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/",
    "published": "2026-10-06T11:48:59Z",
-   "added": "2026-10-06T14:07:58Z",
-   "also": []
-  },
-  {
-   "id": "a47789abd9",
-   "headline": "Critical vulnerabilities found in 15,465 public MCP servers",
-   "summary": "OX Security discovered critical vulnerabilities in Anthropic's Model Context Protocol ecosystem. The research examined 15,465 public MCP servers used to connect AI agents to tools and data. Critical flaws could allow attackers to compromise AI workflows and access sensitive data. Organizations deploying MCP servers should assess exposure, apply patches from Anthropic, and implement input validation and access controls.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
-   "published": "2026-10-06T11:02:30Z",
    "added": "2026-10-06T14:07:58Z",
    "also": []
   }
