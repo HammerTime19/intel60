@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T20:00:46Z",
+ "updated": "2026-10-20T20:30:31Z",
  "cards": [
   {
    "id": "aa2f36ffa3",
@@ -3868,20 +3868,6 @@
    "source": "BleepingComputer",
    "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
    "published": "2026-10-06T21:00:27Z",
-   "added": "2026-10-06T23:44:43Z",
-   "also": []
-  },
-  {
-   "id": "b53f151bdb",
-   "headline": "Healthcare sector unprepared for post-quantum cryptography",
-   "summary": "A study of 2.5 million devices across 50 healthcare organizations reveals critical infrastructure lacks readiness for quantum-resistant cryptography adoption. Healthcare systems using current encryption standards face future decryption risks as quantum computing advances. Organizations should begin cryptographic inventory audits and develop migration strategies to post-quantum algorithms.",
-   "severity": "info",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
-   "published": "2026-10-06T20:30:27Z",
    "added": "2026-10-06T23:44:43Z",
    "also": []
   }
