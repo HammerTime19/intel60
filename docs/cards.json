@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T19:00:36Z",
+ "updated": "2026-10-20T19:30:35Z",
  "cards": [
+  {
+   "id": "6203e91529",
+   "headline": "Educational Testing Service breached, California students affected",
+   "summary": "Assessment contractor ETS suffered a months-long data breach exposing California public school student records, according to the California Department of Education. The breach's full scope and data types remain unclear from available details. California has issued warnings to affected students. Organizations should monitor for potential misuse of exposed educational records and follow notification protocols.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/california-warns-all-public-school-students-of-data-breach",
+   "published": "2026-10-20T19:20:00Z",
+   "added": "2026-10-20T19:30:35Z",
+   "also": []
+  },
   {
    "id": "29ac1c4b3b",
    "headline": "23andMe successor pays $6M California settlement",
@@ -3812,20 +3826,6 @@
    "url": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
    "published": "2026-10-06T20:30:27Z",
    "added": "2026-10-06T23:44:43Z",
-   "also": []
-  },
-  {
-   "id": "20fd106726",
-   "headline": "Pwn2Own Ireland: 32 zero-days exploited on day one",
-   "summary": "Security researchers exploited 32 zero-day vulnerabilities during the first day of Pwn2Own Ireland 2026 competition, targeting the Samsung Galaxy S26 with two successful hacks and earning $388,500 in prize money. The competition demonstrates active discovery of previously unknown flaws in consumer devices. Researchers and device makers use Pwn2Own to identify security gaps and prioritize patching efforts.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
-   "published": "2026-10-06T19:21:53Z",
-   "added": "2026-10-06T19:47:23Z",
    "also": []
   }
  ]
