@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T13:30:34Z",
+ "updated": "2026-10-20T14:00:52Z",
  "cards": [
+  {
+   "id": "0db72c8bc2",
+   "headline": "AOMEI Backupper compromised distributing ShinyRoad backdoor",
+   "summary": "AOMEI Backupper was compromised in a targeted supply chain attack across multiple short windows, serving users a downloader for ShinyRoad modular backdoor framework. The malware could be installed during these compromise windows without user knowledge. Organizations using AOMEI should check for unauthorized downloads and monitor systems for ShinyRoad indicators. A security update is likely available.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
+   "published": "2026-10-20T13:51:01Z",
+   "added": "2026-10-20T14:00:52Z",
+   "also": []
+  },
   {
    "id": "b8cb67bf0a",
    "headline": "Nigerian spearphishing hacker sentenced to eight years",
@@ -448,6 +462,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/serbia-spyware-pegasus-elections"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html"
     }
    ]
   },
