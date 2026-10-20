@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T13:00:35Z",
+ "updated": "2026-10-20T13:30:34Z",
  "cards": [
+  {
+   "id": "b8cb67bf0a",
+   "headline": "Nigerian spearphishing hacker sentenced to eight years",
+   "summary": "A Nigerian national received an eight-year prison sentence for orchestrating spearphishing attacks against US tax preparation businesses since 2019, stealing $3.3 million from taxpayers. The coordinated campaign targeted employees at major tax firms to gain unauthorized access to systems and steal funds. Authorities completed the prosecution following a multi-year investigation. Tax preparation companies should strengthen email security and employee training against targeted spearphishing attacks.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+   "published": "2026-10-20T13:18:36Z",
+   "added": "2026-10-20T13:30:34Z",
+   "also": []
+  },
   {
    "id": "d02f2b9b09",
    "headline": "Threat actors abuse AI platform Cairn to hack 100+ organizations",
@@ -219,6 +233,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/"
     }
    ]
   },
@@ -3725,20 +3743,6 @@
    "url": "https://therecord.media/osaka-university-cancels-classes-ransomware",
    "published": "2026-10-06T14:52:00Z",
    "added": "2026-10-06T19:47:14Z",
-   "also": []
-  },
-  {
-   "id": "0ec2745721",
-   "headline": "RMM tools abused in phishing campaigns deliver malware",
-   "summary": "Threat actors continue exploiting remote management and monitoring tools via phishing emails delivering malicious PDF invoices. PDFs use OpenAction and URI keywords to redirect victims to malicious VBS files that download additional payloads. Organizations should enforce email filtering for suspicious PDF behaviors and monitor RMM tool usage for anomalies.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SANS ISC",
-   "url": "https://isc.sans.edu/diary/rss/33400",
-   "published": "2026-10-06T13:16:02Z",
-   "added": "2026-10-06T14:08:09Z",
    "also": []
   }
  ]
