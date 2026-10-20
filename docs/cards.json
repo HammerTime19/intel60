@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T15:00:34Z",
+ "updated": "2026-10-20T15:30:35Z",
  "cards": [
   {
    "id": "ba5b9e5d87",
@@ -60,7 +60,12 @@
    "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
    "published": "2026-10-20T12:47:22Z",
    "added": "2026-10-20T12:56:05Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html"
+    }
+   ]
   },
   {
    "id": "467c211f34",
@@ -3753,25 +3758,6 @@
    "published": "2026-10-06T16:59:24Z",
    "added": "2026-10-06T19:47:14Z",
    "also": []
-  },
-  {
-   "id": "26e65fb177",
-   "headline": "Fake ChatGPT sites steal credentials and MFA codes",
-   "summary": "Attackers deployed counterfeit ChatGPT, Gemini, Claude, and Perplexity websites using browser-in-browser attacks to steal login credentials and multi-factor authentication codes from advertising account managers. The campaign targets individuals with access to ad platforms and accounts. Defenders should educate users on phishing risks and enforce stronger MFA protections.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
-   "published": "2026-10-06T15:16:44Z",
-   "added": "2026-10-06T19:47:14Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html"
-    }
-   ]
   }
  ]
 }
