@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T06:30:34Z",
+ "updated": "2026-10-20T07:00:33Z",
  "cards": [
+  {
+   "id": "50e3424172",
+   "headline": "Ex-OpenAI engineer detained for planting spy device",
+   "summary": "A former OpenAI engineer, Saudi national Abdulrahman Alfozan, has been detained by U.S. authorities for allegedly planting a recording device in an executive conference room at OpenAI's San Francisco office to steal sensitive company secrets. Court documents reveal he maintained frequent communications with Saudi royal contacts via WhatsApp. The investigation examines potential corporate espionage and unauthorized surveillance.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+   "published": "2026-10-20T05:53:16Z",
+   "added": "2026-10-20T07:00:33Z",
+   "also": []
+  },
   {
    "id": "6c494d43a8",
    "headline": "ROMULUS ClickFix platform distributes LegionLoader malware",
@@ -3692,45 +3706,6 @@
    "published": "2026-10-06T08:19:24Z",
    "added": "2026-10-06T14:07:45Z",
    "also": []
-  },
-  {
-   "id": "f97880d759",
-   "headline": "Atlassian Data Center critical flaw exposes files unauthenticated",
-   "summary": "A critical vulnerability CVE-2026-21589 affects 8 Atlassian Data Center products hosted on-premises. The flaw allows unauthenticated attackers to read specific files from application root directories if they know exact file paths. Atlassian rated it 9.3 CVSS. Customers should apply patches immediately and restrict network access to vulnerable instances.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-21589"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-   "published": "2026-10-06T06:58:56Z",
-   "added": "2026-10-06T14:07:45Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/"
-    },
-    {
-     "source": "SANS ISC",
-     "url": "https://isc.sans.edu/diary/rss/33406"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-21589": {
-     "kev": true,
-     "epss": 0.01755,
-     "pct": 0.77225,
-     "cvss": 9.3,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-07T20:29:39Z"
   }
  ]
 }
