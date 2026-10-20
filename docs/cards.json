@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T12:30:37Z",
+ "updated": "2026-10-20T12:56:05Z",
  "cards": [
+  {
+   "id": "d02f2b9b09",
+   "headline": "Threat actors abuse AI platform Cairn to hack 100+ organizations",
+   "summary": "Multiple threat actors have exploited the Cairn AI platform to compromise over 100 organizations, gaining persistent access and conducting financial theft. At least three separate threat groups are leveraging the platform for malicious purposes. Organizations using Cairn should investigate account access logs and review for unauthorized activity. Patch or upgrade to secure versions if available.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
+   "published": "2026-10-20T12:47:22Z",
+   "added": "2026-10-20T12:56:05Z",
+   "also": []
+  },
   {
    "id": "467c211f34",
    "headline": "WhatsApp hid instructions blocking privacy regulator recommendations",
