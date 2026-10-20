@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T05:00:33Z",
+ "updated": "2026-10-20T05:30:28Z",
  "cards": [
   {
    "id": "6c494d43a8",
@@ -3731,29 +3731,6 @@
     }
    },
    "cve_checked": "2026-10-07T20:29:39Z"
-  },
-  {
-   "id": "15810e447b",
-   "headline": "ClickFix malware abuses browser cache to evade Windows limits",
-   "summary": "A new ClickFix variant tricks users on compromised websites into executing malicious payloads hidden in browser cache as fake PNG files. Microsoft Threat Intelligence identified the technique, which bypasses typical remote payload download patterns. The attack leverages legitimate browser prefetching behavior to deliver malware while evading Windows execution restrictions. Users should avoid running unknown scripts from untrusted websites.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
-   "published": "2026-10-06T05:22:55Z",
-   "added": "2026-10-06T06:47:57Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/clickfix-campaign-ukraine-lunex-stealer"
-    },
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads"
-    }
-   ]
   }
  ]
 }
