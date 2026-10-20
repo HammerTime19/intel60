@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T18:30:32Z",
+ "updated": "2026-10-20T19:00:36Z",
  "cards": [
+  {
+   "id": "29ac1c4b3b",
+   "headline": "23andMe successor pays $6M California settlement",
+   "summary": "California Attorney General Rob Bonta announced a $6 million settlement with 23andMe's successor over inadequate data protection before a 2023 breach. The company failed to implement sufficient safeguards for customer data. The settlement resolves allegations of cybersecurity negligence. Affected customers should monitor their accounts for unauthorized activity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/23andme-california-data-breach-settlement",
+   "published": "2026-10-20T18:32:00Z",
+   "added": "2026-10-20T19:00:36Z",
+   "also": []
+  },
   {
    "id": "f7a865abe7",
    "headline": "NIST, CISA, NSA share rogue AI agent incident response practices",
