@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T08:00:33Z",
+ "updated": "2026-10-20T08:30:28Z",
  "cards": [
   {
    "id": "50e3424172",
@@ -3697,20 +3697,6 @@
      "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html"
     }
    ]
-  },
-  {
-   "id": "5480e932d2",
-   "headline": "Engineer sentenced 32 months for locking employer devices",
-   "summary": "A former core infrastructure engineer at a New Jersey industrial company was sentenced to 32 months in prison for executing a ransomware-style attack that locked over 3,000 devices on the employer's network. The insider threat resulted in significant operational disruption. Organizations should implement robust access controls and monitor privileged user activity.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
-   "published": "2026-10-06T08:19:24Z",
-   "added": "2026-10-06T14:07:45Z",
-   "also": []
   }
  ]
 }
