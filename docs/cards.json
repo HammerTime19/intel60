@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T07:25:13Z",
+ "updated": "2026-10-20T07:30:31Z",
  "cards": [
   {
    "id": "50e3424172",
@@ -97,7 +97,12 @@
    "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
    "published": "2026-10-19T18:15:39Z",
    "added": "2026-10-19T18:30:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
+    }
+   ]
   },
   {
    "id": "425846ce93",
