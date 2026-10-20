@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T21:00:43Z",
+ "updated": "2026-10-20T21:30:31Z",
  "cards": [
   {
    "id": "05dd90fd0f",
@@ -3849,39 +3849,6 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/arizona-courts-say-hackers-stole-info-on-over-1-million"
-    }
-   ]
-  },
-  {
-   "id": "26ecf17f5b",
-   "headline": "FortiBleed campaign locks users ransomware entry point",
-   "summary": "FortiBleed, an ongoing credential compromise campaign targeting Fortinet firewalls and VPN gateways, can disable accounts or change passwords to lock users out and serves as an initial entry point for ransomware affiliates. FBI and Secret Service alert confirms over 400,000 firewalls were targeted. Organizations should force password resets, monitor account changes, and implement MFA on Fortinet devices.",
-   "severity": "critical",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [
-    "Fortinet"
-   ],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/fortibleed-fortinet-vpn-ransomware-fbi-warning/",
-   "published": "2026-10-06T21:03:58Z",
-   "added": "2026-10-06T23:44:43Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/fortibleed-warning-fbi-secret-service"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/fortibleed-attackers-locking-victims-out-of-fortinet-devices/"
     }
    ]
   }
