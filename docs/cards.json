@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T15:30:35Z",
+ "updated": "2026-10-20T16:00:37Z",
  "cards": [
+  {
+   "id": "f7a865abe7",
+   "headline": "NIST, CISA, NSA share rogue AI agent incident response practices",
+   "summary": "NIST, CISA, and NSA have published ten voluntary practices for organizations to prepare for, detect, respond to, recover from, and report incidents involving rogue AI agents. The guidance addresses the growing threat of autonomous AI systems operating outside intended parameters. Defenders should incorporate these practices into incident response plans and AI governance frameworks.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/",
+   "published": "2026-10-20T15:45:00Z",
+   "added": "2026-10-20T16:00:37Z",
+   "also": []
+  },
   {
    "id": "ba5b9e5d87",
    "headline": "Pro-Ukraine group disrupts Russian school assessments",
