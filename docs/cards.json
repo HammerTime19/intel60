@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T16:00:37Z",
+ "updated": "2026-10-20T16:30:44Z",
  "cards": [
   {
    "id": "f7a865abe7",
@@ -14,6 +14,62 @@
    "published": "2026-10-20T15:45:00Z",
    "added": "2026-10-20T16:00:37Z",
    "also": []
+  },
+  {
+   "id": "53ddecf9f5",
+   "headline": "FortiSIEM path traversal flaw gets public exploit code",
+   "summary": "A critical path traversal vulnerability in Fortinet FortiSIEM (CVE-2026-106173, CVSS 9.4) now has public exploit proof-of-concept code available. The flaw enables unauthenticated attackers to execute arbitrary code remotely. Organizations running FortiSIEM should prioritize applying available patches immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-106173"
+   ],
+   "watch": [
+    "Fortinet"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+   "published": "2026-10-20T15:38:52Z",
+   "added": "2026-10-20T16:30:36Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-106173": {
+     "kev": false,
+     "epss": 0.00433,
+     "pct": 0.36258,
+     "cvss": 9.8,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-20T16:30:37Z"
+  },
+  {
+   "id": "0d304799e6",
+   "headline": "Qilin, INC ransomware exploit Palo Alto Networks flaw",
+   "summary": "Ransomware groups Qilin and INC continue exploiting CVE-2026-0257, a patched authentication bypass flaw in Palo Alto Networks PAN-OS and Prisma Access. The CVSS 7.8 vulnerability allows attackers to set up unauthorized VPN connections and bypass MFA. Organizations should ensure they've applied patches released in May 2026.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-0257"
+   ],
+   "watch": [
+    "Palo Alto"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+   "published": "2026-10-20T15:32:27Z",
+   "added": "2026-10-20T16:30:36Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-0257": {
+     "kev": true,
+     "epss": 0.96895,
+     "pct": 0.9989,
+     "cvss": 9.1,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-20T16:30:43Z"
   },
   {
    "id": "ba5b9e5d87",
@@ -628,6 +684,10 @@
     {
      "source": "Dark Reading",
      "url": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/connectwise-cloud-backup-supply-chain-attack/"
     }
    ]
   },
