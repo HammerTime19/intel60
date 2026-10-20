@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T11:30:33Z",
+ "updated": "2026-10-20T12:00:37Z",
  "cards": [
   {
    "id": "87e932b60d",
@@ -41,7 +41,12 @@
    "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
    "published": "2026-10-20T08:21:29Z",
    "added": "2026-10-20T10:00:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/"
+    }
+   ]
   },
   {
    "id": "50e3424172",
@@ -3687,34 +3692,6 @@
    "url": "https://isc.sans.edu/diary/rss/33400",
    "published": "2026-10-06T13:16:02Z",
    "added": "2026-10-06T14:08:09Z",
-   "also": []
-  },
-  {
-   "id": "893051a996",
-   "headline": "LibreOffice OpenOffice spreadsheets run code without macro warnings",
-   "summary": "Malicious spreadsheets can execute attacker code in LibreOffice and Apache OpenOffice when opened, bypassing macro warnings. The vulnerability requires Java support to be enabled. Exploitation has only been demonstrated as proof of concept with no known wild attacks reported. Users should disable Java support if unnecessary or await patches from vendors.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
-   "published": "2026-10-06T11:57:00Z",
-   "added": "2026-10-06T14:08:09Z",
-   "also": []
-  },
-  {
-   "id": "c3a90ebed3",
-   "headline": "Apple tightens Full Disk Access controls for AI security",
-   "summary": "Apple announced enhanced Full Disk Access controls in macOS to mitigate risks from increasingly capable and autonomous AI agents. The new controls restrict agent and application permissions to sensitive system areas. Users should update to the latest macOS version. This addresses growing security concerns around AI agent capabilities and potential unauthorized access.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/",
-   "published": "2026-10-06T11:48:59Z",
-   "added": "2026-10-06T14:07:58Z",
    "also": []
   }
  ]
