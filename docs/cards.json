@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T04:00:34Z",
+ "updated": "2026-10-20T04:30:29Z",
  "cards": [
+  {
+   "id": "6c494d43a8",
+   "headline": "ROMULUS ClickFix platform distributes LegionLoader malware",
+   "summary": "Cybersecurity researchers discovered ROMULUS, a malware delivery platform using ClickFix-style social engineering to trick users into executing malicious commands. The platform distributes LegionLoader and other malware via fake landing pages. Users are deceived into running commands that compromise their systems. Defenders should educate users to verify Windows alerts directly and avoid clicking suspicious links.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+   "published": "2026-10-20T04:05:58Z",
+   "added": "2026-10-20T04:30:29Z",
+   "also": []
+  },
   {
    "id": "5a8d0413be",
    "headline": "Nikkei suffers third breach in a month, 1.83M records exposed",
