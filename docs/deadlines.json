@@ -1,6 +1,72 @@
 {
- "updated": "2026-10-20T19:30:35Z",
+ "updated": "2026-10-20T20:00:45Z",
  "items": [
+  {
+   "cve": "CVE-2026-96655",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": null
+  },
+  {
+   "cve": "CVE-2026-96652",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": null
+  },
+  {
+   "cve": "CVE-2026-110936",
+   "vendor": "Siemens",
+   "product": "Software Center",
+   "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-11-03",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": null
+  },
+  {
+   "cve": "CVE-2026-106931",
+   "vendor": "EG Secure Solutions",
+   "product": "SiteGuard Server Edition",
+   "name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "fb153a3119"
+  },
+  {
+   "cve": "CVE-2026-96656",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server External Control of File Name or Path Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": null
+  },
+  {
+   "cve": "CVE-2026-96654",
+   "vendor": "Plex",
+   "product": "Media Server",
+   "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+   "added": "2026-10-20",
+   "due": "2026-10-23",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": null
+  },
   {
    "cve": "CVE-2026-102764",
    "vendor": "BeyondTrust",

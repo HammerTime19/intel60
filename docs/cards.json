@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T19:30:35Z",
+ "updated": "2026-10-20T20:00:46Z",
  "cards": [
+  {
+   "id": "aa2f36ffa3",
+   "headline": "Zeabur platform shutting down after second breach",
+   "summary": "Development platform Zeabur disclosed a second security incident within two months involving compromised internal credentials stored in plaintext. Attackers accessed over 3.2 million environment variable records and data for 321,810 user accounts. Zeabur is shutting down in response. Users should rotate all exposed credentials and secrets immediately.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+   "published": "2026-10-20T19:33:02Z",
+   "added": "2026-10-20T20:00:38Z",
+   "also": []
+  },
   {
    "id": "6203e91529",
    "headline": "Educational Testing Service breached, California students affected",
@@ -148,6 +162,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/nigerian-given-8-year-sentenc-tax-hacks"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/nigerian-sentenced-hacking-fraud-tax-investment-scheme/"
     }
    ]
   },
@@ -266,7 +284,12 @@
    "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
    "published": "2026-10-20T05:53:16Z",
    "added": "2026-10-20T07:00:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties"
+    }
+   ]
   },
   {
    "id": "6c494d43a8",
@@ -281,6 +304,32 @@
    "published": "2026-10-20T04:05:58Z",
    "added": "2026-10-20T04:30:29Z",
    "also": []
+  },
+  {
+   "id": "fb153a3119",
+   "headline": "SiteGuard Server Edition OS command injection flaw",
+   "summary": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability allowing unauthenticated attackers to execute arbitrary commands with root or SYSTEM privileges. The flaw was added to CISA's Known Exploited Vulnerabilities catalog. Administrators should apply vendor-provided mitigations immediately and follow BOD 26-04 patching timelines.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-106931"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+   "published": "2026-10-20T00:00:00Z",
+   "added": "2026-10-20T20:00:38Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-106931": {
+     "kev": true,
+     "epss": 0.00662,
+     "pct": 0.50774,
+     "cvss": 8.5,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-20T20:00:45Z"
   },
   {
    "id": "5a8d0413be",
@@ -359,6 +408,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
     }
    ]
   },
@@ -537,6 +590,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
     }
    ]
   },
