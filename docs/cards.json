@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T10:00:39Z",
+ "updated": "2026-10-20T10:30:45Z",
  "cards": [
+  {
+   "id": "87e932b60d",
+   "headline": "APT28 backdoor breaches NATO defense contractors",
+   "summary": "Russian threat group APT28 exploited a recently documented backdoor to compromise networks at two defense contractors and a law enforcement agency in NATO-aligned countries. The intrusions represent ongoing espionage efforts targeting critical defense infrastructure. Organizations should immediately audit network access logs, update credentials, and apply patches for known APT28 attack vectors.",
+   "severity": "critical",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/european-defense-contractors-fancy-bear-espionage",
+   "published": "2026-10-20T10:00:00Z",
+   "added": "2026-10-20T10:30:44Z",
+   "also": []
+  },
   {
    "id": "ebff93066b",
    "headline": "Paradigm Healthcare breach exposes 970,000 Medi-Cal members",
