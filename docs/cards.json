@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T18:00:37Z",
+ "updated": "2026-10-20T18:30:32Z",
  "cards": [
   {
    "id": "f7a865abe7",
@@ -3812,20 +3812,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
    "published": "2026-10-06T19:21:53Z",
    "added": "2026-10-06T19:47:23Z",
-   "also": []
-  },
-  {
-   "id": "007c3190cf",
-   "headline": "Linux backdoors impersonate email tools in Korea Taiwan",
-   "summary": "Threat actors have deployed Linux backdoors targeting telecom and network appliances in South Korea and Taiwan, disguising malicious traffic as legitimate email services and system processes to evade detection. The backdoors use naming mimicry of real binaries as a defense evasion technique. Organizations running exposed telecom infrastructure should monitor for suspicious process names and anomalous email-like traffic patterns.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
-   "published": "2026-10-06T18:24:25Z",
-   "added": "2026-10-06T23:44:43Z",
    "also": []
   }
  ]
