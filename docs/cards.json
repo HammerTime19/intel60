@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-20T20:30:31Z",
+ "updated": "2026-10-20T21:00:43Z",
  "cards": [
+  {
+   "id": "05dd90fd0f",
+   "headline": "PHP releases emergency patches for critical flaws",
+   "summary": "PHP's security team announced two critical vulnerabilities with patches releasing the following day after early leak of technical details. The flaws require immediate patching to prevent exploitation. Administrators should apply emergency updates as soon as available. No exploitation in the wild has been confirmed yet, but the leaked information increases risk exposure.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+   "published": "2026-10-20T20:56:43Z",
+   "added": "2026-10-20T21:00:42Z",
+   "also": []
+  },
+  {
+   "id": "a92bc795de",
+   "headline": "SafePay ransomware gang highly active, 600+ victims",
+   "summary": "The FBI, UK and German authorities report SafePay ransomware has compromised over 600 organizations since 2024. The gang targets businesses and critical infrastructure through password guessing, vulnerability exploitation, and phishing. SafePay ranks among the most prolific ransomware operators. Organizations should enforce strong access controls, patch systems promptly, and implement multi-factor authentication.",
+   "severity": "critical",
+   "category": "Ransomware",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
+   "published": "2026-10-20T20:27:00Z",
+   "added": "2026-10-20T21:00:42Z",
+   "also": []
+  },
   {
    "id": "aa2f36ffa3",
    "headline": "Zeabur platform shutting down after second breach",
@@ -3856,20 +3884,6 @@
      "url": "https://www.securityweek.com/fortibleed-attackers-locking-victims-out-of-fortinet-devices/"
     }
    ]
-  },
-  {
-   "id": "20db35582f",
-   "headline": "Ninja Forms WordPress plugin XSS exploited for backdoors",
-   "summary": "Attackers exploit stored cross-site scripting vulnerabilities in Ninja Forms and WPC Product Bundles for WooCommerce plugins to compromise WordPress sites. The exploits enable installation of backdoors and creation of rogue administrator accounts. WordPress site operators should immediately update affected plugins and audit user accounts for unauthorized access.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
-   "published": "2026-10-06T21:00:27Z",
-   "added": "2026-10-06T23:44:43Z",
-   "also": []
   }
  ]
 }
