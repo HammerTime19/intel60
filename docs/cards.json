@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T22:00:33Z",
+ "updated": "2026-10-20T22:30:35Z",
  "cards": [
+  {
+   "id": "532771c4fc",
+   "headline": "Tech giants block eMudhra certificate authority keys",
+   "summary": "Google, Mozilla, Apple, the Go project and others blocked certificates from Indian Certificate Authority eMudhra after eight cryptographic keys were compromised. The incident compromises the security of all certificates signed with those keys. Defenders should verify any eMudhra-issued certificates and prepare revocation procedures. The cause of the compromise remains unclear.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+   "published": "2026-10-20T21:45:47Z",
+   "added": "2026-10-20T22:30:35Z",
+   "also": []
+  },
   {
    "id": "05dd90fd0f",
    "headline": "PHP releases emergency patches for critical flaws",
