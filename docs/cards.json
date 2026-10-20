@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T17:55:49Z",
+ "updated": "2026-10-20T18:00:37Z",
  "cards": [
   {
    "id": "f7a865abe7",
@@ -186,6 +186,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/russian-hackers-apt28-target-nato-defense-firms/"
     }
    ]
   },
