@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T16:30:44Z",
+ "updated": "2026-10-20T17:00:34Z",
  "cards": [
   {
    "id": "f7a865abe7",
@@ -3817,20 +3817,6 @@
    "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
    "published": "2026-10-06T18:24:25Z",
    "added": "2026-10-06T23:44:43Z",
-   "also": []
-  },
-  {
-   "id": "ef90afea64",
-   "headline": "BigDiskBuster technique blocks Microsoft Defender updates",
-   "summary": "Security researchers demonstrated a proof-of-concept technique called BigDiskBuster that silently prevents Microsoft Defender updates while leaving the antivirus service running normally. The flaw creates a detection gap without requiring exploits, allowing malware to evade protection. Defenders should monitor Defender update logs and isolate machines with failed update attempts.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates",
-   "published": "2026-10-06T16:59:24Z",
-   "added": "2026-10-06T19:47:14Z",
    "also": []
   }
  ]
