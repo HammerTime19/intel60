@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T14:30:37Z",
+ "updated": "2026-10-20T15:00:34Z",
  "cards": [
   {
    "id": "ba5b9e5d87",
@@ -3772,20 +3772,6 @@
      "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html"
     }
    ]
-  },
-  {
-   "id": "c75afb4795",
-   "headline": "Osaka Metropolitan University hit by ransomware attack",
-   "summary": "Osaka Metropolitan University suffered a suspected ransomware attack that forced the institution to cancel classes and took offline internal networks, email, and administrative and academic systems. No details on the threat actor or ransom demand were disclosed. The university is investigating the incident and working to restore services.",
-   "severity": "high",
-   "category": "Ransomware",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/osaka-university-cancels-classes-ransomware",
-   "published": "2026-10-06T14:52:00Z",
-   "added": "2026-10-06T19:47:14Z",
-   "also": []
   }
  ]
 }
