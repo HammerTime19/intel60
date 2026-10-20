@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T03:30:26Z",
+ "updated": "2026-10-20T04:00:34Z",
  "cards": [
   {
    "id": "5a8d0413be",
@@ -3738,29 +3738,6 @@
     {
      "source": "Dark Reading",
      "url": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads"
-    }
-   ]
-  },
-  {
-   "id": "c0b6f37559",
-   "headline": "ASOS hackers send unauthorized push notification to customers",
-   "summary": "London-based clothing retailer ASOS suffered an unauthorized push notification sent to customers following an apparent breach. The notification caused share prices to dive. Details remain unclear, but the incident suggests attackers gained access to the company's notification system. Customers should monitor accounts for suspicious activity and enable additional security measures on ASOS accounts.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/asos-push-notification-apparently-sent-by-hackers",
-   "published": "2026-10-06T04:00:00Z",
-   "added": "2026-10-06T14:07:45Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/asos-confirms-cyberattack-data-breach/"
     }
    ]
   }
