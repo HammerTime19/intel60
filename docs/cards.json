@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T10:30:45Z",
+ "updated": "2026-10-20T11:00:36Z",
  "cards": [
   {
    "id": "87e932b60d",
@@ -83,7 +83,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
    "published": "2026-10-19T21:49:48Z",
    "added": "2026-10-19T22:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/hackers-steal-1-8-million-records-from-nikkei/"
+    }
+   ]
   },
   {
    "id": "cd2448e33b",
@@ -3720,25 +3725,6 @@
    "published": "2026-10-06T11:02:30Z",
    "added": "2026-10-06T14:07:58Z",
    "also": []
-  },
-  {
-   "id": "812c2ef5a5",
-   "headline": "MALFEX campaign spreads 40,000 malicious NPM packages",
-   "summary": "Since August 2023, attackers have published eight malicious packages in the MALFEX supply chain campaign targeting NPM, accumulating 40,000 downloads. The campaign exploits the npm registry to distribute malware to developers. Organizations using affected packages should audit dependencies, update to clean versions, and monitor for suspicious behavior. npm should enhance verification mechanisms to prevent similar campaigns.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/",
-   "published": "2026-10-06T10:34:25Z",
-   "added": "2026-10-06T14:07:58Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html"
-    }
-   ]
   }
  ]
 }
