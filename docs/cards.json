@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T14:38:09Z",
+ "updated": "2026-10-21T15:00:36Z",
  "cards": [
   {
    "id": "39edcc9fa9",
@@ -3972,29 +3972,6 @@
    "published": "2026-10-07T15:34:53Z",
    "added": "2026-10-07T19:29:26Z",
    "also": []
-  },
-  {
-   "id": "72f2798932",
-   "headline": "PoeLLM botnet compromises 3,400 open-source servers",
-   "summary": "PoeLLM malware has assembled a botnet comprising over 3,400 compromised servers hosting open-source AI services since April, according to Lumen Technologies' Black Lotus Labs. The malware uses an innovative evasion technique: extracting command-and-control addresses from GitHub-hosted poems, making detection difficult. Organizations hosting open-source AI services should audit systems for compromise indicators and implement egress filtering to detect suspicious network patterns.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/poellm-malware-botnet-poem-lumen-black-lotus-labs/",
-   "published": "2026-10-07T15:00:00Z",
-   "added": "2026-10-07T19:29:15Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html"
-    }
-   ]
   }
  ]
 }
