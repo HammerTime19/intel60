@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T23:00:30Z",
+ "updated": "2026-10-21T23:30:27Z",
  "cards": [
   {
    "id": "067268fe18",
@@ -4013,37 +4013,6 @@
     }
    },
    "cve_checked": "2026-10-09T00:31:16Z"
-  },
-  {
-   "id": "054bfa86a5",
-   "headline": "MonsterCloud CEO charged with defrauding ransomware victims",
-   "summary": "The owner of ransomware remediation firm MonsterCloud faces fraud charges for allegedly paying attackers directly for decryptors while falsely claiming to use proprietary recovery technology. Victims believed they were paying for data recovery services; instead, funds went to ransomware operators. The scheme undermines trust in legitimate recovery services and may have funded criminal operations.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
-   "published": "2026-10-07T23:04:37Z",
-   "added": "2026-10-07T23:30:29Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/fake-decryption-tools-masked-11m-markup-in-ransomware-recovery-scheme/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/ransomware-recovery-charges-doj"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/monstercloud-zohar-pinhasi-ransomware-recovery-scheme/"
-    }
-   ]
   }
  ]
 }
