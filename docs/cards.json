@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T11:30:34Z",
+ "updated": "2026-10-21T12:00:34Z",
  "cards": [
   {
    "id": "00d9c6c073",
@@ -3891,31 +3891,6 @@
    "published": "2026-10-07T13:47:12Z",
    "added": "2026-10-07T19:29:15Z",
    "also": []
-  },
-  {
-   "id": "f28cb86dc6",
-   "headline": "SonicWall fixes maximum-severity SSRF in SMA1000 gateways",
-   "summary": "SonicWall released hotfixes for a maximum-severity server-side request forgery (SSRF) vulnerability in SMA1000 series appliances. The flaw could allow attackers to access internal resources and perform unauthorized actions. Organizations using affected SMA1000 gateways should apply patches immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "SonicWall"
-   ],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
-   "published": "2026-10-07T11:37:07Z",
-   "added": "2026-10-07T13:11:33Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/sonicwall-and-splunk-patch-critical-vulnerabilities/"
-    }
-   ]
   }
  ]
 }
