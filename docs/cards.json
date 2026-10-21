@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-21T20:30:32Z",
+ "updated": "2026-10-21T20:35:53Z",
  "cards": [
+  {
+   "id": "3371acd3dc",
+   "headline": "Lazarus hackers combine old and new cryptography for malware delivery",
+   "summary": "North Korean Lazarus group is employing post-quantum cryptography to secure malicious payload delivery in new campaigns. The threat actor is blending legacy and modern malware variants with advanced encryption techniques. This indicates sophisticated adaptation by state-sponsored actors to evade detection and future-proof their operations.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+   "published": "2026-10-21T20:31:48Z",
+   "added": "2026-10-21T20:35:53Z",
+   "also": []
+  },
+  {
+   "id": "565842927b",
+   "headline": "Meta faces $25 billion fine under New Mexico privacy ruling",
+   "summary": "Meta is being fined $25 billion under a New Mexico privacy ruling stemming from the Cambridge Analytica scandal a decade ago. The penalty addresses historical data privacy violations tied to the major breach that exposed millions of users' information. This represents a significant financial consequence for Meta's past data handling practices.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
+   "published": "2026-10-21T20:25:00Z",
+   "added": "2026-10-21T20:35:53Z",
+   "also": []
+  },
   {
    "id": "a9726704f0",
    "headline": "GitLab flaw allows unauthenticated RCE in 12-year span",
