@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-21T18:30:34Z",
+ "updated": "2026-10-21T19:00:38Z",
  "cards": [
+  {
+   "id": "71f0485320",
+   "headline": "CISA warns: Plex flaws chained in active server breaches",
+   "summary": "CISA reports attackers are actively exploiting four vulnerabilities in Plex Media Server in coordinated attacks called Plex2Shell. The flaws allow initial access and persistence on vulnerable systems. Administrators should patch Plex Media Server immediately and review access logs for signs of compromise. This represents active exploitation of a widely deployed media streaming platform.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+   "published": "2026-10-21T18:34:42Z",
+   "added": "2026-10-21T19:00:38Z",
+   "also": []
+  },
   {
    "id": "f5335e2039",
    "headline": "LiteLLM Python package compromised with credential stealer",
@@ -3974,29 +3988,6 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/us-seeks-alleged-chinese-hafnium-hacker-with-10-million-reward/"
-    }
-   ]
-  },
-  {
-   "id": "b9f5e1afc2",
-   "headline": "Attackers hijack three country-code registries for Google certs",
-   "summary": "Attackers compromised the domain registries for Ghana (.gh), Sierra Leone (.sl), and American Samoa (.as), obtaining unauthorized HTTPS certificates for Google domains. Google's systems were not breached, but all domains under these registries faced risk of impersonation attacks. Defenders should monitor for fraudulent certificates and consider pinning or additional verification for critical domains.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
-   "published": "2026-10-07T18:48:17Z",
-   "added": "2026-10-07T19:29:34Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/"
     }
    ]
   }
