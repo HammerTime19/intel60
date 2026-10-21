@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T00:30:28Z",
+ "updated": "2026-10-21T01:00:31Z",
  "cards": [
   {
    "id": "c3a32bbf85",
@@ -27,7 +27,12 @@
    "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
    "published": "2026-10-20T21:45:47Z",
    "added": "2026-10-20T22:30:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/"
+    }
+   ]
   },
   {
    "id": "05dd90fd0f",
