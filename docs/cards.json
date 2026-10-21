@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-21T01:00:31Z",
+ "updated": "2026-10-21T01:30:38Z",
  "cards": [
+  {
+   "id": "0f04a6f0fb",
+   "headline": "TeamUpdraft website breached, WordPress backdoor keys stolen",
+   "summary": "Threat actors breached TeamUpdraft's website and stole UpdraftCentral connection keys. These keys can execute commands on connected WordPress sites. UpdraftCentral is a popular backup and security plugin used by many WordPress administrators. Users should rotate compromised keys and audit their WordPress sites for unauthorized access or modifications made through this backdoor vector.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+   "published": "2026-10-21T01:01:50Z",
+   "added": "2026-10-21T01:30:36Z",
+   "also": []
+  },
   {
    "id": "c3a32bbf85",
    "headline": "Philippines-based American guilty of servicemembers fraud",
