@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T17:30:30Z",
+ "updated": "2026-10-21T18:00:35Z",
  "cards": [
   {
    "id": "39edcc9fa9",
@@ -286,6 +286,10 @@
     {
      "source": "CyberScoop",
      "url": "https://cyberscoop.com/php-emergency-patches-php2shell-vulnerabilities/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/php-foundation-statement-critical-vulnerabilities"
     }
    ]
   },
