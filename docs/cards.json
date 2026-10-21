@@ -1,6 +1,51 @@
 {
- "updated": "2026-10-21T21:30:30Z",
+ "updated": "2026-10-21T22:00:40Z",
  "cards": [
+  {
+   "id": "067268fe18",
+   "headline": "Storm-0940 breaches ConnectWise via AI penetration tool",
+   "summary": "Microsoft attributed a ConnectWise supply-chain attack to China-aligned Storm-0940, which used ARTEX AI framework to automate attacks targeting hundreds of organizations. The group conducted 151,000+ failed logon attempts across eight organizations in September-October 2026. Organizations should audit Microsoft 365 and Exchange accounts, strengthen MFA enforcement, and investigate anomalous authentication patterns immediately.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "Microsoft 365",
+    "Exchange"
+   ],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/microsoft-attributes-connectwise-supply-chain-attack-china-storm-0940/",
+   "published": "2026-10-21T21:58:21Z",
+   "added": "2026-10-21T22:00:39Z",
+   "also": []
+  },
+  {
+   "id": "e9fd60a700",
+   "headline": "Onamae Desktop Cloud breach affects 27,000 Japanese servers",
+   "summary": "Hackers compromised Onamae Desktop Cloud, a popular Japanese VPS provider, installing malware on up to 26,739 customer servers. The supply-chain attack targeted the provider's infrastructure directly, affecting all downstream customers simultaneously. Administrators should immediately scan systems for malware, rotate credentials, and verify integrity of critical configurations and data.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+   "published": "2026-10-21T21:43:27Z",
+   "added": "2026-10-21T22:00:39Z",
+   "also": []
+  },
+  {
+   "id": "7bcbd743c3",
+   "headline": "TiDB cloud breach exposes customer data storage risks",
+   "summary": "TiDB's cloud infrastructure was breached, exposing sensitive customer data that providers may store without explicit knowledge or consent. The incident highlights flawed cloud security assumptions where customers and providers operate without full transparency about data storage practices. Defenders should clarify data storage locations and implement stringent access controls.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
+   "published": "2026-10-21T21:15:39Z",
+   "added": "2026-10-21T22:00:39Z",
+   "also": []
+  },
   {
    "id": "3371acd3dc",
    "headline": "Lazarus hackers combine old and new cryptography for malware delivery",
@@ -3995,20 +4040,6 @@
      "url": "https://cyberscoop.com/monstercloud-zohar-pinhasi-ransomware-recovery-scheme/"
     }
    ]
-  },
-  {
-   "id": "e63549e2e0",
-   "headline": "Australia considers mandatory AI incident reporting rules",
-   "summary": "Australia's government is exploring regulatory requirements for frontier AI companies to report incidents, prompted by an agentic attack on its Medicare systems. The policy development reflects concerns about autonomous AI systems operating in critical infrastructure. No timeline or specific mandates have been announced yet. Organizations should monitor developments as Australia shapes AI accountability frameworks.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting",
-   "published": "2026-10-07T21:42:55Z",
-   "added": "2026-10-07T22:30:30Z",
-   "also": []
   }
  ]
 }
