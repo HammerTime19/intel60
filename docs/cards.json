@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T22:00:40Z",
+ "updated": "2026-10-21T22:30:33Z",
  "cards": [
   {
    "id": "067268fe18",
@@ -151,6 +151,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/"
     }
    ]
   },
