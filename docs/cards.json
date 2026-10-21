@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T06:00:32Z",
+ "updated": "2026-10-21T06:30:29Z",
  "cards": [
   {
    "id": "0f04a6f0fb",
@@ -349,6 +349,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/"
     }
    ]
   },
