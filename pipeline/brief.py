@@ -379,6 +379,30 @@ def check_feed_health(state):
             fails.pop(name)
 
 
+def send_renewal_reminders(state, local):
+    """Reminds the owner before credentials in config.RENEWALS expire, then daily once expired."""
+    sent = state.setdefault("renewals_alerted", {})
+    today = local.date()
+    for what, expires, how in config.RENEWALS:
+        days = (dt.date.fromisoformat(expires) - today).days
+        if days < 0:
+            key = f"{what}|{expires}|expired|{today.isoformat()}"
+            title, prio = f"{what} EXPIRED {-days} day(s) ago", 5
+        elif days in config.RENEWAL_ALERT_DAYS:
+            key = f"{what}|{expires}|{days}"
+            title = f"{what} expires {'today' if days == 0 else f'in {days} day' + ('s' if days > 1 else '')}"
+            prio = 5 if days <= 1 else 4
+        else:
+            continue
+        if key in sent:
+            continue
+        sent[key] = iso(now())
+        ntfy(f"Intel60: {title}", f"Expires {expires}. How to renew: {how} Then update RENEWALS in pipeline/config.py.",
+             priority=prio, tags=["key"], topic_var="NTFY_ADMIN_TOPIC")
+    cutoff = (today - dt.timedelta(days=60)).isoformat()  # forget old reminder records
+    state["renewals_alerted"] = {k: v for k, v in sent.items() if v[:10] >= cutoff}
+
+
 def send_cost_reports(state, local, ai):
     """Weekly month-to-date report, a final report for last month, and a budget alert, all to the owner."""
     months = state.get("usage", {})
@@ -689,6 +713,7 @@ def main():
         send_alerts(new_cards, local)
     send_digest(cards, state, local)
     send_cost_reports(state, local, ai)
+    send_renewal_reminders(state, local)
 
     save_json(CARDS_PATH, {"updated": iso(now()), "cards": cards})
     save_json(STATE_PATH, state)

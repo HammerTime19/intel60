@@ -71,3 +71,15 @@ FEED_DOWN_AFTER_RUNS = 6  # alert when a feed has failed this many runs in a row
 COST_REPORT_WEEKDAY = 0   # weekly month-to-date report: 0 = Monday; None to disable
 COST_REPORT_HOUR = 9      # local hour for the weekly report
 BUDGET_ALERT_USD = 8.00   # alert once a month when estimated AI spend passes this; None to disable
+
+# Renewal reminders (admin channel): (what, expiry date YYYY-MM-DD, how to renew).
+# When you renew something, update its date here so the reminders move with it.
+RENEWALS = [
+    ("Anthropic API key", "2026-11-04",
+     "console.anthropic.com > API Keys > Create Key, then update the ANTHROPIC_API_KEY repo secret "
+     "(gh secret set ANTHROPIC_API_KEY -R HammerTime19/intel60)."),
+    ("cron-job.org GitHub token", "2027-01-05",
+     "github.com/settings/personal-access-tokens: regenerate the cyberbrief-timer token, "
+     "then paste it into the cron-job's Authorization header after 'Bearer '."),
+]
+RENEWAL_ALERT_DAYS = (7, 3, 1, 0)  # remind this many days before each expiry; daily once expired
