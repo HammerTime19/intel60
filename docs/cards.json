@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T07:00:34Z",
+ "updated": "2026-10-21T07:30:35Z",
  "cards": [
   {
    "id": "0f04a6f0fb",
@@ -64,6 +64,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/"
     }
    ]
   },
