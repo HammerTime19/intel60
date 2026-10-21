@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T06:30:29Z",
+ "updated": "2026-10-21T07:00:34Z",
  "cards": [
   {
    "id": "0f04a6f0fb",
@@ -3860,34 +3860,6 @@
      "url": "https://www.securityweek.com/advantest-discloses-data-breach-months-after-ransomware-attack/"
     }
    ]
-  },
-  {
-   "id": "1958c70e74",
-   "headline": "100+ websites inject LunexStealer via fake Cloudflare checks",
-   "summary": "CERT-UA identified over 100 compromised websites injected with malicious JavaScript serving LunexStealer information-stealing malware. The campaign, attributed to threat actor UAC-0277, was observed in September 2026. Victims visiting these sites risk credential and data theft. Organizations should block known malicious domains and educate users on phishing risks.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
-   "published": "2026-10-07T06:57:54Z",
-   "added": "2026-10-07T13:11:22Z",
-   "also": []
-  },
-  {
-   "id": "acc859ede7",
-   "headline": "Android October 2026 patches 25 vulnerabilities",
-   "summary": "Google released October security updates for Android, resolving 25 vulnerabilities including a critical privilege escalation flaw in the System component. The patch addresses a high-severity issue that could allow local attackers to gain elevated privileges. Users should install updates immediately via Google Play System Update or their device manufacturer.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/",
-   "published": "2026-10-07T06:55:52Z",
-   "added": "2026-10-07T13:11:22Z",
-   "also": []
   }
  ]
 }
