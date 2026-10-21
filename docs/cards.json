@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-21T19:30:29Z",
+ "updated": "2026-10-21T20:00:41Z",
  "cards": [
+  {
+   "id": "a9726704f0",
+   "headline": "GitLab flaw allows unauthenticated RCE in 12-year span",
+   "summary": "GitLab released patches for a critical CVSS 10.0 flaw enabling unauthenticated remote code execution on self-managed servers affecting versions 7.0 through current releases spanning 12 years. An October 12 patch covered only versions 19.2 and later, leaving older deployments exposed. Organizations must apply the latest patches immediately to mitigate this high-impact vulnerability affecting widely deployed software.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+   "published": "2026-10-21T18:57:34Z",
+   "added": "2026-10-21T20:00:40Z",
+   "also": []
+  },
   {
    "id": "71f0485320",
    "headline": "CISA warns: Plex flaws chained in active server breaches",
@@ -3967,29 +3981,6 @@
    "published": "2026-10-07T21:42:55Z",
    "added": "2026-10-07T22:30:30Z",
    "also": []
-  },
-  {
-   "id": "393ca35479",
-   "headline": "US offers $10M reward for Chinese Hafnium hacker Zhang Yu",
-   "summary": "The U.S. government has posted a $10 million reward for information leading to the capture of Zhang Yu, accused of being a prominent figure in the Hafnium campaign. Hafnium was responsible for breaching thousands of computers and stealing large quantities of documents. The reward seeks to incentivize intelligence on the suspect's location and activities.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/accused-hafnium-hacker-zhang-yu-10million-reward",
-   "published": "2026-10-07T19:50:00Z",
-   "added": "2026-10-07T20:08:26Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/us-seeks-alleged-chinese-hafnium-hacker-with-10-million-reward/"
-    }
-   ]
   }
  ]
 }
