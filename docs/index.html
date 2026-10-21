@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://intel60.goatcounter.com; connect-src 'self' https://intel60.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Intel60</title>
 <meta name="description" content="Cybersecurity news in 60 words: AI-written, severity-rated security briefs from 8 trusted sources, updated every 30 minutes.">
@@ -1079,7 +1080,9 @@ loadDeadlines();
 if (GOATCOUNTER && location.hostname.endsWith("github.io")) {
   const gc = document.createElement("script");
   gc.async = true;
-  gc.src = "https://gc.zgo.at/count.js";
+  gc.src = "https://gc.zgo.at/count.v5.js";  // a fixed version, pinned by its hash below
+  gc.integrity = "sha384-atnOLvQb9t+jTSipvd75X2yginT4PjVbqDdlJAmxMm+wYElFmeR6EmLP5bYeoRVQ";
+  gc.crossOrigin = "anonymous";
   gc.dataset.goatcounter = `https://${GOATCOUNTER}.goatcounter.com/count`;
   document.head.append(gc);
 }
