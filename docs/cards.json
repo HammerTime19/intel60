@@ -1,6 +1,36 @@
 {
- "updated": "2026-10-21T07:30:35Z",
+ "updated": "2026-10-21T08:00:46Z",
  "cards": [
+  {
+   "id": "17efaa05bd",
+   "headline": "State Bank of India data leak exposes 3,897 customer records",
+   "summary": "State Bank of India confirmed a data breach exposing 3,897 customer records containing personal information, discovered among 375,000 records on the dark web. India's largest state-owned bank disclosed the incident in an October 21 stock-exchange filing but has not yet identified the breach source. Affected customers should monitor accounts for fraudulent activity and watch for potential phishing attempts.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "Exchange"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+   "published": "2026-10-21T07:44:22Z",
+   "added": "2026-10-21T08:00:45Z",
+   "also": []
+  },
+  {
+   "id": "bd60f0eb51",
+   "headline": "Russian healthcare group breached by Cyber Partisans for two years",
+   "summary": "Cyber Partisans, a Belarus-aligned hacktivist group, maintained access to a Russian healthcare organization's network for nearly two years. The attackers planted the Vasilek backdoor within VMware Tools, according to Solar, a Russian cybersecurity firm. Active since at least 2020, the group targets industrial systems. Affected organizations should review access logs and inspect VMware Tools deployments for unauthorized modifications.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+   "published": "2026-10-21T06:05:15Z",
+   "added": "2026-10-21T08:00:45Z",
+   "also": []
+  },
   {
    "id": "0f04a6f0fb",
    "headline": "TeamUpdraft website breached, WordPress backdoor keys stolen",
