@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T16:00:40Z",
+ "updated": "2026-10-21T16:30:35Z",
  "cards": [
   {
    "id": "39edcc9fa9",
@@ -95,7 +95,12 @@
    "url": "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/",
    "published": "2026-10-21T12:34:22Z",
    "added": "2026-10-21T13:00:41Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/"
+    }
+   ]
   },
   {
    "id": "c7a020f274",
