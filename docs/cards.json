@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-20T23:30:30Z",
+ "updated": "2026-10-21T00:00:34Z",
  "cards": [
+  {
+   "id": "c3a32bbf85",
+   "headline": "Philippines-based American guilty of servicemembers fraud",
+   "summary": "Robert Wayne Boling Jr., a U.S. citizen living in the Philippines, pleaded guilty to running a five-year identity theft and fraud scheme targeting thousands of U.S. servicemembers and veterans. He exploited stolen personally identifiable information to compromise bank accounts and steal money and veterans' benefits. Boling faces up to 40 years in prison upon sentencing after being deported to the U.S. and arrested in May.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/identity-theft-fraud-military-servicemembers-veterans-guilty-robert-boling/",
+   "published": "2026-10-20T23:36:10Z",
+   "added": "2026-10-21T00:00:34Z",
+   "also": []
+  },
   {
    "id": "532771c4fc",
    "headline": "Tech giants block eMudhra certificate authority keys",
