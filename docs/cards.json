@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T05:00:33Z",
+ "updated": "2026-10-21T05:30:28Z",
  "cards": [
   {
    "id": "0f04a6f0fb",
@@ -60,7 +60,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
    "published": "2026-10-20T20:56:43Z",
    "added": "2026-10-20T21:00:42Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html"
+    }
+   ]
   },
   {
    "id": "a92bc795de",
