@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T15:30:36Z",
+ "updated": "2026-10-21T16:00:40Z",
  "cards": [
   {
    "id": "39edcc9fa9",
@@ -13,7 +13,12 @@
    "url": "https://therecord.media/php-script-vulnerabilities-warnings",
    "published": "2026-10-21T14:17:00Z",
    "added": "2026-10-21T14:30:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "Krebs on Security",
+     "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
+    }
+   ]
   },
   {
    "id": "f29fd7d40b",
@@ -3958,20 +3963,6 @@
      "url": "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/"
     }
    ]
-  },
-  {
-   "id": "35545ae5e8",
-   "headline": "LMCache unauthenticated RCE in LLM cache servers",
-   "summary": "A critical unauthenticated remote code execution vulnerability exists in LMCache, open-source software that accelerates large language model servers like vLLM. The flaw in multiprocess mode allows attackers to execute arbitrary code on cache servers without authentication. No patch is available. Disable multiprocess mode or restrict network access to LMCache servers immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-   "published": "2026-10-07T15:34:53Z",
-   "added": "2026-10-07T19:29:26Z",
-   "also": []
   }
  ]
 }
