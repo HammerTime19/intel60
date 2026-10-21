@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-21T14:00:36Z",
+ "updated": "2026-10-21T14:30:36Z",
  "cards": [
+  {
+   "id": "39edcc9fa9",
+   "headline": "PHP vulnerabilities force hundreds of websites offline",
+   "summary": "Following the release of PHP security patches, hundreds of websites went offline as administrators addressed two critical PHP vulnerabilities. Maintainers issued urgent alerts warning of severe security flaws affecting the widely deployed scripting language. Website operators should prioritize applying available patches to restore services and prevent exploitation.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/php-script-vulnerabilities-warnings",
+   "published": "2026-10-21T14:17:00Z",
+   "added": "2026-10-21T14:30:34Z",
+   "also": []
+  },
   {
    "id": "f29fd7d40b",
    "headline": "Chrome adds ClickFix protections to Enhanced Protection mode",
@@ -44,7 +58,12 @@
    "url": "https://isc.sans.edu/diary/rss/33440",
    "published": "2026-10-21T12:44:16Z",
    "added": "2026-10-21T13:00:41Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-109618": {
      "kev": false,
@@ -580,6 +599,10 @@
     {
      "source": "Dark Reading",
      "url": "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/"
     }
    ]
   },
@@ -3972,20 +3995,6 @@
      "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html"
     }
    ]
-  },
-  {
-   "id": "ae71a5aa22",
-   "headline": "Georgia Power Alabama Power breach hits 400,000",
-   "summary": "Southern Company has notified customers that hackers accessed account information for approximately 400,000 utility customers across Georgia Power and Alabama Power services. The breach exposed personal account data but no specifics on exploitation or timeline are detailed. Southern Company customers should monitor accounts for unauthorized activity and watch for phishing targeting account holders using breached information.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/georgia-power-alabama-power-data-breach-hits-400000-accounts/",
-   "published": "2026-10-07T14:15:20Z",
-   "added": "2026-10-07T19:29:15Z",
-   "also": []
   }
  ]
 }
