@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T08:30:29Z",
+ "updated": "2026-10-21T09:00:34Z",
  "cards": [
   {
    "id": "17efaa05bd",
@@ -113,7 +113,12 @@
    "url": "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
    "published": "2026-10-20T20:27:00Z",
    "added": "2026-10-20T21:00:42Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
+    }
+   ]
   },
   {
    "id": "aa2f36ffa3",
