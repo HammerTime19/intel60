@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-21T13:00:53Z",
+ "updated": "2026-10-21T13:30:35Z",
  "cards": [
+  {
+   "id": "f29fd7d40b",
+   "headline": "Chrome adds ClickFix protections to Enhanced Protection mode",
+   "summary": "Google is rolling out enhanced safeguards in Chrome to protect users from ClickFix attacks when Enhanced Protection is enabled. The feature aims to prevent users from copying and pasting malicious commands into their operating system, bypassing conventional security controls. Users should enable Enhanced Protection for additional defense against this social engineering threat.",
+   "severity": "info",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+   "published": "2026-10-21T13:15:09Z",
+   "added": "2026-10-21T13:30:35Z",
+   "also": []
+  },
+  {
+   "id": "9fa3f97085",
+   "headline": "Chrome fixes 353 flaws, including memory corruption bugs",
+   "summary": "Google released a Chrome update addressing 353 vulnerabilities, with 163 memory corruption and 125 use-after-free flaws comprising the majority. These memory safety issues are common attack vectors in browser exploitation. Users should update Chrome immediately to patch these defects and reduce exposure to potential exploitation.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes/",
+   "published": "2026-10-21T12:57:47Z",
+   "added": "2026-10-21T13:30:35Z",
+   "also": []
+  },
   {
    "id": "f052026147",
    "headline": "Critical PHP flaws require emergency patching across PHP 8",
@@ -544,7 +572,12 @@
    "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
    "published": "2026-10-20T04:05:58Z",
    "added": "2026-10-20T04:30:29Z",
-   "also": []
+   "also": [
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack"
+    }
+   ]
   },
   {
    "id": "fb153a3119",
