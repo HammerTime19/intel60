@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-22T08:00:35Z",
+ "updated": "2026-10-22T08:30:34Z",
  "cards": [
+  {
+   "id": "df0211e45e",
+   "headline": "Operation Serengeti III disrupts 11,000 African cybercrime networks",
+   "summary": "Law enforcement agencies disrupted nearly 11,000 cybercriminal networks and arrested over 1,400 people in Operation Serengeti III, targeting business email compromise, ransomware, and online scams across Africa. The operation represents a significant coordinated effort against organized cybercrime. Details on specific outcomes and ongoing investigations remain limited.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+   "published": "2026-10-22T08:27:11Z",
+   "added": "2026-10-22T08:30:34Z",
+   "also": []
+  },
   {
    "id": "a5298e0f95",
    "headline": "Oracle patches 1,200 flaws, nearly 100 critical",
@@ -3884,20 +3898,6 @@
    "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
    "published": "2026-10-08T09:46:32Z",
    "added": "2026-10-08T10:00:33Z",
-   "also": []
-  },
-  {
-   "id": "8f3c408dcb",
-   "headline": "Oracle Health breach exposes nearly 20 million records",
-   "summary": "Oracle Health's data breach has grown to affect nearly 20 million people, significantly higher than previously disclosed. The incident exposed patient records and personal health information. Oracle has begun notifying affected individuals. Organizations using Oracle Health systems should verify their security posture and monitor for unauthorized access to patient data.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/",
-   "published": "2026-10-08T08:23:31Z",
-   "added": "2026-10-08T08:30:36Z",
    "also": []
   }
  ]
