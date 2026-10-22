@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T13:30:38Z",
+ "updated": "2026-10-22T14:00:42Z",
  "cards": [
   {
    "id": "2bd447638f",
@@ -85,7 +85,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
    "published": "2026-10-22T08:27:11Z",
    "added": "2026-10-22T08:30:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/africa-cybercrime-interpol-arrests"
+    }
+   ]
   },
   {
    "id": "29143f2ae2",
@@ -3871,20 +3876,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/"
     }
    ]
-  },
-  {
-   "id": "195dd387c6",
-   "headline": "South Korean megachurches hit by cyberattacks exposing members",
-   "summary": "Two of South Korea's largest Protestant churches confirmed cyberattacks that potentially exposed sensitive data on hundreds of thousands of members, including personal details, financial records, and internal documents. The churches are investigating the incident. Affected congregants should monitor accounts for fraud and consider identity protection services.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/south-korea-hackers-megachurches",
-   "published": "2026-10-08T13:55:56Z",
-   "added": "2026-10-08T14:30:37Z",
-   "also": []
   }
  ]
 }
