@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T20:30:31Z",
+ "updated": "2026-10-22T20:45:04Z",
  "cards": [
   {
    "id": "177124c993",
@@ -3700,22 +3700,6 @@
    "url": "https://cyberscoop.com/764-leader-prasan-nepal-guilty/",
    "published": "2026-10-08T21:41:53Z",
    "added": "2026-10-08T22:00:39Z",
-   "also": []
-  },
-  {
-   "id": "f5568cb9bc",
-   "headline": "AWS Bedrock AgentCore vulnerability AgentCorruption patched",
-   "summary": "A vulnerability in AWS Bedrock AgentCore, dubbed AgentCorruption, could allow attackers to compromise entire AWS environments through a single AI chatbot prompt. The flaw has been patched by AWS. Organizations using AWS Bedrock agents should verify they are running the latest version to mitigate exploitation risk. Defenders should review agent configurations for suspicious access patterns.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "AWS"
-   ],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt",
-   "published": "2026-10-08T20:39:44Z",
-   "added": "2026-10-08T21:30:36Z",
    "also": []
   }
  ]
