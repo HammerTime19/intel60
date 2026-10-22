@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-22T12:30:34Z",
+ "updated": "2026-10-22T13:00:39Z",
  "cards": [
+  {
+   "id": "2bd447638f",
+   "headline": "Signal RingRTC flaw blocks call hang-ups from malicious callers",
+   "summary": "A vulnerability in Signal's open-source RingRTC calling library prevented calls from ending properly when triggered by malicious callers. The flaw affected users' ability to disconnect from calls. Signal has addressed the issue. Users should ensure they are running the latest version of Signal to receive the fix and restore normal call termination functionality.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
+   "published": "2026-10-22T12:34:31Z",
+   "added": "2026-10-22T13:00:39Z",
+   "also": []
+  },
   {
    "id": "189c380ca7",
    "headline": "South Carolina capital suffers cyberattack affecting city services",
@@ -3887,29 +3901,6 @@
    "published": "2026-10-08T13:18:36Z",
    "added": "2026-10-08T13:30:37Z",
    "also": []
-  },
-  {
-   "id": "07931fc003",
-   "headline": "Thousands cheap Android phones ship with preinstalled ad-fraud malware",
-   "summary": "Bitdefender researchers discovered ad-fraud malware preinstalled on thousands of budget Android devices before sale. The malware cannot be uninstalled by users and is active from first boot. Affected users should contact device vendors for patches or replacements. Organizations procuring bulk Android devices should verify supply chain security.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/cheap-androids-shipped-with-ad-fraud-malware",
-   "published": "2026-10-08T13:00:00Z",
-   "added": "2026-10-08T13:18:00Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/pre-baked-firmware-malware-hits-budget-android-devices-in-150-countries/"
-    }
-   ]
   }
  ]
 }
