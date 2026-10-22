@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T07:00:33Z",
+ "updated": "2026-10-22T07:30:30Z",
  "cards": [
   {
    "id": "067268fe18",
@@ -77,7 +77,12 @@
    "url": "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
    "published": "2026-10-21T20:25:00Z",
    "added": "2026-10-21T20:35:53Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/"
+    }
+   ]
   },
   {
    "id": "a9726704f0",
