@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T22:00:36Z",
+ "updated": "2026-10-22T22:30:34Z",
  "cards": [
   {
    "id": "0589859b68",
@@ -232,6 +232,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/china-cyber-connectwise-ai"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack"
     }
    ]
   },
