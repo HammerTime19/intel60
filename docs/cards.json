@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T17:33:27Z",
+ "updated": "2026-10-22T18:00:35Z",
  "cards": [
   {
    "id": "5d4f96d6ac",
@@ -3759,25 +3759,6 @@
    "published": "2026-10-08T18:32:21Z",
    "added": "2026-10-08T19:00:33Z",
    "also": []
-  },
-  {
-   "id": "ee680012cb",
-   "headline": "OpenAI disrupts Russian Iranian AI influence operations",
-   "summary": "OpenAI shut down two covert influence campaigns attributed to Russia and Iran that used ChatGPT to create fake journalist personas and think tanks to plant propaganda in Western media. Russia's \"Dark Clark\" network focused on undermining Ukraine in Latin America and manipulating politics in Argentina and Bolivia. These operations represent coordinated attempts to weaponize AI tools for geopolitical influence.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/openai-disrupts-russia-iran-ai-influence-operations/",
-   "published": "2026-10-08T17:44:43Z",
-   "added": "2026-10-08T18:00:47Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/openai-disrupts-russian-iranian-operations-chatgpt"
-    }
-   ]
   }
  ]
 }
