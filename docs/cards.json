@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T09:00:33Z",
+ "updated": "2026-10-22T09:30:38Z",
  "cards": [
   {
    "id": "df0211e45e",
@@ -16,6 +16,20 @@
    "also": []
   },
   {
+   "id": "29143f2ae2",
+   "headline": "Node.js Brotli decoder bug enables remote code execution",
+   "summary": "Node.js released security updates on October 21 for versions 22.x, 24.x, and 26.x, fixing ten vulnerabilities. The most critical flaw is in the bundled Brotli decompression code, which allows unauthenticated remote code execution. Organizations running Node.js should upgrade to patched versions immediately to prevent exploitation.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+   "published": "2026-10-22T07:47:22Z",
+   "added": "2026-10-22T09:30:37Z",
+   "also": []
+  },
+  {
    "id": "a5298e0f95",
    "headline": "Oracle patches 1,200 flaws, nearly 100 critical",
    "summary": "Oracle released its October 2026 Critical Patch Update addressing over 1,200 vulnerabilities, with approximately 100 rated critical. Fusion Middleware received the most patches. Organizations using Oracle products should prioritize applying these updates, especially for critical-rated flaws affecting widely deployed enterprise software components. Timely patching reduces exploitation risk.",
@@ -27,6 +41,20 @@
    "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
    "published": "2026-10-22T07:38:14Z",
    "added": "2026-10-22T08:00:35Z",
+   "also": []
+  },
+  {
+   "id": "eff3ebf7d5",
+   "headline": "QPACK flaws crash HTTP/3 servers with single connection",
+   "summary": "Security firm FoxIO disclosed remote denial-of-service flaws in QPACK affecting HTTP/3 servers. Unauthenticated attackers can crash servers by sending small compressed HTTP headers that expand dramatically in memory, causing up to 4,000-fold amplification. Working proof-of-concept code is publicly available, increasing exploitation risk for vulnerable deployments.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+   "published": "2026-10-22T06:38:31Z",
+   "added": "2026-10-22T09:30:37Z",
    "also": []
   },
   {
@@ -152,6 +180,20 @@
    "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
    "published": "2026-10-21T18:01:57Z",
    "added": "2026-10-21T18:30:34Z",
+   "also": []
+  },
+  {
+   "id": "2ee4d03f1b",
+   "headline": "Sandworm and partner destroy Ukrainian grain company data",
+   "summary": "Russian state-linked group Sandworm collaborated with another threat actor to conduct a destructive cyberattack against a Ukrainian grain logistics firm last year, according to researchers. The attack involved data destruction targeting critical infrastructure supporting Ukraine's food supply. The incident underscores ongoing cyber threats to essential Ukrainian industries during the conflict.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/ukraine-hackers-russia-grain-sandworm",
+   "published": "2026-10-21T14:45:00Z",
+   "added": "2026-10-22T09:30:37Z",
    "also": []
   },
   {
