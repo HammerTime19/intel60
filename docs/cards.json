@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T11:30:36Z",
+ "updated": "2026-10-22T12:00:34Z",
  "cards": [
   {
    "id": "76b18c2dc5",
@@ -196,7 +196,12 @@
    "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
    "published": "2026-10-21T18:57:34Z",
    "added": "2026-10-21T20:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/"
+    }
+   ]
   },
   {
    "id": "71f0485320",
