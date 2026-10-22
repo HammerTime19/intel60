@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-22T10:30:35Z",
+ "updated": "2026-10-22T11:00:36Z",
  "cards": [
+  {
+   "id": "eb08dcb4a9",
+   "headline": "Splunk and SolarWinds release security patches",
+   "summary": "Splunk and SolarWinds have released updates addressing multiple vulnerabilities that could enable remote code execution, privilege escalation, and information disclosure. The patches address flaws in widely deployed enterprise software used for monitoring and IT management. Organizations should prioritize applying these updates to mitigate exploitation risks.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
+   "published": "2026-10-22T10:45:24Z",
+   "added": "2026-10-22T11:00:35Z",
+   "also": []
+  },
   {
    "id": "34f12a1f7c",
    "headline": "Cisco patches 34 flaws across multiple products",
