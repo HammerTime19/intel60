@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T14:30:35Z",
+ "updated": "2026-10-22T15:00:38Z",
  "cards": [
   {
    "id": "2bd447638f",
@@ -540,6 +540,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/emudhra-shuts-down-certificate-business-weak-private-keys/"
     }
    ]
   },
@@ -3842,20 +3846,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
    "published": "2026-10-08T15:26:33Z",
    "added": "2026-10-08T15:30:36Z",
-   "also": []
-  },
-  {
-   "id": "8a9796b22d",
-   "headline": "Russian extortion gang operating agents inside US law firms",
-   "summary": "Leaked chats from a Russian extortion gang reveal coordination of dozens of victims and negotiation of multimillion-dollar ransom payments. The gang directs operatives based in the United States, referred to as \"agents,\" suggesting domestic involvement in extortion campaigns. Law firms are targeted for sensitive data and financial leverage. Organizations should review access logs and strengthen incident detection around unusual data exfiltration.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/leaked-chats-show-russian-extortion-gang-sending-agents-to-law-firms",
-   "published": "2026-10-08T14:46:00Z",
-   "added": "2026-10-08T15:00:37Z",
    "also": []
   }
  ]
