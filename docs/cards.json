@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-22T20:00:38Z",
+ "updated": "2026-10-22T20:30:31Z",
  "cards": [
+  {
+   "id": "177124c993",
+   "headline": "Capcom breached, 11.7 million accounts exposed",
+   "summary": "Japanese gaming company Capcom suffered a breach of its CAPCOM ID membership service, affecting more than 11.7 million customer accounts. Hackers accessed email addresses and associated customer information. The company is investigating the incident scope and has notified affected users to monitor for phishing and credential abuse.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+   "published": "2026-10-22T20:22:45Z",
+   "added": "2026-10-22T20:30:31Z",
+   "also": []
+  },
   {
    "id": "5d4f96d6ac",
    "headline": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
@@ -3702,34 +3716,6 @@
    "url": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt",
    "published": "2026-10-08T20:39:44Z",
    "added": "2026-10-08T21:30:36Z",
-   "also": []
-  },
-  {
-   "id": "63be913fbf",
-   "headline": "Google AI training deal risks Spirit Airlines data exposure",
-   "summary": "Spirit Airlines proposed to sell approximately 100 million emails, 500 million Teams messages, employment contracts, and payroll records to Google for AI training, according to Rep. Steven Horsford. The data includes sensitive employee information and tax records. Lawmakers are warning about the privacy and security implications of such large-scale data transfers for AI purposes.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/lawmakers-warn-of-google-spirit-ai-training-deal",
-   "published": "2026-10-08T20:27:00Z",
-   "added": "2026-10-08T21:00:52Z",
-   "also": []
-  },
-  {
-   "id": "b5d5048100",
-   "headline": "IDC Frontier IDCF Cloud ransomware attack disrupts services",
-   "summary": "IDC Frontier, Japan's major cloud infrastructure provider, suffered a ransomware attack causing outages at an eastern data center cluster serving government clients. The incident disrupted IDCF Cloud services for affected organizations. Details on attacker identity, ransom demand, and recovery timeline remain unavailable. Customers should verify backups and review access logs for unauthorized activity.",
-   "severity": "high",
-   "category": "Ransomware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
-   "published": "2026-10-08T20:09:45Z",
-   "added": "2026-10-08T20:30:31Z",
    "also": []
   }
  ]
