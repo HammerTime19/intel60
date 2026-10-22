@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T15:30:30Z",
+ "updated": "2026-10-22T16:00:37Z",
  "cards": [
   {
    "id": "2bd447638f",
@@ -3783,34 +3783,6 @@
    "url": "https://therecord.media/asos-says-hackers-tricked-employee-access-push-notification",
    "published": "2026-10-08T16:57:00Z",
    "added": "2026-10-08T17:30:34Z",
-   "also": []
-  },
-  {
-   "id": "e23311ff0c",
-   "headline": "Japan hit by wave data leaks via mobile APIs Metabase",
-   "summary": "Japanese organizations are experiencing personal data breaches via abused mobile app APIs and exploitation of known software flaws like Metabase vulnerabilities. The JPCERT Coordination Center issued an alert on October 8, 2026, based on incident reports but did not identify specific attackers or victims. Organizations should patch known Metabase flaws and audit API security to prevent unauthorized access.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
-   "published": "2026-10-08T15:45:56Z",
-   "added": "2026-10-08T17:30:34Z",
-   "also": []
-  },
-  {
-   "id": "3842ac95a4",
-   "headline": "Crypto thief sentenced for $260K SIM-swap fraud",
-   "summary": "A 25-year-old was sentenced to two and a half years in prison in London for his role in a SIM-swapping scheme that stole nearly $260,000 in cryptocurrency. SIM-swapping attacks exploit carrier vulnerabilities to hijack phone numbers and gain access to accounts protected by SMS-based two-factor authentication. This conviction highlights law enforcement action against cryptocurrency fraud, though defenders should recognize that SIM-swap remains a persistent threat requiring stronger authentication methods beyond SMS.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/cryptocurrency-sim-swap-london",
-   "published": "2026-10-08T15:45:00Z",
-   "added": "2026-10-08T16:00:35Z",
    "also": []
   }
  ]
