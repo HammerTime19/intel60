@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T00:00:32Z",
+ "updated": "2026-10-22T00:30:29Z",
  "items": [
   {
    "cve": "CVE-2026-96655",
@@ -175,7 +175,7 @@
    "due": "2026-10-11",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "b77403a9e7"
+   "card": null
   },
   {
    "cve": "CVE-2016-3081",
@@ -186,7 +186,7 @@
    "due": "2026-10-11",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "f2ac269646"
+   "card": null
   },
   {
    "cve": "CVE-2023-22894",
@@ -197,7 +197,7 @@
    "due": "2026-10-11",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "4d11b58366"
+   "card": null
   },
   {
    "cve": "CVE-2021-3199",
@@ -208,7 +208,7 @@
    "due": "2026-10-11",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "e0620a0258"
+   "card": null
   },
   {
    "cve": "CVE-2015-3306",
@@ -219,7 +219,7 @@
    "due": "2026-10-11",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "74cde892ff"
+   "card": null
   },
   {
    "cve": "CVE-2026-88779",
