@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-22T11:00:36Z",
+ "updated": "2026-10-22T11:30:36Z",
  "cards": [
+  {
+   "id": "76b18c2dc5",
+   "headline": "Railway platform breached, customer secrets potentially accessed",
+   "summary": "Platform-as-a-service provider Railway disclosed unauthorized access to systems storing customer environment variables. An intruder gained access to encrypted environment variables and, in some cases, obtained decrypted contents affecting a subset of users. Railway is investigating the scope of the breach. The company urges customers to rotate credentials and review environment secrets for unauthorized activity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+   "published": "2026-10-22T11:15:42Z",
+   "added": "2026-10-22T11:30:36Z",
+   "also": []
+  },
   {
    "id": "eb08dcb4a9",
    "headline": "Splunk and SolarWinds release security patches",
