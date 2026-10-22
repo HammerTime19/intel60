@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T09:30:38Z",
+ "updated": "2026-10-22T10:00:36Z",
  "cards": [
   {
    "id": "df0211e45e",
@@ -3913,34 +3913,6 @@
      "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html"
     }
    ]
-  },
-  {
-   "id": "2160c75afb",
-   "headline": "Quantum computers could break encryption Washington unprepared",
-   "summary": "Quantum computing poses a distinct threat to current encryption standards protecting emails, financial transactions, and government communications. Unlike AI safety debates, this risk is mathematical: sufficiently powerful quantum computers could crack widely used encryption protocols. Researchers suggest breaking some encryption may require fewer resources than previously thought. Lawmakers must prioritize quantum-safe cryptography adoption before the threat materializes.",
-   "severity": "high",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/quantum-computers-could-break-todays-encryption-washington-needs-to-prepare-now/",
-   "published": "2026-10-08T10:00:00Z",
-   "added": "2026-10-08T10:30:40Z",
-   "also": []
-  },
-  {
-   "id": "f31e2f0411",
-   "headline": "16 malicious Firefox extensions steal crypto wallet recovery phrases",
-   "summary": "Researchers discovered 16 malicious Firefox extensions posing as Rabby and OKX wallet tools to steal cryptocurrency recovery phrases and private keys. The extensions intercept secrets during wallet import flows and exfiltrate them to attacker-controlled servers. Users should remove suspicious wallet extensions, verify tool authenticity before installation, and consider rotating compromised wallet credentials if imported through Firefox.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
-   "published": "2026-10-08T09:46:32Z",
-   "added": "2026-10-08T10:00:33Z",
-   "also": []
   }
  ]
 }
