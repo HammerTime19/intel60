@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-22T07:30:30Z",
+ "updated": "2026-10-22T08:00:35Z",
  "cards": [
+  {
+   "id": "a5298e0f95",
+   "headline": "Oracle patches 1,200 flaws, nearly 100 critical",
+   "summary": "Oracle released its October 2026 Critical Patch Update addressing over 1,200 vulnerabilities, with approximately 100 rated critical. Fusion Middleware received the most patches. Organizations using Oracle products should prioritize applying these updates, especially for critical-rated flaws affecting widely deployed enterprise software components. Timely patching reduces exploitation risk.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
+   "published": "2026-10-22T07:38:14Z",
+   "added": "2026-10-22T08:00:35Z",
+   "also": []
+  },
   {
    "id": "067268fe18",
    "headline": "Storm-0940 breaches ConnectWise via AI penetration tool",
