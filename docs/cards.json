@@ -1,6 +1,22 @@
 {
- "updated": "2026-10-22T10:00:36Z",
+ "updated": "2026-10-22T10:30:35Z",
  "cards": [
+  {
+   "id": "34f12a1f7c",
+   "headline": "Cisco patches 34 flaws across multiple products",
+   "summary": "Cisco released patches for 34 vulnerabilities across multiple products, including critical-severity defects that could enable command execution, authentication bypass, and cross-site scripting attacks. The patches address flaws in various Cisco systems and services. Organizations should prioritize applying updates to critical-severity vulnerabilities to prevent potential exploitation and unauthorized access.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [
+    "Cisco"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
+   "published": "2026-10-22T10:05:21Z",
+   "added": "2026-10-22T10:30:34Z",
+   "also": []
+  },
   {
    "id": "df0211e45e",
    "headline": "Operation Serengeti III disrupts 11,000 African cybercrime networks",
@@ -3861,58 +3877,6 @@
    "published": "2026-10-08T12:30:00Z",
    "added": "2026-10-08T13:00:39Z",
    "also": []
-  },
-  {
-   "id": "1aa8f38815",
-   "headline": "Wazza phishkit targets banking government manufacturing",
-   "summary": "ANY.RUN researchers discovered Wazza, a sophisticated phishing kit targeting banking, government, and manufacturing sectors across the US, EU, and Australia. Unlike basic phishing pages, Wazza includes advanced filtering, session management, and traffic controls to evade detection and improve success rates. The kit represents an evolution in phishing infrastructure capabilities. Organizations in affected sectors should enhance email security, deploy phishing detection tools, and conduct staff awareness training.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
-   "published": "2026-10-08T10:30:00Z",
-   "added": "2026-10-08T11:00:36Z",
-   "also": []
-  },
-  {
-   "id": "540604118d",
-   "headline": "Empire Market co-creator sentenced 40 years prison",
-   "summary": "The co-creator of Empire Market, a major dark web marketplace, received a 40-year prison sentence for facilitating $430 million in illegal transactions between 2018 and 2020. The conviction reflects law enforcement's ongoing efforts to dismantle criminal infrastructure. While not directly impacting enterprise security, it signals continued prosecution of cybercrime marketplace operators.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
-   "published": "2026-10-08T10:29:19Z",
-   "added": "2026-10-08T10:30:40Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/co-creator-empire-dark-net-market-sentenced"
-    }
-   ]
-  },
-  {
-   "id": "42506f6a55",
-   "headline": "TP-Link ISP router vulnerabilities face state lawsuits",
-   "summary": "SEC Consult published technical details on vulnerabilities affecting TP-Link ISP routers, following complaints filed by multiple US states. The disclosure raises scrutiny over the vendor's security practices in widely deployed network equipment. State-level legal action indicates significant regulatory and consumer protection concerns. Organizations using affected TP-Link routers should prioritize patching and monitoring for exploitation attempts.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/tp-link-faces-state-lawsuits-and-new-scrutiny-over-isp-router-flaws/",
-   "published": "2026-10-08T10:24:04Z",
-   "added": "2026-10-08T10:30:40Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html"
-    }
-   ]
   }
  ]
 }
