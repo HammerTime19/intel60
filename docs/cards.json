@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T18:30:37Z",
+ "updated": "2026-10-22T18:42:55Z",
  "cards": [
   {
    "id": "5d4f96d6ac",
@@ -3762,20 +3762,6 @@
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting",
    "published": "2026-10-08T19:08:16Z",
    "added": "2026-10-08T19:24:13Z",
-   "also": []
-  },
-  {
-   "id": "ffc305faa6",
-   "headline": "China-linked hackers accessed stolen emails via portal",
-   "summary": "Hackers linked to Chinese firm Integrity Technology Group stole email from government, law enforcement, healthcare, and religious institutions across Southeast Asia, creating a portal for third-party access. The FBI and agencies in seven countries disclosed the breach on October 8. Affected organizations should review access logs and reset credentials. Integrity Technology Group has been sanctioned by the U.S. and UK.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
-   "published": "2026-10-08T18:32:21Z",
-   "added": "2026-10-08T19:00:33Z",
    "also": []
   }
  ]
