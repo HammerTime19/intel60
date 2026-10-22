@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T19:00:39Z",
+ "updated": "2026-10-22T19:30:33Z",
  "cards": [
   {
    "id": "5d4f96d6ac",
@@ -298,7 +298,12 @@
    "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
    "published": "2026-10-21T18:01:57Z",
    "added": "2026-10-21T18:30:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/"
+    }
+   ]
   },
   {
    "id": "2ee4d03f1b",
@@ -3725,47 +3730,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
    "published": "2026-10-08T20:09:45Z",
    "added": "2026-10-08T20:30:31Z",
-   "also": []
-  },
-  {
-   "id": "4528bc371e",
-   "headline": "US allies seize Integrity Tech Flax Typhoon infrastructure",
-   "summary": "An international coalition took down digital tools and infrastructure operated by Beijing-based Integrity Tech used in the Flax Typhoon campaign to conduct widespread vulnerability scanning and intrusions. The operation targeted infrastructure that enabled the state-sponsored cyber espionage group's activities. This represents enforcement action against foreign government-linked cyber operations targeting critical infrastructure and networks.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/flax-typhoon-china-tools-integrity-tech-international-takedown",
-   "published": "2026-10-08T19:20:00Z",
-   "added": "2026-10-08T20:00:37Z",
-   "also": [
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/doj-fbi-seize-flax-typhoon-hacking-tools-microscan-fishhub/"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html"
-    }
-   ]
-  },
-  {
-   "id": "90f714cac7",
-   "headline": "Venezuelan cartel malware operator arrested ATM jackpotting",
-   "summary": "A cybercriminal linked to the Tren de Aragua cartel has been arrested. He allegedly developed and deployed malware for ATM jackpotting attacks, generating substantial cash for the violent criminal organization. The arrest marks the first time a cybercriminal was placed on the FBI's 10 Most Wanted Fugitives list, highlighting the bureau's focus on financially motivated cybercrime tied to organized crime.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting",
-   "published": "2026-10-08T19:08:16Z",
-   "added": "2026-10-08T19:24:13Z",
    "also": []
   }
  ]
