@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T23:30:27Z",
+ "updated": "2026-10-22T00:00:32Z",
  "items": [
   {
    "cve": "CVE-2026-96655",
@@ -404,17 +404,6 @@
    "name": "Check Point Multiple Products Improper Certificate Validation Vulnerability",
    "added": "2026-09-22",
    "due": "2026-09-25",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2026-7273",
-   "vendor": "Zyxel",
-   "product": "GS1900 Series Switches",
-   "name": "Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
-   "added": "2026-09-21",
-   "due": "2026-09-24",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
    "card": null
