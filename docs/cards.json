@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T14:00:42Z",
+ "updated": "2026-10-22T14:30:35Z",
  "cards": [
   {
    "id": "2bd447638f",
@@ -3857,25 +3857,6 @@
    "published": "2026-10-08T14:46:00Z",
    "added": "2026-10-08T15:00:37Z",
    "also": []
-  },
-  {
-   "id": "f27324b6e8",
-   "headline": "ARTEX AI pentesting tool used in South Korean financial data theft",
-   "summary": "Threat actors used ARTEX, an artificial intelligence pentesting tool, to target South Korean financial organizations in a campaign running from late September through early October 2026. The attacks resulted in data exfiltration from multiple firms. CrowdStrike Intelligence attributed the activity and disclosed details of the campaign. Organizations should review access logs and implement detection rules for ARTEX exploitation.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
-   "published": "2026-10-08T14:12:34Z",
-   "added": "2026-10-08T15:30:36Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/"
-    }
-   ]
   }
  ]
 }
