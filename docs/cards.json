@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T21:30:32Z",
+ "updated": "2026-10-22T22:00:36Z",
  "cards": [
   {
    "id": "0589859b68",
@@ -3720,20 +3720,6 @@
     }
    },
    "cve_checked": "2026-10-09T07:00:39Z"
-  },
-  {
-   "id": "305b75f770",
-   "headline": "764 leader pleads guilty sextortion minors extortion",
-   "summary": "Prasan Nepal, 21, who led the child sextortion group 764 as a teenager, pleaded guilty to conspiracy to commit sexual exploitation of a child. Nepal ran the network for nearly four years, facilitating grooming, manipulation, and extortion of minors. He faces 15 to 30 years in prison upon sentencing.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/764-leader-prasan-nepal-guilty/",
-   "published": "2026-10-08T21:41:53Z",
-   "added": "2026-10-08T22:00:39Z",
-   "also": []
   }
  ]
 }
