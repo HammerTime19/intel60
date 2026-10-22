@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T21:00:40Z",
+ "updated": "2026-10-22T21:30:32Z",
  "cards": [
   {
    "id": "0589859b68",
@@ -111,7 +111,12 @@
    "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
    "published": "2026-10-22T11:15:42Z",
    "added": "2026-10-22T11:30:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
+    }
+   ]
   },
   {
    "id": "eb08dcb4a9",
