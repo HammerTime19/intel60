@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T15:00:38Z",
+ "updated": "2026-10-22T15:30:30Z",
  "cards": [
   {
    "id": "2bd447638f",
@@ -3811,41 +3811,6 @@
    "url": "https://therecord.media/cryptocurrency-sim-swap-london",
    "published": "2026-10-08T15:45:00Z",
    "added": "2026-10-08T16:00:35Z",
-   "also": []
-  },
-  {
-   "id": "597dc14886",
-   "headline": "UAC-0099 deploys ASHVEIN RAT against Ukrainian government",
-   "summary": "Russia-aligned threat actor UAC-0099 deployed ASHVEIN, a previously undocumented .NET infostealer and remote access trojan, against Ukrainian government personnel. The malware hides commands within HTML to evade detection. TrendAI tracks the cluster as Earth Sirrush. Ukrainian government agencies should implement detection signatures and restrict .NET execution on sensitive systems.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
-   "published": "2026-10-08T15:26:56Z",
-   "added": "2026-10-08T15:30:36Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift"
-    }
-   ]
-  },
-  {
-   "id": "ec58741183",
-   "headline": "Cisco NX-OS critical flaws enable Nexus switch takeover",
-   "summary": "Cisco released security advisories addressing five critical vulnerabilities in NX-OS affecting Nexus data center switches. The flaws allow unauthenticated attackers to execute arbitrary code with root privileges. No exploitation in the wild has been reported yet. Administrators should apply patches immediately and prioritize Nexus switches in vulnerable network segments.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "Cisco"
-   ],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
-   "published": "2026-10-08T15:26:33Z",
-   "added": "2026-10-08T15:30:36Z",
    "also": []
   }
  ]
