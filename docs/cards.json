@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-22T17:00:34Z",
+ "updated": "2026-10-22T17:30:38Z",
  "cards": [
+  {
+   "id": "5d4f96d6ac",
+   "headline": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+   "summary": "Arista Networks released security updates for an actively exploited zero-day vulnerability in VeloCloud Orchestrator (VCO) On-Prem deployments. The flaw affects on-premises installations used for SD-WAN orchestration and network management. Exploitation is confirmed in the wild. Organizations running VCO On-Prem should apply patches immediately to prevent unauthorized access.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+   "published": "2026-10-22T17:18:22Z",
+   "added": "2026-10-22T17:30:38Z",
+   "also": []
+  },
   {
    "id": "2bd447638f",
    "headline": "Signal RingRTC flaw blocks call hang-ups from malicious callers",
@@ -3764,20 +3778,6 @@
      "url": "https://therecord.media/openai-disrupts-russian-iranian-operations-chatgpt"
     }
    ]
-  },
-  {
-   "id": "e03acd2bf4",
-   "headline": "FakeGit campaign spreads SmartLoader malware GitHub repos",
-   "summary": "The FakeGit malware campaign reactivated in October 2026, distributing over 17,600 malicious GitHub repositories hosting the SmartLoader malware and StealC infostealer. Developers downloading code from these fake repos risk credential theft and system compromise. Verify repository legitimacy and scan downloaded code before use.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
-   "published": "2026-10-08T17:10:55Z",
-   "added": "2026-10-08T17:30:34Z",
-   "also": []
   }
  ]
 }
