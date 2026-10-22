@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T16:30:32Z",
+ "updated": "2026-10-22T17:00:34Z",
  "cards": [
   {
    "id": "2bd447638f",
@@ -153,6 +153,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/china-cyber-connectwise-ai"
     }
    ]
   },
@@ -3772,20 +3776,6 @@
    "source": "BleepingComputer",
    "url": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
    "published": "2026-10-08T17:10:55Z",
-   "added": "2026-10-08T17:30:34Z",
-   "also": []
-  },
-  {
-   "id": "08181ca503",
-   "headline": "ASOS breach compromises customer personal information accounts",
-   "summary": "Fashion retailer ASOS confirmed attackers accessed an employee account and sent rogue push notifications. The breach exposed customer names, contact details, and non-personal account information. External investigation is complete. ASOS customers should monitor for phishing attempts and reset passwords as a precautionary measure.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/asos-says-hackers-tricked-employee-access-push-notification",
-   "published": "2026-10-08T16:57:00Z",
    "added": "2026-10-08T17:30:34Z",
    "also": []
   }
