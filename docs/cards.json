@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T18:00:35Z",
+ "updated": "2026-10-22T18:30:37Z",
  "cards": [
   {
    "id": "5d4f96d6ac",
@@ -13,6 +13,20 @@
    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
    "published": "2026-10-22T17:18:22Z",
    "added": "2026-10-22T17:30:38Z",
+   "also": []
+  },
+  {
+   "id": "eebdb3f4f6",
+   "headline": "Linux KSMBD kernel SMB server RCE flaws disclosed",
+   "summary": "Two CVSS 9.0 remote code execution vulnerabilities in Linux's KSMBD kernel SMB server were publicly disclosed before kernel fixes became available. One flaw (ZDI-CAN-33774) requires no authentication; the other (ZDI-CAN-33549) needs SMB Direct transport. Linux administrators should monitor for patches and restrict SMB access where possible until fixes are released.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+   "published": "2026-10-22T17:01:53Z",
+   "added": "2026-10-22T18:30:36Z",
    "also": []
   },
   {
@@ -566,6 +580,10 @@
     {
      "source": "CyberScoop",
      "url": "https://cyberscoop.com/emudhra-shuts-down-certificate-business-weak-private-keys/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html"
     }
    ]
   },
