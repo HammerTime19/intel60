@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-22T20:45:04Z",
+ "updated": "2026-10-22T21:00:40Z",
  "cards": [
+  {
+   "id": "0589859b68",
+   "headline": "Toronto Crime Stoppers pauses operations after data breach",
+   "summary": "The Toronto chapter of Crime Stoppers revealed details of a data breach and suspended operations. The organization disclosed a timeline of when the breach occurred and what leadership knew at each stage. Crime Stoppers provides community tip submission services; the breach's scope and affected data remain unclear from available reporting.",
+   "severity": "info",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
+   "published": "2026-10-22T20:52:00Z",
+   "added": "2026-10-22T21:00:40Z",
+   "also": []
+  },
   {
    "id": "177124c993",
    "headline": "Capcom breached, 11.7 million accounts exposed",
@@ -13,6 +27,20 @@
    "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
    "published": "2026-10-22T20:22:45Z",
    "added": "2026-10-22T20:30:31Z",
+   "also": []
+  },
+  {
+   "id": "a0b44de98d",
+   "headline": "EU supermarkets lose millions to unpatched refrigerator firmware",
+   "summary": "Hundreds of EU supermarket stores suffered losses worth millions of euros after relying on third parties to manage outdated operational technology firmware controlling their climate control systems. The outdated systems were not kept current with security patches. Retailers should audit OT devices, establish firmware update schedules, and consider bringing critical infrastructure management in-house or switching to vendors with robust patching practices.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware-french",
+   "published": "2026-10-22T19:30:20Z",
+   "added": "2026-10-22T21:00:40Z",
    "also": []
   },
   {
