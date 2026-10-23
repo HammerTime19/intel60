@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-23T08:00:41Z",
+ "updated": "2026-10-23T08:30:32Z",
  "cards": [
+  {
+   "id": "0515431e74",
+   "headline": "Quest Diagnostics breached, patient records accessed",
+   "summary": "Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager platform, affecting certain patient records. The breach was disclosed through regulatory filing. The exact scope of compromised data and affected patient count remain unclear pending full investigation. Affected individuals should monitor accounts for fraudulent activity and consider credit monitoring.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
+   "published": "2026-10-23T08:25:06Z",
+   "added": "2026-10-23T08:30:32Z",
+   "also": []
+  },
+  {
+   "id": "76ce6885fc",
+   "headline": "Atlassian patches 75 flaws, 14 critical in data center products",
+   "summary": "Atlassian released security patches for 176 vulnerabilities across its October bulletin, with 14 rated critical severity. All flaws reside in third-party components used by Atlassian Data Center and Server products. Organizations running affected versions should prioritize patching critical issues immediately. Patch details are available in Atlassian's security advisory.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
+   "published": "2026-10-23T07:54:47Z",
+   "added": "2026-10-23T08:30:32Z",
+   "also": []
+  },
   {
    "id": "fcaeed9175",
    "headline": "Prince of Persia APT hosts C&C server in US",
@@ -3700,20 +3728,6 @@
    "source": "The Hacker News",
    "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
    "published": "2026-10-09T09:03:24Z",
-   "added": "2026-10-09T10:00:40Z",
-   "also": []
-  },
-  {
-   "id": "e3f3090fc5",
-   "headline": "Google Pixel 10 hacked at Pwn2Own despite full patches",
-   "summary": "Three research teams exploited vulnerabilities in fully patched Google Pixel 10 devices at Pwn2Own Ireland on October 8. Ikotas Labs won $300,000 for the top prize exploit. Pwn2Own requires all targets to be fully patched and passes discovered flaws to vendors. This demonstrates active zero-day exploitability in current-generation Android flagship devices.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
-   "published": "2026-10-09T08:26:17Z",
    "added": "2026-10-09T10:00:40Z",
    "also": []
   }
