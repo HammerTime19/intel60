@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-23T12:30:30Z",
+ "updated": "2026-10-23T13:00:40Z",
  "cards": [
+  {
+   "id": "eb477469ff",
+   "headline": "HPE patches 72 ArubaOS flaws, eight maximum severity RCE",
+   "summary": "Hewlett Packard Enterprise released security updates addressing 72 vulnerabilities in Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and remote code execution flaws. The patches cover critical code execution and authentication bypass issues affecting ArubaOS deployments. Organizations should prioritize patching these maximum-severity vulnerabilities immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+   "published": "2026-10-23T12:48:00Z",
+   "added": "2026-10-23T13:00:40Z",
+   "also": []
+  },
+  {
+   "id": "ceaaccb7c7",
+   "headline": "Mirai botnet operators target PHP vulnerabilities with ASLR bypass",
+   "summary": "Researchers connected Mirai botnet operators to PHP2Shell attack attempts and demonstrated an ASLR bypass technique. No successful compromise has been confirmed yet. The attacks exploit known PHP vulnerabilities targeting vulnerable web servers. Organizations running affected PHP versions should apply patches and monitor for signs of infection or exploitation attempts.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
+   "published": "2026-10-23T12:45:52Z",
+   "added": "2026-10-23T13:00:40Z",
+   "also": []
+  },
   {
    "id": "3a89e69463",
    "headline": "Pillow Python library RCE via crafted EPS images",
@@ -53,7 +81,12 @@
    "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
    "published": "2026-10-23T08:25:06Z",
    "added": "2026-10-23T08:30:32Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/quest-diagnostics-network-intrusion"
+    }
+   ]
   },
   {
    "id": "76ce6885fc",
@@ -3657,57 +3690,6 @@
    "published": "2026-10-09T14:40:00Z",
    "added": "2026-10-09T15:00:41Z",
    "also": []
-  },
-  {
-   "id": "addcfda79a",
-   "headline": "AnyDesk Linux pre-auth RCE exploit published root access",
-   "summary": "Researchers released a working exploit for a pre-authentication remote code execution vulnerability in AnyDesk Linux that grants root access without user approval. AnyDesk patched the flaw in version 8.0.3 in June but provided minimal disclosure, describing it only as a crash fix with no CVE assigned. Users should upgrade immediately to mitigate exploitation risk.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
-   "published": "2026-10-09T12:59:22Z",
-   "added": "2026-10-09T14:30:40Z",
-   "also": []
-  },
-  {
-   "id": "20b164c89d",
-   "headline": "SonicWall SMA1000 maximum-severity flaw actively exploited",
-   "summary": "Attackers are actively exploiting CVE-2026-102255, a maximum-severity vulnerability in SonicWall SMA1000 appliances, just three days after a patch was released. The flaw allows remote attackers to compromise these widely deployed secure access appliances. Organizations running SMA1000 must immediately apply available patches to prevent unauthorized access and network compromise.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-102255"
-   ],
-   "watch": [
-    "SonicWall"
-   ],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
-   "published": "2026-10-09T12:32:16Z",
-   "added": "2026-10-09T13:00:40Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
-    },
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-102255": {
-     "kev": false,
-     "epss": 0.00477,
-     "pct": 0.39223,
-     "cvss": 10.0,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-09T13:00:42Z"
   }
  ]
 }
