@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-23T06:30:31Z",
+ "updated": "2026-10-23T07:00:34Z",
  "cards": [
+  {
+   "id": "fcaeed9175",
+   "headline": "Prince of Persia APT hosts C&C server in US",
+   "summary": "Iran-linked Prince of Persia APT group has resumed activity after a three-month pause, hosting a Tornado command-and-control server on US-based shared hosting. This marks the threat actor's first US infrastructure since 2016. The shift in infrastructure location may indicate changes in operational tactics or targeting. Organizations should monitor for indicators of compromise associated with this group and review network logs for suspicious connections.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/",
+   "published": "2026-10-23T06:39:29Z",
+   "added": "2026-10-23T07:00:34Z",
+   "also": []
+  },
   {
    "id": "0589859b68",
    "headline": "Toronto Crime Stoppers pauses operations after data breach",
@@ -3698,37 +3712,6 @@
    "published": "2026-10-09T08:26:17Z",
    "added": "2026-10-09T10:00:40Z",
    "also": []
-  },
-  {
-   "id": "ecaa20e52e",
-   "headline": "Citrix NetScaler critical RCE vulnerability requires immediate patch",
-   "summary": "Citrix has warned of CVE-2026-107406, a critical vulnerability in NetScaler that enables remote code execution or denial-of-service attacks. The flaw affects widely deployed network appliances. No exploitation in the wild has been reported yet. Organizations should apply the available patch immediately to prevent compromise of critical infrastructure.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-107406"
-   ],
-   "watch": [
-    "Citrix"
-   ],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/",
-   "published": "2026-10-09T06:53:53Z",
-   "added": "2026-10-09T07:00:39Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-107406": {
-     "kev": false,
-     "cvss": 9.5,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-09T07:00:39Z"
   }
  ]
 }
