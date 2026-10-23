@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T14:30:36Z",
+ "updated": "2026-10-23T15:00:34Z",
  "cards": [
   {
    "id": "f059789b24",
@@ -3694,20 +3694,6 @@
      "url": "https://therecord.media/japan-germany-ransomware-arrest"
     }
    ]
-  },
-  {
-   "id": "b6413b14b4",
-   "headline": "Belarusian Cyber Partisans breached Russian healthcare network",
-   "summary": "Belarusian hacktivist group Cyber Partisans confirmed a months-long intrusion into the Moscow Department of Health network. The breach occurred in 2023 and involved persistent access to Russian state healthcare infrastructure. The group, known for anti-Kremlin activities, had previously been documented by Russian researchers investigating the incident. No details on data exfiltration or remediation were provided.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack",
-   "published": "2026-10-09T14:40:00Z",
-   "added": "2026-10-09T15:00:41Z",
-   "also": []
   }
  ]
 }
