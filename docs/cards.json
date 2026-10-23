@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-23T09:00:34Z",
+ "updated": "2026-10-23T09:30:35Z",
  "cards": [
+  {
+   "id": "6f084559d7",
+   "headline": "x402 SDK flaw drains AI agent token balances",
+   "summary": "The x402 SDK's default client lacked spending limits, allowing malicious APIs to request full token balance payments from AI agents. The vulnerability affected agents with automatic payment signing. A fix was released August 18 that adds spending limit protections. Developers should upgrade to patched versions and review agent payment permissions.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+   "published": "2026-10-23T08:35:45Z",
+   "added": "2026-10-23T09:30:34Z",
+   "also": []
+  },
   {
    "id": "0515431e74",
    "headline": "Quest Diagnostics breached, patient records accessed",
@@ -3721,20 +3735,6 @@
     }
    },
    "cve_checked": "2026-10-09T10:30:48Z"
-  },
-  {
-   "id": "d32c756e31",
-   "headline": "GoBalance flaw enables .onion address hijacking from public data",
-   "summary": "A vulnerability in GoBalance, used by dark-web sites to remain reachable during attacks, allows attackers to derive the secret key controlling a .onion address using only publicly available information. Searchlight Cyber disclosed the flaw on October 8. An attacker with the recovered key can redirect site visitors to malicious copies. Dark-web services should disable and replace affected address keys.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
-   "published": "2026-10-09T09:03:24Z",
-   "added": "2026-10-09T10:00:40Z",
-   "also": []
   }
  ]
 }
