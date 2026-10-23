@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T03:00:33Z",
+ "updated": "2026-10-23T03:30:30Z",
  "cards": [
   {
    "id": "0589859b68",
@@ -568,7 +568,12 @@
    "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
    "published": "2026-10-21T07:44:22Z",
    "added": "2026-10-21T08:00:45Z",
-   "also": []
+   "also": [
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak"
+    }
+   ]
   },
   {
    "id": "bd60f0eb51",
