@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T19:30:29Z",
+ "updated": "2026-10-23T20:00:41Z",
  "cards": [
   {
    "id": "077ef200d3",
@@ -189,6 +189,32 @@
    "published": "2026-10-23T06:39:29Z",
    "added": "2026-10-23T07:00:34Z",
    "also": []
+  },
+  {
+   "id": "b60d049a4f",
+   "headline": "Collabora Online CODE Server OS command injection RCE",
+   "summary": "Collabora Online's built-in CODE Server contains an unauthenticated OS command injection vulnerability enabling remote code execution when the server is not running. The flaw affects Collabora Online deployments, particularly within NextCloud platforms. CISA added CVE-2026-110447 to its Known Exploited Vulnerabilities catalog with a federal patching deadline of October 26, 2026. Organizations must apply vendor mitigations immediately or discontinue use per BOD 26-04 guidance.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-110447"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447",
+   "published": "2026-10-23T00:00:00Z",
+   "added": "2026-10-23T20:00:40Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-110447": {
+     "kev": true,
+     "epss": 0.01225,
+     "pct": 0.68615,
+     "cvss": 9.2,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-23T20:00:40Z"
   },
   {
    "id": "0589859b68",
