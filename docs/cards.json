@@ -1,6 +1,48 @@
 {
- "updated": "2026-10-23T17:30:33Z",
+ "updated": "2026-10-23T18:00:39Z",
  "cards": [
+  {
+   "id": "015a882ee2",
+   "headline": "INC and Gentlemen groups automate intrusions with AI framework",
+   "summary": "Cybersecurity researchers uncovered a Russian-speaking ransomware affiliate ecosystem using an AI-driven intrusion framework called Phantom operated by INC and The Gentlemen ransomware groups. The autonomous red-team system orchestrates end-to-end attack chains for both intrusion and data exfiltration. The discovery reveals how ransomware gangs are adopting AI agents to scale breach operations.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+   "published": "2026-10-23T17:50:47Z",
+   "added": "2026-10-23T18:00:39Z",
+   "also": []
+  },
+  {
+   "id": "90f70db295",
+   "headline": "FCC bans Huawei surveillance devices from US market",
+   "summary": "The FCC has banned two consumer devices—a wireless video transmitter and dashboard camera—manufactured with Huawei subsidiary HiSilicon surveillance chips. The restriction reflects escalating US-China technology tensions and concerns over potential data collection risks. Affected products are no longer permitted for sale or operation in the United States.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+   "published": "2026-10-23T17:28:00Z",
+   "added": "2026-10-23T18:00:39Z",
+   "also": []
+  },
+  {
+   "id": "b95d5610d1",
+   "headline": "AI models drive mass-scale attacks for minimal cost",
+   "summary": "Threat actors are leveraging open-weight AI models to generate large-scale cyberattacks targeting hundreds of sites with unprecedented efficiency. One campaign targeted 105 sites, while another gained full domain control for just $12. Security defenders face pressure to adapt strategies as AI-powered attacks become commoditized, increasing attack volume without proportional increase in sophistication requirements.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+   "published": "2026-10-23T17:26:59Z",
+   "added": "2026-10-23T18:00:39Z",
+   "also": []
+  },
   {
    "id": "f059789b24",
    "headline": "Attackers breach enterprise firewalls, expose 70,000 credentials",
@@ -197,6 +239,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
     }
    ]
   },
