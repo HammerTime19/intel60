@@ -1,6 +1,32 @@
 {
- "updated": "2026-10-23T10:00:38Z",
+ "updated": "2026-10-23T10:30:34Z",
  "cards": [
+  {
+   "id": "3a89e69463",
+   "headline": "Pillow Python library RCE via crafted EPS images",
+   "summary": "Pillow, Python's widely used image library, contains a critical code execution flaw (CVE-2026-112900) in its EPS image handling. The vulnerability exists because Pillow passes unsanitized filenames to Ghostscript without validation, allowing attackers to execute arbitrary OS commands via specially crafted images. Patch immediately and validate all image sources.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-112900"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+   "published": "2026-10-23T09:36:00Z",
+   "added": "2026-10-23T10:30:33Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-112900": {
+     "kev": false,
+     "epss": 0.00431,
+     "pct": 0.36338,
+     "cvss": 9.2,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-23T10:30:33Z"
+  },
   {
    "id": "6f084559d7",
    "headline": "x402 SDK flaw drains AI agent token balances",
@@ -116,7 +142,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
    "published": "2026-10-22T17:18:22Z",
    "added": "2026-10-22T17:30:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/"
+    }
+   ]
   },
   {
    "id": "eebdb3f4f6",
@@ -3692,49 +3723,6 @@
      "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/"
     }
    ]
-  },
-  {
-   "id": "fb457f8b9a",
-   "headline": "AhsayCBS flaws exploited for authentication bypass OS command injection",
-   "summary": "Unpatched vulnerabilities CVE-2026-105133 and CVE-2026-105134 in AhsayCBS are being exploited in the wild. The flaws allow attackers to bypass authentication and inject arbitrary OS commands. No patch is currently available. Organizations running AhsayCBS should review network access controls and monitor for suspicious activity immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-105133",
-    "CVE-2026-105134"
-   ],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
-   "published": "2026-10-09T10:23:42Z",
-   "added": "2026-10-09T10:30:36Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-105133": {
-     "kev": true,
-     "epss": 0.00383,
-     "pct": 0.30256,
-     "cvss": 7.3,
-     "sev": "high"
-    },
-    "CVE-2026-105134": {
-     "kev": true,
-     "epss": 0.01843,
-     "pct": 0.78372,
-     "cvss": 10.0,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-09T10:30:48Z"
   }
  ]
 }
