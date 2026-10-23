@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T11:00:37Z",
+ "updated": "2026-10-23T11:30:33Z",
  "cards": [
   {
    "id": "3a89e69463",
@@ -3708,25 +3708,6 @@
     }
    },
    "cve_checked": "2026-10-09T13:00:42Z"
-  },
-  {
-   "id": "fda7c383ea",
-   "headline": "Ukrainian-Russian admits running 15,000-person money mule network",
-   "summary": "A dual citizen pleaded guilty to operating a large-scale money laundering network that transferred millions of dollars for cybercriminals across the globe. The operation exploited thousands of money mules to move criminal proceeds. Law enforcement dismantled the network and secured the guilty plea. Financial institutions should enhance transaction monitoring and reporting of suspicious cross-border transfers.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
-   "published": "2026-10-09T11:14:28Z",
-   "added": "2026-10-09T11:30:32Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/"
-    }
-   ]
   }
  ]
 }
