@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T15:30:29Z",
+ "updated": "2026-10-23T16:00:35Z",
  "cards": [
   {
    "id": "f059789b24",
@@ -3646,52 +3646,6 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/"
-    }
-   ]
-  },
-  {
-   "id": "0419de820a",
-   "headline": "FBI arrests another ShinyHunters member data breach",
-   "summary": "The FBI announced another arrest targeting the ShinyHunters cybercriminal group, a notorious data theft collective responsible for numerous high-profile breaches. FBI Director Kash Patel emphasized ongoing efforts to disrupt remaining ShinyHunters members and associates worldwide. The group has previously compromised hundreds of organizations across multiple industries. Defenders should review past ShinyHunters breach disclosures for their organization and strengthen access controls.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/shinyhunters-arrest-fbi-data-breach-investigation",
-   "published": "2026-10-09T15:41:00Z",
-   "added": "2026-10-09T16:00:41Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html"
-    },
-    {
-     "source": "Krebs on Security",
-     "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
-    }
-   ]
-  },
-  {
-   "id": "a107c9394b",
-   "headline": "Germany arrests alleged core Qilin ransomware member",
-   "summary": "Germany arrested a Russian national suspected of being a leading member of the Qilin ransomware group following his extradition from Japan. Qilin is a major ransomware-as-a-service operation known for targeting critical infrastructure and large enterprises globally. The arrest represents a significant law enforcement action against a key threat actor. SOC teams should monitor for any operational changes or retaliatory activity from the group.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
-   "published": "2026-10-09T15:38:56Z",
-   "added": "2026-10-09T16:00:41Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/japan-germany-ransomware-arrest"
     }
    ]
   }
