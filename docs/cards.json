@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-23T20:30:33Z",
+ "updated": "2026-10-23T21:00:35Z",
  "cards": [
+  {
+   "id": "201a6bfc4c",
+   "headline": "Time4Popcorn app exposed millions to RCE via vulnerable updater",
+   "summary": "Researchers discovered and remotely disabled a vulnerability in the abandoned Time4Popcorn BitTorrent client that could allow attackers to execute arbitrary code with elevated privileges on affected systems. The flaw existed in the app's updater mechanism. Millions of devices potentially running outdated versions remain at risk. Users should immediately uninstall the application or update to the patched version if available.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+   "published": "2026-10-23T20:55:05Z",
+   "added": "2026-10-23T21:00:35Z",
+   "also": []
+  },
   {
    "id": "077ef200d3",
    "headline": "APT41 BlackX UEFI bootkit bypasses Windows Secure Boot",
@@ -3672,20 +3686,6 @@
    "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
    "published": "2026-10-10T11:00:00Z",
    "added": "2026-10-10T11:30:35Z",
-   "also": []
-  },
-  {
-   "id": "c85e183aba",
-   "headline": "Hackers abuse Google Ads Bing redirects to push ClickFix malware",
-   "summary": "Threat actors are exploiting legitimate Bing search-result redirects embedded in Google search ads to deliver fake Claude installer downloads containing ClickFix malware. The attack leverages trust in Google Ads and legitimate Bing redirects to bypass security warnings. Users should verify software sources directly, avoid clicking suspicious ads, and run endpoint protection to detect ClickFix payloads.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-   "published": "2026-10-09T20:31:37Z",
-   "added": "2026-10-09T21:00:38Z",
    "also": []
   }
  ]
