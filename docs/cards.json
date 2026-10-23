@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-23T18:39:41Z",
+ "updated": "2026-10-23T19:00:44Z",
  "cards": [
+  {
+   "id": "077ef200d3",
+   "headline": "APT41 BlackX UEFI bootkit bypasses Windows Secure Boot",
+   "summary": "A sophisticated UEFI bootkit called BlackX has targeted diplomatic organizations in Tajikistan, Uzbekistan, and Turkmenistan since early 2026. Attributed to China-linked APT41, it bypasses Secure Boot on patched Windows systems by exploiting missing revocations. The bootkit achieves persistent kernel-level access before the operating system loads. Affected organizations should verify firmware integrity and apply security updates from vendors.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+   "published": "2026-10-23T18:50:13Z",
+   "added": "2026-10-23T19:00:44Z",
+   "also": []
+  },
   {
    "id": "015a882ee2",
    "headline": "INC and Gentlemen groups automate intrusions with AI framework",
