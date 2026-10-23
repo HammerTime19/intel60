@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T07:30:26Z",
+ "updated": "2026-10-23T08:00:41Z",
  "cards": [
   {
    "id": "fcaeed9175",
@@ -459,6 +459,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
     }
    ],
    "cve_info": {
