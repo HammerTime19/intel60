@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T08:30:32Z",
+ "updated": "2026-10-23T09:00:34Z",
  "cards": [
   {
    "id": "0515431e74",
@@ -69,7 +69,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
    "published": "2026-10-22T20:22:45Z",
    "added": "2026-10-22T20:30:31Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/"
+    }
+   ]
   },
   {
    "id": "a0b44de98d",
