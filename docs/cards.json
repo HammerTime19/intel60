@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T10:30:34Z",
+ "updated": "2026-10-23T11:00:37Z",
  "cards": [
   {
    "id": "3a89e69463",
@@ -328,6 +328,10 @@
     {
      "source": "Dark Reading",
      "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/"
     }
    ]
   },
