@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T16:00:35Z",
+ "updated": "2026-10-23T16:48:05Z",
  "cards": [
   {
    "id": "f059789b24",
@@ -3615,39 +3615,6 @@
    "published": "2026-10-09T19:14:28Z",
    "added": "2026-10-09T21:00:38Z",
    "also": []
-  },
-  {
-   "id": "dc7b54e8c0",
-   "headline": "P7 DarkSword iOS exploit kit steals crypto wallets",
-   "summary": "Researchers discovered a new variant of the DarkSword iOS exploit kit called P7 that reduces on-device footprint while adding keychain and cryptocurrency wallet theft capabilities. The variant enables two-way command-and-control communication with attacker infrastructure. P7 represents an evolution in iOS mobile malware designed to exfiltrate sensitive financial data from compromised devices.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-   "published": "2026-10-09T16:29:55Z",
-   "added": "2026-10-09T17:00:38Z",
-   "also": []
-  },
-  {
-   "id": "10b8bb2521",
-   "headline": "iRhythm biosensor firm breached summer compromises patient data",
-   "summary": "iRhythm, a manufacturer of wearable cardiac sensors, experienced a data breach during summer 2026. The company has begun notifying state authorities of the incident, which impacted hundreds of thousands of patients. The notification process suggests significant personal information exposure. Affected individuals should monitor accounts and consider credit monitoring services.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/irhythm-data-breach-reports",
-   "published": "2026-10-09T16:06:00Z",
-   "added": "2026-10-09T16:30:34Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/"
-    }
-   ]
   }
  ]
 }
