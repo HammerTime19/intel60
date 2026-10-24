@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T10:00:33Z",
+ "updated": "2026-10-24T10:30:41Z",
  "cards": [
   {
    "id": "201a6bfc4c",
@@ -13,7 +13,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
    "published": "2026-10-23T20:55:05Z",
    "added": "2026-10-23T21:00:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html"
+    }
+   ]
   },
   {
    "id": "077ef200d3",
