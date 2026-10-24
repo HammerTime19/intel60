@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T14:00:34Z",
+ "updated": "2026-10-24T14:30:31Z",
  "cards": [
   {
    "id": "201a6bfc4c",
@@ -32,7 +32,12 @@
    "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
    "published": "2026-10-23T18:50:13Z",
    "added": "2026-10-23T19:00:44Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
+    }
+   ]
   },
   {
    "id": "015a882ee2",
