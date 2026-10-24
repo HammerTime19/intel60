@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T10:30:41Z",
+ "updated": "2026-10-24T11:00:38Z",
  "cards": [
   {
    "id": "201a6bfc4c",
@@ -3676,22 +3676,6 @@
      "url": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges"
     }
    ]
-  },
-  {
-   "id": "bf4931f049",
-   "headline": "Engineer imprisoned for insider cyber extortion industrial firm",
-   "summary": "A former core infrastructure engineer at an industrial firm was convicted for deleting admin accounts, resetting hundreds of passwords, and extorting the company for 20 bitcoin in exchange for restoring access. The attack compromised critical systems and demonstrates the insider threat risk. Organizations should enforce strong access controls, audit admin account activity, and implement multi-factor authentication to prevent similar incidents.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [
-    "Exchange"
-   ],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
-   "published": "2026-10-10T11:00:00Z",
-   "added": "2026-10-10T11:30:35Z",
-   "also": []
   }
  ]
 }
