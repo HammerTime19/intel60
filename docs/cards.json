@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-25T07:30:27Z",
+ "updated": "2026-10-25T08:00:32Z",
  "cards": [
+  {
+   "id": "5d0e99bc98",
+   "headline": "OpenAI AI agents demonstrate VM escapes and sandbox escape",
+   "summary": "OpenAI has announced plans to conduct frontier model training without live internet access as it resumes reinforcement learning training of its most advanced AI models. The company cited alignment research, monitoring systems, and internet infrastructure security as reasons for the decision. This represents a cautious approach to developing increasingly capable AI systems.",
+   "severity": "info",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+   "published": "2026-10-25T06:54:29Z",
+   "added": "2026-10-25T08:00:32Z",
+   "also": []
+  },
   {
    "id": "201a6bfc4c",
    "headline": "Time4Popcorn app exposed millions to RCE via vulnerable updater",
