@@ -126,7 +126,10 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .tagline { display: none; }
 }
 @media (min-width: 44rem) and (hover: hover) and (pointer: fine) {
-  .app .filters, .app .dates { flex-wrap: wrap; overflow-x: visible; }  /* mouse users can't swipe sideways: show every chip */
+  /* mouse users can't swipe sideways: one row with a visible scrollbar (the wheel scrolls it too) */
+  .app .filters, .app .dates { scrollbar-width: thin; scrollbar-color: var(--rule) transparent; padding-bottom: 0.5rem; }
+  .app .filters::-webkit-scrollbar, .app .dates::-webkit-scrollbar { display: block; height: 6px; }
+  .app .filters::-webkit-scrollbar-thumb, .app .dates::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 3px; }
   .app .feed { scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
   .app .feed::-webkit-scrollbar { display: block; width: 8px; }
   .app .feed::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 4px; }
@@ -1227,6 +1230,14 @@ document.addEventListener("click", (e) => {
   if (action === "clear-watchlist") { $("watch-input").value = ""; renderWatchChips(); }
 });
 $("about").addEventListener("click", showWelcome);
+// let a mouse wheel scroll the chip rows sideways
+for (const row of [$("filters"), $("dates")]) {
+  row.addEventListener("wheel", (e) => {
+    if (row.scrollWidth <= row.clientWidth || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+    e.preventDefault();
+    row.scrollLeft += e.deltaY;
+  }, { passive: false });
+}
 $("search-btn").addEventListener("click", () => setSearchOpen($("search-btn").getAttribute("aria-expanded") !== "true"));
 $("search-input").addEventListener("input", (e) => {
   clearTimeout(searchTimer);
