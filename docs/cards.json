@@ -1,6 +1,54 @@
 {
- "updated": "2026-10-25T18:00:34Z",
+ "updated": "2026-10-25T18:30:44Z",
  "cards": [
+  {
+   "id": "4a81541514",
+   "headline": "Hacked Tailscale device escalates to root on network",
+   "summary": "Unpatched flaws in Tailscale SSH allow a compromised device on a Tailscale network to gain root access on other connected servers. The attack requires SSH port forwarding enabled and network access rules permitting device-to-device communication. Affected organizations should review Tailscale SSH configurations, disable port forwarding if unnecessary, and update to patched versions immediately.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "published": "2026-10-25T17:44:09Z",
+   "added": "2026-10-25T18:30:36Z",
+   "also": []
+  },
+  {
+   "id": "3eda0d6ae7",
+   "headline": "PHP2Shell flaws exploited against European government",
+   "summary": "Threat actors exploited PHP2Shell vulnerabilities CVE-2026-109618 and CVE-2026-109619 to breach a European government entity, accessing password hashes and multi-factor authentication credentials within two hours. Attackers used agentic AI platforms for post-exploitation activities. Global scanning for vulnerable targets is ongoing. Organizations should patch PHP implementations immediately and monitor for unauthorized access.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+   "published": "2026-10-25T17:19:46Z",
+   "added": "2026-10-25T18:30:36Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-109618": {
+     "kev": false,
+     "epss": 0.99981,
+     "pct": 0.99981,
+     "cvss": 9.8,
+     "sev": "critical"
+    },
+    "CVE-2026-109619": {
+     "kev": false,
+     "epss": 0.99997,
+     "pct": 0.99989,
+     "cvss": 8.1,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-25T18:30:43Z"
+  },
   {
    "id": "9e8f060397",
    "headline": "AI coding agents hijacked via malicious AGENTS.md file",
