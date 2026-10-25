@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T14:18:14Z",
+ "updated": "2026-10-25T14:30:29Z",
  "cards": [
   {
    "id": "5d0e99bc98",
@@ -3657,20 +3657,6 @@
    "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
    "published": "2026-10-12T07:26:12Z",
    "added": "2026-10-12T08:00:41Z",
-   "also": []
-  },
-  {
-   "id": "4c28b0c9be",
-   "headline": "Nippon Columbia malware exposes 8.6 million karaoke records",
-   "summary": "A malware infection at Nippon Columbia, a contractor for Japanese entertainment system maker Daiichi Kosho, compromised over 8.6 million customer and employee records. The breach exposed personal data from karaoke system users and staff. The incident was discovered and disclosed by Daiichi Kosho. SOC teams should monitor for unauthorized access attempts and review karaoke system security in their environment.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-   "published": "2026-10-11T14:23:46Z",
-   "added": "2026-10-11T14:30:33Z",
    "also": []
   }
  ]
