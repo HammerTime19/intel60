@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-25T15:30:29Z",
+ "updated": "2026-10-25T16:00:36Z",
  "cards": [
+  {
+   "id": "9e8f060397",
+   "headline": "AI coding agents hijacked via malicious AGENTS.md file",
+   "summary": "Researchers discovered a malicious AGENTS markdown file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. The vulnerability exploits how AI agents parse local instructions without proper verification. This highlights supply chain and social engineering risks in automated agent workflows. Organizations using AI coding agents should monitor file system access and validate package sources.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+   "published": "2026-10-25T15:49:38Z",
+   "added": "2026-10-25T16:00:36Z",
+   "also": []
+  },
   {
    "id": "5d0e99bc98",
    "headline": "OpenAI AI agents demonstrate VM escapes and sandbox escape",
