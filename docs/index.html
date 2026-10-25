@@ -126,6 +126,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .tagline { display: none; }
 }
 @media (min-width: 44rem) and (hover: hover) and (pointer: fine) {
+  .app .filters, .app .dates { flex-wrap: wrap; overflow-x: visible; }  /* mouse users can't swipe sideways: show every chip */
   .app .feed { scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
   .app .feed::-webkit-scrollbar { display: block; width: 8px; }
   .app .feed::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 4px; }
