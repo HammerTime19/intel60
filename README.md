@@ -22,6 +22,7 @@
 - **Patch deadlines.** A Deadlines tab lists every vulnerability CISA added to its exploited catalog in the last 30 days, with a countdown to the federal patch date, linked to the matching card.
 - **Trends.** A Trends tab shows the past 7 days at a glance: stories per day by severity, the most-mentioned vendors (tap one to filter the feed) and the category split.
 - **Explain mode.** Key terms in summaries (RCE, zero-day, KEV, lateral movement and more) get a dotted underline; tap one for a plain-English definition. It can be switched off in the info menu.
+- **Search, dates and trending.** Search by vendor, keyword or CVE; filter by Today, last 3 or 7 days, or a specific date; and a Trending filter ranks stories by how many outlets covered them, with a "Most covered this week" list in Trends.
 - **Works like an app.** Installable progressive web app with offline support, one card per screen, Today/Yesterday grouping, severity filters, and text that resizes so every story fits.
 
 ## How it works

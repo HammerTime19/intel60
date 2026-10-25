@@ -67,10 +67,12 @@ body {
 button { font: inherit; color: inherit; cursor: pointer; }
 :focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 
+.page { height: 100%; display: flex; justify-content: center; }
 .app {
+  position: relative;
   height: 100%;
+  width: 100%;
   max-width: 36rem;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   padding-top: env(safe-area-inset-top);
@@ -78,13 +80,69 @@ button { font: inherit; color: inherit; cursor: pointer; }
 }
 
 /* top bar */
-.top { display: flex; align-items: baseline; gap: 1rem; padding: 0.875rem 1rem 0.625rem; }
+.top { display: flex; align-items: center; gap: 0.625rem; padding: 0.875rem 1rem 0.625rem; }
+.brand-wrap { display: grid; line-height: 1.1; }
+.tagline { font-size: 0.6875rem; color: var(--muted); margin-top: 0.125rem; white-space: nowrap; }
+@media (max-width: 22rem) { .tagline { display: none; } }
+.icon-btn {
+  align-self: center; width: 1.75rem; height: 1.75rem; border-radius: 50%; padding: 0; display: grid; place-items: center;
+  border: 1px solid var(--rule); background: transparent; color: var(--muted);
+}
+.icon-btn svg { width: 0.9375rem; height: 0.9375rem; }
+.icon-btn[aria-expanded="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+
+/* search panel */
+.searchbar { padding: 0 1rem 0.625rem; display: grid; gap: 0.5rem; }
+.searchbar input[type="search"] {
+  width: 100%; font: inherit; font-size: 1rem; padding: 0.5625rem 0.875rem; border-radius: 999px;
+  border: 1px solid var(--rule); background: var(--card); color: var(--ink);
+}
+.dates { display: flex; gap: 0.375rem; overflow-x: auto; scrollbar-width: none; align-items: center; }
+.dates::-webkit-scrollbar { display: none; }
+.dates button, .dates label {
+  flex: none; font-size: 0.8125rem; padding: 0.3125rem 0.75rem; border-radius: 999px;
+  border: 1px solid var(--rule); background: transparent; color: var(--ink);
+}
+.dates button[aria-pressed="true"], .dates label.on { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.dates label { position: relative; cursor: pointer; }
+.dates input[type="date"] { position: absolute; inset: 0; opacity: 0; width: 100%; cursor: pointer; }
+.meta .hot { color: var(--critical); font-weight: 800; }
+
+/* desktop: intro beside the feed, visible scrolling, up/down buttons */
+.intro { display: none; }
+.pager { display: none; }
+@media (min-width: 64rem) {
+  .page { gap: 3.5rem; align-items: center; }
+  .intro { display: block; width: 22rem; flex: none; }
+  .intro .eyebrow { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  .intro h1 { font-size: 4rem; font-weight: 800; font-variation-settings: "wdth" 66; line-height: 0.95; margin: 0.375rem 0 0.75rem; }
+  .intro .lede { font-size: 1.125rem; line-height: 1.45; }
+  .intro ul { padding-left: 1.125rem; margin: 1rem 0; display: grid; gap: 0.375rem; color: var(--muted); line-height: 1.4; }
+  .intro ul b { color: var(--ink); }
+  .intro .intro-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.25rem 0 1rem; }
+  .intro .fine { font-size: 0.8125rem; color: var(--muted); margin-top: 0.5rem; }
+  .intro .fine a { color: inherit; }
+  .intro kbd { font: inherit; font-weight: 700; padding: 0 0.3125rem; border: 1px solid var(--rule); border-radius: 4px; }
+  .tagline { display: none; }
+}
+@media (min-width: 44rem) and (hover: hover) and (pointer: fine) {
+  .app .feed { scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
+  .app .feed::-webkit-scrollbar { display: block; width: 8px; }
+  .app .feed::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 4px; }
+  .pager { display: grid; gap: 0.5rem; position: absolute; right: -3.5rem; top: 50%; transform: translateY(-50%); }
+  .app:not([data-mode="feed"]) .pager { display: none; }
+  .pager button {
+    width: 2.5rem; height: 2.5rem; border-radius: 50%; border: 1px solid var(--rule);
+    background: var(--card); color: var(--ink); display: grid; place-items: center; padding: 0;
+  }
+  .pager svg { width: 1.125rem; height: 1.125rem; }
+}
 .brand {
-  background: none; border: 0; padding: 0;
+  background: none; border: 0; padding: 0; text-align: left;
   font-size: 1.375rem; font-weight: 800; font-variation-settings: "wdth" 70;
   letter-spacing: -0.01em;
 }
-.updated { margin-left: auto; font-size: 0.8125rem; color: var(--muted); }
+.updated { margin-left: auto; font-size: 0.8125rem; color: var(--muted); white-space: nowrap; }
 .info-btn {
   align-self: center; width: 1.75rem; height: 1.75rem; border-radius: 50%; padding: 0;
   border: 1px solid var(--rule); background: transparent; color: var(--muted);
@@ -342,12 +400,45 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
 </style>
 </head>
 <body>
-<div class="app">
+<div class="page">
+<aside class="intro" aria-label="About Intel60">
+  <p class="eyebrow">Cybersecurity news</p>
+  <h1>Intel60</h1>
+  <p class="lede">Every security story that matters, in 60 words. Refreshed every 30 minutes from 8 trusted sources and CISA.</p>
+  <ul>
+    <li><b>Severity first:</b> every story is rated Critical, High or Info</li>
+    <li><b>CVE context:</b> CVSS, exploit probability and an Exploited tag</li>
+    <li><b>Deadlines and Trends:</b> patch countdowns and the week at a glance</li>
+    <li><b>Your watchlist:</b> only the vendors you run</li>
+  </ul>
+  <div class="intro-actions">
+    <a class="btn primary" href="https://t.me/intel60news" target="_blank" rel="noopener">Critical alerts on Telegram</a>
+    <a class="btn" href="workflow.html">How it works</a>
+  </div>
+  <p class="fine">Scroll, or press <kbd>&uarr;</kbd> <kbd>&darr;</kbd> to move between stories. Press <kbd>/</kbd> to search.</p>
+  <p class="fine">Free, no sign-up. <a href="https://github.com/HammerTime19/intel60" target="_blank" rel="noopener">Open source</a>.</p>
+</aside>
+<div class="app" data-mode="feed">
   <header class="top">
-    <button class="brand" id="brand" title="Back to the newest story">Intel60</button>
+    <div class="brand-wrap">
+      <button class="brand" id="brand" title="Back to the newest story">Intel60</button>
+      <span class="tagline">Security news in 60 words</span>
+    </div>
     <span class="updated" id="updated"></span>
+    <button class="icon-btn" id="search-btn" aria-label="Search stories" aria-expanded="false" aria-controls="searchbar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
     <button class="info-btn" id="about" aria-label="About Intel60">i</button>
   </header>
+  <div class="searchbar" id="searchbar" hidden>
+    <input type="search" id="search-input" placeholder="Search vendor, CVE or keyword" autocomplete="off" enterkeyhint="search" aria-label="Search stories">
+    <div class="dates" id="dates" aria-label="Filter by date">
+      <button data-date="any" aria-pressed="true">Any time</button>
+      <button data-date="today" aria-pressed="false">Today</button>
+      <button data-date="3d" aria-pressed="false">Last 3 days</button>
+      <button data-date="7d" aria-pressed="false">Last 7 days</button>
+      <label id="date-label">Pick a date<input type="date" id="date-pick" aria-label="Pick a date"></label>
+    </div>
+  </div>
   <nav class="filters" id="filters" aria-label="Filter stories"></nav>
   <main class="feed" id="feed" tabindex="-1"></main>
   <section class="view" id="view-deadlines" hidden></section>
@@ -360,6 +451,11 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
     <button data-view="trends">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Trends</button>
   </nav>
+  <div class="pager" aria-label="Move between stories">
+    <button data-page="-1" aria-label="Previous story"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg></button>
+    <button data-page="1" aria-label="Next story"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+  </div>
+</div>
 </div>
 
 <dialog class="sheet" id="welcome" aria-labelledby="welcome-title">
@@ -419,7 +515,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
 
 <script>
 const FILTERS = [
-  ["all", "All"], ["today", "Today"], ["yesterday", "Yesterday"], ["critical", "Critical"], ["mine", "\u2605 My watchlist"],
+  ["all", "All"], ["trending", "🔥 Trending"], ["today", "Today"], ["yesterday", "Yesterday"], ["critical", "Critical"], ["mine", "\u2605 My watchlist"],
   ["Vulnerability", "Vulnerabilities"],
   ["Breach", "Breaches"], ["Ransomware", "Ransomware"], ["Malware", "Malware"],
   ["Threat actor", "Threat actors"], ["Policy", "Policy"], ["Research", "Research"],
@@ -508,6 +604,9 @@ let loadedAt = 0;
 let lastSeen = "";
 try { lastSeen = localStorage.getItem(LAST_SEEN_KEY) || ""; } catch {}
 let myTerms = [];
+let query = "";          // search text
+let dateRange = "any";   // any | today | 3d | 7d | date:YYYY-MM-DD
+const outlets = (c) => 1 + (c.also || []).length;
 let view = "feed";
 let deadlines = null;  // { updated, items } from deadlines.json
 let showAllPast = false;
@@ -559,7 +658,40 @@ function renderFilters() {
 }
 
 function visibleCards() {
+  let list = chipCards();
+  if (dateRange !== "any") {
+    const start = new Date(); start.setHours(0, 0, 0, 0);
+    if (dateRange === "today") list = list.filter((c) => new Date(c.published) >= start);
+    else if (dateRange === "3d" || dateRange === "7d") {
+      start.setDate(start.getDate() - (dateRange === "3d" ? 2 : 6));
+      list = list.filter((c) => new Date(c.published) >= start);
+    } else if (dateRange.startsWith("date:")) {
+      const [y, m, d] = dateRange.slice(5).split("-").map(Number);
+      const key = `${y}-${m}-${d}`;
+      list = list.filter((c) => dayKey(c.published) === key);
+    }
+  }
+  const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (words.length) {
+    list = list.filter((c) => {
+      const text = [c.headline, c.summary, c.category, c.source, ...(c.cves || []), ...(c.also || []).map((a) => a.source)]
+        .join(" ").toLowerCase();
+      return words.every((w) => text.includes(w));
+    });
+  }
+  return list;
+}
+
+// stories covered by several outlets in the last 7 days, most covered first
+function trendingCards() {
+  const since = Date.now() - 7 * 86400000;
+  return data.cards.filter((c) => outlets(c) >= 2 && new Date(c.published) >= since)
+    .sort((a, b) => outlets(b) - outlets(a) || b.published.localeCompare(a.published));
+}
+
+function chipCards() {
   if (filter === "all") return data.cards;
+  if (filter === "trending") return trendingCards();
   if (filter === "critical") return data.cards.filter((c) => c.severity === "critical");
   if (filter === "mine") return data.cards.filter((c) => myHits(c).length);
   if (filter.startsWith("vendor:")) {
@@ -623,6 +755,7 @@ function cardHTML(c, n) {
           ${isNew ? '<span class="new">New</span>' : ""}
           <span>${esc(c.category)}</span>
           <time datetime="${esc(c.published)}">${esc(ago(c.published))}</time>
+          ${outlets(c) >= 3 ? `<span class="hot" title="Reported by ${outlets(c)} outlets">🔥 ${outlets(c)} sources</span>` : ""}
           ${meter}
         </div>
         <h2 class="headline">${esc(c.headline)}</h2>
@@ -659,6 +792,15 @@ function renderFeed() {
     feed.innerHTML = emptyHTML("Nothing on your watchlist yet",
       `No stories from the last two weeks mention ${myTerms.slice(0, 3).join(", ")}${myTerms.length > 3 ? " or the rest" : ""}.`,
       '<button data-action="watchlist">Edit watchlist</button>');
+  } else if (!list.length && (query || dateRange !== "any")) {
+    feed.innerHTML = emptyHTML("No stories match",
+      query ? `Nothing from the last two weeks matches “${query}” with these filters. Try fewer words or another date.`
+        : "No stories in this date range. Try a wider one.",
+      '<button data-action="clear-search">Clear search</button>');
+  } else if (!list.length && filter === "trending") {
+    feed.innerHTML = emptyHTML("Nothing trending yet",
+      "No story this week has been reported by more than one outlet. Check back soon.",
+      '<button data-filter="all">Show all stories</button>');
   } else if (!list.length) {
     feed.innerHTML = emptyHTML("Nothing in this filter",
       filter === "today" ? "No new stories yet today. Choose All to see earlier ones."
@@ -671,7 +813,7 @@ function renderFeed() {
     let prev = null;
     feed.innerHTML = list.map((c, i) => {
       const key = dayKey(c.published);
-      const divider = prev !== null && key !== prev ? dividerHTML(key, counts[key]) : "";
+      const divider = filter !== "trending" && prev !== null && key !== prev ? dividerHTML(key, counts[key]) : "";
       prev = key;
       return divider + cardHTML(c, i + 1);
     }).join("");
@@ -735,7 +877,10 @@ function setPosition(n, total) {
 function renderMeta() {
   const parts = [];
   if (view === "feed" && position) parts.push(position);
-  if (data.updated) parts.push(`Updated ${ago(data.updated)}`);
+  if (data.updated) {  // compact so the header stays on one line on phones
+    const mins = Math.max(0, Math.round((Date.now() - new Date(data.updated)) / 60000));
+    parts.push(`Updated ${mins < 1 ? "just now" : mins < 60 ? `${mins}m ago` : `${Math.round(mins / 60)}h ago`}`);
+  }
   $("updated").textContent = parts.join(" · ");
 }
 
@@ -843,6 +988,7 @@ function renderTrends() {
   const maxV = Math.max(1, ...vendors.map(([, n]) => n));
   const vendorBars = vendors.map(([name, n]) => `<button class="bar vendor" data-vendor="${esc(name)}"><span>${esc(name)}</span><span class="track"><i style="width:${(n / maxV) * 100}%"></i></span><span class="n">${n}</span></button>`).join("");
 
+  const covered = trendingCards().slice(0, 5);
   const cats = {};
   for (const c of week) cats[c.category] = (cats[c.category] || 0) + 1;
   const catList = Object.entries(cats).sort((a, b) => b[1] - a[1]);
@@ -861,11 +1007,15 @@ function renderTrends() {
     <div class="days">${dayBars}</div>
     <div class="legend"><span><i style="background:var(--critical)"></i>Critical</span><span><i style="background:var(--high)"></i>High</span><span><i style="background:var(--info)"></i>Info</span></div>
     ${vendors.length ? `<h3>Most mentioned vendors</h3><div class="bars">${vendorBars}</div>` : ""}
-    <h3>By category</h3><div class="bars">${catBars}</div>`;
+    <h3>By category</h3><div class="bars">${catBars}</div>
+    ${covered.length ? `<h3>Most covered this week</h3><div class="covered">${covered.map((c) =>
+      `<button class="dl" data-open-card="${esc(c.id)}" style="grid-template-columns:3.25rem 1fr"><span class="pill soon"><b>${outlets(c)}</b>outlets</span><span><span class="what">${esc(c.headline)}</span><span class="name" style="display:block">${esc(c.source)}${(c.also || []).length ? `, ${esc(c.also.map((a) => a.source).join(", "))}` : ""}</span></span></button>`).join("")}</div>` : ""}`;
 }
 
 function showView(v) {
   view = v;
+  document.querySelector(".app").dataset.mode = v;
+  $("searchbar").hidden = v !== "feed" || $("search-btn").getAttribute("aria-expanded") !== "true";
   document.querySelectorAll(".tabs [data-view]").forEach((b) => b.toggleAttribute("aria-current", b.dataset.view === v));
   document.querySelectorAll(".tabs [aria-current]").forEach((b) => b.setAttribute("aria-current", "page"));
   feed.hidden = v !== "feed";
@@ -890,6 +1040,28 @@ function showTerm(key) {
   $("term-title").textContent = t.title;
   $("term-def").textContent = t.def;
   openSheet("term-sheet");
+}
+
+// ---------- search ----------
+let searchTimer;
+function setSearchOpen(open) {
+  $("search-btn").setAttribute("aria-expanded", String(open));
+  $("searchbar").hidden = !open || view !== "feed";
+  if (open) { if (view !== "feed") showView("feed"); $("searchbar").hidden = false; $("search-input").focus(); }
+  if (!open && (query || dateRange !== "any")) clearSearch();
+  else fitAll();  // the panel changes the card height, so re-fit what's on screen
+}
+function clearSearch() {
+  query = ""; dateRange = "any";
+  $("search-input").value = ""; $("date-pick").value = "";
+  syncDateButtons();
+  renderFeed();
+}
+function syncDateButtons() {
+  document.querySelectorAll("#dates [data-date]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.date === dateRange)));
+  $("date-label").classList.toggle("on", dateRange.startsWith("date:"));
+  $("date-label").firstChild.textContent = dateRange.startsWith("date:")
+    ? new Date(`${dateRange.slice(5)}T12:00`).toLocaleDateString(undefined, { month: "short", day: "numeric" }) : "Pick a date";
 }
 
 function jumpToHash() {
@@ -996,7 +1168,13 @@ async function shareCard(id) {
 }
 
 document.addEventListener("click", (e) => {
-  const tab = e.target.closest("[data-view]");
+  const page = e.target.closest("[data-page]");
+  if (page) { feed.scrollBy({ top: Number(page.dataset.page) * feed.clientHeight }); return; }
+  const dateBtn = e.target.closest("[data-date]");
+  if (dateBtn) { dateRange = dateBtn.dataset.date; $("date-pick").value = ""; syncDateButtons(); renderFeed(); return; }
+  const cov = e.target.closest("[data-open-card]");
+  if (cov) { openCard(cov.dataset.openCard); return; }
+  const tab = e.target.closest(".tabs [data-view]");
   if (tab) { showView(tab.dataset.view); return; }
   const dl = e.target.closest("[data-deadline]");
   if (dl) {
@@ -1028,6 +1206,7 @@ document.addEventListener("click", (e) => {
   const share = e.target.closest("[data-share]");
   if (share) { shareCard(share.dataset.share); return; }
   const action = e.target.closest("[data-action]")?.dataset.action;
+  if (action === "clear-search") { clearSearch(); return; }
   if (action === "watchlist") showWatchlist();
   if (action === "more-deadlines") { showAllPast = true; renderDeadlines(); return; }
   if (action === "save-watchlist") saveWatchlist();
@@ -1047,6 +1226,16 @@ document.addEventListener("click", (e) => {
   if (action === "clear-watchlist") { $("watch-input").value = ""; renderWatchChips(); }
 });
 $("about").addEventListener("click", showWelcome);
+$("search-btn").addEventListener("click", () => setSearchOpen($("search-btn").getAttribute("aria-expanded") !== "true"));
+$("search-input").addEventListener("input", (e) => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => { query = e.target.value.trim(); renderFeed(); }, 150);
+});
+$("date-pick").addEventListener("change", (e) => {
+  dateRange = e.target.value ? `date:${e.target.value}` : "any";
+  syncDateButtons();
+  renderFeed();
+});
 $("watch-input").addEventListener("input", renderWatchChips);
 $("telegram-link").addEventListener("click", () => track("telegram-join"));
 $("welcome").addEventListener("close", () => { try { localStorage.setItem(WELCOMED_KEY, "1"); } catch {} });
@@ -1058,6 +1247,10 @@ document.addEventListener("visibilitychange", () => {
 });
 document.addEventListener("keydown", (e) => {
   if (e.key === "Enter" && e.target.dataset?.term) { e.target.click(); return; }
+  const typing = e.target.matches?.("input, textarea");
+  if (e.key === "Escape" && $("search-btn").getAttribute("aria-expanded") === "true") { setSearchOpen(false); return; }
+  if (typing) return;
+  if (e.key === "/") { e.preventDefault(); setSearchOpen(true); return; }
   const step = { ArrowDown: 1, j: 1, ArrowUp: -1, k: -1 }[e.key];
   if (!step || view !== "feed") return;
   e.preventDefault();
@@ -1088,7 +1281,7 @@ if (GOATCOUNTER && location.hostname.endsWith("github.io")) {
 }
 let welcomed = false;
 try { welcomed = !!localStorage.getItem(WELCOMED_KEY); } catch {}
-if (!welcomed) showWelcome();
+if (!welcomed && !matchMedia("(min-width: 64rem)").matches) showWelcome();
 if ("serviceWorker" in navigator) {
   // reload once when an updated app version takes over, so it shows right away
   const hadController = !!navigator.serviceWorker.controller;
