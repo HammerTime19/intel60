@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T10:00:42Z",
+ "updated": "2026-10-26T10:30:31Z",
  "cards": [
   {
    "id": "35a2887f86",
@@ -548,7 +548,12 @@
    "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
    "published": "2026-10-22T07:47:22Z",
    "added": "2026-10-22T09:30:37Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/"
+    }
+   ]
   },
   {
    "id": "a5298e0f95",
