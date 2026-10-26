@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T13:00:38Z",
+ "updated": "2026-10-26T13:30:51Z",
  "cards": [
   {
    "id": "23a9892afe",
@@ -27,6 +27,20 @@
    "url": "https://therecord.media/litellm-hackers-ai-malware",
    "published": "2026-10-26T12:00:00Z",
    "added": "2026-10-26T12:30:31Z",
+   "also": []
+  },
+  {
+   "id": "a5411bb33d",
+   "headline": "Wasmtime sandbox escape flaws discovered in WebAssembly runtime",
+   "summary": "Two critical vulnerabilities in Wasmtime, a WebAssembly runtime, allow malicious WebAssembly modules to escape their sandbox. One flaw affects only ARM64 systems. Attackers need a vulnerable Wasmtime build to compile a malicious module. Fixed versions are available. Organizations using Wasmtime should update immediately to prevent sandbox escapes.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+   "published": "2026-10-26T11:52:41Z",
+   "added": "2026-10-26T13:30:35Z",
    "also": []
   },
   {
@@ -120,6 +134,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/"
     }
    ],
    "cve_info": {
@@ -3687,20 +3705,6 @@
      "url": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/"
     }
    ]
-  },
-  {
-   "id": "175a7df5c5",
-   "headline": "GitLab maximum-severity code execution vulnerability patched",
-   "summary": "GitLab disclosed a critical vulnerability in the CI/CD Regular Expression Compiler allowing remote code execution on affected instances. Attackers can exploit this flaw without authentication to run arbitrary code. GitLab urges immediate patching. Defenders should prioritize updating all GitLab deployments and verify no unauthorized access occurred via logs.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-   "published": "2026-10-12T13:09:09Z",
-   "added": "2026-10-12T13:31:20Z",
-   "also": []
   }
  ]
 }
