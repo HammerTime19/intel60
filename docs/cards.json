@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T07:30:25Z",
+ "updated": "2026-10-26T08:00:38Z",
  "cards": [
   {
    "id": "4a81541514",
@@ -61,7 +61,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
    "published": "2026-10-25T15:49:38Z",
    "added": "2026-10-25T16:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html"
+    }
+   ]
   },
   {
    "id": "5d0e99bc98",
