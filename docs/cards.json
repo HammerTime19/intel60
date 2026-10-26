@@ -1,6 +1,36 @@
 {
- "updated": "2026-10-26T09:00:34Z",
+ "updated": "2026-10-26T09:30:35Z",
  "cards": [
+  {
+   "id": "35a2887f86",
+   "headline": "AitM relay compromises Microsoft 365 accounts across 79 organizations",
+   "summary": "A campaign used adversary-in-the-middle relay attacks to capture sign-in sessions and replay stolen tokens, breaching Microsoft 365 email accounts across 79 organizations. Researchers at Huntress detected 497 successful sign-in events between July and September 2026. Organizations should enable multifactor authentication and review sign-in logs for unusual token activity.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [
+    "Microsoft 365"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+   "published": "2026-10-26T08:35:51Z",
+   "added": "2026-10-26T09:30:34Z",
+   "also": []
+  },
+  {
+   "id": "8e95a20d61",
+   "headline": "Gheist campaign steals GitHub repository secrets via Actions logs",
+   "summary": "Attackers using stolen GitHub tokens plant workflows that expose repository secrets in GitHub Actions logs, then download and delete the runs. The automated campaign has successfully compromised private repositories and GitHub Enterprise environments. Organizations should rotate compromised tokens immediately and review GitHub Actions audit logs for suspicious activity.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+   "published": "2026-10-26T07:49:46Z",
+   "added": "2026-10-26T09:30:34Z",
+   "also": []
+  },
   {
    "id": "4a81541514",
    "headline": "Hacked Tailscale device escalates to root on network",
@@ -30,7 +60,12 @@
    "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
    "published": "2026-10-25T17:19:46Z",
    "added": "2026-10-25T18:30:36Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-109618": {
      "kev": false,
@@ -3680,37 +3715,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/"
     }
    ]
-  },
-  {
-   "id": "815b7a9464",
-   "headline": "Bricksforge WordPress plugin maximum-severity RCE exploited",
-   "summary": "CVE-2026-85097 (CVSS 10.0) in the Bricksforge WordPress plugin allows unauthenticated attackers to upload and execute arbitrary PHP code, enabling remote code execution. The vulnerability is actively exploited in the wild. WordPress site administrators should immediately update Bricksforge to a patched version and review access logs for suspicious activity.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-85097"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-   "published": "2026-10-12T09:02:14Z",
-   "added": "2026-10-12T10:00:42Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-85097": {
-     "kev": false,
-     "epss": 0.00312,
-     "pct": 0.22188,
-     "cvss": 9.8,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-12T10:00:43Z"
   }
  ]
 }
