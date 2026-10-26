@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-26T11:30:28Z",
+ "updated": "2026-10-26T12:00:36Z",
  "cards": [
+  {
+   "id": "f5fa96b288",
+   "headline": "Dutch police arrest two for NFC relay card draining attacks",
+   "summary": "Two individuals were arrested in the Netherlands for conducting NFC relay attacks that drained over $400,000 from bank accounts. The attackers called victims and convinced them to install a malicious app and scan their credit cards, facilitating unauthorized fund transfers. NFC relay attacks bypass contactless payment security by relaying card data without physical proximity. Defenders should educate users on social engineering tactics and promote secure payment authentication methods.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
+   "published": "2026-10-26T11:47:52Z",
+   "added": "2026-10-26T12:00:36Z",
+   "also": []
+  },
   {
    "id": "275e6f3b55",
    "headline": "uCreator Android spyware steals Telegram 2FA and clones WeChat",
@@ -3658,39 +3672,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
    "published": "2026-10-12T13:09:09Z",
    "added": "2026-10-12T13:31:20Z",
-   "also": []
-  },
-  {
-   "id": "128ef325e3",
-   "headline": "Ukrainian drones destroy third Yandex Russian data center",
-   "summary": "Ukraine's military struck a third Yandex data center in Russia, forcing operational shutdown and widespread disruptions to cloud services, payment systems, and delivery platforms across the country. The attack is part of ongoing cyber and physical operations targeting Russian infrastructure. No casualties reported.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/ukraine-strikes-third-yandex-data-center",
-   "published": "2026-10-12T12:00:00Z",
-   "added": "2026-10-12T12:30:39Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
-    }
-   ]
-  },
-  {
-   "id": "89310c4a86",
-   "headline": "Canonical website suffers second DDoS attack this year",
-   "summary": "Ubuntu and Canonical's official websites, including developer portals and blog, were disrupted by a distributed denial-of-service attack. This marks the second DDoS incident targeting Canonical in 2026. Services are being restored and no data compromise is indicated at this time.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
-   "published": "2026-10-12T11:58:39Z",
-   "added": "2026-10-12T12:30:39Z",
    "also": []
   }
  ]
