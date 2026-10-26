@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-26T12:30:31Z",
+ "updated": "2026-10-26T13:00:38Z",
  "cards": [
+  {
+   "id": "23a9892afe",
+   "headline": "953 online stores infected in persistent malware campaign",
+   "summary": "A long-running malware campaign injected small loader code into 953 online stores to serve payloads to visitors while avoiding detection. The campaign targeted e-commerce platforms, likely through supply-chain compromise or website vulnerabilities. Affected stores may distribute malware to customers. Website operators should audit for unauthorized code injection, verify integrity of admin access, and implement file monitoring to detect similar infections.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
+   "published": "2026-10-26T12:46:44Z",
+   "added": "2026-10-26T13:00:38Z",
+   "also": []
+  },
   {
    "id": "680a1bdeb1",
    "headline": "LiteLLM exposed key enabled supply-chain attack",
