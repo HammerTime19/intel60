@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-26T14:07:34Z",
+ "updated": "2026-10-26T14:30:34Z",
  "cards": [
+  {
+   "id": "d72684f804",
+   "headline": "Dahua cameras exploited by hackers in Ukraine attacks",
+   "summary": "Hackers are exploiting vulnerabilities in Dahua surveillance cameras and video recorders to gain unauthorized access, according to CERT-UA. Attackers have compromised internet-connected devices, modified settings, and created unauthorized user accounts. The campaign targets Ukraine. Organizations using Dahua equipment should verify device configurations, change credentials, and apply available security updates immediately.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
+   "published": "2026-10-26T14:21:00Z",
+   "added": "2026-10-26T14:30:34Z",
+   "also": []
+  },
   {
    "id": "9cb042202f",
    "headline": "Chinese national extradited for $36 million crypto scam",
