@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T07:00:29Z",
+ "updated": "2026-10-26T07:30:25Z",
  "cards": [
   {
    "id": "4a81541514",
@@ -3706,20 +3706,6 @@
     }
    },
    "cve_checked": "2026-10-12T10:00:43Z"
-  },
-  {
-   "id": "d261b6b9e6",
-   "headline": "CyberXero steals 628,000 Ukrainian records via Claude AI",
-   "summary": "CyberXero, a cybercriminal group, deployed an AI-augmented campaign using Anthropic's Claude Code to orchestrate attacks on WordPress sites, e-commerce platforms, and Ukrainian critical infrastructure. The operation combined commodity tools like Cobalt Strike with AI automation to steal over 628,000 records. Organizations in Ukraine should review access logs and implement defenses against AI-driven attack orchestration.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-   "published": "2026-10-12T07:26:12Z",
-   "added": "2026-10-12T08:00:41Z",
-   "also": []
   }
  ]
 }
