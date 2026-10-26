@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-26T17:30:27Z",
+ "updated": "2026-10-26T18:00:41Z",
  "cards": [
+  {
+   "id": "fd2c8a9136",
+   "headline": "PHP releases second Windows update for Brotli RCE flaw",
+   "summary": "PHP released rebuilt Windows packages for versions 8.2 through 8.5 to address CVE-2026-111497, a code execution flaw in the bundled Brotli compression library. The vulnerability allows memory corruption and potential remote code execution through the cURL extension when decompressing HTTP responses. Users should apply the update immediately, particularly if cURL auto-decompression is enabled.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+   "published": "2026-10-26T17:45:57Z",
+   "added": "2026-10-26T18:00:39Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-111497": {
+     "kev": false,
+     "epss": 0.36027,
+     "pct": 0.98463,
+     "cvss": 9.2,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-26T18:00:40Z"
+  },
+  {
+   "id": "03f54c74f6",
+   "headline": "Threat actors impersonate IT support via Microsoft Teams",
+   "summary": "Cybersecurity researchers identified a recurring social engineering pattern where attackers exploit Microsoft Teams' external chat feature to impersonate IT support, conducting scams and delivering malware and ransomware. The attacks use disposable tenant accounts and consistent impersonation tactics across hundreds of incidents. Organizations should restrict external chat permissions and educate users to verify IT support requests through official channels.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+   "published": "2026-10-26T15:52:40Z",
+   "added": "2026-10-26T18:00:39Z",
+   "also": []
+  },
   {
    "id": "cf08225efb",
    "headline": "Microsoft releases emergency .NET patches for critical Brotli flaw",
@@ -69,7 +109,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
    "published": "2026-10-26T13:56:44Z",
    "added": "2026-10-26T14:00:41Z",
-   "also": []
+   "also": [
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/chinese-national-extradited-investment-scam/"
+    }
+   ]
   },
   {
    "id": "23a9892afe",
