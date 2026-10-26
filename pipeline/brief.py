@@ -388,11 +388,31 @@ def teams(title, message, priority=3, tags=None, click=None, story=None):
         log(f"  ! teams failed: {str(e).replace(url, '***')}")
 
 
-def broadcast(title, message, priority=3, tags=None, click=None, story=None):
+def broadcast(title, message, priority=3, tags=None, click=None, story=None, to_teams=True):
     """Reader alerts: the ntfy news topic, the Telegram channel and the Teams chat, whichever are configured."""
     ntfy(title, message, priority=priority, tags=tags, click=click)
     telegram(title, message, priority=priority, tags=tags, click=click)
-    teams(title, message, priority=priority, tags=tags, click=click, story=story)
+    if to_teams:
+        teams(title, message, priority=priority, tags=tags, click=click, story=story)
+
+
+SEVERITY_TAG = {"critical": "rotating_light", "high": "warning", "info": "newspaper"}
+
+
+def send_teams_stories(new_cards):
+    """Every new story goes to the Teams chat, oldest first, so the chat reads in order."""
+    if not (config.TEAMS_ALL_STORIES and os.environ.get("TEAMS_WEBHOOK_URL")) or not new_cards:
+        return
+    base = app_url()
+    stories = sorted(new_cards, key=lambda c: c["published"])
+    for story in stories[:config.TEAMS_MAX_PER_RUN]:
+        link = f"{base}#{story['id']}" if base else story["url"]
+        teams(f"{story['severity'].capitalize()}: {story['headline']}", story["summary"],
+              tags=[SEVERITY_TAG.get(story["severity"], "newspaper")], click=link, story=story)
+    extra = stories[config.TEAMS_MAX_PER_RUN:]
+    if extra:
+        teams(f"{len(extra)} more new stories", "\n".join(f"- {c['headline']}" for c in extra),
+              tags=["newspaper"], click=base or None)
 
 
 def admin_alert(title, message, state, key=None, every_hours=None):
@@ -502,11 +522,11 @@ def send_alerts(new_cards, local):
         broadcast(f"{prefix}: {c['headline']}", c["summary"],
              priority=2 if quiet else (4 if crit else 3),
              tags=["rotating_light"] if crit else ["warning"],
-             click=f"{base}#{c['id']}" if base else c["url"], story=c)
+             click=f"{base}#{c['id']}" if base else c["url"], story=c, to_teams=not config.TEAMS_ALL_STORIES)
     extra = alerts[config.NOTIFY_MAX_PER_RUN:]
     if extra:
         broadcast(f"{len(extra)} more alerts", "\n".join("- " + c["headline"] for c in extra),
-             priority=2 if quiet else 3, tags=["warning"], click=base or None)
+             priority=2 if quiet else 3, tags=["warning"], click=base or None, to_teams=not config.TEAMS_ALL_STORIES)
 
 
 def send_digest(cards, state, local):
@@ -768,6 +788,7 @@ def main():
 
     if not first_run:
         send_alerts(new_cards, local)
+        send_teams_stories(new_cards)
     send_digest(cards, state, local)
     send_cost_reports(state, local, ai)
     send_renewal_reminders(state, local)

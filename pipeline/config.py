@@ -55,6 +55,8 @@ MAX_CARDS = 300
 # Notifications
 TIMEZONE = "America/New_York"
 NOTIFY_MAX_PER_RUN = 4    # extra critical stories are grouped into one alert
+TEAMS_ALL_STORIES = True  # Teams chat gets every new story (any severity); ntfy/Telegram stay critical + watchlist
+TEAMS_MAX_PER_RUN = 10    # cap on story cards per run in Teams; the rest are grouped into one summary card
 QUIET_HOURS = (23, 6)     # 11pm to 6am: alerts arrive silently
 DIGEST_HOUR = 7           # morning summary notification (local hour); None to disable
 
