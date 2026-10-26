@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T19:30:35Z",
+ "updated": "2026-10-26T20:00:38Z",
  "cards": [
   {
    "id": "d84dc99ca6",
@@ -142,7 +142,12 @@
    "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
    "published": "2026-10-26T12:46:44Z",
    "added": "2026-10-26T13:00:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html"
+    }
+   ]
   },
   {
    "id": "680a1bdeb1",
