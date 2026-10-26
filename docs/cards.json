@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-26T12:00:36Z",
+ "updated": "2026-10-26T12:30:31Z",
  "cards": [
+  {
+   "id": "680a1bdeb1",
+   "headline": "LiteLLM exposed key enabled supply-chain attack",
+   "summary": "An unrevoked API key accidentally exposed in May in the open-source LiteLLM tool was used to launch a supply-chain attack targeting tens of thousands of AI developers. The compromised key allowed attackers to target users of the widely deployed library. LiteLLM developers confirmed the incident and recommend users verify account activity and rotate credentials immediately.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/litellm-hackers-ai-malware",
+   "published": "2026-10-26T12:00:00Z",
+   "added": "2026-10-26T12:30:31Z",
+   "also": []
+  },
   {
    "id": "f5fa96b288",
    "headline": "Dutch police arrest two for NFC relay card draining attacks",
