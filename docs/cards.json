@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T20:06:18Z",
+ "updated": "2026-10-26T20:30:32Z",
  "cards": [
   {
    "id": "d84dc99ca6",
@@ -3773,25 +3773,6 @@
     }
    },
    "cve_checked": "2026-10-13T19:30:33Z"
-  },
-  {
-   "id": "d0137ba408",
-   "headline": "Norway fines Microsoft Xandr $9.6 million Grindr privacy breach",
-   "summary": "Norway's Data Protection Authority fined Microsoft-owned advertising firm Xandr NOK 92 million for unlawfully processing and sharing sensitive data of Grindr users without proper consent. The violation involved personal information exposed through Xandr's ad network connections. The fine represents enforcement of GDPR-like protections in Norway and signals regulatory action against data misuse by tech companies.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
-   "published": "2026-10-12T20:13:52Z",
-   "added": "2026-10-12T20:30:31Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html"
-    }
-   ]
   }
  ]
 }
