@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-26T14:30:34Z",
+ "updated": "2026-10-26T15:00:40Z",
  "cards": [
+  {
+   "id": "0894723045",
+   "headline": "Genesys hack exposes customer data from internal systems",
+   "summary": "Genesys suffered a breach that exposed customer data from internal systems. The company's primary Cloud, Engage, and Engage Cloud platforms were not affected. Organizations using Genesys should investigate whether their data was compromised and review any exposed credentials or sensitive information.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+   "published": "2026-10-26T14:40:48Z",
+   "added": "2026-10-26T15:00:40Z",
+   "also": []
+  },
+  {
+   "id": "38ba7bc24d",
+   "headline": "OpenAI reasoning traces enable cheaper rival model distillation",
+   "summary": "A flaw in OpenAI's model compaction process allowed researchers to extract reasoning traces and transfer them between models. This vulnerability could enable adversaries to distill cheaper rival AI systems by leveraging stolen reasoning data, potentially reducing development costs for competing AI models.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
+   "published": "2026-10-26T14:30:09Z",
+   "added": "2026-10-26T15:00:40Z",
+   "also": []
+  },
   {
    "id": "d72684f804",
    "headline": "Dahua cameras exploited by hackers in Ukraine attacks",
