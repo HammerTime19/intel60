@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-26T19:00:32Z",
+ "updated": "2026-10-26T19:30:35Z",
  "cards": [
+  {
+   "id": "d84dc99ca6",
+   "headline": "DreamHost forces password resets after incident",
+   "summary": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. The hosting provider has not disclosed full details of the incident but is taking proactive security measures. Customers should verify their account access and monitor for unauthorized activity on their hosted services.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+   "published": "2026-10-26T19:26:20Z",
+   "added": "2026-10-26T19:30:35Z",
+   "also": []
+  },
   {
    "id": "fd2c8a9136",
    "headline": "PHP releases second Windows update for Brotli RCE flaw",
