@@ -13,6 +13,10 @@ on:
         description: "Send a test message to the readers' alert channels"
         type: boolean
         default: false
+      test_teams:
+        description: "Send a test card to the Teams chat only"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths: ["docs/**", "pipeline/**", ".github/workflows/**"]
@@ -58,6 +62,8 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TEST_ALERT: ${{ inputs.test_alert }}
+          TEST_TEAMS: ${{ inputs.test_teams }}
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
           APP_URL: ${{ vars.APP_URL }}
           GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 

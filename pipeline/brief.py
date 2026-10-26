@@ -341,10 +341,36 @@ def telegram(title, message, priority=3, tags=None, click=None):
         log(f"  ! telegram failed: {str(e).replace(token, '***')}")
 
 
+def teams(title, message, priority=3, tags=None, click=None):
+    """Posts an Adaptive Card to a Microsoft Teams chat through a Teams Workflows webhook, when configured."""
+    url = os.environ.get("TEAMS_WEBHOOK_URL")
+    if not url:
+        return
+    emoji = next((TG_EMOJI[t] for t in (tags or []) if t in TG_EMOJI), "")
+    card = {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json", "type": "AdaptiveCard", "version": "1.4",
+        "body": [
+            {"type": "TextBlock", "text": f"{emoji} {title}".strip()[:250], "weight": "Bolder", "size": "Medium", "wrap": True},
+            {"type": "TextBlock", "text": message[:2000], "wrap": True},
+        ],
+        "actions": [{"type": "Action.OpenUrl", "title": "Open in Intel60", "url": click}] if click else [],
+    }
+    payload = {"type": "message", "attachments": [
+        {"contentType": "application/vnd.microsoft.card.adaptive", "contentUrl": None, "content": card}]}
+    try:
+        resp = requests.post(url, json=payload, timeout=20)
+        if resp.status_code >= 300:
+            raise requests.RequestException(f"HTTP {resp.status_code}: {resp.text[:200]}")
+        log(f"  > teams: {title}")
+    except requests.RequestException as e:  # never log the webhook address: it works like a password
+        log(f"  ! teams failed: {str(e).replace(url, '***')}")
+
+
 def broadcast(title, message, priority=3, tags=None, click=None):
-    """Reader alerts: the ntfy news topic and the Telegram channel, whichever are configured."""
+    """Reader alerts: the ntfy news topic, the Telegram channel and the Teams chat, whichever are configured."""
     ntfy(title, message, priority=priority, tags=tags, click=click)
     telegram(title, message, priority=priority, tags=tags, click=click)
+    teams(title, message, priority=priority, tags=tags, click=click)
 
 
 def admin_alert(title, message, state, key=None, every_hours=None):
@@ -585,6 +611,9 @@ def main():
                 else "Add it under repo Settings > Secrets and variables > Actions.")
         sys.exit(f"{KEY_NAMES[ai]} is not set for AI provider '{ai}'. {hint}")
     log(f"AI provider: {ai} ({config.MODELS[ai]})")
+    if os.environ.get("TEST_TEAMS") == "true":
+        teams("Intel60 is connected", "Critical cybersecurity stories will be posted in this chat as they break, "
+              "plus a 7 AM morning brief. Every story in 60 words.", tags=["newspaper"], click=app_url())
     if os.environ.get("TEST_ALERT") == "true":
         telegram("Intel60 alerts are live", "Critical cybersecurity stories will be posted here as they "
                  "break, plus a 7 AM morning brief. Every story in 60 words.", tags=["newspaper"], click=app_url())
