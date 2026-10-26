@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-26T10:30:31Z",
+ "updated": "2026-10-26T11:00:38Z",
  "cards": [
+  {
+   "id": "275e6f3b55",
+   "headline": "uCreator Android spyware steals Telegram 2FA and clones WeChat",
+   "summary": "A rentable Android spyware kit called uCreator hijacks Telegram and WeChat accounts by embedding malicious code into tampered versions of both applications distributed outside official app stores. The kit exploits 2FA bypass techniques to steal Telegram credentials and clone WeChat accounts. Victims are affected only when installing compromised apps or using the attackers' WeChat container. Users should install apps exclusively from official stores and enable additional security measures.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+   "published": "2026-10-26T09:54:02Z",
+   "added": "2026-10-26T11:00:37Z",
+   "also": []
+  },
   {
    "id": "35a2887f86",
    "headline": "AitM relay compromises Microsoft 365 accounts across 79 organizations",
