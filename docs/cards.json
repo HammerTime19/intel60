@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T11:00:38Z",
+ "updated": "2026-10-26T11:30:28Z",
  "cards": [
   {
    "id": "275e6f3b55",
@@ -3692,29 +3692,6 @@
    "published": "2026-10-12T11:58:39Z",
    "added": "2026-10-12T12:30:39Z",
    "also": []
-  },
-  {
-   "id": "7be825a809",
-   "headline": "Ledger hardware wallets compromised via CryptoBilis reseller",
-   "summary": "Ledger has paused sales through reseller CryptoBilis after investigating unauthorized hardware implants in wallets sold in Southeast Asia. Users reported stolen cryptocurrency funds totaling over $86,000. The investigation is ongoing to determine the full scope of the compromise and identify which devices were affected. Customers should review transaction histories immediately.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
-   "published": "2026-10-12T11:21:48Z",
-   "added": "2026-10-12T12:30:39Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/ledger-cryptocurrency-wallet-implant-theft"
-    }
-   ]
   }
  ]
 }
