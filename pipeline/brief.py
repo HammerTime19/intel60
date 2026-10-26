@@ -341,8 +341,26 @@ def telegram(title, message, priority=3, tags=None, click=None):
         log(f"  ! telegram failed: {str(e).replace(token, '***')}")
 
 
-def teams(title, message, priority=3, tags=None, click=None):
-    """Posts an Adaptive Card to a Microsoft Teams chat through a Teams Workflows webhook, when configured."""
+def teams_facts(story):
+    """Severity, category, CVE scores and sources for a story's Teams card."""
+    facts = [{"title": "Severity", "value": story["severity"].capitalize()},
+             {"title": "Category", "value": story["category"]}]
+    for cve in story.get("cves", [])[:3]:
+        info = (story.get("cve_info") or {}).get(cve, {})
+        bits = [f"CVSS {info['cvss']:.1f}"] if info.get("cvss") is not None else []
+        if info.get("epss") is not None:
+            bits.append(f"EPSS {info['epss'] * 100:.1f}%")
+        if info.get("kev"):
+            bits.append("Exploited (CISA KEV)")
+        facts.append({"title": cve, "value": " \u00b7 ".join(bits) or "Not scored yet"})
+    sources = [story["source"]] + [a["source"] for a in story.get("also", [])]
+    facts.append({"title": "Source" if len(sources) == 1 else f"Sources ({len(sources)})", "value": ", ".join(sources)})
+    return facts
+
+
+def teams(title, message, priority=3, tags=None, click=None, story=None):
+    """Posts an Adaptive Card to a Microsoft Teams chat through a Teams Workflows webhook, when configured.
+    With a story, the card also shows its details and links to the original article."""
     url = os.environ.get("TEAMS_WEBHOOK_URL")
     if not url:
         return
@@ -355,6 +373,10 @@ def teams(title, message, priority=3, tags=None, click=None):
         ],
         "actions": [{"type": "Action.OpenUrl", "title": "Open in Intel60", "url": click}] if click else [],
     }
+    if story:
+        card["body"].append({"type": "FactSet", "separator": True, "spacing": "Medium", "facts": teams_facts(story)})
+        if re.match(r"https?://", story.get("url", "")):
+            card["actions"].append({"type": "Action.OpenUrl", "title": "Read the full story", "url": story["url"]})
     payload = {"type": "message", "attachments": [
         {"contentType": "application/vnd.microsoft.card.adaptive", "contentUrl": None, "content": card}]}
     try:
@@ -366,11 +388,11 @@ def teams(title, message, priority=3, tags=None, click=None):
         log(f"  ! teams failed: {str(e).replace(url, '***')}")
 
 
-def broadcast(title, message, priority=3, tags=None, click=None):
+def broadcast(title, message, priority=3, tags=None, click=None, story=None):
     """Reader alerts: the ntfy news topic, the Telegram channel and the Teams chat, whichever are configured."""
     ntfy(title, message, priority=priority, tags=tags, click=click)
     telegram(title, message, priority=priority, tags=tags, click=click)
-    teams(title, message, priority=priority, tags=tags, click=click)
+    teams(title, message, priority=priority, tags=tags, click=click, story=story)
 
 
 def admin_alert(title, message, state, key=None, every_hours=None):
@@ -480,7 +502,7 @@ def send_alerts(new_cards, local):
         broadcast(f"{prefix}: {c['headline']}", c["summary"],
              priority=2 if quiet else (4 if crit else 3),
              tags=["rotating_light"] if crit else ["warning"],
-             click=f"{base}#{c['id']}" if base else c["url"])
+             click=f"{base}#{c['id']}" if base else c["url"], story=c)
     extra = alerts[config.NOTIFY_MAX_PER_RUN:]
     if extra:
         broadcast(f"{len(extra)} more alerts", "\n".join("- " + c["headline"] for c in extra),
@@ -621,6 +643,12 @@ def main():
     state = load_json(STATE_PATH, {})
     data = load_json(CARDS_PATH, {})
     cards = data.get("cards", [])
+    if os.environ.get("TEST_TEAMS_STORY") == "true" and cards:  # preview a real alert in Teams
+        pick = max(cards, key=lambda c: (c["severity"] == "critical", c["published"]))
+        prefix = "Critical" if pick["severity"] == "critical" else "Watchlist"
+        teams(f"{prefix}: {pick['headline']}", pick["summary"], priority=4,
+              tags=["rotating_light"] if pick["severity"] == "critical" else ["warning"],
+              click=f"{app_url()}#{pick['id']}" if app_url() else pick["url"], story=pick)
     seen = state.setdefault("seen", {})
     first_run = not seen
     by_id = {c["id"]: c for c in cards}
