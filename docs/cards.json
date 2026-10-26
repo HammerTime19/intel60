@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-26T15:30:32Z",
+ "updated": "2026-10-26T16:00:42Z",
  "cards": [
+  {
+   "id": "cf08225efb",
+   "headline": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+   "summary": "Microsoft released emergency security updates for .NET to patch a critical vulnerability in Brotli compression. The flaw, also tracked as Broccoli2Shell, Node2Shell, and HTTP2Shell, affects widely deployed .NET installations. The vulnerability allows remote code execution and requires immediate patching. Administrators should apply updates without delay to prevent exploitation.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+   "published": "2026-10-26T15:38:24Z",
+   "added": "2026-10-26T16:00:41Z",
+   "also": []
+  },
   {
    "id": "0894723045",
    "headline": "Genesys hack exposes customer data from internal systems",
