@@ -1,6 +1,66 @@
 {
- "updated": "2026-10-26T23:30:45Z",
+ "updated": "2026-10-26T23:49:37Z",
  "cards": [
+  {
+   "id": "39fb6abcb3",
+   "headline": "Apple patches 304 vulnerabilities across iOS, macOS",
+   "summary": "Apple released its October 2026 security update addressing 304 vulnerabilities across iOS, macOS, tvOS, watchOS, visionOS, and Safari. CVE-2026-86950, a previously exploited CoreGraphics flaw, received patches for iOS 18 this month. Other notable issues include CVE-2026-86990, allowing malicious apps camera access without permission, and CVE-2026-28864, enabling local attackers to access Keychain items. Developers and users should apply updates immediately.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-86950",
+    "CVE-2026-86990",
+    "CVE-2026-28864",
+    "CVE-2022-26704",
+    "CVE-2026-112410",
+    "CVE-2026-112413"
+   ],
+   "watch": [],
+   "source": "SANS ISC",
+   "url": "https://isc.sans.edu/diary/rss/33458",
+   "published": "2026-10-26T23:34:37Z",
+   "added": "2026-10-26T23:49:03Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-86950": {
+     "kev": true,
+     "epss": 0.26166,
+     "pct": 0.9798,
+     "cvss": 8.8,
+     "sev": "high"
+    },
+    "CVE-2026-86990": {
+     "kev": false,
+     "cvss": null,
+     "sev": null
+    },
+    "CVE-2026-28864": {
+     "kev": false,
+     "epss": 0.00174,
+     "pct": 0.06816,
+     "cvss": 3.3,
+     "sev": "low"
+    },
+    "CVE-2022-26704": {
+     "kev": false,
+     "epss": 0.01141,
+     "pct": 0.66426,
+     "cvss": 7.8,
+     "sev": "high"
+    },
+    "CVE-2026-112410": {
+     "kev": false,
+     "cvss": null,
+     "sev": null
+    },
+    "CVE-2026-112413": {
+     "kev": false,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-10-26T23:49:37Z"
+  },
   {
    "id": "627cc70bbf",
    "headline": "University of Copenhagen breach exposes 525,000 people",
