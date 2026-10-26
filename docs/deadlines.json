@@ -1,6 +1,28 @@
 {
- "updated": "2026-10-26T23:00:32Z",
+ "updated": "2026-10-26T23:30:43Z",
  "items": [
+  {
+   "cve": "CVE-2026-109618",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "name": "PHP Memory Corruption Vulnerability",
+   "added": "2026-10-26",
+   "due": "2026-10-29",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "5943b3ba07"
+  },
+  {
+   "cve": "CVE-2026-109619",
+   "vendor": "PHP Group",
+   "product": "PHP",
+   "name": "PHP Stale Internal Request-State Vulnerability",
+   "added": "2026-10-26",
+   "due": "2026-10-29",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "989022c91b"
+  },
   {
    "cve": "CVE-2026-114625",
    "vendor": "Arista",

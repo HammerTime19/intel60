@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T23:00:32Z",
+ "updated": "2026-10-26T23:30:45Z",
  "cards": [
   {
    "id": "627cc70bbf",
@@ -283,6 +283,58 @@
    ]
   },
   {
+   "id": "989022c91b",
+   "headline": "CISA adds PHP stale state RCE to KEV catalog",
+   "summary": "PHP contains a stale internal request-state vulnerability enabling unauthenticated remote code execution. CISA added CVE-2026-109619 to its Known Exploited Vulnerabilities catalog on October 26, 2026. The vulnerability affects PHP and requires immediate patching. Federal agencies must apply mitigations by October 29, 2026, or discontinue use. Organizations should evaluate internet exposure and follow BOD 26-04 patching guidelines.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-109619"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+   "published": "2026-10-26T00:00:00Z",
+   "added": "2026-10-26T23:30:35Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-109619": {
+     "kev": true,
+     "epss": 0.99997,
+     "pct": 0.99989,
+     "cvss": 8.1,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-26T23:30:35Z"
+  },
+  {
+   "id": "5943b3ba07",
+   "headline": "CISA adds PHP memory corruption RCE to KEV catalog",
+   "summary": "PHP contains an out-of-memory corruption vulnerability enabling unauthenticated remote code execution. CISA added CVE-2026-109618 to its Known Exploited Vulnerabilities catalog on October 26, 2026. The vulnerability affects PHP and requires immediate patching. Federal agencies must apply mitigations by October 29, 2026, or discontinue use. Organizations should evaluate internet exposure and follow BOD 26-04 patching guidelines.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+   "published": "2026-10-26T00:00:00Z",
+   "added": "2026-10-26T23:30:35Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-109618": {
+     "kev": true,
+     "epss": 0.99981,
+     "pct": 0.99981,
+     "cvss": 9.8,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-26T23:30:43Z"
+  },
+  {
    "id": "4a81541514",
    "headline": "Hacked Tailscale device escalates to root on network",
    "summary": "Unpatched flaws in Tailscale SSH allow a compromised device on a Tailscale network to gain root access on other connected servers. The attack requires SSH port forwarding enabled and network access rules permitting device-to-device communication. Affected organizations should review Tailscale SSH configurations, disable port forwarding if unnecessary, and update to patched versions immediately.",
@@ -323,14 +375,14 @@
    ],
    "cve_info": {
     "CVE-2026-109618": {
-     "kev": false,
+     "kev": true,
      "epss": 0.99981,
      "pct": 0.99981,
      "cvss": 9.8,
      "sev": "critical"
     },
     "CVE-2026-109619": {
-     "kev": false,
+     "kev": true,
      "epss": 0.99997,
      "pct": 0.99989,
      "cvss": 8.1,
@@ -1090,12 +1142,12 @@
    ],
    "cve_info": {
     "CVE-2026-109618": {
-     "kev": false,
+     "kev": true,
      "cvss": 9.8,
      "sev": "critical"
     },
     "CVE-2026-109619": {
-     "kev": false,
+     "kev": true,
      "cvss": 9.8,
      "sev": "critical"
     }
