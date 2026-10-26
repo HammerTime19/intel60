@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-26T22:00:34Z",
+ "updated": "2026-10-26T22:30:32Z",
  "cards": [
+  {
+   "id": "627cc70bbf",
+   "headline": "University of Copenhagen breach exposes 525,000 people",
+   "summary": "The University of Copenhagen confirmed hackers accessed a test environment containing personal data of 525,000 individuals. The breach affected stored records in the test system. The university is investigating the scope and conducting notifications to affected individuals. Affected parties should monitor for identity theft and fraudulent activity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+   "published": "2026-10-26T22:20:36Z",
+   "added": "2026-10-26T22:30:31Z",
+   "also": []
+  },
   {
    "id": "9b6153963e",
    "headline": "Former pentester breaches 90+ orgs using ARTEX AI tool",
