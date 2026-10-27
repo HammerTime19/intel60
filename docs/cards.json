@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-27T20:36:11Z",
+ "updated": "2026-10-27T21:00:42Z",
  "cards": [
+  {
+   "id": "7477a331e6",
+   "headline": "Convertr analytics script hijacked for payment card theft",
+   "summary": "Attackers compromised a shared analytics script used by e-commerce platform Convertr to steal payment card data from shoppers during checkout. The hijacked script allowed attackers to intercept sensitive payment information from multiple merchants using the platform. Organizations using Convertr should audit transactions and implement payment security monitoring.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+   "published": "2026-10-27T20:57:25Z",
+   "added": "2026-10-27T21:00:41Z",
+   "also": []
+  },
   {
    "id": "f9ab7d3fed",
    "headline": "Ukrainian ransomware affiliate sentenced to 70 months prison",
@@ -13,7 +27,12 @@
    "url": "https://cyberscoop.com/nefilim-hive-ransomware-affiliate-artem-stryzhak-sentenced/",
    "published": "2026-10-27T18:33:41Z",
    "added": "2026-10-27T19:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison"
+    }
+   ]
   },
   {
    "id": "d09366a97f",
@@ -3879,37 +3898,6 @@
     }
    },
    "cve_checked": "2026-10-13T22:00:44Z"
-  },
-  {
-   "id": "f8c07b4f34",
-   "headline": "DOJ shuts down North Korean laptop scam farm network",
-   "summary": "Federal agents arrested multiple individuals and raided over 40 residences in Texas in September targeting a remote worker scam operation generating approximately $3 million in revenue for North Korea. The operation involved fake work-from-home schemes designed to launder money back to the regime. Authorities continue investigating related criminal networks exploiting remote work platforms.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas",
-   "published": "2026-10-13T20:55:00Z",
-   "added": "2026-10-13T21:30:37Z",
-   "also": [
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/doj-north-korea-remote-work-laptop-farms/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/"
-    }
-   ]
   }
  ]
 }
