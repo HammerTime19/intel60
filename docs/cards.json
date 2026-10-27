@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-27T01:30:29Z",
+ "updated": "2026-10-27T02:00:40Z",
  "cards": [
+  {
+   "id": "7f986c2781",
+   "headline": "University of New Mexico Health System diverts patients after cyber incident",
+   "summary": "University of New Mexico Health System experienced a cybersecurity incident that forced the closure of its main hospital in Albuquerque and resulted in cancellation of appointments across more than 30 clinics. Patients were instructed not to present at the facility. No details on the attack type or data compromised were provided. Healthcare organizations should review incident response procedures and communications to affected patients and staff.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
+   "published": "2026-10-27T01:30:00Z",
+   "added": "2026-10-27T02:00:39Z",
+   "also": []
+  },
   {
    "id": "39fb6abcb3",
    "headline": "Apple patches 304 vulnerabilities across iOS, macOS",
