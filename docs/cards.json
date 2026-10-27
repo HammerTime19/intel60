@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-27T16:30:45Z",
+ "updated": "2026-10-27T17:00:44Z",
  "cards": [
+  {
+   "id": "c64d4188c2",
+   "headline": "Aokigahara stealer targets developer keys and AI assistants",
+   "summary": "Aokigahara infostealer malware expands beyond traditional credential theft to target developer keyrings and AI assistant sessions. A single compromised endpoint can expose sensitive business data, AI sessions, and developer infrastructure. The malware represents an escalation of infostealer capabilities in the era of AI-assisted development. Organizations should monitor for signs of compromise and review access to AI platforms and developer credentials.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
+   "published": "2026-10-27T16:47:20Z",
+   "added": "2026-10-27T17:00:40Z",
+   "also": []
+  },
   {
    "id": "db852607b1",
    "headline": "Warp agentic platform breached, agent logs exposed",
@@ -42,6 +56,46 @@
    "published": "2026-10-27T15:07:00Z",
    "added": "2026-10-27T15:30:39Z",
    "also": []
+  },
+  {
+   "id": "ae042a0b53",
+   "headline": "GoAhead web server TLS flaws bypass certificate revocation",
+   "summary": "GoAhead embedded web server contains TLS flaws affecting systems configured with mutual-TLS authentication. The server loads certificate revocation lists but never enables revocation checking, allowing revoked client certificates to pass authentication. Session decryption is also possible. Organizations using GoAhead with OpenSSL backend and mutual-TLS should verify revocation checking is enabled or disable affected configurations.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+   "published": "2026-10-27T13:59:48Z",
+   "added": "2026-10-27T17:00:40Z",
+   "also": []
+  },
+  {
+   "id": "0afa3606f1",
+   "headline": "Apple backports CoreGraphics RCE fix to older iPhones",
+   "summary": "Apple backported patches for CVE-2026-86950, a high-severity out-of-bounds write in CoreGraphics affecting older iPhones and iPads. The flaw allows arbitrary code execution when processing malicious files and has been exploited in real-world attacks. Patches released last month are now available for older devices. Users should update immediately to the latest available iOS version.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-86950"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+   "published": "2026-10-27T13:59:09Z",
+   "added": "2026-10-27T17:00:40Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-86950": {
+     "kev": true,
+     "epss": 0.26166,
+     "pct": 0.97984,
+     "cvss": 8.8,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-27T17:00:41Z"
   },
   {
    "id": "37d79b8322",
@@ -3865,20 +3919,6 @@
    "source": "SecurityWeek",
    "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
    "published": "2026-10-13T17:14:42Z",
-   "added": "2026-10-13T17:30:35Z",
-   "also": []
-  },
-  {
-   "id": "19a292ee37",
-   "headline": "Google restructures Chrome bug bounty program rewards",
-   "summary": "Google is restructuring its Chrome bug bounty program with increased focus on complex memory safety vulnerabilities. The changes represent a partial reversal of previous reward cuts, aiming to incentivize researchers to focus on high-impact security issues that are harder to find but critical for browser security.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
-   "published": "2026-10-13T17:00:00Z",
    "added": "2026-10-13T17:30:35Z",
    "also": []
   }
