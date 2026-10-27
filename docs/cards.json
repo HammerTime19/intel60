@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T05:30:28Z",
+ "updated": "2026-10-27T06:00:55Z",
  "cards": [
   {
    "id": "7f986c2781",
@@ -73,7 +73,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-10-26T23:49:37Z"
+   "cve_checked": "2026-10-27T06:00:55Z"
   },
   {
    "id": "627cc70bbf",
@@ -3864,20 +3864,6 @@
    "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
    "published": "2026-10-13T08:44:01Z",
    "added": "2026-10-13T09:30:37Z",
-   "also": []
-  },
-  {
-   "id": "585594f86c",
-   "headline": "Low-cost Android phones ship preinstalled malware residential proxies",
-   "summary": "Low-cost Android smartphones built on MediaTek platforms ship with malware baked into firmware, tracked as Midnight Mimosa. The malware enables covert app installation, ad fraud, and turns devices into residential proxies for attackers. Bitdefender identified the activity across multiple brands. Users should verify device sources and apply security patches when available.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-   "published": "2026-10-13T06:00:11Z",
-   "added": "2026-10-13T07:00:41Z",
    "also": []
   }
  ]
