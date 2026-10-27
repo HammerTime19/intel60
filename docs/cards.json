@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T22:00:33Z",
+ "updated": "2026-10-27T22:30:29Z",
  "cards": [
   {
    "id": "7477a331e6",
@@ -308,7 +308,12 @@
    "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
    "published": "2026-10-27T01:30:00Z",
    "added": "2026-10-27T02:00:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/"
+    }
+   ]
   },
   {
    "id": "a77dca8ee9",
