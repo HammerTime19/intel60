@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T11:30:33Z",
+ "updated": "2026-10-27T12:00:41Z",
  "cards": [
   {
    "id": "a71ac5df91",
@@ -80,6 +80,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/"
     }
    ],
    "cve_info": {
