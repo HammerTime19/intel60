@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T06:30:26Z",
+ "updated": "2026-10-27T07:00:35Z",
  "cards": [
   {
    "id": "7f986c2781",
@@ -230,7 +230,12 @@
    "url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
    "published": "2026-10-26T14:21:00Z",
    "added": "2026-10-26T14:30:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html"
+    }
+   ]
   },
   {
    "id": "9cb042202f",
