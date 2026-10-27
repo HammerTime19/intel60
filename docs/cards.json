@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-27T15:00:36Z",
+ "updated": "2026-10-27T15:30:40Z",
  "cards": [
+  {
+   "id": "820476dc19",
+   "headline": "Tailscale Tailworm SSH flaws disclosed before patches ready",
+   "summary": "Tailscale security flaws dubbed 'Tailworm' affecting SSH were disclosed publicly over the weekend without coordinated vendor notification, forcing the company to rush patch development. Details went public before fixes were available, creating a window of exposure. Users should prioritize applying patches immediately when released and monitor for unusual Tailscale SSH activity on their networks.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
+   "published": "2026-10-27T15:26:12Z",
+   "added": "2026-10-27T15:30:39Z",
+   "also": []
+  },
+  {
+   "id": "37ead5afc4",
+   "headline": "UK police data breached repeatedly through third-party suppliers",
+   "summary": "British police information was compromised multiple times over the past decade via breaches at third-party IT suppliers, according to His Majesty's Inspectorate of Constabulary and Fire & Rescue Services. The watchdog investigation found recurring security failures among contractors holding sensitive law enforcement data. Organizations should audit their supply chain security controls and enforce strict access policies for third-party vendors handling restricted information.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report",
+   "published": "2026-10-27T15:07:00Z",
+   "added": "2026-10-27T15:30:39Z",
+   "also": []
+  },
   {
    "id": "37d79b8322",
    "headline": "Infostealers disguised as Russian gas price tracking apps",
@@ -3895,54 +3923,6 @@
    "published": "2026-10-13T16:01:00Z",
    "added": "2026-10-13T16:30:37Z",
    "also": []
-  },
-  {
-   "id": "cd001c5faa",
-   "headline": "Docker Hub vulnerability lets attackers impersonate users",
-   "summary": "Docker Hub disclosed a critical flaw (CVE-2026-105445) allowing attackers to access other users' container repositories by tampering with personal access tokens (PAT). The vulnerability enables unauthorized access and potential image manipulation. Developers should immediately rotate PATs, audit repository access logs, and verify container image integrity. Docker has patched the issue.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-105445"
-   ],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
-   "published": "2026-10-13T15:20:20Z",
-   "added": "2026-10-13T15:30:38Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-105445": {
-     "kev": false,
-     "cvss": 9.4,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-13T22:00:51Z"
-  },
-  {
-   "id": "120d43c94e",
-   "headline": "North Korean hackers target Ukrainian experts",
-   "summary": "North Korean threat actors are conducting targeted campaigns against Ukrainian experts in diplomacy, security and international policy. The attacks align with Pyongyang's reported military cooperation with Russia during the ongoing war. Defenders should implement enhanced authentication protocols and monitor communications of high-value targets. Consider briefing diplomatic and policy staff on current threat landscape.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/north-korea-hackers-russia-ukraine",
-   "published": "2026-10-13T15:15:00Z",
-   "added": "2026-10-13T15:30:38Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/cyberattacks-data-breaches/north-korea-phishes-ukrainians-war-intel"
-    }
-   ]
   }
  ]
 }
