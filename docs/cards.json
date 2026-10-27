@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-27T18:30:39Z",
+ "updated": "2026-10-27T19:00:55Z",
  "cards": [
+  {
+   "id": "f9ab7d3fed",
+   "headline": "Ukrainian ransomware affiliate sentenced to 70 months prison",
+   "summary": "Artem Aleksandrovych Stryzhak, 36, was sentenced to 70 months in prison for participating in ransomware attacks from 2018 to 2021. He affiliated with Nefilim and Hive ransomware groups, targeting approximately 1,500 victims including hospitals, government entities, and critical infrastructure operators. His attacks disrupted patient care and caused millions in damages. Stryzhak was arrested in Spain in June 2024 and extradited to the U.S. in April 2025.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/nefilim-hive-ransomware-affiliate-artem-stryzhak-sentenced/",
+   "published": "2026-10-27T18:33:41Z",
+   "added": "2026-10-27T19:00:40Z",
+   "also": []
+  },
+  {
+   "id": "d09366a97f",
+   "headline": "CyberStrikeAI uses 44 AI agents targeting Japanese organizations",
+   "summary": "Researchers at TrendAI discovered three cyber attacks against Japanese organizations where threat actors leveraged 44 AI agents to automate hacking operations. The attacks involved either AI-driven autonomous operations or AI-assisted human-led campaigns. Three exposed server environments used by the threat actors were analyzed. The disclosure details how adversaries are increasingly adopting AI to scale and accelerate cyber attack capabilities.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+   "published": "2026-10-27T18:26:46Z",
+   "added": "2026-10-27T19:00:40Z",
+   "also": []
+  },
   {
    "id": "9df47a48bc",
    "headline": "Microsoft removes trust in compromised eMudhra certificates",
@@ -296,41 +324,47 @@
     "CVE-2026-86950": {
      "kev": true,
      "epss": 0.26166,
-     "pct": 0.9798,
+     "pct": 0.97984,
      "cvss": 8.8,
      "sev": "high"
     },
     "CVE-2026-86990": {
      "kev": false,
      "cvss": null,
-     "sev": null
+     "sev": null,
+     "epss": 0.00254,
+     "pct": 0.16941
     },
     "CVE-2026-28864": {
      "kev": false,
-     "epss": 0.00174,
-     "pct": 0.06816,
+     "epss": 0.00183,
+     "pct": 0.07806,
      "cvss": 3.3,
      "sev": "low"
     },
     "CVE-2022-26704": {
      "kev": false,
      "epss": 0.01141,
-     "pct": 0.66426,
+     "pct": 0.66483,
      "cvss": 7.8,
      "sev": "high"
     },
     "CVE-2026-112410": {
      "kev": false,
      "cvss": null,
-     "sev": null
+     "sev": null,
+     "epss": 0.00324,
+     "pct": 0.25291
     },
     "CVE-2026-112413": {
      "kev": false,
      "cvss": null,
-     "sev": null
+     "sev": null,
+     "epss": 0.00224,
+     "pct": 0.12954
     }
    },
-   "cve_checked": "2026-10-27T12:31:00Z"
+   "cve_checked": "2026-10-27T19:00:54Z"
   },
   {
    "id": "627cc70bbf",
