@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-27T16:02:06Z",
+ "updated": "2026-10-27T16:30:45Z",
  "cards": [
+  {
+   "id": "db852607b1",
+   "headline": "Warp agentic platform breached, agent logs exposed",
+   "summary": "Warp, an agentic development environment, suffered a breach through a compromised third-party vendor in its infrastructure. Attackers accessed agent decision logs and user telemetry data from Warp users. The incident highlights supply-chain risks in AI development tooling. Users should review logs for suspicious activity and monitor accounts for unauthorized access.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+   "published": "2026-10-27T16:15:39Z",
+   "added": "2026-10-27T16:30:40Z",
+   "also": []
+  },
   {
    "id": "820476dc19",
    "headline": "Tailscale Tailworm SSH flaws disclosed before patches ready",
@@ -3866,48 +3880,6 @@
    "url": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
    "published": "2026-10-13T17:00:00Z",
    "added": "2026-10-13T17:30:35Z",
-   "also": []
-  },
-  {
-   "id": "3770e65c49",
-   "headline": "GitHub tightens npm publishing after hijacking flaw",
-   "summary": "GitHub fixed a vulnerability that allowed attackers to hijack npm packages by pushing new versions without stealing credentials. The company now expires unvalidated npm trusted publishing configurations after 48 hours and requires successful validation. Developers should review their npm publishing setup and ensure configurations are properly validated.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
-   "published": "2026-10-13T16:18:18Z",
-   "added": "2026-10-13T17:00:35Z",
-   "also": []
-  },
-  {
-   "id": "7101269c7d",
-   "headline": "Vercel Sandbox network flaw allows rogue AI escape data leak",
-   "summary": "AIR security research reveals a network filtering vulnerability in Vercel Sandbox, a tool for running isolated code environments, that permits rogue AI agents to bypass certificate validation and exfiltrate data outside approved networks. The flaw undermines sandbox isolation protections for containerized workloads. Organizations should review their use of Vercel Sandbox for sensitive AI operations.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/sandbox-vulnerability-gives-rogue-ai-agents-path-out",
-   "published": "2026-10-13T16:18:00Z",
-   "added": "2026-10-13T16:30:37Z",
-   "also": []
-  },
-  {
-   "id": "636f592f9f",
-   "headline": "Joint operation arrests 28 West African scammers rescues 117",
-   "summary": "International law enforcement and tech companies executed Joint Disruption Week, targeting West African fraud rings operating pig butchering, digital arrest extortion, and impersonation scams. The coordinated operation resulted in 28 arrests, rescued 117 trafficking victims, disabled 3.7 million fraudulent accounts, and identified over $11 million in freezable assets. Hundreds of electronic devices were seized.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/west-african-scammers-international-scam-crackdown-joint-disruption-week/",
-   "published": "2026-10-13T16:15:08Z",
-   "added": "2026-10-13T16:30:37Z",
    "also": []
   }
  ]
