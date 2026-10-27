@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T14:00:39Z",
+ "updated": "2026-10-27T14:30:40Z",
  "cards": [
   {
    "id": "37d79b8322",
@@ -587,7 +587,12 @@
    "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
    "published": "2026-10-25T17:44:09Z",
    "added": "2026-10-25T18:30:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/"
+    }
+   ]
   },
   {
    "id": "3eda0d6ae7",
