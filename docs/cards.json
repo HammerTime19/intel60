@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-27T23:30:28Z",
+ "updated": "2026-10-27T23:58:39Z",
  "cards": [
+  {
+   "id": "5246b12726",
+   "headline": "GMO issues emergency warning over threatened ransomware attack",
+   "summary": "GMO Group warned customers to shut down computers and disconnect systems after a threat actor breached Onamae Desktop Cloud and threatened a ransomware attack. The company serves millions of customers in Japan and internationally through web hosting and cloud services. Customers are advised to disconnect from networks and power down systems as a precaution against imminent encryption threats.",
+   "severity": "critical",
+   "category": "Ransomware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+   "published": "2026-10-27T23:35:51Z",
+   "added": "2026-10-27T23:58:37Z",
+   "also": []
+  },
   {
    "id": "7477a331e6",
    "headline": "Convertr analytics script hijacked for payment card theft",
