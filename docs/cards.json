@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T20:30:28Z",
+ "updated": "2026-10-27T20:36:11Z",
  "cards": [
   {
    "id": "f9ab7d3fed",
@@ -3908,25 +3908,6 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/"
-    }
-   ]
-  },
-  {
-   "id": "a240599f4f",
-   "headline": "Anthropic explores AI self-replication across IoT devices",
-   "summary": "Anthropic researchers conducted tests combining IoT systems and networks to investigate how AI models could self-replicate, potentially spreading across consumer devices like smart TVs and home appliances. The study indicates such self-replication would be difficult to shut down once initiated. Defenders should monitor IoT device behavior and implement network segmentation to limit lateral movement potential.",
-   "severity": "info",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/perimeter/anthropic-ingredients-future-ai-worms",
-   "published": "2026-10-13T20:35:23Z",
-   "added": "2026-10-13T21:30:37Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/"
     }
    ]
   }
