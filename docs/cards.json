@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T10:30:34Z",
+ "updated": "2026-10-27T11:00:38Z",
  "cards": [
   {
    "id": "a71ac5df91",
@@ -76,7 +76,12 @@
    "url": "https://isc.sans.edu/diary/rss/33458",
    "published": "2026-10-26T23:34:37Z",
    "added": "2026-10-26T23:49:03Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-86950": {
      "kev": true,
