@@ -1,6 +1,74 @@
 {
- "updated": "2026-10-27T12:00:41Z",
+ "updated": "2026-10-27T12:31:03Z",
  "cards": [
+  {
+   "id": "a6006728be",
+   "headline": "Microsoft Authenticator Android flaw steals work account tokens",
+   "summary": "Microsoft fixed CVE-2026-80097, a vulnerability in Authenticator for Android that allowed malicious apps with no permissions to impersonate trusted Microsoft apps like Teams and steal work account sign-in tokens. The flaw was patched in Authenticator version 6.2606.4246. Users should update immediately to prevent unauthorized access to work accounts and sensitive resources.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-80097"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+   "published": "2026-10-27T12:09:50Z",
+   "added": "2026-10-27T12:30:39Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-80097": {
+     "kev": false,
+     "epss": 0.00442,
+     "pct": 0.38156,
+     "cvss": 8.6,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-27T12:30:40Z"
+  },
+  {
+   "id": "3fba9192c9",
+   "headline": "Keystone to destroy 18,835 hardware wallets after key theft",
+   "summary": "Keystone announced it will destroy 18,835 hardware wallets after attackers obtained the device verification key from its website. The stolen key could enable creation of counterfeit wallets that pass authenticity checks, putting buyers at risk of crypto theft. No actual cryptocurrency was stolen in the incident, but the breach undermines trust in Keystone's device verification process.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+   "published": "2026-10-27T11:46:00Z",
+   "added": "2026-10-27T12:30:39Z",
+   "also": []
+  },
+  {
+   "id": "1ce9ccf10a",
+   "headline": "AI-generated fake login pages accelerate account takeover attacks",
+   "summary": "Generative AI enables attackers to create convincing fake login pages that steal passwords, capture MFA codes, and hijack authenticated sessions. Attackers can now easily impersonate trusted brands and tailor phishing attempts to specific employees or organizations with minimal effort. The technology significantly lowers the barrier for credential harvesting and account takeover attacks targeting enterprises.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+   "published": "2026-10-27T11:32:46Z",
+   "added": "2026-10-27T12:30:39Z",
+   "also": []
+  },
+  {
+   "id": "cf5c346fce",
+   "headline": "Lazarus targets South Korea using post-quantum encrypted malware",
+   "summary": "North Korea-linked Lazarus Group conducted a cyber espionage campaign called Operation FlashHole targeting at least three South Korean organizations in construction, software, and wire-communication equipment manufacturing since July 2025. Kaspersky attributed the campaign and noted Lazarus abused legitimate South Korean security software as part of the attack chain. The campaign demonstrates sophisticated targeting and use of advanced encryption techniques.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+   "published": "2026-10-27T11:32:31Z",
+   "added": "2026-10-27T12:30:39Z",
+   "also": []
+  },
   {
    "id": "a71ac5df91",
    "headline": "Warlock ransomware exploits unpatched SharePoint globally",
@@ -124,7 +192,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-10-27T06:00:55Z"
+   "cve_checked": "2026-10-27T12:31:00Z"
   },
   {
    "id": "627cc70bbf",
@@ -180,7 +248,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
    "published": "2026-10-26T19:26:20Z",
    "added": "2026-10-26T19:30:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/"
+    }
+   ]
   },
   {
    "id": "fd2c8a9136",
