@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T19:30:30Z",
+ "updated": "2026-10-27T20:00:54Z",
  "cards": [
   {
    "id": "f9ab7d3fed",
@@ -292,6 +292,58 @@
    "also": []
   },
   {
+   "id": "a77dca8ee9",
+   "headline": "CISA adds Google Brotli RCE to KEV catalog",
+   "summary": "Google Brotli unchecked return value vulnerability (CVE-2026-111497) allows remote unauthenticated attackers to corrupt memory, disclose sensitive data, cause denial of service, or execute arbitrary code via crafted compressed streams. The flaw affects widely deployed compression libraries. CISA set federal patching deadline of November 10, 2026. Administrators must prioritize patching per BOD 26-04 guidance or discontinue use.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+   "published": "2026-10-27T00:00:00Z",
+   "added": "2026-10-27T20:00:43Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-111497": {
+     "kev": true,
+     "epss": 0.55483,
+     "pct": 0.9903,
+     "cvss": 9.2,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-27T20:00:44Z"
+  },
+  {
+   "id": "44a5cf1a9a",
+   "headline": "CISA adds Adobe Commerce file upload RCE to KEV",
+   "summary": "Adobe Commerce and Magento contain unrestricted file upload vulnerability (CVE-2026-48356) enabling arbitrary code execution with current user privileges, potentially leading to account takeover or elevated access. The flaw affects e-commerce platforms in widespread use. CISA set federal patching deadline of November 10, 2026. Administrators must apply vendor mitigations immediately per BOD 26-04 guidance.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-48356"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
+   "published": "2026-10-27T00:00:00Z",
+   "added": "2026-10-27T20:00:43Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-48356": {
+     "kev": true,
+     "epss": 0.30582,
+     "pct": 0.98231,
+     "cvss": 9.3,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-27T20:00:51Z"
+  },
+  {
    "id": "39fb6abcb3",
    "headline": "Apple patches 304 vulnerabilities across iOS, macOS",
    "summary": "Apple released its October 2026 security update addressing 304 vulnerabilities across iOS, macOS, tvOS, watchOS, visionOS, and Safari. CVE-2026-86950, a previously exploited CoreGraphics flaw, received patches for iOS 18 this month. Other notable issues include CVE-2026-86990, allowing malicious apps camera access without permission, and CVE-2026-28864, enabling local attackers to access Keychain items. Developers and users should apply updates immediately.",
@@ -444,7 +496,7 @@
    "also": [],
    "cve_info": {
     "CVE-2026-111497": {
-     "kev": false,
+     "kev": true,
      "epss": 0.36027,
      "pct": 0.98463,
      "cvss": 9.2,
@@ -3891,37 +3943,6 @@
    "published": "2026-10-13T20:12:00Z",
    "added": "2026-10-13T20:30:39Z",
    "also": []
-  },
-  {
-   "id": "21edffe120",
-   "headline": "Microsoft October 2026 Patch Tuesday 1,411 flaws",
-   "summary": "Microsoft released October 2026 Patch Tuesday updates addressing a record-breaking 1,411 vulnerabilities across Windows and other products, including one actively exploited and two publicly disclosed zero-day flaws. The updates cover critical security issues affecting widely deployed systems. Administrators should prioritize applying these patches to maintain system security and reduce exploitation risk.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-   "published": "2026-10-13T19:56:09Z",
-   "added": "2026-10-13T20:00:35Z",
-   "also": [
-    {
-     "source": "Krebs on Security",
-     "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/microsoft-patch-tuesday-october-2026/"
-    }
-   ]
   }
  ]
 }
