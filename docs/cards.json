@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T21:30:36Z",
+ "updated": "2026-10-27T22:00:33Z",
  "cards": [
   {
    "id": "7477a331e6",
@@ -3877,32 +3877,6 @@
      "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html"
     }
    ]
-  },
-  {
-   "id": "5d5d52d490",
-   "headline": "Ghostscript heap overflow allows PDF-based remote code execution",
-   "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in Ghostscript rendering engine allows remote code execution through malicious PDF uploads. The flaw affects organizations processing untrusted PDF files from users or external sources. No patch availability mentioned in reporting. Administrators should disable PDF processing where possible and restrict file upload permissions immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-39919"
-   ],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
-   "published": "2026-10-13T21:33:26Z",
-   "added": "2026-10-13T22:00:44Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-39919": {
-     "kev": false,
-     "epss": 0.00784,
-     "pct": 0.54868,
-     "cvss": 9.8,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-13T22:00:44Z"
   }
  ]
 }
