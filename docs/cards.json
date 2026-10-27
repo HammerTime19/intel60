@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-27T09:30:26Z",
+ "updated": "2026-10-27T10:00:45Z",
  "cards": [
+  {
+   "id": "1da67faa3c",
+   "headline": "ASD takes down Amadey malware botnet backend",
+   "summary": "Australian Signals Directorate (ASD) gained access to the Amadey malware backend and disconnected it from approximately 180,000 infected computers worldwide, including systems in Australia. The Amadey botnet was used to steal data and conduct further attacks. By severing the command-and-control infrastructure, ASD prevented the threat actor from continuing operations. Infected users should apply security updates.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+   "published": "2026-10-27T09:33:06Z",
+   "added": "2026-10-27T10:00:44Z",
+   "also": []
+  },
+  {
+   "id": "4b38edd612",
+   "headline": "ENGIE data breach affects energy company customers",
+   "summary": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed attackers stole customer data after breaching a marketing platform used by business partners. The incident affected multiple customers through a third-party system. ENGIE is investigating the breach scope and notifying affected parties. Customers should monitor accounts for suspicious activity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+   "published": "2026-10-27T09:25:50Z",
+   "added": "2026-10-27T10:00:44Z",
+   "also": []
+  },
   {
    "id": "7f986c2781",
    "headline": "University of New Mexico Health System diverts patients after cyber incident",
@@ -216,7 +244,12 @@
    "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
    "published": "2026-10-26T14:30:09Z",
    "added": "2026-10-26T15:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html"
+    }
+   ]
   },
   {
    "id": "d72684f804",
