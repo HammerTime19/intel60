@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T00:00:32Z",
+ "updated": "2026-10-27T00:30:32Z",
  "cards": [
   {
    "id": "39fb6abcb3",
@@ -169,7 +169,12 @@
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
    "published": "2026-10-26T15:38:24Z",
    "added": "2026-10-26T16:00:41Z",
-   "also": []
+   "also": [
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/"
+    }
+   ]
   },
   {
    "id": "0894723045",
