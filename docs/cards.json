@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T17:30:32Z",
+ "updated": "2026-10-27T18:00:34Z",
  "cards": [
   {
    "id": "c64d4188c2",
@@ -3888,25 +3888,6 @@
    "published": "2026-10-13T18:19:44Z",
    "added": "2026-10-13T18:30:33Z",
    "also": []
-  },
-  {
-   "id": "30c48aec6f",
-   "headline": "Microsoft releases Windows 11 cumulative security updates",
-   "summary": "Microsoft released cumulative updates KB5127648 and KB5126653 for Windows 11 versions 26H2, 25H2, 24H2, and 23H2. The updates address security vulnerabilities, fix bugs, and add new features. Organizations should deploy these patches following standard update procedures. Specific CVEs and vulnerability details were not disclosed in this announcement.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
-   "published": "2026-10-13T17:49:38Z",
-   "added": "2026-10-13T18:00:37Z",
-   "also": [
-    {
-     "source": "SANS ISC",
-     "url": "https://isc.sans.edu/diary/rss/33422"
-    }
-   ]
   }
  ]
 }
