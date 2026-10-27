@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T17:00:44Z",
+ "updated": "2026-10-27T17:30:32Z",
  "cards": [
   {
    "id": "c64d4188c2",
@@ -3907,20 +3907,6 @@
      "url": "https://isc.sans.edu/diary/rss/33422"
     }
    ]
-  },
-  {
-   "id": "21816e632b",
-   "headline": "Adobe patches 140 vulnerabilities across 10 products",
-   "summary": "Adobe released security updates addressing 140 vulnerabilities across 10 products including Commerce, Photoshop, ColdFusion, Substance 3D, Dimension, FrameMaker, and Bridge. Organizations using these widely deployed tools should review the patch bulletin and update affected software promptly to mitigate exploitation risks.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
-   "published": "2026-10-13T17:14:42Z",
-   "added": "2026-10-13T17:30:35Z",
-   "also": []
   }
  ]
 }
