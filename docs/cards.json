@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T11:00:38Z",
+ "updated": "2026-10-27T11:30:33Z",
  "cards": [
   {
    "id": "a71ac5df91",
@@ -3880,34 +3880,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/"
     }
    ]
-  },
-  {
-   "id": "fb6e12345e",
-   "headline": "XWorm RAT malware evolves into advanced surveillance platform",
-   "summary": "XWorm remote access trojan has evolved with expanded plugin capabilities, now enabling location monitoring, live audio streaming, and authenticated browser session hijacking. The malware's surveillance capabilities represent a significant expansion of its threat profile. Organizations should monitor for XWorm indicators and implement network detection rules to identify infections early.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/xworm-rat-evolves-into-surveillance-platform/",
-   "published": "2026-10-13T11:13:10Z",
-   "added": "2026-10-13T11:30:34Z",
-   "also": []
-  },
-  {
-   "id": "8f63a0f3f0",
-   "headline": "LG webOS smart TVs root takeover from local network",
-   "summary": "Three chained vulnerabilities in LG webOS enable attackers on the same local network to gain root access to LG smart TVs without PIN or user interaction. The vulnerabilities affect TV models 32LQ636BPSA and 27TQ600SW running webOS 7.5.7-25. LG has released patches. Administrators should update affected TVs immediately to prevent unauthorized access.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-   "published": "2026-10-13T11:09:10Z",
-   "added": "2026-10-13T11:30:34Z",
-   "also": []
   }
  ]
 }
