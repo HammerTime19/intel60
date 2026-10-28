@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T19:30:57Z",
+ "updated": "2026-10-28T19:32:43Z",
  "cards": [
   {
    "id": "22278c0bc2",
@@ -383,7 +383,7 @@
    "also": [],
    "cve_info": {
     "CVE-2026-46300": {
-     "kev": true,
+     "kev": false,
      "epss": 0.10192,
      "pct": 0.95651,
      "cvss": 7.8,
@@ -423,7 +423,7 @@
    "also": [],
    "cve_info": {
     "CVE-2026-41709": {
-     "kev": true,
+     "kev": false,
      "epss": 0.00297,
      "pct": 0.22291,
      "cvss": 2.7,
