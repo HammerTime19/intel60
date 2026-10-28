@@ -2,7 +2,7 @@
 
 **Cybersecurity news in 60 words.** Intel60 turns the day's security news into swipeable cards for SOC analysts: what happened, who's affected, and what defenders should do, rated by severity and enriched with vulnerability data.
 
-**[Open the app →](https://hammertime19.github.io/intel60/)** (on a phone, use Add to Home Screen to install it)
+**[Open the app →](https://intel60.app/)** (on a phone, use Add to Home Screen to install it)
 
 <p align="center">
   <img src="assets/critical.png" width="250" alt="A critical-severity card about an unauthenticated RCE">
@@ -27,7 +27,7 @@
 
 ## How it works
 
-**[See the step-by-step visual guide →](https://hammertime19.github.io/intel60/workflow.html)**
+**[See the step-by-step visual guide →](https://intel60.app/workflow.html)**
 
 ```mermaid
 flowchart TD

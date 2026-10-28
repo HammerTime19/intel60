@@ -83,5 +83,8 @@ RENEWALS = [
     ("cron-job.org GitHub token", "2027-01-05",
      "github.com/settings/personal-access-tokens: regenerate the cyberbrief-timer token, "
      "then paste it into the cron-job's Authorization header after 'Bearer '."),
+    ("intel60.app domain", "2027-10-28",
+     "Cloudflare > Domain Registration > intel60.app: auto-renew should handle it; check it renewed "
+     "and the card on file is still valid."),
 ]
 RENEWAL_ALERT_DAYS = (7, 3, 1, 0)  # remind this many days before each expiry; daily once expired
