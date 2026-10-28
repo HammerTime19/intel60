@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T23:58:37Z",
+ "updated": "2026-10-28T00:00:32Z",
  "items": [
   {
    "cve": "CVE-2026-48356",
@@ -352,28 +352,6 @@
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
    "card": "0afa3606f1"
-  },
-  {
-   "cve": "CVE-2026-88772",
-   "vendor": "Citrix",
-   "product": "NetScaler",
-   "name": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-   "added": "2026-09-27",
-   "due": "2026-09-30",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2026-88771",
-   "vendor": "Citrix",
-   "product": "NetScaler",
-   "name": "Citrix NetScaler Improper Input Validation Vulnerability",
-   "added": "2026-09-27",
-   "due": "2026-09-30",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
   }
  ]
 }
