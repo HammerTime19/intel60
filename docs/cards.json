@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-28T17:30:28Z",
+ "updated": "2026-10-28T18:00:42Z",
  "cards": [
+  {
+   "id": "22278c0bc2",
+   "headline": "US sanctions Russia North Korea for IT worker money laundering",
+   "summary": "The U.S. Treasury Department sanctioned Russian and North Korean nationals for laundering earnings of illicit IT workers on behalf of Pyongyang. The sanctions target the financial networks used to obscure proceeds from state-sponsored cyber operations and criminal activities conducted by North Korean operatives.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/north-korea-russia-sanctions",
+   "published": "2026-10-28T17:45:00Z",
+   "added": "2026-10-28T18:00:40Z",
+   "also": []
+  },
   {
    "id": "516ab6192d",
    "headline": "Sony ISP subsidiary breached exposes 2.5 million customer records",
@@ -27,6 +41,20 @@
    "url": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
    "published": "2026-10-28T16:37:00Z",
    "added": "2026-10-28T17:00:52Z",
+   "also": []
+  },
+  {
+   "id": "bce30872ee",
+   "headline": "Logic bugs in Microsoft Edge break sandbox escapes",
+   "summary": "Security researcher Orange Tsai disclosed how a chain of logic flaws in Microsoft Edge, without memory corruption, can escape the browser sandbox and execute code on Windows systems. The vulnerabilities won $175,000 at Pwn2Own Berlin in May 2026. Microsoft patched the bugs the day after the contest. No active exploitation has been reported.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+   "published": "2026-10-28T16:23:34Z",
+   "added": "2026-10-28T18:00:40Z",
    "also": []
   },
   {
@@ -3822,39 +3850,6 @@
    "published": "2026-10-14T20:09:42Z",
    "added": "2026-10-14T21:00:42Z",
    "also": []
-  },
-  {
-   "id": "91d989b5fb",
-   "headline": "Ledger halts Asian sales after supply-chain tampering",
-   "summary": "Ledger has suspended hardware wallet sales across Indonesia, Singapore, Thailand, Philippines, Vietnam, Malaysia, and Hong Kong following a supply-chain attack involving device tampering. The company is investigating the extent and nature of the compromise affecting its resellers and distributors in the region. Customers should verify device authenticity and monitor accounts for unauthorized activity.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
-   "published": "2026-10-14T17:46:50Z",
-   "added": "2026-10-14T17:57:24Z",
-   "also": []
-  },
-  {
-   "id": "639d0d6e00",
-   "headline": "Nextcloud servers backdoored via Collabora CODE flaw",
-   "summary": "Attackers exploited a critical vulnerability in Collabora Online's built-in CODE app for Nextcloud to plant web shells on affected servers. The flaw allows unauthenticated remote code execution with web server privileges. Reported attacks began September 10. Organizations should immediately patch Collabora Online and audit Nextcloud instances for suspicious shell files.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
-   "published": "2026-10-14T17:38:31Z",
-   "added": "2026-10-14T19:30:36Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/"
-    }
-   ]
   }
  ]
 }
