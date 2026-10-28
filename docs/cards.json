@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-28T13:30:31Z",
+ "updated": "2026-10-28T14:00:48Z",
  "cards": [
+  {
+   "id": "04dad7bd60",
+   "headline": "Chrome 156 and Firefox 159 patch over 200 flaws",
+   "summary": "Google Chrome 156 addresses 52 security vulnerabilities, while Mozilla Firefox 159 patches 167 bugs. The combined updates fix over 200 issues across the two most widely used browsers. Users should apply updates immediately to close attack surface. Regular patching of browsers remains critical for defense against exploitation.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
+   "published": "2026-10-28T13:39:35Z",
+   "added": "2026-10-28T14:00:48Z",
+   "also": []
+  },
   {
    "id": "0d8d39d2f1",
    "headline": "China-linked hackers exploit PHP2Shell firewall vulnerability",
