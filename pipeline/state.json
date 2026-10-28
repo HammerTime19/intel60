@@ -884,5 +884,7 @@
  },
  "last_month_report": "2026-09",
  "last_week_report": "2026-10-26",
- "renewals_alerted": {}
+ "renewals_alerted": {
+  "Anthropic API key|2026-11-04|7": "2026-10-28T04:00:34Z"
+ }
 }
