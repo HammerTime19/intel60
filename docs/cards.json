@@ -1,6 +1,36 @@
 {
- "updated": "2026-10-28T14:30:54Z",
+ "updated": "2026-10-28T15:00:42Z",
  "cards": [
+  {
+   "id": "7f47388e61",
+   "headline": "Microsoft urges Entra ID migration to phishing-resistant passkeys",
+   "summary": "Microsoft is pushing Entra ID administrators to migrate users to passkeys before retiring SMS and voice authentication in February 2027. The move aims to reduce sign-in disruptions and improve security by replacing weaker phone-based authentication. Passkeys offer phishing-resistant authentication compared to traditional passwords or SMS codes. Admins should begin migration planning now to meet the February 2027 deadline.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [
+    "Entra"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+   "published": "2026-10-28T14:48:32Z",
+   "added": "2026-10-28T15:00:41Z",
+   "also": []
+  },
+  {
+   "id": "70a17c1d3a",
+   "headline": "Threat actor impersonates AI bot services scanning credentials",
+   "summary": "An attacker impersonated chatbot services from OpenAI, Anthropic, Meta and others to scan for exposed credentials. The attacker used fake bot identities to search databases and repositories for sensitive data. This technique exploits trust placed in major AI vendors to access information more easily. Organizations should monitor for unusual authentication attempts and review access logs for suspicious bot activity.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
+   "published": "2026-10-28T14:37:52Z",
+   "added": "2026-10-28T15:00:41Z",
+   "also": []
+  },
   {
    "id": "04dad7bd60",
    "headline": "Chrome 156 and Firefox 159 patch over 200 flaws",
