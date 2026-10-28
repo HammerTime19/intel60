@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-28T21:30:29Z",
+ "updated": "2026-10-28T21:53:05Z",
  "cards": [
+  {
+   "id": "4c1608edb9",
+   "headline": "Hacktivists leak 41,000 DHS employee records",
+   "summary": "A hacktivist group called the Department of Peace breached an identity service used by the US Department of Homeland Security, exposing personal data on over 41,000 DHS employees and contractors. The leaked dataset includes current and former CISA staff and contains years of historical records. The group claimed the breach was a response to escalated immigration enforcement operations. Verify if your organization's identity credentials are exposed.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/dhs-employee-data-leak-ddosecrets/",
+   "published": "2026-10-28T21:33:00Z",
+   "added": "2026-10-28T21:53:05Z",
+   "also": []
+  },
   {
    "id": "6297f1390d",
    "headline": "Japan Airlines breach exposes 2,000 customer records",
