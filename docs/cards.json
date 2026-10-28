@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-28T11:00:45Z",
+ "updated": "2026-10-28T11:30:37Z",
  "cards": [
+  {
+   "id": "42a9e60af1",
+   "headline": "Adobe Campaign Classic eight critical code execution flaws patched",
+   "summary": "Adobe released patches for eight critical vulnerabilities in Campaign Classic, including CVE-2026-104351 (CVSS 9.9) enabling arbitrary code execution, security bypass, and privilege escalation. No exploitation in the wild has been confirmed yet. Organizations running Campaign Classic should apply these patches immediately to prevent remote code execution attacks on email marketing infrastructure.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-104351"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+   "published": "2026-10-28T11:15:51Z",
+   "added": "2026-10-28T11:30:35Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-104351": {
+     "kev": false,
+     "cvss": 9.9,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-28T11:30:36Z"
+  },
   {
    "id": "9ebc7f16e5",
    "headline": "Four EPICS Base flaws patched in particle accelerators",
@@ -13,6 +37,20 @@
    "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
    "published": "2026-10-28T10:48:00Z",
    "added": "2026-10-28T11:00:40Z",
+   "also": []
+  },
+  {
+   "id": "169a3a02ba",
+   "headline": "Skyw4lker device code phishing targets U.S. organizations",
+   "summary": "A phishing campaign dubbed Skyw4lker targets American businesses by abusing legitimate cloud services and authentication mechanisms rather than traditional credential theft. Attackers exploit trusted business workflows to compromise corporate accounts while minimizing detection. ANY.RUN's analysis exposed the technique. Organizations should implement device code phishing protections and review cloud service integrations for anomalous activity.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+   "published": "2026-10-28T10:30:00Z",
+   "added": "2026-10-28T11:30:35Z",
    "also": []
   },
   {
@@ -3780,43 +3818,6 @@
    "published": "2026-10-14T12:13:36Z",
    "added": "2026-10-14T13:00:42Z",
    "also": []
-  },
-  {
-   "id": "ecd984dc6b",
-   "headline": "XBOW builds Chrome full-chain exploit using AI model",
-   "summary": "Security researchers at XBOW chained three previously unknown Google Chrome vulnerabilities into a working full-chain exploit achieving Windows code execution from a web page. The team built the attack in six days using OpenAI's GPT-5.6 Sol model. Google confirmed and patched all three bugs. Users should update Chrome immediately; organizations should consider restricting AI model access for security research.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-   "published": "2026-10-14T11:19:02Z",
-   "added": "2026-10-14T11:30:33Z",
-   "also": []
-  },
-  {
-   "id": "065e262fb0",
-   "headline": "Hirudo Android trojan bypasses banking app security",
-   "summary": "Security researchers disclosed Hirudo, an Android banking trojan that replaces legitimate banking apps with patched versions designed to bypass built-in security checks. The malware targets Indonesian banks and represents escalation in mobile financial fraud tactics. Organizations should alert users to download banking apps only from official sources and monitor for suspicious app replacements on compromised devices.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
-   "published": "2026-10-14T11:08:22Z",
-   "added": "2026-10-14T11:30:33Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/"
-    }
-   ]
   }
  ]
 }
