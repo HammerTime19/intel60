@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T19:00:41Z",
+ "updated": "2026-10-28T19:30:57Z",
  "cards": [
   {
    "id": "22278c0bc2",
@@ -363,6 +363,74 @@
    "published": "2026-10-28T06:00:00Z",
    "added": "2026-10-28T06:00:41Z",
    "also": []
+  },
+  {
+   "id": "98eb0ea8b2",
+   "headline": "Linux Kernel variable initialization flaw enables ESP RCE",
+   "summary": "CISA added CVE-2026-46300 to the Known Exploited Vulnerabilities catalog. A missing variable initialization in Linux Kernel's socket buffer coalescing can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and execute commands as root. Apply patches immediately per BOD 26-04 guidelines. Federal due date: October 31, 2026.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-46300",
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
+   "published": "2026-10-28T00:00:00Z",
+   "added": "2026-10-28T19:30:33Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-46300": {
+     "kev": true,
+     "epss": 0.10192,
+     "pct": 0.95651,
+     "cvss": 7.8,
+     "sev": "high"
+    },
+    "CVE-2026-109618": {
+     "kev": true,
+     "epss": 0.99999,
+     "pct": 0.99998,
+     "cvss": 9.8,
+     "sev": "critical"
+    },
+    "CVE-2026-109619": {
+     "kev": true,
+     "epss": 0.99999,
+     "pct": 0.99999,
+     "cvss": 8.1,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-28T19:30:49Z"
+  },
+  {
+   "id": "ce69bcf788",
+   "headline": "Broadcom VMware ESX insufficient logging flaw added to KEV",
+   "summary": "CISA added CVE-2026-41709 to the Known Exploited Vulnerabilities catalog. Broadcom VMware ESX contains an insufficient logging vulnerability allowing malicious actors with admin access to perform operations without logging. Apply mitigations per BOD 26-04 guidance. Federal due date: November 11, 2026.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-41709"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
+   "published": "2026-10-28T00:00:00Z",
+   "added": "2026-10-28T19:30:33Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-41709": {
+     "kev": true,
+     "epss": 0.00297,
+     "pct": 0.22291,
+     "cvss": 2.7,
+     "sev": "low"
+    }
+   },
+   "cve_checked": "2026-10-28T19:30:55Z"
   },
   {
    "id": "5246b12726",

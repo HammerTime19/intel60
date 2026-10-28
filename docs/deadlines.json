@@ -1,6 +1,28 @@
 {
- "updated": "2026-10-28T19:00:41Z",
+ "updated": "2026-10-28T19:30:55Z",
  "items": [
+  {
+   "cve": "CVE-2026-41709",
+   "vendor": "Broadcom",
+   "product": "VMware ESX",
+   "name": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+   "added": "2026-10-28",
+   "due": "2026-11-11",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "ce69bcf788"
+  },
+  {
+   "cve": "CVE-2026-46300",
+   "vendor": "Linux",
+   "product": "Kernel",
+   "name": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+   "added": "2026-10-28",
+   "due": "2026-10-31",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "98eb0ea8b2"
+  },
   {
    "cve": "CVE-2026-48356",
    "vendor": "Adobe",
@@ -32,7 +54,7 @@
    "due": "2026-10-29",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "5943b3ba07"
+   "card": "98eb0ea8b2"
   },
   {
    "cve": "CVE-2026-109619",
@@ -43,7 +65,7 @@
    "due": "2026-10-29",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "989022c91b"
+   "card": "98eb0ea8b2"
   },
   {
    "cve": "CVE-2026-114625",
