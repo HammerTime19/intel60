@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T13:00:37Z",
+ "updated": "2026-10-28T13:30:31Z",
  "cards": [
   {
    "id": "0d8d39d2f1",
@@ -323,7 +323,12 @@
    "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
    "published": "2026-10-27T13:59:48Z",
    "added": "2026-10-27T17:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/"
+    }
+   ]
   },
   {
    "id": "0afa3606f1",
@@ -3766,39 +3771,6 @@
    "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
    "published": "2026-10-14T14:22:49Z",
    "added": "2026-10-14T14:30:35Z",
-   "also": []
-  },
-  {
-   "id": "91795601b1",
-   "headline": "Global takedown disrupts network behind 1 billion phishing messages",
-   "summary": "Law enforcement and cybersecurity partners worldwide disrupted a major cybercriminal ecosystem responsible for over one billion malicious messages targeting 75,000 organizations across 150 countries. The coordinated action took down infrastructure facilitating large-scale phishing campaigns. Organizations should review email logs for suspicious activity and reinforce user training on phishing detection.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
-   "published": "2026-10-14T13:12:52Z",
-   "added": "2026-10-14T13:30:38Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html"
-    }
-   ]
-  },
-  {
-   "id": "a7d7c0f109",
-   "headline": "Russian travel booking platform Anywayanyday hit by cyberattack",
-   "summary": "Russian travel website Anywayanyday suspended operations after a cyberattack disrupted its booking systems, preventing customers from reserving tickets and hotel rooms. The company responded by taking services offline to contain the incident. No details on attacker identity, data exposure, or ransom demands were immediately disclosed. Investigation status remains unclear.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/russia-anywayanyday-travel-website-cyberattack",
-   "published": "2026-10-14T13:05:00Z",
-   "added": "2026-10-14T13:30:38Z",
    "also": []
   }
  ]
