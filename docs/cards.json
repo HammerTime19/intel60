@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-28T05:30:30Z",
+ "updated": "2026-10-28T06:00:42Z",
  "cards": [
+  {
+   "id": "271b83601f",
+   "headline": "Operation Serengeti leads to 1,462 arrests across 20 countries",
+   "summary": "Interpol's third Operation Serengeti targeting financial cybercrime resulted in 1,462 arrests across 20 African countries and the US. The operation recovered $105 million in stolen funds. The multi-year initiative demonstrates sustained international cooperation against organized cyber financial crime networks. SOC teams should monitor for disrupted threat actors regrouping or shifting tactics.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature",
+   "published": "2026-10-28T06:00:00Z",
+   "added": "2026-10-28T06:00:41Z",
+   "also": []
+  },
   {
    "id": "5246b12726",
    "headline": "GMO issues emergency warning over threatened ransomware attack",
@@ -3761,20 +3775,6 @@
    "source": "SecurityWeek",
    "url": "https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/",
    "published": "2026-10-14T06:12:10Z",
-   "added": "2026-10-14T06:30:33Z",
-   "also": []
-  },
-  {
-   "id": "ef61a9283f",
-   "headline": "Windows SmartScreen VBS enclave code execution research",
-   "summary": "Researchers demonstrated code execution inside a protected Windows VBS enclave that isolates sensitive data and passwords for the SmartScreen anti-phishing feature. The attack combined a four-byte write vulnerability with timing techniques to break enclave isolation. This is lab research showing a theoretical weakness in OS security boundaries, not active exploitation in the wild.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
-   "published": "2026-10-14T05:52:28Z",
    "added": "2026-10-14T06:30:33Z",
    "also": []
   }
