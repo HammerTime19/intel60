@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T17:19:28Z",
+ "updated": "2026-10-28T17:30:28Z",
  "cards": [
   {
    "id": "516ab6192d",
@@ -3853,31 +3853,6 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/"
-    }
-   ]
-  },
-  {
-   "id": "a7632caf16",
-   "headline": "Cisco Secure Email Gateway zero-day patched",
-   "summary": "Cisco released patches for an actively exploited zero-day vulnerability in Secure Email Gateway that allows remote unauthenticated attackers to execute arbitrary commands with root privileges. The flaw affects widely deployed email security infrastructure. Administrators should apply patches immediately and monitor for signs of exploitation in their deployments.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "Cisco"
-   ],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
-   "published": "2026-10-14T17:29:14Z",
-   "added": "2026-10-14T17:30:43Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html"
-    },
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
     }
    ]
   }
