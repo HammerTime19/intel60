@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-28T08:00:51Z",
+ "updated": "2026-10-28T08:30:34Z",
  "cards": [
+  {
+   "id": "d75560f4ca",
+   "headline": "Anthropic AI model chains browser OS flaws into working exploits",
+   "summary": "Anthropic's unreleased AI model discovered and chained security flaws across Chrome, Safari, Android, Windows, and Linux into functional proof-of-concept exploits. The flaws were identified in laboratory conditions after prompting the model and have not been observed in real-world attacks. Anthropic disclosed all vulnerabilities to affected vendors before reporting, and patches are already available.",
+   "severity": "high",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+   "published": "2026-10-28T08:15:07Z",
+   "added": "2026-10-28T08:30:33Z",
+   "also": []
+  },
   {
    "id": "f01e6eed43",
    "headline": "Oracle PeopleSoft critical bug chains three SSRF flaws together",
