@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-28T10:30:34Z",
+ "updated": "2026-10-28T11:00:45Z",
  "cards": [
+  {
+   "id": "9ebc7f16e5",
+   "headline": "Four EPICS Base flaws patched in particle accelerators",
+   "summary": "Four previously hidden vulnerabilities were discovered and patched in EPICS Base control software used at particle accelerators and fusion research facilities. An autonomous system identified the flaws, which could allow attackers to crash critical processes. Patch deployment recommended for all affected research infrastructure.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
+   "published": "2026-10-28T10:48:00Z",
+   "added": "2026-10-28T11:00:40Z",
+   "also": []
+  },
   {
    "id": "3f9c6dce42",
    "headline": "Hackers probe fresh Oracle EBS SQL injection flaw",
@@ -441,6 +455,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/"
     }
    ],
    "cve_info": {
@@ -3799,20 +3817,6 @@
      "url": "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/"
     }
    ]
-  },
-  {
-   "id": "0aa13b1d83",
-   "headline": "Windows Remote Desktop failures after security updates",
-   "summary": "Microsoft confirmed that recent Windows security updates may prevent non-admin users from connecting via Remote Desktop when the Administrator protection feature is enabled. The issue affects Remote Desktop connectivity across multiple Windows versions. Microsoft has not yet released a fix. Administrators should test Remote Desktop connectivity in their environment before deploying updates to end-user machines.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
-   "published": "2026-10-14T10:48:09Z",
-   "added": "2026-10-14T11:00:36Z",
-   "also": []
   }
  ]
 }
