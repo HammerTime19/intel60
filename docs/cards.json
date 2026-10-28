@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-28T16:30:38Z",
+ "updated": "2026-10-28T17:00:53Z",
  "cards": [
+  {
+   "id": "516ab6192d",
+   "headline": "Sony ISP subsidiary breached exposes 2.5 million customer records",
+   "summary": "Sony Network Communications disclosed a data breach affecting approximately 2.5 million current and former customer records containing personal information. The breach compromised sensitive customer data. No details were provided about the attack vector, when it occurred, or remediation status. Affected customers should monitor accounts for fraud.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+   "published": "2026-10-28T16:45:47Z",
+   "added": "2026-10-28T17:00:52Z",
+   "also": []
+  },
+  {
+   "id": "ddb9d5f06f",
+   "headline": "Moldova government cyberattack under investigation for foreign involvement",
+   "summary": "Moldova's Prime Minister Vasile Tofan reported a significant cyberattack targeting government digital infrastructure and citizens' personal data. The investigation suggests possible foreign involvement and indicates this may be part of a broader campaign. Details about the attack scope, affected systems, and compromised data remain under investigation.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
+   "published": "2026-10-28T16:37:00Z",
+   "added": "2026-10-28T17:00:52Z",
+   "also": []
+  },
   {
    "id": "cd96a1792e",
    "headline": "ClickFix campaign impersonates Cloudflare targeting Windows macOS",
@@ -3852,20 +3880,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
     }
    ]
-  },
-  {
-   "id": "0452899377",
-   "headline": "Polish spyware operation reveals state surveillance abuse",
-   "summary": "Polish Prime Minister Donald Tusk revealed that a spyware manufacturer accessed data harvested by the previous government during a sprawling surveillance operation. Tusk described the operation as among Poland's biggest scandals since communism's fall. Investigation findings exposed systematic misuse of surveillance tools by the former ruling party.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/spyware-manufacturer-had-access-to-data-harvested-by-previous-polish-government",
-   "published": "2026-10-14T16:50:00Z",
-   "added": "2026-10-14T17:00:39Z",
-   "also": []
   }
  ]
 }
