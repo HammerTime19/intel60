@@ -77,7 +77,7 @@ BUDGET_ALERT_USD = 8.00   # alert once a month when estimated AI spend passes th
 # Renewal reminders (admin channel): (what, expiry date YYYY-MM-DD, how to renew).
 # When you renew something, update its date here so the reminders move with it.
 RENEWALS = [
-    ("Anthropic API key", "2026-11-04",
+    ("Anthropic API key", "2027-05-31",
      "console.anthropic.com > API Keys > Create Key, then update the ANTHROPIC_API_KEY repo secret "
      "(gh secret set ANTHROPIC_API_KEY -R HammerTime19/intel60)."),
     ("cron-job.org GitHub token", "2027-01-05",
