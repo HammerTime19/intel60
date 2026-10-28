@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T06:03:03Z",
+ "updated": "2026-10-28T06:30:28Z",
  "cards": [
   {
    "id": "271b83601f",
@@ -3762,20 +3762,6 @@
    "url": "https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/",
    "published": "2026-10-14T07:38:51Z",
    "added": "2026-10-14T08:00:37Z",
-   "also": []
-  },
-  {
-   "id": "107051ae55",
-   "headline": "SAP NetWeaver S/4HANA critical vulnerabilities patched",
-   "summary": "SAP released patches for critical vulnerabilities in NetWeaver and S/4HANA products that could allow attackers to invoke internal operations and execute arbitrary code with full system compromise. Affected deployments should apply patches immediately. Details on specific CVE identifiers and affected versions are not provided in the source material.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/",
-   "published": "2026-10-14T06:12:10Z",
-   "added": "2026-10-14T06:30:33Z",
    "also": []
   }
  ]
