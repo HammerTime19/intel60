@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T18:30:30Z",
+ "updated": "2026-10-28T19:00:41Z",
  "cards": [
   {
    "id": "22278c0bc2",
@@ -83,7 +83,12 @@
    "url": "https://cyberscoop.com/volt-typhoon-silent-train-covert-ephemeral-network-black-lotus-labs/",
    "published": "2026-10-28T16:00:00Z",
    "added": "2026-10-28T16:30:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html"
+    }
+   ]
   },
   {
    "id": "bfd6a8fefd",
