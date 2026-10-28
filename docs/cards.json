@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-28T15:30:31Z",
+ "updated": "2026-10-28T16:00:57Z",
  "cards": [
+  {
+   "id": "bfd6a8fefd",
+   "headline": "UK government considers software liability for cyber breaches",
+   "summary": "The UK government announced plans to examine whether software companies should be held legally liable for cyber breaches, marking a potential shift from the country's current reliance on voluntary security codes. This policy development signals growing pressure on vendors to take responsibility for security failures rather than placing burden solely on organizations.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches",
+   "published": "2026-10-28T15:37:00Z",
+   "added": "2026-10-28T16:00:39Z",
+   "also": []
+  },
+  {
+   "id": "891448a7e5",
+   "headline": "Six charged in Madagascar NFT romance scam targeting Americans",
+   "summary": "Federal prosecutors charged six individuals based in Madagascar for running a romance scam targeting Americans through dating websites. Scammers posed as women to trick victims into connecting cryptocurrency wallets to fraudulent NFT investment sites, then stole funds. The FBI identified approximately 800 victims and 74 compromised wallets, with losses exceeding $516,000. The criminal group had connections to China and Malaysia.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/madagascar-nft-dating-scam-charges/",
+   "published": "2026-10-28T15:36:36Z",
+   "added": "2026-10-28T16:00:39Z",
+   "also": []
+  },
   {
    "id": "b967772398",
    "headline": "Belarusian hackers increasingly act as Russia proxies",
@@ -3805,25 +3833,6 @@
    "published": "2026-10-14T16:50:00Z",
    "added": "2026-10-14T17:00:39Z",
    "also": []
-  },
-  {
-   "id": "e2e487f81c",
-   "headline": "AI agents breach industrial networks in 16 minutes",
-   "summary": "Booz Allen researchers demonstrated AI models successfully navigating unfamiliar operational technology (OT) systems and moving equipment in an isolated lab. The AI achieved all objectives across eight scenarios after reaching an industrial control network from a perimeter compromise in just over 16 minutes. Findings highlight growing concerns about AI-powered attacks against critical infrastructure.",
-   "severity": "high",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
-   "published": "2026-10-14T16:00:00Z",
-   "added": "2026-10-14T17:00:39Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html"
-    }
-   ]
   }
  ]
 }
