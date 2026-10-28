@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T14:00:48Z",
+ "updated": "2026-10-28T14:30:54Z",
  "cards": [
   {
    "id": "04dad7bd60",
@@ -41,6 +41,20 @@
    "url": "https://therecord.media/fbi-seizure-csam-virtualine",
    "published": "2026-10-28T12:00:00Z",
    "added": "2026-10-28T12:30:36Z",
+   "also": []
+  },
+  {
+   "id": "eb93de238d",
+   "headline": "16-year-old EDK II UEFI flaw enables pre-boot code execution",
+   "summary": "A critical vulnerability in EDK II, the open-source UEFI firmware code used by most hardware manufacturers, allows attackers to execute code before the operating system loads during network boot. The flaw exists for 16 years. Affected organizations should audit UEFI firmware on network-booting servers and review boot security configurations.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+   "published": "2026-10-28T11:50:00Z",
+   "added": "2026-10-28T14:30:38Z",
    "also": []
   },
   {
@@ -113,6 +127,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html"
     }
    ],
    "cve_info": {
@@ -666,7 +684,7 @@
      "pct": 0.12954
     }
    },
-   "cve_checked": "2026-10-28T08:00:51Z"
+   "cve_checked": "2026-10-28T14:30:52Z"
   },
   {
    "id": "627cc70bbf",
@@ -3758,34 +3776,6 @@
      "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html"
     }
    ]
-  },
-  {
-   "id": "fac7cd6e29",
-   "headline": "Microsoft fixes VPN issues from September Windows updates",
-   "summary": "Microsoft resolved a known issue that caused Always On VPN connection failures following the September 2026 Windows 11 security updates. The company has now released a fix addressing the compatibility problems. Organizations that experienced VPN disruptions after the September patches should install the latest updates to restore connectivity.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
-   "published": "2026-10-14T14:27:01Z",
-   "added": "2026-10-14T14:30:35Z",
-   "also": []
-  },
-  {
-   "id": "78394b2e6b",
-   "headline": "UK sanctions Cryptomus cryptocurrency platform for money laundering",
-   "summary": "The UK government imposed economic sanctions against Cryptomus, a cryptocurrency platform used to process payments for ransomware, darknet markets, fraud and other cybercrime services that help Russia evade financial restrictions. The sanctions freeze Cryptomus assets in UK banks and prohibit British companies from doing business with it. Related platforms VexPay, TokenSpot, and Tsunami Payments were also targeted.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "Krebs on Security",
-   "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-   "published": "2026-10-14T14:22:49Z",
-   "added": "2026-10-14T14:30:35Z",
-   "also": []
   }
  ]
 }
