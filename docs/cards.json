@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T12:30:37Z",
+ "updated": "2026-10-28T13:00:37Z",
  "cards": [
   {
    "id": "0d8d39d2f1",
@@ -3798,43 +3798,6 @@
    "source": "The Record",
    "url": "https://therecord.media/russia-anywayanyday-travel-website-cyberattack",
    "published": "2026-10-14T13:05:00Z",
-   "added": "2026-10-14T13:30:38Z",
-   "also": []
-  },
-  {
-   "id": "b9b58f38aa",
-   "headline": "Microsoft seizes Chinese phishing market domains YAM Store",
-   "summary": "Microsoft, backed by federal court order, disrupted YAM Store, CoGUI, and Iron Man—Chinese-language phishing infrastructure behind over 1 billion messages. Health-ISAC partnered in the coordinated takedown. The operation targeted the criminal ecosystem powering mass phishing campaigns. Organizations should monitor for alternative infrastructure.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
-   "published": "2026-10-14T13:00:00Z",
-   "added": "2026-10-14T13:00:42Z",
-   "also": [
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/microsoft-disrupts-chinese-language-phishing-kit-ecosystem/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms"
-    }
-   ]
-  },
-  {
-   "id": "319aa986d3",
-   "headline": "Russian influence operation targets Latin America schools",
-   "summary": "An AI-enabled Russian operation used spoofed emails and fake government documents to target schools in Peru, Ecuador, and other Latin American countries. The campaign created fraudulent local organizations to increase credibility. Defenders should enhance email security, verify official communications through independent channels, and educate staff on document verification procedures to resist sophisticated phishing and influence campaigns.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
-   "published": "2026-10-14T13:00:00Z",
    "added": "2026-10-14T13:30:38Z",
    "also": []
   }
