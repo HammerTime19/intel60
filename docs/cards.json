@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T22:00:27Z",
+ "updated": "2026-10-28T22:30:34Z",
  "cards": [
   {
    "id": "4c1608edb9",
@@ -27,6 +27,20 @@
    "url": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
    "published": "2026-10-28T20:33:00Z",
    "added": "2026-10-28T21:00:37Z",
+   "also": []
+  },
+  {
+   "id": "8937932686",
+   "headline": "GhostAction supply chain attack shifts to developer endpoints",
+   "summary": "The GhostAction hacking campaign, initially widespread, is scaling back public activity but attackers remain embedded in GitHub and other development environments. The shift toward targeting developer endpoints and cloud access suggests the group is transitioning tactics to maintain persistence. Defenders should monitor developer tools, GitHub repositories, and authentication logs for suspicious activity from compromised developer accounts.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
+   "published": "2026-10-28T19:39:00Z",
+   "added": "2026-10-28T22:30:33Z",
    "also": []
   },
   {
