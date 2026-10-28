@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T09:30:39Z",
+ "updated": "2026-10-28T10:00:36Z",
  "cards": [
   {
    "id": "3f9c6dce42",
@@ -130,6 +130,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/"
     }
    ]
   },
