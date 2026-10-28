@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-28T15:00:42Z",
+ "updated": "2026-10-28T15:30:31Z",
  "cards": [
+  {
+   "id": "b967772398",
+   "headline": "Belarusian hackers increasingly act as Russia proxies",
+   "summary": "Belarus-linked threat actors are increasingly aligning their cyber operations with Russian interests amid the ongoing war in Ukraine, according to recent researcher findings. The shift reflects deeper integration of Belarusian hacking groups into Russia's broader cyber campaign infrastructure. While specific attack details were not disclosed, the development underscores how regional geopolitical tensions expand threat actor collaboration networks. Organizations should monitor for targeting patterns consistent with Russian-backed operations potentially originating from Belarus-based infrastructure.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/belarus-russia-hackers-ukraine-war",
+   "published": "2026-10-28T15:15:00Z",
+   "added": "2026-10-28T15:30:30Z",
+   "also": []
+  },
   {
    "id": "7f47388e61",
    "headline": "Microsoft urges Entra ID migration to phishing-resistant passkeys",
@@ -281,6 +295,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/"
     }
    ]
   },
