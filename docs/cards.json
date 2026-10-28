@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-28T12:00:31Z",
+ "updated": "2026-10-28T12:30:37Z",
  "cards": [
+  {
+   "id": "0d8d39d2f1",
+   "headline": "China-linked hackers exploit PHP2Shell firewall vulnerability",
+   "summary": "Chinese-linked threat actors chained PHP2Shell and Fragnesia exploits to compromise two servers belonging to a US government-affiliated organization. The attackers achieved root-level access to firewalls through the PHP2Shell vulnerability. Organizations should prioritize patching PHP and firewall systems, and deploy monitoring to detect exploitation attempts of known code execution flaws.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/",
+   "published": "2026-10-28T12:00:59Z",
+   "added": "2026-10-28T12:30:36Z",
+   "also": []
+  },
+  {
+   "id": "12185b0bd2",
+   "headline": "FBI seizes bulletproof hosting provider facilitating cybercrimes",
+   "summary": "The FBI shut down a bulletproof hosting provider used to facilitate cybercrimes including money laundering and distribution of child sexual abuse material. The seizure targeted the domain of an infrastructure provider that offered services specifically designed to evade law enforcement. This action disrupts services relied upon by criminal networks and demonstrates continued law enforcement focus on tackling hosting infrastructure abuse.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/fbi-seizure-csam-virtualine",
+   "published": "2026-10-28T12:00:00Z",
+   "added": "2026-10-28T12:30:36Z",
+   "also": []
+  },
   {
    "id": "42a9e60af1",
    "headline": "Adobe Campaign Classic eight critical code execution flaws patched",
@@ -67,7 +95,12 @@
    "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
    "published": "2026-10-28T09:14:23Z",
    "added": "2026-10-28T09:30:34Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-101767": {
      "kev": false,
@@ -3803,20 +3836,6 @@
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
    "published": "2026-10-14T13:00:00Z",
    "added": "2026-10-14T13:30:38Z",
-   "also": []
-  },
-  {
-   "id": "01ccdefefe",
-   "headline": "curl HTTP/2 upload flaw allows client code execution",
-   "summary": "curl versions prior to 8.23.0 contain a vulnerability in HTTP/2 upload handling that allows malicious servers to corrupt client memory and achieve code execution. The flaw requires precise knowledge of the client's build and memory layout. curl patched the issue on October 14, 2026. Users should upgrade to the latest version immediately.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-   "published": "2026-10-14T12:13:36Z",
-   "added": "2026-10-14T13:00:42Z",
    "also": []
   }
  ]
