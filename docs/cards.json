@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T20:00:33Z",
+ "updated": "2026-10-28T20:30:35Z",
  "cards": [
   {
    "id": "22278c0bc2",
@@ -3905,22 +3905,6 @@
    "source": "The Record",
    "url": "https://therecord.media/brooklyn-da-server-takedowns-crypto-scam-russian-speakers",
    "published": "2026-10-14T20:33:00Z",
-   "added": "2026-10-14T21:00:42Z",
-   "also": []
-  },
-  {
-   "id": "7f55a7a900",
-   "headline": "Anthropic Claude Code Desktop preview pane leaks credentials",
-   "summary": "A zero-click vulnerability in Claude Code Desktop's preview pane allows attackers to silently steal developer credentials including SSH keys, AWS tokens, and Claude OAuth credentials. The flaw affects developers using the tool for code preview. Anthropic has not disclosed patch status. Developers should review credential exposure and rotate affected keys immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "AWS"
-   ],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
-   "published": "2026-10-14T20:09:42Z",
    "added": "2026-10-14T21:00:42Z",
    "also": []
   }
