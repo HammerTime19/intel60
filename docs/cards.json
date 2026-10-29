@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T01:00:32Z",
+ "updated": "2026-10-29T01:30:32Z",
  "cards": [
   {
    "id": "4c1608edb9",
@@ -3857,20 +3857,6 @@
      "url": "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/"
     }
    ]
-  },
-  {
-   "id": "e981b7de3f",
-   "headline": "Panchan crypto mining worm continues spreading via SSH key theft",
-   "summary": "Panchan, a Golang-based peer-to-peer botnet first identified in 2022, remains active and spreading across internet-connected systems. The worm steals SSH keys, uses rootkits for persistence, and self-propagates through multiple vectors. DShield honeypots recently captured samples. Defenders should implement egress/ingress filtering, passwordless authentication, continuous monitoring, and keep systems patched.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SANS ISC",
-   "url": "https://isc.sans.edu/diary/rss/33426",
-   "published": "2026-10-15T01:10:57Z",
-   "added": "2026-10-15T01:30:33Z",
-   "also": []
   }
  ]
 }
