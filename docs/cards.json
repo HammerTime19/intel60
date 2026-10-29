@@ -1,6 +1,48 @@
 {
- "updated": "2026-10-29T13:30:35Z",
+ "updated": "2026-10-29T14:00:44Z",
  "cards": [
+  {
+   "id": "342c74932b",
+   "headline": "Cyberattack disrupts Belgian tax services MyMinfin platform",
+   "summary": "Belgium's Federal Public Service Finance was attacked, forcing temporary suspension of MyMinfin, the national online tax and financial affairs platform, before a filing deadline. Authorities are investigating the extent of the attack. Citizens and businesses were unable to file taxes online during the outage. Scope remains unclear.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
+   "published": "2026-10-29T13:31:00Z",
+   "added": "2026-10-29T14:00:43Z",
+   "also": []
+  },
+  {
+   "id": "56ef05760e",
+   "headline": "University of New Mexico hospital systems restored after cyberattack",
+   "summary": "University of New Mexico restored healthcare systems disrupted by a cyberattack that forced ambulance diversions and medical school cancellations. Systems have been restored to operation. The university advised staff and patients against contacting attackers and recommended standard incident response practices. Investigation is ongoing.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/new-mexico-cyberattack-hospital",
+   "published": "2026-10-29T13:30:00Z",
+   "added": "2026-10-29T14:00:43Z",
+   "also": []
+  },
+  {
+   "id": "1b4f07400f",
+   "headline": "BAE Systems incident hit bankruptcy courts no data extracted",
+   "summary": "BAE Systems confirmed that its incident disrupting US bankruptcy court notice systems for weeks did not result in data extraction or personal information breaches. The company disclosed no further operational impact. Courts have resumed normal operations. Organizations should monitor for follow-up disclosures on system integrity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
+   "published": "2026-10-29T13:26:49Z",
+   "added": "2026-10-29T14:00:43Z",
+   "also": []
+  },
   {
    "id": "dd1c518d70",
    "headline": "Telegram Android voice call flaw enables remote code execution",
@@ -382,6 +424,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/"
     }
    ]
   },
@@ -3773,25 +3819,6 @@
    "published": "2026-10-15T14:11:36Z",
    "added": "2026-10-15T15:00:42Z",
    "also": []
-  },
-  {
-   "id": "ada0693d26",
-   "headline": "Kazakhstan-linked hackers target former Soviet governments",
-   "summary": "Researchers identified a roughly 2-year-old cyber-espionage campaign targeting Central Asian governments that appears to originate from Kazakhstan. Attribution and targets remain under investigation by security researchers monitoring the campaign.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/suspected-kazakhstan-phishing-central-asia-espionage",
-   "published": "2026-10-15T13:55:00Z",
-   "added": "2026-10-15T14:22:11Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html"
-    }
-   ]
   }
  ]
 }
