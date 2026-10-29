@@ -349,6 +349,44 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .anim .reveal { opacity: 0; transform: translateY(1.5rem); transition: opacity 0.7s ease, transform 0.7s ease; }
   .anim .reveal.in { opacity: 1; transform: none; }
 }
+@media (min-width: 48rem) and (min-height: 30rem) {
+  /* story cards: a severity strip like the phone app, and on News one big card at a time */
+  .scard { display: grid; grid-template-columns: 3rem 1fr; padding: 0; border-top: 1px solid var(--rule); overflow: hidden; isolation: isolate; }
+  .scard::before {
+    content: ""; position: absolute; inset: 0 0 0 3rem; z-index: -1; pointer-events: none;
+    background:
+      radial-gradient(120% 60% at 100% 100%, color-mix(in srgb, var(--sev) 20%, transparent), transparent 70%),
+      linear-gradient(color-mix(in srgb, var(--muted) 12%, transparent) 1px, transparent 1px) 0 0 / 100% 28px,
+      linear-gradient(90deg, color-mix(in srgb, var(--muted) 12%, transparent) 1px, transparent 1px) 0 0 / 28px 100%;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 35%, #000 95%);
+    mask-image: linear-gradient(to bottom, transparent 35%, #000 95%);
+  }
+  .wstrip {
+    display: flex; align-items: center; padding: 1.5rem 0; writing-mode: vertical-rl; transform: rotate(180deg);
+    background: var(--sev); color: var(--on-sev); font-size: 1rem; font-weight: 800; font-variation-settings: "wdth" 80;
+    letter-spacing: 0.16em; text-transform: uppercase; box-shadow: 0 0 28px color-mix(in srgb, var(--sev) 45%, transparent);
+  }
+  .wbody { display: flex; flex-direction: column; min-width: 0; padding: 1.75rem 2rem 1.5rem; }
+  .scard h3::before { content: ""; display: block; width: 2.75rem; height: 4px; border-radius: 2px; background: var(--sev); margin-bottom: 1rem; }
+  .scard .wbody > p { margin-bottom: 1.25rem; }
+  .scard .tags { margin: 0 0 1.25rem; }
+  .scard-foot { margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--rule); }
+  .scard.lead { padding: 0; border-top-width: 1px; }
+  .scard.lead .wbody { padding: 2rem 2.25rem 1.75rem; }
+
+  #web-feed .wgrid { grid-template-columns: 1fr; gap: 1.75rem; }
+  #web-feed .scard {
+    min-height: min(38rem, calc(100vh - var(--navh, 4rem) - 7.5rem));
+    scroll-margin-top: calc(var(--navh, 4rem) + 5.25rem); scroll-snap-align: start;
+  }
+  #web-feed .scard:hover { transform: none; border-color: color-mix(in srgb, var(--sev) 45%, var(--rule)); }
+  #web-feed .wstrip { font-size: 1.125rem; }
+  #web-feed .wbody { padding: 2.5rem 3rem 2rem; }
+  #web-feed .scard .meta { font-size: 0.9375rem; }
+  #web-feed .scard h3 { font-size: clamp(2.25rem, 3.2vw, 3.125rem); line-height: 0.98; margin: 0.75rem 0 1.25rem; max-width: 42rem; }
+  #web-feed .scard .wbody > p { font-size: 1.25rem; line-height: 1.6; max-width: 46rem; margin-bottom: 1.5rem; }
+  html:has(.wpage[data-route="news"]:not([hidden])) { scroll-snap-type: y proximity; }
+}
 @media (min-width: 48rem) and (max-width: 80rem) and (min-height: 30rem) {
   .wrap { padding-inline: 1.75rem; }
   .wmain { grid-template-columns: minmax(0, 1fr) 17.5rem; gap: 2rem; }
@@ -1505,9 +1543,10 @@ function webCardHTML(c, lead) {
   ].join("");
   const also = (c.also || []).map((a) => `<a href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(", ");
   return `<article class="scard${lead ? " lead" : ""}"${lead ? "" : ` id="w-${esc(c.id)}"`} data-sev="${esc(c.severity)}">
+    <div class="wstrip">${esc(SEV_LABEL[c.severity] || "Info")}</div>
+    <div class="wbody">
     <div class="meta">
       ${lastSeen && c.added > lastSeen ? '<span class="new">New</span>' : ""}
-      <span class="sevtag">${esc(SEV_LABEL[c.severity] || "Info")}</span>
       <span>${esc(c.category)}</span>
       <time datetime="${esc(c.published)}">${esc(ago(c.published))}</time>
       ${outlets(c) >= 3 ? `<span class="hot">🔥 ${outlets(c)} sources</span>` : ""}
@@ -1520,6 +1559,7 @@ function webCardHTML(c, lead) {
       <div class="source">${esc(c.source)}${also ? `, also covered by ${also}` : ""}<br>
         <a class="read" href="${esc(safeUrl(c.url))}" target="_blank" rel="noopener">Read the full story</a></div>
       <button class="share" data-share="${esc(c.id)}" aria-label="Share this story">${SHARE_ICON}</button>
+    </div>
     </div>
   </article>`;
 }
@@ -1557,7 +1597,7 @@ function renderWeb() {
     : dateRange.startsWith("date:") ? dayLabel(dayKey(`${dateRange.slice(5)}T12:00`)) : "this period";
   $("news-sub").textContent = query
     ? `${list.length} ${list.length === 1 ? "story matches" : "stories match"} “${query}” from ${when === "today" ? "today" : when}.`
-    : `${list.length} ${list.length === 1 ? "story" : "stories"} from ${when}, newest first. Pick a day, or filter by severity and topic.`;
+    : `${list.length} ${list.length === 1 ? "story" : "stories"} from ${when}, newest first. Scroll, or press J and K to move between stories.`;
 
   const box = $("web-feed");
   if (!data.cards.length) {
@@ -1635,6 +1675,14 @@ function renderRail() {
 }
 
 // shows one page of the website; the address (#/news, #/about ...) is set by links, so Back works
+function stepCard(dir) {
+  const cards = [...document.querySelectorAll("#web-feed .scard")];
+  const line = $("wbar").getBoundingClientRect().bottom + 24;
+  const next = dir > 0 ? cards.find((c) => c.getBoundingClientRect().top > line)
+    : cards.filter((c) => c.getBoundingClientRect().top < line - 48).pop();
+  next?.scrollIntoView({ block: "start", behavior: "smooth" });
+}
+
 function setPage(p) {
   if (!PAGES.includes(p)) p = "home";
   const changed = p !== webPage;
@@ -1969,7 +2017,10 @@ document.addEventListener("keydown", (e) => {
   if (typing) return;
   if (e.key === "/" && SITE.matches) { e.preventDefault(); $("web-search").focus(); return; }
   if (e.key === "/") { e.preventDefault(); setSearchOpen(true); return; }
-  if (SITE.matches) return;  // on the website, arrow keys scroll the page as usual
+  if (SITE.matches) {  // on the website, arrow keys scroll the page as usual; J and K jump between stories on News
+    if (webPage === "news" && (e.key === "j" || e.key === "k")) stepCard(e.key === "j" ? 1 : -1);
+    return;
+  }
   const step = { ArrowDown: 1, j: 1, ArrowUp: -1, k: -1 }[e.key];
   if (!step || view !== "feed") return;
   e.preventDefault();
