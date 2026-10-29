@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-29T19:30:34Z",
+ "updated": "2026-10-29T20:00:37Z",
  "cards": [
+  {
+   "id": "aacd739692",
+   "headline": "GM settles 36-state lawsuit for selling driver data",
+   "summary": "General Motors agreed to pay $220 million to settle allegations by 36 state attorneys general that the company unlawfully sold driver behavior information to third parties. The settlement includes payment of the fine and commitments to implement reforms. This reflects growing regulatory scrutiny over how automakers monetize customer data and privacy violations.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/general-motors-lawsuit-privacy",
+   "published": "2026-10-29T19:45:00Z",
+   "added": "2026-10-29T20:00:36Z",
+   "also": []
+  },
   {
    "id": "e692538b68",
    "headline": "Fake Padre Terminal app steals $23K from Solana wallets",
@@ -196,11 +210,15 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
     }
    ],
    "cve_info": {
     "CVE-2026-76418": {
-     "kev": false,
+     "kev": true,
      "cvss": 8.6,
      "sev": "high"
     }
@@ -221,10 +239,15 @@
    "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
    "published": "2026-10-29T09:05:39Z",
    "added": "2026-10-29T11:30:37Z",
-   "also": [],
+   "also": [
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
+    }
+   ],
    "cve_info": {
     "CVE-2026-97229": {
-     "kev": false,
+     "kev": true,
      "epss": 0.18427,
      "pct": 0.97225,
      "cvss": 10.0,
