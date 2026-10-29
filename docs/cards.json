@@ -1,6 +1,36 @@
 {
- "updated": "2026-10-29T08:30:26Z",
+ "updated": "2026-10-29T09:00:40Z",
  "cards": [
+  {
+   "id": "b3306983de",
+   "headline": "iRhythm data breach exposes 8.2 million records",
+   "summary": "Hackers compromised iRhythm third-party-hosted business applications, stealing personal information and account and device data. An HHS filing disclosed the breach affects 8.2 million individuals. iRhythm is a medical device company providing remote cardiac monitoring solutions. Affected individuals should monitor for identity theft and consider credit monitoring services.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
+   "published": "2026-10-29T08:27:16Z",
+   "added": "2026-10-29T09:00:38Z",
+   "also": []
+  },
+  {
+   "id": "aabd8e14b2",
+   "headline": "Hackers exploit Cisco SD-WAN flaw plant KeyDrift malware",
+   "summary": "Attackers leveraged a critical Cisco Catalyst SD-WAN vulnerability, patched in February, to deploy KeyDrift malware designed to steal encryption keys controlling traffic between network sites. Cisco Talos confirmed the malware was built to copy and exfiltrate keys for later use. The attacks are historical in nature. Organizations should ensure SD-WAN systems are fully patched and monitor for KeyDrift indicators of compromise.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [
+    "Cisco"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+   "published": "2026-10-29T08:24:22Z",
+   "added": "2026-10-29T09:00:38Z",
+   "also": []
+  },
   {
    "id": "4c1608edb9",
    "headline": "Hacktivists leak 41,000 DHS employee records",
@@ -3783,20 +3813,6 @@
    "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
    "published": "2026-10-15T09:55:19Z",
    "added": "2026-10-15T10:00:40Z",
-   "also": []
-  },
-  {
-   "id": "1d72630bae",
-   "headline": "GhostAction campaign compromises 1,900 GitHub accounts",
-   "summary": "The GhostAction credential-theft campaign has significantly escalated, compromising approximately 1,900 GitHub accounts and targeting over 30,000 repositories across 3,000 users and organizations. The spike occurred on October 8-9, 2026. Attackers extracted 3,174 secrets from public repository CI/CD systems. GitHub users should review account activity, rotate credentials, and enable multi-factor authentication.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
-   "published": "2026-10-15T08:45:10Z",
-   "added": "2026-10-15T09:21:03Z",
    "also": []
   }
  ]
