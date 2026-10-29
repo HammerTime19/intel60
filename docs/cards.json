@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T16:30:34Z",
+ "updated": "2026-10-29T16:57:27Z",
  "cards": [
   {
    "id": "a556f2a132",
@@ -14,6 +14,32 @@
    "published": "2026-10-29T16:10:31Z",
    "added": "2026-10-29T16:30:33Z",
    "also": []
+  },
+  {
+   "id": "649ecf4a57",
+   "headline": "Linux kernel TCP flaw CVE-2026-98432 enables remote root code execution",
+   "summary": "A critical TCP implementation flaw in the Linux kernel (CVE-2026-98432, CVSS 9.8) affects Ubuntu, Red Hat Enterprise Linux, and other distributions. The vulnerability allows unauthenticated remote attackers to execute arbitrary commands with root privileges. Anthropic's AI model demonstrated working exploits. Patch immediately and prioritize kernel updates across all affected Linux systems.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+   "published": "2026-10-29T15:57:05Z",
+   "added": "2026-10-29T16:57:26Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-98432": {
+     "kev": false,
+     "epss": 0.00388,
+     "pct": 0.32813,
+     "cvss": 9.8,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-29T16:57:26Z"
   },
   {
    "id": "8cc04215ef",
