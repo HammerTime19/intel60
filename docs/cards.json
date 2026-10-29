@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T00:30:28Z",
+ "updated": "2026-10-29T01:00:32Z",
  "cards": [
   {
    "id": "4c1608edb9",
@@ -253,6 +253,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/virtualine-bulletproof-hosting-provider-seized/"
     }
    ]
   },
