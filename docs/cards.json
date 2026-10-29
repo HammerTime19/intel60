@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:30:37Z",
+ "updated": "2026-10-29T13:00:35Z",
  "cards": [
   {
    "id": "dd1c518d70",
@@ -3785,25 +3785,6 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html"
-    }
-   ]
-  },
-  {
-   "id": "12b5084185",
-   "headline": "NGINX patches five vulnerabilities including possible RCE",
-   "summary": "NGINX released versions 1.30.6 and 1.31.7 fixing five vulnerabilities, including three memory bugs that could crash a worker process or enable code execution, and a TLS flaw that may bypass client certificate checks. One bug existed since May 2005. Updates require specific configurations to exploit.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-   "published": "2026-10-15T12:58:05Z",
-   "added": "2026-10-15T14:22:11Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/"
     }
    ]
   }
