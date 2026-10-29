@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T11:30:38Z",
+ "updated": "2026-10-29T12:00:34Z",
  "cards": [
   {
    "id": "196b1e6052",
@@ -3809,39 +3809,6 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/"
-    }
-   ]
-  },
-  {
-   "id": "3565d45fa9",
-   "headline": "95 arrested in INTERPOL CSAM distribution crackdown",
-   "summary": "Law enforcement from 17 countries across Latin America and Europe arrested 95 suspects in an INTERPOL-coordinated operation targeting child sexual abuse material distribution via online messaging groups. The international effort focused on dismantling networks facilitating CSAM sharing. Authorities continue investigations to identify additional victims and perpetrators.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
-   "published": "2026-10-15T11:55:38Z",
-   "added": "2026-10-15T12:00:40Z",
-   "also": []
-  },
-  {
-   "id": "999e9923be",
-   "headline": "Fake AI products distribute malware to US companies",
-   "summary": "Attackers impersonating popular AI tools are distributing malware and stealing browser sessions and business account credentials. ANY.RUN identified 1,258 sandbox analyses linked to fake AI campaigns between April and October 2026. US businesses accounted for 16% of targeted organizations. MSSPs serving these companies face increased operational pressure from these deceptive campaigns.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
-   "published": "2026-10-15T11:46:59Z",
-   "added": "2026-10-15T12:30:36Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk"
     }
    ]
   }
