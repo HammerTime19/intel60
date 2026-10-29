@@ -108,22 +108,160 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .dates input[type="date"] { position: absolute; inset: 0; opacity: 0; width: 100%; cursor: pointer; }
 .meta .hot { color: var(--critical); font-weight: 800; }
 
-/* desktop: intro beside the feed, visible scrolling, up/down buttons */
+/* desktop: a hero beside the live app (phones never see any of this) */
 .intro { display: none; }
-.pager { display: none; }
+.hero, .site, .site-only, .pager { display: none; }
 @media (min-width: 64rem) {
-  .page { gap: 3.5rem; align-items: center; }
-  .intro { display: block; width: 22rem; flex: none; }
-  .intro .eyebrow { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
-  .intro h1 { font-size: 4rem; font-weight: 800; font-variation-settings: "wdth" 66; line-height: 0.95; margin: 0.375rem 0 0.75rem; }
-  .intro .lede { font-size: 1.125rem; line-height: 1.45; }
-  .intro ul { padding-left: 1.125rem; margin: 1rem 0; display: grid; gap: 0.375rem; color: var(--muted); line-height: 1.4; }
-  .intro ul b { color: var(--ink); }
-  .intro .intro-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.25rem 0 1rem; }
-  .intro .fine { font-size: 0.8125rem; color: var(--muted); margin-top: 0.5rem; }
-  .intro .fine a { color: inherit; }
-  .intro kbd { font: inherit; font-weight: 700; padding: 0 0.3125rem; border: 1px solid var(--rule); border-radius: 4px; }
+  .page { gap: clamp(2.5rem, 5vw, 5rem); align-items: center; padding: 0 2rem; }
+  .hero { display: block; flex: 0 1 34rem; min-width: 0; }
+  .live { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+  .live i { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: #2FBF71; animation: pulse 2s infinite; }
+  .hero h1 { font-size: clamp(4rem, 6.4vw, 6.25rem); font-weight: 800; font-variation-settings: "wdth" 62; line-height: 0.88; letter-spacing: -0.015em; margin: 1rem 0 1.5rem; }
+  .hero h1 em { font-style: normal; color: var(--critical); }
+  .hero .lede { font-size: 1.1875rem; line-height: 1.55; color: var(--muted); max-width: 31rem; }
+  .hero .lede b { color: var(--ink); font-weight: 650; }
+  .hero-stats { display: flex; gap: 2.25rem; margin: 1.75rem 0 2rem; }
+  .hero-stats:empty { display: none; }
+  .hero-stats b { display: block; font-size: 2.5rem; font-weight: 800; font-variation-settings: "wdth" 66; line-height: 1; }
+  .hero-stats span { font-size: 0.8125rem; color: var(--muted); }
+  .hero-stats .hot b { color: var(--critical); }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 0.625rem; }
+  .btn.big { padding: 0.875rem 1.375rem; font-size: 1rem; }
+  .hero .fine { font-size: 0.8125rem; color: var(--muted); margin-top: 1.5rem; }
+  .hero kbd { font: inherit; font-weight: 700; padding: 0 0.3125rem; border: 1px solid var(--rule); border-radius: 4px; }
   .tagline { display: none; }
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(47, 191, 113, 0.55); }
+  70% { box-shadow: 0 0 0 0.5rem rgba(47, 191, 113, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(47, 191, 113, 0); }
+}
+
+/* desktop in a browser tab: the page continues as a full website below the hero */
+@media (min-width: 64rem) and (display-mode: browser) {
+  html, body { height: auto; }
+  body { overflow-x: hidden; overflow-y: auto; }
+  .page { position: relative; isolation: isolate; height: 100vh; min-height: 44rem; max-height: 64rem; padding: 2rem; }
+  .page::before {
+    content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+    background:
+      radial-gradient(40% 55% at 78% 50%, color-mix(in srgb, var(--critical) 16%, transparent), transparent 70%),
+      radial-gradient(40% 50% at 8% 0%, color-mix(in srgb, var(--info) 14%, transparent), transparent 70%),
+      linear-gradient(color-mix(in srgb, var(--muted) 9%, transparent) 1px, transparent 1px) 0 0 / 100% 32px,
+      linear-gradient(90deg, color-mix(in srgb, var(--muted) 9%, transparent) 1px, transparent 1px) 0 0 / 32px 100%;
+    -webkit-mask-image: linear-gradient(to bottom, #000 65%, transparent);
+    mask-image: linear-gradient(to bottom, #000 65%, transparent);
+  }
+  .page .app {
+    flex: none; width: 26rem; max-width: 26rem; height: min(54rem, 100%);
+    background: var(--paper); border: 1px solid var(--rule); border-radius: 2.25rem; padding: 0.5rem 0 0.25rem;
+    box-shadow: 0 2.5rem 6rem -1.5rem rgba(5, 10, 16, 0.5), 0 0 0 0.5rem color-mix(in srgb, var(--card) 70%, transparent);
+  }
+  .site, .site-only { display: block; }
+  .hero-actions .site-only { display: inline-flex; }
+  .cue { margin-top: 2.5rem; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); text-decoration: none; }
+  .cue:hover { color: var(--ink); }
+
+  .ticker { border-block: 1px solid var(--rule); background: var(--card); overflow: hidden; }
+  .ticker-track { display: flex; width: max-content; animation: ticker 90s linear infinite; }
+  .ticker:hover .ticker-track, .ticker:focus-within .ticker-track { animation-play-state: paused; }
+  .ticker button {
+    --sev: var(--info); display: inline-flex; align-items: center; gap: 0.625rem; padding: 0.875rem 1.75rem; white-space: nowrap;
+    background: none; border: 0; border-right: 1px solid var(--rule); font-weight: 700; font-variation-settings: "wdth" 80;
+  }
+  .ticker button[data-sev="critical"] { --sev: var(--critical); }
+  .ticker button[data-sev="high"] { --sev: var(--high); }
+  .ticker button i { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--sev); flex: none; }
+  .ticker button small { color: var(--muted); font-weight: 600; font-size: 0.8125rem; }
+  .ticker button:hover span { text-decoration: underline; text-decoration-color: var(--sev); text-underline-offset: 4px; }
+
+  .wrap { max-width: 76rem; margin: 0 auto; padding: 0 3rem; }
+  .sec { padding-block: 6rem 0; }
+  .sec-head { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 2.5rem; }
+  .sec-head > p { max-width: 27rem; color: var(--muted); line-height: 1.55; }
+  .sec-head > p a { color: var(--ink); font-weight: 700; }
+  .kicker { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+  .sec h2 { font-size: clamp(2.75rem, 4.4vw, 4rem); font-weight: 800; font-variation-settings: "wdth" 62; line-height: 0.95; letter-spacing: -0.01em; margin-top: 0.625rem; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+  .stat { background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.5rem; }
+  .stat b { display: block; font-size: 4rem; font-weight: 800; font-variation-settings: "wdth" 62; line-height: 1; }
+  .stat span { color: var(--muted); }
+  .stat.hot b { color: var(--critical); }
+
+  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .scard {
+    --sev: var(--info); display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--rule);
+    border-top: 4px solid var(--sev); border-radius: 1.25rem; padding: 1.375rem 1.5rem 1.25rem; transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .scard[data-sev="critical"] { --sev: var(--critical); }
+  .scard[data-sev="high"] { --sev: var(--high); }
+  .scard:hover { transform: translateY(-4px); box-shadow: 0 1.25rem 3rem -1.5rem color-mix(in srgb, var(--sev) 60%, transparent); }
+  .scard h3 { font-size: 1.625rem; font-weight: 800; font-variation-settings: "wdth" 66; line-height: 1.02; margin: 0.875rem 0 0.75rem; text-wrap: balance; }
+  .scard p { line-height: 1.55; }
+  .scard .tags { margin: 1rem 0 0; }
+  .scard-foot { margin-top: auto; padding-top: 1.25rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; font-size: 0.875rem; }
+  .scard-foot .read { margin: 0; }
+  .link-btn { background: none; border: 0; padding: 0; color: var(--muted); font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
+  .link-btn:hover { color: var(--ink); }
+
+  .feats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+  .feat { background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.5rem; }
+  .feat .ico { width: 2.75rem; height: 2.75rem; border-radius: 0.875rem; display: grid; place-items: center; color: var(--c); background: color-mix(in srgb, var(--c) 16%, transparent); }
+  .feat svg { width: 1.375rem; height: 1.375rem; }
+  .feat h3 { font-size: 1.25rem; font-weight: 800; font-variation-settings: "wdth" 74; margin: 1rem 0 0.375rem; }
+  .feat p { color: var(--muted); line-height: 1.5; font-size: 0.9375rem; }
+
+  .steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.25rem; counter-reset: step; }
+  .step { position: relative; background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.5rem 1.25rem; }
+  .step::before { counter-increment: step; content: "0" counter(step); font-size: 0.8125rem; font-weight: 800; letter-spacing: 0.12em; color: var(--critical); }
+  .step:not(:last-child)::after {
+    content: "\2192"; position: absolute; right: -1.0625rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    width: 1.25rem; text-align: center; color: var(--muted); font-weight: 700;
+  }
+  .step h3 { font-size: 1.1875rem; font-weight: 800; font-variation-settings: "wdth" 76; margin: 0.625rem 0 0.375rem; }
+  .step p { font-size: 0.875rem; color: var(--muted); line-height: 1.5; }
+
+  .dtable { display: grid; gap: 0.625rem; }
+  .drow {
+    width: 100%; text-align: left; display: grid; grid-template-columns: 5.5rem minmax(12rem, 16rem) 1fr auto; gap: 1.5rem; align-items: center;
+    background: var(--card); border: 1px solid var(--rule); border-radius: 1rem; padding: 0.875rem 1.25rem; color: var(--ink);
+  }
+  .drow:hover { border-color: var(--muted); }
+  .drow .what { display: block; font-weight: 800; font-variation-settings: "wdth" 80; font-size: 1.0625rem; line-height: 1.2; }
+  .drow code { display: block; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.8125rem; color: var(--muted); margin-top: 0.25rem; }
+  .drow .name { color: var(--muted); font-size: 0.9375rem; line-height: 1.4; }
+  .drow .rw { font-size: 0.75rem; font-weight: 700; padding: 0.1875rem 0.5rem; border-radius: 6px; border: 1px solid var(--critical); color: var(--critical); white-space: nowrap; }
+
+  .cta {
+    display: grid; grid-template-columns: 1.15fr 1fr; gap: 3rem; align-items: center; padding: 3.5rem;
+    border: 1px solid var(--rule); border-radius: 2rem;
+    background: radial-gradient(60% 90% at 100% 100%, color-mix(in srgb, var(--critical) 18%, transparent), transparent 70%), var(--card);
+  }
+  .cta > div > p:last-child { color: var(--muted); line-height: 1.55; margin-top: 1.25rem; max-width: 28rem; font-size: 1.0625rem; }
+  .cta-list { display: grid; gap: 0.875rem; }
+  .cta-item {
+    display: flex; gap: 1rem; align-items: center; width: 100%; text-align: left; padding: 1.125rem 1.25rem; border-radius: 1rem;
+    border: 1px solid var(--rule); background: var(--paper); color: var(--ink); text-decoration: none;
+  }
+  a.cta-item:hover, button.cta-item:hover { border-color: var(--ink); }
+  .cta-item .ico { flex: none; width: 2.75rem; height: 2.75rem; border-radius: 0.875rem; display: grid; place-items: center; font-size: 1.25rem; background: color-mix(in srgb, var(--ink) 8%, transparent); }
+  .cta-item b { display: block; font-size: 1.0625rem; }
+  .cta-item span span { color: var(--muted); font-size: 0.875rem; }
+
+  .sitefoot { margin-top: 6rem; border-top: 1px solid var(--rule); padding: 2.5rem 0 3rem; color: var(--muted); font-size: 0.875rem; line-height: 1.55; }
+  .sitefoot .wrap { display: grid; grid-template-columns: 14rem 1fr auto; gap: 3rem; }
+  .sitefoot b { color: var(--ink); font-size: 1.375rem; font-weight: 800; font-variation-settings: "wdth" 70; }
+  .sitefoot a { color: inherit; }
+
+  .anim .reveal { opacity: 0; transform: translateY(1.5rem); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .anim .reveal.in { opacity: 1; transform: none; }
+}
+@keyframes ticker { to { transform: translateX(-50%); } }
+@media (min-width: 64rem) and (display-mode: browser) and (prefers-reduced-motion: reduce) {
+  .ticker { overflow-x: auto; }
+  .ticker-track { animation: none; }
+  .live i { animation: none; }
 }
 @media (min-width: 44rem) and (hover: hover) and (pointer: fine) {
   /* mouse users can't swipe sideways: one row with a visible scrollbar (the wheel scrolls it too) */
@@ -405,22 +543,17 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
 </head>
 <body>
 <div class="page">
-<aside class="intro" aria-label="About Intel60">
-  <p class="eyebrow">Cybersecurity news</p>
-  <h1>Intel60</h1>
-  <p class="lede">Every security story that matters, in 60 words. Refreshed every 30 minutes from 8 trusted sources and CISA.</p>
-  <ul>
-    <li><b>Severity first:</b> every story is rated Critical, High or Info</li>
-    <li><b>CVE context:</b> CVSS, exploit probability and an Exploited tag</li>
-    <li><b>Deadlines and Trends:</b> patch countdowns and the week at a glance</li>
-    <li><b>Your watchlist:</b> only the vendors you run</li>
-  </ul>
-  <div class="intro-actions">
-    <a class="btn primary" href="https://t.me/intel60news" target="_blank" rel="noopener">Critical alerts on Telegram</a>
-    <a class="btn" href="workflow.html">How it works</a>
+<aside class="hero" aria-label="About Intel60">
+  <p class="live"><i aria-hidden="true"></i><span id="live-updated">Live</span></p>
+  <h1>Security news, <em>in 60&nbsp;words.</em></h1>
+  <p class="lede">Intel60 reads <b>8 trusted security outlets and CISA</b> every 30 minutes and turns each story into a <b>severity-rated, 60-word brief</b> with CVE scores, exploit odds and patch deadlines. Built for SOC analysts and anyone who needs to stay ahead.</p>
+  <div class="hero-stats" id="hero-stats"></div>
+  <div class="hero-actions">
+    <a class="btn primary big" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join">Get critical alerts on Telegram</a>
+    <a class="btn big" href="workflow.html">How it works</a>
   </div>
-  <p class="fine">Scroll, or press <kbd>&uarr;</kbd> <kbd>&darr;</kbd> to move between stories. Press <kbd>/</kbd> to search.</p>
-  <p class="fine">Free, no sign-up. <a href="https://github.com/HammerTime19/intel60" target="_blank" rel="noopener">Open source</a>.</p>
+  <p class="fine">Try it right here: scroll the cards, or press <kbd>&uarr;</kbd> <kbd>&darr;</kbd>. Press <kbd>/</kbd> to search. Free, no sign-up.</p>
+  <a class="cue site-only" href="#more">Scroll to explore &darr;</a>
 </aside>
 <div class="app" data-mode="feed">
   <header class="top">
@@ -460,6 +593,97 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
     <button data-page="1" aria-label="Next story"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
   </div>
 </div>
+</div>
+
+<!-- desktop website below the hero (hidden on phones and in the installed app) -->
+<div class="site" id="more">
+  <div class="ticker" aria-label="Latest headlines"><div class="ticker-track" id="ticker"></div></div>
+
+  <section class="sec wrap reveal" aria-labelledby="week-title">
+    <div class="sec-head">
+      <div><p class="kicker">The last 7 days</p><h2 id="week-title">This week in security</h2></div>
+      <p>Every number here is live, straight from the data the app runs on.</p>
+    </div>
+    <div class="stats" id="site-stats"></div>
+  </section>
+
+  <section class="sec wrap reveal" aria-labelledby="crit-title">
+    <div class="sec-head">
+      <div><p class="kicker">Latest critical</p><h2 id="crit-title">What to patch first</h2></div>
+      <p>The newest critical stories, each in 60 words, with CVSS scores, exploit probability and CISA's Exploited tag.</p>
+    </div>
+    <div class="grid3" id="site-critical"></div>
+  </section>
+
+  <section class="sec wrap reveal" aria-labelledby="feat-title">
+    <div class="sec-head">
+      <div><p class="kicker">Features</p><h2 id="feat-title">Built for how defenders read</h2></div>
+      <p>No sign-up, no ads, no paywall. Your watchlist and settings stay on your device.</p>
+    </div>
+    <div class="feats">
+      <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17.5v.01"/></svg></span>
+        <h3>Severity first</h3><p>Every story is rated Critical, High or Info with a threat meter, so priorities are clear at a glance.</p></div>
+      <div class="feat" style="--c:var(--high)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span>
+        <h3>CVE context</h3><p>CVSS from NVD, exploit probability from FIRST EPSS, and an Exploited tag for bugs on CISA's KEV list.</p></div>
+      <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="12" height="13" rx="2"/><path d="M8 4h11a2 2 0 0 1 2 2v11"/></svg></span>
+        <h3>Duplicates merged</h3><p>When five outlets cover the same breach, you get one card that links to all of them.</p></div>
+      <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg></span>
+        <h3>Patch deadlines</h3><p>A countdown for every vulnerability CISA confirms attackers are exploiting.</p></div>
+      <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
+        <h3>Trends</h3><p>The week at a glance: the busiest days, the most-hit vendors and the most-covered stories.</p></div>
+      <div class="feat" style="--c:var(--high)"><span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></span>
+        <h3>My watchlist</h3><p>Add the vendors you run. Matching stories get a &#9733; and their own filter, stored only on your device.</p></div>
+      <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M9 10h6"/></svg></span>
+        <h3>Explain mode</h3><p>Click a dotted term like RCE or KEV for a plain-English definition.</p></div>
+      <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></span>
+        <h3>Search and alerts</h3><p>Search by vendor, CVE or keyword. Critical stories reach Telegram the moment they break.</p></div>
+    </div>
+  </section>
+
+  <section class="sec wrap reveal" id="how" aria-labelledby="how-title">
+    <div class="sec-head">
+      <div><p class="kicker">How it works</p><h2 id="how-title">From headline to brief in about a minute</h2></div>
+      <p>A fully automated, serverless pipeline runs every 30 minutes. <a href="workflow.html">See the step-by-step guide &rarr;</a></p>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>Collect</h3><p>8 security outlets and CISA's Known Exploited Vulnerabilities catalog.</p></div>
+      <div class="step"><h3>Filter</h3><p>Drops stories already seen, older than 48 hours, ads and webinars.</p></div>
+      <div class="step"><h3>Summarize</h3><p>Claude writes the headline and 60-word brief, rates severity and merges duplicate coverage.</p></div>
+      <div class="step"><h3>Enrich</h3><p>Each CVE gets its CVSS score (NVD), exploit probability (FIRST EPSS) and KEV status.</p></div>
+      <div class="step"><h3>Publish</h3><p>Cards go live here, and critical stories go out to Telegram.</p></div>
+    </div>
+  </section>
+
+  <section class="sec wrap reveal" aria-labelledby="dl-title">
+    <div class="sec-head">
+      <div><p class="kicker">Patch deadlines</p><h2 id="dl-title">Exploited bugs, on the clock</h2></div>
+      <p>Vulnerabilities CISA confirmed attackers are using, with the US federal patch deadline. Click one to read the story.</p>
+    </div>
+    <div class="dtable" id="site-deadlines"></div>
+  </section>
+
+  <section class="sec wrap reveal">
+    <div class="cta">
+      <div>
+        <p class="kicker">Stay ahead</p>
+        <h2>Five minutes a day. Zero noise.</h2>
+        <p>Read it here, get critical alerts on your phone, or install Intel60 like an app. All free, with no account.</p>
+      </div>
+      <div class="cta-list">
+        <a class="cta-item" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join"><span class="ico" aria-hidden="true">&#128276;</span><span><b>Critical alerts on Telegram</b><span>Join t.me/intel60news</span></span></a>
+        <div class="cta-item"><span class="ico" aria-hidden="true">&#128241;</span><span><b>Install it on your phone</b><span>Open intel60.app, then Add to Home Screen (iPhone) or Install app (Android)</span></span></div>
+        <button class="cta-item" data-action="watchlist"><span class="ico" aria-hidden="true">&#9733;</span><span><b>Set up My watchlist</b><span>Only the vendors you run</span></span></button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="sitefoot">
+    <div class="wrap">
+      <div><b>Intel60</b><p>Security news in 60 words.</p></div>
+      <p>Sources: BleepingComputer, The Hacker News, SecurityWeek, Krebs on Security, Dark Reading, The Record, CyberScoop, SANS ISC and the CISA KEV catalog. Summaries are written by AI; always check the original story before acting.</p>
+      <p>Built by Kushal Mankar<br><a href="https://github.com/HammerTime19/intel60" target="_blank" rel="noopener">Open source on GitHub</a><br><a href="workflow.html">How it works</a><br>No cookies, no sign-up</p>
+    </div>
+  </footer>
 </div>
 
 <dialog class="sheet" id="welcome" aria-labelledby="welcome-title">
@@ -532,6 +756,7 @@ const WATCHLIST_KEY = "intel60:watchlist";
 const GOATCOUNTER = "intel60";  // GoatCounter site code, e.g. "intel60" for intel60.goatcounter.com; counting stays off while empty
 const TELEGRAM_URL = "https://t.me/intel60news";  // public channel link, e.g. https://t.me/intel60news; the button stays hidden while empty
 const EXPLAIN_KEY = "intel60:explain";
+const SITE = matchMedia("(min-width: 64rem) and (display-mode: browser)");  // desktop browser tab: the full website
 
 // plain-English glossary for explain mode; checked in this order, at most 3 terms marked per card
 const GLOSSARY = [
@@ -886,6 +1111,7 @@ function renderMeta() {
     parts.push(`Updated ${mins < 1 ? "just now" : mins < 60 ? `${mins}m ago` : `${Math.round(mins / 60)}h ago`}`);
   }
   $("updated").textContent = parts.join(" · ");
+  if (data.updated) $("live-updated").textContent = `Live · updated ${ago(data.updated)}`;
 }
 
 async function load() {
@@ -907,6 +1133,7 @@ async function load() {
   renderFeed();
   jumpToHash();
   if (view === "trends") renderTrends();
+  renderSite();
 }
 
 // ---------- Deadlines and Trends ----------
@@ -931,6 +1158,7 @@ async function loadDeadlines() {
   $("dl-count").hidden = !soon;
   if (view === "deadlines") renderDeadlines();
   if (view === "trends") renderTrends();
+  renderSite();
 }
 
 function deadlineRow(x) {
@@ -1016,6 +1244,80 @@ function renderTrends() {
       `<button class="dl" data-open-card="${esc(c.id)}" style="grid-template-columns:3.25rem 1fr"><span class="pill soon"><b>${outlets(c)}</b>outlets</span><span><span class="what">${esc(c.headline)}</span><span class="name" style="display:block">${esc(c.source)}${(c.also || []).length ? `, ${esc(c.also.map((a) => a.source).join(", "))}` : ""}</span></span></button>`).join("")}</div>` : ""}`;
 }
 
+// ---------- desktop website (live sections below the hero) ----------
+
+function weekStats() {
+  const week = data.cards.filter((c) => new Date(c.published) >= Date.now() - 7 * DAY);
+  return {
+    week,
+    crit: week.filter((c) => c.severity === "critical").length,
+    merged: week.reduce((n, c) => n + (c.also || []).length, 0),
+    exploited: (deadlines?.items || []).filter((x) => daysUntil(x.added) >= -7).length,
+  };
+}
+
+function siteCardHTML(c) {
+  const level = SEV_LEVEL[c.severity] || 1;
+  const meter = `<span class="meter" aria-hidden="true">${[1, 2, 3].map((n) => `<i${n <= level ? ' class="on"' : ""}></i>`).join("")}</span>`;
+  const cves = (c.cves || []).map((v) => cveHTML(v, (c.cve_info || {})[v] || {})).join("");
+  return `<article class="scard" data-sev="${esc(c.severity)}">
+    <div class="meta"><span>${esc(c.category)}</span><time datetime="${esc(c.published)}">${esc(ago(c.published))}</time>
+      ${outlets(c) >= 3 ? `<span class="hot">🔥 ${outlets(c)} sources</span>` : ""}${meter}</div>
+    <h3>${esc(c.headline)}</h3>
+    <p>${explainTerms(esc(c.summary))}</p>
+    ${cves ? `<div class="tags">${cves}</div>` : ""}
+    <div class="scard-foot"><a class="read" href="${esc(safeUrl(c.url))}" target="_blank" rel="noopener">Read the full story</a>
+      <button class="link-btn" data-open-card="${esc(c.id)}">Open in the app &uarr;</button></div>
+  </article>`;
+}
+
+function renderSite() {
+  if (!SITE.matches || !data.cards.length) return;
+  const { week, crit, merged, exploited } = weekStats();
+  const today = data.cards.filter((c) => dayKey(c.published) === dayKey(new Date().toISOString()));
+  $("hero-stats").innerHTML = `
+    <div><b>${today.length}</b><span>stories today</span></div>
+    <div class="hot"><b>${today.filter((c) => c.severity === "critical").length}</b><span>critical today</span></div>
+    <div><b>8</b><span>sources + CISA</span></div>`;
+
+  const heads = data.cards.slice(0, 16).map((c) =>
+    `<button data-open-card="${esc(c.id)}" data-sev="${esc(c.severity)}"><i></i><span>${esc(c.headline)}</span><small>${esc(ago(c.published))}</small></button>`).join("");
+  $("ticker").innerHTML = heads + `<div style="display:contents" aria-hidden="true" inert>${heads}</div>`;
+
+  $("site-stats").innerHTML = `
+    <div class="stat"><b>${week.length}</b><span>stories, 60 words each</span></div>
+    <div class="stat hot"><b>${crit}</b><span>rated critical</span></div>
+    <div class="stat hot"><b>${deadlines ? exploited : "&ndash;"}</b><span>newly exploited bugs (CISA)</span></div>
+    <div class="stat"><b>${merged}</b><span>duplicate reports merged</span></div>`;
+
+  const bySev = (sev) => data.cards.filter((c) => c.severity === sev);
+  $("site-critical").innerHTML = [...bySev("critical"), ...bySev("high")].slice(0, 6).map(siteCardHTML).join("");
+
+  if (deadlines) {
+    const open = deadlines.items.filter((x) => daysUntil(x.due) >= 0).sort((a, b) => a.due.localeCompare(b.due));
+    const rows = (open.length ? open : deadlines.items).slice(0, 6);
+    $("site-deadlines").innerHTML = rows.map((x) => {
+      const d = daysUntil(x.due);
+      const pill = d > 0 ? `<span class="pill soon"><b>${d}</b>${d === 1 ? "day" : "days"} left</span>`
+        : d === 0 ? '<span class="pill today"><b>Due</b>today</span>' : `<span class="pill"><b>${-d}d</b>past due</span>`;
+      return `<button class="drow" data-deadline="${esc(x.cve)}">${pill}
+        <span><span class="what">${esc(x.vendor)} ${esc(x.product)}</span><code>${esc(x.cve)}</code></span>
+        <span class="name">${esc(x.name)}</span>
+        ${x.ransomware ? '<span class="rw">Used in ransomware</span>' : "<span></span>"}</button>`;
+    }).join("") || '<p class="note">Nothing due right now.</p>';
+  }
+}
+
+// sections fade in as they scroll into view (skipped when the reader prefers less motion)
+if (SITE.matches && !matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window) {
+  document.documentElement.classList.add("anim");
+  const reveal = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) { e.target.classList.add("in"); reveal.unobserve(e.target); }
+  }, { threshold: 0.15 });
+  document.querySelectorAll(".reveal").forEach((el) => reveal.observe(el));
+}
+SITE.addEventListener?.("change", renderSite);
+
 function showView(v) {
   view = v;
   document.querySelector(".app").dataset.mode = v;
@@ -1036,6 +1338,7 @@ function openCard(id) {
   showView("feed");
   if (!document.getElementById(id)) { filter = "all"; renderFilters(); renderFeed(); }
   scrollToCard(id);
+  if (SITE.matches) window.scrollTo({ top: 0, behavior: "smooth" });  // bring the app back into view
 }
 
 function showTerm(key) {
@@ -1172,6 +1475,8 @@ async function shareCard(id) {
 }
 
 document.addEventListener("click", (e) => {
+  const tracked = e.target.closest("[data-track]");
+  if (tracked) track(tracked.dataset.track);
   const page = e.target.closest("[data-page]");
   if (page) { feed.scrollBy({ top: Number(page.dataset.page) * feed.clientHeight }); return; }
   const dateBtn = e.target.closest("[data-date]");
@@ -1262,9 +1567,10 @@ document.addEventListener("keydown", (e) => {
   const typing = e.target.matches?.("input, textarea");
   if (e.key === "Escape" && $("search-btn").getAttribute("aria-expanded") === "true") { setSearchOpen(false); return; }
   if (typing) return;
-  if (e.key === "/") { e.preventDefault(); setSearchOpen(true); return; }
+  if (e.key === "/") { e.preventDefault(); if (SITE.matches) window.scrollTo({ top: 0 }); setSearchOpen(true); return; }
   const step = { ArrowDown: 1, j: 1, ArrowUp: -1, k: -1 }[e.key];
   if (!step || view !== "feed") return;
+  if (SITE.matches && window.scrollY > innerHeight / 3) return;  // further down the website, arrows scroll the page
   e.preventDefault();
   feed.scrollBy({ top: step * feed.clientHeight });
 });
@@ -1282,7 +1588,7 @@ $("explain-toggle").addEventListener("change", (e) => {
 renderFilters();
 load();
 loadDeadlines();
-if (GOATCOUNTER && location.hostname.endsWith("github.io")) {
+if (GOATCOUNTER && (location.hostname === "intel60.app" || location.hostname.endsWith("github.io"))) {
   const gc = document.createElement("script");
   gc.async = true;
   gc.src = "https://gc.zgo.at/count.v5.js";  // a fixed version, pinned by its hash below
