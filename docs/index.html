@@ -113,7 +113,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 @media (min-width: 64rem) { .tagline { display: none; } }
 /* desktop browser tab: a multi-page website instead of the phone layout (phones and the installed app never see it) */
 .web { display: none; }
-@media (min-width: 64rem) and (display-mode: browser) {
+@media (min-width: 48rem) and (min-height: 30rem) and (display-mode: browser) {
   html, body { height: auto; }
   body { overflow-x: hidden; overflow-y: auto; }
   .page { display: none; }
@@ -230,7 +230,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .wdays button:hover { color: var(--ink); }
   .wdays [aria-pressed="true"] { background: var(--ink); color: var(--paper); }
   .wbar {
-    position: sticky; top: 4rem; z-index: 15; border-block: 1px solid var(--rule);
+    position: sticky; top: var(--navh, 4rem); z-index: 15; border-block: 1px solid var(--rule);
     background: color-mix(in srgb, var(--paper) 88%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
   }
   .wbar-in { padding-block: 0.75rem; }
@@ -271,7 +271,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .scard.flash { animation: flash 1.8s ease-out; }
   @keyframes flash { from { box-shadow: 0 0 0 4px var(--sev); } to { box-shadow: 0 0 0 4px transparent; } }
 
-  .wrail { position: sticky; top: 9.5rem; display: grid; gap: 1rem; padding-bottom: 1rem; max-height: calc(100vh - 10.5rem); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
+  .wrail { position: sticky; top: calc(var(--navh, 4rem) + 5.5rem); display: grid; gap: 1rem; padding-bottom: 1rem; max-height: calc(100vh - var(--navh, 4rem) - 6.5rem); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
   .rbox { background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.125rem 1.25rem; }
   .rbox h3 { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
   .rbox h3 a, .rbox h3 button { background: none; border: 0; padding: 0; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; text-transform: none; color: var(--ink); text-decoration: none; }
@@ -340,7 +340,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .anim .reveal { opacity: 0; transform: translateY(1.5rem); transition: opacity 0.7s ease, transform 0.7s ease; }
   .anim .reveal.in { opacity: 1; transform: none; }
 }
-@media (min-width: 64rem) and (max-width: 80rem) and (display-mode: browser) {
+@media (min-width: 48rem) and (max-width: 80rem) and (min-height: 30rem) and (display-mode: browser) {
   .wrap { padding-inline: 1.75rem; }
   .wmain { grid-template-columns: minmax(0, 1fr) 17.5rem; gap: 2rem; }
   .wtabs { margin-left: 0; }
@@ -351,12 +351,35 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .step:nth-child(3)::after { display: none; }
   .now { grid-template-columns: 1fr; }
 }
+@media (min-width: 48rem) and (max-width: 63.99rem) and (min-height: 30rem) and (display-mode: browser) {
+  .wrap { padding-inline: 1.25rem; }
+  .wnav-in { flex-wrap: wrap; height: auto; padding-block: 0.625rem; row-gap: 0.375rem; }
+  .wtabs { order: 3; width: 100%; margin: 0 0 0 -0.875rem; overflow-x: auto; scrollbar-width: none; }
+  .wtabs::-webkit-scrollbar { display: none; }
+  .wsearch { flex: 1; width: auto; }
+  .wnav .btn { padding: 0.5rem 0.875rem; }
+  .home-hero { grid-template-columns: 1fr; gap: 2rem; padding-block: 3.5rem 3rem; }
+  .hstats { grid-template-columns: repeat(3, 1fr); }
+  .hstat { grid-template-columns: 1fr; gap: 0.25rem; }
+  .now, .cta { grid-template-columns: 1fr; }
+  .cta { padding: 2rem; gap: 1.5rem; }
+  .sec { padding-top: 4rem; }
+  .sec-head { flex-direction: column; align-items: start; gap: 0.75rem; }
+  .steps { grid-template-columns: repeat(2, 1fr); }
+  .step:not(:last-child)::after { display: none; }
+  .phead { padding-block: 2.5rem 1.5rem; }
+  .wmain { grid-template-columns: 1fr; gap: 2rem; }
+  .wrail { position: static; max-height: none; overflow: visible; grid-template-columns: repeat(2, 1fr); align-items: start; }
+  .web .view .tiles { grid-template-columns: repeat(2, 1fr); }
+  .web .view .bar { grid-template-columns: 7rem 1fr 2rem; }
+  .sitefoot .wrap { grid-template-columns: 1fr; gap: 1rem; }
+}
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(47, 191, 113, 0.55); }
   70% { box-shadow: 0 0 0 0.5rem rgba(47, 191, 113, 0); }
   100% { box-shadow: 0 0 0 0 rgba(47, 191, 113, 0); }
 }
-@media (min-width: 64rem) and (display-mode: browser) and (prefers-reduced-motion: reduce) {
+@media (min-width: 48rem) and (min-height: 30rem) and (display-mode: browser) and (prefers-reduced-motion: reduce) {
   .live i { animation: none; }
   .scard, .scard:hover { transition: none; transform: none; }
 }
@@ -944,7 +967,7 @@ const WATCHLIST_KEY = "intel60:watchlist";
 const GOATCOUNTER = "intel60";  // GoatCounter site code, e.g. "intel60" for intel60.goatcounter.com; counting stays off while empty
 const TELEGRAM_URL = "https://t.me/intel60news";  // public channel link, e.g. https://t.me/intel60news; the button stays hidden while empty
 const EXPLAIN_KEY = "intel60:explain";
-const SITE = matchMedia("(min-width: 64rem) and (display-mode: browser)");  // desktop browser tab: the full website
+const SITE = matchMedia("(min-width: 48rem) and (min-height: 30rem) and (display-mode: browser)");  // laptop, desktop or tablet browser tab: the full website
 
 // plain-English glossary for explain mode; checked in this order, at most 3 terms marked per card
 const GLOSSARY = [
@@ -1627,6 +1650,10 @@ function placeViews() {
   else document.querySelector(".app .tabs").before($("view-deadlines"), $("view-trends"));
 }
 placeViews();
+if ("ResizeObserver" in window) {
+  new ResizeObserver(([e]) => document.documentElement.style.setProperty("--navh", `${Math.round(e.target.getBoundingClientRect().height)}px`))
+    .observe(document.querySelector(".wnav"));
+}
 SITE.addEventListener?.("change", () => { placeViews(); if (SITE.matches) jumpToHash(); renderWeb(); fitAll(); });
 
 // sections fade in as they scroll into view (skipped when the reader prefers less motion)
@@ -1965,7 +1992,7 @@ if (GOATCOUNTER && (location.hostname === "intel60.app" || location.hostname.end
 }
 let welcomed = false;
 try { welcomed = !!localStorage.getItem(WELCOMED_KEY); } catch {}
-if (!welcomed && !matchMedia("(min-width: 64rem)").matches) showWelcome();
+if (!welcomed && !SITE.matches) showWelcome();
 if ("serviceWorker" in navigator) {
   // reload once when an updated app version takes over, so it shows right away
   const hadController = !!navigator.serviceWorker.controller;
