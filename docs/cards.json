@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-29T15:30:32Z",
+ "updated": "2026-10-29T16:00:58Z",
  "cards": [
+  {
+   "id": "8cc04215ef",
+   "headline": "Fake ChatGPT Claude apps deploy crypto miners via signed executables",
+   "summary": "Threat actors created fake GitHub projects impersonating OpenAI ChatGPT and Anthropic Claude desktop applications to distribute malicious loaders and cryptocurrency miners in a campaign dubbed Yoba. The malware leverages signed executables to evade detection and establish persistence. Users downloading these counterfeit applications from unofficial sources are at risk. Defenders should warn users to only download AI applications from official vendor repositories and marketplaces.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+   "published": "2026-10-29T15:20:29Z",
+   "added": "2026-10-29T16:00:43Z",
+   "also": []
+  },
   {
    "id": "fcadd0dd5c",
    "headline": "US voting machines face unpatched risks and AI influence",
@@ -1150,7 +1164,7 @@
     "CVE-2026-86950": {
      "kev": true,
      "epss": 0.26166,
-     "pct": 0.97987,
+     "pct": 0.9799,
      "cvss": 8.8,
      "sev": "high"
     },
@@ -1159,19 +1173,19 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00254,
-     "pct": 0.17017
+     "pct": 0.17051
     },
     "CVE-2026-28864": {
      "kev": false,
      "epss": 0.00183,
-     "pct": 0.07848,
+     "pct": 0.07874,
      "cvss": 3.3,
      "sev": "low"
     },
     "CVE-2022-26704": {
      "kev": false,
      "epss": 0.01141,
-     "pct": 0.66536,
+     "pct": 0.66574,
      "cvss": 7.8,
      "sev": "high"
     },
@@ -1180,17 +1194,17 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00324,
-     "pct": 0.25359
+     "pct": 0.25409
     },
     "CVE-2026-112413": {
      "kev": false,
      "cvss": null,
      "sev": null,
      "epss": 0.00224,
-     "pct": 0.13026
+     "pct": 0.13058
     }
    },
-   "cve_checked": "2026-10-29T09:30:41Z"
+   "cve_checked": "2026-10-29T16:00:57Z"
   },
   {
    "id": "627cc70bbf",
