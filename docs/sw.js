@@ -1,5 +1,5 @@
 // Offline support: the app shell is cached; stories load fresh and fall back to the last copy.
-const SHELL = "intel60-shell-v6";
+const SHELL = "intel60-shell-v7";
 const ASSETS = ["./", "./index.html", "./manifest.json", "./icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
@@ -29,7 +29,9 @@ self.addEventListener("fetch", (e) => {
         const copy = res.clone();
         caches.open("intel60-data").then((c) => c.put(key, copy));
         return res;
-      }).catch(() => caches.open("intel60-data").then((c) => c.match(key)))
+      }).catch(() => caches.open("intel60-data").then((c) => c.match(key)).then((hit) => hit &&
+        // marked as a saved copy, so the page doesn't call it live
+        new Response(hit.body, { headers: { "Content-Type": "application/json", "X-Intel60-Saved": "1" } })))
     );
     return;
   }

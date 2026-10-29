@@ -134,6 +134,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .live { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
   .live { font-size: 0.8125rem; }
   .live i { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: #2FBF71; animation: pulse 2s infinite; }
+  .live.stale i { background: #E0A43A; animation: none; }
   .wtabs { display: flex; gap: 0.25rem; margin-left: 0.75rem; }
   .wtabs a { position: relative; padding: 0.5rem 0.875rem; border-radius: 999px; font-size: 1rem; font-weight: 700; color: var(--muted); text-decoration: none; }
   .wtabs a:hover { color: var(--ink); }
@@ -1089,6 +1090,7 @@ const feed = $("feed");
 let data = { cards: [] };
 let filter = "all";
 let loadedAt = 0;
+let saved = false;  // showing the last saved copy because the network request failed
 let lastSeen = "";
 try { lastSeen = localStorage.getItem(LAST_SEEN_KEY) || ""; } catch {}
 let myTerms = [];
@@ -1372,7 +1374,12 @@ function renderMeta() {
     parts.push(`Updated ${mins < 1 ? "just now" : mins < 60 ? `${mins}m ago` : `${Math.round(mins / 60)}h ago`}`);
   }
   $("updated").textContent = parts.join(" · ");
-  if (data.updated) $("live-updated").textContent = `Live · updated ${ago(data.updated)}`;
+  if (data.updated) {  // only "Live" when this copy came from the network and the pipeline ran recently
+    const live = !saved && Date.now() - new Date(data.updated) < 90 * 60000;
+    $("live-updated").textContent = live ? `Live · updated ${ago(data.updated)}`
+      : saved ? `Offline · saved ${ago(data.updated)}` : `Last updated ${ago(data.updated)}`;
+    $("live-updated").parentElement.classList.toggle("stale", !live);
+  }
 }
 
 async function load() {
@@ -1382,7 +1389,9 @@ async function load() {
     data = await res.json();
     data.cards = data.cards || [];
     loadedAt = Date.now();
+    saved = res.headers.get("X-Intel60-Saved") === "1";
   } catch {
+    saved = true;
     if (!data.cards.length) {
       feed.innerHTML = emptyHTML("Stories didn't load",
         "Your phone looks offline or the site is unreachable. Check your connection, then try again.",
