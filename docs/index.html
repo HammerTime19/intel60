@@ -111,14 +111,16 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .intro { display: none; }
 .pager { display: none; }
 @media (min-width: 64rem) { .tagline { display: none; } }
-/* desktop browser tab: a full website instead of the phone layout (phones and the installed app never see it) */
+/* desktop browser tab: a multi-page website instead of the phone layout (phones and the installed app never see it) */
 .web { display: none; }
 @media (min-width: 64rem) and (display-mode: browser) {
   html, body { height: auto; }
   body { overflow-x: hidden; overflow-y: auto; }
   .page { display: none; }
   .web { display: block; }
-  .wrap { max-width: 84rem; margin: 0 auto; padding-inline: 2.5rem; }
+  .wrap { max-width: 80rem; margin: 0 auto; padding-inline: 2.5rem; }
+  .wrap.narrow { max-width: 60rem; }
+  .wpage { min-height: calc(100vh - 14rem); }
 
   /* top navigation */
   .wnav {
@@ -126,157 +128,63 @@ button { font: inherit; color: inherit; cursor: pointer; }
     background: color-mix(in srgb, var(--paper) 82%, transparent); backdrop-filter: blur(14px) saturate(1.4); -webkit-backdrop-filter: blur(14px) saturate(1.4);
   }
   .wnav-in { display: flex; align-items: center; gap: 1.25rem; height: 4rem; }
-  .wlogo { background: none; border: 0; padding: 0; font-size: 1.75rem; font-weight: 800; font-variation-settings: "wdth" 64; letter-spacing: -0.01em; line-height: 1; }
+  .wlogo { color: var(--ink); text-decoration: none; font-size: 1.75rem; font-weight: 800; font-variation-settings: "wdth" 64; letter-spacing: -0.01em; line-height: 1; }
   .wlogo span { color: var(--critical); }
   .live { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
   .live i { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: #2FBF71; animation: pulse 2s infinite; }
   .wtabs { display: flex; gap: 0.25rem; margin-left: 0.75rem; }
-  .wtabs button, .wtabs a {
-    position: relative; background: none; border: 0; padding: 0.5rem 0.875rem; border-radius: 999px;
-    font-size: 0.9375rem; font-weight: 700; color: var(--muted); text-decoration: none;
-  }
-  .wtabs button:hover, .wtabs a:hover { color: var(--ink); }
-  .wtabs [aria-current] { color: var(--ink); background: color-mix(in srgb, var(--ink) 9%, transparent); }
+  .wtabs a { position: relative; padding: 0.5rem 0.875rem; border-radius: 999px; font-size: 0.9375rem; font-weight: 700; color: var(--muted); text-decoration: none; }
+  .wtabs a:hover { color: var(--ink); }
+  .wtabs a[aria-current] { color: var(--ink); background: color-mix(in srgb, var(--ink) 9%, transparent); }
   .wtabs .count {
     position: absolute; top: 0; right: -0.125rem; min-width: 1.125rem; height: 1.125rem; padding: 0 0.3125rem; border-radius: 999px;
     background: var(--critical); color: var(--on-sev); font-size: 0.6875rem; line-height: 1.125rem; text-align: center;
   }
   .wsearch {
-    margin-left: auto; display: flex; align-items: center; gap: 0.5rem; width: min(24rem, 30vw); padding: 0.5rem 0.75rem 0.5rem 0.875rem;
+    margin-left: auto; display: flex; align-items: center; gap: 0.5rem; width: min(22rem, 26vw); padding: 0.5rem 0.75rem 0.5rem 0.875rem;
     border-radius: 999px; border: 1px solid var(--rule); background: var(--card); cursor: text;
   }
   .wsearch:focus-within { border-color: var(--ink); }
   .wsearch svg { width: 1rem; height: 1rem; color: var(--muted); flex: none; }
   .wsearch input { flex: 1; min-width: 0; border: 0; background: none; font: inherit; font-size: 0.9375rem; color: var(--ink); outline: none; }
   .wsearch kbd { font: inherit; font-size: 0.75rem; font-weight: 700; color: var(--muted); padding: 0 0.375rem; border: 1px solid var(--rule); border-radius: 5px; }
+  .btn.big { padding: 0.9375rem 1.5rem; font-size: 1.0625rem; }
+  .wnav .btn { white-space: nowrap; padding: 0.5rem 1.125rem; }
+  .kicker { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
 
-  /* hero */
+  /* home */
   .whero-band { position: relative; isolation: isolate; overflow: hidden; }
   .whero-band::before {
     content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
     background:
-      radial-gradient(38% 80% at 88% 30%, color-mix(in srgb, var(--critical) 18%, transparent), transparent 70%),
+      radial-gradient(38% 80% at 88% 40%, color-mix(in srgb, var(--critical) 18%, transparent), transparent 70%),
       radial-gradient(35% 70% at 4% 0%, color-mix(in srgb, var(--info) 16%, transparent), transparent 70%),
       linear-gradient(color-mix(in srgb, var(--muted) 9%, transparent) 1px, transparent 1px) 0 0 / 100% 32px,
       linear-gradient(90deg, color-mix(in srgb, var(--muted) 9%, transparent) 1px, transparent 1px) 0 0 / 32px 100%;
-    -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent);
-    mask-image: linear-gradient(to bottom, #000 55%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, #000 60%, transparent);
+    mask-image: linear-gradient(to bottom, #000 60%, transparent);
   }
-  .whero { display: grid; grid-template-columns: 1.35fr 1fr; gap: 3.5rem; align-items: end; padding-top: 4.5rem; padding-bottom: 3.25rem; }
-  .whero h1 { font-size: clamp(3.75rem, 6vw, 6.25rem); font-weight: 800; font-variation-settings: "wdth" 62; line-height: 0.88; letter-spacing: -0.015em; }
-  .whero h1 em { font-style: normal; color: var(--critical); }
-  .whero .lede { font-size: 1.1875rem; line-height: 1.55; color: var(--muted); max-width: 36rem; margin-top: 1.5rem; }
-  .whero .lede b { color: var(--ink); font-weight: 650; }
-  .hstats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+  .home-hero { display: grid; grid-template-columns: 1.5fr 1fr; gap: 4rem; align-items: center; padding-block: 6rem 5rem; }
+  .home-hero h1 { font-size: clamp(4.25rem, 7vw, 7rem); font-weight: 800; font-variation-settings: "wdth" 62; line-height: 0.86; letter-spacing: -0.015em; margin-top: 1.25rem; }
+  .home-hero h1 em { font-style: normal; color: var(--critical); }
+  .home-hero .lede { font-size: 1.25rem; line-height: 1.55; color: var(--muted); max-width: 36rem; margin-top: 1.75rem; }
+  .home-hero .lede b { color: var(--ink); font-weight: 650; }
+  .hero-ctas { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2.25rem; }
+  .hstats { display: grid; gap: 0.75rem; }
   .hstat {
-    border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.25rem 1.25rem 1.125rem;
-    background: color-mix(in srgb, var(--card) 80%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    display: grid; grid-template-columns: 5rem 1fr; align-items: center; gap: 1rem; padding: 1.125rem 1.375rem;
+    border: 1px solid var(--rule); border-radius: 1.25rem; background: color-mix(in srgb, var(--card) 80%, transparent);
+    backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
   }
-  .hstat b { display: block; font-size: 3.25rem; font-weight: 800; font-variation-settings: "wdth" 62; line-height: 1; }
-  .hstat span { display: block; margin-top: 0.375rem; font-size: 0.8125rem; color: var(--muted); line-height: 1.3; }
+  .hstat b { font-size: 3.5rem; font-weight: 800; font-variation-settings: "wdth" 62; line-height: 1; }
+  .hstat span { font-size: 0.9375rem; color: var(--muted); line-height: 1.35; }
   .hstat.hot b { color: var(--critical); }
+  .now { display: grid; grid-template-columns: 1.6fr 1fr; gap: 1.5rem; align-items: stretch; }
 
-  /* filter bar, sticky under the navigation */
-  .wbar {
-    position: sticky; top: 4rem; z-index: 15; border-block: 1px solid var(--rule);
-    background: color-mix(in srgb, var(--paper) 88%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
-  }
-  .wbar-in { display: flex; align-items: center; gap: 1.25rem; padding-block: 0.75rem; }
-  .wchips { flex: 1; min-width: 0; display: flex; gap: 0.5rem; overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--rule) transparent; padding-bottom: 2px; }
-  .wchips button {
-    flex: none; font-size: 0.875rem; font-weight: 600; padding: 0.4375rem 0.9375rem; border-radius: 999px;
-    border: 1px solid var(--rule); background: transparent;
-  }
-  .wchips button:hover { border-color: var(--muted); }
-  .wchips [aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
-  .wdates { flex: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--muted); }
-  .wdates select, .wdates input {
-    font: inherit; font-size: 0.875rem; color: var(--ink); background: var(--card); border: 1px solid var(--rule);
-    border-radius: 999px; padding: 0.4375rem 0.875rem;
-  }
-
-  /* feed grid and side rail */
-  .wmain { display: grid; grid-template-columns: minmax(0, 1fr) 21rem; gap: 2.5rem; align-items: start; padding-top: 0.5rem; }
-  .wgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); gap: 1.25rem; }
-  .wcontent { padding-top: 1.75rem; }
-  .wgrid > .wday:first-child { margin-top: 0; }
-  .wday { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 0.875rem; margin-top: 1.75rem; padding-bottom: 0.625rem; border-bottom: 1px solid var(--rule); }
-  .wday h2 { font-size: 2rem; font-weight: 800; font-variation-settings: "wdth" 64; line-height: 1; }
-  .wday span { color: var(--muted); font-size: 0.875rem; }
-
-  .scard {
-    --sev: var(--info); position: relative; display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--rule);
-    border-top: 4px solid var(--sev); border-radius: 1.25rem; padding: 1.25rem 1.375rem 1.125rem; content-visibility: auto; contain-intrinsic-size: auto 26rem;
-    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
-  }
-  .scard[data-sev="critical"] { --sev: var(--critical); }
-  .scard[data-sev="high"] { --sev: var(--high); }
-  .scard:hover { transform: translateY(-3px); box-shadow: 0 1.25rem 3rem -1.5rem color-mix(in srgb, var(--sev) 60%, transparent); }
-  .scard .sevtag { color: var(--sev); font-weight: 800; }
-  .scard h3 { font-size: 1.5625rem; font-weight: 800; font-variation-settings: "wdth" 66; line-height: 1.03; margin: 0.75rem 0 0.625rem; text-wrap: balance; }
-  .scard p { line-height: 1.55; font-size: 0.96875rem; }
-  .scard .tags { margin: 0.875rem 0 0; }
-  .scard-foot { margin-top: auto; padding-top: 1.125rem; display: flex; align-items: end; justify-content: space-between; gap: 1rem; font-size: 0.8125rem; }
-  .scard-foot .source { color: var(--muted); line-height: 1.45; }
-  .scard-foot .source a { color: inherit; }
-  .scard-foot .read { font-size: 0.875rem; margin-top: 0.375rem; }
-  .scard-foot .share { flex: none; width: 2.25rem; height: 2.25rem; }
-  .scard.lead {
-    grid-column: 1 / -1; padding: 2rem 2.25rem 1.75rem; border-top-width: 6px;
-    background: radial-gradient(60% 120% at 100% 100%, color-mix(in srgb, var(--sev) 16%, transparent), transparent 70%), var(--card);
-  }
-  .scard.lead h3 { font-size: clamp(2.25rem, 3.4vw, 3.25rem); max-width: 50rem; margin-top: 0.875rem; }
-  .scard.lead p { font-size: 1.125rem; max-width: 52rem; }
-  .lead-kicker { color: var(--sev); margin-bottom: 0.75rem; }
-  .scard.flash { animation: flash 1.8s ease-out; }
-  @keyframes flash { from { box-shadow: 0 0 0 4px var(--sev); } to { box-shadow: 0 0 0 4px transparent; } }
-  .wgrid .more { grid-column: 1 / -1; justify-self: center; margin-top: 1rem; }
-  .wgrid .empty, #web-feed > .empty { grid-column: 1 / -1; padding: 5rem 2rem; }
-
-  .wrail { position: sticky; top: 8.75rem; display: grid; gap: 1rem; padding-top: 1.75rem; padding-bottom: 1rem; max-height: calc(100vh - 9rem); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
-  .rbox { background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.125rem 1.25rem; }
-  .rbox h3 { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
-  .rbox h3 button { background: none; border: 0; padding: 0; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; text-transform: none; color: var(--ink); }
-  .rrow {
-    display: grid; grid-template-columns: 3.25rem 1fr; gap: 0.75rem; align-items: center; width: 100%; text-align: left;
-    background: none; border: 0; border-top: 1px solid var(--rule); padding: 0.625rem 0; color: var(--ink);
-  }
-  .rbox h3 + .rrow { border-top: 0; }
-  .rrow:hover b { text-decoration: underline; text-underline-offset: 3px; }
-  .rrow .pill { padding: 0.3125rem 0.125rem; font-size: 0.625rem; }
-  .rrow .pill b { font-size: 1.125rem; text-decoration: none; }
-  .rrow > span:last-child b { display: block; font-size: 0.9375rem; font-weight: 700; line-height: 1.25; }
-  .rrow small { display: block; font-size: 0.75rem; color: var(--muted); margin-top: 0.1875rem; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
-  .rbox .bars { margin-top: 0.375rem; }
-  .rbox p { font-size: 0.875rem; color: var(--muted); line-height: 1.45; }
-  .rbox .btn { margin-top: 0.875rem; width: 100%; padding: 0.5625rem 1rem; font-size: 0.875rem; }
-  .rbox.alert { background: radial-gradient(80% 100% at 100% 100%, color-mix(in srgb, var(--critical) 20%, transparent), transparent 70%), var(--card); }
-  .rbox.alert strong { display: block; font-size: 1.375rem; font-weight: 800; font-variation-settings: "wdth" 70; line-height: 1.1; margin-bottom: 0.375rem; }
-  .terms { display: flex; flex-wrap: wrap; gap: 0.375rem; margin-top: 0.625rem; }
-  .terms span { font-size: 0.75rem; font-weight: 700; padding: 0.1875rem 0.5625rem; border-radius: 999px; border: 1px solid var(--ink); }
-
-  /* Deadlines and Trends as full pages */
-  .web .view { flex: none; overflow: visible; padding: 0; }
-  .web .view h2 { font-size: 3rem; font-weight: 800; font-variation-settings: "wdth" 62; }
-  .web .view .intro { display: block; font-size: 1rem; max-width: 46rem; margin: 0.625rem 0 1.25rem; }
-  .web .view h3 { font-size: 0.8125rem; margin-top: 2rem; }
-  .web .view .tiles { grid-template-columns: repeat(4, 1fr); gap: 0.75rem; }
-  .web .view .tile { padding: 1.25rem; border-radius: 1rem; }
-  .web .view .tile b { font-size: 3rem; }
-  .web .view .days { height: 15rem; gap: 0.75rem; padding: 1.25rem 1.25rem 0.75rem; border-radius: 1rem; }
-  .web .view .bars { gap: 0.5rem; }
-  .web .view .bar { grid-template-columns: 9rem 1fr 2.5rem; font-size: 0.9375rem; }
-  .web .view .bar .track { height: 0.75rem; }
-  .web .view .dl { grid-template-columns: 5.5rem 1fr; padding: 1rem 1.25rem; border-radius: 1rem; margin-bottom: 0.625rem; }
-  .web .view .dl:hover, .web .view .bar:hover span:first-child { border-color: var(--muted); }
-  .web .view .dl .what { font-size: 1.125rem; }
-
-  /* about: features, how it works, call to action */
   .sec { padding-top: 6rem; }
-  .sec-head { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 2.5rem; }
+  .sec-head { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 2.25rem; }
   .sec-head > p { max-width: 27rem; color: var(--muted); line-height: 1.55; }
-  .sec-head > p a { color: var(--ink); font-weight: 700; }
-  .kicker { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+  .sec-head a { color: var(--ink); font-weight: 700; }
   .sec h2 { font-size: clamp(2.75rem, 4.4vw, 4rem); font-weight: 800; font-variation-settings: "wdth" 62; line-height: 0.95; letter-spacing: -0.01em; margin-top: 0.625rem; }
   .feats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
   .feat { background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.5rem; }
@@ -308,6 +216,122 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .cta-item .ico { flex: none; width: 2.75rem; height: 2.75rem; border-radius: 0.875rem; display: grid; place-items: center; font-size: 1.25rem; background: color-mix(in srgb, var(--ink) 8%, transparent); }
   .cta-item b { display: block; font-size: 1.0625rem; }
   .cta-item span span { color: var(--muted); font-size: 0.875rem; }
+
+  /* page headers (News, Deadlines, Trends, About) */
+  .phead { padding-block: 3.5rem 2rem; }
+  .phead h1 { font-size: clamp(3rem, 5vw, 4.5rem); font-weight: 800; font-variation-settings: "wdth" 62; line-height: 0.92; letter-spacing: -0.01em; margin-top: 0.625rem; }
+  .phead p:not(.kicker) { color: var(--muted); font-size: 1.0625rem; line-height: 1.55; margin-top: 0.875rem; max-width: 44rem; }
+  .phead-row { display: flex; align-items: end; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
+
+  /* news: day picker, sticky filters, grid and side rail */
+  .wdays { display: flex; flex-wrap: wrap; gap: 0.25rem; padding: 0.3125rem; border-radius: 999px; border: 1px solid var(--rule); background: var(--card); }
+  .wdays button { border: 0; background: none; padding: 0.5rem 0.9375rem; border-radius: 999px; font-size: 0.875rem; font-weight: 700; color: var(--muted); }
+  .wdays button small { font-weight: 600; margin-left: 0.25rem; opacity: 0.75; }
+  .wdays button:hover { color: var(--ink); }
+  .wdays [aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+  .wbar {
+    position: sticky; top: 4rem; z-index: 15; border-block: 1px solid var(--rule);
+    background: color-mix(in srgb, var(--paper) 88%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  }
+  .wbar-in { padding-block: 0.75rem; }
+  .wchips { display: flex; gap: 0.5rem; overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--rule) transparent; padding-bottom: 2px; }
+  .wchips button { flex: none; font-size: 0.875rem; font-weight: 600; padding: 0.4375rem 0.9375rem; border-radius: 999px; border: 1px solid var(--rule); background: transparent; }
+  .wchips button:hover { border-color: var(--muted); }
+  .wchips [aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+  .wmain { display: grid; grid-template-columns: minmax(0, 1fr) 20rem; gap: 3rem; align-items: start; padding-top: 2rem; }
+  .wgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); gap: 1.5rem; }
+  .wday { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 0.875rem; margin-top: 1.5rem; padding-bottom: 0.625rem; border-bottom: 1px solid var(--rule); }
+  .wgrid > .wday:first-child { margin-top: 0; }
+  .wday h2 { font-size: 1.75rem; font-weight: 800; font-variation-settings: "wdth" 64; line-height: 1; }
+  .wday span { color: var(--muted); font-size: 0.875rem; }
+  .wgrid .more { grid-column: 1 / -1; justify-self: center; margin-top: 1rem; }
+  #web-feed > .empty { padding: 5rem 2rem; }
+
+  .scard {
+    --sev: var(--info); position: relative; display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--rule);
+    border-top: 4px solid var(--sev); border-radius: 1.25rem; padding: 1.5rem 1.5rem 1.25rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .scard[data-sev="critical"] { --sev: var(--critical); }
+  .scard[data-sev="high"] { --sev: var(--high); }
+  .scard:hover { transform: translateY(-3px); box-shadow: 0 1.25rem 3rem -1.5rem color-mix(in srgb, var(--sev) 60%, transparent); }
+  .scard .sevtag { color: var(--sev); font-weight: 800; }
+  .scard h3 { font-size: 1.5625rem; font-weight: 800; font-variation-settings: "wdth" 66; line-height: 1.04; margin: 0.875rem 0 0.75rem; text-wrap: balance; }
+  .scard p { line-height: 1.6; font-size: 0.96875rem; }
+  .scard .tags { margin: 1rem 0 0; }
+  .scard-foot { margin-top: auto; padding-top: 1.25rem; display: flex; align-items: end; justify-content: space-between; gap: 1rem; font-size: 0.8125rem; }
+  .scard-foot .source { color: var(--muted); line-height: 1.45; }
+  .scard-foot .source a { color: inherit; }
+  .scard-foot .read { font-size: 0.875rem; margin-top: 0.375rem; }
+  .scard-foot .share { flex: none; width: 2.25rem; height: 2.25rem; }
+  .scard.lead { padding: 2rem 2.25rem 1.75rem; border-top-width: 6px;
+    background: radial-gradient(60% 120% at 100% 100%, color-mix(in srgb, var(--sev) 16%, transparent), transparent 70%), var(--card); }
+  .scard.lead h3 { font-size: clamp(2rem, 3vw, 2.75rem); margin-top: 0.875rem; }
+  .scard.lead p { font-size: 1.0625rem; }
+  .scard.flash { animation: flash 1.8s ease-out; }
+  @keyframes flash { from { box-shadow: 0 0 0 4px var(--sev); } to { box-shadow: 0 0 0 4px transparent; } }
+
+  .wrail { position: sticky; top: 9.5rem; display: grid; gap: 1rem; padding-bottom: 1rem; max-height: calc(100vh - 10.5rem); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
+  .rbox { background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.125rem 1.25rem; }
+  .rbox h3 { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+  .rbox h3 a, .rbox h3 button { background: none; border: 0; padding: 0; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; text-transform: none; color: var(--ink); text-decoration: none; }
+  .rrow {
+    display: grid; grid-template-columns: 3.25rem 1fr; gap: 0.75rem; align-items: center; width: 100%; text-align: left;
+    background: none; border: 0; border-top: 1px solid var(--rule); padding: 0.625rem 0; color: var(--ink);
+  }
+  .rbox h3 + .rrow { border-top: 0; }
+  .rrow:hover b { text-decoration: underline; text-underline-offset: 3px; }
+  .rrow .pill { padding: 0.3125rem 0.125rem; font-size: 0.625rem; }
+  .rrow .pill b { font-size: 1.125rem; text-decoration: none; }
+  .rrow > span:last-child b { display: block; font-size: 0.9375rem; font-weight: 700; line-height: 1.25; }
+  .rrow small { display: block; font-size: 0.75rem; color: var(--muted); margin-top: 0.1875rem; }
+  .rbox .bars { margin-top: 0.375rem; }
+  .rbox p { font-size: 0.875rem; color: var(--muted); line-height: 1.45; }
+  .rbox .btn { margin-top: 0.875rem; width: 100%; padding: 0.5625rem 1rem; font-size: 0.875rem; }
+  .rbox.alert { background: radial-gradient(80% 100% at 100% 100%, color-mix(in srgb, var(--critical) 20%, transparent), transparent 70%), var(--card); }
+  .rbox.alert strong { display: block; font-size: 1.375rem; font-weight: 800; font-variation-settings: "wdth" 70; line-height: 1.1; margin-bottom: 0.375rem; }
+  .now .rbox { padding: 1.5rem; }
+  .terms { display: flex; flex-wrap: wrap; gap: 0.375rem; margin-top: 0.625rem; }
+  .terms span { font-size: 0.75rem; font-weight: 700; padding: 0.1875rem 0.5625rem; border-radius: 999px; border: 1px solid var(--ink); }
+
+  /* Deadlines and Trends pages reuse the app's views; the page header replaces their own title */
+  .web .view { flex: none; overflow: visible; padding: 0; }
+  .web .view > h2, .web .view > .intro { display: none; }
+  .web .view h3 { font-size: 0.8125rem; margin: 2rem 0 0.75rem; }
+  .web .view > h3:first-of-type { margin-top: 0; }
+  .web .view .tiles { grid-template-columns: repeat(4, 1fr); gap: 0.75rem; }
+  .web .view .tile { padding: 1.25rem; border-radius: 1rem; }
+  .web .view .tile b { font-size: 3rem; }
+  .web .view .days { height: 15rem; gap: 0.75rem; padding: 1.25rem 1.25rem 0.75rem; border-radius: 1rem; }
+  .web .view .bars { gap: 0.5rem; }
+  .web .view .bar { grid-template-columns: 9rem 1fr 2.5rem; font-size: 0.9375rem; }
+  .web .view .bar .track { height: 0.75rem; }
+  .web .view .bar:hover > span:first-child { text-decoration: underline; text-underline-offset: 3px; }
+  .web .view .dl { grid-template-columns: 5.5rem 1fr; padding: 1rem 1.25rem; border-radius: 1rem; margin-bottom: 0.625rem; }
+  .web .view .dl:hover { border-color: var(--muted); }
+  .web .view .dl .what { font-size: 1.125rem; }
+
+  /* about */
+  .prose { font-size: 1.0625rem; line-height: 1.7; }
+  .prose > p:first-child { font-size: 1.375rem; line-height: 1.5; }
+  .prose h2 { font-size: 2.25rem; font-weight: 800; font-variation-settings: "wdth" 64; line-height: 1; margin: 3.5rem 0 1rem; }
+  .prose p + p { margin-top: 1rem; }
+  .prose p, .prose li { color: var(--ink); }
+  .prose .muted { color: var(--muted); }
+  .prose a { color: var(--ink); font-weight: 700; }
+  .prose ul, .prose ol { padding-left: 1.25rem; display: grid; gap: 0.5rem; }
+  .prose .sev-list { list-style: none; padding: 0; gap: 0.75rem; }
+  .prose .sev-list li { padding: 1rem 1.25rem; border-radius: 1rem; background: var(--card); border: 1px solid var(--rule); border-left: 5px solid var(--c); }
+  .prose .sev-list b { color: var(--c); }
+  .srcs { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .srcs span { font-size: 0.9375rem; font-weight: 700; padding: 0.375rem 0.875rem; border-radius: 999px; border: 1px solid var(--rule); background: var(--card); }
+  .faq details { border-bottom: 1px solid var(--rule); padding-block: 1.125rem; }
+  .faq summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 1rem; font-weight: 800; font-size: 1.125rem; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: "+"; color: var(--muted); font-size: 1.375rem; line-height: 1; }
+  .faq details[open] summary::after { content: "\2212"; }
+  .faq details p { color: var(--muted); margin-top: 0.625rem; }
+
   .sitefoot { margin-top: 6rem; border-top: 1px solid var(--rule); padding: 2.5rem 0 3rem; color: var(--muted); font-size: 0.875rem; line-height: 1.55; }
   .sitefoot .wrap { display: grid; grid-template-columns: 14rem 1fr auto; gap: 3rem; }
   .sitefoot b { color: var(--ink); font-size: 1.375rem; font-weight: 800; font-variation-settings: "wdth" 70; }
@@ -318,12 +342,14 @@ button { font: inherit; color: inherit; cursor: pointer; }
 }
 @media (min-width: 64rem) and (max-width: 80rem) and (display-mode: browser) {
   .wrap { padding-inline: 1.75rem; }
-  .wmain { grid-template-columns: minmax(0, 1fr) 18rem; gap: 1.75rem; }
+  .wmain { grid-template-columns: minmax(0, 1fr) 17.5rem; gap: 2rem; }
   .wtabs { margin-left: 0; }
   .wnav .live { display: none; }
+  .home-hero { gap: 2.5rem; }
   .feats { grid-template-columns: repeat(2, 1fr); }
   .steps { grid-template-columns: repeat(3, 1fr); }
   .step:nth-child(3)::after { display: none; }
+  .now { grid-template-columns: 1fr; }
 }
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(47, 191, 113, 0.55); }
@@ -654,17 +680,18 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
 </div>
 </div>
 
-<!-- desktop website (hidden on phones and in the installed app) -->
+<!-- desktop website: Home, News, Deadlines, Trends and About pages (hidden on phones and in the installed app) -->
 <div class="web" id="web">
   <header class="wnav">
     <div class="wrap wnav-in">
-      <button class="wlogo" id="web-home" title="Back to the top">Intel<span>60</span></button>
+      <a class="wlogo" href="#/" aria-label="Intel60 home">Intel<span>60</span></a>
       <span class="live"><i aria-hidden="true"></i><span id="live-updated">Live</span></span>
-      <nav class="wtabs" aria-label="Sections">
-        <button data-view="feed" aria-current="page">Feed</button>
-        <button data-view="deadlines">Deadlines<span class="count" id="wdl-count" hidden></span></button>
-        <button data-view="trends">Trends</button>
-        <a href="#about">About</a>
+      <nav class="wtabs" aria-label="Pages">
+        <a href="#/" data-route="home">Home</a>
+        <a href="#/news" data-route="news">News</a>
+        <a href="#/deadlines" data-route="deadlines">Deadlines<span class="count" id="wdl-count" hidden></span></a>
+        <a href="#/trends" data-route="trends">Trends</a>
+        <a href="#/about" data-route="about">About</a>
       </nav>
       <label class="wsearch">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
@@ -675,104 +702,174 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
     </div>
   </header>
 
-  <div class="whero-band">
-    <section class="wrap whero">
-      <div>
-        <p class="kicker">Cybersecurity news, every 30 minutes</p>
-        <h1 style="margin-top:1rem">Security news, <em>in 60&nbsp;words.</em></h1>
-        <p class="lede">Intel60 reads <b>8 trusted security outlets and CISA</b> and turns every story into a <b>severity-rated, 60-word brief</b> with CVE scores, exploit odds and patch deadlines. Built for SOC analysts and anyone who needs to stay ahead.</p>
+  <!-- Home -->
+  <div class="wpage" data-route="home">
+    <div class="whero-band">
+      <section class="wrap home-hero">
+        <div>
+          <p class="kicker">Cybersecurity news, every 30 minutes</p>
+          <h1>Security news, <em>in 60&nbsp;words.</em></h1>
+          <p class="lede">Intel60 reads <b>8 trusted security outlets and CISA</b> and turns every story into a <b>severity-rated, 60-word brief</b> with CVE scores, exploit odds and patch deadlines. Built for SOC analysts and anyone who needs to stay ahead.</p>
+          <div class="hero-ctas">
+            <a class="btn primary big" href="#/news">Read today's briefs &rarr;</a>
+            <a class="btn big" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join">Get alerts on Telegram</a>
+          </div>
+        </div>
+        <div class="hstats" id="hero-stats"></div>
+      </section>
+    </div>
+
+    <section class="wrap sec reveal" aria-labelledby="now-title">
+      <div class="sec-head">
+        <div><p class="kicker">Right now</p><h2 id="now-title">The story to know</h2></div>
+        <p><a href="#/news">See all of today's news &rarr;</a></p>
       </div>
-      <div class="hstats" id="hero-stats"></div>
+      <div class="now" id="home-now"></div>
+    </section>
+
+    <section class="wrap sec reveal" aria-labelledby="feat-title">
+      <div class="sec-head">
+        <div><p class="kicker">What it does</p><h2 id="feat-title">Built for how defenders read</h2></div>
+        <p>No sign-up, no ads, no paywall. Your watchlist and settings stay in your browser.</p>
+      </div>
+      <div class="feats">
+        <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17.5v.01"/></svg></span>
+          <h3>Severity first</h3><p>Every story is rated Critical, High or Info with a threat meter, so priorities are clear at a glance.</p></div>
+        <div class="feat" style="--c:var(--high)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span>
+          <h3>CVE context</h3><p>CVSS from NVD, exploit probability from FIRST EPSS, and an Exploited tag for bugs on CISA's KEV list.</p></div>
+        <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="12" height="13" rx="2"/><path d="M8 4h11a2 2 0 0 1 2 2v11"/></svg></span>
+          <h3>Duplicates merged</h3><p>When five outlets cover the same breach, you get one card that links to all of them.</p></div>
+        <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg></span>
+          <h3>Patch deadlines</h3><p>A countdown for every vulnerability CISA confirms attackers are exploiting.</p></div>
+        <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
+          <h3>Trends</h3><p>The week at a glance: the busiest days, the most-hit vendors and the most-covered stories.</p></div>
+        <div class="feat" style="--c:var(--high)"><span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></span>
+          <h3>My watchlist</h3><p>Add the vendors you run. Matching stories get a &#9733; and their own filter.</p></div>
+        <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M9 10h6"/></svg></span>
+          <h3>Explain mode</h3><p>Click a dotted term like RCE or KEV for a plain-English definition.</p></div>
+        <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></span>
+          <h3>Search and alerts</h3><p>Search by vendor, CVE or keyword. Critical stories reach Telegram the moment they break.</p></div>
+      </div>
+    </section>
+
+    <section class="wrap sec reveal" aria-labelledby="how-title">
+      <div class="sec-head">
+        <div><p class="kicker">How it works</p><h2 id="how-title">From headline to brief in about a minute</h2></div>
+        <p>A fully automated pipeline runs every 30 minutes. <a href="#/about">More about how it works &rarr;</a></p>
+      </div>
+      <div class="steps">
+        <div class="step"><h3>Collect</h3><p>8 security outlets and CISA's Known Exploited Vulnerabilities catalog.</p></div>
+        <div class="step"><h3>Filter</h3><p>Drops stories already seen, older than 48 hours, ads and webinars.</p></div>
+        <div class="step"><h3>Summarize</h3><p>Claude writes the headline and 60-word brief, rates severity and merges duplicate coverage.</p></div>
+        <div class="step"><h3>Enrich</h3><p>Each CVE gets its CVSS score (NVD), exploit probability (FIRST EPSS) and KEV status.</p></div>
+        <div class="step"><h3>Publish</h3><p>Cards go live here, and critical stories go out to Telegram.</p></div>
+      </div>
+    </section>
+
+    <section class="wrap sec reveal">
+      <div class="cta">
+        <div>
+          <p class="kicker">Stay ahead</p>
+          <h2>Five minutes a day. Zero noise.</h2>
+          <p>Read it here, get critical alerts on your phone, or install Intel60 like an app. All free, with no account.</p>
+        </div>
+        <div class="cta-list">
+          <a class="cta-item" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join"><span class="ico" aria-hidden="true">&#128276;</span><span><b>Critical alerts on Telegram</b><span>Join t.me/intel60news</span></span></a>
+          <div class="cta-item"><span class="ico" aria-hidden="true">&#128241;</span><span><b>Install it on your phone</b><span>Open intel60.app, then Add to Home Screen (iPhone) or Install app (Android)</span></span></div>
+          <button class="cta-item" data-action="watchlist"><span class="ico" aria-hidden="true">&#9733;</span><span><b>Set up My watchlist</b><span>Only the vendors you run</span></span></button>
+        </div>
+      </div>
     </section>
   </div>
 
-  <div class="wzone">  <!-- the filter bar stays pinned only while the news is on screen -->
-  <div class="wbar" id="wbar">
-    <div class="wrap wbar-in">
-      <nav class="wchips" id="web-filters" aria-label="Filter stories"></nav>
-      <div class="wdates">
-        <select id="web-date" aria-label="Date range">
-          <option value="any">Any time</option>
-          <option value="today">Today</option>
-          <option value="3d">Last 3 days</option>
-          <option value="7d">Last 7 days</option>
-          <option value="" hidden>Custom date</option>
-        </select>
-        <input type="date" id="web-date-pick" aria-label="Pick a date">
+  <!-- News -->
+  <div class="wpage" data-route="news" hidden>
+    <div class="wrap phead">
+      <div class="phead-row">
+        <div><p class="kicker">News</p><h1>Every story, in 60 words</h1><p id="news-sub"></p></div>
+        <div class="wdays" id="web-days" role="group" aria-label="Choose a day"></div>
       </div>
+    </div>
+    <div class="wbar" id="wbar"><div class="wrap wbar-in"><nav class="wchips" id="web-filters" aria-label="Filter stories"></nav></div></div>
+    <div class="wrap wmain" id="web-main">
+      <main id="web-content"><div id="web-feed"></div></main>
+      <aside class="wrail" id="web-rail" aria-label="At a glance"></aside>
     </div>
   </div>
 
-  <div class="wrap wmain" id="web-main">
-    <main class="wcontent" id="web-content">
-      <div id="web-feed"></div>
-    </main>
-    <aside class="wrail" id="web-rail" aria-label="At a glance"></aside>
+  <!-- Deadlines -->
+  <div class="wpage" data-route="deadlines" hidden>
+    <div class="wrap narrow phead">
+      <p class="kicker">Patch deadlines</p>
+      <h1>Exploited bugs, on the clock</h1>
+      <p>Vulnerabilities CISA confirmed attackers are exploiting in the last 30 days, with the US federal patch deadline. If the date has passed and you haven't patched, you're behind. Click one to read Intel60's story.</p>
+    </div>
+    <div class="wrap narrow" id="web-deadlines"></div>
   </div>
+
+  <!-- Trends -->
+  <div class="wpage" data-route="trends" hidden>
+    <div class="wrap narrow phead">
+      <p class="kicker">Trends</p>
+      <h1>The week at a glance</h1>
+      <p>The last 7 days of security news. Click a vendor or category to see its stories.</p>
+    </div>
+    <div class="wrap narrow" id="web-trends"></div>
   </div>
 
-  <div id="about">
-  <section class="sec wrap reveal" aria-labelledby="feat-title">
-    <div class="sec-head">
-      <div><p class="kicker">Features</p><h2 id="feat-title">Built for how defenders read</h2></div>
-      <p>No sign-up, no ads, no paywall. Your watchlist and settings stay on your device.</p>
+  <!-- About -->
+  <div class="wpage" data-route="about" hidden>
+    <div class="wrap narrow phead">
+      <p class="kicker">About</p>
+      <h1>Why Intel60 exists</h1>
     </div>
-    <div class="feats">
-      <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17.5v.01"/></svg></span>
-        <h3>Severity first</h3><p>Every story is rated Critical, High or Info with a threat meter, so priorities are clear at a glance.</p></div>
-      <div class="feat" style="--c:var(--high)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span>
-        <h3>CVE context</h3><p>CVSS from NVD, exploit probability from FIRST EPSS, and an Exploited tag for bugs on CISA's KEV list.</p></div>
-      <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="12" height="13" rx="2"/><path d="M8 4h11a2 2 0 0 1 2 2v11"/></svg></span>
-        <h3>Duplicates merged</h3><p>When five outlets cover the same breach, you get one card that links to all of them.</p></div>
-      <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg></span>
-        <h3>Patch deadlines</h3><p>A countdown for every vulnerability CISA confirms attackers are exploiting.</p></div>
-      <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
-        <h3>Trends</h3><p>The week at a glance: the busiest days, the most-hit vendors and the most-covered stories.</p></div>
-      <div class="feat" style="--c:var(--high)"><span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></span>
-        <h3>My watchlist</h3><p>Add the vendors you run. Matching stories get a &#9733; and their own filter, stored only on your device.</p></div>
-      <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M9 10h6"/></svg></span>
-        <h3>Explain mode</h3><p>Click a dotted term like RCE or KEV for a plain-English definition.</p></div>
-      <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></span>
-        <h3>Search and alerts</h3><p>Search by vendor, CVE or keyword. Critical stories reach Telegram the moment they break.</p></div>
-    </div>
-  </section>
+    <div class="wrap narrow prose">
+      <p>Security teams don't lack news. They lack time. Intel60 reads the security press every 30 minutes and turns each story into a 60-word brief: what happened, who's affected and what defenders should do, rated by severity and backed by vulnerability data.</p>
+      <p class="muted">One card per story, even when five outlets cover it. Read the day's news in about five minutes, then get back to work.</p>
 
-  <section class="sec wrap reveal" id="how" aria-labelledby="how-title">
-    <div class="sec-head">
-      <div><p class="kicker">How it works</p><h2 id="how-title">From headline to brief in about a minute</h2></div>
-      <p>A fully automated, serverless pipeline runs every 30 minutes. <a href="workflow.html">See the step-by-step guide &rarr;</a></p>
-    </div>
-    <div class="steps">
-      <div class="step"><h3>Collect</h3><p>8 security outlets and CISA's Known Exploited Vulnerabilities catalog.</p></div>
-      <div class="step"><h3>Filter</h3><p>Drops stories already seen, older than 48 hours, ads and webinars.</p></div>
-      <div class="step"><h3>Summarize</h3><p>Claude writes the headline and 60-word brief, rates severity and merges duplicate coverage.</p></div>
-      <div class="step"><h3>Enrich</h3><p>Each CVE gets its CVSS score (NVD), exploit probability (FIRST EPSS) and KEV status.</p></div>
-      <div class="step"><h3>Publish</h3><p>Cards go live here, and critical stories go out to Telegram.</p></div>
-    </div>
-  </section>
+      <h2>Where the news comes from</h2>
+      <div class="srcs"><span>BleepingComputer</span><span>The Hacker News</span><span>SecurityWeek</span><span>Krebs on Security</span><span>Dark Reading</span><span>The Record</span><span>CyberScoop</span><span>SANS ISC</span><span>CISA KEV catalog</span></div>
+      <p class="muted" style="margin-top:1rem">Vulnerability scores come from NVD (CVSS) and FIRST (EPSS). Every card links to the original article.</p>
 
-  <section class="sec wrap reveal">
-    <div class="cta">
-      <div>
-        <p class="kicker">Stay ahead</p>
-        <h2>Five minutes a day. Zero noise.</h2>
-        <p>Read it here, get critical alerts on your phone, or install Intel60 like an app. All free, with no account.</p>
+      <h2>How severity is rated</h2>
+      <ul class="sev-list">
+        <li style="--c:var(--critical)"><b>Critical:</b> exploitation in the wild or a CISA KEV addition in widely used products; unauthenticated remote code execution or CVSS 9.0+ in enterprise software and edge devices; breaches or ransomware with major real-world impact.</li>
+        <li style="--c:var(--high)"><b>High:</b> serious vulnerabilities without known exploitation, notable breaches, and major new malware or threat-actor campaigns.</li>
+        <li style="--c:var(--info)"><b>Info:</b> research, analysis, arrests and sentencing, policy and regulation, and industry news.</li>
+      </ul>
+
+      <h2>How it works</h2>
+      <ol>
+        <li>Every 30 minutes, an automated run checks 8 security outlets and CISA's Known Exploited Vulnerabilities catalog.</li>
+        <li>It skips stories it has already seen, anything older than 48 hours, and ads or webinars.</li>
+        <li>Claude (Anthropic's AI model) writes each headline and 60-word summary, rates severity, assigns a category and merges duplicate coverage.</li>
+        <li>Each CVE gets its CVSS score, its exploit probability and its KEV status.</li>
+        <li>The cards are published here, and critical stories are sent to Telegram.</li>
+      </ol>
+      <p style="margin-top:1rem"><a href="workflow.html">See the step-by-step visual guide &rarr;</a></p>
+
+      <h2>Privacy</h2>
+      <p>No accounts, no cookies and no ads. Visits are counted anonymously with GoatCounter. Your watchlist and settings are saved only in your own browser and never sent anywhere.</p>
+
+      <h2>Questions</h2>
+      <div class="faq">
+        <details><summary>Is Intel60 free?</summary><p>Yes. There's no sign-up, no paywall and no ads.</p></details>
+        <details><summary>How often is it updated?</summary><p>Every 30 minutes, around the clock. The "Live" marker at the top shows when the last update ran.</p></details>
+        <details><summary>Can I trust AI-written summaries?</summary><p>They're a fast way to triage, not a replacement for the source. Every card links to the original reporting, and CVE scores come straight from NVD, FIRST and CISA, not from the AI. Check the original before acting.</p></details>
+        <details><summary>How do I get alerts?</summary><p>Join the Telegram channel at t.me/intel60news. Critical stories arrive as they break, plus a morning brief at 7 AM Eastern.</p></details>
+        <details><summary>Can I use it on my phone?</summary><p>Yes. Open intel60.app on your phone for the swipeable card app, then choose Add to Home Screen (iPhone) or Install app (Android).</p></details>
       </div>
-      <div class="cta-list">
-        <a class="cta-item" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join"><span class="ico" aria-hidden="true">&#128276;</span><span><b>Critical alerts on Telegram</b><span>Join t.me/intel60news</span></span></a>
-        <div class="cta-item"><span class="ico" aria-hidden="true">&#128241;</span><span><b>Install it on your phone</b><span>Open intel60.app, then Add to Home Screen (iPhone) or Install app (Android)</span></span></div>
-        <button class="cta-item" data-action="watchlist"><span class="ico" aria-hidden="true">&#9733;</span><span><b>Set up My watchlist</b><span>Only the vendors you run</span></span></button>
-      </div>
-    </div>
-  </section>
 
+      <h2>Who built it</h2>
+      <p>Intel60 is built and run by Kushal Mankar, a cybersecurity student focused on security operations. It's open source: <a href="https://github.com/HammerTime19/intel60" target="_blank" rel="noopener">see the code on GitHub</a>.</p>
+    </div>
   </div>
 
   <footer class="sitefoot">
     <div class="wrap">
       <div><b>Intel60</b><p>Security news in 60 words.</p></div>
       <p>Sources: BleepingComputer, The Hacker News, SecurityWeek, Krebs on Security, Dark Reading, The Record, CyberScoop, SANS ISC and the CISA KEV catalog. Summaries are written by AI; always check the original story before acting.</p>
-      <p>Built by Kushal Mankar<br><a href="https://github.com/HammerTime19/intel60" target="_blank" rel="noopener">Open source on GitHub</a><br><a href="workflow.html">How it works</a><br>No cookies, no sign-up</p>
+      <p>Built by Kushal Mankar<br><a href="https://github.com/HammerTime19/intel60" target="_blank" rel="noopener">Open source on GitHub</a><br><a href="#/about">About Intel60</a><br>No cookies, no sign-up</p>
     </div>
   </footer>
 </div>
@@ -1338,10 +1435,13 @@ function renderTrends() {
       `<button class="dl" data-open-card="${esc(c.id)}" style="grid-template-columns:3.25rem 1fr"><span class="pill soon"><b>${outlets(c)}</b>outlets</span><span><span class="what">${esc(c.headline)}</span><span class="name" style="display:block">${esc(c.source)}${(c.also || []).length ? `, ${esc(c.also.map((a) => a.source).join(", "))}` : ""}</span></span></button>`).join("")}</div>` : ""}`;
 }
 
-// ---------- desktop website (same data, filters and search as the phone app) ----------
+// ---------- desktop website: Home, News, Deadlines, Trends and About pages (same data, filters and search as the phone app) ----------
 
-const WEB_PAGE = 30;  // cards shown before "Show more"
+const WEB_PAGE = 12;  // stories shown before "Show more"
+const PAGES = ["home", "news", "deadlines", "trends", "about"];
 let webLimit = WEB_PAGE;
+let webPage = "";
+let dayChosen = false;  // News opens on today (or the latest day with stories) until the reader picks a day
 
 function weekStats() {
   const week = data.cards.filter((c) => new Date(c.published) >= Date.now() - 7 * DAY);
@@ -1359,6 +1459,9 @@ function topVendors(list, n) {
   }).filter(([, k]) => k > 0).sort((a, b) => b[1] - a[1]).slice(0, n);
 }
 
+const isoDay = (key) => key.split("-").map((n, i) => (i ? n.padStart(2, "0") : n)).join("-");  // "2026-10-5" -> "2026-10-05"
+const todayKey = () => dayKey(new Date().toISOString());
+
 function webCardHTML(c, lead) {
   const level = SEV_LEVEL[c.severity] || 1;
   const meter = `<span class="meter" aria-hidden="true">${[1, 2, 3].map((n) => `<i${n <= level ? ' class="on"' : ""}></i>`).join("")}</span>`;
@@ -1369,8 +1472,7 @@ function webCardHTML(c, lead) {
     ...(c.cves || []).map((v) => cveHTML(v, (c.cve_info || {})[v] || {})),
   ].join("");
   const also = (c.also || []).map((a) => `<a href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(", ");
-  return `<article class="scard${lead ? " lead" : ""}" id="w-${esc(c.id)}" data-sev="${esc(c.severity)}">
-    ${lead ? '<p class="kicker lead-kicker">Top story</p>' : ""}
+  return `<article class="scard${lead ? " lead" : ""}"${lead ? "" : ` id="w-${esc(c.id)}"`} data-sev="${esc(c.severity)}">
     <div class="meta">
       ${lastSeen && c.added > lastSeen ? '<span class="new">New</span>' : ""}
       <span class="sevtag">${esc(SEV_LABEL[c.severity] || "Info")}</span>
@@ -1392,16 +1494,39 @@ function webCardHTML(c, lead) {
 
 function renderWeb() {
   if (!SITE.matches) return;
+  if (!dayChosen && data.cards.length) {
+    dayChosen = true;
+    const latest = data.cards.reduce((m, c) => (c.published > m ? c.published : m), "");
+    if (!query && dateRange === "any") dateRange = data.cards.some((c) => dayKey(c.published) === todayKey()) ? "today" : `date:${isoDay(dayKey(latest))}`;
+  }
+
+  // day picker: the last 7 days that have stories, newest first, plus All
+  const counts = {};
+  for (const c of chipCards()) counts[dayKey(c.published)] = (counts[dayKey(c.published)] || 0) + 1;
+  const keys = Object.keys(counts).sort((a, b) => isoDay(b).localeCompare(isoDay(a))).slice(0, 7);
+  const dayValue = (key) => (key === todayKey() ? "today" : `date:${isoDay(key)}`);
+  const short = (key) => {
+    const label = dayLabel(key);
+    return label === "Today" || label === "Yesterday" ? label : new Date(isoDay(key) + "T12:00").toLocaleDateString(undefined, { weekday: "short", day: "numeric" });
+  };
+  $("web-days").innerHTML = keys.map((key) =>
+    `<button data-day="${esc(dayValue(key))}" aria-pressed="${dateRange === dayValue(key)}">${esc(short(key))}<small>${counts[key]}</small></button>`).join("")
+    + `<button data-day="any" aria-pressed="${dateRange === "any"}">All<small>${chipCards().length}</small></button>`;
+
   const vendorChip = filter.startsWith("vendor:")
     ? `<button data-filter="all" aria-pressed="true" aria-label="Clear vendor filter">${esc(filter.slice(7))} &#10005;</button>` : "";
-  $("web-filters").innerHTML = vendorChip + FILTERS.map(([key, label]) =>
+  $("web-filters").innerHTML = vendorChip + FILTERS.filter(([key]) => key !== "today" && key !== "yesterday").map(([key, label]) =>
     `<button data-filter="${esc(key)}" aria-pressed="${key === filter}">${esc(label)}</button>`
     + (key === "mine" && filter === "mine" ? '<button data-action="watchlist" aria-label="Edit my watchlist">&#9998; Edit</button>' : "")).join("");
-  $("web-date").value = dateRange.startsWith("date:") ? "" : dateRange;
-  $("web-date-pick").value = dateRange.startsWith("date:") ? dateRange.slice(5) : "";
   if ($("web-search").value.trim() !== query) $("web-search").value = query;
 
   const list = visibleCards();
+  const when = dateRange === "any" ? "the last two weeks" : dateRange === "today" ? "today"
+    : dateRange.startsWith("date:") ? dayLabel(dayKey(`${dateRange.slice(5)}T12:00`)) : "this period";
+  $("news-sub").textContent = query
+    ? `${list.length} ${list.length === 1 ? "story matches" : "stories match"} “${query}” from ${when === "today" ? "today" : when}.`
+    : `${list.length} ${list.length === 1 ? "story" : "stories"} from ${when}, newest first. Pick a day, or filter by severity and topic.`;
+
   const box = $("web-feed");
   if (!data.cards.length) {
     box.innerHTML = emptyHTML("Loading stories", "One moment.", "");
@@ -1410,54 +1535,59 @@ function renderWeb() {
       '<button data-action="watchlist">Set up my watchlist</button>');
   } else if (!list.length) {
     box.innerHTML = emptyHTML("No stories match",
-      query ? `Nothing from the last two weeks matches “${query}” with these filters.` : "Nothing in this filter or date range right now.",
-      query || dateRange !== "any" ? '<button data-action="clear-search">Clear search</button>' : '<button data-filter="all">Show all stories</button>');
+      query ? `Nothing matches “${query}” with these filters.` : "Nothing in this filter for this day. Try another day or All.",
+      query ? '<button data-action="clear-search">Clear search</button>' : '<button data-day="any">Show all days</button>');
   } else {
-    // the newest critical story from the last day leads the unfiltered feed
-    const plain = filter === "all" && !query && dateRange === "any";
-    const lead = plain ? list.find((c) => c.severity === "critical" && Date.now() - new Date(c.published) < DAY) : null;
-    const rest = list.filter((c) => c !== lead);
-    const shown = rest.slice(0, webLimit);
-    const counts = {};
-    for (const c of rest) counts[dayKey(c.published)] = (counts[dayKey(c.published)] || 0) + 1;
-    let html = lead ? webCardHTML(lead, true) : "";
-    if (filter === "trending") html += '<div class="wday"><h2>Trending this week</h2><span>Ranked by how many outlets covered each story</span></div>';
-    let prev = null;
+    const shown = list.slice(0, webLimit);
+    const perDay = {};
+    for (const c of list) perDay[dayKey(c.published)] = (perDay[dayKey(c.published)] || 0) + 1;
+    const grouped = dateRange === "any" && filter !== "trending";  // headings only when several days are mixed
+    let html = "", prev = null;
     for (const c of shown) {
       const key = dayKey(c.published);
-      if (filter !== "trending" && key !== prev) {
-        html += `<div class="wday"><h2>${esc(dayLabel(key))}</h2><span>${counts[key]} ${counts[key] === 1 ? "story" : "stories"}</span></div>`;
+      if (grouped && key !== prev) {
+        html += `<div class="wday"><h2>${esc(dayLabel(key))}</h2><span>${perDay[key]} ${perDay[key] === 1 ? "story" : "stories"}</span></div>`;
         prev = key;
       }
       html += webCardHTML(c, false);
     }
-    const left = rest.length - shown.length;
+    const left = list.length - shown.length;
     if (left > 0) html += `<button class="btn more" data-action="web-more">Show ${Math.min(WEB_PAGE, left)} more &middot; ${left} left</button>`;
     box.innerHTML = `<div class="wgrid">${html}</div>`;
   }
   renderRail();
 }
 
-function renderRail() {
+function renderHome() {
   if (!SITE.matches || !data.cards.length) return;
-  const { week, crit, exploited } = weekStats();
-  const today = data.cards.filter((c) => dayKey(c.published) === dayKey(new Date().toISOString()));
+  const { exploited } = weekStats();
+  const today = data.cards.filter((c) => dayKey(c.published) === todayKey());
   $("hero-stats").innerHTML = `
-    <div class="hstat"><b>${today.length}</b><span>stories today</span></div>
+    <div class="hstat"><b>${today.length}</b><span>stories so far today, 60 words each</span></div>
     <div class="hstat hot"><b>${today.filter((c) => c.severity === "critical").length}</b><span>rated critical today</span></div>
-    <div class="hstat hot"><b>${deadlines ? exploited : "&ndash;"}</b><span>newly exploited bugs this week (CISA)</span></div>`;
+    <div class="hstat hot"><b>${deadlines ? exploited : "&ndash;"}</b><span>newly exploited bugs this week, confirmed by CISA</span></div>`;
+  const recent = data.cards.filter((c) => Date.now() - new Date(c.published) < 2 * DAY);
+  const lead = recent.find((c) => c.severity === "critical") || data.cards[0];
+  const next = data.cards.filter((c) => c !== lead && c.severity !== "info").slice(0, 5);
+  $("home-now").innerHTML = webCardHTML(lead, true) + `<div class="rbox"><h3>Also new <a href="#/news">All news &rarr;</a></h3>${next.map((c) =>
+    `<button class="rrow" data-open-card="${esc(c.id)}"><span class="pill${c.severity === "critical" ? " soon" : " today"}"><b>${c.severity === "critical" ? "!" : "&bull;"}</b>${esc(SEV_LABEL[c.severity])}</span><span><b>${esc(c.headline)}</b><small>${esc(c.source)} &middot; ${esc(ago(c.published))}</small></span></button>`).join("")}</div>`;
+}
 
+function renderRail() {
+  renderHome();
+  if (!SITE.matches || !data.cards.length) return;
+  const { week, crit } = weekStats();
   const boxes = [];
-  if (deadlines && view !== "deadlines") {  // the Deadlines page already lists them
+  if (deadlines) {
     const open = deadlines.items.filter((x) => daysUntil(x.due) >= 0).sort((a, b) => a.due.localeCompare(b.due)).slice(0, 4);
-    if (open.length) boxes.push(`<div class="rbox"><h3>Patch deadlines <button data-view="deadlines">See all &rarr;</button></h3>${open.map((x) => {
+    if (open.length) boxes.push(`<div class="rbox"><h3>Patch deadlines <a href="#/deadlines">See all &rarr;</a></h3>${open.map((x) => {
       const d = daysUntil(x.due);
       const pill = d === 0 ? '<span class="pill today"><b>Due</b>today</span>' : `<span class="pill soon"><b>${d}</b>${d === 1 ? "day" : "days"}</span>`;
       return `<button class="rrow" data-deadline="${esc(x.cve)}">${pill}<span><b>${esc(x.vendor)} ${esc(x.product)}</b><small>${esc(x.cve)}</small></span></button>`;
     }).join("")}</div>`);
   }
   const covered = trendingCards().slice(0, 4);
-  if (covered.length) boxes.push(`<div class="rbox"><h3>Most covered <button data-filter="trending">See all &rarr;</button></h3>${covered.map((c) =>
+  if (covered.length) boxes.push(`<div class="rbox"><h3>Most covered this week <button data-filter="trending">See all &rarr;</button></h3>${covered.map((c) =>
     `<button class="rrow" data-open-card="${esc(c.id)}"><span class="pill soon"><b>${outlets(c)}</b>outlets</span><span><b>${esc(c.headline)}</b></span></button>`).join("")}</div>`);
   const vendors = topVendors(week, 6);
   const maxV = Math.max(1, ...vendors.map(([, n]) => n));
@@ -1472,14 +1602,32 @@ function renderRail() {
   $("web-rail").innerHTML = boxes.join("");
 }
 
-// Deadlines and Trends live inside the website's main column on desktop, and in the app on phones
+// shows one page of the website; the address (#/news, #/about ...) is set by links, so Back works
+function setPage(p) {
+  if (!PAGES.includes(p)) p = "home";
+  const changed = p !== webPage;
+  webPage = p;
+  document.querySelectorAll(".wpage").forEach((el) => { el.hidden = el.dataset.route !== p; });
+  document.querySelectorAll(".wtabs [data-route]").forEach((a) => {
+    if (a.dataset.route === p) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+  });
+  showView(p === "deadlines" || p === "trends" ? p : "feed");
+  document.title = p === "home" ? "Intel60: security news in 60 words" : `${p[0].toUpperCase()}${p.slice(1)} · Intel60`;
+  if (changed) window.scrollTo(0, 0);
+}
+function goPage(p) {  // for clicks that aren't links: record the page in history, then show it
+  if (webPage === p) return;
+  try { history.pushState(null, "", `#/${p === "home" ? "" : p}`); } catch {}
+  setPage(p);
+}
+
+// Deadlines and Trends live in their own pages on desktop, and inside the app on phones
 function placeViews() {
-  const views = [$("view-deadlines"), $("view-trends")];
-  if (SITE.matches) $("web-content").append(...views);
-  else document.querySelector(".app .tabs").before(...views);
+  if (SITE.matches) { $("web-deadlines").append($("view-deadlines")); $("web-trends").append($("view-trends")); }
+  else document.querySelector(".app .tabs").before($("view-deadlines"), $("view-trends"));
 }
 placeViews();
-SITE.addEventListener?.("change", () => { placeViews(); renderWeb(); fitAll(); });
+SITE.addEventListener?.("change", () => { placeViews(); if (SITE.matches) jumpToHash(); renderWeb(); fitAll(); });
 
 // sections fade in as they scroll into view (skipped when the reader prefers less motion)
 if (SITE.matches && !matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window) {
@@ -1497,12 +1645,6 @@ function showView(v) {
   document.querySelectorAll("[data-view]").forEach((b) => b.toggleAttribute("aria-current", b.dataset.view === v));
   document.querySelectorAll("[data-view][aria-current]").forEach((b) => b.setAttribute("aria-current", "page"));
   feed.hidden = v !== "feed";
-  $("web-feed").hidden = v !== "feed";
-  $("wbar").hidden = v !== "feed";
-  if (SITE.matches) {  // keep the newly opened page in view below the navigation
-    const top = $("web-main").getBoundingClientRect().top + scrollY - 72;
-    if (scrollY > top) window.scrollTo({ top });
-  }
   $("filters").hidden = v !== "feed";
   $("view-deadlines").hidden = v !== "deadlines";
   $("view-trends").hidden = v !== "trends";
@@ -1514,6 +1656,12 @@ function showView(v) {
 }
 
 function openCard(id) {
+  if (SITE.matches) {
+    if (!visibleCards().some((c) => c.id === id)) { filter = "all"; query = ""; dateRange = "any"; dayChosen = true; renderFilters(); renderFeed(); }
+    goPage("news");
+    scrollToCard(id);
+    return;
+  }
   showView("feed");
   if (!document.getElementById(id)) { filter = "all"; renderFilters(); renderFeed(); }
   scrollToCard(id);
@@ -1551,7 +1699,13 @@ function syncDateButtons() {
 
 function jumpToHash() {
   const id = decodeURIComponent(location.hash.slice(1));
+  if (id.startsWith("/") || (!id && SITE.matches)) {  // a website page (#/news ...), not a story
+    if (SITE.matches) setPage(id.slice(1) || "home");
+    else if (id) try { history.replaceState(null, "", location.pathname + location.search); } catch {}
+    return;
+  }
   if (!id) return;
+  if (SITE.matches) { openCard(id); try { history.replaceState(null, "", "#/news"); } catch {} return; }
   if (view !== "feed") showView("feed");
   if (!document.getElementById(id) && filter !== "all") { filter = "all"; renderFilters(); renderFeed(); }
   scrollToCard(id);
@@ -1668,6 +1822,8 @@ document.addEventListener("click", (e) => {
   if (tracked) track(tracked.dataset.track);
   const page = e.target.closest("[data-page]");
   if (page) { feed.scrollBy({ top: Number(page.dataset.page) * feed.clientHeight }); return; }
+  const day = e.target.closest("[data-day]");
+  if (day) { dayChosen = true; dateRange = day.dataset.day; syncDateButtons(); renderFeed(); return; }
   const dateBtn = e.target.closest("[data-date]");
   if (dateBtn) { dateRange = dateBtn.dataset.date; $("date-pick").value = ""; syncDateButtons(); renderFeed(); return; }
   const cov = e.target.closest("[data-open-card]");
@@ -1682,7 +1838,11 @@ document.addEventListener("click", (e) => {
     return;
   }
   const vend = e.target.closest("[data-vendor]");
-  if (vend) { filter = `vendor:${vend.dataset.vendor}`; showView("feed"); renderFilters(); renderFeed(); return; }
+  if (vend) {
+    filter = `vendor:${vend.dataset.vendor}`;
+    if (SITE.matches) { dateRange = "any"; dayChosen = true; goPage("news"); }
+    showView("feed"); renderFilters(); renderFeed(); return;
+  }
   const term = e.target.closest("[data-term]");
   if (term && !(term.classList.contains("term") && document.body.classList.contains("no-explain"))) { showTerm(term.dataset.term); return; }
   const f = e.target.closest("[data-filter]");
@@ -1695,6 +1855,10 @@ document.addEventListener("click", (e) => {
       return;
     }
     filter = next;
+    if (SITE.matches) {  // trending, the watchlist and links from other pages look across all days
+      if (next === "trending" || next === "mine" || !f.closest("#web-filters")) { dateRange = "any"; dayChosen = true; }
+      goPage("news");
+    }
     if (view !== "feed") showView("feed");
     renderFilters();
     renderFeed();
@@ -1746,16 +1910,14 @@ $("date-pick").addEventListener("change", (e) => {
 $("watch-input").addEventListener("input", renderWatchChips);
 $("web-search").addEventListener("input", (e) => {
   clearTimeout(searchTimer);
-  searchTimer = setTimeout(() => { query = e.target.value.trim(); if (view !== "feed") showView("feed"); renderFeed(); }, 150);
+  searchTimer = setTimeout(() => {
+    query = e.target.value.trim();
+    if (query) { dateRange = "any"; dayChosen = true; }
+    goPage("news");
+    renderFeed();
+  }, 150);
 });
 $("web-search").addEventListener("keydown", (e) => { if (e.key === "Escape") { e.target.value = ""; clearSearch(); e.target.blur(); } });
-$("web-date").addEventListener("change", (e) => { dateRange = e.target.value || "any"; $("date-pick").value = ""; syncDateButtons(); renderFeed(); });
-$("web-date-pick").addEventListener("change", (e) => {
-  dateRange = e.target.value ? `date:${e.target.value}` : "any";
-  syncDateButtons();
-  renderFeed();
-});
-$("web-home").addEventListener("click", () => { showView("feed"); window.scrollTo({ top: 0, behavior: "smooth" }); });
 $("telegram-link").addEventListener("click", () => track("telegram-join"));
 $("welcome").addEventListener("close", () => { try { localStorage.setItem(WELCOMED_KEY, "1"); } catch {} });
 $("brand").addEventListener("click", () => { showView("feed"); feed.scrollTo({ top: 0 }); load(); loadDeadlines(); });
@@ -1789,6 +1951,7 @@ $("explain-toggle").addEventListener("change", (e) => {
 });
 
 renderFilters();
+if (SITE.matches) { const h = decodeURIComponent(location.hash.slice(1)); setPage(h.startsWith("/") ? h.slice(1) : h ? "news" : "home"); }
 load();
 loadDeadlines();
 if (GOATCOUNTER && (location.hostname === "intel60.app" || location.hostname.endsWith("github.io"))) {
