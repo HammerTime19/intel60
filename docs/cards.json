@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T10:30:29Z",
+ "updated": "2026-10-29T11:00:44Z",
  "cards": [
   {
    "id": "196b1e6052",
@@ -69,7 +69,12 @@
    "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
    "published": "2026-10-29T08:24:22Z",
    "added": "2026-10-29T09:00:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/"
+    }
+   ]
   },
   {
    "id": "4c1608edb9",
