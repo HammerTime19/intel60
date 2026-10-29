@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-29T21:30:30Z",
+ "updated": "2026-10-29T22:00:39Z",
  "cards": [
+  {
+   "id": "fe7730fa40",
+   "headline": "Polymarket breach drains $2.5M via compromised third-party service",
+   "summary": "Prediction market platform Polymarket suspended trading after attackers compromised a third-party service to inject cryptocurrency-draining JavaScript. Approximately $2.5 million in assets have been traced to a suspected attacker wallet. The incident highlights third-party supply chain risks. Users should verify account integrity and monitor for unauthorized transactions.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+   "published": "2026-10-29T21:47:25Z",
+   "added": "2026-10-29T22:00:38Z",
+   "also": []
+  },
+  {
+   "id": "cbcc5cbaf6",
+   "headline": "Anthropic-themed phishing bypasses secure email gateways",
+   "summary": "Phishing emails impersonating Anthropic are evading detection by leading secure email gateway (SEG) products, despite containing obvious red flags. The campaign exploits gaps in security tool configurations or signatures. Organizations should review email filtering rules, implement additional sender authentication mechanisms, and conduct phishing awareness training to defend against credential harvesting attempts.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
+   "published": "2026-10-29T21:21:56Z",
+   "added": "2026-10-29T22:00:38Z",
+   "also": []
+  },
   {
    "id": "aacd739692",
    "headline": "GM settles 36-state lawsuit for selling driver data",
