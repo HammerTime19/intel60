@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-29T09:30:41Z",
+ "updated": "2026-10-29T10:00:37Z",
  "cards": [
+  {
+   "id": "196b1e6052",
+   "headline": "AI relay disables OpenAI Codex Claude sandboxes",
+   "summary": "A shadowy service distributes OpenAI Codex and Anthropic Claude tools to mainland China and regions where these products are unavailable, but with critical security features disabled. The relay removes key sandbox protections from AI coding tools before redistribution. This exposes users to unrestricted code execution risks. Organizations should verify AI tool provenance and ensure security controls remain active.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+   "published": "2026-10-29T10:00:00Z",
+   "added": "2026-10-29T10:00:35Z",
+   "also": []
+  },
+  {
+   "id": "77d976efa8",
+   "headline": "Cisco Firewall VPN zero-day CVE-2026-76418 exploited",
+   "summary": "Cisco released patches for an exploited vulnerability in Secure Firewall ASA and FTD software affecting the Remote Access SSL VPN service. CVE-2026-76418 has a CVSS score of 8.6 and allows remote unauthenticated attackers to exploit the flaw. This is the second Cisco firewall zero-day exploited since August. Organizations running vulnerable Firewall ASA and FTD instances should apply patches immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-76418"
+   ],
+   "watch": [
+    "Cisco"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+   "published": "2026-10-29T09:47:10Z",
+   "added": "2026-10-29T10:00:35Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-76418": {
+     "kev": false,
+     "cvss": 8.6,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-29T10:00:36Z"
+  },
   {
    "id": "b3306983de",
    "headline": "iRhythm data breach exposes 8.2 million records",
@@ -3772,47 +3812,6 @@
    "url": "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/",
    "published": "2026-10-15T11:25:58Z",
    "added": "2026-10-15T11:30:38Z",
-   "also": []
-  },
-  {
-   "id": "950d0b7bf2",
-   "headline": "AdFection zero-click spyware distributed via targeted ads",
-   "summary": "Citizen Lab discovered AdFection, zero-click spyware delivered through targeted advertising by Israeli firm Discover-Tech, which facilitates mercenary spyware operations including Candiru. The campaign infected devices at Al Jazeera and appeared on sensitive networks including the U.S. Department of Defense, NATO, and the IAEA. Users are advised to apply security patches and consider ad blocking.",
-   "severity": "critical",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/adfection-zero-click-spyware-discover-tech/",
-   "published": "2026-10-15T10:00:00Z",
-   "added": "2026-10-15T10:30:33Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/"
-    }
-   ]
-  },
-  {
-   "id": "fbda5a8420",
-   "headline": "CenterPoint Energy breach exposes 1 million Texans",
-   "summary": "CenterPoint Energy, a major Texas utility company, suffered a data breach compromising personal information of approximately 1 million customers. Exposed data includes names, addresses, Social Security numbers, and driver's license numbers. The breach status and cause remain under investigation. Affected individuals should monitor financial accounts and consider fraud protection services.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
-   "published": "2026-10-15T09:55:19Z",
-   "added": "2026-10-15T10:00:40Z",
    "also": []
   }
  ]
