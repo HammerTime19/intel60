@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-29T22:00:39Z",
+ "updated": "2026-10-29T22:30:51Z",
  "cards": [
+  {
+   "id": "a6d0e88b74",
+   "headline": "Hugging Face malware campaign hijacks GPUs for crypto mining",
+   "summary": "A crypto-mining campaign targeting Hugging Face models returned shortly after takedown, compromising GPU servers and installing backdoors. One malicious model was downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub targets AI coding agents with NetSupport RAT installation. Organizations should vet open-source models and monitor GPU resource usage for anomalies.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+   "published": "2026-10-29T22:09:24Z",
+   "added": "2026-10-29T22:30:37Z",
+   "also": []
+  },
   {
    "id": "fe7730fa40",
    "headline": "Polymarket breach drains $2.5M via compromised third-party service",
@@ -354,7 +368,12 @@
    "url": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
    "published": "2026-10-28T20:33:00Z",
    "added": "2026-10-28T21:00:37Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/"
+    }
+   ]
   },
   {
    "id": "8937932686",
@@ -1327,7 +1346,7 @@
      "pct": 0.13058
     }
    },
-   "cve_checked": "2026-10-29T16:00:57Z"
+   "cve_checked": "2026-10-29T22:30:51Z"
   },
   {
    "id": "627cc70bbf",
