@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T18:00:37Z",
+ "updated": "2026-10-29T18:30:31Z",
  "cards": [
   {
    "id": "a556f2a132",
@@ -640,7 +640,12 @@
    "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
    "published": "2026-10-28T08:15:07Z",
    "added": "2026-10-28T08:30:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses"
+    }
+   ]
   },
   {
    "id": "f01e6eed43",
@@ -3849,20 +3854,6 @@
    "url": "https://cyberscoop.com/ai-chatbots-election-influence-hyperlocal-networks/",
    "published": "2026-10-15T19:29:58Z",
    "added": "2026-10-15T20:00:36Z",
-   "also": []
-  },
-  {
-   "id": "b14fd86847",
-   "headline": "Hackers hijack D-Link, Ubiquiti devices to resell bandwidth",
-   "summary": "A proxyjacking campaign compromises D-Link and Ubiquiti devices across 34 countries, hijacking victims' internet connections and reselling their bandwidth through a commercial residential proxy network. The attack monetizes stolen connectivity without user knowledge or consent. Organizations should patch affected D-Link and Ubiquiti devices and monitor network traffic for unauthorized proxy activity.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
-   "published": "2026-10-15T18:20:59Z",
-   "added": "2026-10-15T18:30:35Z",
    "also": []
   }
  ]
