@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T20:00:37Z",
+ "updated": "2026-10-29T20:30:10Z",
  "cards": [
   {
    "id": "aacd739692",
@@ -542,6 +542,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge"
     }
    ]
   },
@@ -3858,30 +3862,6 @@
      "url": "https://cyberscoop.com/bae-systems-cybersecurity-incident-us-bankruptcy-courts/"
     }
    ]
-  },
-  {
-   "id": "222e66a510",
-   "headline": "Linux kernel PwnEscape flaw leaks host memory from VMs",
-   "summary": "A critical kernel vulnerability allows guest virtual machines to read memory on the host system. The flaw affects Linux networking code, impacting cloud providers like Vercel who use shared infrastructure. Researchers demonstrated successful exploitation against production sandboxes. Cloud providers should patch immediately as the vulnerability affects the core OS rather than individual deployments.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-99999"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-   "published": "2026-10-15T20:24:36Z",
-   "added": "2026-10-15T21:00:43Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-99999": {
-     "kev": false,
-     "cvss": 9.3,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-15T21:00:43Z"
   }
  ]
 }
