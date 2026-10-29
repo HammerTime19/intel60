@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T20:30:50Z",
+ "updated": "2026-10-29T21:00:32Z",
  "cards": [
   {
    "id": "aacd739692",
@@ -3835,33 +3835,6 @@
     }
    },
    "cve_checked": "2026-10-16T17:30:48Z"
-  },
-  {
-   "id": "c5cb3c9094",
-   "headline": "Federal bankruptcy courts disrupted by contractor cyberattack",
-   "summary": "A cyberattack on a government contractor has caused outages affecting U.S. federal bankruptcy courts. The incident has halted all production of bankruptcy notices, disrupting critical judicial operations. The attack's scope and whether the contractor itself or downstream systems were compromised remains unclear. Court operations recovery status and incident details are under investigation.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
-   "published": "2026-10-15T20:46:00Z",
-   "added": "2026-10-15T21:00:43Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/bae-systems-cybersecurity-incident-us-bankruptcy-courts/"
-    }
-   ]
   }
  ]
 }
