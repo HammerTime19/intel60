@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T13:00:35Z",
+ "updated": "2026-10-29T13:30:35Z",
  "cards": [
   {
    "id": "dd1c518d70",
@@ -151,7 +151,12 @@
    "url": "https://cyberscoop.com/dhs-employee-data-leak-ddosecrets/",
    "published": "2026-10-28T21:33:00Z",
    "added": "2026-10-28T21:53:05Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/"
+    }
+   ]
   },
   {
    "id": "6297f1390d",
