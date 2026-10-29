@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T18:30:31Z",
+ "updated": "2026-10-29T19:00:37Z",
  "cards": [
   {
    "id": "a556f2a132",
@@ -251,6 +251,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/"
     }
    ]
   },
