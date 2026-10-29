@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-29T15:00:38Z",
+ "updated": "2026-10-29T15:10:18Z",
  "cards": [
+  {
+   "id": "fcadd0dd5c",
+   "headline": "US voting machines face unpatched risks and AI influence",
+   "summary": "US elections face security vulnerabilities including unpatched voting machines, QR-coded ballots without verification mechanisms, and AI-driven influence campaigns. The analysis highlights structural weaknesses in election infrastructure that could be exploited to compromise election integrity. Defenders and election officials should prioritize patching voting systems, implementing voter-verified audit trails, and monitoring AI-generated disinformation campaigns.",
+   "severity": "critical",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
+   "published": "2026-10-29T15:00:00Z",
+   "added": "2026-10-29T15:10:17Z",
+   "also": []
+  },
   {
    "id": "342c74932b",
    "headline": "Cyberattack disrupts Belgian tax services MyMinfin platform",
