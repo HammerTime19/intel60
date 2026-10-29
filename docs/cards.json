@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T11:00:44Z",
+ "updated": "2026-10-29T11:30:38Z",
  "cards": [
   {
    "id": "196b1e6052",
@@ -31,7 +31,16 @@
    "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
    "published": "2026-10-29T09:47:10Z",
    "added": "2026-10-29T10:00:35Z",
-   "also": [],
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-76418": {
      "kev": false,
@@ -40,6 +49,32 @@
     }
    },
    "cve_checked": "2026-10-29T10:00:36Z"
+  },
+  {
+   "id": "9ac8296dad",
+   "headline": "Alpine Linux GitLab attacked with CVSS 10.0 flaw",
+   "summary": "An attacker attempted to exploit CVE-2026-97229, a critical GitLab vulnerability with a perfect CVSS score of 10.0, on Alpine Linux's GitLab server one week after GitLab released patches. The flaw allows unauthenticated code execution through a crafted CI configuration regular expression. Alpine Linux found no evidence the attack succeeded but has since secured the vulnerability.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+   "published": "2026-10-29T09:05:39Z",
+   "added": "2026-10-29T11:30:37Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-97229": {
+     "kev": false,
+     "epss": 0.18427,
+     "pct": 0.97225,
+     "cvss": 10.0,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-29T11:30:37Z"
   },
   {
    "id": "b3306983de",
@@ -144,7 +179,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
    "published": "2026-10-28T16:45:47Z",
    "added": "2026-10-28T17:00:52Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/"
+    }
+   ]
   },
   {
    "id": "ddb9d5f06f",
@@ -3804,20 +3844,6 @@
      "url": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk"
     }
    ]
-  },
-  {
-   "id": "a28002aabf",
-   "headline": "CikaBika Bot RAT malware uses Discord for command control",
-   "summary": "CikaBika Bot is a remote access trojan delivered via phishing emails that leverages Discord servers for command-and-control communications. The malware provides reconnaissance, remote code execution, and data exfiltration capabilities to attackers. Defenders should block phishing emails, monitor for Discord-based C2 traffic, and educate users on suspicious message attachments.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/",
-   "published": "2026-10-15T11:25:58Z",
-   "added": "2026-10-15T11:30:38Z",
-   "also": []
   }
  ]
 }
