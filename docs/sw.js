@@ -1,5 +1,5 @@
 // Offline support: the app shell is cached; stories load fresh and fall back to the last copy.
-const SHELL = "intel60-shell-v5";
+const SHELL = "intel60-shell-v6";
 const ASSETS = ["./", "./index.html", "./manifest.json", "./icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
@@ -34,10 +34,11 @@ self.addEventListener("fetch", (e) => {
     return;
   }
 
-  // the page itself: network first, so design updates show up without reinstalling
+  // the page itself: network first, so design updates show up without reinstalling.
+  // "no-cache" makes the browser check with the server instead of reusing its own copy (GitHub Pages allows 10 minutes)
   if (e.request.mode === "navigate" || url.pathname.endsWith("/index.html")) {
     e.respondWith(
-      fetch(e.request).then((res) => {
+      fetch(e.request.url, { cache: "no-cache", credentials: "same-origin" }).then((res) => {
         if (res.ok) {
           const copy = res.clone();
           caches.open(SHELL).then((c) => c.put(e.request, copy));  // each page cached under its own URL
