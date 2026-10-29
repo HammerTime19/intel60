@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T14:00:44Z",
+ "updated": "2026-10-29T14:30:35Z",
  "cards": [
   {
    "id": "342c74932b",
@@ -3804,20 +3804,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
    "published": "2026-10-15T17:12:31Z",
    "added": "2026-10-15T17:30:36Z",
-   "also": []
-  },
-  {
-   "id": "ba5ef20dc7",
-   "headline": "Help TDS exploits 20,000 Cloudflare Pages for scams",
-   "summary": "Help TDS, a long-running traffic distribution system linked to Russian-language affiliate program Hotejka, has compromised over 20,000 Cloudflare Pages domains. The system, active since at least 2017, uses PHP code templates installed on compromised websites to redirect users to tech support scams. Administrators should audit their Cloudflare Pages for unauthorized code and monitor traffic patterns for anomalies.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-   "published": "2026-10-15T14:11:36Z",
-   "added": "2026-10-15T15:00:42Z",
    "also": []
   }
  ]
