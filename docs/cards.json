@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T23:30:25Z",
+ "updated": "2026-10-29T00:00:29Z",
  "cards": [
   {
    "id": "4c1608edb9",
@@ -3867,32 +3867,6 @@
    "published": "2026-10-15T01:10:57Z",
    "added": "2026-10-15T01:30:33Z",
    "also": []
-  },
-  {
-   "id": "032dae075e",
-   "headline": "Atlassian products unauthenticated file access vulnerability",
-   "summary": "Multiple Atlassian products (Bitbucket, Confluence, Jira, Bamboo, Crowd, Crucible, Fisheye) contain an unauthenticated file access vulnerability allowing attackers to access files in the web application root directory. CISA has added CVE-2026-21589 to its Known Exploited Vulnerabilities catalog. Administrators must apply vendor patches immediately per BOD 26-04 guidance; federal deadline is October 18.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-21589"
-   ],
-   "watch": [],
-   "source": "CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
-   "published": "2026-10-15T00:00:00Z",
-   "added": "2026-10-15T18:00:41Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-21589": {
-     "kev": true,
-     "epss": 0.02777,
-     "pct": 0.86118,
-     "cvss": 9.3,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-15T18:00:41Z"
   }
  ]
 }
