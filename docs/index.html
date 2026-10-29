@@ -108,110 +108,182 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .dates input[type="date"] { position: absolute; inset: 0; opacity: 0; width: 100%; cursor: pointer; }
 .meta .hot { color: var(--critical); font-weight: 800; }
 
-/* desktop: a hero beside the live app (phones never see any of this) */
 .intro { display: none; }
-.hero, .site, .site-only, .pager { display: none; }
-@media (min-width: 64rem) {
-  .page { gap: clamp(2.5rem, 5vw, 5rem); align-items: center; padding: 0 2rem; }
-  .hero { display: block; flex: 0 1 34rem; min-width: 0; }
-  .live { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
-  .live i { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: #2FBF71; animation: pulse 2s infinite; }
-  .hero h1 { font-size: clamp(4rem, 6.4vw, 6.25rem); font-weight: 800; font-variation-settings: "wdth" 62; line-height: 0.88; letter-spacing: -0.015em; margin: 1rem 0 1.5rem; }
-  .hero h1 em { font-style: normal; color: var(--critical); }
-  .hero .lede { font-size: 1.1875rem; line-height: 1.55; color: var(--muted); max-width: 31rem; }
-  .hero .lede b { color: var(--ink); font-weight: 650; }
-  .hero-stats { display: flex; gap: 2.25rem; margin: 1.75rem 0 2rem; }
-  .hero-stats:empty { display: none; }
-  .hero-stats b { display: block; font-size: 2.5rem; font-weight: 800; font-variation-settings: "wdth" 66; line-height: 1; }
-  .hero-stats span { font-size: 0.8125rem; color: var(--muted); }
-  .hero-stats .hot b { color: var(--critical); }
-  .hero-actions { display: flex; flex-wrap: wrap; gap: 0.625rem; }
-  .btn.big { padding: 0.875rem 1.375rem; font-size: 1rem; }
-  .hero .fine { font-size: 0.8125rem; color: var(--muted); margin-top: 1.5rem; }
-  .hero kbd { font: inherit; font-weight: 700; padding: 0 0.3125rem; border: 1px solid var(--rule); border-radius: 4px; }
-  .tagline { display: none; }
-}
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(47, 191, 113, 0.55); }
-  70% { box-shadow: 0 0 0 0.5rem rgba(47, 191, 113, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(47, 191, 113, 0); }
-}
-
-/* desktop in a browser tab: the page continues as a full website below the hero */
+.pager { display: none; }
+@media (min-width: 64rem) { .tagline { display: none; } }
+/* desktop browser tab: a full website instead of the phone layout (phones and the installed app never see it) */
+.web { display: none; }
 @media (min-width: 64rem) and (display-mode: browser) {
   html, body { height: auto; }
   body { overflow-x: hidden; overflow-y: auto; }
-  .page { position: relative; isolation: isolate; height: 100vh; min-height: 44rem; max-height: 64rem; padding: 2rem; }
-  .page::before {
+  .page { display: none; }
+  .web { display: block; }
+  .wrap { max-width: 84rem; margin: 0 auto; padding-inline: 2.5rem; }
+
+  /* top navigation */
+  .wnav {
+    position: sticky; top: 0; z-index: 20; border-bottom: 1px solid var(--rule);
+    background: color-mix(in srgb, var(--paper) 82%, transparent); backdrop-filter: blur(14px) saturate(1.4); -webkit-backdrop-filter: blur(14px) saturate(1.4);
+  }
+  .wnav-in { display: flex; align-items: center; gap: 1.25rem; height: 4rem; }
+  .wlogo { background: none; border: 0; padding: 0; font-size: 1.75rem; font-weight: 800; font-variation-settings: "wdth" 64; letter-spacing: -0.01em; line-height: 1; }
+  .wlogo span { color: var(--critical); }
+  .live { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+  .live i { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: #2FBF71; animation: pulse 2s infinite; }
+  .wtabs { display: flex; gap: 0.25rem; margin-left: 0.75rem; }
+  .wtabs button, .wtabs a {
+    position: relative; background: none; border: 0; padding: 0.5rem 0.875rem; border-radius: 999px;
+    font-size: 0.9375rem; font-weight: 700; color: var(--muted); text-decoration: none;
+  }
+  .wtabs button:hover, .wtabs a:hover { color: var(--ink); }
+  .wtabs [aria-current] { color: var(--ink); background: color-mix(in srgb, var(--ink) 9%, transparent); }
+  .wtabs .count {
+    position: absolute; top: 0; right: -0.125rem; min-width: 1.125rem; height: 1.125rem; padding: 0 0.3125rem; border-radius: 999px;
+    background: var(--critical); color: var(--on-sev); font-size: 0.6875rem; line-height: 1.125rem; text-align: center;
+  }
+  .wsearch {
+    margin-left: auto; display: flex; align-items: center; gap: 0.5rem; width: min(24rem, 30vw); padding: 0.5rem 0.75rem 0.5rem 0.875rem;
+    border-radius: 999px; border: 1px solid var(--rule); background: var(--card); cursor: text;
+  }
+  .wsearch:focus-within { border-color: var(--ink); }
+  .wsearch svg { width: 1rem; height: 1rem; color: var(--muted); flex: none; }
+  .wsearch input { flex: 1; min-width: 0; border: 0; background: none; font: inherit; font-size: 0.9375rem; color: var(--ink); outline: none; }
+  .wsearch kbd { font: inherit; font-size: 0.75rem; font-weight: 700; color: var(--muted); padding: 0 0.375rem; border: 1px solid var(--rule); border-radius: 5px; }
+
+  /* hero */
+  .whero-band { position: relative; isolation: isolate; overflow: hidden; }
+  .whero-band::before {
     content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
     background:
-      radial-gradient(40% 55% at 78% 50%, color-mix(in srgb, var(--critical) 16%, transparent), transparent 70%),
-      radial-gradient(40% 50% at 8% 0%, color-mix(in srgb, var(--info) 14%, transparent), transparent 70%),
+      radial-gradient(38% 80% at 88% 30%, color-mix(in srgb, var(--critical) 18%, transparent), transparent 70%),
+      radial-gradient(35% 70% at 4% 0%, color-mix(in srgb, var(--info) 16%, transparent), transparent 70%),
       linear-gradient(color-mix(in srgb, var(--muted) 9%, transparent) 1px, transparent 1px) 0 0 / 100% 32px,
       linear-gradient(90deg, color-mix(in srgb, var(--muted) 9%, transparent) 1px, transparent 1px) 0 0 / 32px 100%;
-    -webkit-mask-image: linear-gradient(to bottom, #000 65%, transparent);
-    mask-image: linear-gradient(to bottom, #000 65%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent);
+    mask-image: linear-gradient(to bottom, #000 55%, transparent);
   }
-  .page .app {
-    flex: none; width: 26rem; max-width: 26rem; height: min(54rem, 100%);
-    background: var(--paper); border: 1px solid var(--rule); border-radius: 2.25rem; padding: 0.5rem 0 0.25rem;
-    box-shadow: 0 2.5rem 6rem -1.5rem rgba(5, 10, 16, 0.5), 0 0 0 0.5rem color-mix(in srgb, var(--card) 70%, transparent);
+  .whero { display: grid; grid-template-columns: 1.35fr 1fr; gap: 3.5rem; align-items: end; padding-top: 4.5rem; padding-bottom: 3.25rem; }
+  .whero h1 { font-size: clamp(3.75rem, 6vw, 6.25rem); font-weight: 800; font-variation-settings: "wdth" 62; line-height: 0.88; letter-spacing: -0.015em; }
+  .whero h1 em { font-style: normal; color: var(--critical); }
+  .whero .lede { font-size: 1.1875rem; line-height: 1.55; color: var(--muted); max-width: 36rem; margin-top: 1.5rem; }
+  .whero .lede b { color: var(--ink); font-weight: 650; }
+  .hstats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+  .hstat {
+    border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.25rem 1.25rem 1.125rem;
+    background: color-mix(in srgb, var(--card) 80%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
   }
-  .site, .site-only { display: block; }
-  .hero-actions .site-only { display: inline-flex; }
-  .cue { margin-top: 2.5rem; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); text-decoration: none; }
-  .cue:hover { color: var(--ink); }
+  .hstat b { display: block; font-size: 3.25rem; font-weight: 800; font-variation-settings: "wdth" 62; line-height: 1; }
+  .hstat span { display: block; margin-top: 0.375rem; font-size: 0.8125rem; color: var(--muted); line-height: 1.3; }
+  .hstat.hot b { color: var(--critical); }
 
-  .ticker { border-block: 1px solid var(--rule); background: var(--card); overflow: hidden; }
-  .ticker-track { display: flex; width: max-content; animation: ticker 90s linear infinite; }
-  .ticker:hover .ticker-track, .ticker:focus-within .ticker-track { animation-play-state: paused; }
-  .ticker button {
-    --sev: var(--info); display: inline-flex; align-items: center; gap: 0.625rem; padding: 0.875rem 1.75rem; white-space: nowrap;
-    background: none; border: 0; border-right: 1px solid var(--rule); font-weight: 700; font-variation-settings: "wdth" 80;
+  /* filter bar, sticky under the navigation */
+  .wbar {
+    position: sticky; top: 4rem; z-index: 15; border-block: 1px solid var(--rule);
+    background: color-mix(in srgb, var(--paper) 88%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
   }
-  .ticker button[data-sev="critical"] { --sev: var(--critical); }
-  .ticker button[data-sev="high"] { --sev: var(--high); }
-  .ticker button i { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--sev); flex: none; }
-  .ticker button small { color: var(--muted); font-weight: 600; font-size: 0.8125rem; }
-  .ticker button:hover span { text-decoration: underline; text-decoration-color: var(--sev); text-underline-offset: 4px; }
+  .wbar-in { display: flex; align-items: center; gap: 1.25rem; padding-block: 0.75rem; }
+  .wchips { flex: 1; min-width: 0; display: flex; gap: 0.5rem; overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--rule) transparent; padding-bottom: 2px; }
+  .wchips button {
+    flex: none; font-size: 0.875rem; font-weight: 600; padding: 0.4375rem 0.9375rem; border-radius: 999px;
+    border: 1px solid var(--rule); background: transparent;
+  }
+  .wchips button:hover { border-color: var(--muted); }
+  .wchips [aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+  .wdates { flex: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--muted); }
+  .wdates select, .wdates input {
+    font: inherit; font-size: 0.875rem; color: var(--ink); background: var(--card); border: 1px solid var(--rule);
+    border-radius: 999px; padding: 0.4375rem 0.875rem;
+  }
 
-  .wrap { max-width: 76rem; margin: 0 auto; padding: 0 3rem; }
-  .sec { padding-block: 6rem 0; }
+  /* feed grid and side rail */
+  .wmain { display: grid; grid-template-columns: minmax(0, 1fr) 21rem; gap: 2.5rem; align-items: start; padding-top: 0.5rem; }
+  .wgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); gap: 1.25rem; }
+  .wcontent { padding-top: 1.75rem; }
+  .wgrid > .wday:first-child { margin-top: 0; }
+  .wday { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 0.875rem; margin-top: 1.75rem; padding-bottom: 0.625rem; border-bottom: 1px solid var(--rule); }
+  .wday h2 { font-size: 2rem; font-weight: 800; font-variation-settings: "wdth" 64; line-height: 1; }
+  .wday span { color: var(--muted); font-size: 0.875rem; }
+
+  .scard {
+    --sev: var(--info); position: relative; display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--rule);
+    border-top: 4px solid var(--sev); border-radius: 1.25rem; padding: 1.25rem 1.375rem 1.125rem; content-visibility: auto; contain-intrinsic-size: auto 26rem;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  }
+  .scard[data-sev="critical"] { --sev: var(--critical); }
+  .scard[data-sev="high"] { --sev: var(--high); }
+  .scard:hover { transform: translateY(-3px); box-shadow: 0 1.25rem 3rem -1.5rem color-mix(in srgb, var(--sev) 60%, transparent); }
+  .scard .sevtag { color: var(--sev); font-weight: 800; }
+  .scard h3 { font-size: 1.5625rem; font-weight: 800; font-variation-settings: "wdth" 66; line-height: 1.03; margin: 0.75rem 0 0.625rem; text-wrap: balance; }
+  .scard p { line-height: 1.55; font-size: 0.96875rem; }
+  .scard .tags { margin: 0.875rem 0 0; }
+  .scard-foot { margin-top: auto; padding-top: 1.125rem; display: flex; align-items: end; justify-content: space-between; gap: 1rem; font-size: 0.8125rem; }
+  .scard-foot .source { color: var(--muted); line-height: 1.45; }
+  .scard-foot .source a { color: inherit; }
+  .scard-foot .read { font-size: 0.875rem; margin-top: 0.375rem; }
+  .scard-foot .share { flex: none; width: 2.25rem; height: 2.25rem; }
+  .scard.lead {
+    grid-column: 1 / -1; padding: 2rem 2.25rem 1.75rem; border-top-width: 6px;
+    background: radial-gradient(60% 120% at 100% 100%, color-mix(in srgb, var(--sev) 16%, transparent), transparent 70%), var(--card);
+  }
+  .scard.lead h3 { font-size: clamp(2.25rem, 3.4vw, 3.25rem); max-width: 50rem; margin-top: 0.875rem; }
+  .scard.lead p { font-size: 1.125rem; max-width: 52rem; }
+  .lead-kicker { color: var(--sev); margin-bottom: 0.75rem; }
+  .scard.flash { animation: flash 1.8s ease-out; }
+  @keyframes flash { from { box-shadow: 0 0 0 4px var(--sev); } to { box-shadow: 0 0 0 4px transparent; } }
+  .wgrid .more { grid-column: 1 / -1; justify-self: center; margin-top: 1rem; }
+  .wgrid .empty, #web-feed > .empty { grid-column: 1 / -1; padding: 5rem 2rem; }
+
+  .wrail { position: sticky; top: 8.75rem; display: grid; gap: 1rem; padding-top: 1.75rem; padding-bottom: 1rem; max-height: calc(100vh - 9rem); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--rule) transparent; }
+  .rbox { background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.125rem 1.25rem; }
+  .rbox h3 { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+  .rbox h3 button { background: none; border: 0; padding: 0; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; text-transform: none; color: var(--ink); }
+  .rrow {
+    display: grid; grid-template-columns: 3.25rem 1fr; gap: 0.75rem; align-items: center; width: 100%; text-align: left;
+    background: none; border: 0; border-top: 1px solid var(--rule); padding: 0.625rem 0; color: var(--ink);
+  }
+  .rbox h3 + .rrow { border-top: 0; }
+  .rrow:hover b { text-decoration: underline; text-underline-offset: 3px; }
+  .rrow .pill { padding: 0.3125rem 0.125rem; font-size: 0.625rem; }
+  .rrow .pill b { font-size: 1.125rem; text-decoration: none; }
+  .rrow > span:last-child b { display: block; font-size: 0.9375rem; font-weight: 700; line-height: 1.25; }
+  .rrow small { display: block; font-size: 0.75rem; color: var(--muted); margin-top: 0.1875rem; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .rbox .bars { margin-top: 0.375rem; }
+  .rbox p { font-size: 0.875rem; color: var(--muted); line-height: 1.45; }
+  .rbox .btn { margin-top: 0.875rem; width: 100%; padding: 0.5625rem 1rem; font-size: 0.875rem; }
+  .rbox.alert { background: radial-gradient(80% 100% at 100% 100%, color-mix(in srgb, var(--critical) 20%, transparent), transparent 70%), var(--card); }
+  .rbox.alert strong { display: block; font-size: 1.375rem; font-weight: 800; font-variation-settings: "wdth" 70; line-height: 1.1; margin-bottom: 0.375rem; }
+  .terms { display: flex; flex-wrap: wrap; gap: 0.375rem; margin-top: 0.625rem; }
+  .terms span { font-size: 0.75rem; font-weight: 700; padding: 0.1875rem 0.5625rem; border-radius: 999px; border: 1px solid var(--ink); }
+
+  /* Deadlines and Trends as full pages */
+  .web .view { flex: none; overflow: visible; padding: 0; }
+  .web .view h2 { font-size: 3rem; font-weight: 800; font-variation-settings: "wdth" 62; }
+  .web .view .intro { display: block; font-size: 1rem; max-width: 46rem; margin: 0.625rem 0 1.25rem; }
+  .web .view h3 { font-size: 0.8125rem; margin-top: 2rem; }
+  .web .view .tiles { grid-template-columns: repeat(4, 1fr); gap: 0.75rem; }
+  .web .view .tile { padding: 1.25rem; border-radius: 1rem; }
+  .web .view .tile b { font-size: 3rem; }
+  .web .view .days { height: 15rem; gap: 0.75rem; padding: 1.25rem 1.25rem 0.75rem; border-radius: 1rem; }
+  .web .view .bars { gap: 0.5rem; }
+  .web .view .bar { grid-template-columns: 9rem 1fr 2.5rem; font-size: 0.9375rem; }
+  .web .view .bar .track { height: 0.75rem; }
+  .web .view .dl { grid-template-columns: 5.5rem 1fr; padding: 1rem 1.25rem; border-radius: 1rem; margin-bottom: 0.625rem; }
+  .web .view .dl:hover, .web .view .bar:hover span:first-child { border-color: var(--muted); }
+  .web .view .dl .what { font-size: 1.125rem; }
+
+  /* about: features, how it works, call to action */
+  .sec { padding-top: 6rem; }
   .sec-head { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 2.5rem; }
   .sec-head > p { max-width: 27rem; color: var(--muted); line-height: 1.55; }
   .sec-head > p a { color: var(--ink); font-weight: 700; }
   .kicker { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
   .sec h2 { font-size: clamp(2.75rem, 4.4vw, 4rem); font-weight: 800; font-variation-settings: "wdth" 62; line-height: 0.95; letter-spacing: -0.01em; margin-top: 0.625rem; }
-
-  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
-  .stat { background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.5rem; }
-  .stat b { display: block; font-size: 4rem; font-weight: 800; font-variation-settings: "wdth" 62; line-height: 1; }
-  .stat span { color: var(--muted); }
-  .stat.hot b { color: var(--critical); }
-
-  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
-  .scard {
-    --sev: var(--info); display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--rule);
-    border-top: 4px solid var(--sev); border-radius: 1.25rem; padding: 1.375rem 1.5rem 1.25rem; transition: transform 0.2s, box-shadow 0.2s;
-  }
-  .scard[data-sev="critical"] { --sev: var(--critical); }
-  .scard[data-sev="high"] { --sev: var(--high); }
-  .scard:hover { transform: translateY(-4px); box-shadow: 0 1.25rem 3rem -1.5rem color-mix(in srgb, var(--sev) 60%, transparent); }
-  .scard h3 { font-size: 1.625rem; font-weight: 800; font-variation-settings: "wdth" 66; line-height: 1.02; margin: 0.875rem 0 0.75rem; text-wrap: balance; }
-  .scard p { line-height: 1.55; }
-  .scard .tags { margin: 1rem 0 0; }
-  .scard-foot { margin-top: auto; padding-top: 1.25rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; font-size: 0.875rem; }
-  .scard-foot .read { margin: 0; }
-  .link-btn { background: none; border: 0; padding: 0; color: var(--muted); font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
-  .link-btn:hover { color: var(--ink); }
-
   .feats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
   .feat { background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.5rem; }
   .feat .ico { width: 2.75rem; height: 2.75rem; border-radius: 0.875rem; display: grid; place-items: center; color: var(--c); background: color-mix(in srgb, var(--c) 16%, transparent); }
   .feat svg { width: 1.375rem; height: 1.375rem; }
   .feat h3 { font-size: 1.25rem; font-weight: 800; font-variation-settings: "wdth" 74; margin: 1rem 0 0.375rem; }
   .feat p { color: var(--muted); line-height: 1.5; font-size: 0.9375rem; }
-
   .steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.25rem; counter-reset: step; }
   .step { position: relative; background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.5rem 1.25rem; }
   .step::before { counter-increment: step; content: "0" counter(step); font-size: 0.8125rem; font-weight: 800; letter-spacing: 0.12em; color: var(--critical); }
@@ -221,18 +293,6 @@ button { font: inherit; color: inherit; cursor: pointer; }
   }
   .step h3 { font-size: 1.1875rem; font-weight: 800; font-variation-settings: "wdth" 76; margin: 0.625rem 0 0.375rem; }
   .step p { font-size: 0.875rem; color: var(--muted); line-height: 1.5; }
-
-  .dtable { display: grid; gap: 0.625rem; }
-  .drow {
-    width: 100%; text-align: left; display: grid; grid-template-columns: 5.5rem minmax(12rem, 16rem) 1fr auto; gap: 1.5rem; align-items: center;
-    background: var(--card); border: 1px solid var(--rule); border-radius: 1rem; padding: 0.875rem 1.25rem; color: var(--ink);
-  }
-  .drow:hover { border-color: var(--muted); }
-  .drow .what { display: block; font-weight: 800; font-variation-settings: "wdth" 80; font-size: 1.0625rem; line-height: 1.2; }
-  .drow code { display: block; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.8125rem; color: var(--muted); margin-top: 0.25rem; }
-  .drow .name { color: var(--muted); font-size: 0.9375rem; line-height: 1.4; }
-  .drow .rw { font-size: 0.75rem; font-weight: 700; padding: 0.1875rem 0.5rem; border-radius: 6px; border: 1px solid var(--critical); color: var(--critical); white-space: nowrap; }
-
   .cta {
     display: grid; grid-template-columns: 1.15fr 1fr; gap: 3rem; align-items: center; padding: 3.5rem;
     border: 1px solid var(--rule); border-radius: 2rem;
@@ -248,7 +308,6 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .cta-item .ico { flex: none; width: 2.75rem; height: 2.75rem; border-radius: 0.875rem; display: grid; place-items: center; font-size: 1.25rem; background: color-mix(in srgb, var(--ink) 8%, transparent); }
   .cta-item b { display: block; font-size: 1.0625rem; }
   .cta-item span span { color: var(--muted); font-size: 0.875rem; }
-
   .sitefoot { margin-top: 6rem; border-top: 1px solid var(--rule); padding: 2.5rem 0 3rem; color: var(--muted); font-size: 0.875rem; line-height: 1.55; }
   .sitefoot .wrap { display: grid; grid-template-columns: 14rem 1fr auto; gap: 3rem; }
   .sitefoot b { color: var(--ink); font-size: 1.375rem; font-weight: 800; font-variation-settings: "wdth" 70; }
@@ -257,11 +316,23 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .anim .reveal { opacity: 0; transform: translateY(1.5rem); transition: opacity 0.7s ease, transform 0.7s ease; }
   .anim .reveal.in { opacity: 1; transform: none; }
 }
-@keyframes ticker { to { transform: translateX(-50%); } }
+@media (min-width: 64rem) and (max-width: 80rem) and (display-mode: browser) {
+  .wrap { padding-inline: 1.75rem; }
+  .wmain { grid-template-columns: minmax(0, 1fr) 18rem; gap: 1.75rem; }
+  .wtabs { margin-left: 0; }
+  .wnav .live { display: none; }
+  .feats { grid-template-columns: repeat(2, 1fr); }
+  .steps { grid-template-columns: repeat(3, 1fr); }
+  .step:nth-child(3)::after { display: none; }
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(47, 191, 113, 0.55); }
+  70% { box-shadow: 0 0 0 0.5rem rgba(47, 191, 113, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(47, 191, 113, 0); }
+}
 @media (min-width: 64rem) and (display-mode: browser) and (prefers-reduced-motion: reduce) {
-  .ticker { overflow-x: auto; }
-  .ticker-track { animation: none; }
   .live i { animation: none; }
+  .scard, .scard:hover { transition: none; transform: none; }
 }
 @media (min-width: 44rem) and (hover: hover) and (pointer: fine) {
   /* mouse users can't swipe sideways: one row with a visible scrollbar (the wheel scrolls it too) */
@@ -543,18 +614,6 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
 </head>
 <body>
 <div class="page">
-<aside class="hero" aria-label="About Intel60">
-  <p class="live"><i aria-hidden="true"></i><span id="live-updated">Live</span></p>
-  <h1>Security news, <em>in 60&nbsp;words.</em></h1>
-  <p class="lede">Intel60 reads <b>8 trusted security outlets and CISA</b> every 30 minutes and turns each story into a <b>severity-rated, 60-word brief</b> with CVE scores, exploit odds and patch deadlines. Built for SOC analysts and anyone who needs to stay ahead.</p>
-  <div class="hero-stats" id="hero-stats"></div>
-  <div class="hero-actions">
-    <a class="btn primary big" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join">Get critical alerts on Telegram</a>
-    <a class="btn big" href="workflow.html">How it works</a>
-  </div>
-  <p class="fine">Try it right here: scroll the cards, or press <kbd>&uarr;</kbd> <kbd>&darr;</kbd>. Press <kbd>/</kbd> to search. Free, no sign-up.</p>
-  <a class="cue site-only" href="#more">Scroll to explore &darr;</a>
-</aside>
 <div class="app" data-mode="feed">
   <header class="top">
     <div class="brand-wrap">
@@ -595,26 +654,64 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
 </div>
 </div>
 
-<!-- desktop website below the hero (hidden on phones and in the installed app) -->
-<div class="site" id="more">
-  <div class="ticker" aria-label="Latest headlines"><div class="ticker-track" id="ticker"></div></div>
-
-  <section class="sec wrap reveal" aria-labelledby="week-title">
-    <div class="sec-head">
-      <div><p class="kicker">The last 7 days</p><h2 id="week-title">This week in security</h2></div>
-      <p>Every number here is live, straight from the data the app runs on.</p>
+<!-- desktop website (hidden on phones and in the installed app) -->
+<div class="web" id="web">
+  <header class="wnav">
+    <div class="wrap wnav-in">
+      <button class="wlogo" id="web-home" title="Back to the top">Intel<span>60</span></button>
+      <span class="live"><i aria-hidden="true"></i><span id="live-updated">Live</span></span>
+      <nav class="wtabs" aria-label="Sections">
+        <button data-view="feed" aria-current="page">Feed</button>
+        <button data-view="deadlines">Deadlines<span class="count" id="wdl-count" hidden></span></button>
+        <button data-view="trends">Trends</button>
+        <a href="#about">About</a>
+      </nav>
+      <label class="wsearch">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <input type="search" id="web-search" placeholder="Search vendor, CVE or keyword" autocomplete="off" aria-label="Search stories">
+        <kbd aria-hidden="true">/</kbd>
+      </label>
+      <a class="btn primary" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join">Get alerts</a>
     </div>
-    <div class="stats" id="site-stats"></div>
-  </section>
+  </header>
 
-  <section class="sec wrap reveal" aria-labelledby="crit-title">
-    <div class="sec-head">
-      <div><p class="kicker">Latest critical</p><h2 id="crit-title">What to patch first</h2></div>
-      <p>The newest critical stories, each in 60 words, with CVSS scores, exploit probability and CISA's Exploited tag.</p>
+  <div class="whero-band">
+    <section class="wrap whero">
+      <div>
+        <p class="kicker">Cybersecurity news, every 30 minutes</p>
+        <h1 style="margin-top:1rem">Security news, <em>in 60&nbsp;words.</em></h1>
+        <p class="lede">Intel60 reads <b>8 trusted security outlets and CISA</b> and turns every story into a <b>severity-rated, 60-word brief</b> with CVE scores, exploit odds and patch deadlines. Built for SOC analysts and anyone who needs to stay ahead.</p>
+      </div>
+      <div class="hstats" id="hero-stats"></div>
+    </section>
+  </div>
+
+  <div class="wzone">  <!-- the filter bar stays pinned only while the news is on screen -->
+  <div class="wbar" id="wbar">
+    <div class="wrap wbar-in">
+      <nav class="wchips" id="web-filters" aria-label="Filter stories"></nav>
+      <div class="wdates">
+        <select id="web-date" aria-label="Date range">
+          <option value="any">Any time</option>
+          <option value="today">Today</option>
+          <option value="3d">Last 3 days</option>
+          <option value="7d">Last 7 days</option>
+          <option value="" hidden>Custom date</option>
+        </select>
+        <input type="date" id="web-date-pick" aria-label="Pick a date">
+      </div>
     </div>
-    <div class="grid3" id="site-critical"></div>
-  </section>
+  </div>
 
+  <div class="wrap wmain" id="web-main">
+    <main class="wcontent" id="web-content">
+      <div id="web-feed"></div>
+    </main>
+    <aside class="wrail" id="web-rail" aria-label="At a glance"></aside>
+  </div>
+  </div>
+
+  <div id="about">
   <section class="sec wrap reveal" aria-labelledby="feat-title">
     <div class="sec-head">
       <div><p class="kicker">Features</p><h2 id="feat-title">Built for how defenders read</h2></div>
@@ -654,14 +751,6 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
     </div>
   </section>
 
-  <section class="sec wrap reveal" aria-labelledby="dl-title">
-    <div class="sec-head">
-      <div><p class="kicker">Patch deadlines</p><h2 id="dl-title">Exploited bugs, on the clock</h2></div>
-      <p>Vulnerabilities CISA confirmed attackers are using, with the US federal patch deadline. Click one to read the story.</p>
-    </div>
-    <div class="dtable" id="site-deadlines"></div>
-  </section>
-
   <section class="sec wrap reveal">
     <div class="cta">
       <div>
@@ -676,6 +765,8 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
       </div>
     </div>
   </section>
+
+  </div>
 
   <footer class="sitefoot">
     <div class="wrap">
@@ -1008,6 +1099,7 @@ function emptyHTML(title, text, action) {
 
 let observer;
 function renderFeed() {
+  webLimit = WEB_PAGE;
   const list = visibleCards();
   if (!data.cards.length) {
     feed.innerHTML = emptyHTML("No stories yet",
@@ -1058,6 +1150,7 @@ function renderFeed() {
   }, { root: feed, threshold: 0.6 });
   feed.querySelectorAll(".slot").forEach((s) => observer.observe(s));
   fitAll();
+  renderWeb();
 }
 
 // Shrinks a card's text just enough for the headline, summary, tags and source link to fit on screen
@@ -1133,7 +1226,6 @@ async function load() {
   renderFeed();
   jumpToHash();
   if (view === "trends") renderTrends();
-  renderSite();
 }
 
 // ---------- Deadlines and Trends ----------
@@ -1156,9 +1248,11 @@ async function loadDeadlines() {
   const soon = deadlines.items.filter((x) => { const d = daysUntil(x.due); return d >= 0 && d <= 7; }).length;
   $("dl-count").textContent = soon;
   $("dl-count").hidden = !soon;
+  $("wdl-count").textContent = soon;
+  $("wdl-count").hidden = !soon;
   if (view === "deadlines") renderDeadlines();
   if (view === "trends") renderTrends();
-  renderSite();
+  renderRail();
 }
 
 function deadlineRow(x) {
@@ -1244,69 +1338,148 @@ function renderTrends() {
       `<button class="dl" data-open-card="${esc(c.id)}" style="grid-template-columns:3.25rem 1fr"><span class="pill soon"><b>${outlets(c)}</b>outlets</span><span><span class="what">${esc(c.headline)}</span><span class="name" style="display:block">${esc(c.source)}${(c.also || []).length ? `, ${esc(c.also.map((a) => a.source).join(", "))}` : ""}</span></span></button>`).join("")}</div>` : ""}`;
 }
 
-// ---------- desktop website (live sections below the hero) ----------
+// ---------- desktop website (same data, filters and search as the phone app) ----------
+
+const WEB_PAGE = 30;  // cards shown before "Show more"
+let webLimit = WEB_PAGE;
 
 function weekStats() {
   const week = data.cards.filter((c) => new Date(c.published) >= Date.now() - 7 * DAY);
   return {
     week,
     crit: week.filter((c) => c.severity === "critical").length,
-    merged: week.reduce((n, c) => n + (c.also || []).length, 0),
     exploited: (deadlines?.items || []).filter((x) => daysUntil(x.added) >= -7).length,
   };
 }
 
-function siteCardHTML(c) {
+function topVendors(list, n) {
+  return VENDORS.map((names) => {
+    const re = vendorRe(names);
+    return [names[0], list.filter((c) => re.test(`${c.headline} ${c.summary}`)).length];
+  }).filter(([, k]) => k > 0).sort((a, b) => b[1] - a[1]).slice(0, n);
+}
+
+function webCardHTML(c, lead) {
   const level = SEV_LEVEL[c.severity] || 1;
   const meter = `<span class="meter" aria-hidden="true">${[1, 2, 3].map((n) => `<i${n <= level ? ' class="on"' : ""}></i>`).join("")}</span>`;
-  const cves = (c.cves || []).map((v) => cveHTML(v, (c.cve_info || {})[v] || {})).join("");
-  return `<article class="scard" data-sev="${esc(c.severity)}">
-    <div class="meta"><span>${esc(c.category)}</span><time datetime="${esc(c.published)}">${esc(ago(c.published))}</time>
-      ${outlets(c) >= 3 ? `<span class="hot">🔥 ${outlets(c)} sources</span>` : ""}${meter}</div>
+  const mine = myHits(c);
+  const tags = [
+    ...mine.map((w) => `<span class="tag mine">★ ${esc(w)}</span>`),
+    ...(c.watch || []).filter((w) => !mine.some((m) => m.toLowerCase() === w.toLowerCase())).map((w) => `<span class="tag">${esc(w)}</span>`),
+    ...(c.cves || []).map((v) => cveHTML(v, (c.cve_info || {})[v] || {})),
+  ].join("");
+  const also = (c.also || []).map((a) => `<a href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(", ");
+  return `<article class="scard${lead ? " lead" : ""}" id="w-${esc(c.id)}" data-sev="${esc(c.severity)}">
+    ${lead ? '<p class="kicker lead-kicker">Top story</p>' : ""}
+    <div class="meta">
+      ${lastSeen && c.added > lastSeen ? '<span class="new">New</span>' : ""}
+      <span class="sevtag">${esc(SEV_LABEL[c.severity] || "Info")}</span>
+      <span>${esc(c.category)}</span>
+      <time datetime="${esc(c.published)}">${esc(ago(c.published))}</time>
+      ${outlets(c) >= 3 ? `<span class="hot">🔥 ${outlets(c)} sources</span>` : ""}
+      ${meter}
+    </div>
     <h3>${esc(c.headline)}</h3>
     <p>${explainTerms(esc(c.summary))}</p>
-    ${cves ? `<div class="tags">${cves}</div>` : ""}
-    <div class="scard-foot"><a class="read" href="${esc(safeUrl(c.url))}" target="_blank" rel="noopener">Read the full story</a>
-      <button class="link-btn" data-open-card="${esc(c.id)}">Open in the app &uarr;</button></div>
+    ${tags ? `<div class="tags">${tags}</div>` : ""}
+    <div class="scard-foot">
+      <div class="source">${esc(c.source)}${also ? `, also covered by ${also}` : ""}<br>
+        <a class="read" href="${esc(safeUrl(c.url))}" target="_blank" rel="noopener">Read the full story</a></div>
+      <button class="share" data-share="${esc(c.id)}" aria-label="Share this story">${SHARE_ICON}</button>
+    </div>
   </article>`;
 }
 
-function renderSite() {
+function renderWeb() {
+  if (!SITE.matches) return;
+  const vendorChip = filter.startsWith("vendor:")
+    ? `<button data-filter="all" aria-pressed="true" aria-label="Clear vendor filter">${esc(filter.slice(7))} &#10005;</button>` : "";
+  $("web-filters").innerHTML = vendorChip + FILTERS.map(([key, label]) =>
+    `<button data-filter="${esc(key)}" aria-pressed="${key === filter}">${esc(label)}</button>`
+    + (key === "mine" && filter === "mine" ? '<button data-action="watchlist" aria-label="Edit my watchlist">&#9998; Edit</button>' : "")).join("");
+  $("web-date").value = dateRange.startsWith("date:") ? "" : dateRange;
+  $("web-date-pick").value = dateRange.startsWith("date:") ? dateRange.slice(5) : "";
+  if ($("web-search").value.trim() !== query) $("web-search").value = query;
+
+  const list = visibleCards();
+  const box = $("web-feed");
+  if (!data.cards.length) {
+    box.innerHTML = emptyHTML("Loading stories", "One moment.", "");
+  } else if (filter === "mine" && !myTerms.length) {
+    box.innerHTML = emptyHTML("Make Intel60 yours", "Add the vendors, products and topics you care about. Stories that mention them collect here.",
+      '<button data-action="watchlist">Set up my watchlist</button>');
+  } else if (!list.length) {
+    box.innerHTML = emptyHTML("No stories match",
+      query ? `Nothing from the last two weeks matches “${query}” with these filters.` : "Nothing in this filter or date range right now.",
+      query || dateRange !== "any" ? '<button data-action="clear-search">Clear search</button>' : '<button data-filter="all">Show all stories</button>');
+  } else {
+    // the newest critical story from the last day leads the unfiltered feed
+    const plain = filter === "all" && !query && dateRange === "any";
+    const lead = plain ? list.find((c) => c.severity === "critical" && Date.now() - new Date(c.published) < DAY) : null;
+    const rest = list.filter((c) => c !== lead);
+    const shown = rest.slice(0, webLimit);
+    const counts = {};
+    for (const c of rest) counts[dayKey(c.published)] = (counts[dayKey(c.published)] || 0) + 1;
+    let html = lead ? webCardHTML(lead, true) : "";
+    if (filter === "trending") html += '<div class="wday"><h2>Trending this week</h2><span>Ranked by how many outlets covered each story</span></div>';
+    let prev = null;
+    for (const c of shown) {
+      const key = dayKey(c.published);
+      if (filter !== "trending" && key !== prev) {
+        html += `<div class="wday"><h2>${esc(dayLabel(key))}</h2><span>${counts[key]} ${counts[key] === 1 ? "story" : "stories"}</span></div>`;
+        prev = key;
+      }
+      html += webCardHTML(c, false);
+    }
+    const left = rest.length - shown.length;
+    if (left > 0) html += `<button class="btn more" data-action="web-more">Show ${Math.min(WEB_PAGE, left)} more &middot; ${left} left</button>`;
+    box.innerHTML = `<div class="wgrid">${html}</div>`;
+  }
+  renderRail();
+}
+
+function renderRail() {
   if (!SITE.matches || !data.cards.length) return;
-  const { week, crit, merged, exploited } = weekStats();
+  const { week, crit, exploited } = weekStats();
   const today = data.cards.filter((c) => dayKey(c.published) === dayKey(new Date().toISOString()));
   $("hero-stats").innerHTML = `
-    <div><b>${today.length}</b><span>stories today</span></div>
-    <div class="hot"><b>${today.filter((c) => c.severity === "critical").length}</b><span>critical today</span></div>
-    <div><b>8</b><span>sources + CISA</span></div>`;
+    <div class="hstat"><b>${today.length}</b><span>stories today</span></div>
+    <div class="hstat hot"><b>${today.filter((c) => c.severity === "critical").length}</b><span>rated critical today</span></div>
+    <div class="hstat hot"><b>${deadlines ? exploited : "&ndash;"}</b><span>newly exploited bugs this week (CISA)</span></div>`;
 
-  const heads = data.cards.slice(0, 16).map((c) =>
-    `<button data-open-card="${esc(c.id)}" data-sev="${esc(c.severity)}"><i></i><span>${esc(c.headline)}</span><small>${esc(ago(c.published))}</small></button>`).join("");
-  $("ticker").innerHTML = heads + `<div style="display:contents" aria-hidden="true" inert>${heads}</div>`;
-
-  $("site-stats").innerHTML = `
-    <div class="stat"><b>${week.length}</b><span>stories, 60 words each</span></div>
-    <div class="stat hot"><b>${crit}</b><span>rated critical</span></div>
-    <div class="stat hot"><b>${deadlines ? exploited : "&ndash;"}</b><span>newly exploited bugs (CISA)</span></div>
-    <div class="stat"><b>${merged}</b><span>duplicate reports merged</span></div>`;
-
-  const bySev = (sev) => data.cards.filter((c) => c.severity === sev);
-  $("site-critical").innerHTML = [...bySev("critical"), ...bySev("high")].slice(0, 6).map(siteCardHTML).join("");
-
-  if (deadlines) {
-    const open = deadlines.items.filter((x) => daysUntil(x.due) >= 0).sort((a, b) => a.due.localeCompare(b.due));
-    const rows = (open.length ? open : deadlines.items).slice(0, 6);
-    $("site-deadlines").innerHTML = rows.map((x) => {
+  const boxes = [];
+  if (deadlines && view !== "deadlines") {  // the Deadlines page already lists them
+    const open = deadlines.items.filter((x) => daysUntil(x.due) >= 0).sort((a, b) => a.due.localeCompare(b.due)).slice(0, 4);
+    if (open.length) boxes.push(`<div class="rbox"><h3>Patch deadlines <button data-view="deadlines">See all &rarr;</button></h3>${open.map((x) => {
       const d = daysUntil(x.due);
-      const pill = d > 0 ? `<span class="pill soon"><b>${d}</b>${d === 1 ? "day" : "days"} left</span>`
-        : d === 0 ? '<span class="pill today"><b>Due</b>today</span>' : `<span class="pill"><b>${-d}d</b>past due</span>`;
-      return `<button class="drow" data-deadline="${esc(x.cve)}">${pill}
-        <span><span class="what">${esc(x.vendor)} ${esc(x.product)}</span><code>${esc(x.cve)}</code></span>
-        <span class="name">${esc(x.name)}</span>
-        ${x.ransomware ? '<span class="rw">Used in ransomware</span>' : "<span></span>"}</button>`;
-    }).join("") || '<p class="note">Nothing due right now.</p>';
+      const pill = d === 0 ? '<span class="pill today"><b>Due</b>today</span>' : `<span class="pill soon"><b>${d}</b>${d === 1 ? "day" : "days"}</span>`;
+      return `<button class="rrow" data-deadline="${esc(x.cve)}">${pill}<span><b>${esc(x.vendor)} ${esc(x.product)}</b><small>${esc(x.cve)}</small></span></button>`;
+    }).join("")}</div>`);
   }
+  const covered = trendingCards().slice(0, 4);
+  if (covered.length) boxes.push(`<div class="rbox"><h3>Most covered <button data-filter="trending">See all &rarr;</button></h3>${covered.map((c) =>
+    `<button class="rrow" data-open-card="${esc(c.id)}"><span class="pill soon"><b>${outlets(c)}</b>outlets</span><span><b>${esc(c.headline)}</b></span></button>`).join("")}</div>`);
+  const vendors = topVendors(week, 6);
+  const maxV = Math.max(1, ...vendors.map(([, n]) => n));
+  if (vendors.length) boxes.push(`<div class="rbox"><h3>Most-hit vendors &middot; 7 days</h3><div class="bars">${vendors.map(([name, n]) =>
+    `<button class="bar vendor" data-vendor="${esc(name)}"><span>${esc(name)}</span><span class="track"><i style="width:${(n / maxV) * 100}%"></i></span><span class="n">${n}</span></button>`).join("")}</div></div>`);
+  boxes.push(`<div class="rbox"><h3>My watchlist</h3>${myTerms.length
+    ? `<div class="terms">${myTerms.slice(0, 12).map((t) => `<span>${esc(t)}</span>`).join("")}</div><button class="btn" data-filter="mine">Show my stories</button>`
+    : "<p>Add the vendors you run. Matching stories get a &#9733; and their own filter, saved only in this browser.</p>"}
+    <button class="btn${myTerms.length ? "" : " primary"}" data-action="watchlist">${myTerms.length ? "Edit watchlist" : "Set up my watchlist"}</button></div>`);
+  boxes.push(`<div class="rbox alert"><strong>Critical alerts, as they break.</strong><p>${crit} critical stories this week. Get them on Telegram.</p>
+    <a class="btn primary" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join">Join t.me/intel60news</a></div>`);
+  $("web-rail").innerHTML = boxes.join("");
 }
+
+// Deadlines and Trends live inside the website's main column on desktop, and in the app on phones
+function placeViews() {
+  const views = [$("view-deadlines"), $("view-trends")];
+  if (SITE.matches) $("web-content").append(...views);
+  else document.querySelector(".app .tabs").before(...views);
+}
+placeViews();
+SITE.addEventListener?.("change", () => { placeViews(); renderWeb(); fitAll(); });
 
 // sections fade in as they scroll into view (skipped when the reader prefers less motion)
 if (SITE.matches && !matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window) {
@@ -1316,21 +1489,27 @@ if (SITE.matches && !matchMedia("(prefers-reduced-motion: reduce)").matches && "
   }, { threshold: 0.15 });
   document.querySelectorAll(".reveal").forEach((el) => reveal.observe(el));
 }
-SITE.addEventListener?.("change", renderSite);
 
 function showView(v) {
   view = v;
   document.querySelector(".app").dataset.mode = v;
   $("searchbar").hidden = v !== "feed" || $("search-btn").getAttribute("aria-expanded") !== "true";
-  document.querySelectorAll(".tabs [data-view]").forEach((b) => b.toggleAttribute("aria-current", b.dataset.view === v));
-  document.querySelectorAll(".tabs [aria-current]").forEach((b) => b.setAttribute("aria-current", "page"));
+  document.querySelectorAll("[data-view]").forEach((b) => b.toggleAttribute("aria-current", b.dataset.view === v));
+  document.querySelectorAll("[data-view][aria-current]").forEach((b) => b.setAttribute("aria-current", "page"));
   feed.hidden = v !== "feed";
+  $("web-feed").hidden = v !== "feed";
+  $("wbar").hidden = v !== "feed";
+  if (SITE.matches) {  // keep the newly opened page in view below the navigation
+    const top = $("web-main").getBoundingClientRect().top + scrollY - 72;
+    if (scrollY > top) window.scrollTo({ top });
+  }
   $("filters").hidden = v !== "feed";
   $("view-deadlines").hidden = v !== "deadlines";
   $("view-trends").hidden = v !== "trends";
   if (v === "deadlines") { renderDeadlines(); $("view-deadlines").scrollTop = 0; }
   if (v === "trends") { renderTrends(); $("view-trends").scrollTop = 0; }
   if (v === "feed") fitAll();
+  renderRail();
   renderMeta();
 }
 
@@ -1338,7 +1517,6 @@ function openCard(id) {
   showView("feed");
   if (!document.getElementById(id)) { filter = "all"; renderFilters(); renderFeed(); }
   scrollToCard(id);
-  if (SITE.matches) window.scrollTo({ top: 0, behavior: "smooth" });  // bring the app back into view
 }
 
 function showTerm(key) {
@@ -1382,6 +1560,17 @@ function jumpToHash() {
 }
 
 function scrollToCard(id) {
+  if (SITE.matches) {
+    if (!$(`w-${id}`)) {  // further down than "Show more" has reached
+      const i = visibleCards().findIndex((c) => c.id === id);
+      if (i >= 0) { webLimit = i + WEB_PAGE; renderWeb(); }
+    }
+    const el = $(`w-${id}`);
+    if (!el) return;
+    el.scrollIntoView({ block: "center", behavior: "smooth" });
+    el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
+    return;
+  }
   const slot = document.getElementById(id);
   if (!slot) return;
   slot.scrollIntoView({ block: "start" });
@@ -1483,7 +1672,7 @@ document.addEventListener("click", (e) => {
   if (dateBtn) { dateRange = dateBtn.dataset.date; $("date-pick").value = ""; syncDateButtons(); renderFeed(); return; }
   const cov = e.target.closest("[data-open-card]");
   if (cov) { openCard(cov.dataset.openCard); return; }
-  const tab = e.target.closest(".tabs [data-view]");
+  const tab = e.target.closest("[data-view]");
   if (tab) { showView(tab.dataset.view); return; }
   const dl = e.target.closest("[data-deadline]");
   if (dl) {
@@ -1517,6 +1706,7 @@ document.addEventListener("click", (e) => {
   const action = e.target.closest("[data-action]")?.dataset.action;
   if (action === "clear-search") { clearSearch(); return; }
   if (action === "watchlist") showWatchlist();
+  if (action === "web-more") { webLimit += WEB_PAGE; renderWeb(); return; }
   if (action === "more-deadlines") { showAllPast = true; renderDeadlines(); return; }
   if (action === "save-watchlist") saveWatchlist();
   if (action === "close-sheet") e.target.closest("dialog")?.close();
@@ -1536,7 +1726,7 @@ document.addEventListener("click", (e) => {
 });
 $("about").addEventListener("click", showWelcome);
 // let a mouse wheel scroll the chip rows sideways
-for (const row of [$("filters"), $("dates")]) {
+for (const row of [$("filters"), $("dates"), $("web-filters")]) {
   row.addEventListener("wheel", (e) => {
     if (row.scrollWidth <= row.clientWidth || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
     e.preventDefault();
@@ -1554,6 +1744,18 @@ $("date-pick").addEventListener("change", (e) => {
   renderFeed();
 });
 $("watch-input").addEventListener("input", renderWatchChips);
+$("web-search").addEventListener("input", (e) => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => { query = e.target.value.trim(); if (view !== "feed") showView("feed"); renderFeed(); }, 150);
+});
+$("web-search").addEventListener("keydown", (e) => { if (e.key === "Escape") { e.target.value = ""; clearSearch(); e.target.blur(); } });
+$("web-date").addEventListener("change", (e) => { dateRange = e.target.value || "any"; $("date-pick").value = ""; syncDateButtons(); renderFeed(); });
+$("web-date-pick").addEventListener("change", (e) => {
+  dateRange = e.target.value ? `date:${e.target.value}` : "any";
+  syncDateButtons();
+  renderFeed();
+});
+$("web-home").addEventListener("click", () => { showView("feed"); window.scrollTo({ top: 0, behavior: "smooth" }); });
 $("telegram-link").addEventListener("click", () => track("telegram-join"));
 $("welcome").addEventListener("close", () => { try { localStorage.setItem(WELCOMED_KEY, "1"); } catch {} });
 $("brand").addEventListener("click", () => { showView("feed"); feed.scrollTo({ top: 0 }); load(); loadDeadlines(); });
@@ -1567,10 +1769,11 @@ document.addEventListener("keydown", (e) => {
   const typing = e.target.matches?.("input, textarea");
   if (e.key === "Escape" && $("search-btn").getAttribute("aria-expanded") === "true") { setSearchOpen(false); return; }
   if (typing) return;
-  if (e.key === "/") { e.preventDefault(); if (SITE.matches) window.scrollTo({ top: 0 }); setSearchOpen(true); return; }
+  if (e.key === "/" && SITE.matches) { e.preventDefault(); $("web-search").focus(); return; }
+  if (e.key === "/") { e.preventDefault(); setSearchOpen(true); return; }
+  if (SITE.matches) return;  // on the website, arrow keys scroll the page as usual
   const step = { ArrowDown: 1, j: 1, ArrowUp: -1, k: -1 }[e.key];
   if (!step || view !== "feed") return;
-  if (SITE.matches && window.scrollY > innerHeight / 3) return;  // further down the website, arrows scroll the page
   e.preventDefault();
   feed.scrollBy({ top: step * feed.clientHeight });
 });
