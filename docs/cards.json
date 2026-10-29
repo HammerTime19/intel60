@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-29T19:00:37Z",
+ "updated": "2026-10-29T19:30:34Z",
  "cards": [
+  {
+   "id": "e692538b68",
+   "headline": "Fake Padre Terminal app steals $23K from Solana wallets",
+   "summary": "A fraudulent cryptocurrency trading app named Padre Terminal was distributed through the Apple App Store and targeted Solana wallet users. The malicious app resulted in approximately $23,000 in theft across 27 compromised wallets. Apple has since removed the application from its store. Users should verify app authenticity before installing and never grant wallet access to unverified applications.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
+   "published": "2026-10-29T19:23:41Z",
+   "added": "2026-10-29T19:30:33Z",
+   "also": []
+  },
   {
    "id": "a556f2a132",
    "headline": "Chrome extensions hijack searches via 319 malicious plugins",
@@ -3845,20 +3859,6 @@
     }
    },
    "cve_checked": "2026-10-15T21:00:43Z"
-  },
-  {
-   "id": "85a01d9a03",
-   "headline": "AI chatbots become targets for election influence campaigns",
-   "summary": "Threat actors are setting up networks of hyperlocal websites across multiple U.S. states to inject propaganda into AI chatbot systems and influence American voters. Research from VisionHeight reveals bad actors increasingly target AI systems as more effective vehicles for coordinated disinformation than traditional social media. Organizations deploying chatbots should implement content validation and source verification mechanisms to counter influence campaigns.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/ai-chatbots-election-influence-hyperlocal-networks/",
-   "published": "2026-10-15T19:29:58Z",
-   "added": "2026-10-15T20:00:36Z",
-   "also": []
   }
  ]
 }
