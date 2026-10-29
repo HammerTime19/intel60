@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T08:00:32Z",
+ "updated": "2026-10-29T08:21:42Z",
  "cards": [
   {
    "id": "4c1608edb9",
@@ -475,6 +475,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/"
     }
    ],
    "cve_info": {
@@ -3794,29 +3798,6 @@
    "published": "2026-10-15T08:45:10Z",
    "added": "2026-10-15T09:21:03Z",
    "also": []
-  },
-  {
-   "id": "9d7e0c2148",
-   "headline": "UK Legal Aid Agency breach exposes 48 years of records",
-   "summary": "The UK Legal Aid Agency disclosed that attackers who breached its systems in April 2025 stole records dating back to 1978. The agency, part of the Ministry of Justice, manages the Public Defender Service. The full scope of affected data and victim count remains under investigation. Organizations should monitor for potential misuse of historical legal aid records.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
-   "published": "2026-10-15T08:06:47Z",
-   "added": "2026-10-15T08:30:33Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/uk-legal-aid-cyberattack-data"
-    }
-   ]
   }
  ]
 }
