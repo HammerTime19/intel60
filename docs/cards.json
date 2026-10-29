@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-29T16:00:58Z",
+ "updated": "2026-10-29T16:30:34Z",
  "cards": [
+  {
+   "id": "a556f2a132",
+   "headline": "Chrome extensions hijack searches via 319 malicious plugins",
+   "summary": "A campaign involving 319 Chrome extensions with 13.4 million combined installations redirected user searches through tracking servers to generate ad revenue from Bing and Yahoo. The hijacking campaign exploited browser search functionality to monetize traffic. Users should audit installed extensions, remove suspicious ones, and consider restricting extension permissions to prevent similar attacks.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+   "published": "2026-10-29T16:10:31Z",
+   "added": "2026-10-29T16:30:33Z",
+   "also": []
+  },
   {
    "id": "8cc04215ef",
    "headline": "Fake ChatGPT Claude apps deploy crypto miners via signed executables",
@@ -69,7 +83,12 @@
    "url": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
    "published": "2026-10-29T13:26:49Z",
    "added": "2026-10-29T14:00:43Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack"
+    }
+   ]
   },
   {
    "id": "dd1c518d70",
