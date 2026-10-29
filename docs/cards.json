@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T07:00:40Z",
+ "updated": "2026-10-29T07:30:29Z",
  "cards": [
   {
    "id": "4c1608edb9",
@@ -3817,32 +3817,6 @@
      "url": "https://therecord.media/uk-legal-aid-cyberattack-data"
     }
    ]
-  },
-  {
-   "id": "50367ee6ae",
-   "headline": "Langflow RCE flaw exploited in 1,423 honeypot attempts",
-   "summary": "Threat actors are exploiting CVE-2026-105740, a critical authenticated remote code execution flaw in Langflow, an open-source AI application development platform. The vulnerability has a CVSS score of 9.9. Over 1,400 exploit attempts were detected targeting the platform. Organizations using Langflow should apply security patches immediately to mitigate the risk of system compromise.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-105740"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
-   "published": "2026-10-15T07:07:05Z",
-   "added": "2026-10-15T09:21:03Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-105740": {
-     "kev": false,
-     "epss": 0.00589,
-     "pct": 0.469,
-     "cvss": 9.9,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-15T09:21:04Z"
   }
  ]
 }
