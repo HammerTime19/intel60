@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-29T12:00:34Z",
+ "updated": "2026-10-29T12:30:37Z",
  "cards": [
+  {
+   "id": "dd1c518d70",
+   "headline": "Telegram Android voice call flaw enables remote code execution",
+   "summary": "A code execution vulnerability in Telegram for Android allowed attackers to run code on victim phones via voice calls. The attacker needed only a regular Telegram account to trigger the flaw when a user answered the call. Telegram patched the issue in version 12.10.4 released in late September and security firm NebuSec disclosed it on October 29. Users should update to version 12.10.4 or later immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+   "published": "2026-10-29T11:39:18Z",
+   "added": "2026-10-29T12:30:35Z",
+   "also": []
+  },
+  {
+   "id": "c9e7c513e1",
+   "headline": "26,400 valid cloud AI credentials exposed Gitee repos",
+   "summary": "A researcher found 26,400 working developer credentials left in public code repositories on Gitee, a Chinese code-hosting platform. Scanning 7.25 million public repos revealed mostly cloud and AI service keys that attackers could abuse immediately. Anyone with access to these repositories could use the exposed credentials to compromise accounts and cloud infrastructure. Developers should rotate exposed credentials urgently and use secrets management tools to prevent similar leaks.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+   "published": "2026-10-29T11:33:15Z",
+   "added": "2026-10-29T12:30:35Z",
+   "also": []
+  },
   {
    "id": "196b1e6052",
    "headline": "AI relay disables OpenAI Codex Claude sandboxes",
@@ -3776,39 +3804,6 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/"
-    }
-   ]
-  },
-  {
-   "id": "e7e0582933",
-   "headline": "Next.js patches critical RCE flaws in caching and SVG",
-   "summary": "Next.js released an out-of-band security update fixing two critical unauthenticated remote code execution vulnerabilities and one high-severity denial-of-service flaw. One RCE affects React Server Components; the other is in librsvg used via the sharp package for SVG image handling. Update immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-   "published": "2026-10-15T12:28:13Z",
-   "added": "2026-10-15T14:22:11Z",
-   "also": []
-  },
-  {
-   "id": "ce862b886d",
-   "headline": "Drupal Field UI module critical RCE flaw patched",
-   "summary": "Drupal core's Field UI module contains a critical remote code execution vulnerability allowing unauthenticated attackers to execute code via contributed modules. Patches were released October 14 in versions 11.4.10, 11.3.19, and 10.6.19. At least one known exploitation path requires no login credentials. Administrators should update immediately to patch systems.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-   "published": "2026-10-15T12:07:20Z",
-   "added": "2026-10-15T12:30:36Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/"
     }
    ]
   }
