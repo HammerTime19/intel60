@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-30T10:00:35Z",
+ "updated": "2026-10-30T10:30:37Z",
  "cards": [
+  {
+   "id": "ad2cc061f5",
+   "headline": "Anthropic Claude VS Code extension compromised SSH backdoor",
+   "summary": "The official Anthropic Claude Code extension in the Open VSX registry was compromised to install a persistent SSH backdoor on infected developer machines. The compromise also affected the Cursor marketplace's extension service. Cursor temporarily shut down its service to remove the malware. Developers using these extensions should remove them immediately and check for unauthorized SSH access.",
+   "severity": "critical",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+   "published": "2026-10-30T08:55:47Z",
+   "added": "2026-10-30T10:30:36Z",
+   "also": []
+  },
   {
    "id": "d0d43ed2d2",
    "headline": "TeamViewer integer overflow lets hosts hijack technician machines",
@@ -41,7 +55,12 @@
    "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
    "published": "2026-10-30T07:45:30Z",
    "added": "2026-10-30T09:00:36Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-118539": {
      "kev": false,
