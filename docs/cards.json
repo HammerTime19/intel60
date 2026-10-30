@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:01:40Z",
+ "updated": "2026-10-30T18:30:34Z",
  "cards": [
   {
    "id": "e6861203f2",
@@ -13,6 +13,20 @@
    "url": "https://cyberscoop.com/apple-spyware-notifications-pall-mall-process/",
    "published": "2026-10-30T17:07:05Z",
    "added": "2026-10-30T17:30:34Z",
+   "also": []
+  },
+  {
+   "id": "46d8d781be",
+   "headline": "Chinese hackers use AI framework ARTEX targeting 200+ organizations",
+   "summary": "Chinese state-sponsored threat actor Vapor Panda has deployed a Go-based AI-powered penetration testing framework called ARTEX against high-value targets worldwide. CrowdStrike identified the campaign targeting multiple organizations simultaneously. No patch or mitigation specifics are mentioned in available details. Organizations should enhance monitoring for ARTEX indicators and apply principle of least privilege to critical systems.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+   "published": "2026-10-30T16:58:44Z",
+   "added": "2026-10-30T18:30:33Z",
    "also": []
   },
   {
