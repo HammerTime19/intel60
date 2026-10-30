@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T23:30:28Z",
+ "updated": "2026-10-30T00:00:35Z",
  "items": [
   {
    "cve": "CVE-2026-97229",
@@ -385,17 +385,6 @@
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
    "card": null
-  },
-  {
-   "cve": "CVE-2026-86950",
-   "vendor": "Apple",
-   "product": "Multiple Products",
-   "name": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
-   "added": "2026-09-29",
-   "due": "2026-10-13",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "0afa3606f1"
   }
  ]
 }

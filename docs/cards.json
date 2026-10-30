@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T23:30:28Z",
+ "updated": "2026-10-30T00:00:35Z",
  "cards": [
   {
    "id": "7d9fa054e5",
@@ -3870,34 +3870,6 @@
     }
    },
    "cve_checked": "2026-10-16T06:30:40Z"
-  },
-  {
-   "id": "51427f5a76",
-   "headline": "Fortinet products path traversal added to CISA KEV",
-   "summary": "CISA added CVE-2025-61624 to its Known Exploited Vulnerabilities catalog. The path traversal flaw affects FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager. An authenticated admin with read-write permissions can write or delete arbitrary files via CLI commands. Federal deadline to patch is October 19, 2026. Apply vendor mitigations immediately per BOD 26-04 guidance.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2025-61624"
-   ],
-   "watch": [
-    "Fortinet"
-   ],
-   "source": "CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
-   "published": "2026-10-16T00:00:00Z",
-   "added": "2026-10-16T17:30:41Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2025-61624": {
-     "kev": true,
-     "epss": 0.0058,
-     "pct": 0.46551,
-     "cvss": 6.5,
-     "sev": "medium"
-    }
-   },
-   "cve_checked": "2026-10-16T17:30:48Z"
   }
  ]
 }
