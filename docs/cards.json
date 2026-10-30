@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T20:00:29Z",
+ "updated": "2026-10-30T20:30:28Z",
  "cards": [
   {
    "id": "84a2c916c3",
@@ -4069,32 +4069,6 @@
    "published": "2026-10-17T00:34:02Z",
    "added": "2026-10-17T01:00:33Z",
    "also": []
-  },
-  {
-   "id": "8dfac5c34b",
-   "headline": "BlockStrap flaw enables RCE on Magento, Adobe Commerce",
-   "summary": "A critical vulnerability (CVE-2026-103849) in BlockStrap affects Magento and Adobe Commerce servers, allowing unauthenticated attackers to execute arbitrary PHP code. The flaw has maximum severity and exploitation is expected soon. Administrators should patch immediately and monitor for exploitation attempts.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-103849"
-   ],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
-   "published": "2026-10-16T20:00:59Z",
-   "added": "2026-10-16T20:30:32Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-103849": {
-     "kev": false,
-     "epss": 0.00778,
-     "pct": 0.54998,
-     "cvss": 10.0,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-16T20:30:33Z"
   }
  ]
 }
