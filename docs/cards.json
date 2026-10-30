@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T14:30:41Z",
+ "updated": "2026-10-30T15:00:38Z",
  "cards": [
   {
    "id": "c5d4f7a3fa",
@@ -125,7 +125,16 @@
    "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
    "published": "2026-10-30T10:40:45Z",
    "added": "2026-10-30T12:30:37Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/syrian-hacker-ahmad-umar-agha-sentenced/"
+    }
+   ]
   },
   {
    "id": "ad2cc061f5",
@@ -139,7 +148,12 @@
    "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
    "published": "2026-10-30T08:55:47Z",
    "added": "2026-10-30T10:30:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
+    }
+   ]
   },
   {
    "id": "d0d43ed2d2",
