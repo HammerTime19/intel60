@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-30T11:30:44Z",
+ "updated": "2026-10-30T12:00:40Z",
  "cards": [
+  {
+   "id": "8dd5d26e07",
+   "headline": "Russian home goods chain Poryadok hit by cyberattack",
+   "summary": "Poryadok, a Russian retailer operating 48 stores across 32 cities, experienced service disruptions affecting its website, mobile app, and physical store operations following a cyberattack on Sunday. The incident forced temporary closure of digital and retail channels. No details on breach scope, data theft, or restoration timeline were provided. Customers should monitor accounts for suspicious activity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/russian-home-goods-chain-faces-disruptions",
+   "published": "2026-10-30T11:30:00Z",
+   "added": "2026-10-30T12:00:37Z",
+   "also": []
+  },
   {
    "id": "ad2cc061f5",
    "headline": "Anthropic Claude VS Code extension compromised SSH backdoor",
@@ -161,6 +175,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/polymarket-confirms-cyberattack-third-party"
     }
    ]
   },
