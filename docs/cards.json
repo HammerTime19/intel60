@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T04:30:28Z",
+ "updated": "2026-10-30T05:00:48Z",
  "cards": [
   {
    "id": "7d9fa054e5",
@@ -1362,7 +1362,7 @@
      "pct": 0.13058
     }
    },
-   "cve_checked": "2026-10-29T22:30:51Z"
+   "cve_checked": "2026-10-30T05:00:48Z"
   },
   {
    "id": "627cc70bbf",
@@ -3837,39 +3837,6 @@
      "url": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs"
     }
    ]
-  },
-  {
-   "id": "5fc8c6dd8c",
-   "headline": "PEERSTITCH malware exploits Fortinet FortiOS flaw",
-   "summary": "A suspected advanced threat actor exploited CVE-2025-61624, a path traversal flaw in Fortinet FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager, to deploy PEERSTITCH, a previously unreported memory-resident ARM64 malware. The flaw allows attackers to bypass checks on tagged VPN sessions. Organizations running affected Fortinet products should apply patches immediately and monitor for suspicious VPN activity.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [
-    "CVE-2025-61624"
-   ],
-   "watch": [
-    "Fortinet"
-   ],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-   "published": "2026-10-16T04:59:36Z",
-   "added": "2026-10-16T06:30:39Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/"
-    }
-   ],
-   "cve_info": {
-    "CVE-2025-61624": {
-     "kev": true,
-     "epss": 0.00535,
-     "pct": 0.4383,
-     "cvss": 6.5,
-     "sev": "medium"
-    }
-   },
-   "cve_checked": "2026-10-16T06:30:40Z"
   }
  ]
 }
