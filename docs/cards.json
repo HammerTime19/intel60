@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T20:30:28Z",
+ "updated": "2026-10-30T21:00:35Z",
  "cards": [
   {
    "id": "84a2c916c3",
@@ -243,6 +243,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor"
     }
    ]
   },
