@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T08:00:36Z",
+ "updated": "2026-10-30T08:30:31Z",
  "cards": [
   {
    "id": "5100bc6323",
@@ -47,6 +47,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/"
     }
    ]
   },
