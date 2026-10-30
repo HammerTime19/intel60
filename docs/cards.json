@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-30T13:30:30Z",
+ "updated": "2026-10-30T14:00:38Z",
  "cards": [
+  {
+   "id": "4119054fab",
+   "headline": "FBI seizes bulletproof hosting provider Virtualine domain",
+   "summary": "The FBI seized the domain of Virtualine, a bulletproof hosting provider that enabled criminal operations including hack-for-hire services, ransomware campaigns, and infostealer distribution. The service accepted cryptocurrency payments to obscure transactions. Law enforcement action disrupts infrastructure commonly used by threat actors for command and control and malware hosting.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+   "published": "2026-10-30T13:36:12Z",
+   "added": "2026-10-30T14:00:38Z",
+   "also": []
+  },
   {
    "id": "bb609cd39a",
    "headline": "GCHQ cannot account for thousands of data storage devices",
