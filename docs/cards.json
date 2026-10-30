@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-30T21:00:35Z",
+ "updated": "2026-10-30T21:30:30Z",
  "cards": [
+  {
+   "id": "f167e37bde",
+   "headline": "Linux kernel MPTCP flaw enables remote root attacks",
+   "summary": "Security researchers at Anthropic discovered a critical Linux kernel vulnerability in Multipath TCP (MPTCP) listeners that allows unauthenticated remote attackers to execute commands as root. The flaw affects servers running MPTCP. An exploit has been developed. Administrators should prioritize patching affected kernel versions and restrict access to MPTCP listeners until patches are deployed.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+   "published": "2026-10-30T21:09:46Z",
+   "added": "2026-10-30T21:30:29Z",
+   "also": []
+  },
   {
    "id": "84a2c916c3",
    "headline": "Fashion retailer Resolve suffers payment card data breach",
