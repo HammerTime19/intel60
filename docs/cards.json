@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T09:30:28Z",
+ "updated": "2026-10-30T10:00:35Z",
  "cards": [
   {
    "id": "d0d43ed2d2",
@@ -101,6 +101,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/binance-hit-by-record-6-billion-crypto-hack"
     }
    ]
   },
@@ -130,7 +134,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
    "published": "2026-10-29T21:47:25Z",
    "added": "2026-10-29T22:00:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/"
+    }
+   ]
   },
   {
    "id": "cbcc5cbaf6",
@@ -388,6 +397,10 @@
     {
      "source": "CISA KEV",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/"
     }
    ],
    "cve_info": {
@@ -3866,20 +3879,6 @@
      "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html"
     }
    ]
-  },
-  {
-   "id": "c426150a84",
-   "headline": "F5 and Juniper Networks patch critical RCE vulnerabilities",
-   "summary": "F5 and Juniper Networks released patches for critical vulnerabilities that could enable remote code execution and full device takeover. The specific vulnerabilities and affected products were not detailed in the source. Organizations running F5 and Juniper equipment should apply patches immediately. Device takeover risks warrant urgent attention from network defenders.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
-   "published": "2026-10-16T09:54:34Z",
-   "added": "2026-10-16T10:00:40Z",
-   "also": []
   }
  ]
 }
