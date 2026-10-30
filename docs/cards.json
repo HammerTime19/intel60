@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-30T07:30:31Z",
+ "updated": "2026-10-30T08:00:36Z",
  "cards": [
+  {
+   "id": "5100bc6323",
+   "headline": "CISA adds GitLab RCE Cisco DoS to KEV catalog",
+   "summary": "CISA added two actively exploited vulnerabilities to its Known Exploited Vulnerabilities catalog: CVE-2026-97229, a CVSS 10.0 integer overflow in GitLab Community and Enterprise editions enabling remote code execution, and a Cisco firewall denial-of-service flaw. Both show evidence of active exploitation in the wild. Organizations should prioritize patching these flaws immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "watch": [
+    "Cisco"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+   "published": "2026-10-30T07:27:05Z",
+   "added": "2026-10-30T08:00:34Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-97229": {
+     "kev": true,
+     "epss": 0.18427,
+     "pct": 0.97229,
+     "cvss": 10.0,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-10-30T08:00:35Z"
+  },
   {
    "id": "7d9fa054e5",
    "headline": "Binance investigates potential $5.8 billion crypto theft",
@@ -544,7 +572,12 @@
    "url": "https://therecord.media/belarus-russia-hackers-ukraine-war",
    "published": "2026-10-28T15:15:00Z",
    "added": "2026-10-28T15:30:30Z",
-   "also": []
+   "also": [
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward"
+    }
+   ]
   },
   {
    "id": "7f47388e61",
@@ -3792,20 +3825,6 @@
    "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
    "published": "2026-10-16T09:54:34Z",
    "added": "2026-10-16T10:00:40Z",
-   "also": []
-  },
-  {
-   "id": "509b1847c7",
-   "headline": "Microsoft Office patches two dozen RCE vulnerabilities",
-   "summary": "Microsoft released security updates for Office addressing over 20 remote code execution vulnerabilities, alongside multiple information disclosure bugs and security bypass issues. The patches cover critical flaws that could allow attackers to execute arbitrary code on affected systems. Organizations should prioritize applying these updates to their Office deployments to prevent potential exploitation.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
-   "published": "2026-10-16T07:55:06Z",
-   "added": "2026-10-16T08:00:38Z",
    "also": []
   }
  ]
