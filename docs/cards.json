@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T21:30:30Z",
+ "updated": "2026-10-30T22:00:38Z",
  "cards": [
   {
    "id": "f167e37bde",
@@ -55,7 +55,12 @@
    "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
    "published": "2026-10-30T16:58:44Z",
    "added": "2026-10-30T18:30:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/china-vapor-panda-agentic-ai-artex-campaign-crowdstrike/"
+    }
+   ]
   },
   {
    "id": "4bf9426962",
@@ -322,13 +327,13 @@
    "cve_info": {
     "CVE-2026-118539": {
      "kev": false,
-     "cvss": null,
-     "sev": null,
+     "cvss": 6.5,
+     "sev": "medium",
      "epss": 0.00222,
      "pct": 0.12836
     }
    },
-   "cve_checked": "2026-10-30T15:30:33Z"
+   "cve_checked": "2026-10-30T22:00:38Z"
   },
   {
    "id": "5100bc6323",
