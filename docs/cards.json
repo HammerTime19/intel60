@@ -1,6 +1,56 @@
 {
- "updated": "2026-10-30T08:30:31Z",
+ "updated": "2026-10-30T09:00:46Z",
  "cards": [
+  {
+   "id": "d0d43ed2d2",
+   "headline": "TeamViewer integer overflow lets hosts hijack technician machines",
+   "summary": "CVE-2026-111585, an integer overflow in TeamViewer, allows malicious hosts to execute arbitrary code on a support technician's system. The flaw enables attackers to take control of the viewer's machine during a remote support session. Organizations using TeamViewer should update to the latest patched version and verify all support sessions for suspicious activity.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-111585"
+   ],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+   "published": "2026-10-30T08:44:49Z",
+   "added": "2026-10-30T09:00:36Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-111585": {
+     "kev": false,
+     "epss": 0.00288,
+     "pct": 0.2132,
+     "cvss": 8.8,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-30T09:00:37Z"
+  },
+  {
+   "id": "6d2a0802c4",
+   "headline": "Drupal Commerce Core authorization bypass actively exploited",
+   "summary": "Threat actors are actively exploiting CVE-2026-118539, a critical missing authorization flaw in Drupal Commerce Core. The vulnerability affects versions 0.0.0 to 2.41 and 3.0.0 to 3.3.13, allowing unauthorized actions in the shopping cart and e-commerce functionality. Organizations running affected Drupal Commerce versions should patch immediately. Monitor for suspicious account activity and unauthorized transactions.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-118539"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+   "published": "2026-10-30T07:45:30Z",
+   "added": "2026-10-30T09:00:36Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-118539": {
+     "kev": false,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-10-30T09:00:44Z"
+  },
   {
    "id": "5100bc6323",
    "headline": "CISA adds GitLab RCE Cisco DoS to KEV catalog",
