@@ -1,6 +1,36 @@
 {
- "updated": "2026-10-30T15:00:38Z",
+ "updated": "2026-10-30T15:30:35Z",
  "cards": [
+  {
+   "id": "9dcdf8c175",
+   "headline": "Defense contractor pleads guilty to aiding North Korea scheme",
+   "summary": "John Allen Kurrle Jr., a defense contractor with top secret security clearance, pleaded guilty to helping North Korea's remote worker scheme. He allowed co-conspirators to use his identity for 88 job applications, resulting in nine offers at U.S. companies, including military AI contractors. The longest position lasted three weeks. The Justice Department investigation exposed North Korea's efforts to infiltrate U.S. defense and tech companies through identity fraud.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/defense-contractor-guilty-north-korea-scheme-facilitator/",
+   "published": "2026-10-30T15:14:29Z",
+   "added": "2026-10-30T15:30:33Z",
+   "also": []
+  },
+  {
+   "id": "5ec9d44a06",
+   "headline": "PHP2Shell attacks Palo Alto Networks firewalls over week",
+   "summary": "Over 22.6 million instances running PHP are exposed to critical flaws actively exploited in PHP2Shell attacks targeting Palo Alto Networks firewalls. The campaign has been ongoing for more than a week. Attacks successfully compromise Palo Alto firewalls but fail against WordPress targets. Organizations using affected PHP versions should apply security patches immediately and monitor for unauthorized access.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [
+    "Palo Alto"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+   "published": "2026-10-30T15:09:25Z",
+   "added": "2026-10-30T15:30:33Z",
+   "also": []
+  },
   {
    "id": "c5d4f7a3fa",
    "headline": "Abandoned software projects expose millions of machines to takeover",
@@ -209,10 +239,12 @@
     "CVE-2026-118539": {
      "kev": false,
      "cvss": null,
-     "sev": null
+     "sev": null,
+     "epss": 0.00222,
+     "pct": 0.12836
     }
    },
-   "cve_checked": "2026-10-30T09:00:44Z"
+   "cve_checked": "2026-10-30T15:30:33Z"
   },
   {
    "id": "5100bc6323",
