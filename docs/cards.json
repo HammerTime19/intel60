@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-30T19:00:30Z",
+ "updated": "2026-10-30T19:30:34Z",
  "cards": [
+  {
+   "id": "84a2c916c3",
+   "headline": "Fashion retailer Resolve suffers payment card data breach",
+   "summary": "Fashion retailer Resolve disclosed a breach exposing customer payment card information. The company targets Millennial and Generation Z consumers. No details were provided about the number of affected cardholders, breach timeline, or attribution. Customers should monitor accounts for unauthorized charges and consider payment card replacement.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
+   "published": "2026-10-30T19:00:00Z",
+   "added": "2026-10-30T19:30:34Z",
+   "also": []
+  },
   {
    "id": "e6861203f2",
    "headline": "Apple sends mercenary spyware alerts to 99 countries",
