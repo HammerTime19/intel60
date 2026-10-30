@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T11:00:30Z",
+ "updated": "2026-10-30T11:30:44Z",
  "cards": [
   {
    "id": "ad2cc061f5",
@@ -59,6 +59,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/"
     }
    ],
    "cve_info": {
@@ -1486,7 +1490,7 @@
      "pct": 0.13058
     }
    },
-   "cve_checked": "2026-10-30T05:00:48Z"
+   "cve_checked": "2026-10-30T11:30:44Z"
   },
   {
    "id": "627cc70bbf",
