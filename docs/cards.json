@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T17:30:35Z",
+ "updated": "2026-10-30T18:01:40Z",
  "cards": [
   {
    "id": "e6861203f2",
@@ -311,6 +311,90 @@
     }
    },
    "cve_checked": "2026-10-30T08:00:35Z"
+  },
+  {
+   "id": "4854dc1468",
+   "headline": "CISA adds Ivanti Connect Secure auth bypass to KEV",
+   "summary": "CISA added CVE-2026-111357 to its Known Exploited Vulnerabilities catalog. The missing authentication flaw in Ivanti Connect Secure allows authenticated attackers to escalate privileges and can be chained with two other vulnerabilities. Federal agencies must apply mitigations by November 2, 2026, following BOD 26-04 guidance or discontinue use if patches are unavailable.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-111357",
+    "CVE-2026-104935",
+    "CVE-2026-118527"
+   ],
+   "watch": [
+    "Ivanti"
+   ],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+   "published": "2026-10-30T00:00:00Z",
+   "added": "2026-10-30T18:00:36Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-111357": {
+     "kev": true,
+     "epss": 0.00316,
+     "pct": 0.24569,
+     "cvss": 7.0,
+     "sev": "high"
+    },
+    "CVE-2026-104935": {
+     "kev": true,
+     "epss": 0.86766,
+     "pct": 0.99742,
+     "cvss": 8.6,
+     "sev": "high"
+    },
+    "CVE-2026-118527": {
+     "kev": true,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-10-30T18:00:57Z"
+  },
+  {
+   "id": "f53dd46908",
+   "headline": "CISA adds Ivanti Connect Secure upload flaw to KEV",
+   "summary": "CISA added CVE-2026-118527 to its Known Exploited Vulnerabilities catalog. The vulnerability in Ivanti Connect Secure allows authenticated remote attackers to upload files with attacker-controlled content to known disk locations. Exploitable in chains with two other CVEs. Federal agencies must mitigate by November 13, 2026, per BOD 26-04 guidance or discontinue use.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-118527",
+    "CVE-2026-104935",
+    "CVE-2026-111357"
+   ],
+   "watch": [
+    "Ivanti"
+   ],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+   "published": "2026-10-30T00:00:00Z",
+   "added": "2026-10-30T18:00:36Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-118527": {
+     "kev": true,
+     "cvss": null,
+     "sev": null
+    },
+    "CVE-2026-104935": {
+     "kev": true,
+     "epss": 0.86766,
+     "pct": 0.99742,
+     "cvss": 8.6,
+     "sev": "high"
+    },
+    "CVE-2026-111357": {
+     "kev": true,
+     "epss": 0.00316,
+     "pct": 0.24569,
+     "cvss": 7.0,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-10-30T18:01:17Z"
   },
   {
    "id": "7d9fa054e5",
@@ -1668,7 +1752,7 @@
     "CVE-2026-86950": {
      "kev": true,
      "epss": 0.26166,
-     "pct": 0.9799,
+     "pct": 0.97992,
      "cvss": 8.8,
      "sev": "high"
     },
@@ -1677,19 +1761,19 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00254,
-     "pct": 0.17051
+     "pct": 0.17082
     },
     "CVE-2026-28864": {
      "kev": false,
      "epss": 0.00183,
-     "pct": 0.07874,
+     "pct": 0.079,
      "cvss": 3.3,
      "sev": "low"
     },
     "CVE-2022-26704": {
      "kev": false,
      "epss": 0.01141,
-     "pct": 0.66574,
+     "pct": 0.66619,
      "cvss": 7.8,
      "sev": "high"
     },
@@ -1698,17 +1782,17 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00324,
-     "pct": 0.25409
+     "pct": 0.25458
     },
     "CVE-2026-112413": {
      "kev": false,
      "cvss": null,
      "sev": null,
      "epss": 0.00224,
-     "pct": 0.13058
+     "pct": 0.13087
     }
    },
-   "cve_checked": "2026-10-30T11:30:44Z"
+   "cve_checked": "2026-10-30T18:01:37Z"
   },
   {
    "id": "627cc70bbf",
@@ -3983,20 +4067,6 @@
     }
    },
    "cve_checked": "2026-10-16T20:30:33Z"
-  },
-  {
-   "id": "2f67e7ff74",
-   "headline": "OpenBSD root exploit chains 37-year-old shared-memory bug",
-   "summary": "Researchers demonstrated a local privilege escalation exploit that gains root access on OpenBSD 7.9 by chaining an integer overflow vulnerability with a separate kernel flaw. The exploit bypasses OpenBSD's KARL kernel-address randomization and hardware protections SMAP and SMEP. Proof-of-concept code was published after patches shipped. Local access is required.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-   "published": "2026-10-16T17:48:45Z",
-   "added": "2026-10-16T18:45:07Z",
-   "also": []
   }
  ]
 }

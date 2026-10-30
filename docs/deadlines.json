@@ -1,6 +1,28 @@
 {
- "updated": "2026-10-30T17:30:34Z",
+ "updated": "2026-10-30T18:01:37Z",
  "items": [
+  {
+   "cve": "CVE-2026-118527",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+   "added": "2026-10-30",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "f53dd46908"
+  },
+  {
+   "cve": "CVE-2026-111357",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "name": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+   "added": "2026-10-30",
+   "due": "2026-11-02",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "f53dd46908"
+  },
   {
    "cve": "CVE-2026-97229",
    "vendor": "GitLab",
@@ -186,7 +208,7 @@
    "due": "2026-10-19",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "c0b88e2e8c"
+   "card": null
   },
   {
    "cve": "CVE-2025-61624",
@@ -263,7 +285,7 @@
    "due": "2026-10-16",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
+   "card": "f53dd46908"
   },
   {
    "cve": "CVE-2026-96951",
