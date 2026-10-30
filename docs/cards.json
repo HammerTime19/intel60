@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-30T17:00:37Z",
+ "updated": "2026-10-30T17:30:35Z",
  "cards": [
+  {
+   "id": "e6861203f2",
+   "headline": "Apple sends mercenary spyware alerts to 99 countries",
+   "summary": "Apple notified users in 99 countries of potential infections from sophisticated mercenary spyware, bringing the total to over 150 countries affected since the notification campaign began. Recipients included journalists and documentary filmmakers. Apple declined to attribute attacks to specific actors or regions, citing the advanced nature of such threats. Researchers recommend caution against paid spyware removal services.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/apple-spyware-notifications-pall-mall-process/",
+   "published": "2026-10-30T17:07:05Z",
+   "added": "2026-10-30T17:30:34Z",
+   "also": []
+  },
   {
    "id": "4bf9426962",
    "headline": "Florida student financial aid site breach exposes 4.9M SSNs",
@@ -3983,35 +3997,6 @@
    "published": "2026-10-16T17:48:45Z",
    "added": "2026-10-16T18:45:07Z",
    "also": []
-  },
-  {
-   "id": "c0b88e2e8c",
-   "headline": "Chinese espionage group Armory Castle exploits BeyondTrust",
-   "summary": "Mandiant and Google Threat Intelligence tracked Chinese government-backed threat group Armory Castle exploiting CVE-2026-102764 in BeyondTrust Remote Support since late August. The group used privilege escalation and lateral movement tactics to evade detection. Only a small number of confirmed victims exist, but researchers warn wider exploitation is likely given zero-day use. Patch immediately and audit for unauthorized access.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-102764"
-   ],
-   "watch": [
-    "Ivanti",
-    "Citrix"
-   ],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/china-espionage-attacks-beyondtrust-zero-day-armory-castle/",
-   "published": "2026-10-16T17:09:09Z",
-   "added": "2026-10-16T17:30:41Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-102764": {
-     "kev": true,
-     "epss": 0.00601,
-     "pct": 0.47647,
-     "cvss": 9.3,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-16T17:30:42Z"
   }
  ]
 }
