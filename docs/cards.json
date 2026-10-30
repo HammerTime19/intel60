@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-30T14:00:38Z",
+ "updated": "2026-10-30T14:30:41Z",
  "cards": [
+  {
+   "id": "c5d4f7a3fa",
+   "headline": "Abandoned software projects expose millions of machines to takeover",
+   "summary": "A decade-old abandoned application was patched to prevent attackers from hijacking millions of machines through its unmaintained domain. Orphaned software projects with expired or inactive domains present ongoing security risks as attackers can exploit forgotten infrastructure. Organizations should audit legacy applications, revoke unused domains, and maintain inventory of all deployed software regardless of maintenance status.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
+   "published": "2026-10-30T14:10:37Z",
+   "added": "2026-10-30T14:30:40Z",
+   "also": []
+  },
+  {
+   "id": "27c3e9ac81",
+   "headline": "SS7 Diameter signaling flaws enable location tracking call interception",
+   "summary": "Vulnerabilities in SS7 and Diameter signaling protocols allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising devices. The attacks exploit trust relationships between telecom networks. Organizations should implement robust defenses for mobile services and consider security-focused carriers to mitigate these signaling protocol risks.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+   "published": "2026-10-30T14:00:10Z",
+   "added": "2026-10-30T14:30:40Z",
+   "also": []
+  },
   {
    "id": "4119054fab",
    "headline": "FBI seizes bulletproof hosting provider Virtualine domain",
