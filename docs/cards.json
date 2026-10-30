@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-30T16:00:37Z",
+ "updated": "2026-10-30T16:30:36Z",
  "cards": [
+  {
+   "id": "4bf9426962",
+   "headline": "Florida student financial aid site breach exposes 4.9M SSNs",
+   "summary": "The Florida Department of Education discovered a data breach in the Florida Student Financial Aid website on October 19, affecting 4.9 million people whose Social Security numbers were leaked. The breach exposed sensitive financial aid applicant data. The state has warned affected individuals. No information about the breach's cause, remediation timeline, or whether the website has been secured is currently available.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
+   "published": "2026-10-30T15:54:00Z",
+   "added": "2026-10-30T16:30:35Z",
+   "also": []
+  },
   {
    "id": "9dcdf8c175",
    "headline": "Defense contractor pleads guilty to aiding North Korea scheme",
@@ -4007,20 +4021,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/"
     }
    ]
-  },
-  {
-   "id": "7ca5392923",
-   "headline": "APT UAT-11985 targets Taiwan researchers with AitM phishing",
-   "summary": "An advanced persistent threat group tracked as UAT-11985 is conducting targeted spear-phishing campaigns against Taiwan research organizations. Attackers use fake calendar event invites to direct victims to an adversary-in-the-middle phishing framework designed to steal Google credentials and MFA codes. Security researchers disclosed the campaign details. Defenders should apply email security controls, MFA protection, and security awareness training.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
-   "published": "2026-10-16T16:16:44Z",
-   "added": "2026-10-16T16:30:38Z",
-   "also": []
   }
  ]
 }
