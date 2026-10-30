@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-30T12:00:40Z",
+ "updated": "2026-10-30T12:30:40Z",
  "cards": [
+  {
+   "id": "4eafb481bf",
+   "headline": "Trezor wallet sold by CryptoBilis contains suspected hardware implant",
+   "summary": "A Trezor Safe 5 hardware wallet purchased from reseller CryptoBilis contains a malicious circuit board that transmits recovery phrases via mobile network. Trezor has not yet examined the device but is urging customers who bought from CryptoBilis since March 2026 to immediately transfer funds to new wallets with fresh recovery phrases. This represents a serious supply chain compromise targeting cryptocurrency users.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+   "published": "2026-10-30T12:21:56Z",
+   "added": "2026-10-30T12:30:37Z",
+   "also": []
+  },
+  {
+   "id": "3556a8b024",
+   "headline": "WordPress high-severity race condition enables remote code execution",
+   "summary": "A high-severity unauthenticated race condition vulnerability in WordPress is under active exploitation by threat actors. The flaw enables remote code execution without authentication. WordPress installations are widely deployed across the internet, making this a significant risk. Users should prioritize updating to the patched version immediately when available and monitor for suspicious activity on compromised sites.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+   "published": "2026-10-30T12:04:13Z",
+   "added": "2026-10-30T12:30:37Z",
+   "also": []
+  },
   {
    "id": "8dd5d26e07",
    "headline": "Russian home goods chain Poryadok hit by cyberattack",
@@ -13,6 +41,20 @@
    "url": "https://therecord.media/russian-home-goods-chain-faces-disruptions",
    "published": "2026-10-30T11:30:00Z",
    "added": "2026-10-30T12:00:37Z",
+   "also": []
+  },
+  {
+   "id": "6734aa3aec",
+   "headline": "Syrian hacker Th3Pr0 sentenced for fake tweet market attack",
+   "summary": "Ahmad Umar Agha, a Syrian Electronic Army member known as Th3Pr0, was sentenced to 42 months in prison for hacking Western news outlets. The conspiracy, organized by members of former Syrian President Bashar al-Assad's inner circle, included the commander of Syria's General Intelligence Directorate. Agha's attack triggered a false tweet that caused a $136 billion market drop. The case reflects state-sponsored cyber operations targeting financial markets and media infrastructure.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+   "published": "2026-10-30T10:40:45Z",
+   "added": "2026-10-30T12:30:37Z",
    "also": []
   },
   {
@@ -3886,20 +3928,6 @@
    "url": "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach",
    "published": "2026-10-16T13:05:00Z",
    "added": "2026-10-16T13:30:38Z",
-   "also": []
-  },
-  {
-   "id": "862e2db1b4",
-   "headline": "Burger King Japan breached, 11 million records exposed",
-   "summary": "Burger King Japan disclosed a data breach affecting 11.18 million customer records after attackers gained access to a server. The incident exposed customer personal data held by the Japanese subsidiary of the global fast-food chain. Investigation into the breach's scope and how attackers gained access is ongoing. Affected customers should monitor accounts for fraudulent activity.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-   "published": "2026-10-16T12:01:29Z",
-   "added": "2026-10-16T12:30:38Z",
    "also": []
   }
  ]
