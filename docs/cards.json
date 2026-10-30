@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T06:00:31Z",
+ "updated": "2026-10-30T06:20:54Z",
  "cards": [
   {
    "id": "7d9fa054e5",
@@ -3807,41 +3807,6 @@
    "published": "2026-10-16T07:55:06Z",
    "added": "2026-10-16T08:00:38Z",
    "also": []
-  },
-  {
-   "id": "494b44d4dd",
-   "headline": "BeyondTrust patches critical Remote Support zero-day",
-   "summary": "BeyondTrust released a patch for a critical zero-day vulnerability in its Remote Support product that has been actively exploited in attacks since late August 2026. The flaw allowed attackers to compromise systems through the Remote Support application. Organizations using BeyondTrust Remote Support should apply the available patch without delay to prevent potential compromise.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-   "published": "2026-10-16T06:18:08Z",
-   "added": "2026-10-16T06:30:39Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/beyond-trust-cyberattack-china"
-    },
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
-    },
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs"
-    }
-   ]
   }
  ]
 }
