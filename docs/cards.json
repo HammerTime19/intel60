@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T16:30:36Z",
+ "updated": "2026-10-30T17:00:37Z",
  "cards": [
   {
    "id": "4bf9426962",
@@ -141,7 +141,12 @@
    "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
    "published": "2026-10-30T12:04:13Z",
    "added": "2026-10-30T12:30:37Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
+    }
+   ]
   },
   {
    "id": "8dd5d26e07",
@@ -213,7 +218,12 @@
    "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
    "published": "2026-10-30T08:44:49Z",
    "added": "2026-10-30T09:00:36Z",
-   "also": [],
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
+    }
+   ],
    "cve_info": {
     "CVE-2026-111585": {
      "kev": false,
@@ -4002,25 +4012,6 @@
     }
    },
    "cve_checked": "2026-10-16T17:30:42Z"
-  },
-  {
-   "id": "2f6312b776",
-   "headline": "AOMEI Backupper update servers compromised, backdoor delivered",
-   "summary": "Attackers gained access to AOMEI Backupper's update servers and replaced legitimate files with backdoored versions in brief windows between May and July 2026. Users checking for updates during these periods downloaded and executed malware. Google Threat Intelligence Group and Mandiant discovered the campaign. Users should verify their system integrity and update to the latest patched version.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-   "published": "2026-10-16T16:43:39Z",
-   "added": "2026-10-16T18:00:34Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/"
-    }
-   ]
   }
  ]
 }
