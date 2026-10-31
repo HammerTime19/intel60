@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T11:00:36Z",
+ "updated": "2026-10-31T11:30:29Z",
  "cards": [
   {
    "id": "e8eb82345a",
@@ -271,6 +271,10 @@
     {
      "source": "CyberScoop",
      "url": "https://cyberscoop.com/syrian-hacker-ahmad-umar-agha-sentenced/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/"
     }
    ]
   },
@@ -4059,20 +4063,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
    "published": "2026-10-18T14:23:16Z",
    "added": "2026-10-18T15:00:34Z",
-   "also": []
-  },
-  {
-   "id": "1fae9cde44",
-   "headline": "MALFEX npm package imgdecode hides shellcode loader",
-   "summary": "The malicious npm package \"imgdecode\" was discovered as part of the MALFEX supply chain attack campaign. Uploaded to npm on September 30, 2026, the package contained a shellcode loader hidden in a Windows native addon. With 979 downloads recorded, the package remained available on npm at the time of reporting. Developers should audit dependencies and remove this package immediately.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-   "published": "2026-10-17T11:11:56Z",
-   "added": "2026-10-17T11:30:33Z",
    "also": []
   }
  ]
