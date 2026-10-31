@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T23:30:28Z",
+ "updated": "2026-10-31T00:00:39Z",
  "items": [
   {
    "cve": "CVE-2026-118527",
@@ -393,17 +393,6 @@
    "name": "Fortinet FortiMail Path Traversal Vulnerability",
    "added": "2026-10-01",
    "due": "2026-10-04",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2026-76504",
-   "vendor": "Cisco",
-   "product": "Catalyst SD-WAN Manager",
-   "name": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
-   "added": "2026-09-30",
-   "due": "2026-10-03",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
    "card": null
