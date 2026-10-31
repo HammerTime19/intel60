@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:30:30Z",
+ "updated": "2026-10-31T13:00:44Z",
  "cards": [
   {
    "id": "1f2870fb86",
@@ -13,7 +13,12 @@
    "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
    "published": "2026-10-31T12:01:56Z",
    "added": "2026-10-31T12:30:29Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/"
+    }
+   ]
   },
   {
    "id": "e8eb82345a",
@@ -454,7 +459,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-10-31T06:30:32Z"
+   "cve_checked": "2026-10-31T13:00:37Z"
   },
   {
    "id": "f53dd46908",
@@ -496,7 +501,7 @@
      "sev": "high"
     }
    },
-   "cve_checked": "2026-10-31T07:00:36Z"
+   "cve_checked": "2026-10-31T13:00:44Z"
   },
   {
    "id": "7d9fa054e5",
