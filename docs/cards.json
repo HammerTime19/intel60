@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-31T18:00:30Z",
+ "updated": "2026-10-31T18:30:28Z",
  "cards": [
+  {
+   "id": "ba55b05e53",
+   "headline": "Northflank breach exposes customer AI API keys",
+   "summary": "Cloud application hosting platform Northflank suffered a security breach that allowed attackers to access and abuse customers' AI API keys. The company is urging all users to immediately rotate credentials and secrets stored on its platform. The scope of compromised data and affected customers is under investigation. Organizations should rotate all API keys and secrets immediately and monitor for unauthorized API usage.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "published": "2026-10-31T18:01:12Z",
+   "added": "2026-10-31T18:30:27Z",
+   "also": []
+  },
   {
    "id": "845cf24b89",
    "headline": "Android SMS of Death exploit crashes phones remotely",
