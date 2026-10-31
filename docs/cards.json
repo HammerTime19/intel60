@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-31T05:30:29Z",
+ "updated": "2026-10-31T06:00:34Z",
  "cards": [
+  {
+   "id": "e8eb82345a",
+   "headline": "ChatGPT share links enable code execution read private chats",
+   "summary": "Researchers at Parameter discovered a vulnerability in ChatGPT where malicious share links could execute attacker code within a logged-in user's session, allowing access to private conversations. OpenAI received the report on October 18 and patched the flaw eight days later, rating it P1 (most critical). Users should avoid clicking ChatGPT links from untrusted sources until confirmed current.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "published": "2026-10-31T05:33:41Z",
+   "added": "2026-10-31T06:00:33Z",
+   "also": []
+  },
+  {
+   "id": "21ad2182a1",
+   "headline": "Cloudflare mitigates 18.2M DDoS attacks Q3 2026",
+   "summary": "Cloudflare reported a 38% increase in network-layer DDoS attacks during Q3 2026, with threat actors launching approximately 8,226 attacks per hour. The company autonomously mitigated 18.2 million L3 attacks and 14.4 trillion HTTP DDoS requests. While DDoS volumes are rising, defenders using Cloudflare's mitigation services are protected against these volumetric attacks.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+   "published": "2026-10-31T04:56:12Z",
+   "added": "2026-10-31T06:00:33Z",
+   "also": []
+  },
   {
    "id": "f167e37bde",
    "headline": "Linux kernel MPTCP flaw enables remote root attacks",
