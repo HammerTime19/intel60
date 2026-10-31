@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-31T12:00:32Z",
+ "updated": "2026-10-31T12:30:30Z",
  "cards": [
+  {
+   "id": "1f2870fb86",
+   "headline": "Chainalysis breach exposes customer identity data",
+   "summary": "Blockchain analysis firm Chainalysis confirmed a cybersecurity incident where an external actor accessed non-sensitive customer identity data. The breach did not compromise investigation content, authentication credentials, or session tokens. The company detected the intrusion this month and is investigating the scope. Customers should monitor for identity-related issues and await further disclosure from Chainalysis.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "published": "2026-10-31T12:01:56Z",
+   "added": "2026-10-31T12:30:29Z",
+   "also": []
+  },
   {
    "id": "e8eb82345a",
    "headline": "ChatGPT share links enable code execution read private chats",
