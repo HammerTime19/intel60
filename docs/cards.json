@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T06:00:34Z",
+ "updated": "2026-10-31T06:30:32Z",
  "cards": [
   {
    "id": "e8eb82345a",
@@ -431,7 +431,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-10-31T00:30:27Z"
+   "cve_checked": "2026-10-31T06:30:32Z"
   },
   {
    "id": "f53dd46908",
@@ -4069,43 +4069,6 @@
    "published": "2026-10-17T11:11:56Z",
    "added": "2026-10-17T11:30:33Z",
    "also": []
-  },
-  {
-   "id": "b3dabcb4d0",
-   "headline": "Hackers use compromised ConnectWise credential on 173 M365 tenants",
-   "summary": "Unknown threat actors abused a compromised Microsoft 365 credential belonging to ConnectWise Cloud Backup to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a cloud backup and recovery service for managed service providers. The campaign is actively ongoing. Organizations using this service should reset credentials and review account access logs immediately.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [
-    "Microsoft 365"
-   ],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-   "published": "2026-10-17T06:16:46Z",
-   "added": "2026-10-17T07:00:33Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack"
-    },
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/connectwise-cloud-backup-supply-chain-attack/"
-    }
-   ]
   }
  ]
 }
