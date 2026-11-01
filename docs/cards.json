@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T15:00:45Z",
+ "updated": "2026-11-01T15:30:29Z",
  "cards": [
   {
    "id": "c1c2013197",
@@ -459,7 +459,12 @@
    "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
    "published": "2026-10-30T07:27:05Z",
    "added": "2026-10-30T08:00:34Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-97229": {
      "kev": true,
