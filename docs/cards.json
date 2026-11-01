@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T14:30:33Z",
+ "updated": "2026-11-01T15:00:45Z",
  "cards": [
   {
    "id": "c1c2013197",
@@ -1929,19 +1929,19 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00254,
-     "pct": 0.17087
+     "pct": 0.17081
     },
     "CVE-2026-28864": {
      "kev": false,
      "epss": 0.00183,
-     "pct": 0.07892,
+     "pct": 0.0789,
      "cvss": 3.3,
      "sev": "low"
     },
     "CVE-2022-26704": {
      "kev": false,
      "epss": 0.01141,
-     "pct": 0.6666,
+     "pct": 0.66658,
      "cvss": 7.8,
      "sev": "high"
     },
@@ -1950,17 +1950,17 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00324,
-     "pct": 0.25478
+     "pct": 0.25475
     },
     "CVE-2026-112413": {
      "kev": false,
      "cvss": null,
      "sev": null,
      "epss": 0.00224,
-     "pct": 0.13083
+     "pct": 0.1308
     }
    },
-   "cve_checked": "2026-11-01T08:30:51Z"
+   "cve_checked": "2026-11-01T15:00:45Z"
   },
   {
    "id": "627cc70bbf",
