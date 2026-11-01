@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-01T09:30:29Z",
+ "updated": "2026-11-01T10:00:33Z",
  "cards": [
+  {
+   "id": "c1c2013197",
+   "headline": "LXD MicroCloud CVSS 10.0 flaw enables client impersonation",
+   "summary": "A critical vulnerability in Canonical's LXD and MicroCloud allows attackers to impersonate trusted clients without possessing their private key. Attackers need network access to the HTTPS API and the target client's public certificate. Successful exploitation grants full access to the cluster and virtual machines with the compromised client's privileges. A patch is recommended for all affected deployments.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+   "published": "2026-11-01T08:51:31Z",
+   "added": "2026-11-01T10:00:31Z",
+   "also": []
+  },
   {
    "id": "ba55b05e53",
    "headline": "Northflank breach exposes customer AI API keys",
