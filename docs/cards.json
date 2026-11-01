@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T07:30:28Z",
+ "updated": "2026-11-01T08:00:47Z",
  "cards": [
   {
    "id": "ba55b05e53",
@@ -259,7 +259,12 @@
    "url": "https://therecord.media/hackers-target-government-windows-systems-asia-new-malware",
    "published": "2026-10-30T12:36:00Z",
    "added": "2026-10-30T13:00:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html"
+    }
+   ]
   },
   {
    "id": "4eafb481bf",
@@ -497,7 +502,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-01T01:30:34Z"
+   "cve_checked": "2026-11-01T08:00:36Z"
   },
   {
    "id": "f53dd46908",
@@ -539,7 +544,7 @@
      "sev": "high"
     }
    },
-   "cve_checked": "2026-11-01T01:30:41Z"
+   "cve_checked": "2026-11-01T08:00:47Z"
   },
   {
    "id": "7d9fa054e5",
@@ -604,6 +609,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/polymarket-confirms-cyberattack-third-party"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html"
     }
    ]
   },
