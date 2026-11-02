@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T08:30:29Z",
+ "updated": "2026-11-02T09:00:35Z",
  "cards": [
   {
    "id": "0bc09b4235",
@@ -4138,22 +4138,6 @@
    "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
    "published": "2026-10-19T09:37:04Z",
    "added": "2026-10-19T10:00:43Z",
-   "also": []
-  },
-  {
-   "id": "15156651e2",
-   "headline": "October Windows Server updates break Exchange mail flow",
-   "summary": "Microsoft's October security updates for Windows Server are causing Outlook Web Access (OWA) sign-in failures and mail delivery disruption on some Exchange Server systems. The issue affects organizations running affected Windows Server and Exchange versions. Microsoft is investigating and working on a resolution. Administrators should monitor systems and consider delaying updates or applying workarounds until a fix is available.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "Exchange"
-   ],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-   "published": "2026-10-19T08:58:41Z",
-   "added": "2026-10-19T09:00:35Z",
    "also": []
   }
  ]
