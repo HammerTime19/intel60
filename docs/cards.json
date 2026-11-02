@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T21:00:33Z",
+ "updated": "2026-11-02T21:30:32Z",
  "cards": [
   {
    "id": "18836a2757",
@@ -4040,20 +4040,6 @@
      "url": "https://www.securityweek.com/hackers-steal-1-8-million-records-from-nikkei/"
     }
    ]
-  },
-  {
-   "id": "cd2448e33b",
-   "headline": "Microsoft support scam uses Russian TDS, Cloudflare abuse",
-   "summary": "Researchers infiltrated a large-scale scam operation impersonating Microsoft support. The scheme leverages a malicious traffic distribution system operated by a Russian organization and abuses thousands of Cloudflare links to route victims. This phishing infrastructure is widely deployed and targets unsuspecting users. Users should verify support contacts independently and avoid clicking suspicious links.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation",
-   "published": "2026-10-19T21:13:41Z",
-   "added": "2026-10-19T22:00:36Z",
-   "also": []
   }
  ]
 }
