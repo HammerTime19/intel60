@@ -1,6 +1,50 @@
 {
- "updated": "2026-11-02T11:00:38Z",
+ "updated": "2026-11-02T11:30:36Z",
  "cards": [
+  {
+   "id": "e52f753455",
+   "headline": "Synology warns of C3RB3R ransomware targeting NAS devices",
+   "summary": "Synology issued an urgent warning about a surge in C3RB3R ransomware attacks targeting NAS appliances. The campaign is actively exploiting vulnerable devices in the wild. Synology urges customers to apply security patches immediately and implement network segmentation to limit lateral movement if devices are compromised.",
+   "severity": "critical",
+   "category": "Ransomware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+   "published": "2026-11-02T11:28:42Z",
+   "added": "2026-11-02T11:30:33Z",
+   "also": []
+  },
+  {
+   "id": "d596e3f2ba",
+   "headline": "Attackers abuse AD CS to steal credentials via Teams impersonation",
+   "summary": "Microsoft investigated intrusions where attackers impersonated IT support on Teams to trick employees into granting remote access. Attackers then exploited misconfigured Active Directory Certificate Services to obtain login certificates for privileged accounts, including domain controller access. Organizations should harden AD CS configurations and disable unnecessary certificate templates.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+   "published": "2026-11-02T11:08:45Z",
+   "added": "2026-11-02T11:30:33Z",
+   "also": []
+  },
+  {
+   "id": "87a25e1b55",
+   "headline": "CL-UNK-1211 targets government Linux servers with SysGoRAT",
+   "summary": "Palo Alto Networks Unit 42 disclosed a cyber espionage campaign targeting Linux infrastructure at government and state-affiliated entities between October 2025 and April 2026. The threat group, tracked as CL-UNK-1211, deployed SysGoRAT malware and suspected AI-generated attack scripts. Defenders should review logs for SysGoRAT indicators and patch exposed Linux systems immediately.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [
+    "Palo Alto"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+   "published": "2026-11-02T10:49:59Z",
+   "added": "2026-11-02T11:30:33Z",
+   "also": []
+  },
   {
    "id": "0bc09b4235",
    "headline": "Ivanti Connect Secure chained zero-days added to KEV",
