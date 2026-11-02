@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-02T16:30:30Z",
+ "updated": "2026-11-02T16:59:06Z",
  "cards": [
+  {
+   "id": "acbef9b6b6",
+   "headline": "Belarusian and Ukrainian hackers breach Russian statistics agency",
+   "summary": "An alliance of Belarusian and pro-Ukrainian hackers claimed responsibility for a cyberattack on Russia's federal statistics agency Rosstat, reportedly stealing sensitive government data. Russia's statistics agency has confirmed the breach. Details on the scope of stolen data and attack methods remain limited.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/hackers-ukraine-belarus-russia",
+   "published": "2026-11-02T16:30:00Z",
+   "added": "2026-11-02T16:58:51Z",
+   "also": []
+  },
+  {
+   "id": "948be6f589",
+   "headline": "Google disrupts 1.3M Android TV botnet, fingers Videostrong",
+   "summary": "Google took down a botnet of 1.3 million Android devices, predominantly TV set-top boxes, in late October. Google asserts Videostrong deliberately installed a backdoor in the devices and sold access to criminals, who exploited the botnet for ad fraud and unauthorized bandwidth resale. The operation involved seizing command-and-control servers.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+   "published": "2026-11-02T15:50:26Z",
+   "added": "2026-11-02T16:58:51Z",
+   "also": []
+  },
   {
    "id": "be1d39eaf1",
    "headline": "BTCPay Server hot wallet thefts target outdated versions",
@@ -2138,19 +2166,19 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00254,
-     "pct": 0.17081
+     "pct": 0.17066
     },
     "CVE-2026-28864": {
      "kev": false,
      "epss": 0.00183,
-     "pct": 0.0789,
+     "pct": 0.07884,
      "cvss": 3.3,
      "sev": "low"
     },
     "CVE-2022-26704": {
      "kev": false,
      "epss": 0.01141,
-     "pct": 0.66658,
+     "pct": 0.66656,
      "cvss": 7.8,
      "sev": "high"
     },
@@ -2159,17 +2187,17 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00324,
-     "pct": 0.25475
+     "pct": 0.25457
     },
     "CVE-2026-112413": {
      "kev": false,
      "cvss": null,
      "sev": null,
      "epss": 0.00224,
-     "pct": 0.1308
+     "pct": 0.13063
     }
    },
-   "cve_checked": "2026-11-02T10:30:42Z"
+   "cve_checked": "2026-11-02T16:59:05Z"
   },
   {
    "id": "627cc70bbf",
@@ -4028,29 +4056,6 @@
     {
      "source": "CISA KEV",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
-    }
-   ]
-  },
-  {
-   "id": "425846ce93",
-   "headline": "Ahold Delhaize cyberattack disrupts US, European grocery operations",
-   "summary": "Ahold Delhaize, a major multinational grocery retailer, confirmed a cyberattack forced it to take systems offline across most U.S. and European brands, impacting customers on both continents. The nature and scope of the attack remain unclear from available details. The retailer has taken systems offline as a containment measure. Retailers should review incident response protocols and monitor for similar attacks.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
-   "published": "2026-10-19T16:45:00Z",
-   "added": "2026-10-19T17:00:39Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/"
     }
    ]
   }
