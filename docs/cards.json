@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T18:30:29Z",
+ "updated": "2026-11-02T19:00:30Z",
  "cards": [
   {
    "id": "b22118a1e1",
@@ -4039,20 +4039,6 @@
    "url": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
    "published": "2026-10-19T19:55:01Z",
    "added": "2026-10-19T20:30:37Z",
-   "also": []
-  },
-  {
-   "id": "06accfcb31",
-   "headline": "Bullhorn staffing platform attacked, system offline",
-   "summary": "Staffing software company Bullhorn has taken its platform offline to contain a cyberattack that caused system-wide outages. The extent of the breach and whether attacker data was exfiltrated remains unclear. Users should monitor for notifications from Bullhorn regarding restoration and potential credential compromise. Organizations should prepare incident response procedures and credential rotation plans.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
-   "published": "2026-10-19T18:51:13Z",
-   "added": "2026-10-19T19:00:40Z",
    "also": []
   }
  ]
