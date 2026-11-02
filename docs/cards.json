@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T09:30:50Z",
+ "updated": "2026-11-02T10:00:39Z",
  "cards": [
   {
    "id": "0bc09b4235",
@@ -18,7 +18,12 @@
    "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
    "published": "2026-11-02T07:57:49Z",
    "added": "2026-11-02T08:00:37Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-111357": {
      "kev": true,
@@ -4101,43 +4106,6 @@
    "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
    "published": "2026-10-19T10:06:40Z",
    "added": "2026-10-19T12:00:41Z",
-   "also": []
-  },
-  {
-   "id": "3c5cedb37c",
-   "headline": "Serbian critics targeted with Pegasus, NoviSpy spyware",
-   "summary": "Spyware including Pegasus and NoviSpy has been deployed against prominent Serbian figures ahead of elections, including the University of Belgrade rector and a lawyer from the Public Prosecutor's Office for Organized Crime. The SHARE Foundation and Citizen Lab confirmed the targeting. This follows a September wave affecting 14 people including an MP. The campaign appears linked to political pressure on anti-corruption activists.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/pegasus-spyware-serbia-critics-elections/",
-   "published": "2026-10-19T10:00:00Z",
-   "added": "2026-10-19T10:30:34Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/serbia-spyware-pegasus-elections"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html"
-    }
-   ]
-  },
-  {
-   "id": "82c7537f54",
-   "headline": "MITRE ATT&CK v20 adds AI abuse, MFA bypass tactics",
-   "summary": "MITRE ATT&CK framework version 20 introduces 15 new detection strategies covering emerging threats including AI abuse, MFA bypass techniques, and water utility attacks. The update adds six Enterprise and nine ICS tactics supported by 38 analytics to help defenders detect adversary behaviors across these threat categories.",
-   "severity": "info",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
-   "published": "2026-10-19T09:37:04Z",
-   "added": "2026-10-19T10:00:43Z",
    "also": []
   }
  ]
