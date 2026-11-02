@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-02T21:30:32Z",
+ "updated": "2026-11-02T22:00:35Z",
  "cards": [
+  {
+   "id": "d32892baf1",
+   "headline": "Brazil's Mercado Bitcoin suffers cyberattack, $46M withdrawn",
+   "summary": "Mercado Bitcoin, Brazil's largest cryptocurrency exchange, confirmed a cyberattack with over $46 million in funds leaving the platform. Blockchain security firms tracked the suspicious outflows following the breach. The exchange is investigating the incident. Users should secure their accounts and monitor for unauthorized activity on their crypto holdings.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "Exchange"
+   ],
+   "source": "The Record",
+   "url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+   "published": "2026-11-02T21:42:00Z",
+   "added": "2026-11-02T22:00:34Z",
+   "also": []
+  },
   {
    "id": "18836a2757",
    "headline": "BYOD ransomware gang claims Michigan State University attack",
@@ -437,6 +453,10 @@
     {
      "source": "CyberScoop",
      "url": "https://cyberscoop.com/china-vapor-panda-agentic-ai-artex-campaign-crowdstrike/"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/"
     }
    ]
   },
@@ -4021,25 +4041,6 @@
     }
    },
    "cve_checked": "2026-10-20T20:00:45Z"
-  },
-  {
-   "id": "5a8d0413be",
-   "headline": "Nikkei suffers third breach in a month, 1.83M records exposed",
-   "summary": "Nikkei Inc. disclosed its third data breach within approximately one month, exposing 1.83 million personal information records. The repeated breaches indicate persistent security vulnerabilities or ongoing compromise of the company's systems. Affected individuals should monitor accounts for unauthorized activity and consider credit monitoring services as a precaution.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
-   "published": "2026-10-19T21:49:48Z",
-   "added": "2026-10-19T22:00:36Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/hackers-steal-1-8-million-records-from-nikkei/"
-    }
-   ]
   }
  ]
 }
