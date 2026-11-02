@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-02T15:00:42Z",
+ "updated": "2026-11-02T15:30:35Z",
  "cards": [
+  {
+   "id": "be1d39eaf1",
+   "headline": "BTCPay Server hot wallet thefts target outdated versions",
+   "summary": "BTCPay Server, an open-source cryptocurrency payment processor, warns that attackers are draining hot wallets on instances running older versions. The maintainer urges users to install the latest version immediately to mitigate theft risks. Defenders should update all BTCPay Server instances and review wallet security controls.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+   "published": "2026-11-02T15:03:07Z",
+   "added": "2026-11-02T15:30:35Z",
+   "also": []
+  },
   {
    "id": "39749d757e",
    "headline": "DarkBlinders targets Israeli and Iraqi Kurdish government cloud systems",
@@ -4067,48 +4081,6 @@
    "published": "2026-10-19T15:47:50Z",
    "added": "2026-10-19T16:00:40Z",
    "also": []
-  },
-  {
-   "id": "8b887cc388",
-   "headline": "DHS bans Chinese AI model DeepSeek from federal agencies",
-   "summary": "The Department of Homeland Security has banned the use of Chinese AI model DeepSeek and its parent company Hangzhou DeepSeek Artificial Intelligence by civilian federal agencies. The ban, effective since June 2026, cites national security concerns including data storage in China, privacy risks, and mass data collection potential. Agencies must cease procurement of DeepSeek products and services immediately.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/",
-   "published": "2026-10-19T15:27:20Z",
-   "added": "2026-10-19T16:00:40Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/"
-    }
-   ]
-  },
-  {
-   "id": "c513afb976",
-   "headline": "Rank Math PRO WordPress plugin compromised in supply chain",
-   "summary": "Hackers injected malware into Rank Math PRO version 3.0.123 distributed between October 15-16. The compromised WordPress plugin affected users who downloaded packages during this window. WordPress administrators should update immediately and audit any installations that ran the affected version for signs of compromise.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
-   "published": "2026-10-19T15:20:53Z",
-   "added": "2026-10-19T15:30:35Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/"
-    }
-   ]
   }
  ]
 }
