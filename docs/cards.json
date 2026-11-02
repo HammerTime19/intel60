@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-02T19:00:30Z",
+ "updated": "2026-11-02T19:30:37Z",
  "cards": [
+  {
+   "id": "b9a8fe94cb",
+   "headline": "Abrigo Sageworks fintech platform hit by suspected cyberattack",
+   "summary": "Financial technology company Abrigo's Sageworks risk management application went offline following detected irregular activity in its environment. The platform has been partially restored, with borrower-facing capabilities remaining offline. Abrigo is investigating the incident. Organizations using Sageworks should monitor account activity and await further guidance from the vendor on full service restoration.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+   "published": "2026-11-02T19:00:45Z",
+   "added": "2026-11-02T19:30:32Z",
+   "also": []
+  },
   {
    "id": "b22118a1e1",
    "headline": "Polymarket prediction market breach forces $3.9M reimbursement",
@@ -298,7 +312,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-02T13:00:35Z"
+   "cve_checked": "2026-11-02T19:30:36Z"
   },
   {
    "id": "1f2870fb86",
