@@ -1,6 +1,40 @@
 {
- "updated": "2026-11-02T07:30:25Z",
+ "updated": "2026-11-02T08:00:47Z",
  "cards": [
+  {
+   "id": "0bc09b4235",
+   "headline": "Ivanti Connect Secure chained zero-days added to KEV",
+   "summary": "CISA added two previously zero-day Ivanti Connect Secure vulnerabilities, CVE-2026-111357 and CVE-2026-118527, to its Known Exploited Vulnerabilities catalog. These flaws were exploited in chained attacks against VPN deployments. Organizations using Ivanti Connect Secure should prioritize patching these flaws and review VPN access logs for signs of compromise.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-111357",
+    "CVE-2026-118527"
+   ],
+   "watch": [
+    "Ivanti"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
+   "published": "2026-11-02T07:57:49Z",
+   "added": "2026-11-02T08:00:37Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-111357": {
+     "kev": true,
+     "epss": 0.00533,
+     "pct": 0.45024,
+     "cvss": 7.0,
+     "sev": "high"
+    },
+    "CVE-2026-118527": {
+     "kev": true,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-11-02T08:00:45Z"
+  },
   {
    "id": "9068a344a0",
    "headline": "VOLTA infostealer uses LLMs to rank victims by financial value",
