@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T12:30:27Z",
+ "updated": "2026-11-02T13:00:35Z",
  "cards": [
   {
    "id": "e52f753455",
@@ -148,7 +148,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-02T06:30:35Z"
+   "cve_checked": "2026-11-02T13:00:35Z"
   },
   {
    "id": "1f2870fb86",
@@ -4090,29 +4090,6 @@
    "published": "2026-10-19T13:05:45Z",
    "added": "2026-10-19T14:00:45Z",
    "also": []
-  },
-  {
-   "id": "bcca2fd24d",
-   "headline": "Plex2Shell exploit chain weaponized against Plex servers",
-   "summary": "Threat actors exploited the Plex2Shell vulnerability chain within hours of public disclosure to deliver cryptocurrency miners and proxy software to Plex media servers. The exploitation demonstrates active weaponization of the flaw in production environments. Server administrators should immediately update Plex to the latest patched version to prevent compromise.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
-   "published": "2026-10-19T12:44:39Z",
-   "added": "2026-10-19T12:58:24Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html"
-    },
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
-    }
-   ]
   }
  ]
 }
