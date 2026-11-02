@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T10:30:42Z",
+ "updated": "2026-11-02T11:00:38Z",
  "cards": [
   {
    "id": "0bc09b4235",
@@ -122,6 +122,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/"
     }
    ]
   },
