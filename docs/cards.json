@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T11:30:36Z",
+ "updated": "2026-11-02T12:00:30Z",
  "cards": [
   {
    "id": "e52f753455",
@@ -4113,34 +4113,6 @@
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
     }
    ]
-  },
-  {
-   "id": "6e3176643e",
-   "headline": "Compromised login exposes millions of California students' records",
-   "summary": "Attackers used stolen credentials to access an ETS SFTP server, obtaining educational records of California students dating back to 2006. The breach exposed personal information of millions of students through a single compromised login. Educational institutions should audit access controls and require credential rotation for legacy systems.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
-   "published": "2026-10-19T11:55:50Z",
-   "added": "2026-10-19T12:00:41Z",
-   "also": []
-  },
-  {
-   "id": "5368079cd4",
-   "headline": "FirstVDS hosting breach exposes customer passwords and credentials",
-   "summary": "Russian hosting provider FirstVDS suffered a data breach after attackers exploited a vulnerability in server management software. Hackers stole customer passwords, access credentials, and other sensitive data. Affected customers should immediately reset credentials and enable multi-factor authentication across accounts managed through FirstVDS infrastructure.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/russia-cyberattack-firstvds-cloud",
-   "published": "2026-10-19T11:45:00Z",
-   "added": "2026-10-19T12:00:41Z",
-   "also": []
   }
  ]
 }
