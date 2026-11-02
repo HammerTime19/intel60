@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-02T14:00:36Z",
+ "updated": "2026-11-02T14:30:51Z",
  "cards": [
+  {
+   "id": "96515b09df",
+   "headline": "PapRAT espionage campaign targets South Asia organizations",
+   "summary": "The India-linked threat group PapRAT is conducting cyber espionage operations against organizations in South Asia, exploiting legitimate Windows functionality across three distinct attack chains. The campaign leverages built-in system tools to evade detection and establish persistence. Defenders should monitor for suspicious Windows process execution patterns and implement application whitelisting policies.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
+   "published": "2026-11-02T14:00:00Z",
+   "added": "2026-11-02T14:30:50Z",
+   "also": []
+  },
   {
    "id": "adcc13fa97",
    "headline": "Revolve fashion retailer breach hits 180K customers",
@@ -27,7 +41,12 @@
    "url": "https://therecord.media/cyberattack-grocery-freezers-europe",
    "published": "2026-11-02T13:00:00Z",
    "added": "2026-11-02T13:30:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/"
+    }
+   ]
   },
   {
    "id": "ad2df65419",
@@ -124,7 +143,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-02T08:00:45Z"
+   "cve_checked": "2026-11-02T14:30:50Z"
   },
   {
    "id": "9068a344a0",
@@ -4075,20 +4094,6 @@
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
    "published": "2026-10-19T14:55:23Z",
    "added": "2026-10-19T15:00:38Z",
-   "also": []
-  },
-  {
-   "id": "e4ddb72db3",
-   "headline": "OnlyFans copyright takedowns exploit vulnerable websites",
-   "summary": "Attackers are leveraging OnlyFans copyright takedown requests to manipulate search results and compromise vulnerable university and government websites. The campaign exposes weaknesses in how organizations handle administrative processes and SEO manipulation. Security teams should review takedown request handling procedures and patch web vulnerabilities to prevent similar exploitation.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites",
-   "published": "2026-10-19T14:28:11Z",
-   "added": "2026-10-19T15:30:35Z",
    "also": []
   }
  ]
