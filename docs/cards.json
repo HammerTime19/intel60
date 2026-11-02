@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T18:00:34Z",
+ "updated": "2026-11-02T18:30:29Z",
  "cards": [
   {
    "id": "b22118a1e1",
@@ -41,7 +41,12 @@
    "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
    "published": "2026-11-02T15:50:26Z",
    "added": "2026-11-02T16:58:51Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/"
+    }
+   ]
   },
   {
    "id": "be1d39eaf1",
@@ -4049,29 +4054,6 @@
    "published": "2026-10-19T18:51:13Z",
    "added": "2026-10-19T19:00:40Z",
    "also": []
-  },
-  {
-   "id": "561dd3f2ed",
-   "headline": "Siemens Software Center DLL hijacking exploited in ClickFix attacks",
-   "summary": "Attackers weaponized a genuine Siemens Software Center application by bundling malicious DLLs to compromise Windows systems through ClickFix social engineering lures. The vulnerability allows DLL hijacking attacks that exploit legitimate signed executables. Users should avoid clicking suspicious links and validate software downloads from official sources only.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
-   "published": "2026-10-19T18:15:39Z",
-   "added": "2026-10-19T18:30:34Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
-    },
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
-    }
-   ]
   }
  ]
 }
