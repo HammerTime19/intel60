@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T15:30:35Z",
+ "updated": "2026-11-02T16:00:46Z",
  "cards": [
   {
    "id": "be1d39eaf1",
@@ -708,7 +708,7 @@
     "CVE-2026-111357": {
      "kev": true,
      "epss": 0.00533,
-     "pct": 0.45024,
+     "pct": 0.45014,
      "cvss": 7.0,
      "sev": "high"
     },
@@ -725,7 +725,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-02T09:30:43Z"
+   "cve_checked": "2026-11-02T16:00:40Z"
   },
   {
    "id": "f53dd46908",
@@ -762,12 +762,12 @@
     "CVE-2026-111357": {
      "kev": true,
      "epss": 0.00533,
-     "pct": 0.45024,
+     "pct": 0.45014,
      "cvss": 7.0,
      "sev": "high"
     }
    },
-   "cve_checked": "2026-11-02T09:30:50Z"
+   "cve_checked": "2026-11-02T16:00:46Z"
   },
   {
    "id": "7d9fa054e5",
@@ -4053,34 +4053,6 @@
      "url": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/"
     }
    ]
-  },
-  {
-   "id": "f650fcc751",
-   "headline": "VK social media disrupted by data center drone strike",
-   "summary": "Russian social media platform VK experienced widespread service disruptions starting Sunday following a drone strike on one of its data centers. Users reported inability to load news feeds, access music, and use other platform features. The incident highlights infrastructure vulnerability to aerial attacks during ongoing military conflict.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/russian-social-media-giant-vk-faces-disruptions-drone-strike-data-center",
-   "published": "2026-10-19T15:55:00Z",
-   "added": "2026-10-19T16:00:40Z",
-   "also": []
-  },
-  {
-   "id": "c2afa77235",
-   "headline": "Drupal patches critical RCE in Entity List, Field UI modules",
-   "summary": "Drupal has released patches for critical remote code execution flaws affecting the Entity List and Field UI core modules. Exploitation paths exist when contributed modules are also present. The vulnerability poses fast exploitation risk. Administrators should update to the latest patched versions immediately to prevent unauthenticated code execution.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
-   "published": "2026-10-19T15:47:50Z",
-   "added": "2026-10-19T16:00:40Z",
-   "also": []
   }
  ]
 }
