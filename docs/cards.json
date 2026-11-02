@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-02T13:30:40Z",
+ "updated": "2026-11-02T14:00:36Z",
  "cards": [
+  {
+   "id": "adcc13fa97",
+   "headline": "Revolve fashion retailer breach hits 180K customers",
+   "summary": "Online fashion retailer Revolve suffered a data breach affecting at least 180,000 customers. Attackers accessed the company's shopping platform and stole personal information and payment card data. The breach has been disclosed but remediation status and customer notification details remain unclear. Affected customers should monitor accounts for fraud.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
+   "published": "2026-11-02T13:35:21Z",
+   "added": "2026-11-02T14:00:35Z",
+   "also": []
+  },
   {
    "id": "00a3b1e54d",
    "headline": "European supermarket freezers hacked in second targeted wave",
@@ -4075,34 +4089,6 @@
    "url": "https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites",
    "published": "2026-10-19T14:28:11Z",
    "added": "2026-10-19T15:30:35Z",
-   "also": []
-  },
-  {
-   "id": "10c7257940",
-   "headline": "Underground market sells forged KYC bypass services",
-   "summary": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client checks. These underground services operate to create and maintain fraudulent verified accounts, enabling bad actors to circumvent identity verification safeguards used by financial institutions and payment platforms.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
-   "published": "2026-10-19T14:00:10Z",
-   "added": "2026-10-19T14:30:39Z",
-   "also": []
-  },
-  {
-   "id": "5f2037864b",
-   "headline": "Feds suspect ransom negotiator ran ShinyHunters extortion",
-   "summary": "US investigators identified executives at ransomware negotiation firms with unusually close ties to ShinyHunters. One US executive allegedly helped operate ShinyHunters' victim pressure website. ShinyHunters, including FBI recruitment site breach, has extorted over $70 million this year. The group's control passed to 'Rey', a teenage hacker from Jordan, after original French members were arrested. Law enforcement continues pursuing the group.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "Krebs on Security",
-   "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-   "published": "2026-10-19T13:48:56Z",
-   "added": "2026-10-19T14:00:45Z",
    "also": []
   }
  ]
