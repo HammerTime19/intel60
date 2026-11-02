@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-02T20:00:32Z",
+ "updated": "2026-11-02T20:30:35Z",
  "cards": [
+  {
+   "id": "18836a2757",
+   "headline": "BYOD ransomware gang claims Michigan State University attack",
+   "summary": "The BYOD ransomware gang posted evidence of a cyberattack against Michigan State University, prompting campus-wide incident response actions. The same group recently attacked the University of New Mexico in October. BYOD is an active threat targeting higher education institutions. Affected organizations should isolate compromised systems, notify stakeholders, and prepare for potential data extortion demands.",
+   "severity": "high",
+   "category": "Ransomware",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+   "published": "2026-11-02T19:54:00Z",
+   "added": "2026-11-02T20:30:34Z",
+   "also": []
+  },
   {
    "id": "b9a8fe94cb",
    "headline": "Abrigo Sageworks fintech platform hit by suspected cyberattack",
