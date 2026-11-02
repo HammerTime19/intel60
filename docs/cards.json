@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-02T06:00:33Z",
+ "updated": "2026-11-02T06:30:35Z",
  "cards": [
+  {
+   "id": "9068a344a0",
+   "headline": "VOLTA infostealer uses LLMs to rank victims by financial value",
+   "summary": "A new Windows infostealer called VOLTA-AUTODOXER leverages Claude, Gemini, and Kimi AI models to categorize stolen credentials by monetization value. The malware harvests passwords and cookies from Chromium browsers, Outlook profiles, and Slack workspaces. Researchers discovered this AI-enhanced targeting approach among typical data theft capabilities. The use of LLMs to prioritize victims based on financial value represents an escalation in infostealer sophistication and attack efficiency.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+   "published": "2026-11-02T05:51:07Z",
+   "added": "2026-11-02T06:30:34Z",
+   "also": []
+  },
   {
    "id": "c1c2013197",
    "headline": "LXD MicroCloud CVSS 10.0 flaw enables client impersonation",
@@ -51,7 +65,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-02T00:30:29Z"
+   "cve_checked": "2026-11-02T06:30:35Z"
   },
   {
    "id": "1f2870fb86",
@@ -4106,34 +4120,6 @@
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
    "published": "2026-10-19T08:58:41Z",
    "added": "2026-10-19T09:00:35Z",
-   "also": []
-  },
-  {
-   "id": "f519e0b522",
-   "headline": "Broadcom Wi-Fi flaw enables unauthenticated root code execution",
-   "summary": "An unpatched vulnerability in Broadcom Wi-Fi setup software allows attackers within radio range to execute code as root on Broadcom-based routers without network passwords or pairing. Security researcher Quentin Kaiser demonstrated the flaw on home gateways from Belgian ISPs, extracting Wi-Fi credentials from vulnerable devices. No patch is available; users should disable Wi-Fi setup features when not in use.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-   "published": "2026-10-19T06:29:44Z",
-   "added": "2026-10-19T07:30:37Z",
-   "also": []
-  },
-  {
-   "id": "1de1c48ce2",
-   "headline": "OpenCode Console breach exposes API keys",
-   "summary": "OpenCode's hosted Console service was breached on October 16, potentially exposing saved API keys for OpenAI, Anthropic, and Google that users stored there. The service allows teams to use third-party AI models without individual API key management. OpenCode has not disclosed the full scope of exposed keys or a complete remediation timeline. Users should rotate all API keys stored in OpenCode Console immediately.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-   "published": "2026-10-19T06:07:08Z",
-   "added": "2026-10-19T07:30:37Z",
    "also": []
   }
  ]
