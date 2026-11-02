@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T19:30:37Z",
+ "updated": "2026-11-02T20:00:32Z",
  "cards": [
   {
    "id": "b9a8fe94cb",
@@ -4039,20 +4039,6 @@
    "url": "https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation",
    "published": "2026-10-19T21:13:41Z",
    "added": "2026-10-19T22:00:36Z",
-   "also": []
-  },
-  {
-   "id": "553c25ef77",
-   "headline": "AdFection uses targeted ads to deliver spyware",
-   "summary": "Spyware vendors are exploiting targeted ad bidding in digital advertising to identify and track individuals and organizations of interest. The AdFection technique leverages programmatic advertising infrastructure for zero-click malware delivery. This represents a novel attack vector combining advertising and surveillance capabilities. Organizations should review ad network security and consider ad-blocking or stricter content filtering for critical systems.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
-   "published": "2026-10-19T19:55:01Z",
-   "added": "2026-10-19T20:30:37Z",
    "also": []
   }
  ]
