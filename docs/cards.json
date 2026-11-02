@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-02T17:00:33Z",
+ "updated": "2026-11-02T17:30:33Z",
  "cards": [
+  {
+   "id": "b22118a1e1",
+   "headline": "Polymarket prediction market breach forces $3.9M reimbursement",
+   "summary": "Polymarket suffered a compromise on October 29 that resulted in user losses. The platform announced it will reimburse affected users and provide compensation for downtime. No details on the breach mechanism or scope were disclosed. Users should monitor their accounts for unauthorized activity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
+   "published": "2026-11-02T17:05:20Z",
+   "added": "2026-11-02T17:30:32Z",
+   "also": []
+  },
   {
    "id": "acbef9b6b6",
    "headline": "Belarusian and Ukrainian hackers breach Russian statistics agency",
