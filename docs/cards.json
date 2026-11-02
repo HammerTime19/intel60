@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T10:00:39Z",
+ "updated": "2026-11-02T10:30:42Z",
  "cards": [
   {
    "id": "0bc09b4235",
@@ -2018,7 +2018,7 @@
      "pct": 0.1308
     }
    },
-   "cve_checked": "2026-11-02T04:00:45Z"
+   "cve_checked": "2026-11-02T10:30:42Z"
   },
   {
    "id": "627cc70bbf",
@@ -4091,20 +4091,6 @@
    "source": "The Record",
    "url": "https://therecord.media/russia-cyberattack-firstvds-cloud",
    "published": "2026-10-19T11:45:00Z",
-   "added": "2026-10-19T12:00:41Z",
-   "also": []
-  },
-  {
-   "id": "0534f19063",
-   "headline": "Fake Web3 accelerator spreads malware via npm packages",
-   "summary": "A fraudulent Web3 accelerator distributed information-stealing malware and backdoors through malicious npm packages to Windows and macOS systems. The attack lured victims with promises of free AI credits for Anthropic Claude and Google Gemini, along with coding tools and security audits. Users who downloaded these packages exposed their systems to credential theft and unauthorized access.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-   "published": "2026-10-19T10:06:40Z",
    "added": "2026-10-19T12:00:41Z",
    "also": []
   }
