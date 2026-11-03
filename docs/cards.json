@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-03T13:30:26Z",
+ "updated": "2026-11-03T14:00:37Z",
  "cards": [
+  {
+   "id": "ccddb3cec5",
+   "headline": "3AM ransomware affiliate uses AI to automate school attacks",
+   "summary": "The 3AM ransomware affiliate group has integrated AI-like automation into its European school attacks, using machine learning models to generate and revise malicious commands during breaches. Researchers identified evidence of AI-driven loop logic in attack sequences, though full automation remains unconfirmed. Schools should strengthen endpoint detection and review recent breach logs for automated command patterns.",
+   "severity": "high",
+   "category": "Ransomware",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
+   "published": "2026-11-03T14:00:00Z",
+   "added": "2026-11-03T14:00:36Z",
+   "also": []
+  },
+  {
+   "id": "266dc1112b",
+   "headline": "Russia-linked hackers target Ukraine war crimes investigations",
+   "summary": "Russian cyber spies are conducting targeted attacks against Ukrainian organizations handling war crimes investigations and military aid logistics. The campaign uses simple malware to steal sensitive documents, credentials, and intelligence from targets near the front line and Russian border. Ukraine should enhance security monitoring at military-adjacent organizations and investigate compromised systems for data theft.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/russia-linked-cyber-spies-target-ukraine-war-support",
+   "published": "2026-11-03T13:39:00Z",
+   "added": "2026-11-03T14:00:36Z",
+   "also": []
+  },
   {
    "id": "1415259781",
    "headline": "Android November 2026 updates patch 200+ vulnerabilities",
@@ -3986,25 +4014,6 @@
    "published": "2026-10-20T14:05:00Z",
    "added": "2026-10-20T14:30:37Z",
    "also": []
-  },
-  {
-   "id": "0db72c8bc2",
-   "headline": "AOMEI Backupper compromised distributing ShinyRoad backdoor",
-   "summary": "AOMEI Backupper was compromised in a targeted supply chain attack across multiple short windows, serving users a downloader for ShinyRoad modular backdoor framework. The malware could be installed during these compromise windows without user knowledge. Organizations using AOMEI should check for unauthorized downloads and monitor systems for ShinyRoad indicators. A security update is likely available.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
-   "published": "2026-10-20T13:51:01Z",
-   "added": "2026-10-20T14:00:52Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/aomei-yet-to-notify-customers-hijack-software"
-    }
-   ]
   }
  ]
 }
