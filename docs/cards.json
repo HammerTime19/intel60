@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T08:00:38Z",
+ "updated": "2026-11-03T08:30:32Z",
  "cards": [
   {
    "id": "3e6bc640da",
@@ -4021,33 +4021,6 @@
    "published": "2026-10-20T09:33:49Z",
    "added": "2026-10-20T10:00:39Z",
    "also": []
-  },
-  {
-   "id": "92e4076765",
-   "headline": "OVHcloud CLI hijacked to distribute secret-stealing malware",
-   "summary": "Attackers compromised a contributor's GitHub account and replaced five OVHcloud command-line tool releases with malware designed to steal secrets from local disks. The compromised files remained accessible for up to 94 minutes on October 19. OVHcloud users should verify the integrity of any OVHcloud CLI installations and rotate credentials if potentially affected.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-   "published": "2026-10-20T08:21:29Z",
-   "added": "2026-10-20T10:00:39Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/"
-    },
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors"
-    }
-   ]
   }
  ]
 }
