@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-03T15:00:45Z",
+ "updated": "2026-11-03T15:30:37Z",
  "cards": [
+  {
+   "id": "36b3d0baf9",
+   "headline": "Barracuda critical flaws allow root command execution",
+   "summary": "Barracuda Networks discovered two critical vulnerabilities enabling remote command execution with root privileges on affected devices. The flaws impact Barracuda security appliances widely used by enterprises. The company has advised customers to apply patches immediately. Organizations running Barracuda devices should prioritize updates to prevent unauthorized access and system compromise.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+   "published": "2026-11-03T15:06:16Z",
+   "added": "2026-11-03T15:30:36Z",
+   "also": []
+  },
   {
    "id": "ed61802f64",
    "headline": "Frontline Education breach hits 1.3M school district records",
@@ -481,17 +495,17 @@
     "CVE-2026-111357": {
      "kev": true,
      "epss": 0.00533,
-     "pct": 0.45014,
+     "pct": 0.45064,
      "cvss": 7.0,
      "sev": "high"
     },
     "CVE-2026-118527": {
      "kev": true,
-     "cvss": null,
-     "sev": null
+     "cvss": 4.3,
+     "sev": "medium"
     }
    },
-   "cve_checked": "2026-11-03T09:30:32Z"
+   "cve_checked": "2026-11-03T15:30:36Z"
   },
   {
    "id": "9068a344a0",
