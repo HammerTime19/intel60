@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-03T14:30:36Z",
+ "updated": "2026-11-03T14:36:15Z",
  "cards": [
+  {
+   "id": "ed61802f64",
+   "headline": "Frontline Education breach hits 1.3M school district records",
+   "summary": "Hackers exploited a third-party software flaw to breach Frontline Education, a widely used school district platform. The attack exposed personal information of over 1.3 million school staff and students, including names, contact details, and potentially social security numbers. No ransomware demand reported yet. Districts should audit access logs, reset credentials, and monitor accounts for suspicious activity.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "school district"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+   "published": "2026-11-03T14:32:38Z",
+   "added": "2026-11-03T14:36:13Z",
+   "also": []
+  },
   {
    "id": "ccddb3cec5",
    "headline": "3AM ransomware affiliate uses AI to automate school attacks",
