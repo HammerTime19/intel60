@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T19:30:27Z",
+ "updated": "2026-11-03T20:00:38Z",
  "cards": [
   {
    "id": "9ca07b4684",
@@ -4022,20 +4022,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
     }
    ]
-  },
-  {
-   "id": "aa2f36ffa3",
-   "headline": "Zeabur platform shutting down after second breach",
-   "summary": "Development platform Zeabur disclosed a second security incident within two months involving compromised internal credentials stored in plaintext. Attackers accessed over 3.2 million environment variable records and data for 321,810 user accounts. Zeabur is shutting down in response. Users should rotate all exposed credentials and secrets immediately.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-   "published": "2026-10-20T19:33:02Z",
-   "added": "2026-10-20T20:00:38Z",
-   "also": []
   }
  ]
 }
