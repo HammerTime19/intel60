@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-03T18:30:45Z",
+ "updated": "2026-11-03T19:00:58Z",
  "cards": [
+  {
+   "id": "9ca07b4684",
+   "headline": "mSecure password manager reports suspicious account activity",
+   "summary": "mSecure password manager warned users of suspicious activity detected on November 3, urging customers to change passwords, reset two-factor authentication, and remove passkeys. The developer mSeven Software identified unauthorized access but did not disclose full details of the breach scope. Users should immediately secure their mSecure accounts and review stored credentials.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+   "published": "2026-11-03T18:46:38Z",
+   "added": "2026-11-03T19:00:57Z",
+   "also": []
+  },
+  {
+   "id": "96de8a8fe0",
+   "headline": "German lawmakers targeted in Apple spyware warnings",
+   "summary": "Apple warned members of Germany's political elite and foreign policy staff that they were targeted with spyware, part of a campaign affecting 99 countries. The warnings indicate sophisticated state-level surveillance efforts against government officials. Affected individuals should review their device security, update systems, and enable available security features.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/german-officials-among-apple-spyware-warning-recipients",
+   "published": "2026-11-03T18:44:00Z",
+   "added": "2026-11-03T19:00:57Z",
+   "also": []
+  },
+  {
+   "id": "8afc2fab59",
+   "headline": "Chainstack blockchain infrastructure hit by cyberattack",
+   "summary": "Blockchain infrastructure provider Chainstack disclosed unauthorized access to parts of its production systems, exposing customer data and password hashes. The breach is attributed to a large-scale, AI-powered attack campaign uncovered last week. Chainstack customers should review account security, change passwords, and monitor for suspicious activity related to their blockchain infrastructure deployments.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+   "published": "2026-11-03T18:16:19Z",
+   "added": "2026-11-03T19:00:57Z",
+   "also": []
+  },
   {
    "id": "848edcd7f6",
    "headline": "North Korea steals $6.3B from Binance in months-long campaign",
@@ -4007,20 +4049,6 @@
    "url": "https://therecord.media/california-warns-all-public-school-students-of-data-breach",
    "published": "2026-10-20T19:20:00Z",
    "added": "2026-10-20T19:30:35Z",
-   "also": []
-  },
-  {
-   "id": "29ac1c4b3b",
-   "headline": "23andMe successor pays $6M California settlement",
-   "summary": "California Attorney General Rob Bonta announced a $6 million settlement with 23andMe's successor over inadequate data protection before a 2023 breach. The company failed to implement sufficient safeguards for customer data. The settlement resolves allegations of cybersecurity negligence. Affected customers should monitor their accounts for unauthorized activity.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/23andme-california-data-breach-settlement",
-   "published": "2026-10-20T18:32:00Z",
-   "added": "2026-10-20T19:00:36Z",
    "also": []
   }
  ]
