@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T17:00:47Z",
+ "updated": "2026-11-03T17:30:35Z",
  "cards": [
   {
    "id": "848edcd7f6",
@@ -13,7 +13,12 @@
    "url": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
    "published": "2026-11-03T16:42:00Z",
    "added": "2026-11-03T17:00:41Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html"
+    }
+   ]
   },
   {
    "id": "310fe7a6e4",
@@ -60,7 +65,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
    "published": "2026-11-03T15:06:16Z",
    "added": "2026-11-03T15:30:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html"
+    }
+   ]
   },
   {
    "id": "ed61802f64",
@@ -1120,25 +1130,25 @@
    "cve_info": {
     "CVE-2026-118527": {
      "kev": true,
-     "cvss": null,
-     "sev": null
+     "cvss": 4.3,
+     "sev": "medium"
     },
     "CVE-2026-104935": {
      "kev": true,
-     "epss": 0.86766,
-     "pct": 0.99742,
+     "epss": 0.88936,
+     "pct": 0.99778,
      "cvss": 8.6,
      "sev": "high"
     },
     "CVE-2026-111357": {
      "kev": true,
      "epss": 0.00533,
-     "pct": 0.45014,
+     "pct": 0.45064,
      "cvss": 7.0,
      "sev": "high"
     }
    },
-   "cve_checked": "2026-11-03T11:30:29Z"
+   "cve_checked": "2026-11-03T17:30:35Z"
   },
   {
    "id": "7d9fa054e5",
