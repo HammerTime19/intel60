@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-03T21:30:51Z",
+ "updated": "2026-11-03T22:00:35Z",
  "cards": [
+  {
+   "id": "d327652e7d",
+   "headline": "Defense firm ILC Dover settles $13M cybersecurity contract violation",
+   "summary": "ILC Dover and ILC Astrospace agreed to pay $13 million to resolve allegations by the Department of the Army, Missile Defense Agency, and NASA that they failed to meet cybersecurity requirements on government contracts from 2018 to 2024. The company allegedly stored sensitive data in unsecured cloud systems and failed to develop and maintain required security plans. The settlement addresses False Claims Act violations and underscores the importance of compliance with defense contracting cybersecurity obligations.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/ilc-dover-cybersecurity-settlement-false-claims-act/",
+   "published": "2026-11-03T21:49:51Z",
+   "added": "2026-11-03T22:00:35Z",
+   "also": []
+  },
   {
    "id": "27b11b6379",
    "headline": "WorkOS developer platform breached via ARTEX AI attack",
@@ -3979,41 +3993,6 @@
    "published": "2026-10-20T23:36:10Z",
    "added": "2026-10-21T00:00:34Z",
    "also": []
-  },
-  {
-   "id": "532771c4fc",
-   "headline": "Tech giants block eMudhra certificate authority keys",
-   "summary": "Google, Mozilla, Apple, the Go project and others blocked certificates from Indian Certificate Authority eMudhra after eight cryptographic keys were compromised. The incident compromises the security of all certificates signed with those keys. Defenders should verify any eMudhra-issued certificates and prepare revocation procedures. The cause of the compromise remains unclear.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
-   "published": "2026-10-20T21:45:47Z",
-   "added": "2026-10-20T22:30:35Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/emudhra-shuts-down-certificate-business-weak-private-keys/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident"
-    }
-   ]
   }
  ]
 }
