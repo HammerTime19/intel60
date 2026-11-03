@@ -1,6 +1,58 @@
 {
- "updated": "2026-11-03T05:30:30Z",
+ "updated": "2026-11-03T06:00:53Z",
  "cards": [
+  {
+   "id": "3e6bc640da",
+   "headline": "Siemens IoT2050 Advanced devices exploited for remote command backdoors",
+   "summary": "CVE-2026-58115, a critical missing authentication flaw in Siemens SIMATIC IoT2050 Advanced devices, is under active exploitation. The CVSS 10.0 vulnerability allows unauthenticated remote attackers to execute arbitrary code and establish backdoors. Siemens customers should prioritize patching affected systems and monitor for suspicious command execution activity.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-58115"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "published": "2026-11-03T05:34:41Z",
+   "added": "2026-11-03T06:00:33Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-58115": {
+     "kev": false,
+     "epss": 0.00953,
+     "pct": 0.61342,
+     "cvss": 10.0,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-11-03T06:00:39Z"
+  },
+  {
+   "id": "d4042f8de1",
+   "headline": "CryptoPayment Gateway WordPress plugin CVSS 10.0 flaw exploited",
+   "summary": "Threat actors are actively exploiting CVE-2026-81648, a maximum-severity flaw in the CryptoPayment Gateway WordPress plugin with a CVSS score of 10.0. The vulnerability allows unauthenticated attackers to delete arbitrary files and extract wallet credentials. Organizations using this plugin should immediately apply available patches or disable the plugin until fixes are released.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-81648"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+   "published": "2026-11-03T05:34:37Z",
+   "added": "2026-11-03T06:00:33Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-81648": {
+     "kev": false,
+     "epss": 0.00498,
+     "pct": 0.42705,
+     "cvss": 10.0,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-11-03T06:00:50Z"
+  },
   {
    "id": "266b3df327",
    "headline": "UK cyber chief warns unprecedented cyberattacks ahead",
@@ -3985,25 +4037,6 @@
     {
      "source": "Dark Reading",
      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors"
-    }
-   ]
-  },
-  {
-   "id": "50e3424172",
-   "headline": "Ex-OpenAI engineer detained for planting spy device",
-   "summary": "A former OpenAI engineer, Saudi national Abdulrahman Alfozan, has been detained by U.S. authorities for allegedly planting a recording device in an executive conference room at OpenAI's San Francisco office to steal sensitive company secrets. Court documents reveal he maintained frequent communications with Saudi royal contacts via WhatsApp. The investigation examines potential corporate espionage and unauthorized surveillance.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-   "published": "2026-10-20T05:53:16Z",
-   "added": "2026-10-20T07:00:33Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties"
     }
    ]
   }
