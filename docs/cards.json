@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-03T21:00:34Z",
+ "updated": "2026-11-03T21:30:51Z",
  "cards": [
+  {
+   "id": "27b11b6379",
+   "headline": "WorkOS developer platform breached via ARTEX AI attack",
+   "summary": "WorkOS, a developer platform, suffered a data breach where threat actors accessed business contact records and summaries of customer communications. The attacker leveraged ARTEX AI in the breach. WorkOS has not disclosed the full scope of exposed data or customer impact. Organizations using WorkOS should monitor for compromised contact information and change credentials if affected.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "published": "2026-11-03T21:28:44Z",
+   "added": "2026-11-03T21:30:50Z",
+   "also": []
+  },
   {
    "id": "9ca07b4684",
    "headline": "mSecure password manager reports suspicious account activity",
