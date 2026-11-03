@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:00:41Z",
+ "updated": "2026-11-03T16:30:33Z",
  "cards": [
   {
    "id": "310fe7a6e4",
@@ -13,7 +13,12 @@
    "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
    "published": "2026-11-03T15:41:53Z",
    "added": "2026-11-03T16:00:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise"
+    }
+   ]
   },
   {
    "id": "63d055e30b",
