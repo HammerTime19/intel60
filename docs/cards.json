@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T23:50:32Z",
+ "updated": "2026-11-03T00:00:37Z",
  "cards": [
   {
    "id": "d32892baf1",
@@ -4015,32 +4015,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/"
     }
    ]
-  },
-  {
-   "id": "fb153a3119",
-   "headline": "SiteGuard Server Edition OS command injection flaw",
-   "summary": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability allowing unauthenticated attackers to execute arbitrary commands with root or SYSTEM privileges. The flaw was added to CISA's Known Exploited Vulnerabilities catalog. Administrators should apply vendor-provided mitigations immediately and follow BOD 26-04 patching timelines.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-106931"
-   ],
-   "watch": [],
-   "source": "CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
-   "published": "2026-10-20T00:00:00Z",
-   "added": "2026-10-20T20:00:38Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-106931": {
-     "kev": true,
-     "epss": 0.00662,
-     "pct": 0.50774,
-     "cvss": 8.5,
-     "sev": "high"
-    }
-   },
-   "cve_checked": "2026-10-20T20:00:45Z"
   }
  ]
 }
