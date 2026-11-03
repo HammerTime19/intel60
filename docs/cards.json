@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T19:00:58Z",
+ "updated": "2026-11-03T19:30:27Z",
  "cards": [
   {
    "id": "9ca07b4684",
@@ -4035,20 +4035,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
    "published": "2026-10-20T19:33:02Z",
    "added": "2026-10-20T20:00:38Z",
-   "also": []
-  },
-  {
-   "id": "6203e91529",
-   "headline": "Educational Testing Service breached, California students affected",
-   "summary": "Assessment contractor ETS suffered a months-long data breach exposing California public school student records, according to the California Department of Education. The breach's full scope and data types remain unclear from available details. California has issued warnings to affected students. Organizations should monitor for potential misuse of exposed educational records and follow notification protocols.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/california-warns-all-public-school-students-of-data-breach",
-   "published": "2026-10-20T19:20:00Z",
-   "added": "2026-10-20T19:30:35Z",
    "also": []
   }
  ]
