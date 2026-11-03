@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-03T12:00:51Z",
+ "updated": "2026-11-03T12:31:02Z",
  "cards": [
+  {
+   "id": "1415259781",
+   "headline": "Android November 2026 updates patch 200+ vulnerabilities",
+   "summary": "Google released security patches for Android addressing over 200 vulnerabilities in the November 2026 update. The most critical flaw affects the Framework component and enables remote code execution without user interaction. All Android devices should install the latest security patches immediately to mitigate exploitation risk.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
+   "published": "2026-11-03T12:21:49Z",
+   "added": "2026-11-03T12:30:59Z",
+   "also": []
+  },
+  {
+   "id": "5c6c31b6a9",
+   "headline": "Node-RED critical flaw exploited in active attacks",
+   "summary": "A critical vulnerability in Node-RED is being actively exploited by attackers from the same IP address to deploy malicious payloads including Linux botnets and webshells. The flaw allows unauthenticated remote code execution. Organizations running Node-RED should update immediately and review logs for suspicious activity or signs of compromise.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
+   "published": "2026-11-03T12:10:19Z",
+   "added": "2026-11-03T12:30:59Z",
+   "also": []
+  },
   {
    "id": "8491f2b2e0",
    "headline": "Harvard University breach exposes 851K alumni accounts",
