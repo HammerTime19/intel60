@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:31:02Z",
+ "updated": "2026-11-03T13:00:42Z",
  "cards": [
   {
    "id": "1415259781",
@@ -27,6 +27,46 @@
    "url": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
    "published": "2026-11-03T12:10:19Z",
    "added": "2026-11-03T12:30:59Z",
+   "also": []
+  },
+  {
+   "id": "77f64f32fa",
+   "headline": "Linux TCP RCE flaw patched by Red Hat, Ubuntu testing",
+   "summary": "Red Hat has released fixes for CVE-2026-98432, a critical use-after-free vulnerability in the Linux kernel's IPv4 TCP code affecting RHEL 8, 9, and 10. The flaw allows unauthenticated remote attackers to execute code. Ubuntu has fixes in its testing channel but no general release date yet. Administrators should prioritize updating Red Hat systems immediately; Ubuntu users should track testing updates closely.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+   "published": "2026-11-03T11:23:53Z",
+   "added": "2026-11-03T13:00:39Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-98432": {
+     "kev": false,
+     "epss": 0.00457,
+     "pct": 0.39649,
+     "cvss": 9.8,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-11-03T13:00:40Z"
+  },
+  {
+   "id": "3ce297811e",
+   "headline": "Gorbag hackers exploit WinRAR flaw targeting Ukraine",
+   "summary": "Russia-aligned threat actor Gorbag is using WinRAR vulnerabilities to deploy information-stealing malware against Ukrainian organizations. Active since at least February 2025, the group targets law enforcement, justice entities, local administrations near the front line, and defense sector organizations. Defenders in targeted sectors should prioritize patching WinRAR and monitoring for suspicious data exfiltration activity.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+   "published": "2026-11-03T11:00:45Z",
+   "added": "2026-11-03T13:00:39Z",
    "also": []
   },
   {
@@ -3986,25 +4026,6 @@
     {
      "source": "CyberScoop",
      "url": "https://cyberscoop.com/nigerian-sentenced-hacking-fraud-tax-investment-scheme/"
-    }
-   ]
-  },
-  {
-   "id": "d02f2b9b09",
-   "headline": "Threat actors abuse AI platform Cairn to hack 100+ organizations",
-   "summary": "Multiple threat actors have exploited the Cairn AI platform to compromise over 100 organizations, gaining persistent access and conducting financial theft. At least three separate threat groups are leveraging the platform for malicious purposes. Organizations using Cairn should investigate account access logs and review for unauthorized activity. Patch or upgrade to secure versions if available.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
-   "published": "2026-10-20T12:47:22Z",
-   "added": "2026-10-20T12:56:05Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html"
     }
    ]
   }
