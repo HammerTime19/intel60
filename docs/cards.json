@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-03T00:00:37Z",
+ "updated": "2026-11-03T00:30:34Z",
  "cards": [
+  {
+   "id": "266b3df327",
+   "headline": "UK cyber chief warns unprecedented cyberattacks ahead",
+   "summary": "The UK National Cyber Security Centre (NCSC) warned of an impending surge in cyberattacks, citing newly exposed vulnerabilities that can now be discovered and exploited at previously unimaginable scale. The warning comes in the agency's annual report, highlighting risks from long-tolerated security gaps. No specific vulnerabilities, timelines, or defensive measures are detailed. Organizations should review their vulnerability management and incident response protocols.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
+   "published": "2026-11-03T00:01:00Z",
+   "added": "2026-11-03T00:30:33Z",
+   "also": []
+  },
   {
    "id": "d32892baf1",
    "headline": "Brazil's Mercado Bitcoin suffers cyberattack, $46M withdrawn",
