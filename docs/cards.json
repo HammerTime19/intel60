@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T07:30:28Z",
+ "updated": "2026-11-03T08:00:38Z",
  "cards": [
   {
    "id": "3e6bc640da",
@@ -244,6 +244,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html"
     }
    ]
   },
@@ -273,7 +277,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
    "published": "2026-11-02T11:28:42Z",
    "added": "2026-11-02T11:30:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
+    }
+   ]
   },
   {
    "id": "d596e3f2ba",
@@ -408,7 +417,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-03T01:30:39Z"
+   "cve_checked": "2026-11-03T08:00:38Z"
   },
   {
    "id": "1f2870fb86",
