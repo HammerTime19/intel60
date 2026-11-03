@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T04:00:35Z",
+ "updated": "2026-11-03T04:30:29Z",
  "cards": [
   {
    "id": "266b3df327",
@@ -4004,29 +4004,6 @@
     {
      "source": "Dark Reading",
      "url": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties"
-    }
-   ]
-  },
-  {
-   "id": "6c494d43a8",
-   "headline": "ROMULUS ClickFix platform distributes LegionLoader malware",
-   "summary": "Cybersecurity researchers discovered ROMULUS, a malware delivery platform using ClickFix-style social engineering to trick users into executing malicious commands. The platform distributes LegionLoader and other malware via fake landing pages. Users are deceived into running commands that compromise their systems. Defenders should educate users to verify Windows alerts directly and avoid clicking suspicious links.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
-   "published": "2026-10-20T04:05:58Z",
-   "added": "2026-10-20T04:30:29Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/"
     }
    ]
   }
