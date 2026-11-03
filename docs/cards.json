@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T14:00:37Z",
+ "updated": "2026-11-03T14:30:36Z",
  "cards": [
   {
    "id": "ccddb3cec5",
@@ -13,7 +13,12 @@
    "url": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
    "published": "2026-11-03T14:00:00Z",
    "added": "2026-11-03T14:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/"
+    }
+   ]
   },
   {
    "id": "266dc1112b",
@@ -536,7 +541,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-03T08:00:38Z"
+   "cve_checked": "2026-11-03T14:30:36Z"
   },
   {
    "id": "1f2870fb86",
@@ -4000,20 +4005,6 @@
     }
    },
    "cve_checked": "2026-10-20T16:30:43Z"
-  },
-  {
-   "id": "ba5b9e5d87",
-   "headline": "Pro-Ukraine group disrupts Russian school assessments",
-   "summary": "Hackers claiming to be a pro-Ukraine group placed anti-Putin messages on a Russian education assessment platform used nationwide, disrupting school testing. Russian authorities said they restored systems. The incident highlights vulnerabilities in critical infrastructure serving education sector operations.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/anti-putin-messages-disrupt-russian-education-platform",
-   "published": "2026-10-20T14:05:00Z",
-   "added": "2026-10-20T14:30:37Z",
-   "also": []
   }
  ]
 }
