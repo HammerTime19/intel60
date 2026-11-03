@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-03T20:36:30Z",
+ "updated": "2026-11-03T21:00:34Z",
  "items": [
+  {
+   "cve": "CVE-2026-119977",
+   "vendor": "WordPress",
+   "product": "WordPress Core",
+   "name": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+   "added": "2026-11-03",
+   "due": "2026-11-06",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "b87761b9d7"
+  },
   {
    "cve": "CVE-2026-118527",
    "vendor": "Ivanti",

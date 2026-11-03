@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T20:36:30Z",
+ "updated": "2026-11-03T21:00:34Z",
  "cards": [
   {
    "id": "9ca07b4684",
@@ -328,7 +328,7 @@
    "also": [],
    "cve_info": {
     "CVE-2026-119977": {
-     "kev": false,
+     "kev": true,
      "epss": 0.006,
      "pct": 0.48751,
      "cvss": 8.1,
@@ -3998,37 +3998,6 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident"
-    }
-   ]
-  },
-  {
-   "id": "05dd90fd0f",
-   "headline": "PHP releases emergency patches for critical flaws",
-   "summary": "PHP's security team announced two critical vulnerabilities with patches releasing the following day after early leak of technical details. The flaws require immediate patching to prevent exploitation. Administrators should apply emergency updates as soon as available. No exploitation in the wild has been confirmed yet, but the leaked information increases risk exposure.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
-   "published": "2026-10-20T20:56:43Z",
-   "added": "2026-10-20T21:00:42Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/php-emergency-patches-php2shell-vulnerabilities/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/php-foundation-statement-critical-vulnerabilities"
     }
    ]
   }
