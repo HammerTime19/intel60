@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T13:00:42Z",
+ "updated": "2026-11-03T13:30:26Z",
  "cards": [
   {
    "id": "1415259781",
@@ -4003,29 +4003,6 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/aomei-yet-to-notify-customers-hijack-software"
-    }
-   ]
-  },
-  {
-   "id": "b8cb67bf0a",
-   "headline": "Nigerian spearphishing hacker sentenced to eight years",
-   "summary": "A Nigerian national received an eight-year prison sentence for orchestrating spearphishing attacks against US tax preparation businesses since 2019, stealing $3.3 million from taxpayers. The coordinated campaign targeted employees at major tax firms to gain unauthorized access to systems and steal funds. Authorities completed the prosecution following a multi-year investigation. Tax preparation companies should strengthen email security and employee training against targeted spearphishing attacks.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
-   "published": "2026-10-20T13:18:36Z",
-   "added": "2026-10-20T13:30:34Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/nigerian-given-8-year-sentenc-tax-hacks"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/nigerian-sentenced-hacking-fraud-tax-investment-scheme/"
     }
    ]
   }
