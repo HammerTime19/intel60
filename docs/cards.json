@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T20:00:38Z",
+ "updated": "2026-11-03T20:31:01Z",
  "cards": [
   {
    "id": "9ca07b4684",
@@ -310,6 +310,32 @@
    "published": "2026-11-03T00:01:00Z",
    "added": "2026-11-03T00:30:33Z",
    "also": []
+  },
+  {
+   "id": "b87761b9d7",
+   "headline": "WordPress Core TOCTOU flaw added to CISA KEV",
+   "summary": "WordPress Core contains a time-of-check time-of-use race condition vulnerability allowing unauthenticated remote code execution during upgrade windows via predictable staging paths. CISA added it to the Known Exploited Vulnerabilities catalog with a federal patching deadline of November 6, 2026. Administrators must apply patches immediately and evaluate internet exposure per BOD 26-04 guidance.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+   "published": "2026-11-03T00:00:00Z",
+   "added": "2026-11-03T20:30:52Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-119977": {
+     "kev": true,
+     "epss": 0.006,
+     "pct": 0.48751,
+     "cvss": 8.1,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-11-03T20:30:53Z"
   },
   {
    "id": "d32892baf1",
@@ -667,10 +693,12 @@
     "CVE-2026-58882": {
      "kev": false,
      "cvss": null,
-     "sev": null
+     "sev": null,
+     "epss": 0.00188,
+     "pct": 0.0854
     }
    },
-   "cve_checked": "2026-11-03T14:30:36Z"
+   "cve_checked": "2026-11-03T20:30:59Z"
   },
   {
    "id": "1f2870fb86",
@@ -4001,25 +4029,6 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/php-foundation-statement-critical-vulnerabilities"
-    }
-   ]
-  },
-  {
-   "id": "a92bc795de",
-   "headline": "SafePay ransomware gang highly active, 600+ victims",
-   "summary": "The FBI, UK and German authorities report SafePay ransomware has compromised over 600 organizations since 2024. The gang targets businesses and critical infrastructure through password guessing, vulnerability exploitation, and phishing. SafePay ranks among the most prolific ransomware operators. Organizations should enforce strong access controls, patch systems promptly, and implement multi-factor authentication.",
-   "severity": "critical",
-   "category": "Ransomware",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
-   "published": "2026-10-20T20:27:00Z",
-   "added": "2026-10-20T21:00:42Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
     }
    ]
   }
