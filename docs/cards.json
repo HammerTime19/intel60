@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-03T10:30:29Z",
+ "updated": "2026-11-03T11:00:37Z",
  "cards": [
+  {
+   "id": "8491f2b2e0",
+   "headline": "Harvard University breach exposes 851K alumni accounts",
+   "summary": "Hackers breached Harvard University's Alumni Affairs and Development systems in November 2025, stealing data linked to more than 850,000 unique email addresses. The compromised information is now tracked in breach notification service Have I Been Pwned. Harvard has not disclosed additional details about the data categories affected or remediation steps. Affected individuals should monitor for phishing and credential misuse.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+   "published": "2026-11-03T10:53:25Z",
+   "added": "2026-11-03T11:00:36Z",
+   "also": []
+  },
   {
    "id": "3e6bc640da",
    "headline": "Siemens IoT2050 Advanced devices exploited for remote command backdoors",
@@ -904,7 +918,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-03T05:00:32Z"
+   "cve_checked": "2026-11-03T11:00:36Z"
   },
   {
    "id": "f53dd46908",
