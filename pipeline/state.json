@@ -1122,10 +1122,12 @@
    "cards": 23
   }
  },
- "last_digest": "2026-11-02",
- "last_digest_at": "2026-11-02T12:00:29Z",
+ "last_digest": "2026-11-03",
+ "last_digest_at": "2026-11-03T12:00:50Z",
  "health": {
-  "feeds": {},
+  "feeds": {
+   "The Record": 1
+  },
   "alerted": {
    "ai": "2026-10-08T14:00:37Z"
   }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:30:29Z",
+ "updated": "2026-11-03T12:00:51Z",
  "cards": [
   {
    "id": "8491f2b2e0",
@@ -3979,34 +3979,6 @@
      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html"
     }
    ]
-  },
-  {
-   "id": "467c211f34",
-   "headline": "WhatsApp hid instructions blocking privacy regulator recommendations",
-   "summary": "WhatsApp embedded hidden instructions in help page code directing its support chatbot not to recommend data protection authorities or regulators to users seeking account deletion assistance, contradicting its own privacy policy. The hidden text was removed by October 18. This reveals potential policy circumvention in the platform's AI chatbot oversight and contradicts stated user rights.",
-   "severity": "high",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
-   "published": "2026-10-20T11:41:06Z",
-   "added": "2026-10-20T12:30:37Z",
-   "also": []
-  },
-  {
-   "id": "f0509be43e",
-   "headline": "Go releases emergency update blocking eight certificate authorities",
-   "summary": "Go 1.27.3 and 1.26.10 reject any certificate chain passing through eight intermediate certificate authority keys due to undisclosed security concerns. The affected keys belong to one unnamed certificate authority. Programs built with the new release will refuse connections to sites using certificates issued under those keys. Developers should update immediately to prevent connection failures.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-   "published": "2026-10-20T11:32:59Z",
-   "added": "2026-10-20T12:30:37Z",
-   "also": []
   }
  ]
 }
