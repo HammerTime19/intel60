@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T19:30:48Z",
+ "updated": "2026-11-04T20:00:34Z",
  "cards": [
   {
    "id": "1413af0079",
@@ -213,6 +213,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/canadian-extradited-cryptomining-universities/"
     }
    ]
   },
