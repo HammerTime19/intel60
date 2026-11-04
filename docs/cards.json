@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-04T12:00:32Z",
+ "updated": "2026-11-04T12:30:37Z",
  "cards": [
+  {
+   "id": "9c24410329",
+   "headline": "Canadian extradited for university supercomputer cryptomining",
+   "summary": "A Canadian man was extradited to the United States following federal indictment for hijacking university supercomputers to secretly mine Electroneum cryptocurrency. Another Canadian co-conspirator was also indicted. This case highlights the ongoing threat of compromise infrastructure for illicit cryptomining operations.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
+   "published": "2026-11-04T12:27:58Z",
+   "added": "2026-11-04T12:30:35Z",
+   "also": []
+  },
+  {
+   "id": "d013e25bf4",
+   "headline": "Ruby on Rails critical file write flaw via ImageMagick",
+   "summary": "A critical vulnerability in Ruby on Rails Active Storage allows unauthenticated attackers to write arbitrary files to an app server by uploading a crafted file processed by ImageMagick. Rails 8.1.4.1 and 8.0.5.2 patch the flaw. Applications using file uploads with ImageMagick processing should update immediately or disable file upload functionality.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+   "published": "2026-11-04T12:07:04Z",
+   "added": "2026-11-04T12:30:35Z",
+   "also": []
+  },
+  {
+   "id": "de8bbdd0e3",
+   "headline": "Xen hypervisor flaws allow VM memory access",
+   "summary": "Two critical flaws in Xen hypervisor allow a malicious guest virtual machine to read and write memory of other VMs on the same host, including dom0. All Xen versions 4.6 and later are vulnerable. Patches are available with no known workaround. Administrators should apply patches immediately and isolate untrusted VMs until updates are deployed.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "published": "2026-11-04T11:46:27Z",
+   "added": "2026-11-04T12:30:35Z",
+   "also": []
+  },
+  {
+   "id": "8384c224e8",
+   "headline": "SlippyNunchucks hijacks Sogou Input Method DNS",
+   "summary": "China-aligned threat actor SlippyNunchucks exploited insecure HTTP communications in Windows versions of Sogou Input Method to hijack DNS requests and deploy the DarkVigil backdoor implant. The surveillance campaign targeted organizations starting July 2026. Sogou users should update to the latest version and consider disabling the input method if patching is unavailable.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+   "published": "2026-11-04T11:24:31Z",
+   "added": "2026-11-04T12:30:35Z",
+   "also": []
+  },
   {
    "id": "493913be8a",
    "headline": "Chrome 157 released with 213 security fixes",
@@ -462,7 +518,12 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
    "published": "2026-11-03T00:00:00Z",
    "added": "2026-11-03T20:30:52Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-119977": {
      "kev": true,
@@ -3973,20 +4034,6 @@
      "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html"
     }
    ]
-  },
-  {
-   "id": "c7a020f274",
-   "headline": "Bronze Sandcastle deploys backdoors via Sandboxie DLL sideloading",
-   "summary": "China-aligned threat cluster Bronze Sandcastle has been targeting organizations in Asia and Africa since mid-2025, using Sandboxie DLL sideloading as its primary attack technique to deploy backdoors. Sophos security researchers disclosed details of the previously undocumented cluster, identifying DLL sideloading as the distinctive technical marker of Bronze Sandcastle's operations.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
-   "published": "2026-10-21T12:05:00Z",
-   "added": "2026-10-21T13:00:41Z",
-   "also": []
   }
  ]
 }
