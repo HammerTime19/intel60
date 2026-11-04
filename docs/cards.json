@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-04T13:30:35Z",
+ "updated": "2026-11-04T14:00:50Z",
  "cards": [
+  {
+   "id": "4448a4360e",
+   "headline": "Russian hosting provider Beget suffers data-destroying cyberattack",
+   "summary": "Beget, a major Russian web hosting provider, experienced a cyberattack that destroyed data across its cloud infrastructure and disrupted hundreds of hosted websites. The attack caused significant service outages. Restoration efforts are underway but recovery timeline is unclear. Customers are facing data loss and extended downtime across their hosted services.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/russia-cyberattack-beget-cloud",
+   "published": "2026-11-04T14:00:00Z",
+   "added": "2026-11-04T14:00:48Z",
+   "also": []
+  },
+  {
+   "id": "3d23258051",
+   "headline": "French blood service sites hit by refrigeration cyberattacks",
+   "summary": "Temperature controls were altered at three French national blood service facilities during a wave of cyberattacks targeting refrigeration systems across Europe. The attacks disrupted critical blood storage infrastructure. No details on attacker identity or whether blood supply was compromised. Health authorities are investigating and implementing additional security measures to protect blood inventory.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/france-cyberattack-blood-refrigeration",
+   "published": "2026-11-04T13:45:00Z",
+   "added": "2026-11-04T14:00:48Z",
+   "also": []
+  },
   {
    "id": "7dcd83260d",
    "headline": "Legacy email scripts targeted by spammers in honeypot scans",
