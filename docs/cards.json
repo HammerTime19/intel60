@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-04T17:00:36Z",
+ "updated": "2026-11-04T17:30:40Z",
  "cards": [
+  {
+   "id": "3632eace05",
+   "headline": "Debian and Ubuntu APT flaw enables root code execution",
+   "summary": "A vulnerability in APT package manager allows man-in-the-middle attackers to swap verified packages with malicious ones that execute as root. Affecting Debian and Ubuntu systems with default retry behavior, the flaw exploits failed download retries. APT developers have released patches. Users should update APT immediately and ensure secure network configurations.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+   "published": "2026-11-04T17:00:46Z",
+   "added": "2026-11-04T17:30:38Z",
+   "also": []
+  },
   {
    "id": "9c8bdd95a7",
    "headline": "NIKKE PC launcher compromised in supply chain attack",
@@ -44,6 +58,20 @@
    "also": []
   },
   {
+   "id": "78de6ffe4e",
+   "headline": "Prompt adware found in OpenAI Codex jailbreak toolkit",
+   "summary": "Check Point Research discovered Haiou, a jailbreak bundle that modifies OpenAI Codex's trusted instructions to inject advertisements for a third-party AI gateway. The technique, termed prompt adware, compromises AI agent configurations. This represents a supply-chain risk for developers using Codex. Organizations should review AI tool configurations and monitor for unauthorized instruction modifications.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+   "published": "2026-11-04T16:06:43Z",
+   "added": "2026-11-04T17:30:38Z",
+   "also": []
+  },
+  {
    "id": "d6dd46466a",
    "headline": "Google Calendar phishing hijacks sessions, bypasses MFA",
    "summary": "A phishing campaign leveraged Google Calendar invites and trusted redirects to lure users to fake login pages, compromising corporate Google sessions and bypassing multi-factor authentication. Operation CloudFire tracked the attacks across nearly 900 malicious domains. Security researchers blocked the malicious messages and helped take down the infrastructure. Organizations should educate users on calendar invite risks and enforce additional verification for sensitive account access.",
@@ -71,7 +99,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
    "published": "2026-11-04T14:42:25Z",
    "added": "2026-11-04T15:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
+    }
+   ]
   },
   {
    "id": "4448a4360e",
