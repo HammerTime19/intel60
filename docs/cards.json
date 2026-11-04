@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T21:00:34Z",
+ "updated": "2026-11-04T21:30:29Z",
  "cards": [
   {
    "id": "0fd87eaf33",
@@ -1164,7 +1164,7 @@
      "pct": 0.08569
     }
    },
-   "cve_checked": "2026-11-04T15:00:41Z"
+   "cve_checked": "2026-11-04T21:30:29Z"
   },
   {
    "id": "1f2870fb86",
@@ -4061,20 +4061,6 @@
    "source": "BleepingComputer",
    "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
    "published": "2026-10-21T21:43:27Z",
-   "added": "2026-10-21T22:00:39Z",
-   "also": []
-  },
-  {
-   "id": "7bcbd743c3",
-   "headline": "TiDB cloud breach exposes customer data storage risks",
-   "summary": "TiDB's cloud infrastructure was breached, exposing sensitive customer data that providers may store without explicit knowledge or consent. The incident highlights flawed cloud security assumptions where customers and providers operate without full transparency about data storage practices. Defenders should clarify data storage locations and implement stringent access controls.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
-   "published": "2026-10-21T21:15:39Z",
    "added": "2026-10-21T22:00:39Z",
    "also": []
   }
