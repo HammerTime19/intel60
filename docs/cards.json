@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:00:28Z",
+ "updated": "2026-11-04T22:30:29Z",
  "cards": [
   {
    "id": "71b12d4849",
@@ -260,7 +260,12 @@
    "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
    "published": "2026-11-04T12:07:04Z",
    "added": "2026-11-04T12:30:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers"
+    }
+   ]
   },
   {
    "id": "de8bbdd0e3",
