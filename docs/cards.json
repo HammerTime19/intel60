@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-04T19:00:30Z",
+ "updated": "2026-11-04T19:30:48Z",
  "cards": [
+  {
+   "id": "1413af0079",
+   "headline": "DreamHost breach exposes FTP credentials and webmail sessions",
+   "summary": "DreamHost disclosed a data breach where attackers accessed the File Manager platform for two months, stealing customers' FTP/SFTP usernames, passwords, and webmail sessions. The exposure of authentication credentials poses a direct risk to customer accounts and hosted services. Affected users should immediately rotate compromised credentials.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "published": "2026-11-04T19:05:19Z",
+   "added": "2026-11-04T19:30:46Z",
+   "also": []
+  },
+  {
+   "id": "462ec96575",
+   "headline": "Crédit Mutuel Arkéa reports $133M cyber heist",
+   "summary": "Crédit Mutuel Arkéa confirmed a cyber heist that resulted in an estimated $133 million stolen. Attackers compromised an unnamed supplier and used the bank's own account to conduct transfers. This represents a significant breach of a major French financial institution. Organizations should audit third-party access to critical systems.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/french-bank-confirms-cyber-heist",
+   "published": "2026-11-04T18:58:00Z",
+   "added": "2026-11-04T19:30:46Z",
+   "also": []
+  },
   {
    "id": "3632eace05",
    "headline": "Debian and Ubuntu APT flaw enables root code execution",
@@ -158,12 +186,12 @@
     "CVE-2000-0411": {
      "kev": false,
      "epss": 0.07501,
-     "pct": 0.94494,
+     "pct": 0.94504,
      "cvss": null,
      "sev": null
     }
    },
-   "cve_checked": "2026-11-04T13:30:34Z"
+   "cve_checked": "2026-11-04T19:30:46Z"
   },
   {
    "id": "9c24410329",
@@ -181,6 +209,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining"
     }
    ]
   },
