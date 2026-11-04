@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:45:56Z",
+ "updated": "2026-11-04T19:00:30Z",
  "cards": [
   {
    "id": "3632eace05",
@@ -4036,25 +4036,6 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html"
-    }
-   ]
-  },
-  {
-   "id": "a9726704f0",
-   "headline": "GitLab flaw allows unauthenticated RCE in 12-year span",
-   "summary": "GitLab released patches for a critical CVSS 10.0 flaw enabling unauthenticated remote code execution on self-managed servers affecting versions 7.0 through current releases spanning 12 years. An October 12 patch covered only versions 19.2 and later, leaving older deployments exposed. Organizations must apply the latest patches immediately to mitigate this high-impact vulnerability affecting widely deployed software.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-   "published": "2026-10-21T18:57:34Z",
-   "added": "2026-10-21T20:00:40Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/"
     }
    ]
   }
