@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T07:30:26Z",
+ "updated": "2026-11-04T08:00:32Z",
  "cards": [
   {
    "id": "ed421e39d3",
@@ -3967,27 +3967,6 @@
    "published": "2026-10-21T10:03:24Z",
    "added": "2026-10-21T10:30:32Z",
    "also": []
-  },
-  {
-   "id": "17efaa05bd",
-   "headline": "State Bank of India data leak exposes 3,897 customer records",
-   "summary": "State Bank of India confirmed a data breach exposing 3,897 customer records containing personal information, discovered among 375,000 records on the dark web. India's largest state-owned bank disclosed the incident in an October 21 stock-exchange filing but has not yet identified the breach source. Affected customers should monitor accounts for fraudulent activity and watch for potential phishing attempts.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [
-    "Exchange"
-   ],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-   "published": "2026-10-21T07:44:22Z",
-   "added": "2026-10-21T08:00:45Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak"
-    }
-   ]
   }
  ]
 }
