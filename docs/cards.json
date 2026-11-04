@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-04T15:00:43Z",
+ "updated": "2026-11-04T15:30:31Z",
  "cards": [
+  {
+   "id": "d6dd46466a",
+   "headline": "Google Calendar phishing hijacks sessions, bypasses MFA",
+   "summary": "A phishing campaign leveraged Google Calendar invites and trusted redirects to lure users to fake login pages, compromising corporate Google sessions and bypassing multi-factor authentication. Operation CloudFire tracked the attacks across nearly 900 malicious domains. Security researchers blocked the malicious messages and helped take down the infrastructure. Organizations should educate users on calendar invite risks and enforce additional verification for sensitive account access.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+   "published": "2026-11-04T15:00:10Z",
+   "added": "2026-11-04T15:30:31Z",
+   "also": []
+  },
   {
    "id": "63cdf286f0",
    "headline": "SonicWall GMS end-of-life flaws will not be patched",
