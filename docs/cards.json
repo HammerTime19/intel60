@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T01:00:30Z",
+ "updated": "2026-11-04T01:30:26Z",
  "cards": [
   {
    "id": "699d6dc9b6",
@@ -3987,20 +3987,6 @@
    "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
    "published": "2026-10-21T06:05:15Z",
    "added": "2026-10-21T08:00:45Z",
-   "also": []
-  },
-  {
-   "id": "0f04a6f0fb",
-   "headline": "TeamUpdraft website breached, WordPress backdoor keys stolen",
-   "summary": "Threat actors breached TeamUpdraft's website and stole UpdraftCentral connection keys. These keys can execute commands on connected WordPress sites. UpdraftCentral is a popular backup and security plugin used by many WordPress administrators. Users should rotate compromised keys and audit their WordPress sites for unauthorized access or modifications made through this backdoor vector.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
-   "published": "2026-10-21T01:01:50Z",
-   "added": "2026-10-21T01:30:36Z",
    "also": []
   }
  ]
