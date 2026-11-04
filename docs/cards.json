@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-04T10:30:34Z",
+ "updated": "2026-11-04T11:30:31Z",
  "cards": [
+  {
+   "id": "493913be8a",
+   "headline": "Chrome 157 released with 213 security fixes",
+   "summary": "Google Chrome 157 addresses 213 security vulnerabilities, including seven rated critical. The update resolves multiple memory safety bugs and incorrect or missing authorization issues. Users should apply the patch immediately to mitigate potential exploitation of these flaws in the widely deployed browser.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
+   "published": "2026-11-04T10:38:46Z",
+   "added": "2026-11-04T11:30:30Z",
+   "also": []
+  },
   {
    "id": "955f969e9d",
    "headline": "Russian hackers target iOS, Android via watering hole attacks",
@@ -169,6 +183,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/"
     }
    ]
   },
@@ -207,6 +225,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/"
     }
    ]
   },
