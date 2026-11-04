@@ -1,6 +1,32 @@
 {
- "updated": "2026-11-04T13:00:33Z",
+ "updated": "2026-11-04T13:30:35Z",
  "cards": [
+  {
+   "id": "7dcd83260d",
+   "headline": "Legacy email scripts targeted by spammers in honeypot scans",
+   "summary": "Researchers detected a resurgence in scans targeting vulnerable email CGI scripts on honeypots, similar to CVE-2000-0411 and related flaws. Attackers probe for test scripts like sendmail.php and testemail.php left behind during development, attempting to set arbitrary email headers or achieve code execution. Organizations should remove development test scripts and validate email form implementations.",
+   "severity": "info",
+   "category": "Research",
+   "cves": [
+    "CVE-2000-0411"
+   ],
+   "watch": [],
+   "source": "SANS ISC",
+   "url": "https://isc.sans.edu/diary/rss/33488",
+   "published": "2026-11-04T13:24:13Z",
+   "added": "2026-11-04T13:30:34Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2000-0411": {
+     "kev": false,
+     "epss": 0.07501,
+     "pct": 0.94494,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-11-04T13:30:34Z"
+  },
   {
    "id": "9c24410329",
    "headline": "Canadian extradited for university supercomputer cryptomining",
@@ -13,7 +39,12 @@
    "url": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
    "published": "2026-11-04T12:27:58Z",
    "added": "2026-11-04T12:30:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/"
+    }
+   ]
   },
   {
    "id": "d013e25bf4",
@@ -3938,29 +3969,6 @@
     {
      "source": "Krebs on Security",
      "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
-    }
-   ]
-  },
-  {
-   "id": "f29fd7d40b",
-   "headline": "Chrome adds ClickFix protections to Enhanced Protection mode",
-   "summary": "Google is rolling out enhanced safeguards in Chrome to protect users from ClickFix attacks when Enhanced Protection is enabled. The feature aims to prevent users from copying and pasting malicious commands into their operating system, bypassing conventional security controls. Users should enable Enhanced Protection for additional defense against this social engineering threat.",
-   "severity": "info",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
-   "published": "2026-10-21T13:15:09Z",
-   "added": "2026-10-21T13:30:35Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/"
     }
    ]
   }
