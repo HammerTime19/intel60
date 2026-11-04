@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-04T20:00:34Z",
+ "updated": "2026-11-04T20:30:35Z",
  "items": [
+  {
+   "cve": "CVE-2024-27834",
+   "vendor": "Apple",
+   "product": "Multiple Products",
+   "name": "Apple Multiple Products Improper Authentication Vulnerability",
+   "added": "2026-11-04",
+   "due": "2026-11-18",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "eaa8d66bc6"
+  },
   {
    "cve": "CVE-2026-119977",
    "vendor": "WordPress",

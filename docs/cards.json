@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T20:00:34Z",
+ "updated": "2026-11-04T20:30:37Z",
  "cards": [
   {
    "id": "1413af0079",
@@ -348,6 +348,32 @@
    "published": "2026-11-04T02:00:00Z",
    "added": "2026-11-04T02:00:42Z",
    "also": []
+  },
+  {
+   "id": "eaa8d66bc6",
+   "headline": "CISA adds Apple pointer authentication bypass to KEV",
+   "summary": "CISA added CVE-2024-27834 to the Known Exploited Vulnerabilities catalog. The improper authentication flaw affects Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5, allowing attackers with read/write access to bypass pointer authentication. The federal due date for patching is November 18, 2026. Organizations should apply available mitigations immediately per BOD 26-04 guidance or discontinue use if patches are unavailable.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2024-27834"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
+   "published": "2026-11-04T00:00:00Z",
+   "added": "2026-11-04T20:30:35Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2024-27834": {
+     "kev": true,
+     "epss": 0.00598,
+     "pct": 0.4875,
+     "cvss": 5.5,
+     "sev": "medium"
+    }
+   },
+   "cve_checked": "2026-11-04T20:30:35Z"
   },
   {
    "id": "699d6dc9b6",
@@ -4051,29 +4077,6 @@
    "published": "2026-10-21T20:31:48Z",
    "added": "2026-10-21T20:35:53Z",
    "also": []
-  },
-  {
-   "id": "565842927b",
-   "headline": "Meta faces $25 billion fine under New Mexico privacy ruling",
-   "summary": "Meta is being fined $25 billion under a New Mexico privacy ruling stemming from the Cambridge Analytica scandal a decade ago. The penalty addresses historical data privacy violations tied to the major breach that exposed millions of users' information. This represents a significant financial consequence for Meta's past data handling practices.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
-   "published": "2026-10-21T20:25:00Z",
-   "added": "2026-10-21T20:35:53Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html"
-    }
-   ]
   }
  ]
 }
