@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-04T14:30:36Z",
+ "updated": "2026-11-04T15:00:43Z",
  "cards": [
+  {
+   "id": "63cdf286f0",
+   "headline": "SonicWall GMS end-of-life flaws will not be patched",
+   "summary": "SonicWall disclosed two security vulnerabilities affecting end-of-life Global Management System (GMS) software that will not receive patches. The vendor confirmed that affected systems are out of support. Organizations running legacy GMS instances should assess their exposure and consider upgrading to supported versions or implementing compensating controls. No active exploitation has been reported at this time.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [
+    "SonicWall"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+   "published": "2026-11-04T14:42:25Z",
+   "added": "2026-11-04T15:00:40Z",
+   "also": []
+  },
   {
    "id": "4448a4360e",
    "headline": "Russian hosting provider Beget suffers data-destroying cyberattack",
@@ -142,7 +158,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
    "published": "2026-11-04T09:39:54Z",
    "added": "2026-11-04T10:00:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+    }
+   ]
   },
   {
    "id": "40a5a2749a",
@@ -965,10 +986,10 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00188,
-     "pct": 0.0854
+     "pct": 0.08569
     }
    },
-   "cve_checked": "2026-11-04T09:00:36Z"
+   "cve_checked": "2026-11-04T15:00:41Z"
   },
   {
    "id": "1f2870fb86",
@@ -3970,20 +3991,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/"
     }
    ]
-  },
-  {
-   "id": "2ee4d03f1b",
-   "headline": "Sandworm and partner destroy Ukrainian grain company data",
-   "summary": "Russian state-linked group Sandworm collaborated with another threat actor to conduct a destructive cyberattack against a Ukrainian grain logistics firm last year, according to researchers. The attack involved data destruction targeting critical infrastructure supporting Ukraine's food supply. The incident underscores ongoing cyber threats to essential Ukrainian industries during the conflict.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/ukraine-hackers-russia-grain-sandworm",
-   "published": "2026-10-21T14:45:00Z",
-   "added": "2026-10-22T09:30:37Z",
-   "also": []
   }
  ]
 }
