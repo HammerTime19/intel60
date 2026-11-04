@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T11:30:31Z",
+ "updated": "2026-11-04T12:00:32Z",
  "cards": [
   {
    "id": "493913be8a",
@@ -3985,20 +3985,6 @@
    "source": "The Hacker News",
    "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
    "published": "2026-10-21T12:05:00Z",
-   "added": "2026-10-21T13:00:41Z",
-   "also": []
-  },
-  {
-   "id": "b81260804a",
-   "headline": "Generative AI weakens email behavior detection filters",
-   "summary": "Generative AI has made malicious emails harder to detect by improving fluency, personalization, and uniqueness. Messages that previously relied on behavioral signals—clumsy wording, generic pretexts, reused templates—are now more sophisticated. This shift challenges traditional email filtering systems that depend on behavioral analysis, as reported by Proofpoint at its Protect 2026 conference.",
-   "severity": "high",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
-   "published": "2026-10-21T11:53:34Z",
    "added": "2026-10-21T13:00:41Z",
    "also": []
   }
