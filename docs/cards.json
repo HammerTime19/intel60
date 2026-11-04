@@ -1,6 +1,46 @@
 {
- "updated": "2026-11-04T09:00:36Z",
+ "updated": "2026-11-04T09:30:36Z",
  "cards": [
+  {
+   "id": "40a5a2749a",
+   "headline": "Russian police arrest three VasyGrek threat actor members",
+   "summary": "Russian authorities arrested three suspected members of VasyGrek, also known as Fluffy Wolf, a threat group targeting Russian and international companies since 2016. The Ministry of Internal Affairs dismantled the group's criminal infrastructure. Members are suspected of embezzling funds from victims through hacking operations.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+   "published": "2026-11-04T08:17:11Z",
+   "added": "2026-11-04T09:30:33Z",
+   "also": []
+  },
+  {
+   "id": "32c90d2f09",
+   "headline": "Google patches critical Android RCE flaw affecting versions 14-17",
+   "summary": "Google released a critical security patch for CVE-2026-58868, an Android vulnerability allowing unauthenticated remote code execution without user interaction. The flaw affects Android 14 through 17. Devices receiving security patch level 2026-11-01 or later are protected, though rollout depends on individual phone manufacturers and carriers. Users should update immediately when available.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-58868"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+   "published": "2026-11-04T07:46:15Z",
+   "added": "2026-11-04T09:30:33Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-58868": {
+     "kev": false,
+     "epss": 0.00211,
+     "pct": 0.11332,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-11-04T09:30:33Z"
+  },
   {
    "id": "ed421e39d3",
    "headline": "Philippine Overseas Employment Administration breached, 69GB leaked",
