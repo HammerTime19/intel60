@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:00:28Z",
+ "updated": "2026-11-04T18:30:30Z",
  "cards": [
   {
    "id": "3632eace05",
@@ -132,7 +132,12 @@
    "url": "https://therecord.media/france-cyberattack-blood-refrigeration",
    "published": "2026-11-04T13:45:00Z",
    "added": "2026-11-04T14:00:48Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/"
+    }
+   ]
   },
   {
    "id": "7dcd83260d",
@@ -4066,25 +4071,6 @@
    "published": "2026-10-21T18:34:42Z",
    "added": "2026-10-21T19:00:38Z",
    "also": []
-  },
-  {
-   "id": "f5335e2039",
-   "headline": "LiteLLM Python package compromised with credential stealer",
-   "summary": "LiteLLM version 1.107.0 was compromised in a supply chain attack distributing credential stealing malware and a backdoor through PyPI wheels and Docker images. The popular Python package has been quarantined on PyPI. Defenders should immediately update LiteLLM, scan for signs of compromise, and rotate credentials used within environments running the affected version.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-   "published": "2026-10-21T18:01:57Z",
-   "added": "2026-10-21T18:30:34Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/"
-    }
-   ]
   }
  ]
 }
