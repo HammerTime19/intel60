@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-04T16:00:33Z",
+ "updated": "2026-11-04T16:32:39Z",
  "cards": [
+  {
+   "id": "7881f7cab7",
+   "headline": "Kyiv Independent news site hit by Russian cyberattack",
+   "summary": "The Kyiv Independent, a leading English-language news outlet in Ukraine, was hit by a suspected Russian cyberattack that disrupted its website. The attack occurred amid ongoing tensions between Russia and Ukraine. No details were provided about the attack method, infrastructure damage, or restoration timeline. Organizations in conflict zones should maintain robust backups and DDoS mitigation strategies.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/ukraine-kyiv-independent-cyberattack",
+   "published": "2026-11-04T16:15:00Z",
+   "added": "2026-11-04T16:32:39Z",
+   "also": []
+  },
   {
    "id": "d6dd46466a",
    "headline": "Google Calendar phishing hijacks sessions, bypasses MFA",
