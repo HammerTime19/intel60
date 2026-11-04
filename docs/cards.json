@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-04T20:30:37Z",
+ "updated": "2026-11-04T21:00:34Z",
  "cards": [
+  {
+   "id": "0fd87eaf33",
+   "headline": "Zyxel zero-day compromised 1,000 network switches",
+   "summary": "Zyxel patched a zero-day vulnerability in GS1900 series network switches that attackers exploited to compromise nearly 1,000 devices worldwide. The flaw allowed hackers to steal configuration files and credentials from affected switches. Organizations using Zyxel GS1900 switches should apply the patch immediately to prevent unauthorized access to network infrastructure and data theft.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "published": "2026-11-04T20:58:19Z",
+   "added": "2026-11-04T21:00:32Z",
+   "also": []
+  },
   {
    "id": "1413af0079",
    "headline": "DreamHost breach exposes FTP credentials and webmail sessions",
@@ -4062,20 +4076,6 @@
    "url": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
    "published": "2026-10-21T21:15:39Z",
    "added": "2026-10-21T22:00:39Z",
-   "also": []
-  },
-  {
-   "id": "3371acd3dc",
-   "headline": "Lazarus hackers combine old and new cryptography for malware delivery",
-   "summary": "North Korean Lazarus group is employing post-quantum cryptography to secure malicious payload delivery in new campaigns. The threat actor is blending legacy and modern malware variants with advanced encryption techniques. This indicates sophisticated adaptation by state-sponsored actors to evade detection and future-proof their operations.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-   "published": "2026-10-21T20:31:48Z",
-   "added": "2026-10-21T20:35:53Z",
    "also": []
   }
  ]
