@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T15:42:36Z",
+ "updated": "2026-11-04T16:00:33Z",
  "cards": [
   {
    "id": "d6dd46466a",
@@ -292,7 +292,12 @@
    "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
    "published": "2026-11-03T18:46:38Z",
    "added": "2026-11-03T19:00:57Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/"
+    }
+   ]
   },
   {
    "id": "96de8a8fe0",
