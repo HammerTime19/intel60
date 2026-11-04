@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T14:00:50Z",
+ "updated": "2026-11-04T14:30:36Z",
  "cards": [
   {
    "id": "4448a4360e",
@@ -368,6 +368,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/"
     }
    ]
   },
@@ -3980,25 +3984,6 @@
    "published": "2026-10-21T14:45:00Z",
    "added": "2026-10-22T09:30:37Z",
    "also": []
-  },
-  {
-   "id": "39edcc9fa9",
-   "headline": "PHP vulnerabilities force hundreds of websites offline",
-   "summary": "Following the release of PHP security patches, hundreds of websites went offline as administrators addressed two critical PHP vulnerabilities. Maintainers issued urgent alerts warning of severe security flaws affecting the widely deployed scripting language. Website operators should prioritize applying available patches to restore services and prevent exploitation.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/php-script-vulnerabilities-warnings",
-   "published": "2026-10-21T14:17:00Z",
-   "added": "2026-10-21T14:30:34Z",
-   "also": [
-    {
-     "source": "Krebs on Security",
-     "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
-    }
-   ]
   }
  ]
 }
