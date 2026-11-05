@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T06:30:26Z",
+ "updated": "2026-11-05T07:00:32Z",
  "cards": [
   {
    "id": "49bf8b366c",
@@ -4052,20 +4052,6 @@
    "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
    "published": "2026-10-22T07:38:14Z",
    "added": "2026-10-22T08:00:35Z",
-   "also": []
-  },
-  {
-   "id": "eff3ebf7d5",
-   "headline": "QPACK flaws crash HTTP/3 servers with single connection",
-   "summary": "Security firm FoxIO disclosed remote denial-of-service flaws in QPACK affecting HTTP/3 servers. Unauthenticated attackers can crash servers by sending small compressed HTTP headers that expand dramatically in memory, causing up to 4,000-fold amplification. Working proof-of-concept code is publicly available, increasing exploitation risk for vulnerable deployments.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-   "published": "2026-10-22T06:38:31Z",
-   "added": "2026-10-22T09:30:37Z",
    "also": []
   }
  ]
