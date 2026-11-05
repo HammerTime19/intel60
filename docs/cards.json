@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T21:00:32Z",
+ "updated": "2026-11-05T21:30:34Z",
  "cards": [
   {
    "id": "58f4053a1b",
@@ -55,6 +55,25 @@
    "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
    "published": "2026-11-05T17:45:29Z",
    "added": "2026-11-05T17:57:11Z",
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
+    }
+   ]
+  },
+  {
+   "id": "306be99284",
+   "headline": "ChatGPT Lockdown Mode bypass allows silent chat exfiltration",
+   "summary": "Researchers disclosed a now-patched vulnerability in OpenAI's ChatGPT that bypassed Lockdown Mode, a feature introduced in June 2026 to prevent data theft from prompt injections. The flaw could enable attackers to silently exfiltrate chat data and conduct phishing attacks without user interaction. OpenAI has patched the vulnerability. Users should verify they are running the latest version of ChatGPT.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+   "published": "2026-11-05T16:42:32Z",
+   "added": "2026-11-05T21:30:34Z",
    "also": []
   },
   {
