@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-05T09:00:30Z",
+ "updated": "2026-11-05T09:30:30Z",
  "cards": [
+  {
+   "id": "da77af0f43",
+   "headline": "GhostMap Android flaw enables persistent boot loop",
+   "summary": "A flaw in Android allows attackers to force devices into continuous boot loops through a specially crafted app that requires no permissions to install. The attack requires only app installation and no elevated privileges. Affected Android devices remain unusable until manually recovered. Users should avoid installing apps from untrusted sources and keep devices updated.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+   "published": "2026-11-05T09:18:29Z",
+   "added": "2026-11-05T09:30:29Z",
+   "also": []
+  },
   {
    "id": "49bf8b366c",
    "headline": "White House staffers infected with Infatica residential proxy malware",
