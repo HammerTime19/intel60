@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-05T21:30:34Z",
+ "updated": "2026-11-05T22:00:34Z",
  "cards": [
+  {
+   "id": "c5d8bcb2d0",
+   "headline": "DNS typos expose US government email systems to abuse",
+   "summary": "Erroneous or outdated DNS records in US government email infrastructure create security gaps that attackers can exploit to gain unauthorized access and control. The misconfiguration affects email systems across government organizations. Administrators should audit DNS records for accuracy and implement monitoring to detect unauthorized changes.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
+   "published": "2026-11-05T21:35:05Z",
+   "added": "2026-11-05T22:00:33Z",
+   "also": []
+  },
+  {
+   "id": "886e940667",
+   "headline": "Fake OpenAI SpaceX events steal Microsoft Google credentials",
+   "summary": "Attackers deploy phishing-as-a-service platforms to impersonate OpenAI, SpaceX, and Anthropic with fake event invitations targeting employees. The campaign aims to harvest Microsoft and Google account credentials and authentication sessions. Organizations should warn employees about suspicious event invitations and verify communications through official channels before sharing credentials.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+   "published": "2026-11-05T21:30:30Z",
+   "added": "2026-11-05T22:00:33Z",
+   "also": []
+  },
   {
    "id": "58f4053a1b",
    "headline": "Truffle Security revokes 1.4 million exposed API secrets",
