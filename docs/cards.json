@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T17:00:35Z",
+ "updated": "2026-11-05T17:30:29Z",
  "cards": [
   {
    "id": "5263a8e99f",
@@ -458,6 +458,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/russia-hackers-smartphone-cyberattacks"
     }
    ]
   },
@@ -3995,43 +3999,6 @@
    "url": "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware-french",
    "published": "2026-10-22T19:30:20Z",
    "added": "2026-10-22T21:00:40Z",
-   "also": []
-  },
-  {
-   "id": "5d4f96d6ac",
-   "headline": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
-   "summary": "Arista Networks released security updates for an actively exploited zero-day vulnerability in VeloCloud Orchestrator (VCO) On-Prem deployments. The flaw affects on-premises installations used for SD-WAN orchestration and network management. Exploitation is confirmed in the wild. Organizations running VCO On-Prem should apply patches immediately to prevent unauthorized access.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-   "published": "2026-10-22T17:18:22Z",
-   "added": "2026-10-22T17:30:38Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/"
-    },
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
-    }
-   ]
-  },
-  {
-   "id": "eebdb3f4f6",
-   "headline": "Linux KSMBD kernel SMB server RCE flaws disclosed",
-   "summary": "Two CVSS 9.0 remote code execution vulnerabilities in Linux's KSMBD kernel SMB server were publicly disclosed before kernel fixes became available. One flaw (ZDI-CAN-33774) requires no authentication; the other (ZDI-CAN-33549) needs SMB Direct transport. Linux administrators should monitor for patches and restrict SMB access where possible until fixes are released.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-   "published": "2026-10-22T17:01:53Z",
-   "added": "2026-10-22T18:30:36Z",
    "also": []
   }
  ]
