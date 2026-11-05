@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-05T04:30:33Z",
+ "updated": "2026-11-05T05:00:34Z",
  "cards": [
+  {
+   "id": "49bf8b366c",
+   "headline": "White House staffers infected with Infatica residential proxy malware",
+   "summary": "Security researchers detected residential proxy nodes beaconing from White House networks (AS2650) between October and November. Multiple Windows 11 installations of Infatica, a proxy service often bundled with free applications, were found running. The malware rents out the infected devices' IP addresses to third parties. Infatica's Russian founder previously operated hosting infrastructure used in 2016 election system cyberattacks. Organizations should audit employee devices for unauthorized proxy services and enforce application security policies.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "Krebs on Security",
+   "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+   "published": "2026-11-05T04:36:17Z",
+   "added": "2026-11-05T05:00:33Z",
+   "also": []
+  },
   {
    "id": "71b12d4849",
    "headline": "Amadeus breach hits six major Asian airlines",
