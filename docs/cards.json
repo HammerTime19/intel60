@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T05:00:34Z",
+ "updated": "2026-11-05T05:30:30Z",
  "cards": [
   {
    "id": "49bf8b366c",
@@ -13,6 +13,20 @@
    "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
    "published": "2026-11-05T04:36:17Z",
    "added": "2026-11-05T05:00:33Z",
+   "also": []
+  },
+  {
+   "id": "25c3eda20c",
+   "headline": "OpenAI AI pipeline validates 948 Linux privilege escalation exploits",
+   "summary": "OpenAI's cyber-focused AI model identified and reproduced 1,724 vulnerabilities in the Linux kernel, generating 948 local privilege escalation (LPE) exploits in a 30-hour run costing $1.2 million in API fees. The pipeline analyzed 2,308 candidate findings, dynamically reproduced flaws, and produced working LPE exploits. This demonstrates AI's capability in vulnerability research and validation at scale, highlighting both the potential for accelerated security discovery and the risks of AI-assisted exploit development.",
+   "severity": "info",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "published": "2026-11-05T04:31:16Z",
+   "added": "2026-11-05T05:30:29Z",
    "also": []
   },
   {
