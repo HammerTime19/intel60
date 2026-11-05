@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T19:30:34Z",
+ "updated": "2026-11-05T19:46:48Z",
  "cards": [
   {
    "id": "7e637a2f9f",
@@ -490,6 +490,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/russia-hackers-smartphone-cyberattacks"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users"
     }
    ]
   },
