@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T12:30:36Z",
+ "updated": "2026-11-05T13:00:31Z",
  "cards": [
   {
    "id": "da77af0f43",
@@ -238,6 +238,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/"
     }
    ]
   },
@@ -3982,20 +3986,6 @@
    "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
    "published": "2026-10-22T17:01:53Z",
    "added": "2026-10-22T18:30:36Z",
-   "also": []
-  },
-  {
-   "id": "2bd447638f",
-   "headline": "Signal RingRTC flaw blocks call hang-ups from malicious callers",
-   "summary": "A vulnerability in Signal's open-source RingRTC calling library prevented calls from ending properly when triggered by malicious callers. The flaw affected users' ability to disconnect from calls. Signal has addressed the issue. Users should ensure they are running the latest version of Signal to receive the fix and restore normal call termination functionality.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
-   "published": "2026-10-22T12:34:31Z",
-   "added": "2026-10-22T13:00:39Z",
    "also": []
   }
  ]
