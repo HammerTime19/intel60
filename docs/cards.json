@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-05T22:00:34Z",
+ "updated": "2026-11-05T22:30:34Z",
  "cards": [
+  {
+   "id": "3189ce2b4e",
+   "headline": "Queens Public Library hit by ransomware attack",
+   "summary": "A ransomware attack disrupted the Queens Public Library system, affecting 66 branches serving 2.3 million residents in the borough. The attack disrupted Wi-Fi and on-site computers, forcing the library to publish multiple alerts on Wednesday confirming the incident. No details on attacker identity, ransom demand, or data exposure status were provided. Libraries should review backup procedures and incident response plans.",
+   "severity": "high",
+   "category": "Ransomware",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+   "published": "2026-11-05T22:08:00Z",
+   "added": "2026-11-05T22:30:33Z",
+   "also": []
+  },
   {
    "id": "c5d8bcb2d0",
    "headline": "DNS typos expose US government email systems to abuse",
