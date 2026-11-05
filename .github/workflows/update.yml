@@ -30,6 +30,7 @@ permissions:
   pages: write
   id-token: write
   actions: read     # lets the health job see whether the previous run failed
+  deployments: read # lets a run see whether the last site deploy failed
 
 concurrency:
   group: intel60
@@ -41,6 +42,7 @@ jobs:
     timeout-minutes: 15
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
+      redeploy: ${{ steps.lastdeploy.outputs.redeploy }}
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4
         with:
@@ -82,19 +84,34 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Update cards"
-            git pull --rebase -X theirs origin main   # on a clash, keep this run's newer cards
-            git push
+            # GitHub sometimes rejects a push with a brief server error, so try up to 3 times
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && break   # on a clash, keep this run's newer cards
+              [ "$i" = 3 ] && exit 1
+              echo "push failed, retrying in $((i * 20))s"; sleep $((i * 20))
+            done
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Check the last site deploy
+        id: lastdeploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # if the last deploy failed (usually a GitHub Pages outage), deploy again even without new stories
+          url=$(gh api "repos/$GITHUB_REPOSITORY/deployments?environment=github-pages&per_page=1" --jq '.[0].statuses_url // ""' || true)
+          state=$([ -n "$url" ] && gh api "$url" --jq '.[0].state // ""' || true)
+          echo "last deploy: ${state:-unknown}"
+          if [ "$state" = failure ] || [ "$state" = error ]; then echo "redeploy=true" >> "$GITHUB_OUTPUT"; fi
+
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa  # v3
-        if: steps.commit.outputs.changed == 'true' || (github.event_name != 'schedule' && inputs.source != 'timer')
+        if: steps.commit.outputs.changed == 'true' || steps.lastdeploy.outputs.redeploy == 'true' || (github.event_name != 'schedule' && inputs.source != 'timer')
         with:
           path: docs
 
   deploy:
     needs: update
-    if: needs.update.outputs.changed == 'true' || (github.event_name != 'schedule' && inputs.source != 'timer')
+    if: needs.update.outputs.changed == 'true' || needs.update.outputs.redeploy == 'true' || (github.event_name != 'schedule' && inputs.source != 'timer')
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -104,7 +121,8 @@ jobs:
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e  # v4
 
   health:
-    # Alerts the owner (NTFY_ADMIN_TOPIC) on the first failed run, and again when runs recover
+    # Alerts the owner (NTFY_ADMIN_TOPIC) when two runs in a row fail, and again when runs recover.
+    # One failure on its own is usually a GitHub blip that the next run fixes, so it doesn't alert.
     needs: [update, deploy]
     if: always()
     runs-on: ubuntu-latest
@@ -117,10 +135,11 @@ jobs:
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           if [ -z "$ADMIN_TOPIC" ]; then echo "NTFY_ADMIN_TOPIC not set"; exit 0; fi
-          prev=$(gh run list -R "$GITHUB_REPOSITORY" --workflow update.yml --status completed -L 1 --json conclusion --jq '.[0].conclusion // ""')
-          echo "this run failed: $FAILED, previous run: $prev"
-          if [ "$FAILED" = true ] && [ "$prev" != failure ]; then
-            curl -s -H "Title: Intel60: update failed" -H "Priority: 4" -H "Tags: rotating_light" -H "Click: $RUN_URL"               -d "A run failed (update: ${{ needs.update.result }}, deploy: ${{ needs.deploy.result }}). Tap to open the log. You will get another alert when it recovers."               "https://ntfy.sh/$ADMIN_TOPIC"
-          elif [ "$FAILED" != true ] && [ "$prev" = failure ]; then
+          prevs=$(gh run list -R "$GITHUB_REPOSITORY" --workflow update.yml --status completed -L 2 --json conclusion --jq '[.[].conclusion] | join(" ")')
+          prev=${prevs%% *}; before=${prevs#* }
+          echo "this run failed: $FAILED, previous runs: $prevs"
+          if [ "$FAILED" = true ] && [ "$prev" = failure ] && [ "$before" != failure ]; then
+            curl -s -H "Title: Intel60: updates failing" -H "Priority: 4" -H "Tags: rotating_light" -H "Click: $RUN_URL"               -d "Two runs in a row failed (update: ${{ needs.update.result }}, deploy: ${{ needs.deploy.result }}). Check githubstatus.com, then tap to open the log. You will get another alert when it recovers."               "https://ntfy.sh/$ADMIN_TOPIC"
+          elif [ "$FAILED" != true ] && [ "$prev" = failure ] && [ "$before" = failure ]; then
             curl -s -H "Title: Intel60: updates recovered" -H "Tags: white_check_mark" -H "Click: $RUN_URL"               -d "Runs are succeeding again." "https://ntfy.sh/$ADMIN_TOPIC"
           fi
