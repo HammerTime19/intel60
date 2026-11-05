@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T10:30:30Z",
+ "updated": "2026-11-05T11:00:32Z",
  "cards": [
   {
    "id": "da77af0f43",
@@ -87,6 +87,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/"
     }
    ]
   },
@@ -386,6 +390,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/"
     }
    ]
   },
@@ -4008,20 +4016,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
     }
    ]
-  },
-  {
-   "id": "eb08dcb4a9",
-   "headline": "Splunk and SolarWinds release security patches",
-   "summary": "Splunk and SolarWinds have released updates addressing multiple vulnerabilities that could enable remote code execution, privilege escalation, and information disclosure. The patches address flaws in widely deployed enterprise software used for monitoring and IT management. Organizations should prioritize applying these updates to mitigate exploitation risks.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
-   "published": "2026-10-22T10:45:24Z",
-   "added": "2026-10-22T11:00:35Z",
-   "also": []
   }
  ]
 }
