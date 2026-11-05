@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T08:00:40Z",
+ "updated": "2026-11-05T08:30:30Z",
  "cards": [
   {
    "id": "49bf8b366c",
@@ -55,7 +55,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
    "published": "2026-11-04T20:58:19Z",
    "added": "2026-11-04T21:00:32Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
+    }
+   ]
   },
   {
    "id": "1413af0079",
@@ -4001,25 +4006,6 @@
    "published": "2026-10-22T10:05:21Z",
    "added": "2026-10-22T10:30:34Z",
    "also": []
-  },
-  {
-   "id": "df0211e45e",
-   "headline": "Operation Serengeti III disrupts 11,000 African cybercrime networks",
-   "summary": "Law enforcement agencies disrupted nearly 11,000 cybercriminal networks and arrested over 1,400 people in Operation Serengeti III, targeting business email compromise, ransomware, and online scams across Africa. The operation represents a significant coordinated effort against organized cybercrime. Details on specific outcomes and ongoing investigations remain limited.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
-   "published": "2026-10-22T08:27:11Z",
-   "added": "2026-10-22T08:30:34Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/africa-cybercrime-interpol-arrests"
-    }
-   ]
   }
  ]
 }
