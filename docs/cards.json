@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-05T17:30:29Z",
+ "updated": "2026-11-05T17:57:12Z",
  "cards": [
+  {
+   "id": "671b07a9ce",
+   "headline": "OpenSSH flaw bypasses password-disabled account protection",
+   "summary": "A vulnerability in OpenSSH, dubbed \"*sshole\", allows unauthenticated attackers to log into Alpine Linux and other musl-based systems configured to block password authentication. The flaw is triggered by submitting an oversized password that bypasses the account's security settings. System administrators should update OpenSSH and review authentication configurations on affected systems.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+   "published": "2026-11-05T17:45:29Z",
+   "added": "2026-11-05T17:57:11Z",
+   "also": []
+  },
   {
    "id": "5263a8e99f",
    "headline": "CWPdoor malware trojanizes Control Web Panel server",
