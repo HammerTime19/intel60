@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T07:30:23Z",
+ "updated": "2026-11-05T08:00:40Z",
  "cards": [
   {
    "id": "49bf8b366c",
@@ -247,7 +247,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-05T02:00:32Z"
+   "cve_checked": "2026-11-05T08:00:40Z"
   },
   {
    "id": "9c24410329",
@@ -4020,39 +4020,6 @@
      "url": "https://therecord.media/africa-cybercrime-interpol-arrests"
     }
    ]
-  },
-  {
-   "id": "29143f2ae2",
-   "headline": "Node.js Brotli decoder bug enables remote code execution",
-   "summary": "Node.js released security updates on October 21 for versions 22.x, 24.x, and 26.x, fixing ten vulnerabilities. The most critical flaw is in the bundled Brotli decompression code, which allows unauthenticated remote code execution. Organizations running Node.js should upgrade to patched versions immediately to prevent exploitation.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-   "published": "2026-10-22T07:47:22Z",
-   "added": "2026-10-22T09:30:37Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/"
-    }
-   ]
-  },
-  {
-   "id": "a5298e0f95",
-   "headline": "Oracle patches 1,200 flaws, nearly 100 critical",
-   "summary": "Oracle released its October 2026 Critical Patch Update addressing over 1,200 vulnerabilities, with approximately 100 rated critical. Fusion Middleware received the most patches. Organizations using Oracle products should prioritize applying these updates, especially for critical-rated flaws affecting widely deployed enterprise software components. Timely patching reduces exploitation risk.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
-   "published": "2026-10-22T07:38:14Z",
-   "added": "2026-10-22T08:00:35Z",
-   "also": []
   }
  ]
 }
