@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T11:00:32Z",
+ "updated": "2026-11-05T11:30:31Z",
  "cards": [
   {
    "id": "da77af0f43",
@@ -55,6 +55,20 @@
    "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
    "published": "2026-11-05T00:00:00Z",
    "added": "2026-11-05T10:30:29Z",
+   "also": []
+  },
+  {
+   "id": "260025e601",
+   "headline": "Ukraine security fires officials in call center graft probe",
+   "summary": "Ukraine's security service dismissed two senior officials during a corruption investigation targeting an alleged criminal network that bribed law enforcement to protect fraudulent call centers and illegal operations. The probe reveals systemic corruption enabling organized crime. Ukraine's government and international partners should strengthen oversight of law enforcement agencies and prosecute involved officials to restore institutional integrity.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/ukraine-fires-senior-security-officials-amid-scam-center-corruption-investigation",
+   "published": "2026-11-05T00:00:00Z",
+   "added": "2026-11-05T11:30:31Z",
    "also": []
   },
   {
@@ -3997,25 +4011,6 @@
    "published": "2026-10-22T12:14:00Z",
    "added": "2026-10-22T12:30:34Z",
    "also": []
-  },
-  {
-   "id": "76b18c2dc5",
-   "headline": "Railway platform breached, customer secrets potentially accessed",
-   "summary": "Platform-as-a-service provider Railway disclosed unauthorized access to systems storing customer environment variables. An intruder gained access to encrypted environment variables and, in some cases, obtained decrypted contents affecting a subset of users. Railway is investigating the scope of the breach. The company urges customers to rotate credentials and review environment secrets for unauthorized activity.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
-   "published": "2026-10-22T11:15:42Z",
-   "added": "2026-10-22T11:30:36Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
-    }
-   ]
   }
  ]
 }
