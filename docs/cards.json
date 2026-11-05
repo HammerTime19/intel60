@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-05T15:30:35Z",
+ "updated": "2026-11-05T16:31:08Z",
  "cards": [
+  {
+   "id": "5263a8e99f",
+   "headline": "CWPdoor malware trojanizes Control Web Panel server",
+   "summary": "A new Linux malware called CWPdoor is distributed through a trojanized version of cwpsrv, the web server component of Control Web Panel (CWP) management software. Attackers backdoor Linux servers when administrators install the compromised version. Organizations running CWP should verify their server integrity and check for unauthorized access. Update to official, uncompromised versions immediately.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+   "published": "2026-11-05T16:24:26Z",
+   "added": "2026-11-05T16:30:39Z",
+   "also": []
+  },
+  {
+   "id": "6b1d9cd5a0",
+   "headline": "DigiCert data breach exposes customer identity documents",
+   "summary": "DigiCert suffered a data breach when a server migration mistakenly exposed an internal business system to the internet. Unauthorized attackers gained access to customer information and identity documents. DigiCert is investigating the incident and notifying affected customers. Organizations using DigiCert services should monitor for potential misuse of exposed data and review their certificate management practices.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+   "published": "2026-11-05T16:12:46Z",
+   "added": "2026-11-05T16:30:39Z",
+   "also": []
+  },
   {
    "id": "2dacffdc48",
    "headline": "Bank phishing sites evade takedowns with fake suspension pages",
@@ -466,12 +494,12 @@
     "CVE-2026-58868": {
      "kev": false,
      "epss": 0.00211,
-     "pct": 0.11379,
+     "pct": 0.11365,
      "cvss": null,
      "sev": null
     }
    },
-   "cve_checked": "2026-11-05T10:00:32Z"
+   "cve_checked": "2026-11-05T16:30:51Z"
   },
   {
    "id": "ed421e39d3",
@@ -1294,10 +1322,10 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00188,
-     "pct": 0.08569
+     "pct": 0.08553
     }
    },
-   "cve_checked": "2026-11-05T10:30:30Z"
+   "cve_checked": "2026-11-05T16:31:07Z"
   },
   {
    "id": "1f2870fb86",
