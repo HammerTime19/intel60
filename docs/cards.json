@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:30:34Z",
+ "updated": "2026-11-05T23:00:58Z",
  "cards": [
   {
    "id": "3189ce2b4e",
@@ -620,11 +620,11 @@
      "kev": false,
      "epss": 0.00211,
      "pct": 0.11365,
-     "cvss": null,
-     "sev": null
+     "cvss": 9.8,
+     "sev": "critical"
     }
    },
-   "cve_checked": "2026-11-05T16:30:51Z"
+   "cve_checked": "2026-11-05T23:00:40Z"
   },
   {
    "id": "ed421e39d3",
@@ -1450,7 +1450,7 @@
      "pct": 0.08553
     }
    },
-   "cve_checked": "2026-11-05T16:31:07Z"
+   "cve_checked": "2026-11-05T23:00:58Z"
   },
   {
    "id": "1f2870fb86",
