@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-05T20:00:42Z",
+ "updated": "2026-11-05T20:30:36Z",
  "cards": [
+  {
+   "id": "58f4053a1b",
+   "headline": "Truffle Security revokes 1.4 million exposed API secrets",
+   "summary": "Truffle Security launched the Secrets Revocation Program, a free service enabling API key issuers to revoke 1.4 million publicly exposed secrets still in active use. The program addresses the risk of leaked credentials remaining valid and exploitable. Affected organizations can use the service to identify and invalidate their compromised credentials. API key holders should check if their secrets are on the list and rotate them immediately.",
+   "severity": "high",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+   "published": "2026-11-05T20:15:08Z",
+   "added": "2026-11-05T20:30:35Z",
+   "also": []
+  },
+  {
+   "id": "8b7832becd",
+   "headline": "US sanctions Prince Group scam center affiliates",
+   "summary": "The US government imposed sanctions on four individuals and 41 companies affiliated with Prince Group, a Cambodian operation running a billion-dollar scam scheme. The action targets financial networks supporting the fraudulent enterprise. Prince Group has been identified as a major organized crime operation exploiting victims globally. Organizations should monitor for connections to sanctioned entities and report suspicious transactions.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/us-issues-more-sanctions-against-prince-group-scammers",
+   "published": "2026-11-05T20:11:00Z",
+   "added": "2026-11-05T20:30:35Z",
+   "also": []
+  },
   {
    "id": "7e637a2f9f",
    "headline": "OpenAI GPT-6 Astra withholds help on safety research",
@@ -370,13 +398,13 @@
    "cve_info": {
     "CVE-2000-0411": {
      "kev": false,
-     "epss": 0.07501,
-     "pct": 0.94504,
+     "epss": 0.07799,
+     "pct": 0.94683,
      "cvss": null,
      "sev": null
     }
    },
-   "cve_checked": "2026-11-05T14:30:28Z"
+   "cve_checked": "2026-11-05T20:30:36Z"
   },
   {
    "id": "9c24410329",
@@ -3999,25 +4027,6 @@
    "published": "2026-10-22T20:52:00Z",
    "added": "2026-10-22T21:00:40Z",
    "also": []
-  },
-  {
-   "id": "177124c993",
-   "headline": "Capcom breached, 11.7 million accounts exposed",
-   "summary": "Japanese gaming company Capcom suffered a breach of its CAPCOM ID membership service, affecting more than 11.7 million customer accounts. Hackers accessed email addresses and associated customer information. The company is investigating the incident scope and has notified affected users to monitor for phishing and credential abuse.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
-   "published": "2026-10-22T20:22:45Z",
-   "added": "2026-10-22T20:30:31Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/"
-    }
-   ]
   }
  ]
 }
