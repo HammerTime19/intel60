@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-05T13:00:31Z",
+ "updated": "2026-11-05T13:30:33Z",
  "cards": [
+  {
+   "id": "2dacffdc48",
+   "headline": "Bank phishing sites evade takedowns with fake suspension pages",
+   "summary": "Cybercriminals are deploying phishing sites that serve legitimate-looking 'suspended' pages to visitors who return, while showing phishing content to first-time visitors. Over 200 sites used this evasion technique. This prevents automated takedown systems and security researchers from detecting the phishing infrastructure. Organizations should educate users to verify bank URLs directly and enable MFA to mitigate phishing risks.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
+   "published": "2026-11-05T13:22:12Z",
+   "added": "2026-11-05T13:30:33Z",
+   "also": []
+  },
   {
    "id": "da77af0f43",
    "headline": "GhostMap Android flaw enables persistent boot loop",
@@ -275,6 +289,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/"
     }
    ]
   },
