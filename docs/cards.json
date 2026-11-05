@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T09:30:30Z",
+ "updated": "2026-11-05T09:47:55Z",
  "cards": [
   {
    "id": "da77af0f43",
@@ -504,6 +504,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html"
     }
    ]
   },
