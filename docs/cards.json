@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T10:00:32Z",
+ "updated": "2026-11-05T10:30:30Z",
  "cards": [
   {
    "id": "da77af0f43",
@@ -41,6 +41,20 @@
    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
    "published": "2026-11-05T04:31:16Z",
    "added": "2026-11-05T05:30:29Z",
+   "also": []
+  },
+  {
+   "id": "350327fdd7",
+   "headline": "Chainalysis hit in cyber breach affecting all users",
+   "summary": "Chainalysis, a blockchain analytics platform serving law enforcement and national security sectors, confirmed a cyberattack exposed information belonging to all users. The attack employed \"agentic\" techniques. The company disclosed the breach on Wednesday but did not provide details on the scope of exposed data or timeline for remediation. Users should reset credentials and monitor accounts.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+   "published": "2026-11-05T00:00:00Z",
+   "added": "2026-11-05T10:30:29Z",
    "also": []
   },
   {
@@ -1239,7 +1253,7 @@
      "pct": 0.08569
     }
    },
-   "cve_checked": "2026-11-05T04:01:04Z"
+   "cve_checked": "2026-11-05T10:30:30Z"
   },
   {
    "id": "1f2870fb86",
@@ -4007,22 +4021,6 @@
    "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
    "published": "2026-10-22T10:45:24Z",
    "added": "2026-10-22T11:00:35Z",
-   "also": []
-  },
-  {
-   "id": "34f12a1f7c",
-   "headline": "Cisco patches 34 flaws across multiple products",
-   "summary": "Cisco released patches for 34 vulnerabilities across multiple products, including critical-severity defects that could enable command execution, authentication bypass, and cross-site scripting attacks. The patches address flaws in various Cisco systems and services. Organizations should prioritize applying updates to critical-severity vulnerabilities to prevent potential exploitation and unauthorized access.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "Cisco"
-   ],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
-   "published": "2026-10-22T10:05:21Z",
-   "added": "2026-10-22T10:30:34Z",
    "also": []
   }
  ]
