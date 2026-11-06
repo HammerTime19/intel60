@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T13:30:32Z",
+ "updated": "2026-11-06T14:00:36Z",
  "cards": [
   {
    "id": "8694430c3b",
@@ -4071,24 +4071,6 @@
    "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
    "published": "2026-10-23T17:26:59Z",
    "added": "2026-10-23T18:00:39Z",
-   "also": []
-  },
-  {
-   "id": "f059789b24",
-   "headline": "Attackers breach enterprise firewalls, expose 70,000 credentials",
-   "summary": "Cybersecurity researchers disclosed a large-scale campaign targeting exposed network edge devices, including Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. Operators obtained access to numerous organizations worldwide and attempted further compromise of some victims. Organizations should verify firewall configurations, ensure MFA is enabled, and monitor for unauthorized access attempts in their security logs.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [
-    "Fortinet",
-    "FortiGate",
-    "Palo Alto"
-   ],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-   "published": "2026-10-23T13:50:56Z",
-   "added": "2026-10-23T14:30:36Z",
    "also": []
   }
  ]
