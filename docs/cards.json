@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T13:00:43Z",
+ "updated": "2026-11-06T13:30:32Z",
  "cards": [
   {
    "id": "8694430c3b",
@@ -137,7 +137,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
    "published": "2026-11-06T00:56:44Z",
    "added": "2026-11-06T01:00:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/"
+    }
+   ]
   },
   {
    "id": "3189ce2b4e",
@@ -221,7 +226,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
    "published": "2026-11-05T19:24:26Z",
    "added": "2026-11-05T19:30:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/"
+    }
+   ]
   },
   {
    "id": "671b07a9ce",
