@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T18:00:31Z",
+ "updated": "2026-11-06T18:21:07Z",
  "cards": [
   {
    "id": "c4daeac5c9",
@@ -1657,13 +1657,13 @@
    "cve_info": {
     "CVE-2026-58882": {
      "kev": false,
-     "cvss": null,
-     "sev": null,
+     "cvss": 7.5,
+     "sev": "high",
      "epss": 0.00188,
-     "pct": 0.08553
+     "pct": 0.08528
     }
    },
-   "cve_checked": "2026-11-06T12:01:07Z"
+   "cve_checked": "2026-11-06T18:21:07Z"
   },
   {
    "id": "1f2870fb86",
