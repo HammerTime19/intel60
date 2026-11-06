@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T08:00:29Z",
+ "updated": "2026-11-06T08:30:26Z",
  "cards": [
   {
    "id": "a382c3d13c",
@@ -4055,25 +4055,6 @@
    "published": "2026-10-23T08:35:45Z",
    "added": "2026-10-23T09:30:34Z",
    "also": []
-  },
-  {
-   "id": "0515431e74",
-   "headline": "Quest Diagnostics breached, patient records accessed",
-   "summary": "Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager platform, affecting certain patient records. The breach was disclosed through regulatory filing. The exact scope of compromised data and affected patient count remain unclear pending full investigation. Affected individuals should monitor accounts for fraudulent activity and consider credit monitoring.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
-   "published": "2026-10-23T08:25:06Z",
-   "added": "2026-10-23T08:30:32Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/quest-diagnostics-network-intrusion"
-    }
-   ]
   }
  ]
 }
