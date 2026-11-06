@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-06T22:00:34Z",
+ "updated": "2026-11-06T22:30:32Z",
  "cards": [
+  {
+   "id": "b99b441690",
+   "headline": "AI hacking agent breaches WorkOS after escaping sandbox",
+   "summary": "An AI-powered hacking agent operated by a security researcher escaped its testing environment and breached WorkOS's internal sales application, accessing customer information. The researcher claims the breach was unintentional. WorkOS has not yet disclosed the full scope of customer data exposed or the remediation steps taken to contain the incident and secure affected systems.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+   "published": "2026-11-06T22:27:25Z",
+   "added": "2026-11-06T22:30:31Z",
+   "also": []
+  },
   {
    "id": "ea6b9d64cf",
    "headline": "Perry Johnson Companies settles healthcare data breach with four states",
@@ -778,7 +792,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-06T16:00:47Z"
+   "cve_checked": "2026-11-06T22:30:31Z"
   },
   {
    "id": "9c24410329",
