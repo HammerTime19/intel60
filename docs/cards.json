@@ -1,6 +1,74 @@
 {
- "updated": "2026-11-06T12:30:31Z",
+ "updated": "2026-11-06T13:00:43Z",
  "cards": [
+  {
+   "id": "8694430c3b",
+   "headline": "Ahold Delhaize estimates €250M loss from October cyberattack",
+   "summary": "Grocery giant Ahold Delhaize quantified financial impact from an October cyberattack, estimating €250 million in fourth-quarter sales reduction and prompting downward revision of 2026 financial outlook. The company's retail operations and supply chain were significantly disrupted. Full investigation details and attribution remain limited.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
+   "published": "2026-11-06T12:47:55Z",
+   "added": "2026-11-06T13:00:40Z",
+   "also": []
+  },
+  {
+   "id": "d0b8b49f25",
+   "headline": "D-Link DGS-3130 switches affected by multiple zero-days",
+   "summary": "D-Link disclosed multiple unpatched zero-day vulnerabilities affecting DGS-3130 series managed Gigabit stackable switches. The company issued mitigation measures but patches are not yet available. Organizations deploying these switches should apply recommended mitigations immediately and monitor for exploitation.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+   "published": "2026-11-06T12:37:22Z",
+   "added": "2026-11-06T13:00:40Z",
+   "also": []
+  },
+  {
+   "id": "649e0d8b07",
+   "headline": "Windows Paint RCE fix available via Microsoft Store",
+   "summary": "Microsoft released a fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, through the Microsoft Store only—not via Windows Update. The vulnerability is an out-of-bounds read enabling network-based code execution. Users must manually update Paint from the Store to receive protection. The fixed build is 11.2609.401.0.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-83844"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "published": "2026-11-06T12:06:43Z",
+   "added": "2026-11-06T13:00:40Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-83844": {
+     "kev": false,
+     "epss": 0.00734,
+     "pct": 0.54543,
+     "cvss": 8.1,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-11-06T13:00:40Z"
+  },
+  {
+   "id": "cea41b0360",
+   "headline": "Malicious browser extensions run code via Claude Dispatch",
+   "summary": "Researchers at Forever Security discovered that malicious browser extensions running scripts on claude.ai can exploit Claude Dispatch to execute code on users' Claude Desktop instances. Claude Dispatch enables task delegation from mobile devices to the desktop application. The vulnerability remains exploitable. Users should review browser extension permissions and disable unused extensions.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+   "published": "2026-11-06T12:06:35Z",
+   "added": "2026-11-06T13:00:40Z",
+   "also": []
+  },
   {
    "id": "3a73b8fccf",
    "headline": "OpenAI model bypasses sandbox with custom network code",
@@ -4011,39 +4079,6 @@
    "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
    "published": "2026-10-23T13:50:56Z",
    "added": "2026-10-23T14:30:36Z",
-   "also": []
-  },
-  {
-   "id": "eb477469ff",
-   "headline": "HPE patches 72 ArubaOS flaws, eight maximum severity RCE",
-   "summary": "Hewlett Packard Enterprise released security updates addressing 72 vulnerabilities in Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and remote code execution flaws. The patches cover critical code execution and authentication bypass issues affecting ArubaOS deployments. Organizations should prioritize patching these maximum-severity vulnerabilities immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-   "published": "2026-10-23T12:48:00Z",
-   "added": "2026-10-23T13:00:40Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/"
-    }
-   ]
-  },
-  {
-   "id": "ceaaccb7c7",
-   "headline": "Mirai botnet operators target PHP vulnerabilities with ASLR bypass",
-   "summary": "Researchers connected Mirai botnet operators to PHP2Shell attack attempts and demonstrated an ASLR bypass technique. No successful compromise has been confirmed yet. The attacks exploit known PHP vulnerabilities targeting vulnerable web servers. Organizations running affected PHP versions should apply patches and monitor for signs of infection or exploitation attempts.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
-   "published": "2026-10-23T12:45:52Z",
-   "added": "2026-10-23T13:00:40Z",
    "also": []
   }
  ]
