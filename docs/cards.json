@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T12:01:08Z",
+ "updated": "2026-11-06T12:30:31Z",
  "cards": [
   {
    "id": "3a73b8fccf",
@@ -171,6 +171,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/"
     }
    ]
   },
@@ -256,7 +260,12 @@
    "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
    "published": "2026-11-05T04:36:17Z",
    "added": "2026-11-05T05:00:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/"
+    }
+   ]
   },
   {
    "id": "25c3eda20c",
