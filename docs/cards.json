@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T20:30:31Z",
+ "updated": "2026-11-06T21:00:32Z",
  "cards": [
   {
    "id": "ea6b9d64cf",
@@ -4129,25 +4129,6 @@
    "published": "2026-10-25T06:54:29Z",
    "added": "2026-10-25T08:00:32Z",
    "also": []
-  },
-  {
-   "id": "201a6bfc4c",
-   "headline": "Time4Popcorn app exposed millions to RCE via vulnerable updater",
-   "summary": "Researchers discovered and remotely disabled a vulnerability in the abandoned Time4Popcorn BitTorrent client that could allow attackers to execute arbitrary code with elevated privileges on affected systems. The flaw existed in the app's updater mechanism. Millions of devices potentially running outdated versions remain at risk. Users should immediately uninstall the application or update to the patched version if available.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-   "published": "2026-10-23T20:55:05Z",
-   "added": "2026-10-23T21:00:35Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html"
-    }
-   ]
   }
  ]
 }
