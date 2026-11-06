@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-06T00:30:28Z",
+ "updated": "2026-11-06T01:00:35Z",
  "cards": [
+  {
+   "id": "97d7db0e7e",
+   "headline": "FBI CISA warn of refrigeration system cyberattacks",
+   "summary": "The FBI and CISA issued a warning about active cyberattacks targeting industrial refrigeration and cold-chain monitoring systems globally. Attackers can cause food spoilage, equipment damage, and fire hazards. Organizations using refrigeration systems should implement network segmentation, monitor for unusual system behavior, and apply vendor patches to critical control systems.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+   "published": "2026-11-06T00:56:44Z",
+   "added": "2026-11-06T01:00:35Z",
+   "also": []
+  },
   {
    "id": "3189ce2b4e",
    "headline": "Queens Public Library hit by ransomware attack",
