@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T14:00:36Z",
+ "updated": "2026-11-06T14:30:38Z",
  "cards": [
   {
    "id": "8694430c3b",
@@ -296,7 +296,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
    "published": "2026-11-05T16:12:46Z",
    "added": "2026-11-05T16:30:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/"
+    }
+   ]
   },
   {
    "id": "2dacffdc48",
@@ -375,6 +380,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/"
     }
    ]
   },
