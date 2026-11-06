@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T20:00:31Z",
+ "updated": "2026-11-06T20:30:31Z",
  "cards": [
   {
    "id": "ea6b9d64cf",
@@ -241,6 +241,32 @@
      "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/"
     }
    ]
+  },
+  {
+   "id": "7340dbad9c",
+   "headline": "SonicWall SonicOS SSLVPN auth bypass added to CISA KEV",
+   "summary": "SonicWall SonicOS SSLVPN contains a single-factor authentication flaw allowing users with valid alternate credentials to bypass SAML authentication and MFA controls. The vulnerability is now tracked in CISA's Known Exploited Vulnerabilities catalog. Organizations must apply vendor mitigations or discontinue use of the product per BOD 26-04 guidance. Federal agencies have until November 20, 2026 to patch.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-19868"
+   ],
+   "watch": [
+    "SonicWall"
+   ],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
+   "published": "2026-11-06T00:00:00Z",
+   "added": "2026-11-06T20:30:30Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-19868": {
+     "kev": true,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-11-06T20:30:30Z"
   },
   {
    "id": "3189ce2b4e",

@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-06T20:00:31Z",
+ "updated": "2026-11-06T20:30:30Z",
  "items": [
+  {
+   "cve": "CVE-2026-19868",
+   "vendor": "SonicWall",
+   "product": "SonicOS SSLVPN",
+   "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+   "added": "2026-11-06",
+   "due": "2026-11-20",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "7340dbad9c"
+  },
   {
    "cve": "CVE-2024-27834",
    "vendor": "Apple",
