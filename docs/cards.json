@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T21:30:29Z",
+ "updated": "2026-11-06T22:00:34Z",
  "cards": [
   {
    "id": "ea6b9d64cf",
@@ -267,6 +267,20 @@
     }
    },
    "cve_checked": "2026-11-06T20:30:30Z"
+  },
+  {
+   "id": "7bee44827e",
+   "headline": "Russian influence campaign targets Latin America schools",
+   "summary": "A Russian operation using AI-generated content deployed fake emails and forged government documents to target schools in Peru, Ecuador, and other Latin American countries. The campaign created fake local organizations to amplify reach and credibility. Defenders should enhance email authentication controls, train staff on document verification, and monitor for similar fake organizational entities targeting education institutions.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/opera-o-de-influ-ncia-russa-tem-como-alvo-generalizado-a-am-rica-latina",
+   "published": "2026-11-05T22:13:23Z",
+   "added": "2026-11-06T22:00:33Z",
+   "also": []
   },
   {
    "id": "3189ce2b4e",
