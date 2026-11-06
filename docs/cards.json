@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-06T03:00:36Z",
+ "updated": "2026-11-06T03:30:31Z",
  "cards": [
+  {
+   "id": "5d7c1511e0",
+   "headline": "Three charged in $129M CEO impersonation AI scheme",
+   "summary": "Three individuals nicknamed \"Rocky Balboa,\" \"Superman Cash,\" and \"Fat Boy\" were charged for using AI to impersonate CEOs and attorneys in a fraud scheme that stole $129 million. The attackers primarily targeted company accounting departments with convincing impersonations. Law enforcement has taken action against the perpetrators involved in this coordinated fraud campaign.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
+   "published": "2026-11-06T03:03:29Z",
+   "added": "2026-11-06T03:30:30Z",
+   "also": []
+  },
   {
    "id": "97d7db0e7e",
    "headline": "FBI CISA warn of refrigeration system cyberattacks",
