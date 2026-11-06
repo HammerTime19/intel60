@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-06T19:00:41Z",
+ "updated": "2026-11-06T19:30:34Z",
  "cards": [
+  {
+   "id": "ea6b9d64cf",
+   "headline": "Perry Johnson Companies settles healthcare data breach with four states",
+   "summary": "Perry Johnson Companies, a Nevada-based medical transcription, coding and imaging provider, has settled with attorneys general from Connecticut, New Jersey, New York and Michigan over a 2023 breach of sensitive patient records. The settlement follows the unauthorized access to medical data. Patient notification and credit monitoring details were part of resolution terms.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/medical-services-company-settles-with-4-state-ags",
+   "published": "2026-11-06T19:06:00Z",
+   "added": "2026-11-06T19:30:34Z",
+   "also": []
+  },
   {
    "id": "a97be9095b",
    "headline": "Fake security tools on GitHub deploy backdoors and infostealers",
@@ -384,6 +398,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach"
     }
    ]
   },
