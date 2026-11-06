@@ -1,6 +1,32 @@
 {
- "updated": "2026-11-06T07:00:32Z",
+ "updated": "2026-11-06T07:30:34Z",
  "cards": [
+  {
+   "id": "a382c3d13c",
+   "headline": "Barracuda Email Security Gateway chained flaws enable root access",
+   "summary": "Two vulnerabilities in Barracuda's Email Security Gateway can be chained to grant unauthenticated attackers root-level command execution. CVE-2026-116606, an authorization bypass, allows unauthorized access without login. Barracuda released patches Monday; watchTowr disclosed full attack details Thursday. Organizations running the appliance should apply patches immediately to prevent remote compromise.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-116606"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+   "published": "2026-11-06T05:39:10Z",
+   "added": "2026-11-06T07:30:32Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-116606": {
+     "kev": false,
+     "epss": 0.00728,
+     "pct": 0.54331,
+     "cvss": 9.3,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-11-06T07:30:32Z"
+  },
   {
    "id": "5d7c1511e0",
    "headline": "Three charged in $129M CEO impersonation AI scheme",
