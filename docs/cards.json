@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T07:30:34Z",
+ "updated": "2026-11-06T08:00:29Z",
  "cards": [
   {
    "id": "a382c3d13c",
@@ -4074,20 +4074,6 @@
      "url": "https://therecord.media/quest-diagnostics-network-intrusion"
     }
    ]
-  },
-  {
-   "id": "76ce6885fc",
-   "headline": "Atlassian patches 75 flaws, 14 critical in data center products",
-   "summary": "Atlassian released security patches for 176 vulnerabilities across its October bulletin, with 14 rated critical severity. All flaws reside in third-party components used by Atlassian Data Center and Server products. Organizations running affected versions should prioritize patching critical issues immediately. Patch details are available in Atlassian's security advisory.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
-   "published": "2026-10-23T07:54:47Z",
-   "added": "2026-10-23T08:30:32Z",
-   "also": []
   }
  ]
 }
