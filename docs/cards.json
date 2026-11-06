@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-06T16:30:28Z",
+ "updated": "2026-11-06T17:00:35Z",
  "cards": [
+  {
+   "id": "9fe769e3c9",
+   "headline": "WordPress patch installation enables code execution window",
+   "summary": "A researcher discovered that installing WordPress patches for an actively exploited vulnerability leaves a temporary attack window. The update unpacks files using the old unpatched code before applying the fix, allowing attackers to execute code on servers during the installation process. Site administrators should take web access offline or block external traffic before patching to prevent exploitation during this critical window.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+   "published": "2026-11-06T16:08:38Z",
+   "added": "2026-11-06T17:00:34Z",
+   "also": []
+  },
   {
    "id": "8694430c3b",
    "headline": "Ahold Delhaize estimates €250M loss from October cyberattack",
