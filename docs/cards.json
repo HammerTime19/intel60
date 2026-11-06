@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T06:30:28Z",
+ "updated": "2026-11-06T07:00:32Z",
  "cards": [
   {
    "id": "5d7c1511e0",
@@ -4061,20 +4061,6 @@
    "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
    "published": "2026-10-23T07:54:47Z",
    "added": "2026-10-23T08:30:32Z",
-   "also": []
-  },
-  {
-   "id": "fcaeed9175",
-   "headline": "Prince of Persia APT hosts C&C server in US",
-   "summary": "Iran-linked Prince of Persia APT group has resumed activity after a three-month pause, hosting a Tornado command-and-control server on US-based shared hosting. This marks the threat actor's first US infrastructure since 2016. The shift in infrastructure location may indicate changes in operational tactics or targeting. Organizations should monitor for indicators of compromise associated with this group and review network logs for suspicious connections.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/",
-   "published": "2026-10-23T06:39:29Z",
-   "added": "2026-10-23T07:00:34Z",
    "also": []
   }
  ]
