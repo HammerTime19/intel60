@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T15:30:28Z",
+ "updated": "2026-11-07T16:00:39Z",
  "cards": [
   {
    "id": "804a43c336",
@@ -643,7 +643,12 @@
    "url": "https://therecord.media/french-bank-confirms-cyber-heist",
    "published": "2026-11-04T18:58:00Z",
    "added": "2026-11-04T19:30:46Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/"
+    }
+   ]
   },
   {
    "id": "3632eace05",
