@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T02:00:31Z",
+ "updated": "2026-11-07T02:30:32Z",
  "cards": [
   {
    "id": "b99b441690",
@@ -281,11 +281,11 @@
    "cve_info": {
     "CVE-2026-19868": {
      "kev": true,
-     "cvss": null,
-     "sev": null
+     "cvss": 7.5,
+     "sev": "high"
     }
    },
-   "cve_checked": "2026-11-06T20:30:30Z"
+   "cve_checked": "2026-11-07T02:30:32Z"
   },
   {
    "id": "7bee44827e",
