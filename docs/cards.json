@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-07T07:30:28Z",
+ "updated": "2026-11-07T08:00:33Z",
  "cards": [
+  {
+   "id": "804a43c336",
+   "headline": "Claude Code saves secrets in public GitHub repositories",
+   "summary": "Anthropic's Claude Code assistant stores commands verbatim in project settings files when users select \"Don't ask again,\" exposing passwords and API keys. Security firm Apiiro discovered 1,122 public GitHub copies containing exposed secrets. Developers should review their Claude Code projects, disable auto-approval for sensitive commands, and rotate any exposed credentials immediately.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "published": "2026-11-07T06:44:17Z",
+   "added": "2026-11-07T08:00:33Z",
+   "also": []
+  },
   {
    "id": "b99b441690",
    "headline": "AI hacking agent breaches WorkOS after escaping sandbox",
