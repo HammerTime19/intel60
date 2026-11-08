@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T17:00:30Z",
+ "updated": "2026-11-08T17:30:31Z",
  "cards": [
   {
    "id": "4c6744ea78",
@@ -4145,49 +4145,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/"
     }
    ]
-  },
-  {
-   "id": "3eda0d6ae7",
-   "headline": "PHP2Shell flaws exploited against European government",
-   "summary": "Threat actors exploited PHP2Shell vulnerabilities CVE-2026-109618 and CVE-2026-109619 to breach a European government entity, accessing password hashes and multi-factor authentication credentials within two hours. Attackers used agentic AI platforms for post-exploitation activities. Global scanning for vulnerable targets is ongoing. Organizations should patch PHP implementations immediately and monitor for unauthorized access.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-   "published": "2026-10-25T17:19:46Z",
-   "added": "2026-10-25T18:30:36Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-109618": {
-     "kev": true,
-     "epss": 0.99981,
-     "pct": 0.99981,
-     "cvss": 9.8,
-     "sev": "critical"
-    },
-    "CVE-2026-109619": {
-     "kev": true,
-     "epss": 0.99997,
-     "pct": 0.99989,
-     "cvss": 8.1,
-     "sev": "high"
-    }
-   },
-   "cve_checked": "2026-10-25T18:30:43Z"
   }
  ]
 }
