@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T23:30:26Z",
+ "updated": "2026-11-08T00:00:36Z",
  "items": [
   {
    "cve": "CVE-2026-19868",
@@ -327,61 +327,6 @@
    "name": "Microsoft Windows Command Injection Vulnerability",
    "added": "2026-10-13",
    "due": "2026-10-16",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2015-5477",
-   "vendor": "ISC",
-   "product": "BIND",
-   "name": "ISC BIND Data Processing Errors Vulnerability",
-   "added": "2026-10-08",
-   "due": "2026-10-11",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2016-3081",
-   "vendor": "Apache",
-   "product": "Struts",
-   "name": "Apache Struts Command Injection Vulnerability",
-   "added": "2026-10-08",
-   "due": "2026-10-11",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2023-22894",
-   "vendor": "Strapi",
-   "product": "Strapi",
-   "name": "Strapi Cleartext Storage of Sensitive Information Vulnerability",
-   "added": "2026-10-08",
-   "due": "2026-10-11",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2021-3199",
-   "vendor": "ONLYOFFICE",
-   "product": "Docs",
-   "name": "ONLYOFFICE Docs Server Path Traversal Vulnerability",
-   "added": "2026-10-08",
-   "due": "2026-10-11",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2015-3306",
-   "vendor": "ProFTPD",
-   "product": "ProFTPD",
-   "name": "ProFTPD Improper Access Control Vulnerability",
-   "added": "2026-10-08",
-   "due": "2026-10-11",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
    "card": null
