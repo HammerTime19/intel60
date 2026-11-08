@@ -1,6 +1,46 @@
 {
- "updated": "2026-11-08T15:30:29Z",
+ "updated": "2026-11-08T16:00:36Z",
  "cards": [
+  {
+   "id": "4c6744ea78",
+   "headline": "CVE-2026-123158 sshole exploitation rising in SSH attacks",
+   "summary": "Research from SANS Internet Storm Center honeypots shows a sharp increase in exploitation attempts for the sshole vulnerability (CVE-2026-123158) starting November 1st. Attackers are using unusually long passwords to exploit the flaw, with daily scan counts rising from 23 attempts on November 1st to 713 by November 6th. The attacks coincide with malware distribution campaigns targeting vulnerable systems. Organizations running SSH services should apply patches and monitor for exploitation attempts.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-123158"
+   ],
+   "watch": [],
+   "source": "SANS ISC",
+   "url": "https://isc.sans.edu/diary/rss/33498",
+   "published": "2026-11-08T15:44:33Z",
+   "added": "2026-11-08T16:00:34Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-123158": {
+     "kev": false,
+     "epss": 0.01014,
+     "pct": 0.63469,
+     "cvss": 8.1,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-11-08T16:00:35Z"
+  },
+  {
+   "id": "840fc9184c",
+   "headline": "Iris Ohyama data breach exposes 7.7 million customers",
+   "summary": "Japanese manufacturer Iris Ohyama disclosed unauthorized access to a third-party cloud service used by its Iris Plaza shopping platform, exposing personal information of approximately 7.7 million customers. The breach was discovered after the company detected unauthorized access to the cloud infrastructure. Iris Ohyama is investigating the incident and notifying affected customers. Organizations should review third-party cloud service security controls and implement additional monitoring.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+   "published": "2026-11-08T15:43:08Z",
+   "added": "2026-11-08T16:00:34Z",
+   "also": []
+  },
   {
    "id": "804a43c336",
    "headline": "Claude Code saves secrets in public GitHub repositories",
@@ -4148,29 +4188,6 @@
     }
    },
    "cve_checked": "2026-10-25T18:30:43Z"
-  },
-  {
-   "id": "9e8f060397",
-   "headline": "AI coding agents hijacked via malicious AGENTS.md file",
-   "summary": "Researchers discovered a malicious AGENTS markdown file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. The vulnerability exploits how AI agents parse local instructions without proper verification. This highlights supply chain and social engineering risks in automated agent workflows. Organizations using AI coding agents should monitor file system access and validate package sources.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-   "published": "2026-10-25T15:49:38Z",
-   "added": "2026-10-25T16:00:36Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html"
-    },
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown"
-    }
-   ]
   }
  ]
 }
