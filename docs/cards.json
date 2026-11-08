@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T17:30:31Z",
+ "updated": "2026-11-08T18:00:33Z",
  "cards": [
   {
    "id": "4c6744ea78",
@@ -4126,25 +4126,6 @@
     }
    },
    "cve_checked": "2026-10-26T23:30:43Z"
-  },
-  {
-   "id": "4a81541514",
-   "headline": "Hacked Tailscale device escalates to root on network",
-   "summary": "Unpatched flaws in Tailscale SSH allow a compromised device on a Tailscale network to gain root access on other connected servers. The attack requires SSH port forwarding enabled and network access rules permitting device-to-device communication. Affected organizations should review Tailscale SSH configurations, disable port forwarding if unnecessary, and update to patched versions immediately.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-   "published": "2026-10-25T17:44:09Z",
-   "added": "2026-10-25T18:30:36Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/"
-    }
-   ]
   }
  ]
 }
