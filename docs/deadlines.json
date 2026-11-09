@@ -1,6 +1,39 @@
 {
- "updated": "2026-11-09T16:30:34Z",
+ "updated": "2026-11-09T17:00:47Z",
  "items": [
+  {
+   "cve": "CVE-2026-102895",
+   "vendor": "GPUStack",
+   "product": "GPUStack",
+   "name": "GPUStack Improper Authentication Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "a4fa5d886e"
+  },
+  {
+   "cve": "CVE-2026-123158",
+   "vendor": "OpenBSD",
+   "product": "OpenSSH",
+   "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "4c6744ea78"
+  },
+  {
+   "cve": "CVE-2026-116779",
+   "vendor": "SignalWire",
+   "product": "FreeSwitch",
+   "name": "SignalWire FreeSwitch Code Injection Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "0955fa7f8e"
+  },
   {
    "cve": "CVE-2026-19868",
    "vendor": "SonicWall",

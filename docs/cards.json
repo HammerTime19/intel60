@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T16:30:35Z",
+ "updated": "2026-11-09T17:00:50Z",
  "cards": [
   {
    "id": "0946092397",
@@ -235,6 +235,58 @@
    "also": []
   },
   {
+   "id": "0955fa7f8e",
+   "headline": "CISA adds SignalWire FreeSwitch injection to KEV",
+   "summary": "SignalWire FreeSwitch contains a code injection vulnerability enabling credential disclosure, arbitrary call control, and command execution. CISA added CVE-2026-116779 to its Known Exploited Vulnerabilities catalog. Federal agencies must apply vendor mitigations by November 12, 2026, following BOD 26-04 guidance or discontinue use if patches are unavailable. Defenders should prioritize patching this widely-deployed VoIP component.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-116779"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+   "published": "2026-11-09T00:00:00Z",
+   "added": "2026-11-09T17:00:37Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-116779": {
+     "kev": true,
+     "epss": 0.01299,
+     "pct": 0.70632,
+     "cvss": 9.8,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-11-09T17:00:39Z"
+  },
+  {
+   "id": "a4fa5d886e",
+   "headline": "CISA adds GPUStack auth bypass to KEV catalog",
+   "summary": "GPUStack contains an improper authentication vulnerability allowing unauthenticated administrative access, including persistent API key creation and code execution via POST /v2/inference-backends/from-yaml. CISA added CVE-2026-102895 to its Known Exploited Vulnerabilities catalog with a federal patch deadline of November 12, 2026. Organizations running GPUStack should immediately apply patches or remove the service from internet exposure.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-102895"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
+   "published": "2026-11-09T00:00:00Z",
+   "added": "2026-11-09T17:00:37Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-102895": {
+     "kev": true,
+     "epss": 0.00331,
+     "pct": 0.2646,
+     "cvss": 9.8,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-11-09T17:00:47Z"
+  },
+  {
    "id": "4c6744ea78",
    "headline": "CVE-2026-123158 sshole exploitation rising in SSH attacks",
    "summary": "Research from SANS Internet Storm Center honeypots shows a sharp increase in exploitation attempts for the sshole vulnerability (CVE-2026-123158) starting November 1st. Attackers are using unusually long passwords to exploit the flaw, with daily scan counts rising from 23 attempts on November 1st to 713 by November 6th. The attacks coincide with malware distribution campaigns targeting vulnerable systems. Organizations running SSH services should apply patches and monitor for exploitation attempts.",
@@ -256,11 +308,15 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
     }
    ],
    "cve_info": {
     "CVE-2026-123158": {
-     "kev": false,
+     "kev": true,
      "epss": 0.01014,
      "pct": 0.63469,
      "cvss": 8.1,
