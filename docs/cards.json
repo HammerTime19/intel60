@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-09T11:00:38Z",
+ "updated": "2026-11-09T11:30:31Z",
  "cards": [
+  {
+   "id": "156a0344f3",
+   "headline": "Amplifon Americas breach exposes 1.3 million customers",
+   "summary": "Amplifon Americas suffered a data breach affecting 1.3 million individuals. Attackers stole personal, health, and insurance information including Social Security numbers from internal systems. The breach exposes sensitive data for hearing aid customers. Affected individuals should monitor credit reports and consider identity theft protection services.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+   "published": "2026-11-09T11:20:09Z",
+   "added": "2026-11-09T11:30:30Z",
+   "also": []
+  },
   {
    "id": "3c0c651efe",
    "headline": "Frontline Education breach exposes 3 million school staff and students",
