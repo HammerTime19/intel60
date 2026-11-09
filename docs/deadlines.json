@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T20:30:29Z",
+ "updated": "2026-11-09T21:00:33Z",
  "items": [
   {
    "cve": "CVE-2026-102895",
@@ -33,6 +33,17 @@
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
    "card": "0955fa7f8e"
+  },
+  {
+   "cve": "CVE-2026-123218",
+   "vendor": "IBM",
+   "product": "Aspera Faspex",
+   "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+   "added": "2026-11-09",
+   "due": "2026-11-12",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "2464fd9dd1"
   },
   {
    "cve": "CVE-2026-19868",

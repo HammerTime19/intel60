@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T20:30:29Z",
+ "updated": "2026-11-09T21:00:34Z",
  "cards": [
   {
    "id": "4ca261bf7f",
@@ -271,7 +271,12 @@
    "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
    "published": "2026-11-09T11:20:09Z",
    "added": "2026-11-09T11:30:30Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach"
+    }
+   ]
   },
   {
    "id": "a02fb0af29",
@@ -411,6 +416,32 @@
     }
    },
    "cve_checked": "2026-11-09T17:00:47Z"
+  },
+  {
+   "id": "2464fd9dd1",
+   "headline": "CISA adds IBM Aspera Faspex authorization flaw to KEV",
+   "summary": "IBM Aspera Faspex contains an incorrect authorization vulnerability allowing authenticated users to bypass authorization checks and escalate privileges. Federal agencies must apply vendor mitigations by November 12, 2026, or discontinue use. CISA's BOD 26-04 prioritization guidance applies. Known ransomware exploitation is not reported.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-123218"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+   "published": "2026-11-09T00:00:00Z",
+   "added": "2026-11-09T21:00:33Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-123218": {
+     "kev": true,
+     "epss": 0.00396,
+     "pct": 0.34123,
+     "cvss": 9.8,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-11-09T21:00:33Z"
   },
   {
    "id": "4c6744ea78",
