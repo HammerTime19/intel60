@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-09T22:00:32Z",
+ "updated": "2026-11-09T22:30:32Z",
  "cards": [
+  {
+   "id": "fb65eccd75",
+   "headline": "SEGA newsletter provider breach exposes 2.2 million emails",
+   "summary": "SEGA disclosed that a third-party newsletter provider, ARARA, suffered a data breach exposing email addresses of 2.2 million newsletter subscribers. The incident affected the Japanese gaming company's customer communications infrastructure. SEGA has notified affected users and is working with the provider on remediation. Subscribers should monitor for phishing and consider email address security precautions.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+   "published": "2026-11-09T22:09:33Z",
+   "added": "2026-11-09T22:30:32Z",
+   "also": []
+  },
   {
    "id": "8d206c962e",
    "headline": "N-able takes N-central offline after 30-plus zero-days disclosed",
@@ -4283,20 +4297,6 @@
     }
    },
    "cve_checked": "2026-11-02T23:00:48Z"
-  },
-  {
-   "id": "627cc70bbf",
-   "headline": "University of Copenhagen breach exposes 525,000 people",
-   "summary": "The University of Copenhagen confirmed hackers accessed a test environment containing personal data of 525,000 individuals. The breach affected stored records in the test system. The university is investigating the scope and conducting notifications to affected individuals. Affected parties should monitor for identity theft and fraudulent activity.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-   "published": "2026-10-26T22:20:36Z",
-   "added": "2026-10-26T22:30:31Z",
-   "also": []
   }
  ]
 }
