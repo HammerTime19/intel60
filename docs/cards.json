@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T06:30:33Z",
+ "updated": "2026-11-09T07:00:35Z",
  "cards": [
   {
    "id": "4c6744ea78",
@@ -307,6 +307,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html"
     }
    ]
   },
