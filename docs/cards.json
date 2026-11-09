@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-09T13:30:29Z",
+ "updated": "2026-11-09T14:00:40Z",
  "cards": [
+  {
+   "id": "7ef80ee6e0",
+   "headline": "US Treasury bans MEXC crypto exchange for sanctions evasion",
+   "summary": "The US Department of the Treasury has severed MEXC Global's access to the US financial system, citing sanctions evasion and connections to cybercrime organizations. The exchange's use by bad actors for money laundering and financing illegal activities prompted the enforcement action. Crypto traders using MEXC should migrate assets and accounts to compliant platforms to avoid being locked out of USD transactions.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [
+    "Exchange"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
+   "published": "2026-11-09T13:28:56Z",
+   "added": "2026-11-09T14:00:34Z",
+   "also": []
+  },
   {
    "id": "a3066db4d1",
    "headline": "Pro-Russian hackers leak Italian Foreign Minister data",
@@ -1021,7 +1037,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-09T07:30:31Z"
+   "cve_checked": "2026-11-09T14:00:39Z"
   },
   {
    "id": "9c24410329",
@@ -4104,25 +4120,6 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html"
-    }
-   ]
-  },
-  {
-   "id": "9cb042202f",
-   "headline": "Chinese national extradited for $36 million crypto scam",
-   "summary": "A Chinese man was extradited from the Netherlands and arraigned in California for his role in a cryptocurrency investment scam that defrauded 174 US victims of nearly $37 million. Authorities arrested and prosecuted him for operating the fraudulent scheme. The case demonstrates ongoing international cooperation to prosecute large-scale financial crimes targeting US citizens.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
-   "published": "2026-10-26T13:56:44Z",
-   "added": "2026-10-26T14:00:41Z",
-   "also": [
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/chinese-national-extradited-investment-scam/"
     }
    ]
   }
