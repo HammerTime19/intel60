@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-09T18:00:38Z",
+ "updated": "2026-11-09T18:30:43Z",
  "cards": [
+  {
+   "id": "49097f3f34",
+   "headline": "SAP NetWeaver webshell campaign exploits CVE-2025-31324",
+   "summary": "Attackers are actively scanning for and exploiting SAP NetWeaver vulnerability CVE-2025-31324 to upload webshells. The flaw allows unauthenticated file uploads with a CVSS score of 10. Webshells typically end up in /irj/servlet_jsp/irj/root/ directories. Organizations running SAP NetWeaver should patch immediately and audit for webshells.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2025-31324"
+   ],
+   "watch": [],
+   "source": "SANS ISC",
+   "url": "https://isc.sans.edu/diary/rss/33502",
+   "published": "2026-11-09T18:18:15Z",
+   "added": "2026-11-09T18:30:38Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2025-31324": {
+     "kev": true,
+     "epss": 0.99486,
+     "pct": 0.99944,
+     "cvss": 9.8,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-11-09T18:30:38Z"
+  },
+  {
+   "id": "adccb074fb",
+   "headline": "Claude document-processing flaw enables Linux code execution",
+   "summary": "A flaw in Claude's document-processing tool allows attackers to create temporary files that Anthropic's AI assistant can access and execute on a user's machine. The vulnerability enables arbitrary code execution on systems running the affected tool. Users should avoid processing untrusted documents.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
+   "published": "2026-11-09T18:08:30Z",
+   "added": "2026-11-09T18:30:38Z",
+   "also": []
+  },
+  {
+   "id": "bd73ebc7b8",
+   "headline": "Qubole breach exposes customer AWS accounts and secrets",
+   "summary": "An attacker compromised AWS accounts of multiple Qubole customers between October 14 and October 26, stealing stored secrets and data. The attacker used credentials for an AWS account that Qubole's data lake platform uses to access customer environments. How the attacker obtained Qubole's credentials remains undisclosed.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "AWS"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+   "published": "2026-11-09T17:51:21Z",
+   "added": "2026-11-09T18:30:38Z",
+   "also": []
+  },
   {
    "id": "073e03d22d",
    "headline": "Russian cloud firm Beget rebuilds after data wiper attack",
@@ -13,6 +69,20 @@
    "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
    "published": "2026-11-09T17:50:32Z",
    "added": "2026-11-09T18:00:38Z",
+   "also": []
+  },
+  {
+   "id": "7cd796fba4",
+   "headline": "Ethersphere bee-js and Swarm Desktop compromised",
+   "summary": "Attackers compromised Ethersphere's release automation to publish malicious versions of bee-js 13.3.0 and Swarm Desktop 0.56.2. The malware steals wallet keys, stored passwords, and installs a backdoor on affected users' systems. Users of the Swarm decentralized storage network should avoid these versions and verify their wallet security.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+   "published": "2026-11-09T17:36:28Z",
+   "added": "2026-11-09T18:30:38Z",
    "also": []
   },
   {
