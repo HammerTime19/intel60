@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T14:30:37Z",
+ "updated": "2026-11-09T15:00:36Z",
  "cards": [
   {
    "id": "e9e255b082",
@@ -348,7 +348,12 @@
    "url": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
    "published": "2026-11-06T16:53:00Z",
    "added": "2026-11-06T17:30:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/"
+    }
+   ]
   },
   {
    "id": "9fe769e3c9",
@@ -4098,20 +4103,6 @@
      "url": "https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/"
     }
    ]
-  },
-  {
-   "id": "0894723045",
-   "headline": "Genesys hack exposes customer data from internal systems",
-   "summary": "Genesys suffered a breach that exposed customer data from internal systems. The company's primary Cloud, Engage, and Engage Cloud platforms were not affected. Organizations using Genesys should investigate whether their data was compromised and review any exposed credentials or sensitive information.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
-   "published": "2026-10-26T14:40:48Z",
-   "added": "2026-10-26T15:00:40Z",
-   "also": []
   }
  ]
 }
