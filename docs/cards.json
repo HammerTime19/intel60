@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T12:30:34Z",
+ "updated": "2026-11-09T13:00:39Z",
  "cards": [
   {
    "id": "a3066db4d1",
@@ -187,7 +187,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
    "published": "2026-11-08T15:43:08Z",
    "added": "2026-11-08T16:00:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/"
+    }
+   ]
   },
   {
    "id": "804a43c336",
@@ -4118,25 +4123,6 @@
     {
      "source": "CyberScoop",
      "url": "https://cyberscoop.com/chinese-national-extradited-investment-scam/"
-    }
-   ]
-  },
-  {
-   "id": "23a9892afe",
-   "headline": "953 online stores infected in persistent malware campaign",
-   "summary": "A long-running malware campaign injected small loader code into 953 online stores to serve payloads to visitors while avoiding detection. The campaign targeted e-commerce platforms, likely through supply-chain compromise or website vulnerabilities. Affected stores may distribute malware to customers. Website operators should audit for unauthorized code injection, verify integrity of admin access, and implement file monitoring to detect similar infections.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
-   "published": "2026-10-26T12:46:44Z",
-   "added": "2026-10-26T13:00:38Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html"
     }
    ]
   }
