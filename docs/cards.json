@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-09T07:30:31Z",
+ "updated": "2026-11-09T08:00:37Z",
  "cards": [
+  {
+   "id": "a2c922a06d",
+   "headline": "OpenAI engineer pleads not guilty to planting recording device",
+   "summary": "Abdulrahman Alfozan, a Saudi national and former OpenAI engineer, pleaded not guilty in San Francisco federal court to charges of planting a covert audio recording device in the company's office. The incident was discovered last month. His next hearing is scheduled for November 17, 2026. Details about the investigation's scope or motivation remain unclear from available reports.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+   "published": "2026-11-09T07:05:48Z",
+   "added": "2026-11-09T08:00:36Z",
+   "also": []
+  },
   {
    "id": "4c6744ea78",
    "headline": "CVE-2026-123158 sshole exploitation rising in SSH attacks",
@@ -4063,25 +4077,6 @@
    "published": "2026-10-26T08:35:51Z",
    "added": "2026-10-26T09:30:34Z",
    "also": []
-  },
-  {
-   "id": "8e95a20d61",
-   "headline": "Gheist campaign steals GitHub repository secrets via Actions logs",
-   "summary": "Attackers using stolen GitHub tokens plant workflows that expose repository secrets in GitHub Actions logs, then download and delete the runs. The automated campaign has successfully compromised private repositories and GitHub Enterprise environments. Organizations should rotate compromised tokens immediately and review GitHub Actions audit logs for suspicious activity.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-   "published": "2026-10-26T07:49:46Z",
-   "added": "2026-10-26T09:30:34Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets"
-    }
-   ]
   }
  ]
 }
