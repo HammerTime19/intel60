@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T06:00:31Z",
+ "updated": "2026-11-09T06:30:33Z",
  "cards": [
   {
    "id": "4c6744ea78",
@@ -334,6 +334,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
     }
    ],
    "cve_info": {
