@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-09T08:30:31Z",
+ "updated": "2026-11-09T09:00:38Z",
  "cards": [
+  {
+   "id": "33c824e207",
+   "headline": "DeepMind AI agents break RSA-1024 cryptography more cheaply",
+   "summary": "Google DeepMind's AI agents, working with cryptographers, discovered cheaper methods to forge RSA-1024 signatures and factor keys. While RSA-1024 is deprecated in modern systems, the research demonstrates AI's growing capability in cryptanalytic attacks. Organizations still relying on RSA-1024 should prioritize migration to RSA-2048 or stronger algorithms immediately.",
+   "severity": "high",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+   "published": "2026-11-09T08:35:50Z",
+   "added": "2026-11-09T09:00:38Z",
+   "also": []
+  },
   {
    "id": "a2c922a06d",
    "headline": "OpenAI engineer pleads not guilty to planting recording device",
@@ -4060,22 +4074,6 @@
    "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
    "published": "2026-10-26T09:54:02Z",
    "added": "2026-10-26T11:00:37Z",
-   "also": []
-  },
-  {
-   "id": "35a2887f86",
-   "headline": "AitM relay compromises Microsoft 365 accounts across 79 organizations",
-   "summary": "A campaign used adversary-in-the-middle relay attacks to capture sign-in sessions and replay stolen tokens, breaching Microsoft 365 email accounts across 79 organizations. Researchers at Huntress detected 497 successful sign-in events between July and September 2026. Organizations should enable multifactor authentication and review sign-in logs for unusual token activity.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [
-    "Microsoft 365"
-   ],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-   "published": "2026-10-26T08:35:51Z",
-   "added": "2026-10-26T09:30:34Z",
    "also": []
   }
  ]
