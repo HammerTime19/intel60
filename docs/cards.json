@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-09T18:30:43Z",
+ "updated": "2026-11-09T19:00:43Z",
  "cards": [
+  {
+   "id": "4ca261bf7f",
+   "headline": "France blames Iran for fridge cyberattacks, says some caused fires",
+   "summary": "French authorities attributed October cyberattacks disrupting refrigeration at over 700 supermarkets to Iran's IRGC cyber unit Shahid Kaveh, which previously targeted U.S. water utility industrial controllers. The attacks caused food spoilage and sparked at least 15 fires. This represents a notable escalation in targeting critical retail infrastructure with physical consequences.",
+   "severity": "critical",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+   "published": "2026-11-09T18:45:00Z",
+   "added": "2026-11-09T19:00:40Z",
+   "also": []
+  },
+  {
+   "id": "e89c57c6d5",
+   "headline": "Iran attributed to French supermarket refrigeration cyberattacks",
+   "summary": "French authorities linked October cyberattacks affecting over 700 supermarkets and retail locations to Iran's IRGC Shahid Kaveh cyber unit. The attacks disrupted refrigeration systems, causing food losses and triggering at least 15 fires. The same threat actor has previously targeted industrial control systems at U.S. water utilities, indicating a pattern of targeting critical infrastructure.",
+   "severity": "critical",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+   "published": "2026-11-09T18:32:42Z",
+   "added": "2026-11-09T19:00:40Z",
+   "also": []
+  },
+  {
+   "id": "2fdab4abb5",
+   "headline": "Vanderbilt University announces cyberattack affecting campus systems",
+   "summary": "Vanderbilt University disclosed a cyberattack impacting campus devices and systems, warning students and employees of potential compromise. The university has not disclosed the scope of affected systems, the threat actor responsible, or specific actions taken in response. Affected users should monitor accounts for unauthorized activity and follow institutional guidance on credential changes.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+   "published": "2026-11-09T18:30:00Z",
+   "added": "2026-11-09T19:00:40Z",
+   "also": []
+  },
   {
    "id": "49097f3f34",
    "headline": "SAP NetWeaver webshell campaign exploits CVE-2025-31324",
