@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-09T15:30:38Z",
+ "updated": "2026-11-09T16:00:35Z",
  "cards": [
+  {
+   "id": "b5262f310e",
+   "headline": "Ukraine arrests four in $5M crypto scam ring",
+   "summary": "Ukrainian cyber police arrested four men, including the alleged leader of a scam call center targeting German victims in a $5 million cryptocurrency fraud scheme. The operation is part of ongoing efforts to dismantle organized cyber-fraud networks. This represents law enforcement action against active financial crime affecting international victims.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
+   "published": "2026-11-09T15:24:00Z",
+   "added": "2026-11-09T16:00:35Z",
+   "also": []
+  },
   {
    "id": "7bdf0c6dc5",
    "headline": "Bitter APT deploys PapRAT backdoor targeting South Asia",
@@ -4081,44 +4095,6 @@
     }
    },
    "cve_checked": "2026-10-26T18:00:40Z"
-  },
-  {
-   "id": "03f54c74f6",
-   "headline": "Threat actors impersonate IT support via Microsoft Teams",
-   "summary": "Cybersecurity researchers identified a recurring social engineering pattern where attackers exploit Microsoft Teams' external chat feature to impersonate IT support, conducting scams and delivering malware and ransomware. The attacks use disposable tenant accounts and consistent impersonation tactics across hundreds of incidents. Organizations should restrict external chat permissions and educate users to verify IT support requests through official channels.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-   "published": "2026-10-26T15:52:40Z",
-   "added": "2026-10-26T18:00:39Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path"
-    }
-   ]
-  },
-  {
-   "id": "cf08225efb",
-   "headline": "Microsoft releases emergency .NET patches for critical Brotli flaw",
-   "summary": "Microsoft released emergency security updates for .NET to patch a critical vulnerability in Brotli compression. The flaw, also tracked as Broccoli2Shell, Node2Shell, and HTTP2Shell, affects widely deployed .NET installations. The vulnerability allows remote code execution and requires immediate patching. Administrators should apply updates without delay to prevent exploitation.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
-   "published": "2026-10-26T15:38:24Z",
-   "added": "2026-10-26T16:00:41Z",
-   "also": [
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/brotli-critical-vulnerability-decompression-library-node2shell-broccoli2shell/"
-    }
-   ]
   }
  ]
 }
