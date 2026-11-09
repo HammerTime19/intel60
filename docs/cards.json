@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T10:30:31Z",
+ "updated": "2026-11-09T11:00:38Z",
  "cards": [
   {
    "id": "3c0c651efe",
@@ -16,6 +16,20 @@
    "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
    "published": "2026-11-09T10:09:02Z",
    "added": "2026-11-09T10:30:30Z",
+   "also": []
+  },
+  {
+   "id": "62af4291e1",
+   "headline": "LNbits Bitcoin Lightning wallet servers under active attack",
+   "summary": "LNbits, an open-source Bitcoin Lightning wallet system, faces active exploitation and has urged all operators to immediately shut down their servers. Attackers are exploiting a flaw to withdraw funds from affected instances. The project announced upcoming security patches but operators should take servers offline until fixes are available. Defenders running LNbits must shut down immediately and await security updates.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+   "published": "2026-11-09T10:01:21Z",
+   "added": "2026-11-09T11:00:37Z",
    "also": []
   },
   {
