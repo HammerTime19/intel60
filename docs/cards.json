@@ -1,6 +1,23 @@
 {
- "updated": "2026-11-09T10:14:03Z",
+ "updated": "2026-11-09T10:30:31Z",
  "cards": [
+  {
+   "id": "3c0c651efe",
+   "headline": "Frontline Education breach exposes 3 million school staff and students",
+   "summary": "Frontline Education disclosed an August data breach affecting over 3 million individuals including school district staff and students in Indiana. The breach impacts K-12 education institutions. Frontline Education has not yet detailed what data was compromised or available remediation steps. Affected individuals should monitor for identity theft and change credentials used with Frontline systems.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "K-12",
+    "school district"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
+   "published": "2026-11-09T10:09:02Z",
+   "added": "2026-11-09T10:30:30Z",
+   "also": []
+  },
   {
    "id": "e8082cc54d",
    "headline": "Taiwan attacker steals Taipei emergency dispatch records using AI agents",
