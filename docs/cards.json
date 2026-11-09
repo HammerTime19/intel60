@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-09T11:30:31Z",
+ "updated": "2026-11-09T12:00:42Z",
  "cards": [
+  {
+   "id": "c5154d08fa",
+   "headline": "Default ForgeRock credentials expose two automakers' car controls",
+   "summary": "Researchers discovered that two car brands' mobile apps used ForgeRock identity servers with default admin credentials, allowing complete account takeover. An attacker gaining access could unlock doors and start engines of connected vehicles for any customer. The vulnerability affects Ping Identity's ForgeRock platform and requires immediate credential changes and access reviews.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+   "published": "2026-11-09T11:27:53Z",
+   "added": "2026-11-09T12:00:38Z",
+   "also": []
+  },
   {
    "id": "156a0344f3",
    "headline": "Amplifon Americas breach exposes 1.3 million customers",
@@ -13,6 +27,20 @@
    "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
    "published": "2026-11-09T11:20:09Z",
    "added": "2026-11-09T11:30:30Z",
+   "also": []
+  },
+  {
+   "id": "a02fb0af29",
+   "headline": "Web3Auth flaw exploited to steal Keplr crypto wallets",
+   "summary": "A security vulnerability in Web3Auth, which powers Google and Apple sign-in for Keplr crypto wallet, was exploited to steal funds from users who created wallets through those methods. Web3Auth discovered the breach and proactively emptied other at-risk wallets to prevent further theft. Users should secure their accounts and enable additional authentication factors.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+   "published": "2026-11-09T10:56:25Z",
+   "added": "2026-11-09T12:00:38Z",
    "also": []
   },
   {
@@ -4078,48 +4106,6 @@
      "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html"
     }
    ]
-  },
-  {
-   "id": "680a1bdeb1",
-   "headline": "LiteLLM exposed key enabled supply-chain attack",
-   "summary": "An unrevoked API key accidentally exposed in May in the open-source LiteLLM tool was used to launch a supply-chain attack targeting tens of thousands of AI developers. The compromised key allowed attackers to target users of the widely deployed library. LiteLLM developers confirmed the incident and recommend users verify account activity and rotate credentials immediately.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/litellm-hackers-ai-malware",
-   "published": "2026-10-26T12:00:00Z",
-   "added": "2026-10-26T12:30:31Z",
-   "also": []
-  },
-  {
-   "id": "a5411bb33d",
-   "headline": "Wasmtime sandbox escape flaws discovered in WebAssembly runtime",
-   "summary": "Two critical vulnerabilities in Wasmtime, a WebAssembly runtime, allow malicious WebAssembly modules to escape their sandbox. One flaw affects only ARM64 systems. Attackers need a vulnerable Wasmtime build to compile a malicious module. Fixed versions are available. Organizations using Wasmtime should update immediately to prevent sandbox escapes.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-   "published": "2026-10-26T11:52:41Z",
-   "added": "2026-10-26T13:30:35Z",
-   "also": []
-  },
-  {
-   "id": "f5fa96b288",
-   "headline": "Dutch police arrest two for NFC relay card draining attacks",
-   "summary": "Two individuals were arrested in the Netherlands for conducting NFC relay attacks that drained over $400,000 from bank accounts. The attackers called victims and convinced them to install a malicious app and scan their credit cards, facilitating unauthorized fund transfers. NFC relay attacks bypass contactless payment security by relaying card data without physical proximity. Defenders should educate users on social engineering tactics and promote secure payment authentication methods.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
-   "published": "2026-10-26T11:47:52Z",
-   "added": "2026-10-26T12:00:36Z",
-   "also": []
   }
  ]
 }
