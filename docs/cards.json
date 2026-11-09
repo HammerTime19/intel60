@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-09T21:01:17Z",
+ "updated": "2026-11-09T21:30:40Z",
  "cards": [
+  {
+   "id": "8d206c962e",
+   "headline": "N-able takes N-central offline after 30-plus zero-days disclosed",
+   "summary": "N-able took its hosted N-central environments offline after a security researcher publicly disclosed over 30 zero-day vulnerabilities in the platform, including remote code execution exploits. The company urged on-premises customers to shut down servers immediately. Organizations running N-central should assess exposure and implement mitigation steps.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+   "published": "2026-11-09T21:26:25Z",
+   "added": "2026-11-09T21:30:38Z",
+   "also": []
+  },
+  {
+   "id": "b9b072a1ed",
+   "headline": "York University breach exposes personal information since 2007",
+   "summary": "York University disclosed a breach in which a threat actor accessed personal information submitted through online forms, with exposure dating back to 2007. The incident affected multiple individuals over nearly two decades. The university is investigating the scope and has likely notified affected parties.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+   "published": "2026-11-09T21:22:31Z",
+   "added": "2026-11-09T21:30:38Z",
+   "also": []
+  },
+  {
+   "id": "eae4ff98ab",
+   "headline": "Microsoft patch fixes RCE bug in Windows Paint",
+   "summary": "Microsoft has released a patch for a remote code execution vulnerability in Microsoft Paint that was disclosed last month with unclear messaging about availability. The fix addresses a serious flaw in widely deployed software. Users should apply the patch promptly to mitigate exploitation risk.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
+   "published": "2026-11-09T21:12:24Z",
+   "added": "2026-11-09T21:30:38Z",
+   "also": []
+  },
   {
    "id": "4ca261bf7f",
    "headline": "France blames Iran for fridge cyberattacks, says some caused fires",
@@ -4254,34 +4296,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
    "published": "2026-10-26T22:20:36Z",
    "added": "2026-10-26T22:30:31Z",
-   "also": []
-  },
-  {
-   "id": "9b6153963e",
-   "headline": "Former pentester breaches 90+ orgs using ARTEX AI tool",
-   "summary": "South Korean police identified seven suspects in a cybercrime operation that breached over 90 organizations, with the ARTEX AI pentesting framework used in most attacks. A former pentester leveraged this tool to steal 8.2 million data records. The incident highlights risks of weaponized AI-powered security tools in criminal hands and the need for access controls on penetration testing frameworks.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-   "published": "2026-10-26T21:08:28Z",
-   "added": "2026-10-26T21:30:36Z",
-   "also": []
-  },
-  {
-   "id": "327318fb5d",
-   "headline": "Texas sues OpenAI over consumer deception claims",
-   "summary": "Texas filed a lawsuit against OpenAI under state deceptive trade practices laws, seeking reforms and fines for alleged consumer deception. The suit names founder and CEO Sam Altman for personal liability. This represents a regulatory challenge to AI safety marketing practices and reflects growing state-level scrutiny of AI companies' claims about their systems' safety and capabilities.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/texas-sues-openai-deceiving-customers",
-   "published": "2026-10-26T21:03:00Z",
-   "added": "2026-10-26T21:30:36Z",
    "also": []
   }
  ]
