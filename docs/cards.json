@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-09T12:00:42Z",
+ "updated": "2026-11-09T12:30:34Z",
  "cards": [
+  {
+   "id": "a3066db4d1",
+   "headline": "Pro-Russian hackers leak Italian Foreign Minister data",
+   "summary": "Italian Foreign Minister Antonio Tajani's personal data was leaked on the dark web. Italian authorities attributed the breach to pro-Russian hackers. The incident raises concerns about state-level targeting of government officials. Italy is investigating the source and scope of the leaked information to assess potential national security implications.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
+   "published": "2026-11-09T12:22:12Z",
+   "added": "2026-11-09T12:30:33Z",
+   "also": []
+  },
+  {
+   "id": "53877e7ba1",
+   "headline": "Ukraine dismantles crypto investment scam network",
+   "summary": "Ukrainian law enforcement arrested four suspects operating a network of cryptocurrency investment scam call centers that stole over €4.3 million from victims. The operation used social engineering and false investment promises to defraud customers. Authorities disrupted the infrastructure used to conduct the fraud. This case highlights the ongoing threat of organized crypto scams targeting victims globally.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+   "published": "2026-11-09T12:16:13Z",
+   "added": "2026-11-09T12:30:33Z",
+   "also": []
+  },
   {
    "id": "c5154d08fa",
    "headline": "Default ForgeRock credentials expose two automakers' car controls",
@@ -130,7 +158,12 @@
    "url": "https://isc.sans.edu/diary/rss/33498",
    "published": "2026-11-08T15:44:33Z",
    "added": "2026-11-08T16:00:34Z",
-   "also": [],
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-123158": {
      "kev": false,
