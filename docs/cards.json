@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-09T17:30:30Z",
+ "updated": "2026-11-09T18:00:38Z",
  "cards": [
+  {
+   "id": "073e03d22d",
+   "headline": "Russian cloud firm Beget rebuilds after data wiper attack",
+   "summary": "Russian cloud services provider Beget suffered a data-wiping malware attack that destroyed customer data and forced the company to rebuild its infrastructure from scratch. The incident affected customers using Beget's cloud hosting and related services. The company is currently in recovery. Customers should consider migrating critical workloads and verify data integrity once services are restored.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+   "published": "2026-11-09T17:50:32Z",
+   "added": "2026-11-09T18:00:38Z",
+   "also": []
+  },
   {
    "id": "0946092397",
    "headline": "Binance denies alleged ShinyHunters data breach claim",
@@ -4145,32 +4159,6 @@
      "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/"
     }
    ]
-  },
-  {
-   "id": "fd2c8a9136",
-   "headline": "PHP releases second Windows update for Brotli RCE flaw",
-   "summary": "PHP released rebuilt Windows packages for versions 8.2 through 8.5 to address CVE-2026-111497, a code execution flaw in the bundled Brotli compression library. The vulnerability allows memory corruption and potential remote code execution through the cURL extension when decompressing HTTP responses. Users should apply the update immediately, particularly if cURL auto-decompression is enabled.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-   "published": "2026-10-26T17:45:57Z",
-   "added": "2026-10-26T18:00:39Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-111497": {
-     "kev": true,
-     "epss": 0.36027,
-     "pct": 0.98463,
-     "cvss": 9.2,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-26T18:00:40Z"
   }
  ]
 }
