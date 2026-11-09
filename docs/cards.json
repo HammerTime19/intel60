@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-09T15:00:36Z",
+ "updated": "2026-11-09T15:30:38Z",
  "cards": [
+  {
+   "id": "7bdf0c6dc5",
+   "headline": "Bitter APT deploys PapRAT backdoor targeting South Asia",
+   "summary": "The Bitter cyber espionage group has deployed a previously unreported remote access trojan called PapRAT against South Asian organizations. PapRAT features both C++ and Rust implementations with capabilities including command execution and file operations. The backdoor represents a new tool in Bitter's ongoing cyberespionage campaign. Organizations in South Asia should monitor for indicators of compromise and strengthen endpoint detection capabilities.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [
+    "Fortinet"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+   "published": "2026-11-09T14:31:29Z",
+   "added": "2026-11-09T15:30:36Z",
+   "also": []
+  },
   {
    "id": "e9e255b082",
    "headline": "AI-aided attack exploits assistant interface at German web host",
