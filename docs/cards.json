@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T21:30:36Z",
+ "updated": "2026-11-10T22:00:38Z",
  "cards": [
   {
    "id": "15da1f8e31",
@@ -107,6 +107,14 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/microsoft-patch-tuesday-november-2026/"
+    },
+    {
+     "source": "Krebs on Security",
+     "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/"
     }
    ],
    "cve_info": {
