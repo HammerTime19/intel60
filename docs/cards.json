@@ -1,6 +1,50 @@
 {
- "updated": "2026-11-10T10:00:50Z",
+ "updated": "2026-11-10T10:30:41Z",
  "cards": [
+  {
+   "id": "0e899e1e6c",
+   "headline": "Hackers actively exploit Barracuda ESG critical flaws for root access",
+   "summary": "Barracuda Networks confirmed that attackers are actively exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that allow remote code execution with root privileges. The flaws are critical and being exploited in the wild. Organizations using Barracuda ESG should immediately apply the latest security patches if not already deployed.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+   "published": "2026-11-10T10:10:20Z",
+   "added": "2026-11-10T10:30:38Z",
+   "also": []
+  },
+  {
+   "id": "ce0b470d4d",
+   "headline": "SAP patches four CVSS 10.0 flaws in NetWeaver and Web Dispatcher",
+   "summary": "SAP released critical patches for four maximum-severity flaws in NetWeaver application server and Web Dispatcher, all rated CVSS 10.0. Two flaws enable unauthenticated remote code execution. These vulnerabilities are exploitable without authentication, affecting widely deployed enterprise software. Organizations running SAP systems should apply patches immediately as exploitation risk is extremely high.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+   "published": "2026-11-10T10:02:40Z",
+   "added": "2026-11-10T10:30:38Z",
+   "also": []
+  },
+  {
+   "id": "923e1bc8d6",
+   "headline": "Russian Turla group uses Cereal toolset on government servers",
+   "summary": "Russian cyberespionage group Turla has deployed a new modular toolset called 'Cereal' to target government Exchange servers in Kazakhstan and Romania. The malware exploits legitimate Microsoft Exchange, Windows, and .NET functions to silently pilfer emails. Notably, it repurposes compromised Exchange servers as command-and-control infrastructure, avoiding external C&C detection. Organizations running Exchange servers should review access logs and implement email security monitoring.",
+   "severity": "critical",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [
+    "Exchange"
+   ],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/russian-turla-group-used-new-toolset-to-silently-pilfer-emails-from-kazakhstan-romanian-governments/",
+   "published": "2026-11-10T10:00:00Z",
+   "added": "2026-11-10T10:30:38Z",
+   "also": []
+  },
   {
    "id": "e61330c977",
    "headline": "CISA adds IBM Aspera Faspex to KEV",
