@@ -1,6 +1,39 @@
 {
- "updated": "2026-11-10T19:00:38Z",
+ "updated": "2026-11-10T19:30:52Z",
  "cards": [
+  {
+   "id": "50eb1dccf4",
+   "headline": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws",
+   "summary": "Microsoft released its November 2026 Patch Tuesday, addressing a record 1,235 vulnerabilities including an actively exploited Microsoft Outlook zero-day (CVE-2026-124194). The patch surge includes critical RCE flaws in LDAP, Queuing services, and Windows TCP/IP. Organizations should prioritize patching Outlook and critical vulnerabilities immediately, especially for internet-facing systems.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-124194"
+   ],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+   "published": "2026-11-10T19:07:36Z",
+   "added": "2026-11-10T19:30:37Z",
+   "also": [
+    {
+     "source": "SANS ISC",
+     "url": "https://isc.sans.edu/diary/rss/33508"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/"
+    }
+   ],
+   "cve_info": {
+    "CVE-2026-124194": {
+     "kev": false,
+     "cvss": 6.5,
+     "sev": "medium"
+    }
+   },
+   "cve_checked": "2026-11-10T19:30:42Z"
+  },
   {
    "id": "80496ac214",
    "headline": "Claude Code inadvertently leaks credentials to GitHub",
@@ -156,30 +189,40 @@
     "CVE-2026-113960": {
      "kev": false,
      "cvss": null,
-     "sev": null
+     "sev": null,
+     "epss": 0.00181,
+     "pct": 0.07719
     },
     "CVE-2026-113961": {
      "kev": false,
      "cvss": 7.5,
-     "sev": "high"
+     "sev": "high",
+     "epss": 0.00612,
+     "pct": 0.4967
     },
     "CVE-2026-113963": {
      "kev": false,
      "cvss": 5.5,
-     "sev": "medium"
+     "sev": "medium",
+     "epss": 0.00138,
+     "pct": 0.03238
     },
     "CVE-2026-113964": {
      "kev": false,
      "cvss": 5.4,
-     "sev": "medium"
+     "sev": "medium",
+     "epss": 0.00323,
+     "pct": 0.25514
     },
     "CVE-2026-113971": {
      "kev": false,
      "cvss": 3.5,
-     "sev": "low"
+     "sev": "low",
+     "epss": 0.00158,
+     "pct": 0.04979
     }
    },
-   "cve_checked": "2026-11-10T13:01:13Z"
+   "cve_checked": "2026-11-10T19:30:50Z"
   },
   {
    "id": "4271579dde",
