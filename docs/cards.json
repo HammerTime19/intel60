@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10T20:30:36Z",
+ "updated": "2026-11-10T21:00:36Z",
  "cards": [
+  {
+   "id": "230bcad0fa",
+   "headline": "Nitori breach exposes 37.6 million customer records",
+   "summary": "Nitori, a major Japanese furniture and home accessories retailer, disclosed that attackers accessed its network and may have stolen 37.62 million customer records. The incident represents one of the largest retail data breaches affecting a single retailer. Customers may face identity theft and fraud risks. Affected individuals should monitor accounts for unauthorized activity and consider credit monitoring services.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+   "published": "2026-11-10T20:54:55Z",
+   "added": "2026-11-10T21:00:35Z",
+   "also": []
+  },
   {
    "id": "b86930e183",
    "headline": "Git patches integer truncation in recursive clone",
@@ -4437,20 +4451,6 @@
      "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html"
     }
    ]
-  },
-  {
-   "id": "7477a331e6",
-   "headline": "Convertr analytics script hijacked for payment card theft",
-   "summary": "Attackers compromised a shared analytics script used by e-commerce platform Convertr to steal payment card data from shoppers during checkout. The hijacked script allowed attackers to intercept sensitive payment information from multiple merchants using the platform. Organizations using Convertr should audit transactions and implement payment security monitoring.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
-   "published": "2026-10-27T20:57:25Z",
-   "added": "2026-10-27T21:00:41Z",
-   "also": []
   }
  ]
 }
