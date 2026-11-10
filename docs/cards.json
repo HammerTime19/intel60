@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T11:30:35Z",
+ "updated": "2026-11-10T11:40:03Z",
  "cards": [
   {
    "id": "1fd1d86ac6",
@@ -4237,34 +4237,6 @@
    "source": "The Hacker News",
    "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
    "published": "2026-10-27T11:46:00Z",
-   "added": "2026-10-27T12:30:39Z",
-   "also": []
-  },
-  {
-   "id": "1ce9ccf10a",
-   "headline": "AI-generated fake login pages accelerate account takeover attacks",
-   "summary": "Generative AI enables attackers to create convincing fake login pages that steal passwords, capture MFA codes, and hijack authenticated sessions. Attackers can now easily impersonate trusted brands and tailor phishing attempts to specific employees or organizations with minimal effort. The technology significantly lowers the barrier for credential harvesting and account takeover attacks targeting enterprises.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-   "published": "2026-10-27T11:32:46Z",
-   "added": "2026-10-27T12:30:39Z",
-   "also": []
-  },
-  {
-   "id": "cf5c346fce",
-   "headline": "Lazarus targets South Korea using post-quantum encrypted malware",
-   "summary": "North Korea-linked Lazarus Group conducted a cyber espionage campaign called Operation FlashHole targeting at least three South Korean organizations in construction, software, and wire-communication equipment manufacturing since July 2025. Kaspersky attributed the campaign and noted Lazarus abused legitimate South Korean security software as part of the attack chain. The campaign demonstrates sophisticated targeting and use of advanced encryption techniques.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-   "published": "2026-10-27T11:32:31Z",
    "added": "2026-10-27T12:30:39Z",
    "also": []
   }
