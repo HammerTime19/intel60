@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T17:30:31Z",
+ "updated": "2026-11-10T18:00:44Z",
  "cards": [
   {
    "id": "82b5e1a648",
@@ -454,6 +454,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/vanderbilt-university-ransomware-attack-byod/"
     }
    ]
   },
