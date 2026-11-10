@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10T22:00:38Z",
+ "updated": "2026-11-10T22:30:32Z",
  "cards": [
+  {
+   "id": "16367edd00",
+   "headline": "Railway breach exposes 100k workspaces, $740k fraud",
+   "summary": "Cloud hosting provider Railway disclosed hackers exploited infrastructure vulnerabilities to steal customer authentication secrets. Attackers generated approximately $740,000 in fraudulent AI usage charges. Up to 100,000 workspaces may be affected with exposed credentials. Railway is investigating the breach scope and has begun notifying affected customers. Organizations using Railway should rotate credentials immediately and review account activity for unauthorized access.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+   "published": "2026-11-10T22:20:19Z",
+   "added": "2026-11-10T22:30:31Z",
+   "also": []
+  },
   {
    "id": "15da1f8e31",
    "headline": "US Army soldier arrested for alleged Russian espionage",
