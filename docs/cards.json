@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10T13:01:15Z",
+ "updated": "2026-11-10T13:30:36Z",
  "cards": [
+  {
+   "id": "633b52d336",
+   "headline": "Russian hackers breach Romania, Kazakhstan government email servers",
+   "summary": "Russian state-linked hackers compromised government email servers in Romania and Kazakhstan to intercept NATO and EU correspondence. The breach enabled espionage on sensitive diplomatic communications between Eastern European governments and Western institutions. No immediate remediation details were disclosed. Organizations should conduct forensic investigations, rotate credentials, and review email logs for unauthorized access.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan",
+   "published": "2026-11-10T13:00:00Z",
+   "added": "2026-11-10T13:30:35Z",
+   "also": []
+  },
   {
    "id": "4197e6ee02",
    "headline": "Apple patches nine vulnerabilities across iOS, macOS, watchOS",
@@ -392,7 +406,12 @@
    "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
    "published": "2026-11-09T17:51:21Z",
    "added": "2026-11-09T18:30:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/"
+    }
+   ]
   },
   {
    "id": "073e03d22d",
@@ -4250,20 +4269,6 @@
    "source": "The Record",
    "url": "https://therecord.media/malicious-apps-russian-anxiety-gas-prices-drone-strikes",
    "published": "2026-10-27T13:36:00Z",
-   "added": "2026-10-27T14:00:38Z",
-   "also": []
-  },
-  {
-   "id": "41ce8592d3",
-   "headline": "Leaked SquareML key exposes 238k Denver Health Plan members",
-   "summary": "A SquareML access key exposure put personal and health information of 238,000 Denver Health Plan members at risk. The breach occurred via compromised credentials that could have enabled unauthorized database access. Denver Health Plan has been notified and is investigating the incident. Organizations should audit access keys and implement key rotation protocols to prevent similar incidents.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
-   "published": "2026-10-27T13:30:28Z",
    "added": "2026-10-27T14:00:38Z",
    "also": []
   }
