@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-10T21:00:36Z",
+ "updated": "2026-11-10T21:30:36Z",
  "cards": [
+  {
+   "id": "15da1f8e31",
+   "headline": "US Army soldier arrested for alleged Russian espionage",
+   "summary": "An unnamed US Army member was arrested in the UK by British counterterrorism police working with the FBI and US military on allegations of spying for Russia. The arrest represents an ongoing counterintelligence concern regarding foreign recruitment of US military personnel. No further details on the nature or scope of the alleged espionage were disclosed.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
+   "published": "2026-11-10T21:13:00Z",
+   "added": "2026-11-10T21:30:34Z",
+   "also": []
+  },
+  {
+   "id": "c9d200a425",
+   "headline": "Artex pen-test tool forked into cloud attack weapons",
+   "summary": "Forks of the open source Artex framework and 45 similar pen-testing tools are being used for credential attacks and cloud breaches at scale across multiple industries. The compromised tools enable attackers to rapidly exploit cloud environments and steal credentials across enterprise networks. Organizations should audit their use of pen-testing frameworks and restrict access to these tools to authorized security teams only.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+   "published": "2026-11-10T21:01:14Z",
+   "added": "2026-11-10T21:30:34Z",
+   "also": []
+  },
   {
    "id": "230bcad0fa",
    "headline": "Nitori breach exposes 37.6 million customer records",
@@ -75,6 +103,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again"
     }
    ],
    "cve_info": {
@@ -2016,7 +2048,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-10T15:30:32Z"
+   "cve_checked": "2026-11-10T21:30:34Z"
   },
   {
    "id": "9c24410329",
