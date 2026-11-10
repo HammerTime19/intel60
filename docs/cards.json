@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10T11:00:39Z",
+ "updated": "2026-11-10T11:30:35Z",
  "cards": [
+  {
+   "id": "1fd1d86ac6",
+   "headline": "Spyware attacks increasingly target ordinary citizens, not just high-value targets",
+   "summary": "Spyware campaigns are becoming more indiscriminate, affecting everyday people rather than traditionally high-value targets. The AdFection spyware demonstrated this by infecting anyone visiting websites with advertising. Apple Threat Notifications analyzed by iVerify reveal cases like a bus driver's children and a stay-at-home mom in Ottawa, and a limousine driver in Australia—people with no obvious reason to be targeted. This trend suggests enterprise employees now face elevated spyware risk regardless of job sensitivity or public profile.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/spyware-attacks-trend-everyday-people-iverify-report/",
+   "published": "2026-11-10T11:00:00Z",
+   "added": "2026-11-10T11:30:35Z",
+   "also": []
+  },
   {
    "id": "ba7507c6f2",
    "headline": "Apple patches iMessage group chat privacy flaws",
