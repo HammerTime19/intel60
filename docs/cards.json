@@ -1,6 +1,68 @@
 {
- "updated": "2026-11-10T16:00:39Z",
+ "updated": "2026-11-10T16:30:46Z",
  "cards": [
+  {
+   "id": "82b5e1a648",
+   "headline": "Xen Orchestra auth bypass actively exploited for VM hijacking",
+   "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited to grant administrator privileges and take over XCP-ng virtualization hosts. Attackers can gain full control of virtual machine infrastructure through the flaw. Active exploitation is confirmed. Organizations running Xen Orchestra should prioritize patching and restrict network access to the management interface.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+   "published": "2026-11-10T16:17:16Z",
+   "added": "2026-11-10T16:30:35Z",
+   "also": []
+  },
+  {
+   "id": "0eb55bf159",
+   "headline": "Attackers exploit AhsayCBS flaws to deploy Python backdoor",
+   "summary": "Researchers disclosed attacks exploiting two patched vulnerabilities in AhsayCBS backup software to deliver a Python-based backdoor. The chain of CVE-2026-105133 and CVE-2026-105134 bypasses authentication and executes arbitrary commands on affected systems. Attackers actively exploited the flaws in October 2026 before patches became available. Organizations should apply patches immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-105133",
+    "CVE-2026-105134"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+   "published": "2026-11-10T16:00:55Z",
+   "added": "2026-11-10T16:30:35Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-105133": {
+     "kev": true,
+     "epss": 0.84478,
+     "pct": 0.99704,
+     "cvss": 7.3,
+     "sev": "high"
+    },
+    "CVE-2026-105134": {
+     "kev": true,
+     "epss": 0.81763,
+     "pct": 0.99649,
+     "cvss": 10.0,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-11-10T16:30:42Z"
+  },
+  {
+   "id": "7e413807cc",
+   "headline": "Blind Eagle sends fake court notices with RAT across Latin America",
+   "summary": "The threat actor Blind Eagle is targeting organizations in Latin America with phishing emails disguised as court notifications, fiscalía notices, and tutela proceedings. Emails deliver a remote access trojan related to AsyncRAT and DCRat, written in Portuguese and Spanish. The campaign appears active and ongoing. Organizations should train staff on judicial-themed phishing and inspect emails from unfamiliar senders.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+   "published": "2026-11-10T15:58:44Z",
+   "added": "2026-11-10T16:30:35Z",
+   "also": []
+  },
   {
    "id": "c1d47a910d",
    "headline": "SAP patches critical ICM2SHELL and ProxyGate flaws",
@@ -257,7 +319,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
    "published": "2026-11-10T07:49:58Z",
    "added": "2026-11-10T08:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html"
+    }
+   ]
   },
   {
    "id": "61f253ac43",
@@ -4202,20 +4269,6 @@
    "url": "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
    "published": "2026-10-27T16:47:20Z",
    "added": "2026-10-27T17:00:40Z",
-   "also": []
-  },
-  {
-   "id": "db852607b1",
-   "headline": "Warp agentic platform breached, agent logs exposed",
-   "summary": "Warp, an agentic development environment, suffered a breach through a compromised third-party vendor in its infrastructure. Attackers accessed agent decision logs and user telemetry data from Warp users. The incident highlights supply-chain risks in AI development tooling. Users should review logs for suspicious activity and monitor accounts for unauthorized access.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-   "published": "2026-10-27T16:15:39Z",
-   "added": "2026-10-27T16:30:40Z",
    "also": []
   }
  ]
