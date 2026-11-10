@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10T18:30:34Z",
+ "updated": "2026-11-10T19:00:38Z",
  "cards": [
+  {
+   "id": "80496ac214",
+   "headline": "Claude Code inadvertently leaks credentials to GitHub",
+   "summary": "AI coding assistants using Claude Code have leaked thousands of secrets, including credentials and sensitive data, to public Git repositories. The tool's default behavior saves files without filtering sensitive information. Organizations using Claude for code generation should audit their public repositories for exposed credentials and implement secret scanning to detect and remediate leaked data.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
+   "published": "2026-11-10T18:46:22Z",
+   "added": "2026-11-10T19:00:37Z",
+   "also": []
+  },
   {
    "id": "4893b7f645",
    "headline": "Adobe patches 110 vulnerabilities across nine products",
@@ -4219,33 +4233,6 @@
    "published": "2026-10-27T20:57:25Z",
    "added": "2026-10-27T21:00:41Z",
    "also": []
-  },
-  {
-   "id": "f9ab7d3fed",
-   "headline": "Ukrainian ransomware affiliate sentenced to 70 months prison",
-   "summary": "Artem Aleksandrovych Stryzhak, 36, was sentenced to 70 months in prison for participating in ransomware attacks from 2018 to 2021. He affiliated with Nefilim and Hive ransomware groups, targeting approximately 1,500 victims including hospitals, government entities, and critical infrastructure operators. His attacks disrupted patient care and caused millions in damages. Stryzhak was arrested in Spain in June 2024 and extradited to the U.S. in April 2025.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/nefilim-hive-ransomware-affiliate-artem-stryzhak-sentenced/",
-   "published": "2026-10-27T18:33:41Z",
-   "added": "2026-10-27T19:00:40Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/"
-    }
-   ]
   }
  ]
 }
