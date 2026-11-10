@@ -1,6 +1,72 @@
 {
- "updated": "2026-11-10T19:30:50Z",
+ "updated": "2026-11-10T19:38:31Z",
  "items": [
+  {
+   "cve": "CVE-2026-124194",
+   "vendor": "Microsoft",
+   "product": "Office",
+   "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "50eb1dccf4"
+  },
+  {
+   "cve": "CVE-2026-111793",
+   "vendor": "Openwave Messaging Limited",
+   "product": "Webtop Media Transcoder",
+   "name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "0c134491b8"
+  },
+  {
+   "cve": "CVE-2026-20320",
+   "vendor": "Cisco",
+   "product": "BroadWorks",
+   "name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "588033e85e"
+  },
+  {
+   "cve": "CVE-2026-125350",
+   "vendor": "Google",
+   "product": "Chromium",
+   "name": "Google Chromium Use-After-Free Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-24",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": null
+  },
+  {
+   "cve": "CVE-2026-111560",
+   "vendor": "Barracuda Networks",
+   "product": "Multiple Products",
+   "name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "255a7e2e04"
+  },
+  {
+   "cve": "CVE-2026-116606",
+   "vendor": "Barracuda Networks",
+   "product": "Barracuda Email Security Gateway (ESG)",
+   "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "added": "2026-11-10",
+   "due": "2026-11-13",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "a382c3d13c"
+  },
   {
    "cve": "CVE-2026-102895",
    "vendor": "GPUStack",

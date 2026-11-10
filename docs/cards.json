@@ -1,6 +1,44 @@
 {
- "updated": "2026-11-10T19:30:52Z",
+ "updated": "2026-11-10T19:38:35Z",
  "cards": [
+  {
+   "id": "b86930e183",
+   "headline": "Git patches integer truncation in recursive clone",
+   "summary": "Git fixed an integer truncation flaw in its index handling that allows malicious repositories to execute arbitrary code when cloned recursively with submodules. The vulnerability, CVE-2026-111760, was patched in Git 2.56.1 and backported to versions 2.50.2 through 2.55.1. Users should update immediately to prevent code execution during repository cloning.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-111760"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+   "published": "2026-11-10T19:23:10Z",
+   "added": "2026-11-10T19:38:05Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-111760": {
+     "kev": false,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-11-10T19:38:05Z"
+  },
+  {
+   "id": "b958c22720",
+   "headline": "SGLang RCE exploited to breach NEAR AI servers",
+   "summary": "An attacker exploited a remote code execution vulnerability in SGLang, an open-source inference engine, to compromise one of NEAR AI's inference servers. The attacker gained access to processed requests, including some marked confidential and running inside trusted execution environments. At least 18 agents and approximately 100 users were potentially affected. NEAR AI disclosed the breach this week.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+   "published": "2026-11-10T19:19:39Z",
+   "added": "2026-11-10T19:38:05Z",
+   "also": []
+  },
   {
    "id": "50eb1dccf4",
    "headline": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws",
@@ -27,7 +65,7 @@
    ],
    "cve_info": {
     "CVE-2026-124194": {
-     "kev": false,
+     "kev": true,
      "cvss": 6.5,
      "sev": "medium"
     }
@@ -63,6 +101,20 @@
    "also": []
   },
   {
+   "id": "3ac35ff647",
+   "headline": "Three China-nexus espionage campaigns linked via Sparrow",
+   "summary": "Check Point Research identified three distinct espionage clusters sharing infrastructure and malware code, tracked as SilentDelivery and other names, targeting telecommunications, government, military, research, and critical infrastructure across Latin America, Asia, and Europe over the past year. The campaigns use the Sparrow malware ecosystem for coordinated operations against multiple regions and sectors.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+   "published": "2026-11-10T17:43:23Z",
+   "added": "2026-11-10T19:37:55Z",
+   "also": []
+  },
+  {
    "id": "82b5e1a648",
    "headline": "Xen Orchestra auth bypass actively exploited for VM hijacking",
    "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited to grant administrator privileges and take over XCP-ng virtualization hosts. Attackers can gain full control of virtual machine infrastructure through the flaw. Active exploitation is confirmed. Organizations running Xen Orchestra should prioritize patching and restrict network access to the management interface.",
@@ -74,7 +126,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
    "published": "2026-11-10T16:17:16Z",
    "added": "2026-11-10T16:30:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+    }
+   ]
   },
   {
    "id": "0eb55bf159",
@@ -288,7 +345,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
    "published": "2026-11-10T10:10:20Z",
    "added": "2026-11-10T10:30:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+    }
+   ]
   },
   {
    "id": "ce0b470d4d",
@@ -376,7 +438,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
    "published": "2026-11-10T08:51:25Z",
    "added": "2026-11-10T09:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
+    }
+   ]
   },
   {
    "id": "7d2482c885",
@@ -410,6 +477,110 @@
    "published": "2026-11-10T06:12:24Z",
    "added": "2026-11-10T06:30:31Z",
    "also": []
+  },
+  {
+   "id": "255a7e2e04",
+   "headline": "CISA adds Barracuda OS command injection to KEV",
+   "summary": "CISA added CVE-2026-111560, an OS command injection flaw affecting Barracuda ESG, Load Balancer, ADC, BMA, WCC, WAF, and WSG, to the KEV catalog. Authenticated administrators can inject OS commands executing with root privileges via crafted timezone values. Combined with CVE-2026-116606, it enables unauthenticated root compromise. Federal patch deadline is November 13, 2026.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-111560"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
+   "published": "2026-11-10T00:00:00Z",
+   "added": "2026-11-10T19:37:55Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-111560": {
+     "kev": true,
+     "epss": 0.0106,
+     "pct": 0.6483,
+     "cvss": 8.6,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-11-10T19:38:11Z"
+  },
+  {
+   "id": "588033e85e",
+   "headline": "CISA adds Cisco BroadWorks XXE to KEV",
+   "summary": "CISA added CVE-2026-20320, an XML External Entity injection vulnerability in Cisco BroadWorks, to the KEV catalog. The unauthenticated flaw allows remote attackers to read sensitive configuration information from affected systems. Federal agencies must patch by November 24, 2026 per BOD 26-04 guidance.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-20320"
+   ],
+   "watch": [
+    "Cisco"
+   ],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
+   "published": "2026-11-10T00:00:00Z",
+   "added": "2026-11-10T19:37:55Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-20320": {
+     "kev": true,
+     "epss": 0.00385,
+     "pct": 0.32917,
+     "cvss": 7.5,
+     "sev": "high"
+    }
+   },
+   "cve_checked": "2026-11-10T19:38:18Z"
+  },
+  {
+   "id": "0c134491b8",
+   "headline": "CISA adds Openwave Webtop Media Transcoder flaw",
+   "summary": "CISA added CVE-2026-111793, an improper resource transfer vulnerability in Openwave Messaging Limited Webtop Media Transcoder, to the KEV catalog. Authenticated users can process and convert unintended document types by bypassing the Webmail interface. Federal patch deadline is November 24, 2026.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-111793"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
+   "published": "2026-11-10T00:00:00Z",
+   "added": "2026-11-10T19:37:55Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-111793": {
+     "kev": true,
+     "epss": 0.00274,
+     "pct": 0.19971,
+     "cvss": 4.3,
+     "sev": "medium"
+    }
+   },
+   "cve_checked": "2026-11-10T19:38:25Z"
+  },
+  {
+   "id": "fe16241dfb",
+   "headline": "CISA adds Microsoft Outlook spoofing flaw to KEV",
+   "summary": "CISA added CVE-2026-124194, a missing user interaction vulnerability in Microsoft Office Outlook, to the KEV catalog. The flaw allows unauthorized attackers to perform spoofing attacks over a network. Federal agencies must patch by November 24, 2026 per BOD 26-04 guidance.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-124194"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
+   "published": "2026-11-10T00:00:00Z",
+   "added": "2026-11-10T19:37:55Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-124194": {
+     "kev": true,
+     "cvss": 6.5,
+     "sev": "medium"
+    }
+   },
+   "cve_checked": "2026-11-10T19:38:31Z"
   },
   {
    "id": "fb65eccd75",
@@ -590,6 +761,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/"
     }
    ]
   },
@@ -1227,7 +1402,7 @@
    "also": [],
    "cve_info": {
     "CVE-2026-116606": {
-     "kev": false,
+     "kev": true,
      "epss": 0.00728,
      "pct": 0.54331,
      "cvss": 9.3,
