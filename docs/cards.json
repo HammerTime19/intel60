@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T09:00:42Z",
+ "updated": "2026-11-10T09:30:34Z",
  "cards": [
   {
    "id": "7e1f9b33c6",
@@ -115,6 +115,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/france-blames-iran-for-a-cyberattack-that-heated-supermarket-refrigerators/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html"
     }
    ]
   },
@@ -4173,20 +4177,6 @@
    "source": "The Hacker News",
    "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
    "published": "2026-10-27T09:33:06Z",
-   "added": "2026-10-27T10:00:44Z",
-   "also": []
-  },
-  {
-   "id": "4b38edd612",
-   "headline": "ENGIE data breach affects energy company customers",
-   "summary": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed attackers stole customer data after breaching a marketing platform used by business partners. The incident affected multiple customers through a third-party system. ENGIE is investigating the breach scope and notifying affected parties. Customers should monitor accounts for suspicious activity.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
-   "published": "2026-10-27T09:25:50Z",
    "added": "2026-10-27T10:00:44Z",
    "also": []
   }
