@@ -1,6 +1,40 @@
 {
- "updated": "2026-11-10T09:30:34Z",
+ "updated": "2026-11-10T10:00:50Z",
  "cards": [
+  {
+   "id": "e61330c977",
+   "headline": "CISA adds IBM Aspera Faspex to KEV",
+   "summary": "CISA added CVE-2026-123218 and CVE-2026-116779 affecting IBM Aspera Faspex and SignalWire FreeSwitch to its Known Exploited Vulnerabilities catalog. Both vulnerabilities are exploited in active attacks. Federal agencies must patch within three days. Prioritize patching if you deploy these products in internet-facing environments.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-123218",
+    "CVE-2026-116779"
+   ],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
+   "published": "2026-11-10T09:42:27Z",
+   "added": "2026-11-10T10:00:40Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-123218": {
+     "kev": true,
+     "epss": 0.00396,
+     "pct": 0.34123,
+     "cvss": 9.8,
+     "sev": "critical"
+    },
+    "CVE-2026-116779": {
+     "kev": true,
+     "epss": 0.01299,
+     "pct": 0.70632,
+     "cvss": 9.8,
+     "sev": "critical"
+    }
+   },
+   "cve_checked": "2026-11-10T10:00:48Z"
+  },
   {
    "id": "7e1f9b33c6",
    "headline": "Google patches eighth Chrome zero-day exploited",
@@ -69,7 +103,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
    "published": "2026-11-09T21:26:25Z",
    "added": "2026-11-09T21:30:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/"
+    }
+   ]
   },
   {
    "id": "b9b072a1ed",
@@ -4150,34 +4189,6 @@
    "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
    "published": "2026-10-27T11:32:31Z",
    "added": "2026-10-27T12:30:39Z",
-   "also": []
-  },
-  {
-   "id": "a71ac5df91",
-   "headline": "Warlock ransomware exploits unpatched SharePoint globally",
-   "summary": "Storm-2603 threat group behind Warlock ransomware targeted at least four organizations in Portuguese and Spanish-speaking regions via on-premises Microsoft SharePoint vulnerabilities. Victims included a water utility, telecommunications provider, regional government, and university. Attackers exploited flaws patched in July 2025 and newer SharePoint vulnerabilities. Organizations should prioritize SharePoint patching and review patch management processes to prevent exploitation.",
-   "severity": "critical",
-   "category": "Ransomware",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/warlock-ransomware-storm-2603-sharepoint-attacks-op-ed/",
-   "published": "2026-10-27T10:00:00Z",
-   "added": "2026-10-27T10:23:10Z",
-   "also": []
-  },
-  {
-   "id": "1da67faa3c",
-   "headline": "ASD takes down Amadey malware botnet backend",
-   "summary": "Australian Signals Directorate (ASD) gained access to the Amadey malware backend and disconnected it from approximately 180,000 infected computers worldwide, including systems in Australia. The Amadey botnet was used to steal data and conduct further attacks. By severing the command-and-control infrastructure, ASD prevented the threat actor from continuing operations. Infected users should apply security updates.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-   "published": "2026-10-27T09:33:06Z",
-   "added": "2026-10-27T10:00:44Z",
    "also": []
   }
  ]
