@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T16:30:46Z",
+ "updated": "2026-11-10T17:00:37Z",
  "cards": [
   {
    "id": "82b5e1a648",
@@ -4255,20 +4255,6 @@
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
    "published": "2026-10-27T18:20:28Z",
    "added": "2026-10-27T18:30:39Z",
-   "also": []
-  },
-  {
-   "id": "c64d4188c2",
-   "headline": "Aokigahara stealer targets developer keys and AI assistants",
-   "summary": "Aokigahara infostealer malware expands beyond traditional credential theft to target developer keyrings and AI assistant sessions. A single compromised endpoint can expose sensitive business data, AI sessions, and developer infrastructure. The malware represents an escalation of infostealer capabilities in the era of AI-assisted development. Organizations should monitor for signs of compromise and review access to AI platforms and developer credentials.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
-   "published": "2026-10-27T16:47:20Z",
-   "added": "2026-10-27T17:00:40Z",
    "also": []
   }
  ]
