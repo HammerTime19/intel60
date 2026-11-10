@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10T07:30:33Z",
+ "updated": "2026-11-10T08:00:41Z",
  "cards": [
+  {
+   "id": "7d2482c885",
+   "headline": "Fireworks AI discloses breach via cloud provider hack",
+   "summary": "Fireworks, an AI infrastructure startup, disclosed a security breach where attackers gained access to its development machines after compromising a third-party cloud provider. The incident demonstrates supply chain risks affecting AI companies. Fireworks has not detailed the scope of exposed data or the identity of the compromised cloud provider. Customers should review account activity and monitor for suspicious access to deployed AI models.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+   "published": "2026-11-10T07:49:58Z",
+   "added": "2026-11-10T08:00:40Z",
+   "also": []
+  },
   {
    "id": "61f253ac43",
    "headline": "Chrome patches exploited XML use-after-free zero-day",
@@ -83,7 +97,12 @@
    "url": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
    "published": "2026-11-09T18:45:00Z",
    "added": "2026-11-09T19:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/france-blames-iran-for-a-cyberattack-that-heated-supermarket-refrigerators/"
+    }
+   ]
   },
   {
    "id": "e89c57c6d5",
