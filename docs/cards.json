@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-10T14:30:29Z",
+ "updated": "2026-11-10T15:00:38Z",
  "cards": [
+  {
+   "id": "c1d47a910d",
+   "headline": "SAP patches critical ICM2SHELL and ProxyGate flaws",
+   "summary": "SAP has released 42 new and updated security advisories, including nine addressing critical-severity vulnerabilities. The vulnerabilities include ICM2SHELL and ProxyGate. No details on exploitation status or affected systems are provided in the announcement. Organizations running SAP products should prioritize patching these critical flaws.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
+   "published": "2026-11-10T14:46:28Z",
+   "added": "2026-11-10T15:00:37Z",
+   "also": []
+  },
+  {
+   "id": "f00273d9e0",
+   "headline": "Palantir executive nominated to lead CISA",
+   "summary": "Michael LoSapio, chief information officer at Palantir, has been officially nominated by President Donald Trump to lead the Cybersecurity and Infrastructure Security Agency. His confirmation requires Senate approval, though the lame-duck session timeline creates uncertainty around the vote. This leadership change comes as CISA continues managing critical infrastructure protection and vulnerability disclosure responsibilities.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/michael-losapio-cisa-director-nomination",
+   "published": "2026-11-10T14:31:00Z",
+   "added": "2026-11-10T15:00:37Z",
+   "also": []
+  },
   {
    "id": "633b52d336",
    "headline": "Russian hackers breach Romania, Kazakhstan government email servers",
