@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10T18:00:44Z",
+ "updated": "2026-11-10T18:30:34Z",
  "cards": [
+  {
+   "id": "4893b7f645",
+   "headline": "Adobe patches 110 vulnerabilities across nine products",
+   "summary": "Adobe released security updates addressing 110 vulnerabilities across nine products including AEM, Premiere, Photoshop, After Effects, Connect, Audition, Dimension, Content Credentials SDK, and Media Encoder. The bulletin does not specify severity levels or exploitation status for individual flaws. Users should apply updates prioritizing products they actively use in their environments.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
+   "published": "2026-11-10T18:11:54Z",
+   "added": "2026-11-10T18:30:33Z",
+   "also": []
+  },
   {
    "id": "82b5e1a648",
    "headline": "Xen Orchestra auth bypass actively exploited for VM hijacking",
@@ -4232,34 +4246,6 @@
      "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/"
     }
    ]
-  },
-  {
-   "id": "d09366a97f",
-   "headline": "CyberStrikeAI uses 44 AI agents targeting Japanese organizations",
-   "summary": "Researchers at TrendAI discovered three cyber attacks against Japanese organizations where threat actors leveraged 44 AI agents to automate hacking operations. The attacks involved either AI-driven autonomous operations or AI-assisted human-led campaigns. Three exposed server environments used by the threat actors were analyzed. The disclosure details how adversaries are increasingly adopting AI to scale and accelerate cyber attack capabilities.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-   "published": "2026-10-27T18:26:46Z",
-   "added": "2026-10-27T19:00:40Z",
-   "also": []
-  },
-  {
-   "id": "9df47a48bc",
-   "headline": "Microsoft removes trust in compromised eMudhra certificates",
-   "summary": "Microsoft released out-of-band Windows updates to distrust certificates issued by eMudhra certificate authority after compromised keys were discovered. The emergency patches protect systems that do not automatically receive certificate trust updates from potential man-in-the-middle attacks. Organizations running affected Windows versions should apply the updates promptly to prevent threat actors from using fraudulent certificates.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-   "published": "2026-10-27T18:20:28Z",
-   "added": "2026-10-27T18:30:39Z",
-   "also": []
   }
  ]
 }
