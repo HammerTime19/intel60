@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T11:40:03Z",
+ "updated": "2026-11-10T12:00:35Z",
  "cards": [
   {
    "id": "1fd1d86ac6",
@@ -4225,20 +4225,6 @@
     }
    },
    "cve_checked": "2026-10-27T12:30:40Z"
-  },
-  {
-   "id": "3fba9192c9",
-   "headline": "Keystone to destroy 18,835 hardware wallets after key theft",
-   "summary": "Keystone announced it will destroy 18,835 hardware wallets after attackers obtained the device verification key from its website. The stolen key could enable creation of counterfeit wallets that pass authenticity checks, putting buyers at risk of crypto theft. No actual cryptocurrency was stolen in the incident, but the breach undermines trust in Keystone's device verification process.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-   "published": "2026-10-27T11:46:00Z",
-   "added": "2026-10-27T12:30:39Z",
-   "also": []
   }
  ]
 }
