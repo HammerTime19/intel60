@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10T08:30:26Z",
+ "updated": "2026-11-10T09:00:42Z",
  "cards": [
+  {
+   "id": "7e1f9b33c6",
+   "headline": "Google patches eighth Chrome zero-day exploited",
+   "summary": "Google released emergency updates for Chrome to fix a new zero-day vulnerability actively exploited in the wild. This marks the eighth Chrome zero-day patched since the start of 2026. The vulnerability details were not disclosed in the story. Users should update Chrome immediately to the latest version.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+   "published": "2026-11-10T08:51:25Z",
+   "added": "2026-11-10T09:00:36Z",
+   "also": []
+  },
   {
    "id": "7d2482c885",
    "headline": "Fireworks AI discloses breach via cloud provider hack",
@@ -1427,7 +1441,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-10T03:00:33Z"
+   "cve_checked": "2026-11-10T09:00:40Z"
   },
   {
    "id": "9c24410329",
