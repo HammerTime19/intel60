@@ -1,6 +1,68 @@
 {
- "updated": "2026-11-10T12:30:33Z",
+ "updated": "2026-11-10T13:01:15Z",
  "cards": [
+  {
+   "id": "4197e6ee02",
+   "headline": "Apple patches nine vulnerabilities across iOS, macOS, watchOS",
+   "summary": "Apple released updates fixing nine vulnerabilities across iOS 26, 27, iPadOS, macOS, watchOS, and visionOS. CVE-2026-113960 and CVE-2026-113961 enable message access in iMessage group chats. CVE-2026-113963 allows app access to sensitive user data. CVE-2026-113964 bypasses Bluetooth pairing code rate limits. Apply updates to patch privacy and authentication flaws.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-113960",
+    "CVE-2026-113961",
+    "CVE-2026-113963",
+    "CVE-2026-113964",
+    "CVE-2026-113971"
+   ],
+   "watch": [],
+   "source": "SANS ISC",
+   "url": "https://isc.sans.edu/diary/rss/33506",
+   "published": "2026-11-10T12:48:55Z",
+   "added": "2026-11-10T13:00:39Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-113960": {
+     "kev": false,
+     "cvss": null,
+     "sev": null
+    },
+    "CVE-2026-113961": {
+     "kev": false,
+     "cvss": 7.5,
+     "sev": "high"
+    },
+    "CVE-2026-113963": {
+     "kev": false,
+     "cvss": 5.5,
+     "sev": "medium"
+    },
+    "CVE-2026-113964": {
+     "kev": false,
+     "cvss": 5.4,
+     "sev": "medium"
+    },
+    "CVE-2026-113971": {
+     "kev": false,
+     "cvss": 3.5,
+     "sev": "low"
+    }
+   },
+   "cve_checked": "2026-11-10T13:01:13Z"
+  },
+  {
+   "id": "4271579dde",
+   "headline": "iOS sandbox escape exposes crypto wallet keys to malicious apps",
+   "summary": "A sandbox escape vulnerability on iPhones running iOS 26 and 27 allows malicious apps to read other apps' files, potentially exposing seed phrases, private keys, and login credentials. Binance warned of the risk after researcher forcequit published the exploit on GitHub. Apple's latest updates do not include a fix, leaving users vulnerable.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+   "published": "2026-11-10T12:15:31Z",
+   "added": "2026-11-10T13:00:39Z",
+   "also": []
+  },
   {
    "id": "1fd1d86ac6",
    "headline": "Spyware attacks increasingly target ordinary citizens, not just high-value targets",
