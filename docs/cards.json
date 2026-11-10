@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10T06:00:32Z",
+ "updated": "2026-11-10T06:30:32Z",
  "cards": [
+  {
+   "id": "61f253ac43",
+   "headline": "Chrome patches exploited XML use-after-free zero-day",
+   "summary": "Google released a security update for Chrome addressing a high-severity use-after-free vulnerability in the XML component. The flaw was reported anonymously on November 6 and is already being exploited in active attacks. This is the eighth zero-day patched in Chrome this year. Users should update Chrome immediately to the latest version.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
+   "published": "2026-11-10T06:12:24Z",
+   "added": "2026-11-10T06:30:31Z",
+   "also": []
+  },
   {
    "id": "fb65eccd75",
    "headline": "SEGA newsletter provider breach exposes 2.2 million emails",
