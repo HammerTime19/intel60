@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-10T10:30:41Z",
+ "updated": "2026-11-10T11:00:39Z",
  "cards": [
+  {
+   "id": "ba7507c6f2",
+   "headline": "Apple patches iMessage group chat privacy flaws",
+   "summary": "Apple released security updates addressing multiple iMessage vulnerabilities affecting iPhone XS, XS Max, XR and iPad (7th generation). One flaw could allow a remote attacker to join a group chat and receive messages; another could let added members access previously sent messages. Updates are available across affected devices. Users should install patches immediately.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+   "published": "2026-11-10T10:16:51Z",
+   "added": "2026-11-10T11:00:38Z",
+   "also": []
+  },
   {
    "id": "0e899e1e6c",
    "headline": "Hackers actively exploit Barracuda ESG critical flaws for root access",
@@ -43,7 +57,12 @@
    "url": "https://cyberscoop.com/russian-turla-group-used-new-toolset-to-silently-pilfer-emails-from-kazakhstan-romanian-governments/",
    "published": "2026-11-10T10:00:00Z",
    "added": "2026-11-10T10:30:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"
+    }
+   ]
   },
   {
    "id": "e61330c977",
