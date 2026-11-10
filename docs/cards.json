@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T13:30:36Z",
+ "updated": "2026-11-10T14:00:34Z",
  "cards": [
   {
    "id": "633b52d336",
@@ -4211,65 +4211,6 @@
    "url": "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report",
    "published": "2026-10-27T15:07:00Z",
    "added": "2026-10-27T15:30:39Z",
-   "also": []
-  },
-  {
-   "id": "ae042a0b53",
-   "headline": "GoAhead web server TLS flaws bypass certificate revocation",
-   "summary": "GoAhead embedded web server contains TLS flaws affecting systems configured with mutual-TLS authentication. The server loads certificate revocation lists but never enables revocation checking, allowing revoked client certificates to pass authentication. Session decryption is also possible. Organizations using GoAhead with OpenSSL backend and mutual-TLS should verify revocation checking is enabled or disable affected configurations.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-   "published": "2026-10-27T13:59:48Z",
-   "added": "2026-10-27T17:00:40Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/"
-    }
-   ]
-  },
-  {
-   "id": "0afa3606f1",
-   "headline": "Apple backports CoreGraphics RCE fix to older iPhones",
-   "summary": "Apple backported patches for CVE-2026-86950, a high-severity out-of-bounds write in CoreGraphics affecting older iPhones and iPads. The flaw allows arbitrary code execution when processing malicious files and has been exploited in real-world attacks. Patches released last month are now available for older devices. Users should update immediately to the latest available iOS version.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-86950"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-   "published": "2026-10-27T13:59:09Z",
-   "added": "2026-10-27T17:00:40Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-86950": {
-     "kev": true,
-     "epss": 0.26166,
-     "pct": 0.97984,
-     "cvss": 8.8,
-     "sev": "high"
-    }
-   },
-   "cve_checked": "2026-10-27T17:00:41Z"
-  },
-  {
-   "id": "37d79b8322",
-   "headline": "Infostealers disguised as Russian gas price tracking apps",
-   "summary": "Cybercriminals deployed infostealer malware in fake applications targeting Russians, posing as tools for tracking fuel prices, police activity and drone strike information. The malware steals sensitive data from infected devices. Users should avoid downloading apps from untrusted sources and verify app legitimacy before installation. Organizations should warn employees about these threats.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/malicious-apps-russian-anxiety-gas-prices-drone-strikes",
-   "published": "2026-10-27T13:36:00Z",
-   "added": "2026-10-27T14:00:38Z",
    "also": []
   }
  ]
