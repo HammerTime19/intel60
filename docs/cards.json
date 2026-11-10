@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T15:30:32Z",
+ "updated": "2026-11-10T16:00:39Z",
  "cards": [
   {
    "id": "c1d47a910d",
@@ -103,7 +103,12 @@
    "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
    "published": "2026-11-10T12:15:31Z",
    "added": "2026-11-10T13:00:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/"
+    }
+   ]
   },
   {
    "id": "1fd1d86ac6",
@@ -117,7 +122,12 @@
    "url": "https://cyberscoop.com/spyware-attacks-trend-everyday-people-iverify-report/",
    "published": "2026-11-10T11:00:00Z",
    "added": "2026-11-10T11:30:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/spyware-cyber-crime-iverify"
+    }
+   ]
   },
   {
    "id": "ba7507c6f2",
