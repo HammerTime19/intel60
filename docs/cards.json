@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-11T16:00:35Z",
+ "updated": "2026-11-11T16:30:42Z",
  "cards": [
+  {
+   "id": "4c32248b41",
+   "headline": "Maersk data breach as WhiteArmor demands $5 million",
+   "summary": "Shipping giant Maersk confirmed a data breach from a legacy system acquired in a previous acquisition. Threat actors gained unauthorized access and exfiltrated data. WhiteArmor ransomware group is demanding $5 million, indicating a ransomware attack. The incident affects Maersk's operations and customer information.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+   "published": "2026-11-11T16:24:18Z",
+   "added": "2026-11-11T16:30:41Z",
+   "also": []
+  },
   {
    "id": "9c9df925ad",
    "headline": "AntiFox AI agents hosted on AWS for credential theft",
@@ -4313,34 +4327,6 @@
    "url": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
    "published": "2026-10-28T16:37:00Z",
    "added": "2026-10-28T17:00:52Z",
-   "also": []
-  },
-  {
-   "id": "bce30872ee",
-   "headline": "Logic bugs in Microsoft Edge break sandbox escapes",
-   "summary": "Security researcher Orange Tsai disclosed how a chain of logic flaws in Microsoft Edge, without memory corruption, can escape the browser sandbox and execute code on Windows systems. The vulnerabilities won $175,000 at Pwn2Own Berlin in May 2026. Microsoft patched the bugs the day after the contest. No active exploitation has been reported.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-   "published": "2026-10-28T16:23:34Z",
-   "added": "2026-10-28T18:00:40Z",
-   "also": []
-  },
-  {
-   "id": "cd96a1792e",
-   "headline": "ClickFix campaign impersonates Cloudflare targeting Windows macOS",
-   "summary": "A new ClickFix campaign uses fake Cloudflare verification pages to target both Windows and macOS users. The attack attempts to distribute malware through social engineering by displaying spoofed verification prompts and command instructions. Researchers identified multiple indicators and domains associated with the campaign on October 28, 2026.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SANS ISC",
-   "url": "https://isc.sans.edu/diary/rss/33466",
-   "published": "2026-10-28T16:07:03Z",
-   "added": "2026-10-28T16:30:36Z",
    "also": []
   }
  ]

@@ -911,6 +911,13 @@
 "sev": "high",
 "summary": "A hacktivist group called the Department of Peace breached an identity service used by the US Department of Homeland Security, exposing personal data on over 41,000 DHS employees and contractors. The leaked dataset includes current and former CISA staff and contains years of historical records. The group claimed the breach was a response to escalated immigration enforcement operations. Verify if your organization's identity credentials are exposed."
 },
+"4c32248b41": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Maersk data breach as WhiteArmor demands $5 million",
+"sev": "high",
+"summary": "Shipping giant Maersk confirmed a data breach from a legacy system acquired in a previous acquisition. Threat actors gained unauthorized access and exfiltrated data. WhiteArmor ransomware group is demanding $5 million, indicating a ransomware attack. The incident affects Maersk's operations and customer information."
+},
 "4c6744ea78": {
 "cves": [
 "CVE-2026-123158"
