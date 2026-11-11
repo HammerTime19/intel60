@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T21:00:42Z",
+ "updated": "2026-11-11T21:30:36Z",
  "cards": [
   {
    "id": "4555dea146",
@@ -207,7 +207,12 @@
    "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
    "published": "2026-11-11T12:00:53Z",
    "added": "2026-11-11T12:30:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/"
+    }
+   ]
   },
   {
    "id": "3dfcf9840f",
@@ -350,7 +355,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-11T15:00:40Z"
+   "cve_checked": "2026-11-11T21:30:30Z"
   },
   {
    "id": "b958c22720",
@@ -634,7 +639,7 @@
      "desc": "This issue was addressed by restricting options offered on a locked device. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.5 and iPadOS 26.5. An attacker with physical access may be able to pair a device with an AirPlay receiver from the lock screen."
     }
    },
-   "cve_checked": "2026-11-11T15:03:52Z"
+   "cve_checked": "2026-11-11T21:30:36Z"
   },
   {
    "id": "4271579dde",
