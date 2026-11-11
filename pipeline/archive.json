@@ -1991,6 +1991,13 @@
 "sev": "high",
 "summary": "Microsoft investigated intrusions where attackers impersonated IT support on Teams to trick employees into granting remote access. Attackers then exploited misconfigured Active Directory Certificate Services to obtain login certificates for privileged accounts, including domain controller access. Organizations should harden AD CS configurations and disable unnecessary certificate templates."
 },
+"d62040292e": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Iran-backed network directed London synagogue attacks",
+"sev": "high",
+"summary": "An indictment unsealed by US prosecutors links an Iran-backed network to attacks targeting Jewish and American sites across Europe, including synagogues in Belgium, the Netherlands, and London, as well as U.S. bank buildings in Amsterdam and Paris. The campaign used FaceTime to direct operations. Investigation and prosecution are ongoing."
+},
 "d6dd46466a": {
 "cves": [],
 "date": "2026-11-04",

@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-11T17:00:40Z",
+ "updated": "2026-11-11T17:30:36Z",
  "cards": [
+  {
+   "id": "d62040292e",
+   "headline": "Iran-backed network directed London synagogue attacks",
+   "summary": "An indictment unsealed by US prosecutors links an Iran-backed network to attacks targeting Jewish and American sites across Europe, including synagogues in Belgium, the Netherlands, and London, as well as U.S. bank buildings in Amsterdam and Paris. The campaign used FaceTime to direct operations. Investigation and prosecution are ongoing.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
+   "published": "2026-11-11T16:57:00Z",
+   "added": "2026-11-11T17:30:36Z",
+   "also": []
+  },
   {
    "id": "4c32248b41",
    "headline": "Maersk data breach as WhiteArmor demands $5 million",
@@ -71,7 +85,12 @@
    "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
    "published": "2026-11-11T13:58:38Z",
    "added": "2026-11-11T14:30:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html"
+    }
+   ]
   },
   {
    "id": "60ccd3ca4d",
