@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-11T12:00:34Z",
+ "updated": "2026-11-11T12:30:56Z",
  "cards": [
+  {
+   "id": "6efa2d9b4d",
+   "headline": "Fortinet patches nearly 100 vulnerabilities",
+   "summary": "Fortinet released patches for nearly 100 vulnerabilities across its products. The significant increase in patched flaws follows the company's integration of frontier AI models into its product security testing processes. Details on severity levels and affected products were not disclosed in the announcement.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [
+    "Fortinet"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+   "published": "2026-11-11T12:10:14Z",
+   "added": "2026-11-11T12:30:39Z",
+   "also": []
+  },
+  {
+   "id": "b80a24c893",
+   "headline": "eMudhra revokes 8 more CAs after key compromise",
+   "summary": "eMudhra has revoked 8 additional intermediate certificate authorities following its October key compromise incident. Although the 8 CAs' private keys were not directly weakened, a malicious in-house Python script affected them. The company had initially declared these CAs unaffected but subsequently revoked them. This represents an escalating impact from the initial compromise event.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+   "published": "2026-11-11T12:00:53Z",
+   "added": "2026-11-11T12:30:39Z",
+   "also": []
+  },
   {
    "id": "3dfcf9840f",
    "headline": "Siemens, Phoenix Contact, Johnson Controls patch ICS flaws",
@@ -4319,33 +4349,6 @@
    "published": "2026-10-28T13:39:35Z",
    "added": "2026-10-28T14:00:48Z",
    "also": []
-  },
-  {
-   "id": "0d8d39d2f1",
-   "headline": "China-linked hackers exploit PHP2Shell firewall vulnerability",
-   "summary": "Chinese-linked threat actors chained PHP2Shell and Fragnesia exploits to compromise two servers belonging to a US government-affiliated organization. The attackers achieved root-level access to firewalls through the PHP2Shell vulnerability. Organizations should prioritize patching PHP and firewall systems, and deploy monitoring to detect exploitation attempts of known code execution flaws.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/",
-   "published": "2026-10-28T12:00:59Z",
-   "added": "2026-10-28T12:30:36Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge"
-    }
-   ]
   }
  ]
 }

@@ -1128,6 +1128,13 @@
 "sev": "critical",
 "summary": "Threat actors are actively exploiting CVE-2026-118539, a critical missing authorization flaw in Drupal Commerce Core. The vulnerability affects versions 0.0.0 to 2.41 and 3.0.0 to 3.3.13, allowing unauthorized actions in the shopping cart and e-commerce functionality. Organizations running affected Drupal Commerce versions should patch immediately. Monitor for suspicious account activity and unauthorized transactions."
 },
+"6efa2d9b4d": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Fortinet patches nearly 100 vulnerabilities",
+"sev": "high",
+"summary": "Fortinet released patches for nearly 100 vulnerabilities across its products. The significant increase in patched flaws follows the company's integration of frontier AI models into its product security testing processes. Details on severity levels and affected products were not disclosed in the announcement."
+},
 "70a17c1d3a": {
 "cves": [],
 "date": "2026-10-28",
@@ -1665,6 +1672,13 @@
 "headline": "Ukraine arrests four in $5M crypto scam ring",
 "sev": "info",
 "summary": "Ukrainian cyber police arrested four men, including the alleged leader of a scam call center targeting German victims in a $5 million cryptocurrency fraud scheme. The operation is part of ongoing efforts to dismantle organized cyber-fraud networks. This represents law enforcement action against active financial crime affecting international victims."
+},
+"b80a24c893": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "eMudhra revokes 8 more CAs after key compromise",
+"sev": "high",
+"summary": "eMudhra has revoked 8 additional intermediate certificate authorities following its October key compromise incident. Although the 8 CAs' private keys were not directly weakened, a malicious in-house Python script affected them. The company had initially declared these CAs unaffected but subsequently revoked them. This represents an escalating impact from the initial compromise event."
 },
 "b86930e183": {
 "cves": [
