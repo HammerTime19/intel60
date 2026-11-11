@@ -1915,6 +1915,13 @@
 "sev": "high",
 "summary": "Phishing emails impersonating Anthropic are evading detection by leading secure email gateway (SEG) products, despite containing obvious red flags. The campaign exploits gaps in security tool configurations or signatures. Organizations should review email filtering rules, implement additional sender authentication mechanisms, and conduct phishing awareness training to defend against credential harvesting attempts."
 },
+"ccdd6c7f3f": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "ScreenConnect attacks breach MSPs, deploy rogue access clients",
+"sev": "critical",
+"summary": "ConnectWise is investigating active malware attacks against managed service providers exploiting compromised ScreenConnect environments. Attackers deploy rogue remote-access clients to customer devices, potentially affecting dozens of organizations. The campaign specifically targets MSPs, leveraging their trusted access to customer networks. Organizations should review ScreenConnect logs for unauthorized access and verify the legitimacy of remote-access clients on systems."
+},
 "ccddb3cec5": {
 "cves": [],
 "date": "2026-11-03",

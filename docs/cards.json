@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-11T22:30:32Z",
+ "updated": "2026-11-11T23:00:37Z",
  "cards": [
+  {
+   "id": "ccdd6c7f3f",
+   "headline": "ScreenConnect attacks breach MSPs, deploy rogue access clients",
+   "summary": "ConnectWise is investigating active malware attacks against managed service providers exploiting compromised ScreenConnect environments. Attackers deploy rogue remote-access clients to customer devices, potentially affecting dozens of organizations. The campaign specifically targets MSPs, leveraging their trusted access to customer networks. Organizations should review ScreenConnect logs for unauthorized access and verify the legitimacy of remote-access clients on systems.",
+   "severity": "critical",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+   "published": "2026-11-11T22:56:21Z",
+   "added": "2026-11-11T23:00:36Z",
+   "also": []
+  },
   {
    "id": "4555dea146",
    "headline": "Fireworks AI breach leaks Notion AI chat transcripts",
