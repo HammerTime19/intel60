@@ -1453,6 +1453,13 @@
 "sev": "high",
 "summary": "Threat actors created fake GitHub projects impersonating OpenAI ChatGPT and Anthropic Claude desktop applications to distribute malicious loaders and cryptocurrency miners in a campaign dubbed Yoba. The malware leverages signed executables to evade detection and establish persistence. Users downloading these counterfeit applications from unofficial sources are at risk. Defenders should warn users to only download AI applications from official vendor repositories and marketplaces."
 },
+"8cdc4a0f74": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Qilin ransomware group operator identified in St. Petersburg",
+"sev": "high",
+"summary": "NCC Group research has identified the administrator of Qilin, the world's most active ransomware affiliate program, as a 36-year-old based in St. Petersburg. Operating since September 2022, Qilin has claimed at least 365 victim organizations in the past three months. The group attracts affiliates with 80 percent profit sharing and employs double-extortion tactics. The operator made operational security errors over the past decade that led to their identification."
+},
 "8d206c962e": {
 "cves": [],
 "date": "2026-11-09",

@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-11T18:00:32Z",
+ "updated": "2026-11-11T18:30:33Z",
  "cards": [
+  {
+   "id": "8cdc4a0f74",
+   "headline": "Qilin ransomware group operator identified in St. Petersburg",
+   "summary": "NCC Group research has identified the administrator of Qilin, the world's most active ransomware affiliate program, as a 36-year-old based in St. Petersburg. Operating since September 2022, Qilin has claimed at least 365 victim organizations in the past three months. The group attracts affiliates with 80 percent profit sharing and employs double-extortion tactics. The operator made operational security errors over the past decade that led to their identification.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Krebs on Security",
+   "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+   "published": "2026-11-11T18:06:01Z",
+   "added": "2026-11-11T18:30:32Z",
+   "also": []
+  },
   {
    "id": "d62040292e",
    "headline": "Iran-backed network directed London synagogue attacks",
