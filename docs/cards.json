@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T01:30:30Z",
+ "updated": "2026-11-11T02:02:20Z",
  "cards": [
   {
    "id": "16367edd00",
@@ -79,7 +79,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-10T19:38:05Z"
+   "cve_checked": "2026-11-11T02:00:41Z"
   },
   {
    "id": "b958c22720",
@@ -139,10 +139,11 @@
     "CVE-2026-124194": {
      "kev": true,
      "cvss": 6.5,
-     "sev": "medium"
+     "sev": "medium",
+     "desc": "Product ui does not warn user of unsafe actions in Microsoft Office Outlook allows an unauthorized attacker to perform spoofing over a network."
     }
    },
-   "cve_checked": "2026-11-10T19:30:42Z"
+   "cve_checked": "2026-11-11T02:00:52Z"
   },
   {
    "id": "80496ac214",
@@ -322,38 +323,43 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00181,
-     "pct": 0.07719
+     "pct": 0.07719,
+     "desc": "This issue was addressed by removing the vulnerable code. This issue is fixed in iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A user added to an iMessage group may be able to access messages sent before they joined."
     },
     "CVE-2026-113961": {
      "kev": false,
      "cvss": 7.5,
      "sev": "high",
      "epss": 0.00612,
-     "pct": 0.4967
+     "pct": 0.4967,
+     "desc": "An authorization issue was addressed with improved validation. This issue is fixed in iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A remote attacker may be able to join an iMessage group chat and receive its messages."
     },
     "CVE-2026-113963": {
      "kev": false,
      "cvss": 5.5,
      "sev": "medium",
      "epss": 0.00138,
-     "pct": 0.03238
+     "pct": 0.03238,
+     "desc": "An authorization issue was addressed with improved state management. This issue is fixed in iOS 27.2.1 and iPadOS 27.2.1, visionOS 27.2.1, watchOS 27.2.1. An app may be able to access sensitive user data."
     },
     "CVE-2026-113964": {
      "kev": false,
      "cvss": 5.4,
      "sev": "medium",
      "epss": 0.00323,
-     "pct": 0.25514
+     "pct": 0.25514,
+     "desc": "A logic issue was addressed with improved state management. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 26.6.1, watchOS 27.2.1. An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction."
     },
     "CVE-2026-113971": {
      "kev": false,
      "cvss": 3.5,
      "sev": "low",
      "epss": 0.00158,
-     "pct": 0.04979
+     "pct": 0.04979,
+     "desc": "This issue was addressed by restricting options offered on a locked device. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.5 and iPadOS 26.5. An attacker with physical access may be able to pair a device with an AirPlay receiver from the lock screen."
     }
    },
-   "cve_checked": "2026-11-10T19:30:50Z"
+   "cve_checked": "2026-11-11T02:01:47Z"
   },
   {
    "id": "4271579dde",
@@ -575,10 +581,11 @@
      "epss": 0.0106,
      "pct": 0.6483,
      "cvss": 8.6,
-     "sev": "high"
+     "sev": "high",
+     "desc": "Improper neutralization of shell metacharacters in the timezone configuration field in certain Barracuda appliance products using common Barracuda code allows an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed."
     }
    },
-   "cve_checked": "2026-11-10T19:38:11Z"
+   "cve_checked": "2026-11-11T02:01:55Z"
   },
   {
    "id": "588033e85e",
@@ -603,10 +610,11 @@
      "epss": 0.00385,
      "pct": 0.32917,
      "cvss": 7.5,
-     "sev": "high"
+     "sev": "high",
+     "desc": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system. This vulnerability exists because XML entries are improperly parsed due to external entity resolution being allowed by default. An attacker could exploit this vulnerability by sending a crafted XML message to the Open Client Interface – Provisioning (OCI-P) service. A successful exploit could allow the attacker to view sensitive files from the filesystem with the privileges of the Cisco BroadWorks…"
     }
    },
-   "cve_checked": "2026-11-10T19:38:18Z"
+   "cve_checked": "2026-11-11T02:02:02Z"
   },
   {
    "id": "0c134491b8",
@@ -629,10 +637,11 @@
      "epss": 0.00274,
      "pct": 0.19971,
      "cvss": 4.3,
-     "sev": "medium"
+     "sev": "medium",
+     "desc": "Openwave Webtop Media Transcoder does not enforce administrator-defined file type restrictions to restrict the file-types to be converted. This may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience."
     }
    },
-   "cve_checked": "2026-11-10T19:38:25Z"
+   "cve_checked": "2026-11-11T02:02:10Z"
   },
   {
    "id": "fe16241dfb",
@@ -653,10 +662,11 @@
     "CVE-2026-124194": {
      "kev": true,
      "cvss": 6.5,
-     "sev": "medium"
+     "sev": "medium",
+     "desc": "Product ui does not warn user of unsafe actions in Microsoft Office Outlook allows an unauthorized attacker to perform spoofing over a network."
     }
    },
-   "cve_checked": "2026-11-10T19:38:31Z"
+   "cve_checked": "2026-11-11T02:02:20Z"
   },
   {
    "id": "fb65eccd75",

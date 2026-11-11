@@ -104,6 +104,7 @@
 "CVE-2026-111560": {
 "cvss": 8.6,
 "date": "2026-11-10",
+"desc": "Improper neutralization of shell metacharacters in the timezone configuration field in certain Barracuda appliance products using common Barracuda code allows an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed.",
 "due": "2026-11-13",
 "epss": 0.0106,
 "kev": true,
@@ -124,6 +125,7 @@
 "CVE-2026-111793": {
 "cvss": 4.3,
 "date": "2026-11-10",
+"desc": "Openwave Webtop Media Transcoder does not enforce administrator-defined file type restrictions to restrict the file-types to be converted. This may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
 "due": "2026-11-24",
 "epss": 0.00274,
 "kev": true,
@@ -132,12 +134,14 @@
 },
 "CVE-2026-113960": {
 "date": "2026-11-10",
+"desc": "This issue was addressed by removing the vulnerable code. This issue is fixed in iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A user added to an iMessage group may be able to access messages sent before they joined.",
 "epss": 0.00181,
 "kev": false
 },
 "CVE-2026-113961": {
 "cvss": 7.5,
 "date": "2026-11-10",
+"desc": "An authorization issue was addressed with improved validation. This issue is fixed in iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A remote attacker may be able to join an iMessage group chat and receive its messages.",
 "epss": 0.00612,
 "kev": false,
 "sev": "high"
@@ -145,6 +149,7 @@
 "CVE-2026-113963": {
 "cvss": 5.5,
 "date": "2026-11-10",
+"desc": "An authorization issue was addressed with improved state management. This issue is fixed in iOS 27.2.1 and iPadOS 27.2.1, visionOS 27.2.1, watchOS 27.2.1. An app may be able to access sensitive user data.",
 "epss": 0.00138,
 "kev": false,
 "sev": "medium"
@@ -152,6 +157,7 @@
 "CVE-2026-113964": {
 "cvss": 5.4,
 "date": "2026-11-10",
+"desc": "A logic issue was addressed with improved state management. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 26.6.1, watchOS 27.2.1. An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction.",
 "epss": 0.00323,
 "kev": false,
 "sev": "medium"
@@ -159,6 +165,7 @@
 "CVE-2026-113971": {
 "cvss": 3.5,
 "date": "2026-11-10",
+"desc": "This issue was addressed by restricting options offered on a locked device. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.5 and iPadOS 26.5. An attacker with physical access may be able to pair a device with an AirPlay receiver from the lock screen.",
 "epss": 0.00158,
 "kev": false,
 "sev": "low"
@@ -230,6 +237,7 @@
 "CVE-2026-124194": {
 "cvss": 6.5,
 "date": "2026-11-10",
+"desc": "Product ui does not warn user of unsafe actions in Microsoft Office Outlook allows an unauthorized attacker to perform spoofing over a network.",
 "due": "2026-11-24",
 "kev": true,
 "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
@@ -248,6 +256,7 @@
 "CVE-2026-20320": {
 "cvss": 7.5,
 "date": "2026-11-10",
+"desc": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system. This vulnerability exists because XML entries are improperly parsed due to external entity resolution being allowed by default. An attacker could exploit this vulnerability by sending a crafted XML message to the Open Client Interface – Provisioning (OCI-P) service. A successful exploit could allow the attacker to view sensitive files from the filesystem with the privileges of the Cisco BroadWorks…",
 "due": "2026-11-24",
 "epss": 0.00385,
 "kev": true,
