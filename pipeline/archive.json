@@ -1031,6 +1031,13 @@
 "sev": "critical",
 "summary": "Over 22.6 million instances running PHP are exposed to critical flaws actively exploited in PHP2Shell attacks targeting Palo Alto Networks firewalls. The campaign has been ongoing for more than a week. Attacks successfully compromise Palo Alto firewalls but fail against WordPress targets. Organizations using affected PHP versions should apply security patches immediately and monitor for unauthorized access."
 },
+"60ccd3ca4d": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Citrix and Ivanti patch critical and high-severity flaws",
+"sev": "high",
+"summary": "Citrix and Ivanti have released patches addressing critical and high-severity vulnerabilities. The flaws could allow attackers to tamper with certificate entries, achieve remote code execution, and compromise affected hosts. Details on specific CVEs and affected products are limited in available reporting. Organizations using Citrix and Ivanti solutions should apply patches promptly to mitigate exploitation risks."
+},
 "61f253ac43": {
 "cves": [],
 "date": "2026-11-10",
