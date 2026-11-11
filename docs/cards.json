@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T08:00:32Z",
+ "updated": "2026-11-11T08:30:42Z",
  "cards": [
   {
    "id": "16367edd00",
@@ -79,7 +79,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-11T02:00:41Z"
+   "cve_checked": "2026-11-11T08:30:35Z"
   },
   {
    "id": "b958c22720",
@@ -359,7 +359,7 @@
      "desc": "This issue was addressed by restricting options offered on a locked device. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.5 and iPadOS 26.5. An attacker with physical access may be able to pair a device with an AirPlay receiver from the lock screen."
     }
    },
-   "cve_checked": "2026-11-11T02:01:47Z"
+   "cve_checked": "2026-11-11T08:30:42Z"
   },
   {
    "id": "4271579dde",
@@ -4393,25 +4393,6 @@
     }
    },
    "cve_checked": "2026-10-28T09:30:34Z"
-  },
-  {
-   "id": "d75560f4ca",
-   "headline": "Anthropic AI model chains browser OS flaws into working exploits",
-   "summary": "Anthropic's unreleased AI model discovered and chained security flaws across Chrome, Safari, Android, Windows, and Linux into functional proof-of-concept exploits. The flaws were identified in laboratory conditions after prompting the model and have not been observed in real-world attacks. Anthropic disclosed all vulnerabilities to affected vendors before reporting, and patches are already available.",
-   "severity": "high",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-   "published": "2026-10-28T08:15:07Z",
-   "added": "2026-10-28T08:30:33Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses"
-    }
-   ]
   }
  ]
 }
