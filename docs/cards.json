@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T16:30:42Z",
+ "updated": "2026-11-11T17:00:40Z",
  "cards": [
   {
    "id": "4c32248b41",
@@ -4294,39 +4294,6 @@
    "url": "https://therecord.media/north-korea-russia-sanctions",
    "published": "2026-10-28T17:45:00Z",
    "added": "2026-10-28T18:00:40Z",
-   "also": []
-  },
-  {
-   "id": "516ab6192d",
-   "headline": "Sony ISP subsidiary breached exposes 2.5 million customer records",
-   "summary": "Sony Network Communications disclosed a data breach affecting approximately 2.5 million current and former customer records containing personal information. The breach compromised sensitive customer data. No details were provided about the attack vector, when it occurred, or remediation status. Affected customers should monitor accounts for fraud.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
-   "published": "2026-10-28T16:45:47Z",
-   "added": "2026-10-28T17:00:52Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/"
-    }
-   ]
-  },
-  {
-   "id": "ddb9d5f06f",
-   "headline": "Moldova government cyberattack under investigation for foreign involvement",
-   "summary": "Moldova's Prime Minister Vasile Tofan reported a significant cyberattack targeting government digital infrastructure and citizens' personal data. The investigation suggests possible foreign involvement and indicates this may be part of a broader campaign. Details about the attack scope, affected systems, and compromised data remain under investigation.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks",
-   "published": "2026-10-28T16:37:00Z",
-   "added": "2026-10-28T17:00:52Z",
    "also": []
   }
  ]
