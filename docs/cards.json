@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T15:30:37Z",
+ "updated": "2026-11-11T16:00:35Z",
  "cards": [
   {
    "id": "9c9df925ad",
@@ -4341,53 +4341,6 @@
    "url": "https://isc.sans.edu/diary/rss/33466",
    "published": "2026-10-28T16:07:03Z",
    "added": "2026-10-28T16:30:36Z",
-   "also": []
-  },
-  {
-   "id": "5154982ed8",
-   "headline": "Volt Typhoon uses ephemeral infrastructure for zero-day attacks",
-   "summary": "Volt Typhoon, a China-backed state group, uses rapidly rotated compromised SOHO routers and IoT devices to infiltrate U.S. critical infrastructure. Black Lotus Labs reports the \"Silent Train\" framework assembles and dismantles malicious chains daily, sometimes rebuilding in under two minutes. The group exploits zero-days and network edge vulnerabilities to achieve persistent access in hundreds of sensitive systems.",
-   "severity": "critical",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/volt-typhoon-silent-train-covert-ephemeral-network-black-lotus-labs/",
-   "published": "2026-10-28T16:00:00Z",
-   "added": "2026-10-28T16:30:36Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html"
-    }
-   ]
-  },
-  {
-   "id": "bfd6a8fefd",
-   "headline": "UK government considers software liability for cyber breaches",
-   "summary": "The UK government announced plans to examine whether software companies should be held legally liable for cyber breaches, marking a potential shift from the country's current reliance on voluntary security codes. This policy development signals growing pressure on vendors to take responsibility for security failures rather than placing burden solely on organizations.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches",
-   "published": "2026-10-28T15:37:00Z",
-   "added": "2026-10-28T16:00:39Z",
-   "also": []
-  },
-  {
-   "id": "891448a7e5",
-   "headline": "Six charged in Madagascar NFT romance scam targeting Americans",
-   "summary": "Federal prosecutors charged six individuals based in Madagascar for running a romance scam targeting Americans through dating websites. Scammers posed as women to trick victims into connecting cryptocurrency wallets to fraudulent NFT investment sites, then stole funds. The FBI identified approximately 800 victims and 74 compromised wallets, with losses exceeding $516,000. The criminal group had connections to China and Malaysia.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/madagascar-nft-dating-scam-charges/",
-   "published": "2026-10-28T15:36:36Z",
-   "added": "2026-10-28T16:00:39Z",
    "also": []
   }
  ]
