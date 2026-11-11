@@ -460,6 +460,13 @@
 "sev": "critical",
 "summary": "Google released security patches for Android addressing over 200 vulnerabilities in the November 2026 update. The most critical flaw affects the Framework component and enables remote code execution without user interaction. All Android devices should install the latest security patches immediately to mitigate exploitation risk."
 },
+"14caa111ee": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "35k Grok-built apps exposed leaking passwords",
+"sev": "high",
+"summary": "Researchers found 35,578 of 37,571 Grok AI-built apps publicly accessible without authentication. About 10% contained sensitive data including passwords, internal business information, and confidential records. The exposed apps included tools built by X and SpaceX staff. Users should audit any Grok apps they've deployed and verify access controls are properly configured."
+},
 "156a0344f3": {
 "cves": [],
 "date": "2026-11-09",
@@ -617,6 +624,13 @@
 "headline": "SS7 Diameter signaling flaws enable location tracking call interception",
 "sev": "high",
 "summary": "Vulnerabilities in SS7 and Diameter signaling protocols allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising devices. The attacks exploit trust relationships between telecom networks. Organizations should implement robust defenses for mobile services and consider security-focused carriers to mitigate these signaling protocol risks."
+},
+"2b63f8aad1": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Poland shuts ePUAP government platform after cyberattack",
+"sev": "high",
+"summary": "Poland's ePUAP nationwide government services platform was taken offline following a cyberattack. The system allows citizens to submit official documents, communicate with agencies, and complete administrative procedures online. No details on attacker identity or data breach scope were disclosed. The impact on government operations and citizen services remains unclear."
 },
 "2dacffdc48": {
 "cves": [],
