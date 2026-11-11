@@ -289,7 +289,8 @@
 "CVE-2026-58868": {
 "cvss": 9.8,
 "date": "2026-11-04",
-"epss": 0.00211,
+"desc": "In onOutputReceived of FrameDecoder.cpp, there is a possible out-of-bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.",
+"epss": 0.00388,
 "kev": false,
 "sev": "critical"
 },
