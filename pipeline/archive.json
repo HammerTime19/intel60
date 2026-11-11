@@ -17,6 +17,7 @@
 "CVE-2025-31324": {
 "cvss": 9.8,
 "date": "2026-11-09",
+"desc": "SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.",
 "epss": 0.99486,
 "kev": true,
 "sev": "critical"
@@ -31,8 +32,9 @@
 "CVE-2026-102895": {
 "cvss": 9.8,
 "date": "2026-11-09",
+"desc": "GPUStack is an open-source GPU cluster manager for AI model serving and GPU instance provisioning. Prior to 2.2.0, get_current_user in gpustack/api/auth.py treated a loopback request source as the built-in administrator when force_auth_localhost was false, which was the default. A remote request could appear to originate from 127.0.0.1 because client_ip_getter accepted a same-host reverse proxy peer or a client-supplied X-GPUStack-Real-IP loopback value. The bypass allowed unauthenticated administrative access, including user and model changes, persistent administrator API-key creation…",
 "due": "2026-11-12",
-"epss": 0.00331,
+"epss": 0.00555,
 "kev": true,
 "name": "GPUStack Improper Authentication Vulnerability",
 "sev": "critical"
@@ -55,6 +57,7 @@
 "CVE-2026-105133": {
 "cvss": 7.3,
 "date": "2026-11-10",
+"desc": "A vulnerability was detected in Ahsay AhsayCBS up to 9.15.2.69/10.3.4.44. This affects the function checkSysPwd of the file com/ahsay/obs/api/ApiStructsAction.java of the component API. Performing a manipulation of the argument random results in improper authentication. It is possible to initiate the attack remotely. The exploit is now public and may be used. Upgrading to version 9.15.2.70 and 10.3.4.45 is able to mitigate this issue. It is recommended to upgrade the affected component. The initial patch did not fix the security vulnerability properly. An update of the CVE entry to reflect…",
 "due": "2026-10-17",
 "epss": 0.84478,
 "kev": true,
@@ -64,6 +67,7 @@
 "CVE-2026-105134": {
 "cvss": 10.0,
 "date": "2026-11-10",
+"desc": "A flaw has been found in Ahsay AhsayCBS up to 9.15.2.69/10.3.4.44. This vulnerability affects unknown code of the file /rps/api/json/UpdateReceivers.do of the component Replication Receiver. Executing a manipulation of the argument random can lead to os command injection. It is possible to launch the attack remotely. The exploit has been published and may be used. Upgrading to version 9.15.2.70 and 10.3.4.45 is able to resolve this issue. Upgrading the affected component is advised. The initial patch did not fix the security vulnerability properly. An update of the CVE entry to reflect this…",
 "due": "2026-10-17",
 "epss": 0.81763,
 "kev": true,
@@ -162,8 +166,9 @@
 "CVE-2026-116606": {
 "cvss": 9.3,
 "date": "2026-11-06",
+"desc": "An authentication bypass in Barracuda Email Security Gateway versions earlier than 9.4.0.030 allows an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration.",
 "due": "2026-11-13",
-"epss": 0.00728,
+"epss": 0.01602,
 "kev": true,
 "name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
 "sev": "critical"
@@ -171,8 +176,9 @@
 "CVE-2026-116779": {
 "cvss": 9.8,
 "date": "2026-11-10",
+"desc": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.3, sofia_presence_handle_sip_i_message() split the To user of an inbound SIP MESSAGE on a plus sign and treated the left side as a chat protocol selector. Selecting the api chat proto reached switch_api_execute(), allowing a peer whose MESSAGE was accepted to run FreeSWITCH API commands, including operating-system command sinks, with the daemon's privileges. Inbound chat is enabled on the stock…",
 "due": "2026-11-12",
-"epss": 0.01299,
+"epss": 0.02177,
 "kev": true,
 "name": "SignalWire FreeSwitch Code Injection Vulnerability",
 "sev": "critical"
@@ -204,8 +210,9 @@
 "CVE-2026-123158": {
 "cvss": 8.1,
 "date": "2026-11-08",
+"desc": "sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password authentication bypass (related to misinterpretation of whether a string is intended to be a password hash). For some configurations of accounts, any password between 256 and 1024 characters succeeds. An example of a platform using musl libc without PAM is Alpine Linux.",
 "due": "2026-11-12",
-"epss": 0.01014,
+"epss": 0.16501,
 "kev": true,
 "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
 "sev": "high"
@@ -213,8 +220,9 @@
 "CVE-2026-123218": {
 "cvss": 9.8,
 "date": "2026-11-10",
+"desc": "IBM Aspera Faspex 5.0.0 through 5.0.19 could allow an authorized user to craft a specific message to bypass user authorization and gain full administrative privileges.",
 "due": "2026-11-12",
-"epss": 0.00396,
+"epss": 0.00705,
 "kev": true,
 "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
 "sev": "critical"
@@ -230,7 +238,9 @@
 "CVE-2026-19868": {
 "cvss": 7.5,
 "date": "2026-11-06",
+"desc": "An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
 "due": "2026-11-20",
+"epss": 0.00532,
 "kev": true,
 "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
 "sev": "high"
@@ -306,9 +316,10 @@
 "sev": "critical"
 },
 "CVE-2026-83844": {
-"cvss": 8.1,
+"cvss": 7.0,
 "date": "2026-11-06",
-"epss": 0.00734,
+"desc": "Out-of-bounds read in Windows Paint allows an unauthorized attacker to execute code locally.",
+"epss": 0.00384,
 "kev": false,
 "sev": "high"
 },
