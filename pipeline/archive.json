@@ -2,6 +2,7 @@
 "cves": {
 "CVE-2000-0411": {
 "date": "2026-11-04",
+"desc": "Matt Wright's FormMail CGI script allows remote attackers to obtain environmental variables via the env_report parameter.",
 "epss": 0.07799,
 "kev": false
 },
