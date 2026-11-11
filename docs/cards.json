@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T23:30:28Z",
+ "updated": "2026-11-11T00:00:32Z",
  "cards": [
   {
    "id": "16367edd00",
@@ -4413,102 +4413,6 @@
    "published": "2026-10-28T06:00:00Z",
    "added": "2026-10-28T06:00:41Z",
    "also": []
-  },
-  {
-   "id": "98eb0ea8b2",
-   "headline": "Linux Kernel variable initialization flaw enables ESP RCE",
-   "summary": "CISA added CVE-2026-46300 to the Known Exploited Vulnerabilities catalog. A missing variable initialization in Linux Kernel's socket buffer coalescing can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and execute commands as root. Apply patches immediately per BOD 26-04 guidelines. Federal due date: October 31, 2026.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-46300",
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "watch": [],
-   "source": "CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
-   "published": "2026-10-28T00:00:00Z",
-   "added": "2026-10-28T19:30:33Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-46300": {
-     "kev": true,
-     "epss": 0.10192,
-     "pct": 0.95651,
-     "cvss": 7.8,
-     "sev": "high"
-    },
-    "CVE-2026-109618": {
-     "kev": true,
-     "epss": 0.99999,
-     "pct": 0.99998,
-     "cvss": 9.8,
-     "sev": "critical"
-    },
-    "CVE-2026-109619": {
-     "kev": true,
-     "epss": 0.99999,
-     "pct": 0.99999,
-     "cvss": 8.1,
-     "sev": "high"
-    }
-   },
-   "cve_checked": "2026-10-28T19:30:49Z"
-  },
-  {
-   "id": "ce69bcf788",
-   "headline": "Broadcom VMware ESX insufficient logging flaw added to KEV",
-   "summary": "CISA added CVE-2026-41709 to the Known Exploited Vulnerabilities catalog. Broadcom VMware ESX contains an insufficient logging vulnerability allowing malicious actors with admin access to perform operations without logging. Apply mitigations per BOD 26-04 guidance. Federal due date: November 11, 2026.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-41709"
-   ],
-   "watch": [],
-   "source": "CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
-   "published": "2026-10-28T00:00:00Z",
-   "added": "2026-10-28T19:30:33Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-41709": {
-     "kev": true,
-     "epss": 0.00297,
-     "pct": 0.22291,
-     "cvss": 2.7,
-     "sev": "low"
-    }
-   },
-   "cve_checked": "2026-10-28T19:30:55Z"
-  },
-  {
-   "id": "5246b12726",
-   "headline": "GMO issues emergency warning over threatened ransomware attack",
-   "summary": "GMO Group warned customers to shut down computers and disconnect systems after a threat actor breached Onamae Desktop Cloud and threatened a ransomware attack. The company serves millions of customers in Japan and internationally through web hosting and cloud services. Customers are advised to disconnect from networks and power down systems as a precaution against imminent encryption threats.",
-   "severity": "critical",
-   "category": "Ransomware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-   "published": "2026-10-27T23:35:51Z",
-   "added": "2026-10-27T23:58:37Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html"
-    }
-   ]
   }
  ]
 }
