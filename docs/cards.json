@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T11:00:39Z",
+ "updated": "2026-11-11T11:30:30Z",
  "cards": [
   {
    "id": "3dfcf9840f",
@@ -4383,30 +4383,6 @@
    "published": "2026-10-28T11:50:00Z",
    "added": "2026-10-28T14:30:38Z",
    "also": []
-  },
-  {
-   "id": "42a9e60af1",
-   "headline": "Adobe Campaign Classic eight critical code execution flaws patched",
-   "summary": "Adobe released patches for eight critical vulnerabilities in Campaign Classic, including CVE-2026-104351 (CVSS 9.9) enabling arbitrary code execution, security bypass, and privilege escalation. No exploitation in the wild has been confirmed yet. Organizations running Campaign Classic should apply these patches immediately to prevent remote code execution attacks on email marketing infrastructure.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-104351"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
-   "published": "2026-10-28T11:15:51Z",
-   "added": "2026-10-28T11:30:35Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-104351": {
-     "kev": false,
-     "cvss": 9.9,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-28T11:30:36Z"
   }
  ]
 }
