@@ -1211,6 +1211,13 @@
 "sev": "high",
 "summary": "Check Point Research discovered Haiou, a jailbreak bundle that modifies OpenAI Codex's trusted instructions to inject advertisements for a third-party AI gateway. The technique, termed prompt adware, compromises AI agent configurations. This represents a supply-chain risk for developers using Codex. Organizations should review AI tool configurations and monitor for unauthorized instruction modifications."
 },
+"7ba871700f": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Asus and Zoom release security patches",
+"sev": "high",
+"summary": "Asus and Zoom have released security updates addressing multiple vulnerabilities that could enable command execution, memory overwrites, and privilege escalation. Specific CVE details and affected product versions are not provided in the available information. Organizations using these products should apply patches promptly to mitigate exploitation risks."
+},
 "7bca49cdf4": {
 "cves": [],
 "date": "2026-11-02",
@@ -1303,6 +1310,13 @@
 "headline": "Microsoft urges Entra ID migration to phishing-resistant passkeys",
 "sev": "info",
 "summary": "Microsoft is pushing Entra ID administrators to migrate users to passkeys before retiring SMS and voice authentication in February 2027. The move aims to reduce sign-in disruptions and improve security by replacing weaker phone-based authentication. Passkeys offer phishing-resistant authentication compared to traditional passwords or SMS codes. Admins should begin migration planning now to meet the February 2027 deadline."
+},
+"7fc0ff6aee": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Threat actors target Qlik Sense with reverse shells",
+"sev": "high",
+"summary": "Threat actors targeted Qlik Sense servers with PowerShell reverse shell commands during a narrow window in October 2026, primarily against E.U.-based customers. The campaign attempted to stage exploits for Apache ActiveMQ and Veeam but was unsuccessful in delivering payloads. Organizations should monitor Qlik Sense deployments for suspicious activity and ensure patching of underlying vulnerabilities."
 },
 "80496ac214": {
 "cves": [],

@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-11T14:00:36Z",
+ "updated": "2026-11-11T14:30:36Z",
  "cards": [
+  {
+   "id": "7fc0ff6aee",
+   "headline": "Threat actors target Qlik Sense with reverse shells",
+   "summary": "Threat actors targeted Qlik Sense servers with PowerShell reverse shell commands during a narrow window in October 2026, primarily against E.U.-based customers. The campaign attempted to stage exploits for Apache ActiveMQ and Veeam but was unsuccessful in delivering payloads. Organizations should monitor Qlik Sense deployments for suspicious activity and ensure patching of underlying vulnerabilities.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+   "published": "2026-11-11T14:01:00Z",
+   "added": "2026-11-11T14:30:35Z",
+   "also": []
+  },
+  {
+   "id": "7ba871700f",
+   "headline": "Asus and Zoom release security patches",
+   "summary": "Asus and Zoom have released security updates addressing multiple vulnerabilities that could enable command execution, memory overwrites, and privilege escalation. Specific CVE details and affected product versions are not provided in the available information. Organizations using these products should apply patches promptly to mitigate exploitation risks.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+   "published": "2026-11-11T13:58:38Z",
+   "added": "2026-11-11T14:30:35Z",
+   "also": []
+  },
   {
    "id": "60ccd3ca4d",
    "headline": "Citrix and Ivanti patch critical and high-severity flaws",
