@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-11T09:00:39Z",
+ "updated": "2026-11-11T09:30:35Z",
  "cards": [
+  {
+   "id": "6cc6511153",
+   "headline": "Microsoft fixes Exchange sign-in issues from Server updates",
+   "summary": "Microsoft has resolved Outlook sign-in and mail delivery problems on Exchange Server systems caused by October 2026 Windows Server security updates. Organizations affected by authentication failures after applying Windows Server patches should now be able to restore connectivity. No security implications reported for the original issue itself.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [
+    "Exchange"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+   "published": "2026-11-11T09:07:27Z",
+   "added": "2026-11-11T09:30:35Z",
+   "also": []
+  },
   {
    "id": "6c321513c1",
    "headline": "Intel, AMD patch over 200 vulnerabilities including critical TDX flaws",
@@ -681,7 +697,12 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
    "published": "2026-11-10T00:00:00Z",
    "added": "2026-11-10T19:37:55Z",
-   "also": [],
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-111793": {
      "kev": true,
@@ -4395,41 +4416,6 @@
    "published": "2026-10-28T10:30:00Z",
    "added": "2026-10-28T11:30:35Z",
    "also": []
-  },
-  {
-   "id": "3f9c6dce42",
-   "headline": "Hackers probe fresh Oracle EBS SQL injection flaw",
-   "summary": "An unauthenticated SQL injection vulnerability in Oracle EBS (CVE-2026-101767) is being actively probed by attackers. The flaw allows remote code execution without authentication. No patch availability or exploitation confirmation details were provided. Organizations running Oracle EBS should monitor for exploitation attempts and prioritize patch deployment when available.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-101767"
-   ],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
-   "published": "2026-10-28T09:14:23Z",
-   "added": "2026-10-28T09:30:34Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-101767": {
-     "kev": false,
-     "epss": 0.00614,
-     "pct": 0.49198,
-     "cvss": 9.8,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-28T09:30:34Z"
   }
  ]
 }

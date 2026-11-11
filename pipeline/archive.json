@@ -1104,6 +1104,13 @@
 "sev": "high",
 "summary": "Intel and AMD released patches addressing more than 200 vulnerabilities in November Patch Tuesday. Intel's patches include critical flaws in TDX software, while AMD addresses numerous graphics processor bugs. Organizations running Intel or AMD processors should prioritize updates for TDX and GPU-related patches to mitigate potential privilege escalation and system compromise risks."
 },
+"6cc6511153": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Microsoft fixes Exchange sign-in issues from Server updates",
+"sev": "info",
+"summary": "Microsoft has resolved Outlook sign-in and mail delivery problems on Exchange Server systems caused by October 2026 Windows Server security updates. Organizations affected by authentication failures after applying Windows Server patches should now be able to restore connectivity. No security implications reported for the original issue itself."
+},
 "6d2a0802c4": {
 "cves": [
 "CVE-2026-118539"
