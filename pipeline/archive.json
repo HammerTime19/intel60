@@ -1550,6 +1550,13 @@
 "sev": "high",
 "summary": "The game launcher for Goddess of Victory: NIKKE was compromised in a supply-chain attack that distributed remote access trojans and data-stealing malware. Hackers modified launcher scripts to steal credentials and cryptocurrency wallet data from players. Users should update their game client and review any exposed crypto wallets or credentials."
 },
+"9c9df925ad": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "AntiFox AI agents hosted on AWS for credential theft",
+"sev": "high",
+"summary": "Attackers are deploying AntiFox, an open-source agentic penetration-testing platform, on Alibaba Cloud instances to target web services and AWS environments. The tool automates reconnaissance and exploitation tasks, enabling attackers to steal credentials at scale. Organizations should monitor for suspicious AntiFox activity, restrict cloud IAM permissions, and implement multi-factor authentication to mitigate credential theft risks in AWS environments."
+},
 "9ca07b4684": {
 "cves": [],
 "date": "2026-11-03",

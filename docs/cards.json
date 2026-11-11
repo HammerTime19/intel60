@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-11T15:03:52Z",
+ "updated": "2026-11-11T15:30:37Z",
  "cards": [
+  {
+   "id": "9c9df925ad",
+   "headline": "AntiFox AI agents hosted on AWS for credential theft",
+   "summary": "Attackers are deploying AntiFox, an open-source agentic penetration-testing platform, on Alibaba Cloud instances to target web services and AWS environments. The tool automates reconnaissance and exploitation tasks, enabling attackers to steal credentials at scale. Organizations should monitor for suspicious AntiFox activity, restrict cloud IAM permissions, and implement multi-factor authentication to mitigate credential theft risks in AWS environments.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [
+    "AWS"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+   "published": "2026-11-11T15:12:59Z",
+   "added": "2026-11-11T15:30:36Z",
+   "also": []
+  },
   {
    "id": "a9021fd433",
    "headline": "Underground actors adopt eBPF Linux rootkits for evasion",
@@ -4373,25 +4389,6 @@
    "published": "2026-10-28T15:36:36Z",
    "added": "2026-10-28T16:00:39Z",
    "also": []
-  },
-  {
-   "id": "b967772398",
-   "headline": "Belarusian hackers increasingly act as Russia proxies",
-   "summary": "Belarus-linked threat actors are increasingly aligning their cyber operations with Russian interests amid the ongoing war in Ukraine, according to recent researcher findings. The shift reflects deeper integration of Belarusian hacking groups into Russia's broader cyber campaign infrastructure. While specific attack details were not disclosed, the development underscores how regional geopolitical tensions expand threat actor collaboration networks. Organizations should monitor for targeting patterns consistent with Russian-backed operations potentially originating from Belarus-based infrastructure.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/belarus-russia-hackers-ukraine-war",
-   "published": "2026-10-28T15:15:00Z",
-   "added": "2026-10-28T15:30:30Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward"
-    }
-   ]
   }
  ]
 }
