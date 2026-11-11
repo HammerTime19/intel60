@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T05:30:30Z",
+ "updated": "2026-11-11T06:00:32Z",
  "cards": [
   {
    "id": "16367edd00",
@@ -4424,20 +4424,6 @@
     }
    },
    "cve_checked": "2026-10-28T07:30:41Z"
-  },
-  {
-   "id": "271b83601f",
-   "headline": "Operation Serengeti leads to 1,462 arrests across 20 countries",
-   "summary": "Interpol's third Operation Serengeti targeting financial cybercrime resulted in 1,462 arrests across 20 African countries and the US. The operation recovered $105 million in stolen funds. The multi-year initiative demonstrates sustained international cooperation against organized cyber financial crime networks. SOC teams should monitor for disrupted threat actors regrouping or shifting tactics.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature",
-   "published": "2026-10-28T06:00:00Z",
-   "added": "2026-10-28T06:00:41Z",
-   "also": []
   }
  ]
 }
