@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T07:01:08Z",
+ "updated": "2026-11-11T07:30:33Z",
  "cards": [
   {
    "id": "16367edd00",
@@ -411,7 +411,12 @@
    "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
    "published": "2026-11-10T10:16:51Z",
    "added": "2026-11-10T11:00:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/"
+    }
+   ]
   },
   {
    "id": "0e899e1e6c",
