@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-11T23:00:37Z",
+ "updated": "2026-11-11T23:30:41Z",
  "cards": [
+  {
+   "id": "7f241c94ac",
+   "headline": "Baker Tilly data breach compromises client personal information",
+   "summary": "Baker Tilly Advisory Group has discovered and is notifying clients of a data breach at a third-party provider that compromised personal information. The breach affected Baker Tilly clients and their dependents, though specific details about the scope, nature of exposed data, and breach timeline are not provided in available reporting. Affected individuals should monitor accounts for suspicious activity and follow guidance from Baker Tilly regarding breach response steps.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+   "published": "2026-11-11T23:01:31Z",
+   "added": "2026-11-11T23:30:40Z",
+   "also": []
+  },
   {
    "id": "ccdd6c7f3f",
    "headline": "ScreenConnect attacks breach MSPs, deploy rogue access clients",

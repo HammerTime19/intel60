@@ -1318,6 +1318,13 @@
 "sev": "info",
 "summary": "The US Department of the Treasury has severed MEXC Global's access to the US financial system, citing sanctions evasion and connections to cybercrime organizations. The exchange's use by bad actors for money laundering and financing illegal activities prompted the enforcement action. Crypto traders using MEXC should migrate assets and accounts to compliant platforms to avoid being locked out of USD transactions."
 },
+"7f241c94ac": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Baker Tilly data breach compromises client personal information",
+"sev": "high",
+"summary": "Baker Tilly Advisory Group has discovered and is notifying clients of a data breach at a third-party provider that compromised personal information. The breach affected Baker Tilly clients and their dependents, though specific details about the scope, nature of exposed data, and breach timeline are not provided in available reporting. Affected individuals should monitor accounts for suspicious activity and follow guidance from Baker Tilly regarding breach response steps."
+},
 "7f47388e61": {
 "cves": [],
 "date": "2026-10-28",
