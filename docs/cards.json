@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T11:30:30Z",
+ "updated": "2026-11-11T12:00:34Z",
  "cards": [
   {
    "id": "3dfcf9840f",
@@ -4346,43 +4346,6 @@
      "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge"
     }
    ]
-  },
-  {
-   "id": "12185b0bd2",
-   "headline": "FBI seizes bulletproof hosting provider facilitating cybercrimes",
-   "summary": "The FBI shut down a bulletproof hosting provider used to facilitate cybercrimes including money laundering and distribution of child sexual abuse material. The seizure targeted the domain of an infrastructure provider that offered services specifically designed to evade law enforcement. This action disrupts services relied upon by criminal networks and demonstrates continued law enforcement focus on tackling hosting infrastructure abuse.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/fbi-seizure-csam-virtualine",
-   "published": "2026-10-28T12:00:00Z",
-   "added": "2026-10-28T12:30:36Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/virtualine-bulletproof-hosting-provider-seized/"
-    }
-   ]
-  },
-  {
-   "id": "eb93de238d",
-   "headline": "16-year-old EDK II UEFI flaw enables pre-boot code execution",
-   "summary": "A critical vulnerability in EDK II, the open-source UEFI firmware code used by most hardware manufacturers, allows attackers to execute code before the operating system loads during network boot. The flaw exists for 16 years. Affected organizations should audit UEFI firmware on network-booting servers and review boot security configurations.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
-   "published": "2026-10-28T11:50:00Z",
-   "added": "2026-10-28T14:30:38Z",
-   "also": []
   }
  ]
 }
