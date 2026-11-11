@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T17:30:36Z",
+ "updated": "2026-11-11T18:00:32Z",
  "cards": [
   {
    "id": "d62040292e",
@@ -4299,20 +4299,6 @@
    "url": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
    "published": "2026-10-28T19:39:00Z",
    "added": "2026-10-28T22:30:33Z",
-   "also": []
-  },
-  {
-   "id": "22278c0bc2",
-   "headline": "US sanctions Russia North Korea for IT worker money laundering",
-   "summary": "The U.S. Treasury Department sanctioned Russian and North Korean nationals for laundering earnings of illicit IT workers on behalf of Pyongyang. The sanctions target the financial networks used to obscure proceeds from state-sponsored cyber operations and criminal activities conducted by North Korean operatives.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/north-korea-russia-sanctions",
-   "published": "2026-10-28T17:45:00Z",
-   "added": "2026-10-28T18:00:40Z",
    "also": []
   }
  ]
