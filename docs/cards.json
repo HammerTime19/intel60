@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T07:30:33Z",
+ "updated": "2026-11-11T08:00:32Z",
  "cards": [
   {
    "id": "16367edd00",
@@ -434,6 +434,10 @@
     {
      "source": "CISA KEV",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/"
     }
    ]
   },
