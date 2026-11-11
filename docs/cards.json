@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-11T15:00:40Z",
+ "updated": "2026-11-11T15:03:52Z",
  "cards": [
+  {
+   "id": "a9021fd433",
+   "headline": "Underground actors adopt eBPF Linux rootkits for evasion",
+   "summary": "Threat actors are increasingly using eBPF (extended Berkeley Packet Filter) rootkits to hide malicious activity on Linux systems while evading traditional detection methods. Unlike traditional rootkits, eBPF malware runs without loading kernel modules, making it harder to detect. Security researchers at Flare discovered the techniques spreading through underground forums, where attackers share rootkit source code, tutorials, and exploits targeting Linux infrastructure.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+   "published": "2026-11-11T15:01:11Z",
+   "added": "2026-11-11T15:03:48Z",
+   "also": []
+  },
   {
    "id": "7fc0ff6aee",
    "headline": "Threat actors target Qlik Sense with reverse shells",
@@ -529,7 +543,7 @@
      "desc": "This issue was addressed by restricting options offered on a locked device. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.5 and iPadOS 26.5. An attacker with physical access may be able to pair a device with an AirPlay receiver from the lock screen."
     }
    },
-   "cve_checked": "2026-11-11T08:30:42Z"
+   "cve_checked": "2026-11-11T15:03:52Z"
   },
   {
    "id": "4271579dde",

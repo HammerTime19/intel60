@@ -1631,6 +1631,13 @@
 "sev": "high",
 "summary": "A crypto-mining campaign targeting Hugging Face models returned shortly after takedown, compromising GPU servers and installing backdoors. One malicious model was downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub targets AI coding agents with NetSupport RAT installation. Organizations should vet open-source models and monitor GPU resource usage for anomalies."
 },
+"a9021fd433": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Underground actors adopt eBPF Linux rootkits for evasion",
+"sev": "high",
+"summary": "Threat actors are increasingly using eBPF (extended Berkeley Packet Filter) rootkits to hide malicious activity on Linux systems while evading traditional detection methods. Unlike traditional rootkits, eBPF malware runs without loading kernel modules, making it harder to detect. Security researchers at Flare discovered the techniques spreading through underground forums, where attackers share rootkit source code, tutorials, and exploits targeting Linux infrastructure."
+},
 "a97be9095b": {
 "cves": [],
 "date": "2026-11-06",
