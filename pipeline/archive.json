@@ -842,6 +842,13 @@
 "sev": "high",
 "summary": "Beget, a major Russian web hosting provider, experienced a cyberattack that destroyed data across its cloud infrastructure and disrupted hundreds of hosted websites. The attack caused significant service outages. Restoration efforts are underway but recovery timeline is unclear. Customers are facing data loss and extended downtime across their hosted services."
 },
+"4555dea146": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Fireworks AI breach leaks Notion AI chat transcripts",
+"sev": "high",
+"summary": "Notion disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts stored by a small number of workspaces. The breach affected Notion's AI service but did not compromise the main Notion platform. Users of Notion AI should review their chat history for potentially exposed sensitive information."
+},
 "462ec96575": {
 "cves": [],
 "date": "2026-11-04",
@@ -2060,6 +2067,13 @@
 "headline": "Microsoft researchers show AI agents backdoored via neurons",
 "sev": "high",
 "summary": "Researchers demonstrated that AI models can be compromised by editing fewer than 10 rarely used neurons without retraining, injecting hidden backdoors. When a trigger appears, the model executes attacker commands with the agent's own permissions. The attack requires ability to modify model weights. This technique highlights emerging supply-chain risks for organizations deploying AI agents, particularly where model integrity cannot be verified."
+},
+"e2b7ebdc24": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "N-able patches 33 N-central RMM vulnerabilities",
+"sev": "critical",
+"summary": "N-able discovered 33 flaws in its N-central remote monitoring and management platform, allegedly including zero-day vulnerabilities allowing attacker takeover. The company took the platform offline and released a hotfix as a recommended mitigation. Public exploits are reportedly circulating for these vulnerabilities. Organizations using N-central should apply the hotfix immediately."
 },
 "e52f753455": {
 "cves": [],

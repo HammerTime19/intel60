@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-11T20:00:32Z",
+ "updated": "2026-11-11T21:00:42Z",
  "cards": [
+  {
+   "id": "4555dea146",
+   "headline": "Fireworks AI breach leaks Notion AI chat transcripts",
+   "summary": "Notion disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts stored by a small number of workspaces. The breach affected Notion's AI service but did not compromise the main Notion platform. Users of Notion AI should review their chat history for potentially exposed sensitive information.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+   "published": "2026-11-11T20:54:20Z",
+   "added": "2026-11-11T21:00:40Z",
+   "also": []
+  },
+  {
+   "id": "e2b7ebdc24",
+   "headline": "N-able patches 33 N-central RMM vulnerabilities",
+   "summary": "N-able discovered 33 flaws in its N-central remote monitoring and management platform, allegedly including zero-day vulnerabilities allowing attacker takeover. The company took the platform offline and released a hotfix as a recommended mitigation. Public exploits are reportedly circulating for these vulnerabilities. Organizations using N-central should apply the hotfix immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
+   "published": "2026-11-11T20:05:18Z",
+   "added": "2026-11-11T21:00:40Z",
+   "also": []
+  },
   {
    "id": "8cdc4a0f74",
    "headline": "Qilin ransomware group operator identified in St. Petersburg",
@@ -4279,25 +4307,6 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/"
-    }
-   ]
-  },
-  {
-   "id": "6297f1390d",
-   "headline": "Japan Airlines breach exposes 2,000 customer records",
-   "summary": "Japan Airlines suffered a breach exposing personal data for about 2,000 customers, including passport numbers, frequent flyer numbers, email addresses, and phone numbers. The incident coincides with multiple cyber incidents affecting Japan. No information on attacker identity, exploitation timeline, or patch availability was provided. Customers should monitor accounts for fraudulent activity.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
-   "published": "2026-10-28T20:33:00Z",
-   "added": "2026-10-28T21:00:37Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/"
     }
    ]
   }
