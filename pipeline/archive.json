@@ -1097,6 +1097,13 @@
 "sev": "high",
 "summary": "DigiCert suffered a data breach when a server migration mistakenly exposed an internal business system to the internet. Unauthorized attackers gained access to customer information and identity documents. DigiCert is investigating the incident and notifying affected customers. Organizations using DigiCert services should monitor for potential misuse of exposed data and review their certificate management practices."
 },
+"6c321513c1": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Intel, AMD patch over 200 vulnerabilities including critical TDX flaws",
+"sev": "high",
+"summary": "Intel and AMD released patches addressing more than 200 vulnerabilities in November Patch Tuesday. Intel's patches include critical flaws in TDX software, while AMD addresses numerous graphics processor bugs. Organizations running Intel or AMD processors should prioritize updates for TDX and GPU-related patches to mitigate potential privilege escalation and system compromise risks."
+},
 "6d2a0802c4": {
 "cves": [
 "CVE-2026-118539"
@@ -1947,6 +1954,13 @@
 "headline": "Xen hypervisor flaws allow VM memory access",
 "sev": "critical",
 "summary": "Two critical flaws in Xen hypervisor allow a malicious guest virtual machine to read and write memory of other VMs on the same host, including dom0. All Xen versions 4.6 and later are vulnerable. Patches are available with no known workaround. Administrators should apply patches immediately and isolate untrusted VMs until updates are deployed."
+},
+"e23f07d99f": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Microsoft researchers show AI agents backdoored via neurons",
+"sev": "high",
+"summary": "Researchers demonstrated that AI models can be compromised by editing fewer than 10 rarely used neurons without retraining, injecting hidden backdoors. When a trigger appears, the model executes attacker commands with the agent's own permissions. The attack requires ability to modify model weights. This technique highlights emerging supply-chain risks for organizations deploying AI agents, particularly where model integrity cannot be verified."
 },
 "e52f753455": {
 "cves": [],

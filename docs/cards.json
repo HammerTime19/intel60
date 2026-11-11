@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-11T08:30:42Z",
+ "updated": "2026-11-11T09:00:39Z",
  "cards": [
+  {
+   "id": "6c321513c1",
+   "headline": "Intel, AMD patch over 200 vulnerabilities including critical TDX flaws",
+   "summary": "Intel and AMD released patches addressing more than 200 vulnerabilities in November Patch Tuesday. Intel's patches include critical flaws in TDX software, while AMD addresses numerous graphics processor bugs. Organizations running Intel or AMD processors should prioritize updates for TDX and GPU-related patches to mitigate potential privilege escalation and system compromise risks.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
+   "published": "2026-11-11T08:42:44Z",
+   "added": "2026-11-11T09:00:37Z",
+   "also": []
+  },
+  {
+   "id": "e23f07d99f",
+   "headline": "Microsoft researchers show AI agents backdoored via neurons",
+   "summary": "Researchers demonstrated that AI models can be compromised by editing fewer than 10 rarely used neurons without retraining, injecting hidden backdoors. When a trigger appears, the model executes attacker commands with the agent's own permissions. The attack requires ability to modify model weights. This technique highlights emerging supply-chain risks for organizations deploying AI agents, particularly where model integrity cannot be verified.",
+   "severity": "high",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+   "published": "2026-11-11T07:21:05Z",
+   "added": "2026-11-11T09:00:37Z",
+   "also": []
+  },
   {
    "id": "16367edd00",
    "headline": "Railway breach exposes 100k workspaces, $740k fraud",
@@ -13,7 +41,12 @@
    "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
    "published": "2026-11-10T22:20:19Z",
    "added": "2026-11-10T22:30:31Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
+    }
+   ]
   },
   {
    "id": "15da1f8e31",
@@ -133,6 +166,10 @@
     {
      "source": "Dark Reading",
      "url": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
     }
    ],
    "cve_info": {
