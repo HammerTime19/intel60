@@ -576,18 +576,23 @@ NVD_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
 EPSS_URL = "https://api.first.org/data/v1/epss"
 
 
-def nvd_cvss(cve):
-    """Returns (score, severity), (None, None) when NVD has no score yet. Raises on HTTP errors."""
+def nvd_details(cve):
+    """Returns (score, severity, description), with None for anything NVD doesn't have yet. Raises on HTTP errors."""
     resp = requests.get(NVD_URL, params={"cveId": cve}, headers=HEADERS, timeout=30)
     resp.raise_for_status()
+    score = severity = desc = None
     for v in resp.json().get("vulnerabilities", []):
-        metrics = v.get("cve", {}).get("metrics", {})
+        record = v.get("cve", {})
+        desc = next((clean(d.get("value"), 2000) for d in record.get("descriptions", []) if d.get("lang") == "en"), None) or None
+        if desc and len(desc) > 600:  # keep the page readable: cut long descriptions at a word
+            desc = desc[:600].rsplit(" ", 1)[0].rstrip(",;:") + "…"
         for key in ("cvssMetricV31", "cvssMetricV40", "cvssMetricV30"):
-            entries = sorted(metrics.get(key, []), key=lambda m: m.get("type") != "Primary")
+            entries = sorted(record.get("metrics", {}).get(key, []), key=lambda m: m.get("type") != "Primary")
             if entries:
                 data = entries[0].get("cvssData", {})
-                return data.get("baseScore"), (data.get("baseSeverity") or "").lower() or None
-    return None, None
+                score, severity = data.get("baseScore"), (data.get("baseSeverity") or "").lower() or None
+                break
+    return score, severity, desc
 
 
 def epss_scores(cves):
@@ -604,7 +609,7 @@ def epss_scores(cves):
 
 
 def enrich_cves(cards):
-    """Adds cve_info {cve: {cvss, sev, epss, pct, kev}} to cards, newest first, within the NVD budget."""
+    """Adds cve_info {cve: {cvss, sev, desc, epss, pct, kev}} to cards, newest first, within the NVD budget."""
     recheck_before = iso(now() - dt.timedelta(hours=config.CVE_RECHECK_HOURS))
     too_old = iso(now() - dt.timedelta(days=config.CVE_RECHECK_DAYS))
     todo = []
@@ -614,7 +619,7 @@ def enrich_cves(cards):
             continue
         for cve in c["cves"]:  # KEV status is free to refresh every run
             info.setdefault(cve, {})["kev"] = cve in kev_cves
-        missing = any(info[cve].get("cvss") is None for cve in c["cves"])
+        missing = any(info[cve].get("cvss") is None or not info[cve].get("desc") for cve in c["cves"])
         checked = c.get("cve_checked")
         if not checked or (missing and checked < recheck_before and c["published"] > too_old):
             todo.append(c)
@@ -628,13 +633,16 @@ def enrich_cves(cards):
             entry = c["cve_info"][cve]
             if cve in epss:
                 entry["epss"], entry["pct"] = epss[cve]
-            if entry.get("cvss") is None and budget > 0:
+            if (entry.get("cvss") is None or not entry.get("desc")) and budget > 0:
                 if looked_up:
                     time.sleep(6.5)  # NVD: ~5 requests per 30 seconds without an API key
                 budget -= 1
                 looked_up += 1
                 try:
-                    entry["cvss"], entry["sev"] = nvd_cvss(cve)
+                    cvss, sev, desc = nvd_details(cve)
+                    entry["cvss"], entry["sev"] = cvss if cvss is not None else entry.get("cvss"), sev or entry.get("sev")
+                    if desc:
+                        entry["desc"] = desc
                 except requests.RequestException as e:
                     log(f"  ! NVD {cve}: {e}")
                     budget = 0  # NVD is busy or rate limiting: try again next run

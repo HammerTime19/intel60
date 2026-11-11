@@ -570,6 +570,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 }
 .tag.cve { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.5rem; }
 .cve-id { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.75rem; }
+a.cve-id { color: inherit; text-decoration: underline dotted; text-underline-offset: 0.2em; }
 .score { font-weight: 750; font-size: 0.75rem; color: var(--ink); }
 .score[data-level="critical"] { color: var(--critical); }
 .score[data-level="high"] { color: var(--high); }
@@ -1221,7 +1222,7 @@ function chipCards() {
 
 // CVE chip: ID, CVSS score (NVD), exploit probability (FIRST EPSS) and CISA KEV status
 function cveHTML(cve, info) {
-  const parts = [`<span class="cve-id">${esc(cve)}</span>`];
+  const parts = [`<a class="cve-id" href="/cve/${esc(cve)}" data-track="cve-page" title="What this vulnerability is, its scores and every story about it">${esc(cve)}</a>`];
   if (info.cvss != null) {
     parts.push(`<b class="score" data-term="cvss" role="button" tabindex="0" data-level="${esc(info.sev || "")}" title="CVSS base score (NVD)">CVSS ${esc(Number(info.cvss).toFixed(1))}</b>`);
   }
@@ -1938,7 +1939,7 @@ function track(name) {
 async function shareCard(id) {
   const c = data.cards.find((x) => x.id === id);
   if (!c) return;
-  const url = `${location.origin}${location.pathname}#${id}`;
+  const url = `${location.origin}/story/${id}`;  // the story's own page: indexable, with its headline in link previews
   try {
     if (navigator.share) {
       await navigator.share({ title: c.headline, text: `${c.headline} (via Intel60)`, url });

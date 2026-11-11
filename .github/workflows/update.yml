@@ -74,12 +74,16 @@ jobs:
           APP_URL: ${{ vars.APP_URL }}
           GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
+      - name: Build story and CVE pages
+        run: python pipeline/pages.py
+
       - name: Commit new cards
         id: commit
         run: |
           git config user.name "intel60-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/cards.json docs/deadlines.json pipeline/state.json
+          git add docs/cards.json docs/deadlines.json pipeline/state.json pipeline/archive.json
+          git add docs/story docs/cve docs/sitemap.xml docs/robots.txt
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
