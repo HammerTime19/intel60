@@ -753,6 +753,13 @@
 "sev": "critical",
 "summary": "Temperature controls were altered at three French national blood service facilities during a wave of cyberattacks targeting refrigeration systems across Europe. The attacks disrupted critical blood storage infrastructure. No details on attacker identity or whether blood supply was compromised. Health authorities are investigating and implementing additional security measures to protect blood inventory."
 },
+"3dfcf9840f": {
+"cves": [],
+"date": "2026-11-11",
+"headline": "Siemens, Phoenix Contact, Johnson Controls patch ICS flaws",
+"sev": "high",
+"summary": "Siemens, Phoenix Contact, Johnson Controls, and Hitachi Energy released pre-Patch Tuesday advisories addressing high-severity vulnerabilities in industrial control systems. Node2Shell exposure was also flagged. These patches address security issues in widely deployed ICS products. Organizations running affected systems should apply updates promptly to prevent potential exploitation in operational technology environments."
+},
 "3e6bc640da": {
 "cves": [
 "CVE-2026-58115"

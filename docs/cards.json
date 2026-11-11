@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-11T10:30:31Z",
+ "updated": "2026-11-11T11:00:39Z",
  "cards": [
+  {
+   "id": "3dfcf9840f",
+   "headline": "Siemens, Phoenix Contact, Johnson Controls patch ICS flaws",
+   "summary": "Siemens, Phoenix Contact, Johnson Controls, and Hitachi Energy released pre-Patch Tuesday advisories addressing high-severity vulnerabilities in industrial control systems. Node2Shell exposure was also flagged. These patches address security issues in widely deployed ICS products. Organizations running affected systems should apply updates promptly to prevent potential exploitation in operational technology environments.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
+   "published": "2026-11-11T10:35:15Z",
+   "added": "2026-11-11T11:00:39Z",
+   "also": []
+  },
   {
    "id": "6cc6511153",
    "headline": "Microsoft fixes Exchange sign-in issues from Server updates",
@@ -4393,20 +4407,6 @@
     }
    },
    "cve_checked": "2026-10-28T11:30:36Z"
-  },
-  {
-   "id": "9ebc7f16e5",
-   "headline": "Four EPICS Base flaws patched in particle accelerators",
-   "summary": "Four previously hidden vulnerabilities were discovered and patched in EPICS Base control software used at particle accelerators and fusion research facilities. An autonomous system identified the flaws, which could allow attackers to crash critical processes. Patch deployment recommended for all affected research infrastructure.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
-   "published": "2026-10-28T10:48:00Z",
-   "added": "2026-10-28T11:00:40Z",
-   "also": []
   }
  ]
 }
