@@ -2272,6 +2272,13 @@
 "sev": "critical",
 "summary": "Synology issued an urgent warning about a surge in C3RB3R ransomware attacks targeting NAS appliances. The campaign is actively exploiting vulnerable devices in the wild. Synology urges customers to apply security patches immediately and implement network segmentation to limit lateral movement if devices are compromised."
 },
+"e52fb1952d": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "US seizes $1.2B from Binance theft, shuts FaceStealer",
+"sev": "high",
+"summary": "The Department of Justice and FBI announced coordinated actions against North Korea-linked cryptocurrency theft operations. Federal authorities seized $1.2 billion in stolen cryptocurrency from a Binance breach and dismantled FaceStealer tools used by attackers. The operations target cryptocurrency exchanges and related infrastructure. Defenders should review cryptocurrency security policies and monitor for tool variants."
+},
 "e61330c977": {
 "cves": [
 "CVE-2026-123218",

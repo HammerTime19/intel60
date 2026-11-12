@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-12T21:30:34Z",
+ "updated": "2026-11-12T22:00:34Z",
  "cards": [
+  {
+   "id": "e52fb1952d",
+   "headline": "US seizes $1.2B from Binance theft, shuts FaceStealer",
+   "summary": "The Department of Justice and FBI announced coordinated actions against North Korea-linked cryptocurrency theft operations. Federal authorities seized $1.2 billion in stolen cryptocurrency from a Binance breach and dismantled FaceStealer tools used by attackers. The operations target cryptocurrency exchanges and related infrastructure. Defenders should review cryptocurrency security policies and monitor for tool variants.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
+   "published": "2026-11-12T21:42:00Z",
+   "added": "2026-11-12T22:00:33Z",
+   "also": []
+  },
   {
    "id": "43b2bb31ce",
    "headline": "Luna Moth extortion group retargets law firms for Microsoft tokens",
@@ -4393,33 +4407,6 @@
    "published": "2026-10-29T22:09:24Z",
    "added": "2026-10-29T22:30:37Z",
    "also": []
-  },
-  {
-   "id": "fe7730fa40",
-   "headline": "Polymarket breach drains $2.5M via compromised third-party service",
-   "summary": "Prediction market platform Polymarket suspended trading after attackers compromised a third-party service to inject cryptocurrency-draining JavaScript. Approximately $2.5 million in assets have been traced to a suspected attacker wallet. The incident highlights third-party supply chain risks. Users should verify account integrity and monitor for unauthorized transactions.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-   "published": "2026-10-29T21:47:25Z",
-   "added": "2026-10-29T22:00:38Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/polymarket-confirms-cyberattack-third-party"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html"
-    }
-   ]
   }
  ]
 }
