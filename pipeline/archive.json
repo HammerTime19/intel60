@@ -32,7 +32,7 @@
 },
 "CVE-2026-102895": {
 "cvss": 9.8,
-"date": "2026-11-09",
+"date": "2026-11-12",
 "desc": "GPUStack is an open-source GPU cluster manager for AI model serving and GPU instance provisioning. Prior to 2.2.0, get_current_user in gpustack/api/auth.py treated a loopback request source as the built-in administrator when force_auth_localhost was false, which was the default. A remote request could appear to originate from 127.0.0.1 because client_ip_getter accepted a same-host reverse proxy peer or a client-supplied X-GPUStack-Real-IP loopback value. The bypass allowed unauthenticated administrative access, including user and model changes, persistent administrator API-key creation…",
 "due": "2026-11-12",
 "epss": 0.00555,
@@ -1171,6 +1171,15 @@
 "headline": "German police bust crime-as-a-service investment fraud operation",
 "sev": "info",
 "summary": "German authorities led a multinational investigation that dismantled an alleged crime-as-a-service provider supplying fraudulent trading platforms to investment scammers. The operation targeted criminals facilitating investment fraud through technical infrastructure. The probe involved multiple international partners and resulted in exposure of the criminal ecosystem. Organizations handling fraud investigations should review transaction monitoring and financial platform security."
+},
+"6b1c381ae9": {
+"cves": [
+"CVE-2026-102895"
+],
+"date": "2026-11-12",
+"headline": "GPUStack authentication bypass exploited in the wild",
+"sev": "critical",
+"summary": "CVE-2026-102895, an authentication bypass in GPUStack GPU cluster management software, is being actively exploited. The vulnerability allows attackers to spoof the X-Gpustack-Real-IP header to bypass authentication by spoofing loopback addresses. Affected versions are prior to 2.2.0 released June 2026. GPUStack administrators should upgrade immediately to patch systems managing AI workloads."
 },
 "6b1d9cd5a0": {
 "cves": [],

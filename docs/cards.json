@@ -1,6 +1,33 @@
 {
- "updated": "2026-11-12T11:30:31Z",
+ "updated": "2026-11-12T12:01:01Z",
  "cards": [
+  {
+   "id": "6b1c381ae9",
+   "headline": "GPUStack authentication bypass exploited in the wild",
+   "summary": "CVE-2026-102895, an authentication bypass in GPUStack GPU cluster management software, is being actively exploited. The vulnerability allows attackers to spoof the X-Gpustack-Real-IP header to bypass authentication by spoofing loopback addresses. Affected versions are prior to 2.2.0 released June 2026. GPUStack administrators should upgrade immediately to patch systems managing AI workloads.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-102895"
+   ],
+   "watch": [],
+   "source": "SANS ISC",
+   "url": "https://isc.sans.edu/diary/rss/33514",
+   "published": "2026-11-12T11:56:24Z",
+   "added": "2026-11-12T12:00:35Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-102895": {
+     "kev": true,
+     "epss": 0.00555,
+     "pct": 0.46664,
+     "cvss": 9.8,
+     "sev": "critical",
+     "desc": "GPUStack is an open-source GPU cluster manager for AI model serving and GPU instance provisioning. Prior to 2.2.0, get_current_user in gpustack/api/auth.py treated a loopback request source as the built-in administrator when force_auth_localhost was false, which was the default. A remote request could appear to originate from 127.0.0.1 because client_ip_getter accepted a same-host reverse proxy peer or a client-supplied X-GPUStack-Real-IP loopback value. The bypass allowed unauthenticated administrative access, including user and model changes, persistent administrator API-key creation…"
+    }
+   },
+   "cve_checked": "2026-11-12T12:00:44Z"
+  },
   {
    "id": "9b952a7f4c",
    "headline": "AI-generated scripts breach US retailer defenses",
@@ -116,7 +143,7 @@
      "desc": "Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in assign_headers() can lead to RCE. This issue affects Apache HTTP Server: from 2.4.55 through 2.4.70. Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42."
     }
    },
-   "cve_checked": "2026-11-12T05:30:32Z"
+   "cve_checked": "2026-11-12T12:00:59Z"
   },
   {
    "id": "d9fc7bca78",
@@ -4315,34 +4342,6 @@
      "url": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack"
     }
    ]
-  },
-  {
-   "id": "dd1c518d70",
-   "headline": "Telegram Android voice call flaw enables remote code execution",
-   "summary": "A code execution vulnerability in Telegram for Android allowed attackers to run code on victim phones via voice calls. The attacker needed only a regular Telegram account to trigger the flaw when a user answered the call. Telegram patched the issue in version 12.10.4 released in late September and security firm NebuSec disclosed it on October 29. Users should update to version 12.10.4 or later immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-   "published": "2026-10-29T11:39:18Z",
-   "added": "2026-10-29T12:30:35Z",
-   "also": []
-  },
-  {
-   "id": "c9e7c513e1",
-   "headline": "26,400 valid cloud AI credentials exposed Gitee repos",
-   "summary": "A researcher found 26,400 working developer credentials left in public code repositories on Gitee, a Chinese code-hosting platform. Scanning 7.25 million public repos revealed mostly cloud and AI service keys that attackers could abuse immediately. Anyone with access to these repositories could use the exposed credentials to compromise accounts and cloud infrastructure. Developers should rotate exposed credentials urgently and use secrets management tools to prevent similar leaks.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-   "published": "2026-10-29T11:33:15Z",
-   "added": "2026-10-29T12:30:35Z",
-   "also": []
   }
  ]
 }
