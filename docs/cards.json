@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-12T19:30:44Z",
+ "updated": "2026-11-12T20:00:47Z",
  "cards": [
+  {
+   "id": "5e7c3d53ea",
+   "headline": "N-able N-central zero-day exploited for miner deployment",
+   "summary": "A newly disclosed zero-day vulnerability in N-able N-central, dubbed \"4EverAble2Shell,\" is being actively exploited to compromise servers and deploy cryptocurrency miners. At least 21 systems have been affected, including 19 running the latest security update. Defenders should prioritize patching and monitoring for unauthorized miner activity on N-central installations.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+   "published": "2026-11-12T19:51:16Z",
+   "added": "2026-11-12T20:00:45Z",
+   "also": []
+  },
   {
    "id": "ad9757975f",
    "headline": "Windows SignDrop zero-day grants SYSTEM privileges",
@@ -4401,20 +4415,6 @@
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
    "published": "2026-10-29T21:21:56Z",
    "added": "2026-10-29T22:00:38Z",
-   "also": []
-  },
-  {
-   "id": "aacd739692",
-   "headline": "GM settles 36-state lawsuit for selling driver data",
-   "summary": "General Motors agreed to pay $220 million to settle allegations by 36 state attorneys general that the company unlawfully sold driver behavior information to third parties. The settlement includes payment of the fine and commitments to implement reforms. This reflects growing regulatory scrutiny over how automakers monetize customer data and privacy violations.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/general-motors-lawsuit-privacy",
-   "published": "2026-10-29T19:45:00Z",
-   "added": "2026-10-29T20:00:36Z",
    "also": []
   }
  ]

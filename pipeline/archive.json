@@ -1124,6 +1124,13 @@
 "sev": "high",
 "summary": "Three individuals nicknamed \"Rocky Balboa,\" \"Superman Cash,\" and \"Fat Boy\" were charged for using AI to impersonate CEOs and attorneys in a fraud scheme that stole $129 million. The attackers primarily targeted company accounting departments with convincing impersonations. Law enforcement has taken action against the perpetrators involved in this coordinated fraud campaign."
 },
+"5e7c3d53ea": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "N-able N-central zero-day exploited for miner deployment",
+"sev": "critical",
+"summary": "A newly disclosed zero-day vulnerability in N-able N-central, dubbed \"4EverAble2Shell,\" is being actively exploited to compromise servers and deploy cryptocurrency miners. At least 21 systems have been affected, including 19 running the latest security update. Defenders should prioritize patching and monitoring for unauthorized miner activity on N-central installations."
+},
 "5ec9d44a06": {
 "cves": [],
 "date": "2026-10-30",
