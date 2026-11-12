@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T08:00:31Z",
+ "updated": "2026-11-12T08:30:29Z",
  "cards": [
   {
    "id": "417b99b824",
@@ -4337,45 +4337,6 @@
     }
    },
    "cve_checked": "2026-10-29T11:30:37Z"
-  },
-  {
-   "id": "b3306983de",
-   "headline": "iRhythm data breach exposes 8.2 million records",
-   "summary": "Hackers compromised iRhythm third-party-hosted business applications, stealing personal information and account and device data. An HHS filing disclosed the breach affects 8.2 million individuals. iRhythm is a medical device company providing remote cardiac monitoring solutions. Affected individuals should monitor for identity theft and consider credit monitoring services.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/",
-   "published": "2026-10-29T08:27:16Z",
-   "added": "2026-10-29T09:00:38Z",
-   "also": []
-  },
-  {
-   "id": "aabd8e14b2",
-   "headline": "Hackers exploit Cisco SD-WAN flaw plant KeyDrift malware",
-   "summary": "Attackers leveraged a critical Cisco Catalyst SD-WAN vulnerability, patched in February, to deploy KeyDrift malware designed to steal encryption keys controlling traffic between network sites. Cisco Talos confirmed the malware was built to copy and exfiltrate keys for later use. The attacks are historical in nature. Organizations should ensure SD-WAN systems are fully patched and monitor for KeyDrift indicators of compromise.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [
-    "Cisco"
-   ],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-   "published": "2026-10-29T08:24:22Z",
-   "added": "2026-10-29T09:00:38Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/"
-    }
-   ]
   }
  ]
 }
