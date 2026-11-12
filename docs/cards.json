@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-12T16:00:34Z",
+ "updated": "2026-11-12T16:31:23Z",
  "cards": [
+  {
+   "id": "ad9757975f",
+   "headline": "Windows SignDrop zero-day grants SYSTEM privileges",
+   "summary": "Security researcher Abdelhamid Naceri released a Windows zero-day exploit allowing attackers to gain SYSTEM privileges. The vulnerability, named SignDrop, has been publicly disclosed with proof-of-concept code. Windows users should monitor security bulletins for patches and consider restricting user privileges pending mitigation to reduce exploitation risk.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+   "published": "2026-11-12T16:04:00Z",
+   "added": "2026-11-12T16:30:43Z",
+   "also": []
+  },
+  {
+   "id": "50b7d482cf",
+   "headline": "186 fake AI domains deliver ClickFix malware and hijackers",
+   "summary": "Researchers discovered 186 lookalike domains impersonating AI tools to deliver ClickFix-style lures, browser-hijacking malware, and search-hijacking extensions. Dubbed TypoPrompting, the campaign exploits typosquatting to trick users into visiting fraudulent sites. Users should verify URLs carefully, disable suspicious browser extensions, and consider DNS filtering to block known malicious domains.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+   "published": "2026-11-12T15:15:40Z",
+   "added": "2026-11-12T16:30:43Z",
+   "also": []
+  },
   {
    "id": "62ff99ae77",
    "headline": "Police dismantle Gootloader, CastleRAT, StealC infrastructure",
@@ -13,7 +41,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
    "published": "2026-11-12T15:07:20Z",
    "added": "2026-11-12T15:30:32Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time"
+    }
+   ]
   },
   {
    "id": "504c4dbc53",
@@ -210,10 +243,15 @@
    "also": [],
    "cve_info": {
     "CVE-2026-118383": {
-     "kev": false
+     "kev": false,
+     "epss": 0.00714,
+     "pct": 0.54155,
+     "cvss": 9.0,
+     "sev": "critical",
+     "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions, arbitrary code execution in the context of the server process. Replica set members are affected, including the shard and config server replica set members of sharded clusters; standalone mongod instances are not."
     }
    },
-   "cve_checked": "2026-11-12T10:00:57Z"
+   "cve_checked": "2026-11-12T16:30:48Z"
   },
   {
    "id": "3773dc5512",
@@ -331,6 +369,14 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool"
     }
    ]
   },
@@ -501,7 +547,12 @@
    "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
    "published": "2026-11-11T13:37:19Z",
    "added": "2026-11-11T14:00:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
+    }
+   ]
   },
   {
    "id": "2b63f8aad1",
@@ -707,7 +758,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-12T10:30:32Z"
+   "cve_checked": "2026-11-12T16:31:02Z"
   },
   {
    "id": "b958c22720",
@@ -955,7 +1006,7 @@
      "cvss": null,
      "sev": null,
      "epss": 0.00181,
-     "pct": 0.07719,
+     "pct": 0.07737,
      "desc": "This issue was addressed by removing the vulnerable code. This issue is fixed in iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A user added to an iMessage group may be able to access messages sent before they joined."
     },
     "CVE-2026-113961": {
@@ -963,7 +1014,7 @@
      "cvss": 7.5,
      "sev": "high",
      "epss": 0.00612,
-     "pct": 0.4967,
+     "pct": 0.49839,
      "desc": "An authorization issue was addressed with improved validation. This issue is fixed in iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A remote attacker may be able to join an iMessage group chat and receive its messages."
     },
     "CVE-2026-113963": {
@@ -971,7 +1022,7 @@
      "cvss": 5.5,
      "sev": "medium",
      "epss": 0.00138,
-     "pct": 0.03238,
+     "pct": 0.03262,
      "desc": "An authorization issue was addressed with improved state management. This issue is fixed in iOS 27.2.1 and iPadOS 27.2.1, visionOS 27.2.1, watchOS 27.2.1. An app may be able to access sensitive user data."
     },
     "CVE-2026-113964": {
@@ -979,7 +1030,7 @@
      "cvss": 5.4,
      "sev": "medium",
      "epss": 0.00323,
-     "pct": 0.25514,
+     "pct": 0.25629,
      "desc": "A logic issue was addressed with improved state management. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 26.6.1, watchOS 27.2.1. An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction."
     },
     "CVE-2026-113971": {
@@ -987,11 +1038,11 @@
      "cvss": 3.5,
      "sev": "low",
      "epss": 0.00158,
-     "pct": 0.04979,
+     "pct": 0.05,
      "desc": "This issue was addressed by restricting options offered on a locked device. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.5 and iPadOS 26.5. An attacker with physical access may be able to pair a device with an AirPlay receiver from the lock screen."
     }
    },
-   "cve_checked": "2026-11-12T10:30:38Z"
+   "cve_checked": "2026-11-12T16:31:22Z"
   },
   {
    "id": "4271579dde",
@@ -4372,20 +4423,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
    "published": "2026-10-29T19:23:41Z",
    "added": "2026-10-29T19:30:33Z",
-   "also": []
-  },
-  {
-   "id": "a556f2a132",
-   "headline": "Chrome extensions hijack searches via 319 malicious plugins",
-   "summary": "A campaign involving 319 Chrome extensions with 13.4 million combined installations redirected user searches through tracking servers to generate ad revenue from Bing and Yahoo. The hijacking campaign exploited browser search functionality to monetize traffic. Users should audit installed extensions, remove suspicious ones, and consider restricting extension permissions to prevent similar attacks.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-   "published": "2026-10-29T16:10:31Z",
-   "added": "2026-10-29T16:30:33Z",
    "also": []
   }
  ]

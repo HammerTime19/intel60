@@ -192,8 +192,12 @@
 "sev": "critical"
 },
 "CVE-2026-118383": {
+"cvss": 9.0,
 "date": "2026-11-12",
-"kev": false
+"desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions, arbitrary code execution in the context of the server process. Replica set members are affected, including the shard and config server replica set members of sharded clusters; standalone mongod instances are not.",
+"epss": 0.00714,
+"kev": false,
+"sev": "critical"
 },
 "CVE-2026-118527": {
 "cvss": 4.3,
@@ -1007,6 +1011,13 @@
 "headline": "European bomb hoax threats originated from compromised email",
 "sev": "high",
 "summary": "Thousands of bomb threats targeting schools across Europe this week were sent from a compromised email account at a Taiwanese university. The hoax threats continue a pattern of attacks on airports and newsrooms using hijacked legitimate institutional email accounts. Investigations remain ongoing as attackers exploit trusted email sources to spread false threats at scale."
+},
+"50b7d482cf": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "186 fake AI domains deliver ClickFix malware and hijackers",
+"sev": "high",
+"summary": "Researchers discovered 186 lookalike domains impersonating AI tools to deliver ClickFix-style lures, browser-hijacking malware, and search-hijacking extensions. Dubbed TypoPrompting, the campaign exploits typosquatting to trick users into visiting fraudulent sites. Users should verify URLs carefully, disable suspicious browser extensions, and consider DNS filtering to block known malicious domains."
 },
 "50eb1dccf4": {
 "cves": [
@@ -1836,6 +1847,13 @@
 "headline": "Langflow authentication bypass and RCE in all versions through 1.12.8",
 "sev": "critical",
 "summary": "Two critical vulnerabilities in Langflow, an open-source AI agent and workflow builder, allow unauthenticated remote attackers to bypass authentication and execute arbitrary code. All versions from 1.0.0 through 1.12.8 are affected. Version 1.13.0 contains the fixes. IBM disclosed the flaws; they are not yet in CISA's KEV catalog. Organizations using Langflow should immediately upgrade to 1.13.0."
+},
+"ad9757975f": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Windows SignDrop zero-day grants SYSTEM privileges",
+"sev": "critical",
+"summary": "Security researcher Abdelhamid Naceri released a Windows zero-day exploit allowing attackers to gain SYSTEM privileges. The vulnerability, named SignDrop, has been publicly disclosed with proof-of-concept code. Windows users should monitor security bulletins for patches and consider restricting user privileges pending mitigation to reduce exploitation risk."
 },
 "adcc13fa97": {
 "cves": [],
