@@ -455,6 +455,13 @@
 "sev": "critical",
 "summary": "Zyxel patched a zero-day vulnerability in GS1900 series network switches that attackers exploited to compromise nearly 1,000 devices worldwide. The flaw allowed hackers to steal configuration files and credentials from affected switches. Organizations using Zyxel GS1900 switches should apply the patch immediately to prevent unauthorized access to network infrastructure and data theft."
 },
+"116311b702": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Chrome and Firefox patch over 180 vulnerabilities",
+"sev": "high",
+"summary": "Google released Chrome 157 with 83 security fixes, and Mozilla released Firefox 160 addressing 99 vulnerabilities. The updates cover critical and high-severity flaws across both browsers. Users should install updates immediately through automatic update mechanisms or manual checking in browser settings."
+},
 "12185b0bd2": {
 "cves": [],
 "date": "2026-10-28",
@@ -1025,6 +1032,13 @@
 "headline": "Sony ISP subsidiary breached exposes 2.5 million customer records",
 "sev": "high",
 "summary": "Sony Network Communications disclosed a data breach affecting approximately 2.5 million current and former customer records containing personal information. The breach compromised sensitive customer data. No details were provided about the attack vector, when it occurred, or remediation status. Affected customers should monitor accounts for fraud."
+},
+"5209bb0904": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Romania stops Russian cyberattack on government emails",
+"sev": "high",
+"summary": "Romania's intelligence agency disrupted a Russian state-linked cyber-espionage campaign targeting government email systems before sensitive data could be exfiltrated. The attack was detected and halted before completion. Officials did not disclose specific details about the compromised systems or the full scope of the attempted intrusion, but confirmed the threat was neutralized."
 },
 "5246b12726": {
 "cves": [],

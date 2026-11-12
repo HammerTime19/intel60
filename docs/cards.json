@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-12T13:30:41Z",
+ "updated": "2026-11-12T14:00:42Z",
  "cards": [
+  {
+   "id": "116311b702",
+   "headline": "Chrome and Firefox patch over 180 vulnerabilities",
+   "summary": "Google released Chrome 157 with 83 security fixes, and Mozilla released Firefox 160 addressing 99 vulnerabilities. The updates cover critical and high-severity flaws across both browsers. Users should install updates immediately through automatic update mechanisms or manual checking in browser settings.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
+   "published": "2026-11-12T13:42:09Z",
+   "added": "2026-11-12T14:00:41Z",
+   "also": []
+  },
+  {
+   "id": "5209bb0904",
+   "headline": "Romania stops Russian cyberattack on government emails",
+   "summary": "Romania's intelligence agency disrupted a Russian state-linked cyber-espionage campaign targeting government email systems before sensitive data could be exfiltrated. The attack was detected and halted before completion. Officials did not disclose specific details about the compromised systems or the full scope of the attempted intrusion, but confirmed the threat was neutralized.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/romania-russia-cyberattack-emails",
+   "published": "2026-11-12T13:30:00Z",
+   "added": "2026-11-12T14:00:41Z",
+   "also": []
+  },
   {
    "id": "e447c2de7d",
    "headline": "Kazakhstan-linked hackers use AI agent spying campaign",
@@ -185,7 +213,12 @@
    "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
    "published": "2026-11-12T06:42:47Z",
    "added": "2026-11-12T07:30:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/"
+    }
+   ]
   },
   {
    "id": "8b748363b7",
@@ -4365,20 +4398,6 @@
    "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
    "published": "2026-10-29T15:00:00Z",
    "added": "2026-10-29T15:10:17Z",
-   "also": []
-  },
-  {
-   "id": "342c74932b",
-   "headline": "Cyberattack disrupts Belgian tax services MyMinfin platform",
-   "summary": "Belgium's Federal Public Service Finance was attacked, forcing temporary suspension of MyMinfin, the national online tax and financial affairs platform, before a filing deadline. Authorities are investigating the extent of the attack. Citizens and businesses were unable to file taxes online during the outage. Scope remains unclear.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
-   "published": "2026-10-29T13:31:00Z",
-   "added": "2026-10-29T14:00:43Z",
    "also": []
   }
  ]
