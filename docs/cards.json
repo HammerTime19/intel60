@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-12T00:30:29Z",
+ "updated": "2026-11-12T01:00:34Z",
  "cards": [
+  {
+   "id": "d9fc7bca78",
+   "headline": "China surveillance system targets Taiwan chip industry",
+   "summary": "Chinese authorities reportedly developed a Big Data system to collect and analyze personal information on individuals abroad, particularly in Taiwan's semiconductor sector, with potential intent to identify and exploit targets for espionage or coercion. The system aggregates public and private data to profile individuals for recruitment or blackmail. Defenders should advise employees in sensitive industries to review their digital footprint and assume they may be targets of foreign intelligence gathering.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+   "published": "2026-11-12T01:00:00Z",
+   "added": "2026-11-12T01:00:34Z",
+   "also": []
+  },
   {
    "id": "7f241c94ac",
    "headline": "Baker Tilly data breach compromises client personal information",

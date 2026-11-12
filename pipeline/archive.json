@@ -2047,6 +2047,13 @@
 "sev": "high",
 "summary": "Japan announced an emergency cybersecurity package following a wave of attacks targeting dozens of companies and government agencies. The incidents involved unauthorized access to systems and leaks of client data, creating widespread concern across the country. Details on affected sectors and the nature of attacks remain limited; organizations should monitor for broader attribution and coordinated campaign indicators."
 },
+"d9fc7bca78": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "China surveillance system targets Taiwan chip industry",
+"sev": "high",
+"summary": "Chinese authorities reportedly developed a Big Data system to collect and analyze personal information on individuals abroad, particularly in Taiwan's semiconductor sector, with potential intent to identify and exploit targets for espionage or coercion. The system aggregates public and private data to profile individuals for recruitment or blackmail. Defenders should advise employees in sensitive industries to review their digital footprint and assume they may be targets of foreign intelligence gathering."
+},
 "da77af0f43": {
 "cves": [],
 "date": "2026-11-05",
