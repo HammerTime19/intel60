@@ -253,6 +253,13 @@
 "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
 "sev": "medium"
 },
+"CVE-2026-126325": {
+"cvss": 9.0,
+"date": "2026-11-12",
+"desc": "A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill and PTC FlexPLM. The vulnerability may be exploited through the deserialization of untrusted data.",
+"kev": false,
+"sev": "critical"
+},
 "CVE-2026-19868": {
 "cvss": 7.5,
 "date": "2026-11-06",
@@ -1063,6 +1070,13 @@
 "sev": "high",
 "summary": "Truffle Security launched the Secrets Revocation Program, a free service enabling API key issuers to revoke 1.4 million publicly exposed secrets still in active use. The program addresses the risk of leaked credentials remaining valid and exploitable. Affected organizations can use the service to identify and invalidate their compromised credentials. API key holders should check if their secrets are on the list and rotate them immediately."
 },
+"5af74d5ce6": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "AMD Turin CPU flaws leak VM data cross-process",
+"sev": "high",
+"summary": "Google Cloud identified three CPU side-channel flaws in AMD Turin processors that allow attackers with code on the same processor core to infer data from other processes or the kernel within a VM. Google has mitigated inter-VM and VM-to-host attacks. Customers must apply guest OS patches and perform stop-start operations to protect individual VMs from intra-process attacks."
+},
 "5c6c31b6a9": {
 "cves": [],
 "date": "2026-11-03",
@@ -1593,6 +1607,15 @@
 "headline": "FBI CISA warn of refrigeration system cyberattacks",
 "sev": "high",
 "summary": "The FBI and CISA issued a warning about active cyberattacks targeting industrial refrigeration and cold-chain monitoring systems globally. Attackers can cause food spoilage, equipment damage, and fire hazards. Organizations using refrigeration systems should implement network segmentation, monitor for unusual system behavior, and apply vendor patches to critical control systems."
+},
+"988b46d175": {
+"cves": [
+"CVE-2026-126325"
+],
+"date": "2026-11-12",
+"headline": "PTC patches critical Windchill and FlexPLM RCE flaw",
+"sev": "critical",
+"summary": "PTC released patches for CVE-2026-126325, a critical vulnerability in Windchill and FlexPLM caused by improper input validation and untrusted data deserialization. The flaw has a CVSS score of 9.2 and enables remote code execution. Administrators should apply patches immediately to prevent exploitation of these widely deployed product lifecycle management tools."
 },
 "98eb0ea8b2": {
 "cves": [
@@ -2303,6 +2326,13 @@
 "headline": "CISA adds Ivanti Connect Secure upload flaw to KEV",
 "sev": "critical",
 "summary": "CISA added CVE-2026-118527 to its Known Exploited Vulnerabilities catalog. The vulnerability in Ivanti Connect Secure allows authenticated remote attackers to upload files with attacker-controlled content to known disk locations. Exploitable in chains with two other CVEs. Federal agencies must mitigate by November 13, 2026, per BOD 26-04 guidance or discontinue use."
+},
+"f7cf57082e": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Google sessions hijacked via phishing since August 2026",
+"sev": "high",
+"summary": "A phishing campaign tracked as Operation CloudFire has stolen live Google sessions from corporate users since mid-August 2026. The attacker designed clean-looking calendar invite links that bypassed standard email security checks. Material Security researchers identified hundreds of malicious domains and took them down. Organizations should implement additional session validation and user awareness training."
 },
 "fb65eccd75": {
 "cves": [],

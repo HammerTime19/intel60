@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-12T12:30:34Z",
+ "updated": "2026-11-12T13:00:44Z",
  "cards": [
+  {
+   "id": "5af74d5ce6",
+   "headline": "AMD Turin CPU flaws leak VM data cross-process",
+   "summary": "Google Cloud identified three CPU side-channel flaws in AMD Turin processors that allow attackers with code on the same processor core to infer data from other processes or the kernel within a VM. Google has mitigated inter-VM and VM-to-host attacks. Customers must apply guest OS patches and perform stop-start operations to protect individual VMs from intra-process attacks.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+   "published": "2026-11-12T12:09:14Z",
+   "added": "2026-11-12T13:00:41Z",
+   "also": []
+  },
   {
    "id": "6b1c381ae9",
    "headline": "GPUStack authentication bypass exploited in the wild",
@@ -27,6 +41,45 @@
     }
    },
    "cve_checked": "2026-11-12T12:00:44Z"
+  },
+  {
+   "id": "f7cf57082e",
+   "headline": "Google sessions hijacked via phishing since August 2026",
+   "summary": "A phishing campaign tracked as Operation CloudFire has stolen live Google sessions from corporate users since mid-August 2026. The attacker designed clean-looking calendar invite links that bypassed standard email security checks. Material Security researchers identified hundreds of malicious domains and took them down. Organizations should implement additional session validation and user awareness training.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+   "published": "2026-11-12T11:51:31Z",
+   "added": "2026-11-12T13:00:41Z",
+   "also": []
+  },
+  {
+   "id": "988b46d175",
+   "headline": "PTC patches critical Windchill and FlexPLM RCE flaw",
+   "summary": "PTC released patches for CVE-2026-126325, a critical vulnerability in Windchill and FlexPLM caused by improper input validation and untrusted data deserialization. The flaw has a CVSS score of 9.2 and enables remote code execution. Administrators should apply patches immediately to prevent exploitation of these widely deployed product lifecycle management tools.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-126325"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+   "published": "2026-11-12T11:33:15Z",
+   "added": "2026-11-12T13:00:41Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-126325": {
+     "kev": false,
+     "cvss": 9.0,
+     "sev": "critical",
+     "desc": "A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill and PTC FlexPLM. The vulnerability may be exploited through the deserialization of untrusted data."
+    }
+   },
+   "cve_checked": "2026-11-12T13:00:42Z"
   },
   {
    "id": "9b952a7f4c",
@@ -227,6 +280,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
     }
    ]
   },
