@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:00:41Z",
+ "updated": "2026-11-12T11:30:31Z",
  "cards": [
   {
    "id": "9b952a7f4c",
@@ -177,7 +177,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
    "published": "2026-11-11T20:54:20Z",
    "added": "2026-11-11T21:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/"
+    }
+   ]
   },
   {
    "id": "e2b7ebdc24",
