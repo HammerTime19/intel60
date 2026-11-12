@@ -1,6 +1,31 @@
 {
- "updated": "2026-11-12T05:00:30Z",
+ "updated": "2026-11-12T05:30:33Z",
  "cards": [
+  {
+   "id": "8b748363b7",
+   "headline": "Apache HTTP/2 module critical RCE flaw CVE-2026-119618",
+   "summary": "Apache HTTP Server's mod_http2 module contains a critical remote code execution vulnerability affecting versions 2.4.55 through 2.4.70. Unauthenticated attackers can execute arbitrary code on servers with HTTP/2 enabled. The flaw is fixed in version 2.4.71 released November 11. Administrators running affected versions should upgrade immediately to patch the vulnerability.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-119618"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+   "published": "2026-11-12T05:12:26Z",
+   "added": "2026-11-12T05:30:31Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-119618": {
+     "kev": false,
+     "cvss": null,
+     "sev": null,
+     "desc": "Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in assign_headers() can lead to RCE. This issue affects Apache HTTP Server: from 2.4.55 through 2.4.70. Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42."
+    }
+   },
+   "cve_checked": "2026-11-12T05:30:32Z"
+  },
   {
    "id": "d9fc7bca78",
    "headline": "China surveillance system targets Taiwan chip industry",

@@ -206,6 +206,11 @@
 "kev": false,
 "sev": "medium"
 },
+"CVE-2026-119618": {
+"date": "2026-11-12",
+"desc": "Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in assign_headers() can lead to RCE. This issue affects Apache HTTP Server: from 2.4.55 through 2.4.70. Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42.",
+"kev": false
+},
 "CVE-2026-119977": {
 "cvss": 8.1,
 "date": "2026-11-03",
@@ -1452,6 +1457,15 @@
 "headline": "Chainstack blockchain infrastructure hit by cyberattack",
 "sev": "high",
 "summary": "Blockchain infrastructure provider Chainstack disclosed unauthorized access to parts of its production systems, exposing customer data and password hashes. The breach is attributed to a large-scale, AI-powered attack campaign uncovered last week. Chainstack customers should review account security, change passwords, and monitor for suspicious activity related to their blockchain infrastructure deployments."
+},
+"8b748363b7": {
+"cves": [
+"CVE-2026-119618"
+],
+"date": "2026-11-12",
+"headline": "Apache HTTP/2 module critical RCE flaw CVE-2026-119618",
+"sev": "critical",
+"summary": "Apache HTTP Server's mod_http2 module contains a critical remote code execution vulnerability affecting versions 2.4.55 through 2.4.70. Unauthenticated attackers can execute arbitrary code on servers with HTTP/2 enabled. The flaw is fixed in version 2.4.71 released November 11. Administrators running affected versions should upgrade immediately to patch the vulnerability."
 },
 "8b7832becd": {
 "cves": [],
