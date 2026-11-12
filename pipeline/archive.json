@@ -723,6 +723,13 @@
 "sev": "critical",
 "summary": "Barracuda Networks discovered two critical vulnerabilities enabling remote command execution with root privileges on affected devices. The flaws impact Barracuda security appliances widely used by enterprises. The company has advised customers to apply patches immediately. Organizations running Barracuda devices should prioritize updates to prevent unauthorized access and system compromise."
 },
+"3773dc5512": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Red Hat Quay critical flaw exposes private container images",
+"sev": "critical",
+"summary": "A critical vulnerability in Red Hat Quay allows attackers to steal private container images, overwrite repositories, and establish persistent access. Organizations using Quay should apply patches immediately. The exact CVE and technical details require patching to prevent unauthorized access to containerized applications and infrastructure compromise."
+},
 "39749d757e": {
 "cves": [],
 "date": "2026-11-02",
@@ -1893,6 +1900,13 @@
 "headline": "SAP patches critical ICM2SHELL and ProxyGate flaws",
 "sev": "high",
 "summary": "SAP has released 42 new and updated security advisories, including nine addressing critical-severity vulnerabilities. The vulnerabilities include ICM2SHELL and ProxyGate. No details on exploitation status or affected systems are provided in the announcement. Organizations running SAP products should prioritize patching these critical flaws."
+},
+"c2d283cd75": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Node.js HTTP/2 flaws crash servers and leak connection data",
+"sev": "critical",
+"summary": "Node.js 24.x and 26.x releases contain two HTTP/2 vulnerabilities: one allowing unauthenticated clients to crash servers, and another enabling servers to leak memory including responses from other connections. Fixed versions 22.23.5, 24.22.3, and 26.13.1 are available. Administrators should update immediately to prevent availability loss and data exposure."
 },
 "c4daeac5c9": {
 "cves": [],

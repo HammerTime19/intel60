@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-12T09:00:35Z",
+ "updated": "2026-11-12T09:30:33Z",
  "cards": [
+  {
+   "id": "3773dc5512",
+   "headline": "Red Hat Quay critical flaw exposes private container images",
+   "summary": "A critical vulnerability in Red Hat Quay allows attackers to steal private container images, overwrite repositories, and establish persistent access. Organizations using Quay should apply patches immediately. The exact CVE and technical details require patching to prevent unauthorized access to containerized applications and infrastructure compromise.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+   "published": "2026-11-12T09:23:21Z",
+   "added": "2026-11-12T09:30:30Z",
+   "also": []
+  },
+  {
+   "id": "c2d283cd75",
+   "headline": "Node.js HTTP/2 flaws crash servers and leak connection data",
+   "summary": "Node.js 24.x and 26.x releases contain two HTTP/2 vulnerabilities: one allowing unauthenticated clients to crash servers, and another enabling servers to leak memory including responses from other connections. Fixed versions 22.23.5, 24.22.3, and 26.13.1 are available. Administrators should update immediately to prevent availability loss and data exposure.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+   "published": "2026-11-12T08:20:37Z",
+   "added": "2026-11-12T09:30:30Z",
+   "also": []
+  },
   {
    "id": "417b99b824",
    "headline": "Attacker hijacks 4,837 GitHub accounts to steal CI secrets",
@@ -4303,45 +4331,6 @@
     }
    },
    "cve_checked": "2026-10-29T10:00:36Z"
-  },
-  {
-   "id": "9ac8296dad",
-   "headline": "Alpine Linux GitLab attacked with CVSS 10.0 flaw",
-   "summary": "An attacker attempted to exploit CVE-2026-97229, a critical GitLab vulnerability with a perfect CVSS score of 10.0, on Alpine Linux's GitLab server one week after GitLab released patches. The flaw allows unauthenticated code execution through a crafted CI configuration regular expression. Alpine Linux found no evidence the attack succeeded but has since secured the vulnerability.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-97229"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-   "published": "2026-10-29T09:05:39Z",
-   "added": "2026-10-29T11:30:37Z",
-   "also": [
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-97229": {
-     "kev": true,
-     "epss": 0.18427,
-     "pct": 0.97225,
-     "cvss": 10.0,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-29T11:30:37Z"
   }
  ]
 }
