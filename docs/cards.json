@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-12T10:53:40Z",
+ "updated": "2026-11-12T11:00:41Z",
  "cards": [
+  {
+   "id": "9b952a7f4c",
+   "headline": "AI-generated scripts breach US retailer defenses",
+   "summary": "An attacker used AI-generated scripts to breach a US retailer after hand-typed commands failed to compromise the network. The AI scripts achieved lateral movement across the target's systems in minutes. The incident demonstrates how threat actors are leveraging AI to automate and accelerate attack chains. Defenders should enhance detection of suspicious scripting activity and implement behavioral analysis to identify anomalous lateral movement patterns.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
+   "published": "2026-11-12T11:00:00Z",
+   "added": "2026-11-12T11:00:39Z",
+   "also": []
+  },
   {
    "id": "3ca0085eba",
    "headline": "Threat actors abuse GSocket for persistent Linux access",

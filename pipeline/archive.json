@@ -1612,6 +1612,13 @@
 "sev": "high",
 "summary": "An attacker attempted to exploit CVE-2026-97229, a critical GitLab vulnerability with a perfect CVSS score of 10.0, on Alpine Linux's GitLab server one week after GitLab released patches. The flaw allows unauthenticated code execution through a crafted CI configuration regular expression. Alpine Linux found no evidence the attack succeeded but has since secured the vulnerability."
 },
+"9b952a7f4c": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "AI-generated scripts breach US retailer defenses",
+"sev": "high",
+"summary": "An attacker used AI-generated scripts to breach a US retailer after hand-typed commands failed to compromise the network. The AI scripts achieved lateral movement across the target's systems in minutes. The incident demonstrates how threat actors are leveraging AI to automate and accelerate attack chains. Defenders should enhance detection of suspicious scripting activity and implement behavioral analysis to identify anomalous lateral movement patterns."
+},
 "9c24410329": {
 "cves": [],
 "date": "2026-11-04",
