@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:30:39Z",
+ "updated": "2026-11-12T18:49:09Z",
  "cards": [
   {
    "id": "ad9757975f",
@@ -468,6 +468,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system"
     }
    ]
   },
