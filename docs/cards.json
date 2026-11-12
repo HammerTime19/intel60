@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-12T15:00:40Z",
+ "updated": "2026-11-12T15:30:32Z",
  "cards": [
+  {
+   "id": "62ff99ae77",
+   "headline": "Police dismantle Gootloader, CastleRAT, StealC infrastructure",
+   "summary": "Europol and law enforcement from nine countries seized hundreds of servers and domains used by Gootloader, CastleRAT, and StealC malware operations. These campaigns have targeted thousands of organizations globally with information-stealing malware and remote access trojans. The coordinated takedown disrupts major malware distribution networks. Organizations should scan for indicators of compromise from these known malware families and patch vulnerable systems.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+   "published": "2026-11-12T15:07:20Z",
+   "added": "2026-11-12T15:30:32Z",
+   "also": []
+  },
   {
    "id": "504c4dbc53",
    "headline": "European bomb hoax threats originated from compromised email",
@@ -4399,20 +4413,6 @@
     }
    },
    "cve_checked": "2026-10-29T16:57:26Z"
-  },
-  {
-   "id": "8cc04215ef",
-   "headline": "Fake ChatGPT Claude apps deploy crypto miners via signed executables",
-   "summary": "Threat actors created fake GitHub projects impersonating OpenAI ChatGPT and Anthropic Claude desktop applications to distribute malicious loaders and cryptocurrency miners in a campaign dubbed Yoba. The malware leverages signed executables to evade detection and establish persistence. Users downloading these counterfeit applications from unofficial sources are at risk. Defenders should warn users to only download AI applications from official vendor repositories and marketplaces.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-   "published": "2026-10-29T15:20:29Z",
-   "added": "2026-10-29T16:00:43Z",
-   "also": []
   }
  ]
 }

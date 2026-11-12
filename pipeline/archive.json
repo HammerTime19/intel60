@@ -1147,6 +1147,13 @@
 "sev": "critical",
 "summary": "LNbits, an open-source Bitcoin Lightning wallet system, faces active exploitation and has urged all operators to immediately shut down their servers. Attackers are exploiting a flaw to withdraw funds from affected instances. The project announced upcoming security patches but operators should take servers offline until fixes are available. Defenders running LNbits must shut down immediately and await security updates."
 },
+"62ff99ae77": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Police dismantle Gootloader, CastleRAT, StealC infrastructure",
+"sev": "high",
+"summary": "Europol and law enforcement from nine countries seized hundreds of servers and domains used by Gootloader, CastleRAT, and StealC malware operations. These campaigns have targeted thousands of organizations globally with information-stealing malware and remote access trojans. The coordinated takedown disrupts major malware distribution networks. Organizations should scan for indicators of compromise from these known malware families and patch vulnerable systems."
+},
 "633b52d336": {
 "cves": [],
 "date": "2026-11-10",
