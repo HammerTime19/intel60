@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-12T09:30:33Z",
+ "updated": "2026-11-12T10:00:59Z",
  "cards": [
+  {
+   "id": "3ca0085eba",
+   "headline": "Threat actors abuse GSocket for persistent Linux access",
+   "summary": "Multiple threat actors are exploiting GSocket, a legitimate open-source remote access tool, to maintain persistence on Linux servers after gaining initial access through vulnerabilities. The tool's legitimate functionality allows attackers to evade detection even after patching the initial entry points. Organizations should monitor for unauthorized GSocket usage and restrict tool execution.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "published": "2026-11-12T09:38:00Z",
+   "added": "2026-11-12T10:00:37Z",
+   "also": []
+  },
+  {
+   "id": "26d811aac8",
+   "headline": "MongoDB pre-auth flaw crashes servers on failover",
+   "summary": "A critical unauthenticated vulnerability in MongoDB Server (CVE-2026-118383) allows attackers to send two requests that crash the database when it is elected to become the primary server during replica set failover. MongoDB has released patches. Administrators should apply fixes promptly to prevent denial of service attacks targeting replica set infrastructure.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-118383"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+   "published": "2026-11-12T09:25:00Z",
+   "added": "2026-11-12T10:00:37Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-118383": {
+     "kev": false
+    }
+   },
+   "cve_checked": "2026-11-12T10:00:57Z"
+  },
   {
    "id": "3773dc5512",
    "headline": "Red Hat Quay critical flaw exposes private container images",
@@ -136,7 +172,12 @@
    "url": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
    "published": "2026-11-11T20:05:18Z",
    "added": "2026-11-11T21:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/"
+    }
+   ]
   },
   {
    "id": "8cdc4a0f74",
@@ -4278,59 +4319,6 @@
    "published": "2026-10-29T11:33:15Z",
    "added": "2026-10-29T12:30:35Z",
    "also": []
-  },
-  {
-   "id": "196b1e6052",
-   "headline": "AI relay disables OpenAI Codex Claude sandboxes",
-   "summary": "A shadowy service distributes OpenAI Codex and Anthropic Claude tools to mainland China and regions where these products are unavailable, but with critical security features disabled. The relay removes key sandbox protections from AI coding tools before redistribution. This exposes users to unrestricted code execution risks. Organizations should verify AI tool provenance and ensure security controls remain active.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
-   "published": "2026-10-29T10:00:00Z",
-   "added": "2026-10-29T10:00:35Z",
-   "also": []
-  },
-  {
-   "id": "77d976efa8",
-   "headline": "Cisco Firewall VPN zero-day CVE-2026-76418 exploited",
-   "summary": "Cisco released patches for an exploited vulnerability in Secure Firewall ASA and FTD software affecting the Remote Access SSL VPN service. CVE-2026-76418 has a CVSS score of 8.6 and allows remote unauthenticated attackers to exploit the flaw. This is the second Cisco firewall zero-day exploited since August. Organizations running vulnerable Firewall ASA and FTD instances should apply patches immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-76418"
-   ],
-   "watch": [
-    "Cisco"
-   ],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
-   "published": "2026-10-29T09:47:10Z",
-   "added": "2026-10-29T10:00:35Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
-    },
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-76418": {
-     "kev": true,
-     "cvss": 8.6,
-     "sev": "high"
-    }
-   },
-   "cve_checked": "2026-10-29T10:00:36Z"
   }
  ]
 }

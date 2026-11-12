@@ -191,6 +191,10 @@
 "name": "SignalWire FreeSwitch Code Injection Vulnerability",
 "sev": "critical"
 },
+"CVE-2026-118383": {
+"date": "2026-11-12",
+"kev": false
+},
 "CVE-2026-118527": {
 "cvss": 4.3,
 "date": "2026-11-02",
@@ -609,6 +613,15 @@
 "sev": "high",
 "summary": "Russian cyber spies are conducting targeted attacks against Ukrainian organizations handling war crimes investigations and military aid logistics. The campaign uses simple malware to steal sensitive documents, credentials, and intelligence from targets near the front line and Russian border. Ukraine should enhance security monitoring at military-adjacent organizations and investigate compromised systems for data theft."
 },
+"26d811aac8": {
+"cves": [
+"CVE-2026-118383"
+],
+"date": "2026-11-12",
+"headline": "MongoDB pre-auth flaw crashes servers on failover",
+"sev": "critical",
+"summary": "A critical unauthenticated vulnerability in MongoDB Server (CVE-2026-118383) allows attackers to send two requests that crash the database when it is elected to become the primary server during replica set failover. MongoDB has released patches. Administrators should apply fixes promptly to prevent denial of service attacks targeting replica set infrastructure."
+},
 "271b83601f": {
 "cves": [],
 "date": "2026-10-28",
@@ -764,6 +777,13 @@
 "headline": "AI training on security records creates enterprise data risks",
 "sev": "high",
 "summary": "Vendors are increasingly using enterprise security records and incident archives to train their AI models, potentially exposing sensitive information. This practice creates risks for organizations that store detailed breach logs, forensic data, and security incidents in vendor systems. Enterprises should review data retention policies and vendor agreements to limit what historical security records are used for model training."
+},
+"3ca0085eba": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Threat actors abuse GSocket for persistent Linux access",
+"sev": "high",
+"summary": "Multiple threat actors are exploiting GSocket, a legitimate open-source remote access tool, to maintain persistence on Linux servers after gaining initial access through vulnerabilities. The tool's legitimate functionality allows attackers to evade detection even after patching the initial entry points. Organizations should monitor for unauthorized GSocket usage and restrict tool execution."
 },
 "3ce297811e": {
 "cves": [],
