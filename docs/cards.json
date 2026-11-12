@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T22:00:34Z",
+ "updated": "2026-11-12T22:30:36Z",
  "cards": [
   {
    "id": "e52fb1952d",
@@ -339,6 +339,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/"
     }
    ]
   },
@@ -4393,20 +4397,6 @@
      "url": "https://therecord.media/binance-hit-by-record-6-billion-crypto-hack"
     }
    ]
-  },
-  {
-   "id": "a6d0e88b74",
-   "headline": "Hugging Face malware campaign hijacks GPUs for crypto mining",
-   "summary": "A crypto-mining campaign targeting Hugging Face models returned shortly after takedown, compromising GPU servers and installing backdoors. One malicious model was downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub targets AI coding agents with NetSupport RAT installation. Organizations should vet open-source models and monitor GPU resource usage for anomalies.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-   "published": "2026-10-29T22:09:24Z",
-   "added": "2026-10-29T22:30:37Z",
-   "also": []
   }
  ]
 }
