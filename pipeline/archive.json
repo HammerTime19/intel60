@@ -2190,6 +2190,13 @@
 "sev": "critical",
 "summary": "N-able discovered 33 flaws in its N-central remote monitoring and management platform, allegedly including zero-day vulnerabilities allowing attacker takeover. The company took the platform offline and released a hotfix as a recommended mitigation. Public exploits are reportedly circulating for these vulnerabilities. Organizations using N-central should apply the hotfix immediately."
 },
+"e447c2de7d": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Kazakhstan-linked hackers use AI agent spying campaign",
+"sev": "high",
+"summary": "Suspected Kazakhstan-linked threat actors deployed an AI agent to spy on Central Asian governments, steal sensitive documents, and infiltrate critical infrastructure networks, according to security research. The campaign targets government entities and critical systems in the region. Organizations should strengthen defenses against AI-enhanced reconnaissance and implement monitoring for suspicious AI activity and data exfiltration attempts."
+},
 "e52f753455": {
 "cves": [],
 "date": "2026-11-02",

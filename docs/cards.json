@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-12T13:00:44Z",
+ "updated": "2026-11-12T13:30:41Z",
  "cards": [
+  {
+   "id": "e447c2de7d",
+   "headline": "Kazakhstan-linked hackers use AI agent spying campaign",
+   "summary": "Suspected Kazakhstan-linked threat actors deployed an AI agent to spy on Central Asian governments, steal sensitive documents, and infiltrate critical infrastructure networks, according to security research. The campaign targets government entities and critical systems in the region. Organizations should strengthen defenses against AI-enhanced reconnaissance and implement monitoring for suspicious AI activity and data exfiltration attempts.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/kazakhstan-hackers-central-asia",
+   "published": "2026-11-12T13:00:00Z",
+   "added": "2026-11-12T13:30:41Z",
+   "also": []
+  },
   {
    "id": "5af74d5ce6",
    "headline": "AMD Turin CPU flaws leak VM data cross-process",
@@ -4366,39 +4380,6 @@
    "published": "2026-10-29T13:31:00Z",
    "added": "2026-10-29T14:00:43Z",
    "also": []
-  },
-  {
-   "id": "56ef05760e",
-   "headline": "University of New Mexico hospital systems restored after cyberattack",
-   "summary": "University of New Mexico restored healthcare systems disrupted by a cyberattack that forced ambulance diversions and medical school cancellations. Systems have been restored to operation. The university advised staff and patients against contacting attackers and recommended standard incident response practices. Investigation is ongoing.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/new-mexico-cyberattack-hospital",
-   "published": "2026-10-29T13:30:00Z",
-   "added": "2026-10-29T14:00:43Z",
-   "also": []
-  },
-  {
-   "id": "1b4f07400f",
-   "headline": "BAE Systems incident hit bankruptcy courts no data extracted",
-   "summary": "BAE Systems confirmed that its incident disrupting US bankruptcy court notice systems for weeks did not result in data extraction or personal information breaches. The company disclosed no further operational impact. Courts have resumed normal operations. Organizations should monitor for follow-up disclosures on system integrity.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
-   "published": "2026-10-29T13:26:49Z",
-   "added": "2026-10-29T14:00:43Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack"
-    }
-   ]
   }
  ]
 }
