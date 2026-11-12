@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T08:30:29Z",
+ "updated": "2026-11-12T09:00:35Z",
  "cards": [
   {
    "id": "417b99b824",
@@ -150,7 +150,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
    "published": "2026-11-11T16:24:18Z",
    "added": "2026-11-11T16:30:41Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/"
+    }
+   ]
   },
   {
    "id": "9c9df925ad",
