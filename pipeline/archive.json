@@ -1001,6 +1001,13 @@
 "sev": "critical",
 "summary": "A Trezor Safe 5 hardware wallet purchased from reseller CryptoBilis contains a malicious circuit board that transmits recovery phrases via mobile network. Trezor has not yet examined the device but is urging customers who bought from CryptoBilis since March 2026 to immediately transfer funds to new wallets with fresh recovery phrases. This represents a serious supply chain compromise targeting cryptocurrency users."
 },
+"504c4dbc53": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "European bomb hoax threats originated from compromised email",
+"sev": "high",
+"summary": "Thousands of bomb threats targeting schools across Europe this week were sent from a compromised email account at a Taiwanese university. The hoax threats continue a pattern of attacks on airports and newsrooms using hijacked legitimate institutional email accounts. Investigations remain ongoing as attackers exploit trusted email sources to spread false threats at scale."
+},
 "50eb1dccf4": {
 "cves": [
 "CVE-2026-124194"
@@ -1300,6 +1307,13 @@
 "headline": "Prompt adware found in OpenAI Codex jailbreak toolkit",
 "sev": "high",
 "summary": "Check Point Research discovered Haiou, a jailbreak bundle that modifies OpenAI Codex's trusted instructions to inject advertisements for a third-party AI gateway. The technique, termed prompt adware, compromises AI agent configurations. This represents a supply-chain risk for developers using Codex. Organizations should review AI tool configurations and monitor for unauthorized instruction modifications."
+},
+"7927f7b9de": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Apify rotates API tokens after internal breach",
+"sev": "high",
+"summary": "Apify detected unauthorized access to its internal systems and took remediation steps including rotating critical secrets and revoking some third-party OAuth connections. The company also prompted users to reset two-factor authentication. No details on the scope of unauthorized data access or attacker identity have been disclosed. Users should verify account security and monitor for suspicious activity."
 },
 "7ba871700f": {
 "cves": [],

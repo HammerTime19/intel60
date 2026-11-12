@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-12T14:30:32Z",
+ "updated": "2026-11-12T15:00:40Z",
  "cards": [
+  {
+   "id": "504c4dbc53",
+   "headline": "European bomb hoax threats originated from compromised email",
+   "summary": "Thousands of bomb threats targeting schools across Europe this week were sent from a compromised email account at a Taiwanese university. The hoax threats continue a pattern of attacks on airports and newsrooms using hijacked legitimate institutional email accounts. Investigations remain ongoing as attackers exploit trusted email sources to spread false threats at scale.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/europe-hoax-email-threats",
+   "published": "2026-11-12T14:45:00Z",
+   "added": "2026-11-12T15:00:39Z",
+   "also": []
+  },
+  {
+   "id": "7927f7b9de",
+   "headline": "Apify rotates API tokens after internal breach",
+   "summary": "Apify detected unauthorized access to its internal systems and took remediation steps including rotating critical secrets and revoking some third-party OAuth connections. The company also prompted users to reset two-factor authentication. No details on the scope of unauthorized data access or attacker identity have been disclosed. Users should verify account security and monitor for suspicious activity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+   "published": "2026-11-12T14:36:47Z",
+   "added": "2026-11-12T15:00:39Z",
+   "also": []
+  },
   {
    "id": "116311b702",
    "headline": "Chrome and Firefox patch over 180 vulnerabilities",
@@ -4384,20 +4412,6 @@
    "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
    "published": "2026-10-29T15:20:29Z",
    "added": "2026-10-29T16:00:43Z",
-   "also": []
-  },
-  {
-   "id": "fcadd0dd5c",
-   "headline": "US voting machines face unpatched risks and AI influence",
-   "summary": "US elections face security vulnerabilities including unpatched voting machines, QR-coded ballots without verification mechanisms, and AI-driven influence campaigns. The analysis highlights structural weaknesses in election infrastructure that could be exploited to compromise election integrity. Defenders and election officials should prioritize patching voting systems, implementing voter-verified audit trails, and monitoring AI-generated disinformation campaigns.",
-   "severity": "critical",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
-   "published": "2026-10-29T15:00:00Z",
-   "added": "2026-10-29T15:10:17Z",
    "also": []
   }
  ]
