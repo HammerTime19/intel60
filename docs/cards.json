@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T21:00:41Z",
+ "updated": "2026-11-12T21:30:34Z",
  "cards": [
   {
    "id": "43b2bb31ce",
@@ -4420,20 +4420,6 @@
      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html"
     }
    ]
-  },
-  {
-   "id": "cbcc5cbaf6",
-   "headline": "Anthropic-themed phishing bypasses secure email gateways",
-   "summary": "Phishing emails impersonating Anthropic are evading detection by leading secure email gateway (SEG) products, despite containing obvious red flags. The campaign exploits gaps in security tool configurations or signatures. Organizations should review email filtering rules, implement additional sender authentication mechanisms, and conduct phishing awareness training to defend against credential harvesting attempts.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
-   "published": "2026-10-29T21:21:56Z",
-   "added": "2026-10-29T22:00:38Z",
-   "also": []
   }
  ]
 }
