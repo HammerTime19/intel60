@@ -811,6 +811,13 @@
 "sev": "high",
 "summary": "The FBI seized the domain of Virtualine, a bulletproof hosting provider that enabled criminal operations including hack-for-hire services, ransomware campaigns, and infostealer distribution. The service accepted cryptocurrency payments to obscure transactions. Law enforcement action disrupts infrastructure commonly used by threat actors for command and control and malware hosting."
 },
+"417b99b824": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Attacker hijacks 4,837 GitHub accounts to steal CI secrets",
+"sev": "critical",
+"summary": "An attacker compromised 4,837 GitHub accounts and injected a secret stealer into at least 1,806 repositories. The malicious code targeted CI workflow credentials and cloud secrets accessible to those pipelines. GitHub and the security community are investigating the scope of compromised repositories and affected organizations. Users should rotate compromised credentials and review repository access logs immediately."
+},
 "4197e6ee02": {
 "cves": [
 "CVE-2026-113960",

@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-12T07:00:36Z",
+ "updated": "2026-11-12T07:30:35Z",
  "cards": [
+  {
+   "id": "417b99b824",
+   "headline": "Attacker hijacks 4,837 GitHub accounts to steal CI secrets",
+   "summary": "An attacker compromised 4,837 GitHub accounts and injected a secret stealer into at least 1,806 repositories. The malicious code targeted CI workflow credentials and cloud secrets accessible to those pipelines. GitHub and the security community are investigating the scope of compromised repositories and affected organizations. Users should rotate compromised credentials and review repository access logs immediately.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+   "published": "2026-11-12T06:42:47Z",
+   "added": "2026-11-12T07:30:34Z",
+   "also": []
+  },
   {
    "id": "8b748363b7",
    "headline": "Apache HTTP/2 module critical RCE flaw CVE-2026-119618",
