@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T22:30:36Z",
+ "updated": "2026-11-12T23:00:48Z",
  "cards": [
   {
    "id": "e52fb1952d",
@@ -814,7 +814,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-12T16:31:02Z"
+   "cve_checked": "2026-11-12T23:00:40Z"
   },
   {
    "id": "b958c22720",
@@ -1059,11 +1059,11 @@
    "cve_info": {
     "CVE-2026-113960": {
      "kev": false,
-     "cvss": null,
-     "sev": null,
+     "cvss": 6.5,
+     "sev": "medium",
      "epss": 0.00181,
      "pct": 0.07737,
-     "desc": "This issue was addressed by removing the vulnerable code. This issue is fixed in iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A user added to an iMessage group may be able to access messages sent before they joined."
+     "desc": "This issue was addressed by removing the vulnerable code. This issue is fixed in HomeView Software Version 27.2, iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A user added to an iMessage group may be able to access messages sent before they joined."
     },
     "CVE-2026-113961": {
      "kev": false,
@@ -1098,7 +1098,7 @@
      "desc": "This issue was addressed by restricting options offered on a locked device. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.5 and iPadOS 26.5. An attacker with physical access may be able to pair a device with an AirPlay receiver from the lock screen."
     }
    },
-   "cve_checked": "2026-11-12T16:31:22Z"
+   "cve_checked": "2026-11-12T23:00:48Z"
   },
   {
    "id": "4271579dde",
@@ -4368,35 +4368,6 @@
     }
    },
    "cve_checked": "2026-11-03T17:30:35Z"
-  },
-  {
-   "id": "7d9fa054e5",
-   "headline": "Binance investigates potential $5.8 billion crypto theft",
-   "summary": "Binance is investigating a potential security breach involving up to $5.8 billion in digital assets. If confirmed, this would be the largest cryptocurrency hack in history. The exchange has not yet disclosed detailed information about the nature of the breach, which assets were affected, or whether customer funds were compromised. Users should monitor their accounts and enable additional security measures.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [
-    "Exchange"
-   ],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-   "published": "2026-10-29T22:45:23Z",
-   "added": "2026-10-29T23:00:37Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/binance-hit-by-record-6-billion-crypto-hack"
-    }
-   ]
   }
  ]
 }

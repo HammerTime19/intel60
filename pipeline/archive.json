@@ -134,10 +134,12 @@
 "sev": "medium"
 },
 "CVE-2026-113960": {
+"cvss": 6.5,
 "date": "2026-11-10",
-"desc": "This issue was addressed by removing the vulnerable code. This issue is fixed in iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A user added to an iMessage group may be able to access messages sent before they joined.",
+"desc": "This issue was addressed by removing the vulnerable code. This issue is fixed in HomeView Software Version 27.2, iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A user added to an iMessage group may be able to access messages sent before they joined.",
 "epss": 0.00181,
-"kev": false
+"kev": false,
+"sev": "medium"
 },
 "CVE-2026-113961": {
 "cvss": 7.5,
