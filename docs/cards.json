@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T19:00:33Z",
+ "updated": "2026-11-12T19:30:44Z",
  "cards": [
   {
    "id": "ad9757975f",
@@ -4415,20 +4415,6 @@
    "url": "https://therecord.media/general-motors-lawsuit-privacy",
    "published": "2026-10-29T19:45:00Z",
    "added": "2026-10-29T20:00:36Z",
-   "also": []
-  },
-  {
-   "id": "e692538b68",
-   "headline": "Fake Padre Terminal app steals $23K from Solana wallets",
-   "summary": "A fraudulent cryptocurrency trading app named Padre Terminal was distributed through the Apple App Store and targeted Solana wallet users. The malicious app resulted in approximately $23,000 in theft across 27 compromised wallets. Apple has since removed the application from its store. Users should verify app authenticity before installing and never grant wallet access to unverified applications.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-   "published": "2026-10-29T19:23:41Z",
-   "added": "2026-10-29T19:30:33Z",
    "also": []
   }
  ]
