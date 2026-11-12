@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T10:30:38Z",
+ "updated": "2026-11-12T10:53:40Z",
  "cards": [
   {
    "id": "3ca0085eba",
@@ -144,7 +144,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
    "published": "2026-11-11T22:56:21Z",
    "added": "2026-11-11T23:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/"
+    }
+   ]
   },
   {
    "id": "4555dea146",
