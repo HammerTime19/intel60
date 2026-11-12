@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T03:00:31Z",
+ "updated": "2026-11-12T03:30:58Z",
  "cards": [
   {
    "id": "d9fc7bca78",
@@ -397,7 +397,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-11T21:30:30Z"
+   "cve_checked": "2026-11-12T03:30:51Z"
   },
   {
    "id": "b958c22720",
@@ -681,7 +681,7 @@
      "desc": "This issue was addressed by restricting options offered on a locked device. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.5 and iPadOS 26.5. An attacker with physical access may be able to pair a device with an AirPlay receiver from the lock screen."
     }
    },
-   "cve_checked": "2026-11-11T21:30:36Z"
+   "cve_checked": "2026-11-12T03:30:58Z"
   },
   {
    "id": "4271579dde",
