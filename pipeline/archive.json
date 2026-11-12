@@ -893,6 +893,13 @@
 "sev": "critical",
 "summary": "Adobe released patches for eight critical vulnerabilities in Campaign Classic, including CVE-2026-104351 (CVSS 9.9) enabling arbitrary code execution, security bypass, and privilege escalation. No exploitation in the wild has been confirmed yet. Organizations running Campaign Classic should apply these patches immediately to prevent remote code execution attacks on email marketing infrastructure."
 },
+"43b2bb31ce": {
+"cves": [],
+"date": "2026-11-12",
+"headline": "Luna Moth extortion group retargets law firms for Microsoft tokens",
+"sev": "high",
+"summary": "Extortion group Luna Moth is conducting a second campaign against law firms that previously declined to pay ransoms. The threat actors are using social engineering tactics to steal Microsoft access tokens, potentially gaining unauthorized access to victim networks. Law firms should implement stronger access controls and educate staff on token theft techniques."
+},
 "4448a4360e": {
 "cves": [],
 "date": "2026-11-04",
