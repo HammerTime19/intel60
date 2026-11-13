@@ -852,6 +852,13 @@
 "sev": "critical",
 "summary": "An unauthenticated SQL injection vulnerability in Oracle EBS (CVE-2026-101767) is being actively probed by attackers. The flaw allows remote code execution without authentication. No patch availability or exploitation confirmation details were provided. Organizations running Oracle EBS should monitor for exploitation attempts and prioritize patch deployment when available."
 },
+"3ff055feac": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "Police arrest 354 in dark web cybercrime crackdown",
+"sev": "info",
+"summary": "Authorities arrested 354 suspects across multiple countries in a joint operation targeting vendors and buyers on dark web marketplaces including Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom. The operation focused on illegal goods and services trafficking on these platforms. No further details on specific charges or recovery amounts were disclosed."
+},
 "40a5a2749a": {
 "cves": [],
 "date": "2026-11-04",

@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-13T08:30:34Z",
+ "updated": "2026-11-13T09:00:34Z",
  "cards": [
+  {
+   "id": "3ff055feac",
+   "headline": "Police arrest 354 in dark web cybercrime crackdown",
+   "summary": "Authorities arrested 354 suspects across multiple countries in a joint operation targeting vendors and buyers on dark web marketplaces including Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom. The operation focused on illegal goods and services trafficking on these platforms. No further details on specific charges or recovery amounts were disclosed.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+   "published": "2026-11-13T08:34:20Z",
+   "added": "2026-11-13T09:00:33Z",
+   "also": []
+  },
   {
    "id": "d9f7469060",
    "headline": "PHP2Shell and privilege escalation hit Check Point Gateways",
@@ -4197,60 +4211,6 @@
      "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/"
     }
    ]
-  },
-  {
-   "id": "ad2cc061f5",
-   "headline": "Anthropic Claude VS Code extension compromised SSH backdoor",
-   "summary": "The official Anthropic Claude Code extension in the Open VSX registry was compromised to install a persistent SSH backdoor on infected developer machines. The compromise also affected the Cursor marketplace's extension service. Cursor temporarily shut down its service to remove the malware. Developers using these extensions should remove them immediately and check for unauthorized SSH access.",
-   "severity": "critical",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-   "published": "2026-10-30T08:55:47Z",
-   "added": "2026-10-30T10:30:36Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
-    },
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor"
-    }
-   ]
-  },
-  {
-   "id": "d0d43ed2d2",
-   "headline": "TeamViewer integer overflow lets hosts hijack technician machines",
-   "summary": "CVE-2026-111585, an integer overflow in TeamViewer, allows malicious hosts to execute arbitrary code on a support technician's system. The flaw enables attackers to take control of the viewer's machine during a remote support session. Organizations using TeamViewer should update to the latest patched version and verify all support sessions for suspicious activity.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-111585"
-   ],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-   "published": "2026-10-30T08:44:49Z",
-   "added": "2026-10-30T09:00:36Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-111585": {
-     "kev": false,
-     "epss": 0.00288,
-     "pct": 0.2132,
-     "cvss": 8.8,
-     "sev": "high"
-    }
-   },
-   "cve_checked": "2026-10-30T09:00:37Z"
   }
  ]
 }
