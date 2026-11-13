@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T18:31:09Z",
+ "updated": "2026-11-13T19:00:50Z",
  "cards": [
   {
    "id": "f6f4a6d64a",
@@ -250,9 +250,15 @@
    "also": [],
    "cve_info": {
     "CVE-2026-114713": {
-     "kev": true
+     "kev": true,
+     "epss": 0.00302,
+     "pct": 0.23297,
+     "cvss": 8.6,
+     "sev": "high",
+     "desc": "The labeled-response module in UnrealIRCd 6.0.0 before 6.2.7.1 does not escape the IRCv3 \"label\" message tag when echoing it into replies, which allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority."
     }
-   }
+   },
+   "cve_checked": "2026-11-13T19:00:44Z"
   },
   {
    "id": "e52fb1952d",
@@ -1104,7 +1110,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-13T12:01:11Z"
+   "cve_checked": "2026-11-13T19:00:50Z"
   },
   {
    "id": "b958c22720",
@@ -4202,20 +4208,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
    "published": "2026-10-30T21:09:46Z",
    "added": "2026-10-30T21:30:29Z",
-   "also": []
-  },
-  {
-   "id": "84a2c916c3",
-   "headline": "Fashion retailer Resolve suffers payment card data breach",
-   "summary": "Fashion retailer Resolve disclosed a breach exposing customer payment card information. The company targets Millennial and Generation Z consumers. No details were provided about the number of affected cardholders, breach timeline, or attribution. Customers should monitor accounts for unauthorized charges and consider payment card replacement.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
-   "published": "2026-10-30T19:00:00Z",
-   "added": "2026-10-30T19:30:34Z",
    "also": []
   }
  ]
