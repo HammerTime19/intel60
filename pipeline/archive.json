@@ -1371,6 +1371,13 @@
 "sev": "high",
 "summary": "Apify detected unauthorized access to its internal systems and took remediation steps including rotating critical secrets and revoking some third-party OAuth connections. The company also prompted users to reset two-factor authentication. No details on the scope of unauthorized data access or attacker identity have been disclosed. Users should verify account security and monitor for suspicious activity."
 },
+"79815295aa": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "Trezor wallets contain hardware implant stealing recovery phrases",
+"sev": "critical",
+"summary": "Trezor confirmed that three Safe 5 hardware wallets sold through reseller CryptoBilis contained unauthorized implants—extra circuit boards that intercept and exfiltrate recovery phrases via mobile networks. The company identified the tampering in lab analysis. Buyers of hardware wallets from unauthorized resellers face credential theft risk; users should purchase only from official channels and verify wallet authenticity."
+},
 "7ba871700f": {
 "cves": [],
 "date": "2026-11-11",
@@ -2362,6 +2369,13 @@
 "headline": "Iran attributed to French supermarket refrigeration cyberattacks",
 "sev": "critical",
 "summary": "French authorities linked October cyberattacks affecting over 700 supermarkets and retail locations to Iran's IRGC Shahid Kaveh cyber unit. The attacks disrupted refrigeration systems, causing food losses and triggering at least 15 fires. The same threat actor has previously targeted industrial control systems at U.S. water utilities, indicating a pattern of targeting critical infrastructure."
+},
+"e8d212e2e3": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "TSMC confirms employee data breach via cloud provider",
+"sev": "high",
+"summary": "Taiwan Semiconductor Manufacturing Company confirmed a data breach affecting employee information stored in a third-party cloud service provider, not its own systems. The breach contains no customer or operational data related to TSMC's core business. TSMC customers and supply chain partners face no direct impact; focus remediation on affected employees and cloud provider security review."
 },
 "e8eb82345a": {
 "cves": [],

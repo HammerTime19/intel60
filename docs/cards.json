@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-13T15:00:44Z",
+ "updated": "2026-11-13T15:41:43Z",
  "cards": [
+  {
+   "id": "e8d212e2e3",
+   "headline": "TSMC confirms employee data breach via cloud provider",
+   "summary": "Taiwan Semiconductor Manufacturing Company confirmed a data breach affecting employee information stored in a third-party cloud service provider, not its own systems. The breach contains no customer or operational data related to TSMC's core business. TSMC customers and supply chain partners face no direct impact; focus remediation on affected employees and cloud provider security review.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
+   "published": "2026-11-13T15:06:00Z",
+   "added": "2026-11-13T15:41:42Z",
+   "also": []
+  },
   {
    "id": "e71bf5215f",
    "headline": "Ransomware attack hits ActiveCloud customer services",
@@ -13,6 +27,20 @@
    "url": "https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack",
    "published": "2026-11-13T14:28:00Z",
    "added": "2026-11-13T15:00:44Z",
+   "also": []
+  },
+  {
+   "id": "79815295aa",
+   "headline": "Trezor wallets contain hardware implant stealing recovery phrases",
+   "summary": "Trezor confirmed that three Safe 5 hardware wallets sold through reseller CryptoBilis contained unauthorized implants—extra circuit boards that intercept and exfiltrate recovery phrases via mobile networks. The company identified the tampering in lab analysis. Buyers of hardware wallets from unauthorized resellers face credential theft risk; users should purchase only from official channels and verify wallet authenticity.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+   "published": "2026-11-13T13:54:20Z",
+   "added": "2026-11-13T15:41:42Z",
    "also": []
   },
   {
@@ -117,6 +145,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
     }
    ]
   },
@@ -4110,36 +4142,6 @@
    "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
    "published": "2026-10-30T15:54:00Z",
    "added": "2026-10-30T16:30:35Z",
-   "also": []
-  },
-  {
-   "id": "9dcdf8c175",
-   "headline": "Defense contractor pleads guilty to aiding North Korea scheme",
-   "summary": "John Allen Kurrle Jr., a defense contractor with top secret security clearance, pleaded guilty to helping North Korea's remote worker scheme. He allowed co-conspirators to use his identity for 88 job applications, resulting in nine offers at U.S. companies, including military AI contractors. The longest position lasted three weeks. The Justice Department investigation exposed North Korea's efforts to infiltrate U.S. defense and tech companies through identity fraud.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/defense-contractor-guilty-north-korea-scheme-facilitator/",
-   "published": "2026-10-30T15:14:29Z",
-   "added": "2026-10-30T15:30:33Z",
-   "also": []
-  },
-  {
-   "id": "5ec9d44a06",
-   "headline": "PHP2Shell attacks Palo Alto Networks firewalls over week",
-   "summary": "Over 22.6 million instances running PHP are exposed to critical flaws actively exploited in PHP2Shell attacks targeting Palo Alto Networks firewalls. The campaign has been ongoing for more than a week. Attacks successfully compromise Palo Alto firewalls but fail against WordPress targets. Organizations using affected PHP versions should apply security patches immediately and monitor for unauthorized access.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "Palo Alto"
-   ],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
-   "published": "2026-10-30T15:09:25Z",
-   "added": "2026-10-30T15:30:33Z",
    "also": []
   }
  ]
