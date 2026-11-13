@@ -2356,6 +2356,13 @@
 "sev": "high",
 "summary": "PostgreSQL released security updates addressing 52 vulnerabilities, including CVE-2026-6460, a 22-year-old type confusion flaw (CVSS 8.8) allowing authenticated users with object creation privileges to execute arbitrary code with database user rights. Administrators must patch PostgreSQL and rebuild any C-language extensions. This is a high-severity issue for widely deployed database systems."
 },
+"e12779d580": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "ArcticRAT malware expands to full device control with AI",
+"sev": "high",
+"summary": "ArcticRAT, an Android malware, has evolved beyond cryptocurrency theft to achieve complete device control. The cybercrime gang now uses AI to profile and analyze stolen financial information from victims. The malware's expanded capabilities represent an increased threat to mobile device security and financial data protection. Users should apply security patches and avoid installing apps from untrusted sources."
+},
 "e23f07d99f": {
 "cves": [],
 "date": "2026-11-11",

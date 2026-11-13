@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ArcticRAT malware expands to full device control with AI | Intel60</title>
+<meta name="description" content="ArcticRAT, an Android malware, has evolved beyond cryptocurrency theft to achieve complete device control. The cybercrime gang now uses AI to profile and…">
+<link rel="canonical" href="https://intel60.app/story/e12779d580">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Intel60">
+<meta property="og:title" content="ArcticRAT malware expands to full device control with AI | Intel60">
+<meta property="og:description" content="ArcticRAT, an Android malware, has evolved beyond cryptocurrency theft to achieve complete device control. The cybercrime gang now uses AI to profile and…">
+<meta property="og:url" content="https://intel60.app/story/e12779d580">
+<meta property="og:image" content="https://intel60.app/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/icons/icon-192.png">
+<script>try { const t = localStorage.getItem("intel60:theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #E7ECF0; --card: #F8FAFB; --ink: #17212B; --muted: #586572; --rule: #CBD3DB;
+  --critical: #C8102E; --high: #B86E00; --info: #3D6A99; --medium: #8A7400; --on-sev: #FFFFFF;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0F161F; --card: #18222D; --ink: #E5EAEF; --muted: #94A2AF; --rule: #2B3746;
+    --critical: #F04A5E; --high: #F0A22B; --info: #74A3D8; --medium: #E3C94F; --on-sev: #0F161F;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0F161F; --card: #18222D; --ink: #E5EAEF; --muted: #94A2AF; --rule: #2B3746;
+  --critical: #F04A5E; --high: #F0A22B; --info: #74A3D8; --medium: #E3C94F; --on-sev: #0F161F;
+  color-scheme: dark;
+}
+:root[data-theme="light"] { color-scheme: light; }
+* { box-sizing: border-box; margin: 0; }
+body { background: var(--paper); color: var(--ink); font-family: "Archivo", system-ui, sans-serif; line-height: 1.55; }
+a { color: inherit; }
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
+header.top { border-bottom: 1px solid var(--rule); }
+header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 3.75rem; }
+.logo { font-weight: 800; font-size: 1.375rem; font-variation-settings: "wdth" 75; text-decoration: none; letter-spacing: -0.01em; }
+.logo span { color: var(--critical); }
+.btn { display: inline-block; padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid var(--rule); font-weight: 700; font-size: 0.9375rem; text-decoration: none; white-space: nowrap; }
+.btn.primary { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+main { padding: 2.5rem 0 3rem; }
+.meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.875rem; font-size: 0.875rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.sev { padding: 0.25rem 0.625rem; border-radius: 6px; background: var(--sev, var(--info)); color: var(--on-sev); letter-spacing: 0.1em; }
+[data-sev="critical"] { --sev: var(--critical); } [data-sev="high"] { --sev: var(--high); }
+[data-sev="info"] { --sev: var(--info); } [data-sev="medium"] { --sev: var(--medium); }
+h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.02; font-weight: 800; font-variation-settings: "wdth" 75; margin: 1rem 0 1.25rem; letter-spacing: -0.01em; }
+.lede { font-size: 1.1875rem; line-height: 1.65; }
+section { margin-top: 2.25rem; }
+h2 { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; }
+.list { list-style: none; padding: 0; border-top: 1px solid var(--rule); }
+.list li { border-bottom: 1px solid var(--rule); padding: 0.875rem 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.375rem 0.75rem; }
+.list a { font-weight: 700; }
+.chip { font-size: 0.8125rem; font-weight: 700; padding: 0.125rem 0.5rem; border-radius: 6px; border: 1px solid var(--rule); color: var(--muted); }
+.chip.kev { border-color: var(--critical); color: var(--critical); }
+.muted { color: var(--muted); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 0.75rem; }
+.tile { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 1rem 1.125rem; }
+.tile b { display: block; font-size: 1.875rem; line-height: 1.1; font-variation-settings: "wdth" 80; }
+.tile span { font-size: 0.875rem; color: var(--muted); }
+.cta { margin-top: 2.75rem; background: var(--card); border: 1px solid var(--rule); border-radius: 14px; padding: 1.5rem; }
+.cta p { margin: 0.375rem 0 1rem; color: var(--muted); }
+.cta .row { display: flex; flex-wrap: wrap; gap: 0.625rem; }
+footer { border-top: 1px solid var(--rule); padding: 1.5rem 0 2.5rem; font-size: 0.875rem; color: var(--muted); }
+footer a { margin-right: 1rem; }
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "ArcticRAT malware expands to full device control with AI", "description": "ArcticRAT, an Android malware, has evolved beyond cryptocurrency theft to achieve complete device control. The cybercrime gang now uses AI to profile and analyze stolen financial information from victims. The malware's expanded capabilities represent an increased threat to mobile device security and financial data protection. Users should apply security patches and avoid installing apps from untrusted sources.", "datePublished": "2026-11-13T20:20:27Z", "dateModified": "2026-11-13T23:00:37Z", "url": "https://intel60.app/story/e12779d580", "image": "https://intel60.app/og-image.png", "isBasedOn": ["https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai"], "publisher": {"@type": "Organization", "name": "Intel60", "url": "https://intel60.app"}}</script>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="/">Intel<span>60</span></a>
+  <a class="btn primary" href="/">Open Intel60</a>
+</div></header>
+<main><div class="wrap">
+  <article>
+    <div class="meta"><span class="sev" data-sev="high">High</span><span>Malware</span><time datetime="2026-11-13T20:20:27Z">Nov 13, 2026</time></div>
+    <h1>ArcticRAT malware expands to full device control with AI</h1>
+    <p class="lede">ArcticRAT, an Android malware, has evolved beyond cryptocurrency theft to achieve complete device control. The cybercrime gang now uses AI to profile and analyze stolen financial information from victims. The malware&#x27;s expanded capabilities represent an increased threat to mobile device security and financial data protection. Users should apply security patches and avoid installing apps from untrusted sources.</p>
+  </article>
+  <section><h2>Source</h2><ul class="list"><li><a href="https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai" rel="noopener">Dark Reading</a><span class="muted">Read the original article</span></li></ul><p class="muted" style="margin-top:0.75rem">AI-written summary. Check the original reporting before acting.</p></section>
+  <aside class="cta">
+    <b>Every security story, in 60 words.</b>
+    <p>Intel60 turns news from 8 trusted outlets and CISA into severity-rated briefs every 30 minutes. Free, no sign-up, no ads.</p>
+    <div class="row"><a class="btn primary" href="/">Read today's briefs</a><a class="btn" href="/#alerts">Get alerts on this device</a></div>
+  </aside>
+</div></main>
+<footer><div class="wrap">
+  <a href="/">Intel60</a><a href="/#/news">News</a><a href="/cve/">All CVEs</a><a href="/#/deadlines">Patch deadlines</a><a href="/#/about">About</a>
+</div></footer>
+</body>
+</html>
