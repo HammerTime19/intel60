@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T07:30:30Z",
+ "updated": "2026-11-13T08:00:48Z",
  "items": [
   {
    "cve": "CVE-2026-124194",
@@ -175,7 +175,7 @@
    "due": "2026-11-01",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "5100bc6323"
+   "card": null
   },
   {
    "cve": "CVE-2026-76418",

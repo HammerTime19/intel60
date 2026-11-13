@@ -1,6 +1,31 @@
 {
- "updated": "2026-11-13T07:30:30Z",
+ "updated": "2026-11-13T08:00:50Z",
  "cards": [
+  {
+   "id": "d9f7469060",
+   "headline": "PHP2Shell and privilege escalation hit Check Point Gateways",
+   "summary": "Attackers exploited PHP2Shell for initial access to Check Point Gateway appliances, then used CVE-2026-123039 to escalate privileges to root. The attacks were destructive in nature. Organizations running affected Check Point Gateway instances should investigate for signs of compromise and apply available patches immediately to mitigate exploitation risk.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-123039"
+   ],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
+   "published": "2026-11-13T07:39:04Z",
+   "added": "2026-11-13T08:00:36Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-123039": {
+     "kev": false,
+     "cvss": 7.8,
+     "sev": "high",
+     "desc": "The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket) without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root."
+    }
+   },
+   "cve_checked": "2026-11-13T08:00:48Z"
+  },
   {
    "id": "e52fb1952d",
    "headline": "US seizes $1.2B from Binance theft, shuts FaceStealer",
@@ -4226,41 +4251,6 @@
     }
    },
    "cve_checked": "2026-10-30T09:00:37Z"
-  },
-  {
-   "id": "6d2a0802c4",
-   "headline": "Drupal Commerce Core authorization bypass actively exploited",
-   "summary": "Threat actors are actively exploiting CVE-2026-118539, a critical missing authorization flaw in Drupal Commerce Core. The vulnerability affects versions 0.0.0 to 2.41 and 3.0.0 to 3.3.13, allowing unauthorized actions in the shopping cart and e-commerce functionality. Organizations running affected Drupal Commerce versions should patch immediately. Monitor for suspicious account activity and unauthorized transactions.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-118539"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-   "published": "2026-10-30T07:45:30Z",
-   "added": "2026-10-30T09:00:36Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-118539": {
-     "kev": false,
-     "cvss": 6.5,
-     "sev": "medium",
-     "epss": 0.00222,
-     "pct": 0.12836
-    }
-   },
-   "cve_checked": "2026-10-30T22:00:38Z"
   }
  ]
 }

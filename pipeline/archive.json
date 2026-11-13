@@ -231,6 +231,13 @@
 "name": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
 "sev": "high"
 },
+"CVE-2026-123039": {
+"cvss": 7.8,
+"date": "2026-11-13",
+"desc": "The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket) without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+"kev": false,
+"sev": "high"
+},
 "CVE-2026-123158": {
 "cvss": 8.1,
 "date": "2026-11-08",
@@ -2210,6 +2217,15 @@
 "headline": "Japan launches emergency cybersecurity package after attack wave",
 "sev": "high",
 "summary": "Japan announced an emergency cybersecurity package following a wave of attacks targeting dozens of companies and government agencies. The incidents involved unauthorized access to systems and leaks of client data, creating widespread concern across the country. Details on affected sectors and the nature of attacks remain limited; organizations should monitor for broader attribution and coordinated campaign indicators."
+},
+"d9f7469060": {
+"cves": [
+"CVE-2026-123039"
+],
+"date": "2026-11-13",
+"headline": "PHP2Shell and privilege escalation hit Check Point Gateways",
+"sev": "critical",
+"summary": "Attackers exploited PHP2Shell for initial access to Check Point Gateway appliances, then used CVE-2026-123039 to escalate privileges to root. The attacks were destructive in nature. Organizations running affected Check Point Gateway instances should investigate for signs of compromise and apply available patches immediately to mitigate exploitation risk."
 },
 "d9fc7bca78": {
 "cves": [],
