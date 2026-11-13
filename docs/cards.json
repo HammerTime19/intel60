@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T02:00:37Z",
+ "updated": "2026-11-13T02:30:33Z",
  "cards": [
   {
    "id": "e52fb1952d",
@@ -13,7 +13,12 @@
    "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
    "published": "2026-11-12T21:42:00Z",
    "added": "2026-11-12T22:00:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/"
+    }
+   ]
   },
   {
    "id": "43b2bb31ce",
