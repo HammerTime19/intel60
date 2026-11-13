@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T15:41:43Z",
+ "updated": "2026-11-13T16:00:35Z",
  "cards": [
   {
    "id": "e8d212e2e3",
@@ -4129,20 +4129,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/"
     }
    ]
-  },
-  {
-   "id": "4bf9426962",
-   "headline": "Florida student financial aid site breach exposes 4.9M SSNs",
-   "summary": "The Florida Department of Education discovered a data breach in the Florida Student Financial Aid website on October 19, affecting 4.9 million people whose Social Security numbers were leaked. The breach exposed sensitive financial aid applicant data. The state has warned affected individuals. No information about the breach's cause, remediation timeline, or whether the website has been secured is currently available.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
-   "published": "2026-10-30T15:54:00Z",
-   "added": "2026-10-30T16:30:35Z",
-   "also": []
   }
  ]
 }
