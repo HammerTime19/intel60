@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-13T21:30:33Z",
+ "updated": "2026-11-13T21:55:05Z",
  "cards": [
+  {
+   "id": "f0f23fdb08",
+   "headline": "Artex tool automates cyberattacks at machine speed",
+   "summary": "The FBI warns that Artex, an open source hacking tool, dramatically accelerates cyberattacks by automating attack technique chaining. Some intrusions progress from initial targeting to privileged access in under three hours. The tool significantly reduces time required for attack execution. Defenders should monitor for Artex usage and implement rapid detection and response capabilities.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+   "published": "2026-11-13T21:32:00Z",
+   "added": "2026-11-13T21:55:05Z",
+   "also": []
+  },
   {
    "id": "67e222e81e",
    "headline": "Dixell refrigeration units have 14 serious root flaws",

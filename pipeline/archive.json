@@ -2517,6 +2517,13 @@
 "sev": "critical",
 "summary": "CVE-2026-35273, exploited by ShinyHunters since May, comprises three chained vulnerabilities in Oracle PeopleSoft. The root cause is a server-side request forgery (SSRF) allowing attackers to reach an internal management interface by exploiting the system's trust of its loopback address. Oracle patched all three flaws under a single CVE identifier in June. Organizations should verify PeopleSoft patches have been applied."
 },
+"f0f23fdb08": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "Artex tool automates cyberattacks at machine speed",
+"sev": "high",
+"summary": "The FBI warns that Artex, an open source hacking tool, dramatically accelerates cyberattacks by automating attack technique chaining. Some intrusions progress from initial targeting to privileged access in under three hours. The tool significantly reduces time required for attack execution. Defenders should monitor for Artex usage and implement rapid detection and response capabilities."
+},
 "f167e37bde": {
 "cves": [],
 "date": "2026-10-30",
