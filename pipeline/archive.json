@@ -2483,6 +2483,13 @@
 "sev": "info",
 "summary": "British organizations reported the highest number of cyber incidents ever to the UK's Information Commissioner's Office in 2026. Cybersecurity firms attribute the surge to increased data extortion campaigns and artificial intelligence-powered attacks. The record demonstrates escalating threats to UK entities as threat actors adopt more sophisticated and automated techniques."
 },
+"fb5ac890be": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "Mior and Skyfall attacks breach AMD SEV-SNP VMs",
+"sev": "high",
+"summary": "Researchers disclosed two attacks exploiting AMD SEV-SNP encrypted virtual machines. Mior requires hypervisor and BIOS control to read VM data and modify memory, while Skyfall needs only hypervisor access. Both bypass security guarantees designed to isolate VMs from malicious hosts. No patch availability mentioned. Organizations using SEV-SNP should investigate exploit requirements and mitigation options."
+},
 "fb65eccd75": {
 "cves": [],
 "date": "2026-11-09",

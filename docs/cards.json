@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-13T16:00:35Z",
+ "updated": "2026-11-13T16:30:37Z",
  "cards": [
+  {
+   "id": "fb5ac890be",
+   "headline": "Mior and Skyfall attacks breach AMD SEV-SNP VMs",
+   "summary": "Researchers disclosed two attacks exploiting AMD SEV-SNP encrypted virtual machines. Mior requires hypervisor and BIOS control to read VM data and modify memory, while Skyfall needs only hypervisor access. Both bypass security guarantees designed to isolate VMs from malicious hosts. No patch availability mentioned. Organizations using SEV-SNP should investigate exploit requirements and mitigation options.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+   "published": "2026-11-13T15:27:05Z",
+   "added": "2026-11-13T16:30:36Z",
+   "also": []
+  },
   {
    "id": "e8d212e2e3",
    "headline": "TSMC confirms employee data breach via cloud provider",
