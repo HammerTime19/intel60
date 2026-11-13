@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T12:30:36Z",
+ "updated": "2026-11-13T13:00:38Z",
  "cards": [
   {
    "id": "5273269960",
@@ -72,6 +72,20 @@
     }
    },
    "cve_checked": "2026-11-13T08:00:48Z"
+  },
+  {
+   "id": "f88082b891",
+   "headline": "UK reports record cyber incidents to privacy regulator",
+   "summary": "British organizations reported the highest number of cyber incidents ever to the UK's Information Commissioner's Office in 2026. Cybersecurity firms attribute the surge to increased data extortion campaigns and artificial intelligence-powered attacks. The record demonstrates escalating threats to UK entities as threat actors adopt more sophisticated and automated techniques.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator",
+   "published": "2026-11-13T00:00:00Z",
+   "added": "2026-11-13T13:00:37Z",
+   "also": []
   },
   {
    "id": "e52fb1952d",
@@ -211,7 +225,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
    "published": "2026-11-12T14:36:47Z",
    "added": "2026-11-12T15:00:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/"
+    }
+   ]
   },
   {
    "id": "116311b702",
@@ -4150,39 +4169,6 @@
    "published": "2026-10-30T13:36:12Z",
    "added": "2026-10-30T14:00:38Z",
    "also": []
-  },
-  {
-   "id": "bb609cd39a",
-   "headline": "GCHQ cannot account for thousands of data storage devices",
-   "summary": "The UK's Investigatory Powers Commissioner's Office expressed serious concern in its 2025 annual report that GCHQ has failed to account for thousands of data storage devices. The watchdog criticized the agency's slow investigation into the missing devices, indicating potential data loss risks and inadequate asset management at the intelligence agency.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
-   "published": "2026-10-30T12:52:00Z",
-   "added": "2026-10-30T13:00:39Z",
-   "also": []
-  },
-  {
-   "id": "21c20d4b75",
-   "headline": "New NetamLoader malware targets Asian government Windows systems",
-   "summary": "A previously unknown malware called NetamLoader is targeting government Windows systems in Asia. The malware abuses legitimate Microsoft software components to execute malicious code, evade security tools, and download additional payloads. NetamLoader leverages trusted system utilities to establish persistence and deliver secondary malware, making detection difficult for standard security defenses.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/hackers-target-government-windows-systems-asia-new-malware",
-   "published": "2026-10-30T12:36:00Z",
-   "added": "2026-10-30T13:00:39Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html"
-    }
-   ]
   }
  ]
 }

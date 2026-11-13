@@ -2455,6 +2455,13 @@
 "sev": "high",
 "summary": "A phishing campaign tracked as Operation CloudFire has stolen live Google sessions from corporate users since mid-August 2026. The attacker designed clean-looking calendar invite links that bypassed standard email security checks. Material Security researchers identified hundreds of malicious domains and took them down. Organizations should implement additional session validation and user awareness training."
 },
+"f88082b891": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "UK reports record cyber incidents to privacy regulator",
+"sev": "info",
+"summary": "British organizations reported the highest number of cyber incidents ever to the UK's Information Commissioner's Office in 2026. Cybersecurity firms attribute the surge to increased data extortion campaigns and artificial intelligence-powered attacks. The record demonstrates escalating threats to UK entities as threat actors adopt more sophisticated and automated techniques."
+},
 "fb65eccd75": {
 "cves": [],
 "date": "2026-11-09",
