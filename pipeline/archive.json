@@ -1096,6 +1096,13 @@
 "sev": "high",
 "summary": "A new Linux malware called CWPdoor is distributed through a trojanized version of cwpsrv, the web server component of Control Web Panel (CWP) management software. Attackers backdoor Linux servers when administrators install the compromised version. Organizations running CWP should verify their server integrity and check for unauthorized access. Update to official, uncompromised versions immediately."
 },
+"5273269960": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "SilentAir hackers intercept calls, SMS inside mobile networks",
+"sev": "critical",
+"summary": "SilentAir attackers hijacked mobile network nodes to intercept calls and SMS messages, targeting Taiwanese mobile subscribers. The vulnerability allowed threat actors to operate from inside carrier infrastructure. Enea disclosed the attack method. Mobile operators should audit network node security and monitor for unauthorized access attempts to communications infrastructure."
+},
 "53877e7ba1": {
 "cves": [],
 "date": "2026-11-09",

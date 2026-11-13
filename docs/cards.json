@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-13T12:01:13Z",
+ "updated": "2026-11-13T12:30:36Z",
  "cards": [
+  {
+   "id": "5273269960",
+   "headline": "SilentAir hackers intercept calls, SMS inside mobile networks",
+   "summary": "SilentAir attackers hijacked mobile network nodes to intercept calls and SMS messages, targeting Taiwanese mobile subscribers. The vulnerability allowed threat actors to operate from inside carrier infrastructure. Enea disclosed the attack method. Mobile operators should audit network node security and monitor for unauthorized access attempts to communications infrastructure.",
+   "severity": "critical",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
+   "published": "2026-11-13T12:20:28Z",
+   "added": "2026-11-13T12:30:35Z",
+   "also": []
+  },
   {
    "id": "8762a201a2",
    "headline": "Microsoft Windows activation fails after November patches",
@@ -4167,39 +4181,6 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html"
-    }
-   ]
-  },
-  {
-   "id": "4eafb481bf",
-   "headline": "Trezor wallet sold by CryptoBilis contains suspected hardware implant",
-   "summary": "A Trezor Safe 5 hardware wallet purchased from reseller CryptoBilis contains a malicious circuit board that transmits recovery phrases via mobile network. Trezor has not yet examined the device but is urging customers who bought from CryptoBilis since March 2026 to immediately transfer funds to new wallets with fresh recovery phrases. This represents a serious supply chain compromise targeting cryptocurrency users.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-   "published": "2026-10-30T12:21:56Z",
-   "added": "2026-10-30T12:30:37Z",
-   "also": []
-  },
-  {
-   "id": "3556a8b024",
-   "headline": "WordPress high-severity race condition enables remote code execution",
-   "summary": "A high-severity unauthenticated race condition vulnerability in WordPress is under active exploitation by threat actors. The flaw enables remote code execution without authentication. WordPress installations are widely deployed across the internet, making this a significant risk. Users should prioritize updating to the patched version immediately when available and monitor for suspicious activity on compromised sites.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
-   "published": "2026-10-30T12:04:13Z",
-   "added": "2026-10-30T12:30:37Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
     }
    ]
   }
