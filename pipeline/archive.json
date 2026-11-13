@@ -229,7 +229,7 @@
 "CVE-2026-119618": {
 "date": "2026-11-12",
 "desc": "Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in assign_headers() can lead to RCE. This issue affects Apache HTTP Server: from 2.4.55 through 2.4.70. Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42.",
-"epss": 0.00398,
+"epss": 0.00408,
 "kev": false
 },
 "CVE-2026-119977": {
