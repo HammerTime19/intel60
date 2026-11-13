@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T07:09:06Z",
+ "updated": "2026-11-13T07:30:30Z",
  "cards": [
   {
    "id": "e52fb1952d",
@@ -46,7 +46,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
    "published": "2026-11-12T19:51:16Z",
    "added": "2026-11-12T20:00:45Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/"
+    }
+   ]
   },
   {
    "id": "ad9757975f",
@@ -4256,39 +4261,6 @@
     }
    },
    "cve_checked": "2026-10-30T22:00:38Z"
-  },
-  {
-   "id": "5100bc6323",
-   "headline": "CISA adds GitLab RCE Cisco DoS to KEV catalog",
-   "summary": "CISA added two actively exploited vulnerabilities to its Known Exploited Vulnerabilities catalog: CVE-2026-97229, a CVSS 10.0 integer overflow in GitLab Community and Enterprise editions enabling remote code execution, and a Cisco firewall denial-of-service flaw. Both show evidence of active exploitation in the wild. Organizations should prioritize patching these flaws immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-97229"
-   ],
-   "watch": [
-    "Cisco"
-   ],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-   "published": "2026-10-30T07:27:05Z",
-   "added": "2026-10-30T08:00:34Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-97229": {
-     "kev": true,
-     "epss": 0.18427,
-     "pct": 0.97229,
-     "cvss": 10.0,
-     "sev": "critical"
-    }
-   },
-   "cve_checked": "2026-10-30T08:00:35Z"
   }
  ]
 }
