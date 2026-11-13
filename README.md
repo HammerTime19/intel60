@@ -80,7 +80,6 @@ Python (requests, feedparser) · GitHub Actions · GitHub Pages · Anthropic API
    - `ANTHROPIC_API_KEY`: from console.anthropic.com. Add about $5 of credit and set a spend limit.
    - `NTFY_TOPIC`: a hard-to-guess topic name for reader alerts, for example `intel60-7f3k9q2m8x`. Anyone who knows an ntfy.sh topic name can read and post to it, so treat it like a password.
    - `NTFY_ADMIN_TOPIC` (optional): a second, private topic for failure alerts and spending reports.
-   - `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` (optional, recommended for public alerts): a bot that is an admin of your Telegram channel, and the channel's `@username`. Subscribers can only read, unlike an ntfy topic. Put the channel's `https://t.me/...` link in `TELEGRAM_URL` in `docs/index.html` to show a join button in the app.
 3. **Add a variable** `AI_PROVIDER` = `anthropic`. Set it to `gemini` and add `GEMINI_API_KEY` to use Google's free tier instead.
 4. **Allow the workflow to push:** Settings > Actions > General > Workflow permissions > Read and write.
 5. **Turn on Pages:** Settings > Pages > Source: GitHub Actions.

@@ -326,29 +326,6 @@ def ntfy(title, message, priority=3, tags=None, click=None, topic_var="NTFY_TOPI
         log(f"  ! notification failed: {e}")
 
 
-TG_EMOJI = {"rotating_light": "\U0001F6A8", "warning": "⚠️", "newspaper": "\U0001F4F0"}
-
-
-def telegram(title, message, priority=3, tags=None, click=None):
-    """Posts to the readers' Telegram channel (read-only for subscribers) when the bot is configured."""
-    token, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
-    if not token or not chat:
-        return
-    emoji = next((TG_EMOJI[t] for t in (tags or []) if t in TG_EMOJI), "")
-    text = f"{emoji} <b>{html.escape(title)}</b>\n\n{html.escape(message)}".strip()
-    if click:
-        text += f'\n\n<a href="{html.escape(click, quote=True)}">Open in Intel60</a>'
-    try:
-        resp = requests.post(f"https://api.telegram.org/bot{token}/sendMessage", timeout=15, json={
-            "chat_id": chat, "text": text[:4000], "parse_mode": "HTML",
-            "disable_notification": priority <= 2, "link_preview_options": {"is_disabled": True}})
-        if not resp.ok:
-            raise requests.RequestException(f"{resp.status_code}: {resp.text[:200]}")
-        log(f"  > telegram: {title}")
-    except requests.RequestException as e:
-        log(f"  ! telegram failed: {str(e).replace(token, '***')}")
-
-
 def teams_facts(story):
     """Severity, category, CVE scores and sources for a story's Teams card."""
     facts = [{"title": "Severity", "value": story["severity"].capitalize()},
@@ -397,9 +374,8 @@ def teams(title, message, priority=3, tags=None, click=None, story=None):
 
 
 def broadcast(title, message, priority=3, tags=None, click=None, story=None, to_teams=True):
-    """Reader alerts: the ntfy news topic, the Telegram channel and the Teams chat, whichever are configured."""
+    """Reader alerts: the ntfy news topic and the Teams chat, whichever are configured."""
     ntfy(title, message, priority=priority, tags=tags, click=click)
-    telegram(title, message, priority=priority, tags=tags, click=click)
     if to_teams:
         teams(title, message, priority=priority, tags=tags, click=click, story=story)
 
@@ -673,9 +649,6 @@ def main():
     if os.environ.get("TEST_TEAMS") == "true":
         teams("Intel60 is connected", "Critical cybersecurity stories will be posted in this chat as they break, "
               "plus a 7 AM morning brief. Every story in 60 words.", tags=["newspaper"], click=app_url())
-    if os.environ.get("TEST_ALERT") == "true":
-        telegram("Intel60 alerts are live", "Critical cybersecurity stories will be posted here as they "
-                 "break, plus a 7 AM morning brief. Every story in 60 words.", tags=["newspaper"], click=app_url())
 
     state = load_json(STATE_PATH, {})
     data = load_json(CARDS_PATH, {})

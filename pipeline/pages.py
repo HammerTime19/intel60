@@ -156,7 +156,7 @@ def page(title, description, path, body, og_type="article", ld=None):
   <aside class="cta">
     <b>Every security story, in 60 words.</b>
     <p>Intel60 turns news from 8 trusted outlets and CISA into severity-rated briefs every 30 minutes. Free, no sign-up, no ads.</p>
-    <div class="row"><a class="btn primary" href="/">Read today's briefs</a><a class="btn" href="https://t.me/intel60news" rel="noopener">Critical alerts on Telegram</a></div>
+    <div class="row"><a class="btn primary" href="/">Read today's briefs</a><a class="btn" href="/#alerts">Get alerts on this device</a></div>
   </aside>
 </div></main>
 <footer><div class="wrap">
