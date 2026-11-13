@@ -1281,6 +1281,13 @@
 "sev": "info",
 "summary": "Ahmad Umar Agha, a Syrian Electronic Army member known as Th3Pr0, was sentenced to 42 months in prison for hacking Western news outlets. The conspiracy, organized by members of former Syrian President Bashar al-Assad's inner circle, included the commander of Syria's General Intelligence Directorate. Agha's attack triggered a false tweet that caused a $136 billion market drop. The case reflects state-sponsored cyber operations targeting financial markets and media infrastructure."
 },
+"67e222e81e": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "Dixell refrigeration units have 14 serious root flaws",
+"sev": "high",
+"summary": "VulnCheck researchers disclosed 14 vulnerabilities in Dixell and Copeland refrigeration supervision systems affecting supermarkets across France and Europe. The flaws have CVSS scores between 8 and 9.8, with at least two actively exploited in the wild. They grant root access to attackers. Companies running affected units are recovering from recent hacking incidents. Organizations should prioritize patching and network segmentation for internet-connected refrigeration devices."
+},
 "699d6dc9b6": {
 "cves": [],
 "date": "2026-11-03",

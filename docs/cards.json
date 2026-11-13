@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-13T21:00:33Z",
+ "updated": "2026-11-13T21:30:33Z",
  "cards": [
+  {
+   "id": "67e222e81e",
+   "headline": "Dixell refrigeration units have 14 serious root flaws",
+   "summary": "VulnCheck researchers disclosed 14 vulnerabilities in Dixell and Copeland refrigeration supervision systems affecting supermarkets across France and Europe. The flaws have CVSS scores between 8 and 9.8, with at least two actively exploited in the wild. They grant root access to attackers. Companies running affected units are recovering from recent hacking incidents. Organizations should prioritize patching and network segmentation for internet-connected refrigeration devices.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/copeland-dixell-refrigeration-vulnerabilities/",
+   "published": "2026-11-13T21:20:51Z",
+   "added": "2026-11-13T21:30:32Z",
+   "also": []
+  },
   {
    "id": "810ecd44c3",
    "headline": "City of Osaka suffers data breach affecting 1 million",
@@ -4213,20 +4227,6 @@
    "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
    "published": "2026-10-31T04:56:12Z",
    "added": "2026-10-31T06:00:33Z",
-   "also": []
-  },
-  {
-   "id": "f167e37bde",
-   "headline": "Linux kernel MPTCP flaw enables remote root attacks",
-   "summary": "Security researchers at Anthropic discovered a critical Linux kernel vulnerability in Multipath TCP (MPTCP) listeners that allows unauthenticated remote attackers to execute commands as root. The flaw affects servers running MPTCP. An exploit has been developed. Administrators should prioritize patching affected kernel versions and restrict access to MPTCP listeners until patches are deployed.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-   "published": "2026-10-30T21:09:46Z",
-   "added": "2026-10-30T21:30:29Z",
    "also": []
   }
  ]
