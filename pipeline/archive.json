@@ -1540,6 +1540,13 @@
 "sev": "high",
 "summary": "Anthropic's Claude Code assistant stores commands verbatim in project settings files when users select \"Don't ask again,\" exposing passwords and API keys. Security firm Apiiro discovered 1,122 public GitHub copies containing exposed secrets. Developers should review their Claude Code projects, disable auto-approval for sensitive commands, and rotate any exposed credentials immediately."
 },
+"810ecd44c3": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "City of Osaka suffers data breach affecting 1 million",
+"sev": "high",
+"summary": "Osaka, Japan's third-largest city, confirmed a data breach impacting approximately 1 million residents. The breach is part of a wave of cyber incidents affecting multiple Japanese organizations. Residents were advised to watch for suspicious emails impersonating the local government. The scope of compromised data and the responsible threat actor remain under investigation. Monitor for phishing attempts and credential misuse."
+},
 "82b5e1a648": {
 "cves": [],
 "date": "2026-11-10",
