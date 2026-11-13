@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-13T16:30:37Z",
+ "updated": "2026-11-13T17:00:39Z",
  "cards": [
+  {
+   "id": "f6d06bee47",
+   "headline": "German parliament approves expanded spy agency hacking powers",
+   "summary": "Germany's Bundestag passed legislation giving intelligence agencies new hacking and sabotage capabilities, marking the largest overhaul of postwar spy laws. The bill passed 308-190 with 71 abstentions, following cabinet approval months earlier. The expansion reflects evolving security concerns but faces civil liberties scrutiny.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+   "published": "2026-11-13T16:32:00Z",
+   "added": "2026-11-13T17:00:39Z",
+   "also": []
+  },
   {
    "id": "fb5ac890be",
    "headline": "Mior and Skyfall attacks breach AMD SEV-SNP VMs",
@@ -4120,29 +4134,6 @@
    "published": "2026-10-30T17:07:05Z",
    "added": "2026-10-30T17:30:34Z",
    "also": []
-  },
-  {
-   "id": "46d8d781be",
-   "headline": "Chinese hackers use AI framework ARTEX targeting 200+ organizations",
-   "summary": "Chinese state-sponsored threat actor Vapor Panda has deployed a Go-based AI-powered penetration testing framework called ARTEX against high-value targets worldwide. CrowdStrike identified the campaign targeting multiple organizations simultaneously. No patch or mitigation specifics are mentioned in available details. Organizations should enhance monitoring for ARTEX indicators and apply principle of least privilege to critical systems.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-   "published": "2026-10-30T16:58:44Z",
-   "added": "2026-10-30T18:30:33Z",
-   "also": [
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/china-vapor-panda-agentic-ai-artex-campaign-crowdstrike/"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/"
-    }
-   ]
   }
  ]
 }

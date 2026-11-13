@@ -2469,6 +2469,13 @@
 "sev": "critical",
 "summary": "CISA added CVE-2026-118527 to its Known Exploited Vulnerabilities catalog. The vulnerability in Ivanti Connect Secure allows authenticated remote attackers to upload files with attacker-controlled content to known disk locations. Exploitable in chains with two other CVEs. Federal agencies must mitigate by November 13, 2026, per BOD 26-04 guidance or discontinue use."
 },
+"f6d06bee47": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "German parliament approves expanded spy agency hacking powers",
+"sev": "info",
+"summary": "Germany's Bundestag passed legislation giving intelligence agencies new hacking and sabotage capabilities, marking the largest overhaul of postwar spy laws. The bill passed 308-190 with 71 abstentions, following cabinet approval months earlier. The expansion reflects evolving security concerns but faces civil liberties scrutiny."
+},
 "f7cf57082e": {
 "cves": [],
 "date": "2026-11-12",
