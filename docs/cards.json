@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T14:06:31Z",
+ "updated": "2026-11-13T14:22:30Z",
  "cards": [
   {
    "id": "5273269960",
@@ -4126,20 +4126,6 @@
    "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
    "published": "2026-10-30T15:09:25Z",
    "added": "2026-10-30T15:30:33Z",
-   "also": []
-  },
-  {
-   "id": "c5d4f7a3fa",
-   "headline": "Abandoned software projects expose millions of machines to takeover",
-   "summary": "A decade-old abandoned application was patched to prevent attackers from hijacking millions of machines through its unmaintained domain. Orphaned software projects with expired or inactive domains present ongoing security risks as attackers can exploit forgotten infrastructure. Organizations should audit legacy applications, revoke unused domains, and maintain inventory of all deployed software regardless of maintenance status.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
-   "published": "2026-10-30T14:10:37Z",
-   "added": "2026-10-30T14:30:40Z",
    "also": []
   }
  ]
