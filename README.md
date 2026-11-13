@@ -17,8 +17,9 @@
 - **Reads the security press for you.** Every 30 minutes it checks 8 sources (BleepingComputer, The Hacker News, SecurityWeek, Krebs on Security, Dark Reading, The Record, CyberScoop, SANS ISC) plus CISA's Known Exploited Vulnerabilities catalog.
 - **Writes a 60-word card per story.** An LLM (Claude Haiku) writes the headline and summary, rates severity (critical / high / info), assigns a category, and merges duplicate coverage when several outlets report the same incident.
 - **Adds vulnerability context.** Cards that mention CVEs show the CVSS score (NVD), the probability of exploitation in the next 30 days (FIRST EPSS), and an **Exploited** tag for CVEs on CISA's KEV list.
-- **Pushes what matters.** Critical stories, and high-severity stories that match a watchlist of vendors, go to subscribers' phones through [ntfy](https://ntfy.sh), plus a 7am morning brief. Overnight alerts arrive silently.
-- **Personal and shareable.** Each reader can set a private **My watchlist** (vendors and products, stored only on their device) to get a filtered feed with ★ tags, and every card has a share button that links straight to that story.
+- **Alerts you choose.** Readers turn on web push notifications and pick what they want: critical stories, newly exploited vulnerabilities, trending stories (3+ outlets) or stories about their watchlist vendors, as they happen or as a morning summary. No account or email: only an anonymous device subscription is stored, in a Cloudflare Worker.
+- **A page for every story and CVE.** Static story pages and CVE pages (NVD description, CVSS, EPSS, KEV status and every related story), plus a sitemap, so search engines can find them and shared links preview with their own headline.
+- **Personal and shareable.** Each reader can set a private **My watchlist** (vendors and products, stored only on their device) to get a filtered feed with ★ tags, and every card has a share button that links to that story's page.
 - **Patch deadlines.** A Deadlines tab lists every vulnerability CISA added to its exploited catalog in the last 30 days, with a countdown to the federal patch date, linked to the matching card.
 - **Trends.** A Trends tab shows the past 7 days at a glance: stories per day by severity, the most-mentioned vendors (tap one to filter the feed) and the category split.
 - **Explain mode.** Key terms in summaries (RCE, zero-day, KEV, lateral movement and more) get a dotted underline; tap one for a plain-English definition. It can be switched off in the info menu.
@@ -35,12 +36,15 @@ flowchart TD
     A --> F[Fetch 8 RSS feeds<br/>+ CISA KEV]
     F --> X[Filter: seen before, older than 48h,<br/>ads and webinars]
     X --> L[Claude Haiku: headline, 60-word summary,<br/>severity, category, duplicate check]
-    L --> E[Enrich CVEs: NVD CVSS,<br/>FIRST EPSS, CISA KEV]
+    L --> E[Enrich CVEs: NVD description and CVSS,<br/>FIRST EPSS, CISA KEV]
     E --> J[(docs/cards.json)]
-    J --> P[GitHub Pages<br/>web app]
-    E --> N[ntfy push alerts<br/>for critical stories]
+    J --> S[Story and CVE pages<br/>+ sitemap]
+    S --> P[GitHub Pages<br/>website and app]
+    P --> N[Web push alerts matched<br/>to each reader's choices]
+    W[(Cloudflare Worker:<br/>alert subscriptions)] --> N
     A -. failures, feed outages,<br/>spending reports .-> O[Private owner<br/>alert channel]
-    P --> U[Readers' phones]
+    P --> U[Readers' phones and laptops]
+    N --> U
 ```
 
 The AI runs once per story, never per reader: every phone downloads the same `cards.json`, so the cost is the same for 1 reader or 1,000. A run with no new stories makes no AI calls.
@@ -57,15 +61,18 @@ Problems I hit while running Intel60, and how I handled them:
 
 ## Tech stack
 
-Python (requests, feedparser) · GitHub Actions · GitHub Pages · Anthropic API (Claude Haiku 4.5) · NVD API · FIRST EPSS API · CISA KEV · ntfy · vanilla HTML/CSS/JS progressive web app with a service worker for offline use
+Python (requests, feedparser, pywebpush) · GitHub Actions · GitHub Pages · Cloudflare Workers + KV · Web Push (VAPID) · Anthropic API (Claude Haiku 4.5) · NVD API · FIRST EPSS API · CISA KEV · ntfy (owner alerts) · vanilla HTML/CSS/JS progressive web app with a service worker for offline use
 
 ## Project structure
 
 | Path | What it is |
 |---|---|
 | `pipeline/brief.py` | The pipeline: fetch, filter, summarize, enrich CVEs, alert, write cards |
+| `pipeline/pages.py` | Writes a static page per story and per CVE, the CVE index, `sitemap.xml` and `robots.txt` |
+| `pipeline/push.py` | Sends web push alerts after each deploy, matched to each subscriber's choices |
 | `pipeline/config.py` | Feeds, watchlist, filters, alert and budget settings |
 | `pipeline/state.json` | Stories already processed, feed health, monthly usage |
+| `worker/` | Cloudflare Worker that stores alert subscriptions (anonymous device codes and choices) |
 | `docs/index.html` | The web app |
 | `docs/sw.js` | Offline support and automatic app updates |
 | `docs/workflow.html` | Visual guide to how the pipeline works |

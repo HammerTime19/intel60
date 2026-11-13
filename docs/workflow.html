@@ -5,19 +5,29 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://intel60.goatcounter.com; connect-src 'self' https://intel60.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Intel60 Workflow</title>
+<meta name="description" content="How Intel60 works: every 30 minutes, security news becomes 60-word briefs, a page per story and CVE, and alerts matched to each reader.">
+<script>try { const t = localStorage.getItem("intel60:theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}</script>
 <style>
 :root {
   --bg: #F3F5F8; --panel: #FFFFFF; --ink: #17212B; --muted: #5A6774; --rule: #D5DCE3;
   --trigger: #64748B; --run: #2F6FB3; --source: #0E8A7E; --filter: #7A6A00;
-  --ai: #6D4FC2; --enrich: #B86E00; --store: #2E7D32; --alert: #C8102E; --admin: #475569;
+  --ai: #6D4FC2; --enrich: #B86E00; --pages: #0B7285; --store: #2E7D32; --alert: #C8102E; --admin: #475569;
+  color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0F161F; --panel: #18222D; --ink: #E5EAEF; --muted: #94A2AF; --rule: #2B3746;
     --trigger: #94A3B8; --run: #74A3D8; --source: #3CC2B3; --filter: #E3C94F;
-    --ai: #A88BFA; --enrich: #F0A22B; --store: #6CCB72; --alert: #F04A5E; --admin: #A3B1C2;
+    --ai: #A88BFA; --enrich: #F0A22B; --pages: #4CC3D9; --store: #6CCB72; --alert: #F04A5E; --admin: #A3B1C2;
   }
 }
+:root[data-theme="dark"] {
+  --bg: #0F161F; --panel: #18222D; --ink: #E5EAEF; --muted: #94A2AF; --rule: #2B3746;
+  --trigger: #94A3B8; --run: #74A3D8; --source: #3CC2B3; --filter: #E3C94F;
+  --ai: #A88BFA; --enrich: #F0A22B; --pages: #4CC3D9; --store: #6CCB72; --alert: #F04A5E; --admin: #A3B1C2;
+  color-scheme: dark;
+}
+:root[data-theme="light"] { color-scheme: light; }
 * { box-sizing: border-box; margin: 0; }
 body { background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 28px 16px 48px; }
 .wrap { max-width: 860px; margin: 0 auto; }
@@ -39,6 +49,7 @@ h1 { font-size: 28px; letter-spacing: -0.01em; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 .chip { font-size: 12.5px; padding: 3px 9px; border-radius: 6px; border: 1px solid var(--rule); }
 .note { margin-top: 10px; font-size: 13px; padding: 8px 10px; border-radius: 8px; background: color-mix(in srgb, var(--c) 10%, transparent); }
+.card a, .out a, .box a { color: inherit; }
 
 .branch { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 4px 0 14px 58px; }
 .out { background: var(--panel); border: 1px solid var(--rule); border-top: 4px solid var(--c); border-radius: 12px; padding: 12px 14px; }
@@ -51,6 +62,7 @@ h1 { font-size: 28px; letter-spacing: -0.01em; }
 .box { background: var(--panel); border: 1px solid var(--rule); border-radius: 12px; padding: 14px 16px; }
 .box h3 { font-size: 15px; margin-bottom: 6px; }
 .box li { color: var(--muted); font-size: 13.5px; margin: 3px 0 3px 18px; }
+.box.wide { grid-column: 1 / -1; }
 .key { margin-top: 22px; padding: 14px 16px; border-radius: 12px; border: 1px dashed var(--rule); color: var(--muted); }
 .key b { color: var(--ink); }
 .back {
@@ -75,11 +87,11 @@ h1 { font-size: 28px; letter-spacing: -0.01em; }
 <div class="wrap">
   <a class="back" href="./">&larr; Back to Intel60</a>
   <h1>How Intel60 works</h1>
-  <p class="lede">Every 30 minutes, a short automated run turns new security news into 60-word cards. It takes about a minute, and readers see the result the next time they open the app.</p>
+  <p class="lede">Every 30 minutes, a short automated run turns new security news into 60-word briefs, publishes a page for every story and vulnerability, and alerts readers about the stories they care about. It takes a minute or two, with no servers to run.</p>
 
   <div class="legend">
     <span><span class="pill free">FREE</span> costs nothing</span>
-    <span><span class="pill paid">PAID</span> the only step that costs money (about $3–5 a month)</span>
+    <span><span class="pill paid">PAID</span> the only step that costs money (about $2–3 a month)</span>
   </div>
 
   <div class="step" style="--c: var(--trigger)">
@@ -94,7 +106,7 @@ h1 { font-size: 28px; letter-spacing: -0.01em; }
     <div class="rail"><div class="num">2</div><div class="line"></div></div>
     <div class="card">
       <h2>⚙️ GitHub Actions starts a run <span class="pill free">FREE</span></h2>
-      <p>GitHub lends a temporary cloud computer for about a minute and runs <code>pipeline/brief.py</code>.</p>
+      <p>GitHub lends a temporary cloud computer for a minute or two. It runs the pipeline, saves the results and publishes the site.</p>
     </div>
   </div>
 
@@ -116,21 +128,21 @@ h1 { font-size: 28px; letter-spacing: -0.01em; }
     <div class="card">
       <h2>🧹 Filter out what's not new <span class="pill free">FREE</span></h2>
       <p>Drops stories it has already processed, stories older than 48 hours, and ads, webinars and promos.</p>
-      <div class="note">Usually only <b>0–5 new stories</b> are left. If there are <b>none</b>, the run stops here and costs <b>$0</b>.</div>
+      <div class="note">Usually only <b>0–5 new stories</b> are left. If there are <b>none</b>, no AI runs and the run costs <b>$0</b>.</div>
     </div>
   </div>
 
   <div class="step" style="--c: var(--ai)">
     <div class="rail"><div class="num">5</div><div class="line"></div></div>
     <div class="card">
-      <h2>🤖 Claude writes the cards <span class="pill paid">PAID</span></h2>
+      <h2>🤖 Claude writes the briefs <span class="pill paid">PAID</span></h2>
       <p>New stories go to Claude Haiku (Anthropic) in batches of up to 8. For each story it returns:</p>
       <div class="chips">
         <span class="chip">Headline (≤10 words)</span><span class="chip">60-word summary</span>
         <span class="chip">Severity: critical / high / info</span><span class="chip">Category</span>
         <span class="chip">CVE IDs</span><span class="chip">Duplicate check</span>
       </div>
-      <div class="note">About <b>$0.005 per call</b>. Each story is summarized <b>once for everyone</b>, so more readers don't cost more.</div>
+      <div class="note">When several outlets cover the same incident, they're <b>merged into one card</b>. Once <b>3 or more</b> outlets cover it, the story is marked 🔥 <b>trending</b>. Each story is summarized <b>once for everyone</b>, so more readers don't cost more.</div>
     </div>
   </div>
 
@@ -138,68 +150,94 @@ h1 { font-size: 28px; letter-spacing: -0.01em; }
     <div class="rail"><div class="num">6</div><div class="line"></div></div>
     <div class="card">
       <h2>🔍 Add vulnerability facts <span class="pill free">FREE</span></h2>
-      <p>For cards that mention CVEs, it looks up public data. New CVEs are checked again every 6 hours, because scores often arrive late.</p>
+      <p>For stories that mention CVEs, it looks up official public data, not AI guesses. New CVEs are checked again every 6 hours, because scores often arrive late.</p>
       <div class="chips">
-        <span class="chip">CVSS score (NVD)</span><span class="chip">Exploit chance (FIRST EPSS)</span><span class="chip">"Exploited" tag (CISA KEV)</span>
+        <span class="chip">What it is (NVD description)</span><span class="chip">CVSS score (NVD)</span>
+        <span class="chip">Exploit chance (FIRST EPSS)</span><span class="chip">"Exploited" tag and patch deadline (CISA KEV)</span>
       </div>
     </div>
   </div>
 
-  <div class="step" style="--c: var(--store)">
+  <div class="step" style="--c: var(--pages)">
     <div class="rail"><div class="num">7</div><div class="line"></div></div>
     <div class="card">
-      <h2>💾 Save and publish <span class="pill free">FREE</span></h2>
-      <p><code>cards.json</code> stores all current cards, the app's whole database. <code>state.json</code> is the robot's memory: what it has seen, feed health and spending. Both are saved to GitHub, and the app is republished.</p>
+      <h2>📄 Build a page for every story and CVE <span class="pill free">FREE</span></h2>
+      <p>Each story gets its own page, and each CVE gets a page combining its description, scores, exploitation status and every story that mentions it. A sitemap tells Google about all of them.</p>
+      <div class="chips">
+        <span class="chip"><a href="cve/">intel60.app/cve/</a></span><span class="chip">intel60.app/story/…</span><span class="chip">sitemap.xml</span>
+      </div>
+      <div class="note">Pages stay up after a story leaves the 2-week feed, so links from search engines and shares <b>never break</b>.</div>
     </div>
   </div>
 
-  <p class="fork">Then three things happen in parallel:</p>
+  <div class="step" style="--c: var(--store)">
+    <div class="rail"><div class="num">8</div><div class="line"></div></div>
+    <div class="card">
+      <h2>💾 Save and publish <span class="pill free">FREE</span></h2>
+      <p><code>cards.json</code> holds all current stories, the app's whole database. <code>state.json</code> is the pipeline's memory: what it has seen, feed health and spending. Both are saved to GitHub, and GitHub Pages republishes the site.</p>
+      <div class="note">If GitHub has a hiccup, saving is <b>retried automatically</b>. If publishing fails, the next run publishes again, so the site is never more than about <b>30 minutes</b> behind.</div>
+    </div>
+  </div>
+
+  <p class="fork">Once the site is live, three things happen:</p>
   <div class="branch">
     <div class="out" style="--c: var(--run)">
-      <h3>🌐 The app updates</h3>
-      <p>GitHub Pages serves the new cards. Readers open the app, which downloads <code>cards.json</code> and shows one card per screen.</p>
+      <h3>🌐 The site updates</h3>
+      <p>Readers see the new briefs on their phone or laptop. Story and CVE pages appear in search engines and show their own headline when shared.</p>
       <div class="who">Everyone</div>
     </div>
     <div class="out" style="--c: var(--alert)">
-      <h3>🔔 Phone alerts</h3>
-      <p>Critical stories and high-severity watchlist matches go out through ntfy, plus a 7 AM morning brief. Silent from 11 PM to 6 AM.</p>
-      <div class="who">News topic subscribers</div>
+      <h3>🔔 Alerts on your device</h3>
+      <p>Each new story is matched to every reader's choices, then sent as a notification. Sent only after publishing, so a tap always opens a live story.</p>
+      <div class="who">Readers who <a href="./#alerts">turned on alerts</a></div>
     </div>
     <div class="out" style="--c: var(--admin)">
       <h3>🔧 Owner reports</h3>
-      <p>Failed runs, AI errors, feeds that go down, the Monday spending report, the monthly total, and a budget alert over $8.</p>
-      <div class="who">Only you</div>
+      <p>Repeated failed runs, AI errors, feeds that go down, the Monday spending report and a budget alert over $8.</p>
+      <div class="who">Only the owner</div>
     </div>
   </div>
 
   <div class="split">
+    <div class="box wide">
+      <h3>🔔 How alerts work</h3>
+      <ul>
+        <li><b>Choose what you want:</b> critical stories, newly exploited vulnerabilities, trending stories (3+ outlets) or stories about your watchlist vendors</li>
+        <li><b>Choose when:</b> as they happen, or one summary each morning around 7 AM Eastern</li>
+        <li>Several matches at once arrive as <b>one bundled notification</b>, and the same story never alerts you twice</li>
+        <li>Delivered by your browser's own push service (Apple, Google or Mozilla): <b>no email, phone number or account</b></li>
+        <li>Only an anonymous code for your device and your choices are stored, on a small Cloudflare Worker. Turning alerts off deletes them</li>
+        <li>On iPhone, add Intel60 to your Home Screen first, then turn alerts on from there</li>
+      </ul>
+    </div>
     <div class="box">
       <h3>📱 Inside the app</h3>
       <ul>
-        <li>Swipe up for the next card</li>
-        <li>Today / Yesterday dividers and filters</li>
+        <li>On phones: swipe up for the next story; on laptops: a full website</li>
+        <li>Pick a day, or filter by severity, topic or trending</li>
+        <li>Search by vendor, CVE or keyword</li>
+        <li>My watchlist: only the vendors you run, saved on your device</li>
         <li>Deadlines: countdown to patch every exploited bug</li>
         <li>Trends: the week's busiest days and most-hit vendors</li>
-        <li>Tap a dotted term for a plain-English explanation</li>
-        <li>Search by vendor or CVE, filter by date, and see what's trending</li>
-        <li>Severity strip and 3-bar threat meter</li>
-        <li>Text shrinks so every card fits the screen</li>
-        <li>Works offline and updates itself</li>
+        <li>Tap a CVE for its own page; tap a dotted term for a plain-English explanation</li>
+        <li>Light and dark themes, works offline and updates itself</li>
       </ul>
     </div>
     <div class="box">
       <h3>🛟 When something goes wrong</h3>
       <ul>
-        <li>An AI reply can't be read: retried once immediately</li>
-        <li>Still failing: the story is retried on the next run</li>
+        <li>An AI reply can't be read: retried, then tried again next run</li>
         <li>A feed is down: the others keep working</li>
-        <li>A run crashes: alert to you, then "recovered"</li>
+        <li>GitHub has an outage: saves retry, and missed publishes catch up next run</li>
+        <li>A device uninstalls or blocks alerts: its subscription is removed automatically</li>
+        <li>Two runs in a row fail: the owner is alerted, then told when it recovers</li>
+        <li>No connection: the app shows the last saved stories and says so</li>
       </ul>
     </div>
   </div>
 
   <div class="key">
-    <b>The key idea:</b> the expensive work (Claude) happens <b>once per story</b> on GitHub's computer. Readers only download the finished result, which is why 1 reader and 1,000 readers cost the same.
+    <b>The key idea:</b> the expensive work (Claude) happens <b>once per story</b> on GitHub's computer. Readers download the finished result, and alerts are matched and sent for free, which is why 1 reader and 1,000 readers cost the same.
   </div>
 
   <a class="start" href="./">Start reading &rarr;</a>
