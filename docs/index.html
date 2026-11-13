@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://intel60.goatcounter.com; connect-src 'self' https://intel60.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://intel60.goatcounter.com; connect-src 'self' https://intel60.goatcounter.com https://intel60-push.intel60-push.workers.dev; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Intel60</title>
 <meta name="description" content="Cybersecurity news in 60 words: AI-written, severity-rated security briefs from 8 trusted sources, updated every 30 minutes.">
@@ -703,6 +703,12 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
 .sheet .fine { font-size: 0.8125rem; color: var(--muted); }
 .sheet .fine a { color: inherit; }
 .sheet .actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.choices { border: 0; padding: 0; display: grid; gap: 0.5rem; }
+.choices legend { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.375rem; }
+.choices label { display: flex; align-items: flex-start; gap: 0.75rem; padding: 0.75rem 0.875rem; border: 1px solid var(--rule); border-radius: 12px; cursor: pointer; }
+.choices label:has(input:checked) { border-color: var(--ink); }
+.choices input { margin-top: 0.2rem; accent-color: var(--critical); width: 1.0625rem; height: 1.0625rem; flex: none; }
+.choices small { display: block; color: var(--muted); font-size: 0.8125rem; margin-top: 0.125rem; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 0.375rem; text-decoration: none;
   padding: 0.625rem 1rem; border-radius: 999px; border: 1px solid var(--ink); background: transparent; color: var(--ink); font-weight: 700;
@@ -793,7 +799,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
         <kbd aria-hidden="true">/</kbd>
       </label>
       <button class="icon-btn wtheme" data-action="theme" aria-label="Switch to light theme"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button>
-      <a class="btn primary" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join">Get alerts</a>
+      <button class="btn primary" data-action="alerts" data-alerts-label>Get alerts</button>
     </div>
   </header>
 
@@ -807,7 +813,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
           <p class="lede">Intel60 reads <b>8 trusted security outlets and CISA</b> and turns every story into a <b>severity-rated, 60-word brief</b> with CVE scores, exploit odds and patch deadlines. Built for SOC analysts and anyone who needs to stay ahead.</p>
           <div class="hero-ctas">
             <a class="btn primary big" href="#/news">Read today's briefs &rarr;</a>
-            <a class="btn big" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join">Get alerts on Telegram</a>
+            <button class="btn big" data-action="alerts">Get critical alerts</button>
           </div>
         </div>
         <div class="hstats" id="hero-stats"></div>
@@ -843,7 +849,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
         <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M9 10h6"/></svg></span>
           <h3>Explain mode</h3><p>Click a dotted term like RCE or KEV for a plain-English definition.</p></div>
         <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></span>
-          <h3>Search and alerts</h3><p>Search by vendor, CVE or keyword. Critical stories reach Telegram the moment they break.</p></div>
+          <h3>Search and alerts</h3><p>Search by vendor, CVE or keyword. Get a notification for critical stories, newly exploited bugs or your own vendors.</p></div>
       </div>
     </section>
 
@@ -857,7 +863,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
         <div class="step"><h3>Filter</h3><p>Drops stories already seen, older than 48 hours, ads and webinars.</p></div>
         <div class="step"><h3>Summarize</h3><p>Claude writes the headline and 60-word brief, rates severity and merges duplicate coverage.</p></div>
         <div class="step"><h3>Enrich</h3><p>Each CVE gets its CVSS score (NVD), exploit probability (FIRST EPSS) and KEV status.</p></div>
-        <div class="step"><h3>Publish</h3><p>Cards go live here, and critical stories go out to Telegram.</p></div>
+        <div class="step"><h3>Publish</h3><p>Cards go live here, and alerts go out to the devices that asked for them.</p></div>
       </div>
     </section>
 
@@ -869,7 +875,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
           <p>Read it here, get critical alerts on your phone, or install Intel60 like an app. All free, with no account.</p>
         </div>
         <div class="cta-list">
-          <a class="cta-item" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join"><span class="ico" aria-hidden="true">&#128276;</span><span><b>Critical alerts on Telegram</b><span>Join t.me/intel60news</span></span></a>
+          <button class="cta-item" data-action="alerts"><span class="ico" aria-hidden="true">&#128276;</span><span><b>Alerts on this device</b><span>Critical stories, exploited bugs or your vendors</span></span></button>
           <div class="cta-item"><span class="ico" aria-hidden="true">&#128241;</span><span><b>Install it on your phone</b><span>Open intel60.app, then Add to Home Screen (iPhone) or Install app (Android)</span></span></div>
           <button class="cta-item" data-action="watchlist"><span class="ico" aria-hidden="true">&#9733;</span><span><b>Set up My watchlist</b><span>Only the vendors you run</span></span></button>
         </div>
@@ -939,19 +945,19 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
         <li>It skips stories it has already seen, anything older than 48 hours, and ads or webinars.</li>
         <li>Claude (Anthropic's AI model) writes each headline and 60-word summary, rates severity, assigns a category and merges duplicate coverage.</li>
         <li>Each CVE gets its CVSS score, its exploit probability and its KEV status.</li>
-        <li>The cards are published here, and critical stories are sent to Telegram.</li>
+        <li>The cards are published here, and alerts are sent to the devices that turned them on.</li>
       </ol>
       <p style="margin-top:1rem"><a href="workflow.html">See the step-by-step visual guide &rarr;</a></p>
 
       <h2>Privacy</h2>
-      <p>No accounts, no cookies and no ads. Visits are counted anonymously with GoatCounter. Your watchlist and settings are saved only in your own browser and never sent anywhere.</p>
+      <p>No accounts, no cookies and no ads. Visits are counted anonymously with GoatCounter. Your watchlist and settings are saved only in your own browser. If you turn on alerts, an anonymous code for this device and your alert choices (including watchlist vendors, if you pick them) are stored so notifications can reach you; turning alerts off deletes them.</p>
 
       <h2>Questions</h2>
       <div class="faq">
         <details><summary>Is Intel60 free?</summary><p>Yes. There's no sign-up, no paywall and no ads.</p></details>
         <details><summary>How often is it updated?</summary><p>Every 30 minutes, around the clock. The "Live" marker at the top shows when the last update ran.</p></details>
         <details><summary>Can I trust AI-written summaries?</summary><p>They're a fast way to triage, not a replacement for the source. Every card links to the original reporting, and CVE scores come straight from NVD, FIRST and CISA, not from the AI. Check the original before acting.</p></details>
-        <details><summary>How do I get alerts?</summary><p>Join the Telegram channel at t.me/intel60news. Critical stories arrive as they break, plus a morning brief at 7 AM Eastern.</p></details>
+        <details><summary>How do I get alerts?</summary><p>Choose <b>Get alerts</b> and pick what you want: critical stories, newly exploited vulnerabilities or stories about your watchlist vendors, as they happen or as one summary each morning. On iPhone, add Intel60 to your Home Screen first, then turn alerts on from there. Critical stories are also posted to the Telegram channel at t.me/intel60news.</p></details>
         <details><summary>Can I use it on my phone?</summary><p>Yes. Open intel60.app on your phone for the swipeable card app, then choose Add to Home Screen (iPhone) or Install app (Android).</p></details>
       </div>
 
@@ -989,14 +995,39 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
     <div id="install-help"></div>
     <div class="actions">
       <button class="btn" data-action="watchlist" id="watch-btn">&#9733; Set up my watchlist</button>
-      <a class="btn" id="telegram-link" target="_blank" rel="noopener" hidden>Get critical alerts on Telegram</a>
+      <button class="btn" data-action="alerts" data-alerts-label>&#128276; Get alerts</button>
     </div>
-    <p class="fine">No accounts, no cookies, no personal data: visits are counted anonymously, and your watchlist stays on this device.
+    <p class="fine">No accounts, no cookies, no personal data: visits are counted anonymously, and your watchlist stays on this device unless you turn on vendor alerts.
       <a href="workflow.html">How Intel60 works</a> &middot; Built by Kushal Mankar.</p>
     <div class="actions"><button class="btn primary" data-action="close-sheet">Start reading</button></div>
   </div>
 </dialog>
 
+<dialog class="sheet" id="alerts" aria-labelledby="alerts-title">
+  <div class="sheet-body">
+    <div>
+      <h2 id="alerts-title">Alerts</h2>
+      <p class="tagline">Get a notification on this device when a story matches what you care about.</p>
+    </div>
+    <fieldset class="choices">
+      <legend>Alert me about</legend>
+      <label><input type="checkbox" name="alert-type" value="critical" checked><span><b>Critical stories</b><small>Exploited zero-days and major breaches. A few a day.</small></span></label>
+      <label><input type="checkbox" name="alert-type" value="exploited"><span><b>Newly exploited vulnerabilities</b><small>When CISA confirms attacks in the wild.</small></span></label>
+      <label><input type="checkbox" name="alert-type" value="vendors"><span><b>My watchlist vendors</b><small id="alert-vendors">Any story that mentions them.</small></span></label>
+    </fieldset>
+    <fieldset class="choices">
+      <legend>When</legend>
+      <label><input type="radio" name="alert-when" value="instant" checked><span><b>As they happen</b></span></label>
+      <label><input type="radio" name="alert-when" value="digest"><span><b>One summary each morning</b><small>Around 7 AM Eastern.</small></span></label>
+    </fieldset>
+    <p class="fine" id="alerts-note">Your browser will ask for permission. Intel60 stores only an anonymous code for this device and your choices, never your name or email.</p>
+    <div class="actions">
+      <button class="btn primary" data-action="save-alerts" id="alerts-save">Turn on alerts</button>
+      <button class="btn" data-action="alerts-off" id="alerts-off" hidden>Turn off</button>
+      <button class="btn" data-action="close-sheet">Cancel</button>
+    </div>
+  </div>
+</dialog>
 <dialog class="sheet" id="watchlist" aria-labelledby="watchlist-title">
   <div class="sheet-body">
     <div>
@@ -1039,7 +1070,9 @@ const WELCOMED_KEY = "intel60:welcomed";
 const WATCHLIST_KEY = "intel60:watchlist";
 const THEME_KEY = "intel60:theme";
 const GOATCOUNTER = "intel60";  // GoatCounter site code, e.g. "intel60" for intel60.goatcounter.com; counting stays off while empty
-const TELEGRAM_URL = "https://t.me/intel60news";  // public channel link, e.g. https://t.me/intel60news; the button stays hidden while empty
+const PUSH_API = "https://intel60-push.intel60-push.workers.dev";  // the intel60-push Worker that stores alert subscriptions
+const VAPID_PUBLIC_KEY = "BPEDj7nCgRb1X5m-bvMEC1viFoGa-j9cPUR-GawnQRG0C2WsC9cVrkSYitEVkkzjP3XGss2e_bqOWWyQwfvHcq0";  // identifies Intel60 to browser push services; the private half is a GitHub secret
+const ALERTS_KEY = "intel60:alerts";
 const EXPLAIN_KEY = "intel60:explain";
 const SITE = matchMedia("(min-width: 48rem) and (min-height: 30rem)");  // laptop, desktop or tablet: the full website
 
@@ -1704,8 +1737,8 @@ function renderRail() {
     ? `<div class="terms">${myTerms.slice(0, 12).map((t) => `<span>${esc(t)}</span>`).join("")}</div><button class="btn" data-filter="mine">Show my stories</button>`
     : "<p>Add the vendors you run. Matching stories get a &#9733; and their own filter, saved only in this browser.</p>"}
     <button class="btn${myTerms.length ? "" : " primary"}" data-action="watchlist">${myTerms.length ? "Edit watchlist" : "Set up my watchlist"}</button></div>`);
-  boxes.push(`<div class="rbox alert"><strong>Critical alerts, as they break.</strong><p>${crit} critical stories this week. Get them on Telegram.</p>
-    <a class="btn primary" href="https://t.me/intel60news" target="_blank" rel="noopener" data-track="telegram-join">Join t.me/intel60news</a></div>`);
+  boxes.push(`<div class="rbox alert"><strong>Critical alerts, as they break.</strong><p>${crit} critical stories this week. Get a notification on this device, or only for your vendors.</p>
+    <button class="btn primary" data-action="alerts" data-alerts-label>${alertPrefs ? "&#128276; Alerts on" : "&#128276; Get alerts"}</button></div>`);
   $("web-rail").innerHTML = boxes.join("");
 }
 
@@ -1896,9 +1929,7 @@ function showWelcome() {
     : /Android/.test(ua) ? "In Chrome, tap the <b>&#8942;</b> menu, then <b>Install app</b> or <b>Add to Home screen</b>."
     : "On your phone, open this page and choose <b>Add to Home Screen</b> (iPhone) or <b>Install app</b> (Android).";
   $("install-help").innerHTML = installed ? "" : `<h3>Install it like an app</h3><p>${how}</p>`;
-  const tg = $("telegram-link");
-  tg.hidden = !TELEGRAM_URL;
-  if (TELEGRAM_URL) tg.href = TELEGRAM_URL;
+  renderAlertButtons();
   openSheet("welcome");
 }
 
@@ -1910,6 +1941,116 @@ function renderWatchChips() {
   const has = (t) => cur.some((c) => c.toLowerCase() === t.toLowerCase());
   $("watch-current").innerHTML = cur.map((t) => `<button data-remove="${esc(t)}" aria-label="Remove ${esc(t)}">${esc(t)} &#10005;</button>`).join("");
   $("watch-suggest").innerHTML = SUGGESTIONS.filter((t) => !has(t)).map((t) => `<button data-suggest="${esc(t)}">+ ${esc(t)}</button>`).join("");
+}
+
+// alerts: web push on this device, matched against the reader's choices by the pipeline
+let alertPrefs = null;  // { types, digest } once alerts are on
+try { alertPrefs = JSON.parse(localStorage.getItem(ALERTS_KEY) || "null"); } catch {}
+const pushSupported = () => "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
+const onIOS = () => /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+const fromHomeScreen = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+
+function renderAlertButtons() {
+  document.querySelectorAll("[data-alerts-label]").forEach((b) => {
+    b.innerHTML = alertPrefs ? "&#128276; Alerts on" : (b.closest(".wnav") ? "Get alerts" : "&#128276; Get alerts");
+  });
+}
+
+function showAlerts() {
+  const p = alertPrefs || { types: ["critical"], digest: false };
+  document.querySelectorAll('[name="alert-type"]').forEach((i) => { i.checked = p.types.includes(i.value); });
+  document.querySelectorAll('[name="alert-when"]').forEach((i) => { i.checked = (i.value === "digest") === p.digest; });
+  $("alert-vendors").textContent = myTerms.length
+    ? `Any story that mentions ${myTerms.slice(0, 3).join(", ")}${myTerms.length > 3 ? ` and ${myTerms.length - 3} more` : ""}.`
+    : "Set up your watchlist first, then pick this.";
+  $("alerts-note").textContent = onIOS() && !fromHomeScreen()
+    ? "On iPhone, add Intel60 to your Home Screen first (Share, then Add to Home Screen), open it from there, and turn alerts on."
+    : !pushSupported() ? "This browser can't show notifications. Try Chrome, Edge, Firefox or Safari."
+    : "Your browser will ask for permission. Intel60 stores only an anonymous code for this device and your choices, never your name or email.";
+  $("alerts-save").textContent = alertPrefs ? "Save" : "Turn on alerts";
+  $("alerts-off").hidden = !alertPrefs;
+  openSheet("alerts");
+}
+
+function pushKey(b64) {
+  const s = atob((b64 + "=".repeat((4 - (b64.length % 4)) % 4)).replace(/-/g, "+").replace(/_/g, "/"));
+  return Uint8Array.from(s, (c) => c.charCodeAt(0));
+}
+
+async function pushApi(path, body) {
+  const res = await fetch(PUSH_API + path, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  if (!res.ok) throw new Error(`push service: ${res.status}`);
+  return res.json();
+}
+
+async function currentSubscription() {
+  if (!pushSupported()) return null;
+  const reg = await navigator.serviceWorker.ready;
+  return reg.pushManager.getSubscription();
+}
+
+async function saveAlerts() {
+  const types = [...document.querySelectorAll('[name="alert-type"]:checked')].map((i) => i.value);
+  const digest = document.querySelector('[name="alert-when"]:checked')?.value === "digest";
+  if (!types.length) return toast("Pick at least one kind of alert");
+  if (types.includes("vendors") && !myTerms.length) return toast("Add vendors to your watchlist first");
+  if (!pushSupported()) return toast(onIOS() && !fromHomeScreen() ? "Add Intel60 to your Home Screen first" : "This browser can't show notifications");
+  const btn = $("alerts-save");
+  btn.disabled = true;
+  try {
+    if (await Notification.requestPermission() !== "granted") return toast("Notifications are blocked. Allow them in your browser settings.");
+    const reg = await navigator.serviceWorker.ready;
+    const sub = (await reg.pushManager.getSubscription())
+      || await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: pushKey(VAPID_PUBLIC_KEY) });
+    await pushApi("/subscribe", { subscription: sub.toJSON(), types, digest, vendors: myTerms });
+    const first = !alertPrefs;
+    alertPrefs = { types, digest };
+    try { localStorage.setItem(ALERTS_KEY, JSON.stringify(alertPrefs)); } catch {}
+    $("alerts").close();
+    renderAlertButtons();
+    toast(first ? "Alerts are on" : "Alerts updated");
+    track(digest ? "alerts-on-digest" : "alerts-on");
+  } catch {
+    toast("Couldn't turn on alerts. Please try again.");
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+async function alertsOff() {
+  try {
+    const sub = await currentSubscription();
+    if (sub) {
+      await pushApi("/unsubscribe", { endpoint: sub.endpoint }).catch(() => {});
+      await sub.unsubscribe();
+    }
+  } catch {}
+  alertPrefs = null;
+  try { localStorage.removeItem(ALERTS_KEY); } catch {}
+  $("alerts").close();
+  renderAlertButtons();
+  toast("Alerts turned off");
+  track("alerts-off");
+}
+
+// the pipeline matches vendor alerts on the server, so keep its copy of the watchlist current
+async function syncAlertVendors() {
+  if (!alertPrefs?.types.includes("vendors")) return;
+  try {
+    const sub = await currentSubscription();
+    if (sub) await pushApi("/subscribe", { subscription: sub.toJSON(), ...alertPrefs, vendors: myTerms });
+  } catch {}
+}
+
+// alerts were turned off outside the app (permission revoked or subscription dropped)
+async function checkAlerts() {
+  if (!alertPrefs) return;
+  const gone = !pushSupported() || Notification.permission !== "granted" || !(await currentSubscription().catch(() => null));
+  if (gone) {
+    alertPrefs = null;
+    try { localStorage.removeItem(ALERTS_KEY); } catch {}
+    renderAlertButtons();
+  }
 }
 
 function showWatchlist() {
@@ -1929,6 +2070,7 @@ function saveWatchlist() {
   renderFeed();
   toast(myTerms.length ? `Watching ${myTerms.length} ${myTerms.length === 1 ? "term" : "terms"}` : "Watchlist cleared");
   if (myTerms.length) track("watchlist-saved");
+  syncAlertVendors();
 }
 
 // anonymous event counts (no cookies, no personal data); does nothing until GoatCounter is set up
@@ -2007,6 +2149,9 @@ document.addEventListener("click", (e) => {
   const action = e.target.closest("[data-action]")?.dataset.action;
   if (action === "clear-search") { clearSearch(); return; }
   if (action === "watchlist") showWatchlist();
+  if (action === "alerts") showAlerts();
+  if (action === "save-alerts") saveAlerts();
+  if (action === "alerts-off") alertsOff();
   if (action === "theme") toggleTheme();
   if (action === "web-more") { webLimit += WEB_PAGE; renderWeb(); return; }
   if (action === "more-deadlines") { showAllPast = true; renderDeadlines(); return; }
@@ -2056,7 +2201,6 @@ $("web-search").addEventListener("input", (e) => {
   }, 150);
 });
 $("web-search").addEventListener("keydown", (e) => { if (e.key === "Escape") { e.target.value = ""; clearSearch(); e.target.blur(); } });
-$("telegram-link").addEventListener("click", () => track("telegram-join"));
 $("welcome").addEventListener("close", () => { try { localStorage.setItem(WELCOMED_KEY, "1"); } catch {} });
 $("brand").addEventListener("click", () => { showView("feed"); feed.scrollTo({ top: 0 }); load(); loadDeadlines(); });
 window.addEventListener("hashchange", jumpToHash);
@@ -2106,6 +2250,8 @@ if (GOATCOUNTER && (location.hostname === "intel60.app" || location.hostname.end
 }
 let welcomed = false;
 try { welcomed = !!localStorage.getItem(WELCOMED_KEY); } catch {}
+renderAlertButtons();
+checkAlerts();
 if (!welcomed && !SITE.matches) showWelcome();
 if ("serviceWorker" in navigator) {
   // reload once when an updated app version takes over, so it shows right away

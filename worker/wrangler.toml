@@ -1,0 +1,9 @@
+# Intel60 push-subscription Worker. Deploy with: npx wrangler deploy (from this folder)
+name = "intel60-push"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "SUBS"
+id = "211805b57a7946afbcc577b0722b58eb"

@@ -96,6 +96,14 @@ def save_json(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+def github_output(**values):
+    """Hands values to later workflow steps and jobs (web push runs after the deploy)."""
+    path = os.environ.get("GITHUB_OUTPUT")
+    if path:
+        with open(path, "a", encoding="utf-8") as f:
+            f.writelines(f"{k}={v}\n" for k, v in values.items())
+
+
 def app_url():
     if os.environ.get("APP_URL"):
         return os.environ["APP_URL"].rstrip("/") + "/"
@@ -538,6 +546,7 @@ def send_digest(cards, state, local):
     since = state.get("last_digest_at") or iso(now() - dt.timedelta(hours=24))
     fresh = [c for c in cards if c["added"] > since]
     state["last_digest"], state["last_digest_at"] = today, iso(now())
+    github_output(push_digest_since=since)  # web push morning summaries cover the same window
     if not fresh:
         return
     counts = {s: sum(c["severity"] == s for c in fresh) for s in SEVERITIES}
@@ -795,6 +804,7 @@ def main():
     log(f"Month to date: {usage['calls']} calls, {usage['input']:,} in / {usage['output']:,} out tokens, ${cost:.2f}")
 
     if not first_run:
+        github_output(push_ids=",".join(c["id"] for c in new_cards))
         send_alerts(new_cards, local)
         send_teams_stories(new_cards)
     send_digest(cards, state, local)

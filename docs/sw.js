@@ -1,5 +1,5 @@
 // Offline support: the app shell is cached; stories load fresh and fall back to the last copy.
-const SHELL = "intel60-shell-v7";
+const SHELL = "intel60-shell-v8";
 const ASSETS = ["./", "./index.html", "./manifest.json", "./icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
@@ -43,10 +43,12 @@ self.addEventListener("fetch", (e) => {
       fetch(e.request.url, { cache: "no-cache", credentials: "same-origin" }).then((res) => {
         if (res.ok) {
           const copy = res.clone();
-          caches.open(SHELL).then((c) => c.put(e.request, copy));  // each page cached under its own URL
+          const key = new URL(e.request.url);
+          key.search = "";  // one copy per page, whatever the query (alert taps add ?alert=...)
+          caches.open(SHELL).then((c) => c.put(key.href, copy));
         }
         return res;
-      }).catch(() => caches.match(e.request).then((hit) => hit || caches.match("./")))
+      }).catch(() => caches.match(e.request, { ignoreSearch: true }).then((hit) => hit || caches.match("./")))
     );
     return;
   }
@@ -61,4 +63,29 @@ self.addEventListener("fetch", (e) => {
       return res;
     }))
   );
+});
+
+// alerts: show the notification the pipeline sent, and open its story when tapped
+self.addEventListener("push", (e) => {
+  let msg = {};
+  try { msg = e.data ? e.data.json() : {}; } catch {}
+  e.waitUntil(self.registration.showNotification(msg.title || "Intel60", {
+    body: msg.body || "New security stories are in.",
+    icon: "icons/icon-192.png",
+    badge: "icons/icon-192.png",
+    tag: msg.tag,
+    data: { url: msg.url || "/" },
+  }));
+});
+
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  const u = new URL(e.notification.data?.url || "/", self.location.origin);
+  u.searchParams.set("alert", Date.now());  // a fresh page load, so an already open app picks up the new story
+  const url = u.href;
+  e.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((wins) => {
+    const win = wins.find((w) => new URL(w.url).origin === self.location.origin);
+    if (win) return win.navigate(url).then((w) => (w || win).focus());
+    return self.clients.openWindow(url);
+  }));
 });
