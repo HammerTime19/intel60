@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T10:30:32Z",
+ "updated": "2026-11-13T11:00:36Z",
  "cards": [
   {
    "id": "8762a201a2",
@@ -43,7 +43,12 @@
    "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
    "published": "2026-11-13T07:39:04Z",
    "added": "2026-11-13T08:00:36Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-123039": {
      "kev": false,
@@ -155,6 +160,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/"
     }
    ]
   },
@@ -4198,33 +4207,6 @@
    "published": "2026-10-30T11:30:00Z",
    "added": "2026-10-30T12:00:37Z",
    "also": []
-  },
-  {
-   "id": "6734aa3aec",
-   "headline": "Syrian hacker Th3Pr0 sentenced for fake tweet market attack",
-   "summary": "Ahmad Umar Agha, a Syrian Electronic Army member known as Th3Pr0, was sentenced to 42 months in prison for hacking Western news outlets. The conspiracy, organized by members of former Syrian President Bashar al-Assad's inner circle, included the commander of Syria's General Intelligence Directorate. Agha's attack triggered a false tweet that caused a $136 billion market drop. The case reflects state-sponsored cyber operations targeting financial markets and media infrastructure.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-   "published": "2026-10-30T10:40:45Z",
-   "added": "2026-10-30T12:30:37Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/syrian-hacker-ahmad-umar-agha-sentenced/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/"
-    }
-   ]
   }
  ]
 }
