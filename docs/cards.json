@@ -1,6 +1,58 @@
 {
- "updated": "2026-11-13T17:30:33Z",
+ "updated": "2026-11-13T18:00:42Z",
  "cards": [
+  {
+   "id": "f6f4a6d64a",
+   "headline": "Cyberattack disrupts German military drone operations",
+   "summary": "Quantum Systems, a German defense technology company, confirmed detection of a cyberattack in late October affecting its operations by hostile actors. The incident disrupted German military drone operations. No details about attacker identity, methods, or extent of impact have been disclosed.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+   "published": "2026-11-13T17:31:56Z",
+   "added": "2026-11-13T18:00:41Z",
+   "also": []
+  },
+  {
+   "id": "4c8fe02bd0",
+   "headline": "University of Texas at Arlington suffers data breach",
+   "summary": "University of Texas at Arlington confirmed personal information was stolen during a cyberattack. An investigation verified data theft occurred but details on what information was compromised remain undisclosed. No information about the attacker, attack timeline, or affected individuals has been released publicly.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
+   "published": "2026-11-13T17:26:00Z",
+   "added": "2026-11-13T18:00:41Z",
+   "also": []
+  },
+  {
+   "id": "e05f7a78ce",
+   "headline": "PostgreSQL patches 52 flaws including 22-year-old RCE bug",
+   "summary": "PostgreSQL released security updates addressing 52 vulnerabilities, including CVE-2026-6460, a 22-year-old type confusion flaw (CVSS 8.8) allowing authenticated users with object creation privileges to execute arbitrary code with database user rights. Administrators must patch PostgreSQL and rebuild any C-language extensions. This is a high-severity issue for widely deployed database systems.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-6460"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+   "published": "2026-11-13T16:53:08Z",
+   "added": "2026-11-13T18:00:41Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-6460": {
+     "kev": false,
+     "epss": 0.0059,
+     "pct": 0.48785
+    }
+   },
+   "cve_checked": "2026-11-13T18:00:42Z"
+  },
   {
    "id": "f6d06bee47",
    "headline": "German parliament approves expanded spy agency hacking powers",

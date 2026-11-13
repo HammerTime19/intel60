@@ -341,6 +341,11 @@
 "kev": false,
 "sev": "high"
 },
+"CVE-2026-6460": {
+"date": "2026-11-13",
+"epss": 0.0059,
+"kev": false
+},
 "CVE-2026-76418": {
 "cvss": 8.6,
 "date": "2026-10-29",
@@ -1014,6 +1019,13 @@
 "headline": "CVE-2026-123158 sshole exploitation rising in SSH attacks",
 "sev": "high",
 "summary": "Research from SANS Internet Storm Center honeypots shows a sharp increase in exploitation attempts for the sshole vulnerability (CVE-2026-123158) starting November 1st. Attackers are using unusually long passwords to exploit the flaw, with daily scan counts rising from 23 attempts on November 1st to 713 by November 6th. The attacks coincide with malware distribution campaigns targeting vulnerable systems. Organizations running SSH services should apply patches and monitor for exploitation attempts."
+},
+"4c8fe02bd0": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "University of Texas at Arlington suffers data breach",
+"sev": "high",
+"summary": "University of Texas at Arlington confirmed personal information was stolen during a cyberattack. An investigation verified data theft occurred but details on what information was compromised remain undisclosed. No information about the attacker, attack timeline, or affected individuals has been released publicly."
 },
 "4ca261bf7f": {
 "cves": [],
@@ -2290,6 +2302,15 @@
 "sev": "critical",
 "summary": "Two critical flaws in Xen hypervisor allow a malicious guest virtual machine to read and write memory of other VMs on the same host, including dom0. All Xen versions 4.6 and later are vulnerable. Patches are available with no known workaround. Administrators should apply patches immediately and isolate untrusted VMs until updates are deployed."
 },
+"e05f7a78ce": {
+"cves": [
+"CVE-2026-6460"
+],
+"date": "2026-11-13",
+"headline": "PostgreSQL patches 52 flaws including 22-year-old RCE bug",
+"sev": "high",
+"summary": "PostgreSQL released security updates addressing 52 vulnerabilities, including CVE-2026-6460, a 22-year-old type confusion flaw (CVSS 8.8) allowing authenticated users with object creation privileges to execute arbitrary code with database user rights. Administrators must patch PostgreSQL and rebuild any C-language extensions. This is a high-severity issue for widely deployed database systems."
+},
 "e23f07d99f": {
 "cves": [],
 "date": "2026-11-11",
@@ -2475,6 +2496,13 @@
 "headline": "German parliament approves expanded spy agency hacking powers",
 "sev": "info",
 "summary": "Germany's Bundestag passed legislation giving intelligence agencies new hacking and sabotage capabilities, marking the largest overhaul of postwar spy laws. The bill passed 308-190 with 71 abstentions, following cabinet approval months earlier. The expansion reflects evolving security concerns but faces civil liberties scrutiny."
+},
+"f6f4a6d64a": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "Cyberattack disrupts German military drone operations",
+"sev": "high",
+"summary": "Quantum Systems, a German defense technology company, confirmed detection of a cyberattack in late October affecting its operations by hostile actors. The incident disrupted German military drone operations. No details about attacker identity, methods, or extent of impact have been disclosed."
 },
 "f7cf57082e": {
 "cves": [],
