@@ -173,6 +173,12 @@
 "kev": false,
 "sev": "low"
 },
+"CVE-2026-114713": {
+"date": "2026-11-13",
+"due": "2026-11-16",
+"kev": true,
+"name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability"
+},
 "CVE-2026-116606": {
 "cvss": 9.3,
 "date": "2026-11-06",
@@ -235,7 +241,10 @@
 "cvss": 7.8,
 "date": "2026-11-13",
 "desc": "The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket) without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
-"kev": false,
+"due": "2026-11-16",
+"epss": 0.01274,
+"kev": true,
+"name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
 "sev": "high"
 },
 "CVE-2026-123158": {
@@ -1390,6 +1399,15 @@
 "sev": "critical",
 "summary": "Trezor confirmed that three Safe 5 hardware wallets sold through reseller CryptoBilis contained unauthorized implants—extra circuit boards that intercept and exfiltrate recovery phrases via mobile networks. The company identified the tampering in lab analysis. Buyers of hardware wallets from unauthorized resellers face credential theft risk; users should purchase only from official channels and verify wallet authenticity."
 },
+"79fc68065b": {
+"cves": [
+"CVE-2026-123039"
+],
+"date": "2026-11-13",
+"headline": "Check Point products get CISA KEV privilege escalation",
+"sev": "critical",
+"summary": "Check Point Firewall, Security Management Server, and related products contain an incorrect permissions assignment vulnerability in the DynamicCLI daemon. An authenticated local attacker can execute commands as root via a world-writable socket without authentication. CISA added CVE-2026-123039 to its Known Exploited Vulnerabilities catalog with a federal patching deadline of November 16. Organizations should prioritize patches per BOD 26-04 guidance."
+},
 "7ba871700f": {
 "cves": [],
 "date": "2026-11-11",
@@ -2287,6 +2305,15 @@
 "headline": "Telegram Android voice call flaw enables remote code execution",
 "sev": "critical",
 "summary": "A code execution vulnerability in Telegram for Android allowed attackers to run code on victim phones via voice calls. The attacker needed only a regular Telegram account to trigger the flaw when a user answered the call. Telegram patched the issue in version 12.10.4 released in late September and security firm NebuSec disclosed it on October 29. Users should update to version 12.10.4 or later immediately."
+},
+"dd9560d2d3": {
+"cves": [
+"CVE-2026-114713"
+],
+"date": "2026-11-13",
+"headline": "UnrealIRCd gets CISA KEV command injection flaw",
+"sev": "critical",
+"summary": "UnrealIRCd contains an improper neutralization of delimiters vulnerability allowing any user on a network with linked servers to inject server-to-server commands executed with server authority. CISA added CVE-2026-114713 to its Known Exploited Vulnerabilities catalog with a federal patching deadline of November 16. Organizations running multiple linked UnrealIRCd instances should apply vendor mitigations immediately per BOD 26-04."
 },
 "ddb9d5f06f": {
 "cves": [],
