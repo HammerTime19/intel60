@@ -384,7 +384,9 @@ SEVERITY_TAG = {"critical": "rotating_light", "high": "warning", "info": "newspa
 
 
 def send_teams_stories(new_cards):
-    """Every new story goes to the Teams chat, oldest first, so the chat reads in order."""
+    """New stories in config.TEAMS_CATEGORIES go to the Teams chat, oldest first, so the chat reads in order."""
+    if config.TEAMS_CATEGORIES:
+        new_cards = [c for c in new_cards if c["category"] in config.TEAMS_CATEGORIES]
     if not (config.TEAMS_ALL_STORIES and os.environ.get("TEAMS_WEBHOOK_URL")) or not new_cards:
         return
     base = app_url()
