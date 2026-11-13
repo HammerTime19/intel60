@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T17:00:39Z",
+ "updated": "2026-11-13T17:30:33Z",
  "cards": [
   {
    "id": "f6d06bee47",
@@ -4119,20 +4119,6 @@
    "url": "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
    "published": "2026-10-30T19:00:00Z",
    "added": "2026-10-30T19:30:34Z",
-   "also": []
-  },
-  {
-   "id": "e6861203f2",
-   "headline": "Apple sends mercenary spyware alerts to 99 countries",
-   "summary": "Apple notified users in 99 countries of potential infections from sophisticated mercenary spyware, bringing the total to over 150 countries affected since the notification campaign began. Recipients included journalists and documentary filmmakers. Apple declined to attribute attacks to specific actors or regions, citing the advanced nature of such threats. Researchers recommend caution against paid spyware removal services.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/apple-spyware-notifications-pall-mall-process/",
-   "published": "2026-10-30T17:07:05Z",
-   "added": "2026-10-30T17:30:34Z",
    "also": []
   }
  ]
