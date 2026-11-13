@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T11:30:29Z",
+ "updated": "2026-11-13T12:01:13Z",
  "cards": [
   {
    "id": "8762a201a2",
@@ -164,6 +164,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
     }
    ]
   },
@@ -235,7 +239,12 @@
    "url": "https://therecord.media/kazakhstan-hackers-central-asia",
    "published": "2026-11-12T13:00:00Z",
    "added": "2026-11-12T13:30:41Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
+    }
+   ]
   },
   {
    "id": "5af74d5ce6",
@@ -891,7 +900,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-13T05:30:50Z"
+   "cve_checked": "2026-11-13T12:01:11Z"
   },
   {
    "id": "b958c22720",
