@@ -2342,6 +2342,13 @@
 "sev": "high",
 "summary": "A fraudulent cryptocurrency trading app named Padre Terminal was distributed through the Apple App Store and targeted Solana wallet users. The malicious app resulted in approximately $23,000 in theft across 27 compromised wallets. Apple has since removed the application from its store. Users should verify app authenticity before installing and never grant wallet access to unverified applications."
 },
+"e71bf5215f": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "Ransomware attack hits ActiveCloud customer services",
+"sev": "high",
+"summary": "ActiveCloud, a Belarusian cloud infrastructure provider, suffered a ransomware attack that disrupted customer services for several days. Hackers breached the company's systems and encrypted parts of its cloud infrastructure, preventing customers from accessing key services. The incident appears to have been resolved. Customers should review access logs and consider reviewing backup and disaster recovery procedures."
+},
 "e8082cc54d": {
 "cves": [],
 "date": "2026-11-09",

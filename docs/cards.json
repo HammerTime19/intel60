@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-13T14:30:32Z",
+ "updated": "2026-11-13T15:00:44Z",
  "cards": [
+  {
+   "id": "e71bf5215f",
+   "headline": "Ransomware attack hits ActiveCloud customer services",
+   "summary": "ActiveCloud, a Belarusian cloud infrastructure provider, suffered a ransomware attack that disrupted customer services for several days. Hackers breached the company's systems and encrypted parts of its cloud infrastructure, preventing customers from accessing key services. The incident appears to have been resolved. Customers should review access logs and consider reviewing backup and disaster recovery procedures.",
+   "severity": "high",
+   "category": "Ransomware",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack",
+   "published": "2026-11-13T14:28:00Z",
+   "added": "2026-11-13T15:00:44Z",
+   "also": []
+  },
   {
    "id": "5273269960",
    "headline": "SilentAir hackers intercept calls, SMS inside mobile networks",
