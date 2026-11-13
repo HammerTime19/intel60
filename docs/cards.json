@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T13:30:29Z",
+ "updated": "2026-11-13T14:00:34Z",
  "cards": [
   {
    "id": "5273269960",
@@ -4140,34 +4140,6 @@
    "url": "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
    "published": "2026-10-30T14:10:37Z",
    "added": "2026-10-30T14:30:40Z",
-   "also": []
-  },
-  {
-   "id": "27c3e9ac81",
-   "headline": "SS7 Diameter signaling flaws enable location tracking call interception",
-   "summary": "Vulnerabilities in SS7 and Diameter signaling protocols allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising devices. The attacks exploit trust relationships between telecom networks. Organizations should implement robust defenses for mobile services and consider security-focused carriers to mitigate these signaling protocol risks.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
-   "published": "2026-10-30T14:00:10Z",
-   "added": "2026-10-30T14:30:40Z",
-   "also": []
-  },
-  {
-   "id": "4119054fab",
-   "headline": "FBI seizes bulletproof hosting provider Virtualine domain",
-   "summary": "The FBI seized the domain of Virtualine, a bulletproof hosting provider that enabled criminal operations including hack-for-hire services, ransomware campaigns, and infostealer distribution. The service accepted cryptocurrency payments to obscure transactions. Law enforcement action disrupts infrastructure commonly used by threat actors for command and control and malware hosting.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
-   "published": "2026-10-30T13:36:12Z",
-   "added": "2026-10-30T14:00:38Z",
    "also": []
   }
  ]
