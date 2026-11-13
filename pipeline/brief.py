@@ -343,13 +343,16 @@ def teams_facts(story):
     return facts
 
 
+TEAMS_EMOJI = {"rotating_light": "\U0001F6A8", "warning": "⚠️", "newspaper": "\U0001F4F0"}
+
+
 def teams(title, message, priority=3, tags=None, click=None, story=None):
     """Posts an Adaptive Card to a Microsoft Teams chat through a Teams Workflows webhook, when configured.
     With a story, the card also shows its details and links to the original article."""
     url = os.environ.get("TEAMS_WEBHOOK_URL")
     if not url:
         return
-    emoji = next((TG_EMOJI[t] for t in (tags or []) if t in TG_EMOJI), "")
+    emoji = next((TEAMS_EMOJI[t] for t in (tags or []) if t in TEAMS_EMOJI), "")
     card = {
         "$schema": "http://adaptivecards.io/schemas/adaptive-card.json", "type": "AdaptiveCard", "version": "1.4",
         "body": [

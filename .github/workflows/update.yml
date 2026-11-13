@@ -57,7 +57,11 @@ jobs:
           cache: pip
           cache-dependency-path: pipeline/requirements.txt
 
-      - run: pip install -r pipeline/requirements.txt
+      - run: pip install -r pipeline/requirements.txt pyflakes==3.4.0
+
+      # catches typos and leftover names (like a deleted variable) before anything is sent or saved
+      - name: Check the pipeline code
+        run: python -m pyflakes pipeline/
 
       - name: Fetch and summarize news
         id: brief
