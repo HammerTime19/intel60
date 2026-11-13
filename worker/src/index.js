@@ -6,7 +6,7 @@
 
 const ORIGINS = ["https://intel60.app", "http://localhost:8773"];
 const PUSH_HOSTS = [/(^|\.)googleapis\.com$/, /(^|\.)mozilla\.com$/, /(^|\.)push\.apple\.com$/, /(^|\.)notify\.windows\.com$/];
-const TYPES = ["critical", "exploited", "vendors"];
+const TYPES = ["critical", "exploited", "trending", "vendors"];
 const MAX_METADATA = 1024;  // KV limit per key
 
 export default {

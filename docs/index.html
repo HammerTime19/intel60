@@ -957,7 +957,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
         <details><summary>Is Intel60 free?</summary><p>Yes. There's no sign-up, no paywall and no ads.</p></details>
         <details><summary>How often is it updated?</summary><p>Every 30 minutes, around the clock. The "Live" marker at the top shows when the last update ran.</p></details>
         <details><summary>Can I trust AI-written summaries?</summary><p>They're a fast way to triage, not a replacement for the source. Every card links to the original reporting, and CVE scores come straight from NVD, FIRST and CISA, not from the AI. Check the original before acting.</p></details>
-        <details><summary>How do I get alerts?</summary><p>Choose <b>Get alerts</b> and pick what you want: critical stories, newly exploited vulnerabilities or stories about your watchlist vendors, as they happen or as one summary each morning. On iPhone, add Intel60 to your Home Screen first, then turn alerts on from there. Critical stories are also posted to the Telegram channel at t.me/intel60news.</p></details>
+        <details><summary>How do I get alerts?</summary><p>Choose <b>Get alerts</b> and pick what you want: critical stories, newly exploited vulnerabilities, trending stories or stories about your watchlist vendors, as they happen or as one summary each morning. On iPhone, add Intel60 to your Home Screen first, then turn alerts on from there. Critical stories are also posted to the Telegram channel at t.me/intel60news.</p></details>
         <details><summary>Can I use it on my phone?</summary><p>Yes. Open intel60.app on your phone for the swipeable card app, then choose Add to Home Screen (iPhone) or Install app (Android).</p></details>
       </div>
 
@@ -1013,6 +1013,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
       <legend>Alert me about</legend>
       <label><input type="checkbox" name="alert-type" value="critical" checked><span><b>Critical stories</b><small>Exploited zero-days and major breaches. A few a day.</small></span></label>
       <label><input type="checkbox" name="alert-type" value="exploited"><span><b>Newly exploited vulnerabilities</b><small>When CISA confirms attacks in the wild.</small></span></label>
+      <label><input type="checkbox" name="alert-type" value="trending"><span><b>Trending stories</b><small>When 3 or more outlets are covering the same story.</small></span></label>
       <label><input type="checkbox" name="alert-type" value="vendors"><span><b>My watchlist vendors</b><small id="alert-vendors">Any story that mentions them.</small></span></label>
     </fieldset>
     <fieldset class="choices">

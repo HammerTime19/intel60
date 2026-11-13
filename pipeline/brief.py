@@ -720,6 +720,7 @@ def main():
     usage.setdefault("cards", 0)
     price_in, price_out = config.PRICES.get(ai, (0, 0))
     new_cards = []
+    trending_now = []  # existing cards that reached config.TRENDING_SOURCES outlets this run
     ai_errors = []
 
     for start in range(0, len(queue), config.BATCH_SIZE):
@@ -760,6 +761,8 @@ def main():
             if target:
                 if it["source"] != target["source"] and all(a["source"] != it["source"] for a in target["also"]):
                     target["also"].append({"source": it["source"], "url": it["url"]})
+                    if 1 + len(target["also"]) == config.TRENDING_SOURCES:
+                        trending_now.append(target["id"])  # just became trending: web push can alert on it
                 continue
             headline, summary = clean(r.get("headline"), 120), clean(r.get("summary"), 700)
             if not headline or not summary:
@@ -804,7 +807,7 @@ def main():
     log(f"Month to date: {usage['calls']} calls, {usage['input']:,} in / {usage['output']:,} out tokens, ${cost:.2f}")
 
     if not first_run:
-        github_output(push_ids=",".join(c["id"] for c in new_cards))
+        github_output(push_ids=",".join(c["id"] for c in new_cards), push_trending=",".join(trending_now))
         send_alerts(new_cards, local)
         send_teams_stories(new_cards)
     send_digest(cards, state, local)

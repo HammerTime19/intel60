@@ -1,7 +1,7 @@
 """Intel60 web push alerts.
 
 Runs after the site is deployed, so a tapped notification always opens a live story.
-Reads the new card ids (PUSH_IDS) and, once a day, the morning-summary window (PUSH_DIGEST_SINCE)
+Reads the new card ids (PUSH_IDS), stories that just became trending (PUSH_TRENDING) and, once a day, the morning-summary window (PUSH_DIGEST_SINCE)
 from the update job, matches them against each subscriber's choices, and sends notifications.
 Subscribers whose browser has dropped the subscription are removed.
 """
@@ -14,6 +14,8 @@ from pathlib import Path
 
 import requests
 from pywebpush import WebPushException, webpush
+
+import config
 
 ROOT = Path(__file__).resolve().parent.parent
 CARDS_PATH = ROOT / "docs" / "cards.json"
@@ -38,54 +40,66 @@ def exploited(card):
     return any(v.get("kev") for v in (card.get("cve_info") or {}).values())
 
 
-def matches(card, sub):
+def outlets(card):
+    return 1 + len(card.get("also") or [])
+
+
+def reason(card, sub, trending=False):
+    """Why this story should alert this subscriber ("Critical", "Exploited", "Watchlist", "Trending"), or None."""
     text = f"{card['headline']} {card['summary']}"
-    return (("critical" in sub["t"] and card["severity"] == "critical")
-            or ("exploited" in sub["t"] and exploited(card))
-            or ("vendors" in sub["t"] and any(re.search(rf"(^|[^\w]){re.escape(v)}(?![\w])", text, re.I) for v in sub.get("v", []))))
-
-
-def label(card):
-    if card["severity"] == "critical":
+    if "critical" in sub["t"] and card["severity"] == "critical":
         return "Critical"
-    return "Exploited" if exploited(card) else "Watchlist"
+    if "exploited" in sub["t"] and exploited(card):
+        return "Exploited"
+    if "vendors" in sub["t"] and any(re.search(rf"(^|[^\w]){re.escape(v)}(?![\w])", text, re.I) for v in sub.get("v", [])):
+        return "Watchlist"
+    if "trending" in sub["t"] and trending:
+        return "Trending"
+    return None
 
 
-def messages(cards, digest=False):
-    """One notification per story, or one bundle when there are several."""
-    cards = sorted(cards, key=lambda c: c["published"], reverse=True)
-    cards.sort(key=lambda c: c["severity"] != "critical")  # stable: critical first, newest first
+def messages(items, digest=False):
+    """items: (card, reason) pairs. One notification per story, or one bundle when there are several."""
+    items = sorted(items, key=lambda i: i[0]["published"], reverse=True)
+    items.sort(key=lambda i: i[0]["severity"] != "critical")  # stable: critical first, newest first
+    lines = "\n".join("• " + c["headline"] for c, _ in items[:3])
     if digest:
-        return [{"title": f"Morning brief: {len(cards)} {'story' if len(cards) == 1 else 'stories'} for you",
-                 "body": "\n".join("• " + c["headline"] for c in cards[:3]), "url": "/#/news", "tag": "intel60-digest"}]
-    if len(cards) > BUNDLE_AFTER:
-        return [{"title": f"{len(cards)} new alerts on Intel60",
-                 "body": "\n".join("• " + c["headline"] for c in cards[:3]), "url": "/#/news", "tag": "intel60-bundle"}]
-    return [{"title": f"{label(c)}: {c['headline']}", "body": c["summary"], "url": f"/#{c['id']}", "tag": f"intel60-{c['id']}"}
-            for c in cards]
+        return [{"title": f"Morning brief: {len(items)} {'story' if len(items) == 1 else 'stories'} for you",
+                 "body": lines, "url": "/#/news", "tag": "intel60-digest"}]
+    if len(items) > BUNDLE_AFTER:
+        return [{"title": f"{len(items)} new alerts on Intel60", "body": lines, "url": "/#/news", "tag": "intel60-bundle"}]
+    return [{"title": f"{why}: {c['headline']}",
+             "body": (f"🔥 Covered by {outlets(c)} outlets. " if why == "Trending" else "") + c["summary"],
+             "url": f"/#{c['id']}", "tag": f"intel60-{c['id']}"}
+            for c, why in items]
 
 
 def main():
-    ids = [i for i in os.environ.get("PUSH_IDS", "").split(",") if i]
+    ids = {i for i in os.environ.get("PUSH_IDS", "").split(",") if i}
+    trending_ids = {i for i in os.environ.get("PUSH_TRENDING", "").split(",") if i}
     digest_since = os.environ.get("PUSH_DIGEST_SINCE", "")
-    if not (ids or digest_since):
+    if not (ids or trending_ids or digest_since):
         return log("push: nothing to send")
     if not (PUSH_API and os.environ.get("PUSH_ADMIN_TOKEN") and os.environ.get("VAPID_PRIVATE_KEY")):
         return log("push: not configured (PUSH_API, PUSH_ADMIN_TOKEN, VAPID_PRIVATE_KEY)")
 
     cards = json.loads(CARDS_PATH.read_text(encoding="utf-8"))["cards"]
-    new = [c for c in cards if c["id"] in set(ids)]
+    new = [c for c in cards if c["id"] in ids]
+    newly_trending = [c for c in cards if c["id"] in trending_ids and c["id"] not in ids]
     recent = [c for c in cards if digest_since and c["added"] > digest_since]
     subs = admin("GET", "/list")["subscriptions"]
-    log(f"push: {len(new)} new cards, {len(recent) if digest_since else 0} for the summary, {len(subs)} subscribers")
+    log(f"push: {len(new)} new cards, {len(newly_trending)} newly trending, "
+        f"{len(recent) if digest_since else 0} for the summary, {len(subs)} subscribers")
 
     sent, dead = 0, []
     for sub in subs:
         if sub.get("d"):  # morning summary only
-            mine = [c for c in recent if matches(c, sub)] if digest_since else []
-            batch = messages(mine, digest=True) if mine else []
+            mine = [(c, r) for c in recent if (r := reason(c, sub, trending=outlets(c) >= config.TRENDING_SOURCES))]
+            batch = messages(mine, digest=True) if mine and digest_since else []
         else:
-            mine = [c for c in new if matches(c, sub)]
+            mine = [(c, r) for c in new if (r := reason(c, sub, trending=c["id"] in trending_ids))]
+            # an older story that just became trending; skip it if it already alerted as critical, exploited or watchlist
+            mine += [(c, "Trending") for c in newly_trending if reason(c, sub, trending=True) == "Trending"]
             batch = messages(mine) if mine else []
         for msg in batch:
             try:
