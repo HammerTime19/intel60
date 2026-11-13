@@ -216,6 +216,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .feat svg { width: 1.375rem; height: 1.375rem; }
   .feat h3 { font-size: 1.25rem; font-weight: 800; font-variation-settings: "wdth" 74; margin: 1rem 0 0.375rem; }
   .feat p { color: var(--muted); line-height: 1.55; font-size: 1.0625rem; }
+  .feat p a { color: var(--ink); font-weight: 700; }
   .steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.25rem; counter-reset: step; }
   .step { position: relative; background: var(--card); border: 1px solid var(--rule); border-radius: 1.25rem; padding: 1.5rem 1.25rem; }
   .step::before { counter-increment: step; content: "0" counter(step); font-size: 0.8125rem; font-weight: 800; letter-spacing: 0.12em; color: var(--critical); }
@@ -831,13 +832,13 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
     <section class="wrap sec reveal" aria-labelledby="feat-title">
       <div class="sec-head">
         <div><p class="kicker">What it does</p><h2 id="feat-title">Built for how defenders read</h2></div>
-        <p>No sign-up, no ads, no paywall. Your watchlist and settings stay in your browser.</p>
+        <p>No sign-up, no ads, no paywall. Your watchlist and settings stay in your browser, and alerts need no email or account.</p>
       </div>
       <div class="feats">
         <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17.5v.01"/></svg></span>
           <h3>Severity first</h3><p>Every story is rated Critical, High or Info with a threat meter, so priorities are clear at a glance.</p></div>
         <div class="feat" style="--c:var(--high)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span>
-          <h3>CVE context</h3><p>CVSS from NVD, exploit probability from FIRST EPSS, and an Exploited tag for bugs on CISA's KEV list.</p></div>
+          <h3>CVE context</h3><p>CVSS from NVD, exploit probability from FIRST EPSS, and an Exploited tag for bugs on CISA's KEV list. Every CVE has <a href="cve/">its own page</a>.</p></div>
         <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="12" height="13" rx="2"/><path d="M8 4h11a2 2 0 0 1 2 2v11"/></svg></span>
           <h3>Duplicates merged</h3><p>When five outlets cover the same breach, you get one card that links to all of them.</p></div>
         <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg></span>
@@ -845,7 +846,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
         <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>
           <h3>Trends</h3><p>The week at a glance: the busiest days, the most-hit vendors and the most-covered stories.</p></div>
         <div class="feat" style="--c:var(--high)"><span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></span>
-          <h3>My watchlist</h3><p>Add the vendors you run. Matching stories get a &#9733; and their own filter.</p></div>
+          <h3>My watchlist</h3><p>Add the vendors you run. Matching stories get a &#9733;, their own filter and, if you like, their own alerts.</p></div>
         <div class="feat" style="--c:var(--info)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M9 10h6"/></svg></span>
           <h3>Explain mode</h3><p>Click a dotted term like RCE or KEV for a plain-English definition.</p></div>
         <div class="feat" style="--c:var(--critical)"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></span>
@@ -862,7 +863,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
         <div class="step"><h3>Collect</h3><p>8 security outlets and CISA's Known Exploited Vulnerabilities catalog.</p></div>
         <div class="step"><h3>Filter</h3><p>Drops stories already seen, older than 48 hours, ads and webinars.</p></div>
         <div class="step"><h3>Summarize</h3><p>Claude writes the headline and 60-word brief, rates severity and merges duplicate coverage.</p></div>
-        <div class="step"><h3>Enrich</h3><p>Each CVE gets its CVSS score (NVD), exploit probability (FIRST EPSS) and KEV status.</p></div>
+        <div class="step"><h3>Enrich</h3><p>Each CVE gets its NVD description and CVSS score, exploit probability (FIRST EPSS), KEV status and its own page.</p></div>
         <div class="step"><h3>Publish</h3><p>Cards go live here, and alerts go out to the devices that asked for them.</p></div>
       </div>
     </section>
@@ -872,7 +873,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
         <div>
           <p class="kicker">Stay ahead</p>
           <h2>Five minutes a day. Zero noise.</h2>
-          <p>Read it here, get critical alerts on your phone, or install Intel60 like an app. All free, with no account.</p>
+          <p>Read it here, get alerts for the stories you care about, or install Intel60 like an app. All free, with no account.</p>
         </div>
         <div class="cta-list">
           <button class="cta-item" data-action="alerts"><span class="ico" aria-hidden="true">&#128276;</span><span><b>Alerts on this device</b><span>Critical stories, exploited bugs or your vendors</span></span></button>
@@ -930,7 +931,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
 
       <h2>Where the news comes from</h2>
       <div class="srcs"><span>BleepingComputer</span><span>The Hacker News</span><span>SecurityWeek</span><span>Krebs on Security</span><span>Dark Reading</span><span>The Record</span><span>CyberScoop</span><span>SANS ISC</span><span>CISA KEV catalog</span></div>
-      <p class="muted" style="margin-top:1rem">Vulnerability scores come from NVD (CVSS) and FIRST (EPSS). Every card links to the original article.</p>
+      <p class="muted" style="margin-top:1rem">Vulnerability descriptions and CVSS scores come from NVD, exploit probability from FIRST (EPSS) and exploitation status from CISA, not from the AI. Every card links to the original article.</p>
 
       <h2>How severity is rated</h2>
       <ul class="sev-list">
@@ -944,7 +945,8 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
         <li>Every 30 minutes, an automated run checks 8 security outlets and CISA's Known Exploited Vulnerabilities catalog.</li>
         <li>It skips stories it has already seen, anything older than 48 hours, and ads or webinars.</li>
         <li>Claude (Anthropic's AI model) writes each headline and 60-word summary, rates severity, assigns a category and merges duplicate coverage.</li>
-        <li>Each CVE gets its CVSS score, its exploit probability and its KEV status.</li>
+        <li>Each CVE gets its official description, CVSS score, exploit probability and KEV status.</li>
+        <li>Every story and every CVE gets its own page, so search engines can find them and shared links show the right headline.</li>
         <li>The cards are published here, and alerts are sent to the devices that turned them on.</li>
       </ol>
       <p style="margin-top:1rem"><a href="workflow.html">See the step-by-step visual guide &rarr;</a></p>
@@ -958,6 +960,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
         <details><summary>How often is it updated?</summary><p>Every 30 minutes, around the clock. The "Live" marker at the top shows when the last update ran.</p></details>
         <details><summary>Can I trust AI-written summaries?</summary><p>They're a fast way to triage, not a replacement for the source. Every card links to the original reporting, and CVE scores come straight from NVD, FIRST and CISA, not from the AI. Check the original before acting.</p></details>
         <details><summary>How do I get alerts?</summary><p>Choose <b>Get alerts</b> and pick what you want: critical stories, newly exploited vulnerabilities, trending stories or stories about your watchlist vendors, as they happen or as one summary each morning. On iPhone, add Intel60 to your Home Screen first, then turn alerts on from there.</p></details>
+        <details><summary>Where can I see everything about a CVE?</summary><p>Tap any CVE ID on a story, or browse <a href="cve/">every CVE in the news</a>. Each one has a page with its official description, CVSS and EPSS scores, whether it's being exploited, its patch deadline and every Intel60 story that mentions it.</p></details>
         <details><summary>Can I use it on my phone?</summary><p>Yes. Open intel60.app on your phone for the swipeable card app, then choose Add to Home Screen (iPhone) or Install app (Android).</p></details>
       </div>
 
@@ -990,6 +993,7 @@ dialog.sheet::backdrop { background: rgba(5, 10, 16, 0.6); }
     <ul>
       <li><b>Deadlines</b> counts down to the patch date for every bug CISA confirms is being exploited.</li>
       <li><b>Trends</b> shows the week at a glance: the busiest days and the most-hit vendors.</li>
+      <li><b>Alerts</b> notify you about critical, exploited, trending or your own vendors' stories.</li>
     </ul>
     <label class="switch"><input type="checkbox" id="explain-toggle" checked> Explain security terms (tap a dotted word)</label>
     <div id="install-help"></div>
