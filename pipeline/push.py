@@ -74,15 +74,43 @@ def messages(items, digest=False):
             for c, why in items]
 
 
+def send(sub, msg):
+    """Sends one notification: "sent", "dead" (the browser dropped the subscription) or "failed"."""
+    try:
+        webpush({"endpoint": sub["e"], "keys": sub["k"]}, json.dumps(msg), ttl=TTL,
+                vapid_private_key=os.environ["VAPID_PRIVATE_KEY"].strip(), vapid_claims={"sub": SITE})
+        return "sent"
+    except WebPushException as e:
+        status = getattr(e.response, "status_code", None)
+        if status in (404, 410):
+            return "dead"
+        log(f"  ! push failed ({status}): {str(e)[:200]}")
+        return "failed"
+
+
+def send_test():
+    """A test notification for setting up alerts; refuses once real readers have subscribed."""
+    subs = admin("GET", "/list")["subscriptions"]
+    if len(subs) > 2:
+        return log(f"push test: skipped, {len(subs)} subscribers (only sent while there are 2 or fewer)")
+    msg = {"title": "Intel60 alerts are working ✅", "body": "You'll get a notification like this when a story matches your alert choices.",
+           "url": "/", "tag": "intel60-test"}
+    results = [send(s, msg) for s in subs]
+    log(f"push test: sent to {results.count('sent')} of {len(subs)} subscribers ({', '.join(results) or 'none subscribed'})")
+
+
 def main():
     ids = {i for i in os.environ.get("PUSH_IDS", "").split(",") if i}
     trending_ids = {i for i in os.environ.get("PUSH_TRENDING", "").split(",") if i}
     digest_since = os.environ.get("PUSH_DIGEST_SINCE", "")
-    if not (ids or trending_ids or digest_since):
+    test = os.environ.get("PUSH_TEST") == "true"
+    if not (ids or trending_ids or digest_since or test):
         return log("push: nothing to send")
     if not (PUSH_API and os.environ.get("PUSH_ADMIN_TOKEN") and os.environ.get("VAPID_PRIVATE_KEY")):
         return log("push: not configured (PUSH_API, PUSH_ADMIN_TOKEN, VAPID_PRIVATE_KEY)")
 
+    if test:
+        return send_test()
     cards = json.loads(CARDS_PATH.read_text(encoding="utf-8"))["cards"]
     new = [c for c in cards if c["id"] in ids]
     newly_trending = [c for c in cards if c["id"] in trending_ids and c["id"] not in ids]
@@ -102,16 +130,11 @@ def main():
             mine += [(c, "Trending") for c in newly_trending if reason(c, sub, trending=True) == "Trending"]
             batch = messages(mine) if mine else []
         for msg in batch:
-            try:
-                webpush({"endpoint": sub["e"], "keys": sub["k"]}, json.dumps(msg), ttl=TTL,
-                        vapid_private_key=os.environ["VAPID_PRIVATE_KEY"].strip(), vapid_claims={"sub": SITE})
-                sent += 1
-            except WebPushException as e:
-                status = getattr(e.response, "status_code", None)
-                if status in (404, 410):  # the browser dropped this subscription
-                    dead.append(sub["e"])
-                    break
-                log(f"  ! push failed ({status}): {str(e)[:200]}")
+            result = send(sub, msg)
+            if result == "dead":
+                dead.append(sub["e"])
+                break
+            sent += result == "sent"
     if dead:
         admin("POST", "/remove", json={"endpoints": dead})
     log(f"push: {sent} sent, {len(dead)} expired subscriptions removed")

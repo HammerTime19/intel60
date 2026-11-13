@@ -17,6 +17,10 @@ on:
         description: "Send the newest critical story to the Teams chat (preview)"
         type: boolean
         default: false
+      test_push:
+        description: "Send a test web push notification (only while there are 2 or fewer subscribers)"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths: ["docs/**", "pipeline/**", ".github/workflows/**"]
@@ -124,7 +128,7 @@ jobs:
   notify:
     # Web push alerts, sent after the deploy so a tapped notification opens a story that's already live
     needs: [update, deploy]
-    if: always() && needs.update.result == 'success' && (needs.update.outputs.push_ids != '' || needs.update.outputs.push_trending != '' || needs.update.outputs.push_digest_since != '')
+    if: always() && needs.update.result == 'success' && (needs.update.outputs.push_ids != '' || needs.update.outputs.push_trending != '' || needs.update.outputs.push_digest_since != '' || inputs.test_push)
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -144,6 +148,7 @@ jobs:
           PUSH_IDS: ${{ needs.update.outputs.push_ids }}
           PUSH_DIGEST_SINCE: ${{ needs.update.outputs.push_digest_since }}
           PUSH_TRENDING: ${{ needs.update.outputs.push_trending }}
+          PUSH_TEST: ${{ inputs.test_push }}
           PUSH_API: ${{ vars.PUSH_API }}
           PUSH_ADMIN_TOKEN: ${{ secrets.PUSH_ADMIN_TOKEN }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
