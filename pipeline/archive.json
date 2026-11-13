@@ -1550,6 +1550,13 @@
 "sev": "high",
 "summary": "Grocery giant Ahold Delhaize quantified financial impact from an October cyberattack, estimating €250 million in fourth-quarter sales reduction and prompting downward revision of 2026 financial outlook. The company's retail operations and supply chain were significantly disrupted. Full investigation details and attribution remain limited."
 },
+"8762a201a2": {
+"cves": [],
+"date": "2026-11-13",
+"headline": "Microsoft Windows activation fails after November patches",
+"sev": "high",
+"summary": "Microsoft's November 2026 Patch Tuesday updates are causing Windows activation and licensing failures, with affected systems displaying 0x80041008 error codes. The issue impacts users attempting to activate or validate Windows licenses after installing the security updates. Microsoft has confirmed the problem and is investigating. Users experiencing activation issues should defer updates or check Microsoft's support pages for workarounds while a fix is prepared."
+},
 "87a25e1b55": {
 "cves": [],
 "date": "2026-11-02",

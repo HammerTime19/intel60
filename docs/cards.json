@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-13T09:30:36Z",
+ "updated": "2026-11-13T10:00:41Z",
  "cards": [
+  {
+   "id": "8762a201a2",
+   "headline": "Microsoft Windows activation fails after November patches",
+   "summary": "Microsoft's November 2026 Patch Tuesday updates are causing Windows activation and licensing failures, with affected systems displaying 0x80041008 error codes. The issue impacts users attempting to activate or validate Windows licenses after installing the security updates. Microsoft has confirmed the problem and is investigating. Users experiencing activation issues should defer updates or check Microsoft's support pages for workarounds while a fix is prepared.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+   "published": "2026-11-13T09:36:18Z",
+   "added": "2026-11-13T10:00:41Z",
+   "also": []
+  },
   {
    "id": "3ff055feac",
    "headline": "Police arrest 354 in dark web cybercrime crackdown",
