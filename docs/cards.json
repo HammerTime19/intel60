@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T23:30:32Z",
+ "updated": "2026-11-13T00:00:35Z",
  "cards": [
   {
    "id": "e52fb1952d",
@@ -4279,95 +4279,6 @@
     }
    },
    "cve_checked": "2026-10-30T08:00:35Z"
-  },
-  {
-   "id": "4854dc1468",
-   "headline": "CISA adds Ivanti Connect Secure auth bypass to KEV",
-   "summary": "CISA added CVE-2026-111357 to its Known Exploited Vulnerabilities catalog. The missing authentication flaw in Ivanti Connect Secure allows authenticated attackers to escalate privileges and can be chained with two other vulnerabilities. Federal agencies must apply mitigations by November 2, 2026, following BOD 26-04 guidance or discontinue use if patches are unavailable.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-111357",
-    "CVE-2026-104935",
-    "CVE-2026-118527"
-   ],
-   "watch": [
-    "Ivanti"
-   ],
-   "source": "CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
-   "published": "2026-10-30T00:00:00Z",
-   "added": "2026-10-30T18:00:36Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-111357": {
-     "kev": true,
-     "epss": 0.00533,
-     "pct": 0.45064,
-     "cvss": 7.0,
-     "sev": "high"
-    },
-    "CVE-2026-104935": {
-     "kev": true,
-     "epss": 0.88936,
-     "pct": 0.99778,
-     "cvss": 8.6,
-     "sev": "high"
-    },
-    "CVE-2026-118527": {
-     "kev": true,
-     "cvss": 4.3,
-     "sev": "medium"
-    }
-   },
-   "cve_checked": "2026-11-03T17:00:46Z"
-  },
-  {
-   "id": "f53dd46908",
-   "headline": "CISA adds Ivanti Connect Secure upload flaw to KEV",
-   "summary": "CISA added CVE-2026-118527 to its Known Exploited Vulnerabilities catalog. The vulnerability in Ivanti Connect Secure allows authenticated remote attackers to upload files with attacker-controlled content to known disk locations. Exploitable in chains with two other CVEs. Federal agencies must mitigate by November 13, 2026, per BOD 26-04 guidance or discontinue use.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-118527",
-    "CVE-2026-104935",
-    "CVE-2026-111357"
-   ],
-   "watch": [
-    "Ivanti"
-   ],
-   "source": "CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
-   "published": "2026-10-30T00:00:00Z",
-   "added": "2026-10-30T18:00:36Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-118527": {
-     "kev": true,
-     "cvss": 4.3,
-     "sev": "medium"
-    },
-    "CVE-2026-104935": {
-     "kev": true,
-     "epss": 0.88936,
-     "pct": 0.99778,
-     "cvss": 8.6,
-     "sev": "high"
-    },
-    "CVE-2026-111357": {
-     "kev": true,
-     "epss": 0.00533,
-     "pct": 0.45064,
-     "cvss": 7.0,
-     "sev": "high"
-    }
-   },
-   "cve_checked": "2026-11-03T17:30:35Z"
   }
  ]
 }
