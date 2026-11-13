@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T03:30:28Z",
+ "updated": "2026-11-13T04:00:35Z",
  "cards": [
   {
    "id": "e52fb1952d",
@@ -74,7 +74,12 @@
    "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
    "published": "2026-11-12T15:15:40Z",
    "added": "2026-11-12T16:30:43Z",
-   "also": []
+   "also": [
+    {
+     "source": "SANS ISC",
+     "url": "https://isc.sans.edu/diary/rss/33518"
+    }
+   ]
   },
   {
    "id": "62ff99ae77",
