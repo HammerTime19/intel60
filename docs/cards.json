@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T12:00:32Z",
+ "updated": "2026-11-14T12:30:28Z",
  "cards": [
   {
    "id": "f0f23fdb08",
@@ -4208,29 +4208,6 @@
     }
    },
    "cve_checked": "2026-11-06T18:21:07Z"
-  },
-  {
-   "id": "1f2870fb86",
-   "headline": "Chainalysis breach exposes customer identity data",
-   "summary": "Blockchain analysis firm Chainalysis confirmed a cybersecurity incident where an external actor accessed non-sensitive customer identity data. The breach did not compromise investigation content, authentication credentials, or session tokens. The company detected the intrusion this month and is investigating the scope. Customers should monitor for identity-related issues and await further disclosure from Chainalysis.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
-   "published": "2026-10-31T12:01:56Z",
-   "added": "2026-10-31T12:30:29Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/"
-    }
-   ]
   }
  ]
 }
