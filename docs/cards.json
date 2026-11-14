@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T15:00:36Z",
+ "updated": "2026-11-14T15:30:29Z",
  "cards": [
   {
    "id": "f0f23fdb08",
@@ -344,6 +344,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/"
     }
    ]
   },
