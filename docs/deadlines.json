@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:30:31Z",
+ "updated": "2026-11-14T00:00:33Z",
  "items": [
   {
    "cve": "CVE-2026-114713",
@@ -393,50 +393,6 @@
    "name": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
    "added": "2026-10-15",
    "due": "2026-10-18",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2026-105134",
-   "vendor": "Ahsay",
-   "product": "AhsayCBS",
-   "name": "Ahsay AhsayCBS Command Injection Vulnerability",
-   "added": "2026-10-14",
-   "due": "2026-10-17",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "0eb55bf159"
-  },
-  {
-   "cve": "CVE-2026-76519",
-   "vendor": "Cisco",
-   "product": "Secure Email Gateway",
-   "name": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
-   "added": "2026-10-14",
-   "due": "2026-10-17",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2026-105133",
-   "vendor": "Ahsay",
-   "product": "AhsayCBS",
-   "name": "Ahsay AhsayCBS Improper Authentication Vulnerability",
-   "added": "2026-10-14",
-   "due": "2026-10-17",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": "0eb55bf159"
-  },
-  {
-   "cve": "CVE-2026-0322",
-   "vendor": "Palo Alto Networks",
-   "product": "PAN-OS",
-   "name": "Palo Alto Networks PAN-OS Code Injection Vulnerability",
-   "added": "2026-10-14",
-   "due": "2026-10-17",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
    "card": null
