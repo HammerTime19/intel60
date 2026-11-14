@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T00:00:33Z",
+ "updated": "2026-11-14T00:30:50Z",
  "cards": [
   {
    "id": "f0f23fdb08",
@@ -104,10 +104,13 @@
     "CVE-2026-6460": {
      "kev": false,
      "epss": 0.0059,
-     "pct": 0.48785
+     "pct": 0.48785,
+     "cvss": 8.8,
+     "sev": "high",
+     "desc": "Type confusion in PostgreSQL allows an object creator to execute arbitrary code as the operating system user running the database, via ALTER ... SET DATA TYPE primarily. Other DDL attack routes exist, such as \"ALTER TABLE ... ADD COLUMN; ROLLBACK; ALTER TABLE ... ADD COLUMN\". The system had inadequate tracking of typed values, and values were not self-identifying. Stale values could appear in data dictionary entries, PL/pgSQL variables, and many other parts of the system. PostgreSQL Versions before PostgreSQL 18.7, 17.12, 16.16, 15.20, and 14.25 are affected."
     }
    },
-   "cve_checked": "2026-11-13T18:00:42Z"
+   "cve_checked": "2026-11-14T00:30:50Z"
   },
   {
    "id": "f6d06bee47",
