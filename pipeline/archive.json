@@ -882,6 +882,13 @@
 "sev": "info",
 "summary": "Authorities arrested 354 suspects across multiple countries in a joint operation targeting vendors and buyers on dark web marketplaces including Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom. The operation focused on illegal goods and services trafficking on these platforms. No further details on specific charges or recovery amounts were disclosed."
 },
+"403e4bdfae": {
+"cves": [],
+"date": "2026-11-14",
+"headline": "Cursor confirms security breach led to malicious extension",
+"sev": "high",
+"summary": "Cursor suffered a security breach exposing credentials from AI infrastructure provider Fireworks AI. Attackers leveraged stolen credentials to distribute a malicious Claude Code extension through Cursor's marketplace. The breach affected Cursor's security infrastructure and put users at risk of compromised code extensions. Users should audit installed extensions, revoke any suspicious access tokens, and update to the latest patched version of Cursor."
+},
 "40a5a2749a": {
 "cves": [],
 "date": "2026-11-04",

@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-14T17:00:36Z",
+ "updated": "2026-11-14T17:30:36Z",
  "cards": [
+  {
+   "id": "403e4bdfae",
+   "headline": "Cursor confirms security breach led to malicious extension",
+   "summary": "Cursor suffered a security breach exposing credentials from AI infrastructure provider Fireworks AI. Attackers leveraged stolen credentials to distribute a malicious Claude Code extension through Cursor's marketplace. The breach affected Cursor's security infrastructure and put users at risk of compromised code extensions. Users should audit installed extensions, revoke any suspicious access tokens, and update to the latest patched version of Cursor.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+   "published": "2026-11-14T17:27:25Z",
+   "added": "2026-11-14T17:30:35Z",
+   "also": []
+  },
   {
    "id": "f0f23fdb08",
    "headline": "Artex tool automates cyberattacks at machine speed",
