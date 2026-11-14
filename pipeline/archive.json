@@ -248,7 +248,7 @@
 "date": "2026-11-13",
 "desc": "The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket) without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
 "due": "2026-11-16",
-"epss": 0.01274,
+"epss": 0.02191,
 "kev": true,
 "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
 "sev": "high"

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T20:00:32Z",
+ "updated": "2026-11-14T20:30:47Z",
  "cards": [
   {
    "id": "403e4bdfae",
@@ -305,11 +305,14 @@
    "cve_info": {
     "CVE-2026-123039": {
      "kev": true,
-     "epss": 0.01274,
-     "pct": 0.70349
+     "epss": 0.02191,
+     "pct": 0.82739,
+     "cvss": 7.8,
+     "sev": "high",
+     "desc": "The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket) without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root."
     }
    },
-   "cve_checked": "2026-11-14T14:00:58Z"
+   "cve_checked": "2026-11-14T20:30:47Z"
   },
   {
    "id": "dd9560d2d3",
