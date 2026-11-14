@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T15:30:29Z",
+ "updated": "2026-11-14T16:00:31Z",
  "cards": [
   {
    "id": "f0f23fdb08",
@@ -4186,32 +4186,6 @@
    "published": "2026-10-31T18:01:12Z",
    "added": "2026-10-31T18:30:27Z",
    "also": []
-  },
-  {
-   "id": "845cf24b89",
-   "headline": "Android SMS of Death exploit crashes phones remotely",
-   "summary": "A proof-of-concept exploit for CVE-2026-58882, called \"SMS of Death,\" allows attackers to remotely crash unpatched Android phones or disrupt cellular service via a specially crafted text message. The vulnerability was recently patched. Affected users should apply available security updates immediately to protect against denial-of-service attacks.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-58882"
-   ],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-   "published": "2026-10-31T15:35:11Z",
-   "added": "2026-10-31T16:00:30Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-58882": {
-     "kev": false,
-     "cvss": 7.5,
-     "sev": "high",
-     "epss": 0.00188,
-     "pct": 0.08528
-    }
-   },
-   "cve_checked": "2026-11-06T18:21:07Z"
   }
  ]
 }
