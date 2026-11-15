@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T18:00:33Z",
+ "updated": "2026-11-15T18:30:33Z",
  "cards": [
   {
    "id": "f316d41a09",
@@ -51,7 +51,12 @@
    "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
    "published": "2026-11-13T21:32:00Z",
    "added": "2026-11-13T21:55:05Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
+    }
+   ]
   },
   {
    "id": "67e222e81e",
