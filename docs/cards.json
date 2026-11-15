@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T11:30:32Z",
+ "updated": "2026-11-15T12:00:32Z",
  "cards": [
   {
    "id": "f316d41a09",
@@ -13,7 +13,12 @@
    "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
    "published": "2026-11-14T19:00:00Z",
    "added": "2026-11-15T11:00:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
+    }
+   ]
   },
   {
    "id": "403e4bdfae",
