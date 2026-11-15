@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T15:00:30Z",
+ "updated": "2026-11-15T15:30:33Z",
  "cards": [
   {
    "id": "f316d41a09",
@@ -190,7 +190,12 @@
    "url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
    "published": "2026-11-13T15:06:00Z",
    "added": "2026-11-13T15:41:42Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/"
+    }
+   ]
   },
   {
    "id": "e71bf5215f",
