@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T23:30:26Z",
+ "updated": "2026-11-15T00:00:31Z",
  "items": [
   {
    "cve": "CVE-2026-114713",
@@ -382,17 +382,6 @@
    "name": "Fortinet Multiple Products Path Traversal Vulnerability",
    "added": "2026-10-16",
    "due": "2026-10-19",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2026-21589",
-   "vendor": "Atlassian",
-   "product": "Multiple Products",
-   "name": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
-   "added": "2026-10-15",
-   "due": "2026-10-18",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
    "card": null
