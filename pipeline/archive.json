@@ -2550,6 +2550,13 @@
 "sev": "critical",
 "summary": "Security researchers at Anthropic discovered a critical Linux kernel vulnerability in Multipath TCP (MPTCP) listeners that allows unauthenticated remote attackers to execute commands as root. The flaw affects servers running MPTCP. An exploit has been developed. Administrators should prioritize patching affected kernel versions and restrict access to MPTCP listeners until patches are deployed."
 },
+"f316d41a09": {
+"cves": [],
+"date": "2026-11-14",
+"headline": "Italy fines Meta $887 million for Android photo access",
+"sev": "info",
+"summary": "Italy's data protection authority fined Meta €765 million for accessing Android users' gallery photos and videos on Facebook without proper consent. The violation concerns the smartphone privacy directive requiring free and informed consent for such access. This is a significant enforcement action against unauthorized data collection practices on the Android platform."
+},
 "f53dd46908": {
 "cves": [
 "CVE-2026-118527",

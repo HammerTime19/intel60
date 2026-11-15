@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-15T10:30:29Z",
+ "updated": "2026-11-15T11:00:38Z",
  "cards": [
+  {
+   "id": "f316d41a09",
+   "headline": "Italy fines Meta $887 million for Android photo access",
+   "summary": "Italy's data protection authority fined Meta €765 million for accessing Android users' gallery photos and videos on Facebook without proper consent. The violation concerns the smartphone privacy directive requiring free and informed consent for such access. This is a significant enforcement action against unauthorized data collection practices on the Android platform.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+   "published": "2026-11-14T19:00:00Z",
+   "added": "2026-11-15T11:00:38Z",
+   "also": []
+  },
   {
    "id": "403e4bdfae",
    "headline": "Cursor confirms security breach led to malicious extension",
