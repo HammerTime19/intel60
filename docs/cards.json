@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T08:30:32Z",
+ "updated": "2026-11-15T09:00:30Z",
  "cards": [
   {
    "id": "403e4bdfae",
@@ -4174,20 +4174,6 @@
    "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
    "published": "2026-11-02T05:51:07Z",
    "added": "2026-11-02T06:30:34Z",
-   "also": []
-  },
-  {
-   "id": "c1c2013197",
-   "headline": "LXD MicroCloud CVSS 10.0 flaw enables client impersonation",
-   "summary": "A critical vulnerability in Canonical's LXD and MicroCloud allows attackers to impersonate trusted clients without possessing their private key. Attackers need network access to the HTTPS API and the target client's public certificate. Successful exploitation grants full access to the cluster and virtual machines with the compromised client's privileges. A patch is recommended for all affected deployments.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-   "published": "2026-11-01T08:51:31Z",
-   "added": "2026-11-01T10:00:31Z",
    "also": []
   }
  ]
