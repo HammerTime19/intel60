@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:30:39Z",
+ "updated": "2026-11-16T14:00:35Z",
  "cards": [
   {
    "id": "79abf73e84",
@@ -4217,34 +4217,6 @@
    "url": "https://therecord.media/ukraine-hackers-russia-alert-system",
    "published": "2026-11-02T14:30:00Z",
    "added": "2026-11-02T15:00:41Z",
-   "also": []
-  },
-  {
-   "id": "96515b09df",
-   "headline": "PapRAT espionage campaign targets South Asia organizations",
-   "summary": "The India-linked threat group PapRAT is conducting cyber espionage operations against organizations in South Asia, exploiting legitimate Windows functionality across three distinct attack chains. The campaign leverages built-in system tools to evade detection and establish persistence. Defenders should monitor for suspicious Windows process execution patterns and implement application whitelisting policies.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
-   "published": "2026-11-02T14:00:00Z",
-   "added": "2026-11-02T14:30:50Z",
-   "also": []
-  },
-  {
-   "id": "adcc13fa97",
-   "headline": "Revolve fashion retailer breach hits 180K customers",
-   "summary": "Online fashion retailer Revolve suffered a data breach affecting at least 180,000 customers. Attackers accessed the company's shopping platform and stole personal information and payment card data. The breach has been disclosed but remediation status and customer notification details remain unclear. Affected customers should monitor accounts for fraud.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
-   "published": "2026-11-02T13:35:21Z",
-   "added": "2026-11-02T14:00:35Z",
    "also": []
   }
  ]
