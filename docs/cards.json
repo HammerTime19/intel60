@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T14:30:38Z",
+ "updated": "2026-11-16T15:00:40Z",
  "cards": [
   {
    "id": "81c7c458d7",
@@ -4204,20 +4204,6 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html"
     }
    ]
-  },
-  {
-   "id": "39749d757e",
-   "headline": "DarkBlinders targets Israeli and Iraqi Kurdish government cloud systems",
-   "summary": "An Iran state-aligned threat actor called DarkBlinders compromised government cloud environments affecting Israel and the Kurdistan Region of Iraq between August and October 2026. The attack compromised a high-profile Israeli individual and additional government targets. Researchers from Dream Research Labs disclosed the cyber espionage campaign details. The scope and current status of remediation efforts are under investigation.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-   "published": "2026-11-02T14:46:05Z",
-   "added": "2026-11-02T15:00:41Z",
-   "also": []
   }
  ]
 }
