@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-16T11:00:41Z",
+ "updated": "2026-11-16T11:30:37Z",
  "cards": [
+  {
+   "id": "7a50b6f639",
+   "headline": "Coles Group investigates cybersecurity incident in Australia",
+   "summary": "Coles Group Limited, Australia's second-largest retailer, is investigating a cybersecurity incident that the company says has not impacted store operations. No details on the incident scope, nature, or data affected have been disclosed. Organizations should await further statements from Coles to understand whether customer data was compromised and what remediation steps are needed.",
+   "severity": "info",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+   "published": "2026-11-16T11:18:09Z",
+   "added": "2026-11-16T11:30:36Z",
+   "also": []
+  },
+  {
+   "id": "2b1b80c8b8",
+   "headline": "Copeland XWEB EVO controllers targeted after flaw disclosure",
+   "summary": "Vulncheck disclosed 14 vulnerabilities affecting Copeland XWEB EVO refrigeration controllers, including two high-severity flaws that threat actors are actively exploiting. The flaws allow unauthenticated remote code execution and privileged access. Organizations operating Copeland systems should apply vendor patches immediately and implement network segmentation to restrict access to affected controllers.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/",
+   "published": "2026-11-16T11:05:42Z",
+   "added": "2026-11-16T11:30:36Z",
+   "also": []
+  },
+  {
+   "id": "9d8b7182f6",
+   "headline": "Uber breach compromises 150,000 people via third-party provider",
+   "summary": "Hackers compromised a third-party services provider used by Uber and stole personal data from 150,000 people, including names, addresses, and driver's license numbers. The breach was confirmed by Uber, which notified affected individuals. The incident highlights risks from supply chain dependencies in ride-sharing operations. Users should monitor accounts for suspicious activity and consider fraud monitoring services.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
+   "published": "2026-11-16T11:02:48Z",
+   "added": "2026-11-16T11:30:36Z",
+   "also": []
+  },
   {
    "id": "f0b3319bef",
    "headline": "SANSAR Linux cryptominer hides GPU activity with modified NVIDIA library",
@@ -448,7 +490,12 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
    "published": "2026-11-13T00:00:00Z",
    "added": "2026-11-13T18:30:37Z",
-   "also": [],
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-114713": {
      "kev": true,
@@ -4192,39 +4239,6 @@
    "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
    "published": "2026-11-02T11:50:00Z",
    "added": "2026-11-02T13:30:38Z",
-   "also": []
-  },
-  {
-   "id": "e52f753455",
-   "headline": "Synology warns of C3RB3R ransomware targeting NAS devices",
-   "summary": "Synology issued an urgent warning about a surge in C3RB3R ransomware attacks targeting NAS appliances. The campaign is actively exploiting vulnerable devices in the wild. Synology urges customers to apply security patches immediately and implement network segmentation to limit lateral movement if devices are compromised.",
-   "severity": "critical",
-   "category": "Ransomware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
-   "published": "2026-11-02T11:28:42Z",
-   "added": "2026-11-02T11:30:33Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
-    }
-   ]
-  },
-  {
-   "id": "d596e3f2ba",
-   "headline": "Attackers abuse AD CS to steal credentials via Teams impersonation",
-   "summary": "Microsoft investigated intrusions where attackers impersonated IT support on Teams to trick employees into granting remote access. Attackers then exploited misconfigured Active Directory Certificate Services to obtain login certificates for privileged accounts, including domain controller access. Organizations should harden AD CS configurations and disable unnecessary certificate templates.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-   "published": "2026-11-02T11:08:45Z",
-   "added": "2026-11-02T11:30:33Z",
    "also": []
   }
  ]

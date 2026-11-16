@@ -701,6 +701,13 @@
 "sev": "high",
 "summary": "Vulnerabilities in SS7 and Diameter signaling protocols allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising devices. The attacks exploit trust relationships between telecom networks. Organizations should implement robust defenses for mobile services and consider security-focused carriers to mitigate these signaling protocol risks."
 },
+"2b1b80c8b8": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Copeland XWEB EVO controllers targeted after flaw disclosure",
+"sev": "critical",
+"summary": "Vulncheck disclosed 14 vulnerabilities affecting Copeland XWEB EVO refrigeration controllers, including two high-severity flaws that threat actors are actively exploiting. The flaws allow unauthenticated remote code execution and privileged access. Organizations operating Copeland systems should apply vendor patches immediately and implement network segmentation to restrict access to affected controllers."
+},
 "2b63f8aad1": {
 "cves": [],
 "date": "2026-11-11",
@@ -1445,6 +1452,13 @@
 "sev": "critical",
 "summary": "Check Point Firewall, Security Management Server, and related products contain an incorrect permissions assignment vulnerability in the DynamicCLI daemon. An authenticated local attacker can execute commands as root via a world-writable socket without authentication. CISA added CVE-2026-123039 to its Known Exploited Vulnerabilities catalog with a federal patching deadline of November 16. Organizations should prioritize patches per BOD 26-04 guidance."
 },
+"7a50b6f639": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Coles Group investigates cybersecurity incident in Australia",
+"sev": "info",
+"summary": "Coles Group Limited, Australia's second-largest retailer, is investigating a cybersecurity incident that the company says has not impacted store operations. No details on the incident scope, nature, or data affected have been disclosed. Organizations should await further statements from Coles to understand whether customer data was compromised and what remediation steps are needed."
+},
 "7ba871700f": {
 "cves": [],
 "date": "2026-11-11",
@@ -1857,6 +1871,13 @@
 "headline": "mSecure password manager reports suspicious account activity",
 "sev": "high",
 "summary": "mSecure password manager warned users of suspicious activity detected on November 3, urging customers to change passwords, reset two-factor authentication, and remove passkeys. The developer mSeven Software identified unauthorized access but did not disclose full details of the breach scope. Users should immediately secure their mSecure accounts and review stored credentials."
+},
+"9d8b7182f6": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Uber breach compromises 150,000 people via third-party provider",
+"sev": "high",
+"summary": "Hackers compromised a third-party services provider used by Uber and stole personal data from 150,000 people, including names, addresses, and driver's license numbers. The breach was confirmed by Uber, which notified affected individuals. The incident highlights risks from supply chain dependencies in ride-sharing operations. Users should monitor accounts for suspicious activity and consider fraud monitoring services."
 },
 "9dcdf8c175": {
 "cves": [],
