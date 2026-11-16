@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-16T10:30:29Z",
+ "updated": "2026-11-16T11:00:41Z",
  "cards": [
+  {
+   "id": "f0b3319bef",
+   "headline": "SANSAR Linux cryptominer hides GPU activity with modified NVIDIA library",
+   "summary": "REF3364, a financially motivated threat actor, deployed SANSAR, a Rust-based malware that orchestrates CPU and GPU mining operations while concealing GPU workloads from detection. The malware receives commands via TOR and tampers with system monitoring to avoid discovery. Organizations running Linux infrastructure should monitor for unusual GPU resource consumption and analyze network traffic for TOR communications.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+   "published": "2026-11-16T09:32:57Z",
+   "added": "2026-11-16T11:00:41Z",
+   "also": []
+  },
   {
    "id": "7d4f6584a3",
    "headline": "NoisyTCP Linux kernel DoS affects Nginx, Apache, SSH",
@@ -4210,22 +4224,6 @@
    "source": "The Hacker News",
    "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
    "published": "2026-11-02T11:08:45Z",
-   "added": "2026-11-02T11:30:33Z",
-   "also": []
-  },
-  {
-   "id": "87a25e1b55",
-   "headline": "CL-UNK-1211 targets government Linux servers with SysGoRAT",
-   "summary": "Palo Alto Networks Unit 42 disclosed a cyber espionage campaign targeting Linux infrastructure at government and state-affiliated entities between October 2025 and April 2026. The threat group, tracked as CL-UNK-1211, deployed SysGoRAT malware and suspected AI-generated attack scripts. Defenders should review logs for SysGoRAT indicators and patch exposed Linux systems immediately.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [
-    "Palo Alto"
-   ],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
-   "published": "2026-11-02T10:49:59Z",
    "added": "2026-11-02T11:30:33Z",
    "also": []
   }

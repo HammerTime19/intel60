@@ -2564,6 +2564,13 @@
 "sev": "critical",
 "summary": "CVE-2026-35273, exploited by ShinyHunters since May, comprises three chained vulnerabilities in Oracle PeopleSoft. The root cause is a server-side request forgery (SSRF) allowing attackers to reach an internal management interface by exploiting the system's trust of its loopback address. Oracle patched all three flaws under a single CVE identifier in June. Organizations should verify PeopleSoft patches have been applied."
 },
+"f0b3319bef": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "SANSAR Linux cryptominer hides GPU activity with modified NVIDIA library",
+"sev": "high",
+"summary": "REF3364, a financially motivated threat actor, deployed SANSAR, a Rust-based malware that orchestrates CPU and GPU mining operations while concealing GPU workloads from detection. The malware receives commands via TOR and tampers with system monitoring to avoid discovery. Organizations running Linux infrastructure should monitor for unusual GPU resource consumption and analyze network traffic for TOR communications."
+},
 "f0f23fdb08": {
 "cves": [],
 "date": "2026-11-13",
