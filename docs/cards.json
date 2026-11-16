@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-16T08:30:31Z",
+ "updated": "2026-11-16T09:00:37Z",
  "cards": [
+  {
+   "id": "aaca3d274a",
+   "headline": "Tor 0.4.9.17 patches DoS defenses for IPv6 relays",
+   "summary": "Tor released version 0.4.9.17 to address security issues related to denial-of-service protections in IPv6 relay handling. The update strengthens defenses against ongoing relay attacks targeting the Tor network. Administrators should upgrade to the latest version to maintain network stability and security against DoS threats.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
+   "published": "2026-11-16T08:55:32Z",
+   "added": "2026-11-16T09:00:37Z",
+   "also": []
+  },
   {
    "id": "47ca43e224",
    "headline": "Microsoft phishing campaign exploits service outage",

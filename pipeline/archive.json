@@ -1946,6 +1946,13 @@
 "sev": "high",
 "summary": "Attackers leveraged a critical Cisco Catalyst SD-WAN vulnerability, patched in February, to deploy KeyDrift malware designed to steal encryption keys controlling traffic between network sites. Cisco Talos confirmed the malware was built to copy and exfiltrate keys for later use. The attacks are historical in nature. Organizations should ensure SD-WAN systems are fully patched and monitor for KeyDrift indicators of compromise."
 },
+"aaca3d274a": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Tor 0.4.9.17 patches DoS defenses for IPv6 relays",
+"sev": "high",
+"summary": "Tor released version 0.4.9.17 to address security issues related to denial-of-service protections in IPv6 relay handling. The update strengthens defenses against ongoing relay attacks targeting the Tor network. Administrators should upgrade to the latest version to maintain network stability and security against DoS threats."
+},
 "aacd739692": {
 "cves": [],
 "date": "2026-10-29",
