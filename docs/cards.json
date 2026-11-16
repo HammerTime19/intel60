@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-16T12:30:30Z",
+ "updated": "2026-11-16T13:00:45Z",
  "cards": [
+  {
+   "id": "79abf73e84",
+   "headline": "Telegram widgets targeted by RCE exploits, WebRAT malware",
+   "summary": "Researchers demonstrated remote code execution (RCE) vulnerabilities in Telegram's newly launched widgets feature. Kaspersky suspects the flaws are being exploited in the wild to deliver WebRAT malware. Pavel Durov, Telegram's founder, disputed the severity of the claims. Organizations should disable Telegram widgets until patches are released and monitor for WebRAT infections.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
+   "published": "2026-11-16T12:48:03Z",
+   "added": "2026-11-16T13:00:44Z",
+   "also": []
+  },
   {
    "id": "7a50b6f639",
    "headline": "Coles Group investigates cybersecurity incident in Australia",
@@ -4199,33 +4213,6 @@
    "published": "2026-11-02T13:35:21Z",
    "added": "2026-11-02T14:00:35Z",
    "also": []
-  },
-  {
-   "id": "00a3b1e54d",
-   "headline": "European supermarket freezers hacked in second targeted wave",
-   "summary": "Refrigeration systems across European supermarkets and grocery stores were compromised in a second coordinated attack within recent weeks. Attackers manipulated temperature controls to spoil food inventory. The incidents suggest organized targeting of retail infrastructure. Affected retailers should audit IoT device access controls, change default credentials, and implement network segmentation for critical systems.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/cyberattack-grocery-freezers-europe",
-   "published": "2026-11-02T13:00:00Z",
-   "added": "2026-11-02T13:30:38Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html"
-    },
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security"
-    }
-   ]
   }
  ]
 }

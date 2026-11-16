@@ -1443,6 +1443,13 @@
 "sev": "critical",
 "summary": "Trezor confirmed that three Safe 5 hardware wallets sold through reseller CryptoBilis contained unauthorized implants—extra circuit boards that intercept and exfiltrate recovery phrases via mobile networks. The company identified the tampering in lab analysis. Buyers of hardware wallets from unauthorized resellers face credential theft risk; users should purchase only from official channels and verify wallet authenticity."
 },
+"79abf73e84": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Telegram widgets targeted by RCE exploits, WebRAT malware",
+"sev": "high",
+"summary": "Researchers demonstrated remote code execution (RCE) vulnerabilities in Telegram's newly launched widgets feature. Kaspersky suspects the flaws are being exploited in the wild to deliver WebRAT malware. Pavel Durov, Telegram's founder, disputed the severity of the claims. Organizations should disable Telegram widgets until patches are released and monitor for WebRAT infections."
+},
 "79fc68065b": {
 "cves": [
 "CVE-2026-123039"
