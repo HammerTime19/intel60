@@ -2325,6 +2325,13 @@
 "sev": "critical",
 "summary": "CVE-2026-111585, an integer overflow in TeamViewer, allows malicious hosts to execute arbitrary code on a support technician's system. The flaw enables attackers to take control of the viewer's machine during a remote support session. Organizations using TeamViewer should update to the latest patched version and verify all support sessions for suspicious activity."
 },
+"d29e040f40": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Fandango data breach exposes payment card details",
+"sev": "high",
+"summary": "Fandango Media disclosed a data breach that exposed payment card details entered on its checkout pages. The ticket seller is notifying affected customers. The scope of the breach and total number of impacted individuals have not been disclosed. Customers should monitor their payment card accounts for fraudulent activity."
+},
 "d327652e7d": {
 "cves": [],
 "date": "2026-11-03",

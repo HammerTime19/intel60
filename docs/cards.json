@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-16T15:30:36Z",
+ "updated": "2026-11-16T16:00:41Z",
  "cards": [
+  {
+   "id": "d29e040f40",
+   "headline": "Fandango data breach exposes payment card details",
+   "summary": "Fandango Media disclosed a data breach that exposed payment card details entered on its checkout pages. The ticket seller is notifying affected customers. The scope of the breach and total number of impacted individuals have not been disclosed. Customers should monitor their payment card accounts for fraudulent activity.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+   "published": "2026-11-16T15:44:21Z",
+   "added": "2026-11-16T16:00:41Z",
+   "also": []
+  },
   {
    "id": "81c7c458d7",
    "headline": "Lithuanian customs agency hit by cyberattack",
@@ -225,6 +239,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/"
     }
    ]
   },
@@ -4166,29 +4184,6 @@
    "published": "2026-11-02T16:30:00Z",
    "added": "2026-11-02T16:58:51Z",
    "also": []
-  },
-  {
-   "id": "948be6f589",
-   "headline": "Google disrupts 1.3M Android TV botnet, fingers Videostrong",
-   "summary": "Google took down a botnet of 1.3 million Android devices, predominantly TV set-top boxes, in late October. Google asserts Videostrong deliberately installed a backdoor in the devices and sold access to criminals, who exploited the botnet for ad fraud and unauthorized bandwidth resale. The operation involved seizing command-and-control servers.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-   "published": "2026-11-02T15:50:26Z",
-   "added": "2026-11-02T16:58:51Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/"
-    }
-   ]
   }
  ]
 }
