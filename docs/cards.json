@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:00:41Z",
+ "updated": "2026-11-16T17:21:54Z",
  "cards": [
   {
    "id": "18b00fe2b4",
@@ -282,6 +282,14 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks"
     }
    ]
   },
@@ -4171,20 +4179,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
    "published": "2026-11-02T19:00:45Z",
    "added": "2026-11-02T19:30:32Z",
-   "also": []
-  },
-  {
-   "id": "b22118a1e1",
-   "headline": "Polymarket prediction market breach forces $3.9M reimbursement",
-   "summary": "Polymarket suffered a compromise on October 29 that resulted in user losses. The platform announced it will reimburse affected users and provide compensation for downtime. No details on the breach mechanism or scope were disclosed. Users should monitor their accounts for unauthorized activity.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
-   "published": "2026-11-02T17:05:20Z",
-   "added": "2026-11-02T17:30:32Z",
    "also": []
   }
  ]
