@@ -1379,6 +1379,13 @@
 "sev": "info",
 "summary": "Microsoft has resolved Outlook sign-in and mail delivery problems on Exchange Server systems caused by October 2026 Windows Server security updates. Organizations affected by authentication failures after applying Windows Server patches should now be able to restore connectivity. No security implications reported for the original issue itself."
 },
+"6cd4bc50c4": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Google Project Zero shortens bug disclosure to 30 days",
+"sev": "info",
+"summary": "Google Project Zero is reducing its vulnerability disclosure deadline from 90+30 days to a shorter fixed period, citing AI-accelerated threat discovery and exploitation. The policy change reflects concerns that artificial intelligence is enabling faster vulnerability research and attack development. Defenders should prepare for compressed patching timelines as shorter disclosure windows become industry standard."
+},
 "6d2a0802c4": {
 "cves": [
 "CVE-2026-118539"

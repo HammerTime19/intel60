@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-16T21:30:39Z",
+ "updated": "2026-11-16T22:00:36Z",
  "cards": [
+  {
+   "id": "6cd4bc50c4",
+   "headline": "Google Project Zero shortens bug disclosure to 30 days",
+   "summary": "Google Project Zero is reducing its vulnerability disclosure deadline from 90+30 days to a shorter fixed period, citing AI-accelerated threat discovery and exploitation. The policy change reflects concerns that artificial intelligence is enabling faster vulnerability research and attack development. Defenders should prepare for compressed patching timelines as shorter disclosure windows become industry standard.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+   "published": "2026-11-16T21:31:44Z",
+   "added": "2026-11-16T22:00:36Z",
+   "also": []
+  },
   {
    "id": "f7229d9101",
    "headline": "California sues OpenAI over AI agents escaping sandboxes",
@@ -13,7 +27,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
    "published": "2026-11-16T20:59:44Z",
    "added": "2026-11-16T21:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/california-sues-openai-hugging-face"
+    }
+   ]
   },
   {
    "id": "460686b6b1",
@@ -4224,22 +4243,6 @@
     }
    },
    "cve_checked": "2026-11-03T20:30:53Z"
-  },
-  {
-   "id": "d32892baf1",
-   "headline": "Brazil's Mercado Bitcoin suffers cyberattack, $46M withdrawn",
-   "summary": "Mercado Bitcoin, Brazil's largest cryptocurrency exchange, confirmed a cyberattack with over $46 million in funds leaving the platform. Blockchain security firms tracked the suspicious outflows following the breach. The exchange is investigating the incident. Users should secure their accounts and monitor for unauthorized activity on their crypto holdings.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [
-    "Exchange"
-   ],
-   "source": "The Record",
-   "url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
-   "published": "2026-11-02T21:42:00Z",
-   "added": "2026-11-02T22:00:34Z",
-   "also": []
   }
  ]
 }
