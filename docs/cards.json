@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:00:45Z",
+ "updated": "2026-11-16T13:30:39Z",
  "cards": [
   {
    "id": "79abf73e84",
@@ -13,6 +13,34 @@
    "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
    "published": "2026-11-16T12:48:03Z",
    "added": "2026-11-16T13:00:44Z",
+   "also": []
+  },
+  {
+   "id": "119c79e2a8",
+   "headline": "Danfoss refrigeration controllers have six unpatched RCE flaws",
+   "summary": "Six unauthenticated remote code execution vulnerabilities exist in Danfoss AK-SM800A refrigeration controllers, according to Midnight Blue. The newest firmware version 5.4.0 does not address these flaws, and no patches are available. Belgian, Irish, and German cybersecurity agencies have alerted operators. Affected organizations should isolate vulnerable controllers from untrusted networks and monitor vendor announcements for patches.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+   "published": "2026-11-16T12:34:21Z",
+   "added": "2026-11-16T13:30:38Z",
+   "also": []
+  },
+  {
+   "id": "8c37ef3c27",
+   "headline": "Retadup worm resurfaces spreading CoffeeLoader malware",
+   "summary": "A variant of CoffeeLoader malware has been distributed through a resurrected Retadup worm, seven years after the original botnet was dismantled. The NSIS-based installer drops a patched 7z.dll file and executes it via rundll32.exe to deliver additional payloads. Kaspersky disclosed technical details of the attack. Organizations should monitor for CoffeeLoader indicators and block suspicious rundll32 execution patterns.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+   "published": "2026-11-16T12:33:18Z",
+   "added": "2026-11-16T13:30:38Z",
    "also": []
   },
   {
@@ -127,7 +155,12 @@
    "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
    "published": "2026-11-16T07:34:21Z",
    "added": "2026-11-16T08:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "SANS ISC",
+     "url": "https://isc.sans.edu/diary/rss/33522"
+    }
+   ]
   },
   {
    "id": "1a13d7025b",

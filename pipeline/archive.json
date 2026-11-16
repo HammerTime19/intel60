@@ -499,6 +499,13 @@
 "sev": "high",
 "summary": "Google released Chrome 157 with 83 security fixes, and Mozilla released Firefox 160 addressing 99 vulnerabilities. The updates cover critical and high-severity flaws across both browsers. Users should install updates immediately through automatic update mechanisms or manual checking in browser settings."
 },
+"119c79e2a8": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Danfoss refrigeration controllers have six unpatched RCE flaws",
+"sev": "critical",
+"summary": "Six unauthenticated remote code execution vulnerabilities exist in Danfoss AK-SM800A refrigeration controllers, according to Midnight Blue. The newest firmware version 5.4.0 does not address these flaws, and no patches are available. Belgian, Irish, and German cybersecurity agencies have alerted operators. Affected organizations should isolate vulnerable controllers from untrusted networks and monitor vendor announcements for patches."
+},
 "12185b0bd2": {
 "cves": [],
 "date": "2026-10-28",
@@ -1730,6 +1737,13 @@
 "headline": "US sanctions Prince Group scam center affiliates",
 "sev": "info",
 "summary": "The US government imposed sanctions on four individuals and 41 companies affiliated with Prince Group, a Cambodian operation running a billion-dollar scam scheme. The action targets financial networks supporting the fraudulent enterprise. Prince Group has been identified as a major organized crime operation exploiting victims globally. Organizations should monitor for connections to sanctioned entities and report suspicious transactions."
+},
+"8c37ef3c27": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Retadup worm resurfaces spreading CoffeeLoader malware",
+"sev": "high",
+"summary": "A variant of CoffeeLoader malware has been distributed through a resurrected Retadup worm, seven years after the original botnet was dismantled. The NSIS-based installer drops a patched 7z.dll file and executes it via rundll32.exe to deliver additional payloads. Kaspersky disclosed technical details of the attack. Organizations should monitor for CoffeeLoader indicators and block suspicious rundll32 execution patterns."
 },
 "8cc04215ef": {
 "cves": [],
