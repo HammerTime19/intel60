@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:30:28Z",
+ "updated": "2026-11-16T00:00:43Z",
  "items": [
   {
    "cve": "CVE-2026-114713",
@@ -360,28 +360,6 @@
    "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
    "added": "2026-10-20",
    "due": "2026-10-23",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2026-102764",
-   "vendor": "BeyondTrust",
-   "product": "Remote Support",
-   "name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-   "added": "2026-10-16",
-   "due": "2026-10-19",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2025-61624",
-   "vendor": "Fortinet",
-   "product": "Multiple Products",
-   "name": "Fortinet Multiple Products Path Traversal Vulnerability",
-   "added": "2026-10-16",
-   "due": "2026-10-19",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
    "card": null
