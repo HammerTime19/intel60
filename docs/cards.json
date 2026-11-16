@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T18:00:49Z",
+ "updated": "2026-11-16T18:30:38Z",
  "cards": [
   {
    "id": "18b00fe2b4",
@@ -236,6 +236,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/italian-regulator-fines-meta-886-million-privacy"
     }
    ]
   },
