@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T05:30:41Z",
+ "updated": "2026-11-16T06:00:31Z",
  "cards": [
   {
    "id": "f316d41a09",
@@ -4195,20 +4195,6 @@
     }
    },
    "cve_checked": "2026-11-03T15:30:36Z"
-  },
-  {
-   "id": "9068a344a0",
-   "headline": "VOLTA infostealer uses LLMs to rank victims by financial value",
-   "summary": "A new Windows infostealer called VOLTA-AUTODOXER leverages Claude, Gemini, and Kimi AI models to categorize stolen credentials by monetization value. The malware harvests passwords and cookies from Chromium browsers, Outlook profiles, and Slack workspaces. Researchers discovered this AI-enhanced targeting approach among typical data theft capabilities. The use of LLMs to prioritize victims based on financial value represents an escalation in infostealer sophistication and attack efficiency.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-   "published": "2026-11-02T05:51:07Z",
-   "added": "2026-11-02T06:30:34Z",
-   "also": []
   }
  ]
 }
