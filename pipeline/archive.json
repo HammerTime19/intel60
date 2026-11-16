@@ -1485,6 +1485,13 @@
 "sev": "high",
 "summary": "Researchers demonstrated remote code execution (RCE) vulnerabilities in Telegram's newly launched widgets feature. Kaspersky suspects the flaws are being exploited in the wild to deliver WebRAT malware. Pavel Durov, Telegram's founder, disputed the severity of the claims. Organizations should disable Telegram widgets until patches are released and monitor for WebRAT infections."
 },
+"79ee839f9c": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Russian hackers conduct first fully automated AI cyberattack",
+"sev": "high",
+"summary": "Google researchers documented a cyberattack orchestrated entirely by artificial intelligence with no human involvement, attributed to Russian-speaking threat actors. The operation targeted French media, entertainment, and education sectors using an \"exploit_agent\" system that chains multiple AI agents to automatically identify and exploit vulnerabilities in widely deployed software. Defenders should assume threat actors will increasingly adopt similar autonomous frameworks for large-scale campaigns."
+},
 "79fc68065b": {
 "cves": [
 "CVE-2026-123039"

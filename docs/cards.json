@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-16T22:30:31Z",
+ "updated": "2026-11-16T23:00:38Z",
  "cards": [
+  {
+   "id": "79ee839f9c",
+   "headline": "Russian hackers conduct first fully automated AI cyberattack",
+   "summary": "Google researchers documented a cyberattack orchestrated entirely by artificial intelligence with no human involvement, attributed to Russian-speaking threat actors. The operation targeted French media, entertainment, and education sectors using an \"exploit_agent\" system that chains multiple AI agents to automatically identify and exploit vulnerabilities in widely deployed software. Defenders should assume threat actors will increasingly adopt similar autonomous frameworks for large-scale campaigns.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/google-fully-automated-ai-cyberattack/",
+   "published": "2026-11-16T22:51:33Z",
+   "added": "2026-11-16T23:00:38Z",
+   "also": []
+  },
   {
    "id": "6cd4bc50c4",
    "headline": "Google Project Zero shortens bug disclosure to 30 days",
