@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-16T20:00:40Z",
+ "updated": "2026-11-16T20:30:38Z",
  "cards": [
+  {
+   "id": "460686b6b1",
+   "headline": "Match Group fined $10 million for Tinder privacy violations",
+   "summary": "Ireland's data protection regulator fined Match Group $10 million over Tinder's alleged failure to provide users with their personal data upon request. The penalty addresses privacy violations related to user data access rights. Users should verify their data requests are fulfilled when dealing with dating platforms.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/ireland-tinder-privacy-fine",
+   "published": "2026-11-16T20:15:00Z",
+   "added": "2026-11-16T20:30:38Z",
+   "also": []
+  },
+  {
+   "id": "6fd5298e49",
+   "headline": "Trump blocks China from indirect US AI technology access",
+   "summary": "The Trump administration implemented a new rule requiring overseas data centers serving companies in China, Russia, Iran, and Cuba to identify their end users. This policy aims to prevent indirect access to American AI technology through third-party infrastructure. Data centers in sanctioned nations must comply with the identification requirements to maintain operations.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
+   "published": "2026-11-16T20:00:00Z",
+   "added": "2026-11-16T20:30:38Z",
+   "also": []
+  },
   {
    "id": "f66e964ba9",
    "headline": "Barracuda cloud breach linked to ARTEX AI framework",

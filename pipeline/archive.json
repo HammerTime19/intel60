@@ -988,6 +988,13 @@
 "sev": "high",
 "summary": "Notion disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts stored by a small number of workspaces. The breach affected Notion's AI service but did not compromise the main Notion platform. Users of Notion AI should review their chat history for potentially exposed sensitive information."
 },
+"460686b6b1": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Match Group fined $10 million for Tinder privacy violations",
+"sev": "info",
+"summary": "Ireland's data protection regulator fined Match Group $10 million over Tinder's alleged failure to provide users with their personal data upon request. The penalty addresses privacy violations related to user data access rights. Users should verify their data requests are fulfilled when dealing with dating platforms."
+},
 "462ec96575": {
 "cves": [],
 "date": "2026-11-04",
@@ -1387,6 +1394,13 @@
 "headline": "Fortinet patches nearly 100 vulnerabilities",
 "sev": "high",
 "summary": "Fortinet released patches for nearly 100 vulnerabilities across its products. The significant increase in patched flaws follows the company's integration of frontier AI models into its product security testing processes. Details on severity levels and affected products were not disclosed in the announcement."
+},
+"6fd5298e49": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Trump blocks China from indirect US AI technology access",
+"sev": "info",
+"summary": "The Trump administration implemented a new rule requiring overseas data centers serving companies in China, Russia, Iran, and Cuba to identify their end users. This policy aims to prevent indirect access to American AI technology through third-party infrastructure. Data centers in sanctioned nations must comply with the identification requirements to maintain operations."
 },
 "70a17c1d3a": {
 "cves": [],
