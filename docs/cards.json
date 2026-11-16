@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-16T14:00:35Z",
+ "updated": "2026-11-16T14:30:38Z",
  "cards": [
+  {
+   "id": "81c7c458d7",
+   "headline": "Lithuanian customs agency hit by cyberattack",
+   "summary": "Lithuanian Customs suffered a cyberattack on November 10 that forced temporary shutdown of its main user management portal. The incident may have involved data exposure. Services were being restored as of mid-November. Organizations should monitor for compromised credentials and assess whether personal or operational data was accessed.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/lithuania-customs-agency-cyberattack",
+   "published": "2026-11-16T14:06:00Z",
+   "added": "2026-11-16T14:30:37Z",
+   "also": []
+  },
   {
    "id": "79abf73e84",
    "headline": "Telegram widgets targeted by RCE exploits, WebRAT malware",
@@ -4202,20 +4216,6 @@
    "source": "The Hacker News",
    "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
    "published": "2026-11-02T14:46:05Z",
-   "added": "2026-11-02T15:00:41Z",
-   "also": []
-  },
-  {
-   "id": "7bca49cdf4",
-   "headline": "Ukrainian and Russian emergency apps hijacked for fake nuclear warnings",
-   "summary": "A popular Ukrainian air raid alert system was compromised in a cyber attack over the weekend, prompting a retaliatory breach of a similar Russian emergency alert system. Both incidents involved spreading false nuclear attack warnings to users across the affected regions. Attribution to specific threat actors has not been disclosed. Authorities are investigating both breaches.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/ukraine-hackers-russia-alert-system",
-   "published": "2026-11-02T14:30:00Z",
    "added": "2026-11-02T15:00:41Z",
    "also": []
   }
