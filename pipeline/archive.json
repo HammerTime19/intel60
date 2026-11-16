@@ -981,6 +981,13 @@
 "sev": "high",
 "summary": "Chinese state-sponsored threat actor Vapor Panda has deployed a Go-based AI-powered penetration testing framework called ARTEX against high-value targets worldwide. CrowdStrike identified the campaign targeting multiple organizations simultaneously. No patch or mitigation specifics are mentioned in available details. Organizations should enhance monitoring for ARTEX indicators and apply principle of least privilege to critical systems."
 },
+"47ca43e224": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Microsoft phishing campaign exploits service outage",
+"sev": "high",
+"summary": "Attackers sent phishing emails impersonating Microsoft 365 service notifications, referencing a real outage to trick recipients. The emails falsely threatened message deletion to create urgency and prompt credential submission. Microsoft has confirmed no cyberattack caused the original outage. Users should verify notifications through official Microsoft portals and avoid clicking links in unsolicited emails."
+},
 "4854dc1468": {
 "cves": [
 "CVE-2026-111357",

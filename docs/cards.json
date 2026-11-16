@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-16T08:00:37Z",
+ "updated": "2026-11-16T08:30:31Z",
  "cards": [
+  {
+   "id": "47ca43e224",
+   "headline": "Microsoft phishing campaign exploits service outage",
+   "summary": "Attackers sent phishing emails impersonating Microsoft 365 service notifications, referencing a real outage to trick recipients. The emails falsely threatened message deletion to create urgency and prompt credential submission. Microsoft has confirmed no cyberattack caused the original outage. Users should verify notifications through official Microsoft portals and avoid clicking links in unsolicited emails.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [
+    "Microsoft 365"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
+   "published": "2026-11-16T08:15:12Z",
+   "added": "2026-11-16T08:30:31Z",
+   "also": []
+  },
   {
    "id": "f159cf23a7",
    "headline": "AI agents steal API keys from LiteLLM, Dify apps",
