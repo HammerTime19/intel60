@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T16:00:41Z",
+ "updated": "2026-11-16T16:30:33Z",
  "cards": [
   {
    "id": "d29e040f40",
@@ -4169,20 +4169,6 @@
    "url": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
    "published": "2026-11-02T17:05:20Z",
    "added": "2026-11-02T17:30:32Z",
-   "also": []
-  },
-  {
-   "id": "acbef9b6b6",
-   "headline": "Belarusian and Ukrainian hackers breach Russian statistics agency",
-   "summary": "An alliance of Belarusian and pro-Ukrainian hackers claimed responsibility for a cyberattack on Russia's federal statistics agency Rosstat, reportedly stealing sensitive government data. Russia's statistics agency has confirmed the breach. Details on the scope of stolen data and attack methods remain limited.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/hackers-ukraine-belarus-russia",
-   "published": "2026-11-02T16:30:00Z",
-   "added": "2026-11-02T16:58:51Z",
    "also": []
   }
  ]
