@@ -2680,6 +2680,13 @@
 "sev": "critical",
 "summary": "CISA added CVE-2026-118527 to its Known Exploited Vulnerabilities catalog. The vulnerability in Ivanti Connect Secure allows authenticated remote attackers to upload files with attacker-controlled content to known disk locations. Exploitable in chains with two other CVEs. Federal agencies must mitigate by November 13, 2026, per BOD 26-04 guidance or discontinue use."
 },
+"f66e964ba9": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Barracuda cloud breach linked to ARTEX AI framework",
+"sev": "high",
+"summary": "Hackers breached Barracuda's cloud environment using a stolen access key and the ARTEX AI-powered penetration testing framework. Barracuda is a network and email security company whose infrastructure compromise could affect customers. The company has identified the attack method and is investigating further. Organizations using Barracuda services should monitor for suspicious activity and review access logs."
+},
 "f6d06bee47": {
 "cves": [],
 "date": "2026-11-13",

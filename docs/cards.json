@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-16T19:30:42Z",
+ "updated": "2026-11-16T20:00:40Z",
  "cards": [
+  {
+   "id": "f66e964ba9",
+   "headline": "Barracuda cloud breach linked to ARTEX AI framework",
+   "summary": "Hackers breached Barracuda's cloud environment using a stolen access key and the ARTEX AI-powered penetration testing framework. Barracuda is a network and email security company whose infrastructure compromise could affect customers. The company has identified the attack method and is investigating further. Organizations using Barracuda services should monitor for suspicious activity and review access logs.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+   "published": "2026-11-16T19:57:13Z",
+   "added": "2026-11-16T20:00:40Z",
+   "also": []
+  },
   {
    "id": "9c11c754ea",
    "headline": "Sleeper Agent malware hides in open-weight AI models",
@@ -4169,20 +4183,6 @@
    "url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
    "published": "2026-11-02T21:42:00Z",
    "added": "2026-11-02T22:00:34Z",
-   "also": []
-  },
-  {
-   "id": "18836a2757",
-   "headline": "BYOD ransomware gang claims Michigan State University attack",
-   "summary": "The BYOD ransomware gang posted evidence of a cyberattack against Michigan State University, prompting campus-wide incident response actions. The same group recently attacked the University of New Mexico in October. BYOD is an active threat targeting higher education institutions. Affected organizations should isolate compromised systems, notify stakeholders, and prepare for potential data extortion demands.",
-   "severity": "high",
-   "category": "Ransomware",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
-   "published": "2026-11-02T19:54:00Z",
-   "added": "2026-11-02T20:30:34Z",
    "also": []
   }
  ]
