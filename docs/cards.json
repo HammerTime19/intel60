@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-16T09:00:37Z",
+ "updated": "2026-11-16T09:30:36Z",
  "cards": [
+  {
+   "id": "7d4f6584a3",
+   "headline": "NoisyTCP Linux kernel DoS affects Nginx, Apache, SSH",
+   "summary": "An 11-year-old Linux kernel vulnerability allows unauthenticated attackers to crash systems running common services like Nginx, Apache, and SSH with default configurations. The flaw affects nearly all Linux distributions. No patch status or exploitation details provided in the story. Defenders should monitor affected services and apply kernel updates when available.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+   "published": "2026-11-16T09:30:04Z",
+   "added": "2026-11-16T09:30:36Z",
+   "also": []
+  },
   {
    "id": "aaca3d274a",
    "headline": "Tor 0.4.9.17 patches DoS defenses for IPv6 relays",

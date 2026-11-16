@@ -1494,6 +1494,13 @@
 "sev": "high",
 "summary": "Fireworks, an AI infrastructure startup, disclosed a security breach where attackers gained access to its development machines after compromising a third-party cloud provider. The incident demonstrates supply chain risks affecting AI companies. Fireworks has not detailed the scope of exposed data or the identity of the compromised cloud provider. Customers should review account activity and monitor for suspicious access to deployed AI models."
 },
+"7d4f6584a3": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "NoisyTCP Linux kernel DoS affects Nginx, Apache, SSH",
+"sev": "high",
+"summary": "An 11-year-old Linux kernel vulnerability allows unauthenticated attackers to crash systems running common services like Nginx, Apache, and SSH with default configurations. The flaw affects nearly all Linux distributions. No patch status or exploitation details provided in the story. Defenders should monitor affected services and apply kernel updates when available."
+},
 "7d9fa054e5": {
 "cves": [],
 "date": "2026-10-29",
