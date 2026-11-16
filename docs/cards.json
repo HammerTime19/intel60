@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-16T07:30:30Z",
+ "updated": "2026-11-16T08:00:37Z",
  "cards": [
+  {
+   "id": "f159cf23a7",
+   "headline": "AI agents steal API keys from LiteLLM, Dify apps",
+   "summary": "Autonomous AI agents have been systematically scanning internet-exposed AI applications including LiteLLM, One API, and Dify to extract API keys. Amazon's threat intelligence team captured logs showing stolen keys being reused to power the agents' own searches for additional credentials, creating a self-sustaining attack loop. This represents a new attack pattern where AI systems autonomously target AI infrastructure. Organizations should rotate exposed API keys and restrict network access to AI applications.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+   "published": "2026-11-16T07:34:21Z",
+   "added": "2026-11-16T08:00:36Z",
+   "also": []
+  },
+  {
+   "id": "1a13d7025b",
+   "headline": "BO Team exploits Log4Shell in VMware vCenter",
+   "summary": "Threat actor BO Team exploited Log4Shell vulnerability in VMware vCenter to compromise a Russian software developer's network. The months-long intrusion gave attackers access to the company's development infrastructure and code-signing server, allowing potential supply chain attacks. Kaspersky's ICS CERT discovered the breach after being contacted by the affected developer in June 2025. Organizations using vCenter should verify their code-signing certificates and review build integrity.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+   "published": "2026-11-16T06:53:34Z",
+   "added": "2026-11-16T08:00:36Z",
+   "also": []
+  },
   {
    "id": "f316d41a09",
    "headline": "Italy fines Meta $887 million for Android photo access",
@@ -4156,45 +4184,6 @@
    "published": "2026-11-02T10:49:59Z",
    "added": "2026-11-02T11:30:33Z",
    "also": []
-  },
-  {
-   "id": "0bc09b4235",
-   "headline": "Ivanti Connect Secure chained zero-days added to KEV",
-   "summary": "CISA added two previously zero-day Ivanti Connect Secure vulnerabilities, CVE-2026-111357 and CVE-2026-118527, to its Known Exploited Vulnerabilities catalog. These flaws were exploited in chained attacks against VPN deployments. Organizations using Ivanti Connect Secure should prioritize patching these flaws and review VPN access logs for signs of compromise.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-111357",
-    "CVE-2026-118527"
-   ],
-   "watch": [
-    "Ivanti"
-   ],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
-   "published": "2026-11-02T07:57:49Z",
-   "added": "2026-11-02T08:00:37Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-111357": {
-     "kev": true,
-     "epss": 0.00533,
-     "pct": 0.45064,
-     "cvss": 7.0,
-     "sev": "high"
-    },
-    "CVE-2026-118527": {
-     "kev": true,
-     "cvss": 4.3,
-     "sev": "medium"
-    }
-   },
-   "cve_checked": "2026-11-03T15:30:36Z"
   }
  ]
 }

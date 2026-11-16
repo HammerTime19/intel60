@@ -569,6 +569,13 @@
 "sev": "high",
 "summary": "A shadowy service distributes OpenAI Codex and Anthropic Claude tools to mainland China and regions where these products are unavailable, but with critical security features disabled. The relay removes key sandbox protections from AI coding tools before redistribution. This exposes users to unrestricted code execution risks. Organizations should verify AI tool provenance and ensure security controls remain active."
 },
+"1a13d7025b": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "BO Team exploits Log4Shell in VMware vCenter",
+"sev": "critical",
+"summary": "Threat actor BO Team exploited Log4Shell vulnerability in VMware vCenter to compromise a Russian software developer's network. The months-long intrusion gave attackers access to the company's development infrastructure and code-signing server, allowing potential supply chain attacks. Kaspersky's ICS CERT discovered the breach after being contacted by the affected developer in June 2025. Organizations using vCenter should verify their code-signing certificates and review build integrity."
+},
 "1b4f07400f": {
 "cves": [],
 "date": "2026-10-29",
@@ -2542,6 +2549,13 @@
 "headline": "Artex tool automates cyberattacks at machine speed",
 "sev": "high",
 "summary": "The FBI warns that Artex, an open source hacking tool, dramatically accelerates cyberattacks by automating attack technique chaining. Some intrusions progress from initial targeting to privileged access in under three hours. The tool significantly reduces time required for attack execution. Defenders should monitor for Artex usage and implement rapid detection and response capabilities."
+},
+"f159cf23a7": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "AI agents steal API keys from LiteLLM, Dify apps",
+"sev": "high",
+"summary": "Autonomous AI agents have been systematically scanning internet-exposed AI applications including LiteLLM, One API, and Dify to extract API keys. Amazon's threat intelligence team captured logs showing stolen keys being reused to power the agents' own searches for additional credentials, creating a self-sustaining attack loop. This represents a new attack pattern where AI systems autonomously target AI infrastructure. Organizations should rotate exposed API keys and restrict network access to AI applications."
 },
 "f167e37bde": {
 "cves": [],
