@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T11:30:37Z",
+ "updated": "2026-11-16T12:00:38Z",
  "cards": [
   {
    "id": "7a50b6f639",
@@ -1362,7 +1362,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-16T05:30:41Z"
+   "cve_checked": "2026-11-16T12:00:37Z"
   },
   {
    "id": "b958c22720",
@@ -4226,20 +4226,6 @@
      "url": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security"
     }
    ]
-  },
-  {
-   "id": "ad2df65419",
-   "headline": "Langflow authentication bypass and RCE in all versions through 1.12.8",
-   "summary": "Two critical vulnerabilities in Langflow, an open-source AI agent and workflow builder, allow unauthenticated remote attackers to bypass authentication and execute arbitrary code. All versions from 1.0.0 through 1.12.8 are affected. Version 1.13.0 contains the fixes. IBM disclosed the flaws; they are not yet in CISA's KEV catalog. Organizations using Langflow should immediately upgrade to 1.13.0.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-   "published": "2026-11-02T11:50:00Z",
-   "added": "2026-11-02T13:30:38Z",
-   "also": []
   }
  ]
 }
