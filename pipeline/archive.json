@@ -1879,6 +1879,13 @@
 "sev": "high",
 "summary": "An attacker used AI-generated scripts to breach a US retailer after hand-typed commands failed to compromise the network. The AI scripts achieved lateral movement across the target's systems in minutes. The incident demonstrates how threat actors are leveraging AI to automate and accelerate attack chains. Defenders should enhance detection of suspicious scripting activity and implement behavioral analysis to identify anomalous lateral movement patterns."
 },
+"9c11c754ea": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Sleeper Agent malware hides in open-weight AI models",
+"sev": "high",
+"summary": "Security researchers discovered malware can be embedded in open-weight AI models using a \"sleeper agent\" technique, occupying less than 0.00001% of a neural network's parameters. The payload remains dormant until triggered, making detection extremely difficult. This attack vector poses a significant supply chain risk for organizations deploying public AI models. Users should implement model verification and sandboxing practices before deploying external models in production environments."
+},
 "9c24410329": {
 "cves": [],
 "date": "2026-11-04",

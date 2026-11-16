@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-16T19:00:38Z",
+ "updated": "2026-11-16T19:30:42Z",
  "cards": [
+  {
+   "id": "9c11c754ea",
+   "headline": "Sleeper Agent malware hides in open-weight AI models",
+   "summary": "Security researchers discovered malware can be embedded in open-weight AI models using a \"sleeper agent\" technique, occupying less than 0.00001% of a neural network's parameters. The payload remains dormant until triggered, making detection extremely difficult. This attack vector poses a significant supply chain risk for organizations deploying public AI models. Users should implement model verification and sandboxing practices before deploying external models in production environments.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/sleeper-agent-tactic-payloads-open-weight-ai-models",
+   "published": "2026-11-16T19:10:03Z",
+   "added": "2026-11-16T19:30:42Z",
+   "also": []
+  },
   {
    "id": "18b00fe2b4",
    "headline": "Microsoft 365 outage caused by July software bug",
@@ -4169,20 +4183,6 @@
    "url": "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
    "published": "2026-11-02T19:54:00Z",
    "added": "2026-11-02T20:30:34Z",
-   "also": []
-  },
-  {
-   "id": "b9a8fe94cb",
-   "headline": "Abrigo Sageworks fintech platform hit by suspected cyberattack",
-   "summary": "Financial technology company Abrigo's Sageworks risk management application went offline following detected irregular activity in its environment. The platform has been partially restored, with borrower-facing capabilities remaining offline. Abrigo is investigating the incident. Organizations using Sageworks should monitor account activity and await further guidance from the vendor on full service restoration.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
-   "published": "2026-11-02T19:00:45Z",
-   "added": "2026-11-02T19:30:32Z",
    "also": []
   }
  ]
