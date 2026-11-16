@@ -569,6 +569,13 @@
 "sev": "high",
 "summary": "The BYOD ransomware gang posted evidence of a cyberattack against Michigan State University, prompting campus-wide incident response actions. The same group recently attacked the University of New Mexico in October. BYOD is an active threat targeting higher education institutions. Affected organizations should isolate compromised systems, notify stakeholders, and prepare for potential data extortion demands."
 },
+"18b00fe2b4": {
+"cves": [],
+"date": "2026-11-16",
+"headline": "Microsoft 365 outage caused by July software bug",
+"sev": "high",
+"summary": "Microsoft disclosed that a software bug introduced in July triggered last week's global Microsoft 365 outage, causing cascading failures that left over 80% of networking gateway servers unresponsive. The widespread service disruption affected millions of users relying on Office 365, Teams, and related cloud services. While Microsoft has since restored services, this incident highlights risks from deployment of untested code. Organizations should monitor for continued stability and review Microsoft's incident reports for detailed remediation steps."
+},
 "196b1e6052": {
 "cves": [],
 "date": "2026-10-29",

@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-16T16:30:33Z",
+ "updated": "2026-11-16T17:00:41Z",
  "cards": [
+  {
+   "id": "18b00fe2b4",
+   "headline": "Microsoft 365 outage caused by July software bug",
+   "summary": "Microsoft disclosed that a software bug introduced in July triggered last week's global Microsoft 365 outage, causing cascading failures that left over 80% of networking gateway servers unresponsive. The widespread service disruption affected millions of users relying on Office 365, Teams, and related cloud services. While Microsoft has since restored services, this incident highlights risks from deployment of untested code. Organizations should monitor for continued stability and review Microsoft's incident reports for detailed remediation steps.",
+   "severity": "high",
+   "category": "Research",
+   "cves": [],
+   "watch": [
+    "Microsoft 365"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+   "published": "2026-11-16T16:43:24Z",
+   "added": "2026-11-16T17:00:41Z",
+   "also": []
+  },
   {
    "id": "d29e040f40",
    "headline": "Fandango data breach exposes payment card details",
