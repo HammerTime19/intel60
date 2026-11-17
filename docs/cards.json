@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-17T02:00:35Z",
+ "updated": "2026-11-17T02:30:34Z",
  "cards": [
+  {
+   "id": "05b6417e27",
+   "headline": "Optimizely supply chain attack hits Zoom, CNN, BBC",
+   "summary": "A supply chain attack on Optimizely injected malicious JavaScript into major websites including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab. The malware targets visitors to steal cryptocurrency and payment card information and exploit iOS device vulnerabilities. Defenders should clear browser cache and monitor accounts for suspicious activity.",
+   "severity": "critical",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
+   "published": "2026-11-17T02:12:17Z",
+   "added": "2026-11-17T02:30:34Z",
+   "also": []
+  },
   {
    "id": "79ee839f9c",
    "headline": "Russian hackers conduct first fully automated AI cyberattack",
