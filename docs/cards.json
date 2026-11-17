@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:30:38Z",
+ "updated": "2026-11-17T23:00:36Z",
  "cards": [
   {
    "id": "ddec81ba80",
@@ -367,6 +367,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/optimizely-malicious-code-customer-sites"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks"
     }
    ]
   },
