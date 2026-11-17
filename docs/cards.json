@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-17T11:30:35Z",
+ "updated": "2026-11-17T12:00:40Z",
  "cards": [
+  {
+   "id": "5e43b1695a",
+   "headline": "GitDoor and GraphDoor backdoors abuse GitHub, SharePoint",
+   "summary": "Kaspersky identified Operation ShadowCloud, a campaign targeting government sectors in Asia and Africa using previously undocumented backdoors: GitDoor and GraphDoor. The malware abuses Microsoft SharePoint and GitHub as covert command-and-control channels. The campaign was active since early 2026. Organizations should monitor for suspicious activity on GitHub and SharePoint accounts.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+   "published": "2026-11-17T11:20:18Z",
+   "added": "2026-11-17T12:00:39Z",
+   "also": []
+  },
+  {
+   "id": "cb74b2746c",
+   "headline": "Apple tightens macOS app permissions for AI agents",
+   "summary": "Apple introduced granular data access controls in macOS 27.3 beta 2, allowing users to restrict app permissions for Device Control, Data Access, and Full Disk Access. The changes address security risks from AI agents that may require broad system access. Users will gain more transparency and control over what data applications can access on their devices.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+   "published": "2026-11-17T11:07:31Z",
+   "added": "2026-11-17T12:00:39Z",
+   "also": []
+  },
   {
    "id": "d51a92f2bc",
    "headline": "Kazakh ransomware affiliate extradited to US, faces 27 years",

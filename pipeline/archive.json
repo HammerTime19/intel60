@@ -1250,6 +1250,13 @@
 "sev": "high",
 "summary": "Three individuals nicknamed \"Rocky Balboa,\" \"Superman Cash,\" and \"Fat Boy\" were charged for using AI to impersonate CEOs and attorneys in a fraud scheme that stole $129 million. The attackers primarily targeted company accounting departments with convincing impersonations. Law enforcement has taken action against the perpetrators involved in this coordinated fraud campaign."
 },
+"5e43b1695a": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "GitDoor and GraphDoor backdoors abuse GitHub, SharePoint",
+"sev": "high",
+"summary": "Kaspersky identified Operation ShadowCloud, a campaign targeting government sectors in Asia and Africa using previously undocumented backdoors: GitDoor and GraphDoor. The malware abuses Microsoft SharePoint and GitHub as covert command-and-control channels. The campaign was active since early 2026. Organizations should monitor for suspicious activity on GitHub and SharePoint accounts."
+},
 "5e7c3d53ea": {
 "cves": [],
 "date": "2026-11-12",
@@ -2316,6 +2323,13 @@
 "headline": "26,400 valid cloud AI credentials exposed Gitee repos",
 "sev": "high",
 "summary": "A researcher found 26,400 working developer credentials left in public code repositories on Gitee, a Chinese code-hosting platform. Scanning 7.25 million public repos revealed mostly cloud and AI service keys that attackers could abuse immediately. Anyone with access to these repositories could use the exposed credentials to compromise accounts and cloud infrastructure. Developers should rotate exposed credentials urgently and use secrets management tools to prevent similar leaks."
+},
+"cb74b2746c": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Apple tightens macOS app permissions for AI agents",
+"sev": "info",
+"summary": "Apple introduced granular data access controls in macOS 27.3 beta 2, allowing users to restrict app permissions for Device Control, Data Access, and Full Disk Access. The changes address security risks from AI agents that may require broad system access. Users will gain more transparency and control over what data applications can access on their devices."
 },
 "cbcc5cbaf6": {
 "cves": [],
