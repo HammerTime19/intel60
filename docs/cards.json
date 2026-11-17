@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T01:01:03Z",
+ "updated": "2026-11-17T01:30:39Z",
  "cards": [
   {
    "id": "79ee839f9c",
@@ -253,7 +253,12 @@
    "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
    "published": "2026-11-16T11:02:48Z",
    "added": "2026-11-16T11:30:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/uber-says-150000-impacted-third-party-breach"
+    }
+   ]
   },
   {
    "id": "f0b3319bef",
