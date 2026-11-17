@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T00:00:32Z",
+ "updated": "2026-11-17T00:30:35Z",
  "cards": [
   {
    "id": "79ee839f9c",
@@ -1595,11 +1595,12 @@
    "cve_info": {
     "CVE-2026-111760": {
      "kev": false,
-     "cvss": null,
-     "sev": null
+     "cvss": 8.0,
+     "sev": "high",
+     "desc": "Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. Prior to 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1, 2.55.1, and 2.56.1, an attacker-controlled repository hosted by the attacker rather than on a normal forge site can exploit git clone --recurse-submodules by causing Git to overwrite a submodule gitfile with a symbolic link. The symbolic link can point to a directory containing attacker-controlled Git configuration or hooks, allowing those hooks or configuration to execute code on…"
     }
    },
-   "cve_checked": "2026-11-16T18:00:49Z"
+   "cve_checked": "2026-11-17T00:30:35Z"
   },
   {
    "id": "b958c22720",
@@ -4221,20 +4222,6 @@
     }
    },
    "cve_checked": "2026-11-03T06:00:50Z"
-  },
-  {
-   "id": "266b3df327",
-   "headline": "UK cyber chief warns unprecedented cyberattacks ahead",
-   "summary": "The UK National Cyber Security Centre (NCSC) warned of an impending surge in cyberattacks, citing newly exposed vulnerabilities that can now be discovered and exploited at previously unimaginable scale. The warning comes in the agency's annual report, highlighting risks from long-tolerated security gaps. No specific vulnerabilities, timelines, or defensive measures are detailed. Organizations should review their vulnerability management and incident response protocols.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
-   "published": "2026-11-03T00:01:00Z",
-   "added": "2026-11-03T00:30:33Z",
-   "also": []
   }
  ]
 }
