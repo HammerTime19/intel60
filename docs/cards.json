@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:00:34Z",
+ "updated": "2026-11-17T22:30:38Z",
  "cards": [
   {
    "id": "ddec81ba80",
@@ -129,7 +129,12 @@
    "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
    "published": "2026-11-17T15:17:36Z",
    "added": "2026-11-17T19:30:39Z",
-   "also": [],
+   "also": [
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/java4shell-critical-java-flaw-openjdk/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-114938": {
      "kev": false,
