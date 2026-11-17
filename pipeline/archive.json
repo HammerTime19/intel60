@@ -1646,6 +1646,13 @@
 "sev": "info",
 "summary": "Researchers detected a resurgence in scans targeting vulnerable email CGI scripts on honeypots, similar to CVE-2000-0411 and related flaws. Attackers probe for test scripts like sendmail.php and testemail.php left behind during development, attempting to set arbitrary email headers or achieve code execution. Organizations should remove development test scripts and validate email form implementations."
 },
+"7e0cfef95a": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "California fines Hertz $1.5 million data privacy violation",
+"sev": "info",
+"summary": "California's Privacy Protection Agency fined car rental company Hertz $1.5 million for breaking state data privacy law. Hertz agreed to the fine and committed to changing its business practices. The enforcement action reflects California's crackdown on companies mishandling consumer data. Organizations handling customer information should audit their privacy practices to ensure compliance with California regulations."
+},
 "7e1f9b33c6": {
 "cves": [],
 "date": "2026-11-10",
