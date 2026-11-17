@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T17:30:34Z",
+ "updated": "2026-11-17T18:00:46Z",
  "cards": [
   {
    "id": "7e0cfef95a",
@@ -231,6 +231,33 @@
      "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/"
     }
    ]
+  },
+  {
+   "id": "7ca8ed11e0",
+   "headline": "Perforce Puppet Enterprise arbitrary code execution flaw",
+   "summary": "Perforce Puppet Enterprise contains a deserialization vulnerability in its report-processing code allowing arbitrary code execution on the Puppet Server as the service user. Attackers with a CA-signed agent certificate can exploit this by submitting a crafted report via PUT request; if certificate authority auto-signs without strong verification, unauthenticated attackers can obtain valid certificates and exploit the flaw. CISA added this to the KEV catalog with a December 1 federal patching deadline. Administrators must apply vendor mitigations immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-115731"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
+   "published": "2026-11-17T00:00:00Z",
+   "added": "2026-11-17T18:00:39Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-115731": {
+     "kev": true,
+     "epss": 0.00366,
+     "pct": 0.30882,
+     "cvss": 9.4,
+     "sev": "critical",
+     "desc": "Deserialization of untrusted data in the report-processing code of Puppet, as used by Puppet Server, in the affected releases, allows a client that holds any CA-signed agent certificate to execute arbitrary code on the Puppet Server as its service user by submitting a report containing a crafted rich-data type via PUT request. Where the certificate authority autosigns requests without strong verification, an unauthenticated network attacker can obtain such a certificate."
+    }
+   },
+   "cve_checked": "2026-11-17T18:00:45Z"
   },
   {
    "id": "79ee839f9c",

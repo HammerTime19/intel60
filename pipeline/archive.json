@@ -186,6 +186,16 @@
 "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
 "sev": "high"
 },
+"CVE-2026-115731": {
+"cvss": 9.4,
+"date": "2026-11-17",
+"desc": "Deserialization of untrusted data in the report-processing code of Puppet, as used by Puppet Server, in the affected releases, allows a client that holds any CA-signed agent certificate to execute arbitrary code on the Puppet Server as its service user by submitting a report containing a crafted rich-data type via PUT request. Where the certificate authority autosigns requests without strong verification, an unauthenticated network attacker can obtain such a certificate.",
+"due": "2026-12-01",
+"epss": 0.00366,
+"kev": true,
+"name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+"sev": "critical"
+},
 "CVE-2026-116606": {
 "cvss": 9.3,
 "date": "2026-11-06",
@@ -1601,6 +1611,15 @@
 "headline": "Russian influence campaign targets Latin America schools",
 "sev": "high",
 "summary": "A Russian operation using AI-generated content deployed fake emails and forged government documents to target schools in Peru, Ecuador, and other Latin American countries. The campaign created fake local organizations to amplify reach and credibility. Defenders should enhance email authentication controls, train staff on document verification, and monitor for similar fake organizational entities targeting education institutions."
+},
+"7ca8ed11e0": {
+"cves": [
+"CVE-2026-115731"
+],
+"date": "2026-11-17",
+"headline": "Perforce Puppet Enterprise arbitrary code execution flaw",
+"sev": "critical",
+"summary": "Perforce Puppet Enterprise contains a deserialization vulnerability in its report-processing code allowing arbitrary code execution on the Puppet Server as the service user. Attackers with a CA-signed agent certificate can exploit this by submitting a crafted report via PUT request; if certificate authority auto-signs without strong verification, unauthenticated attackers can obtain valid certificates and exploit the flaw. CISA added this to the KEV catalog with a December 1 federal patching deadline. Administrators must apply vendor mitigations immediately."
 },
 "7cd796fba4": {
 "cves": [],

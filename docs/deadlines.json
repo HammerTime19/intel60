@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-17T17:30:34Z",
+ "updated": "2026-11-17T18:00:45Z",
  "items": [
+  {
+   "cve": "CVE-2026-115731",
+   "vendor": "Perforce",
+   "product": "Puppet Enterprise",
+   "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-17",
+   "due": "2026-12-01",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "7ca8ed11e0"
+  },
   {
    "cve": "CVE-2026-114713",
    "vendor": "UnrealIRCd",
