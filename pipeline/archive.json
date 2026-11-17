@@ -544,6 +544,13 @@
 "sev": "critical",
 "summary": "Google released security patches for Android addressing over 200 vulnerabilities in the November 2026 update. The most critical flaw affects the Framework component and enables remote code execution without user interaction. All Android devices should install the latest security patches immediately to mitigate exploitation risk."
 },
+"148f7e8fc3": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Phishing kits steal and replay Microsoft 365 session tokens",
+"sev": "high",
+"summary": "Huntress researchers analyzed phishing kits including EvilTokens, Knight Office, and Kali365 that target Microsoft 365 users by capturing and replaying session tokens. These tools automate credential theft and session hijacking attacks. Defenders should enforce conditional access policies, monitor for suspicious token usage, and educate users on phishing indicators to prevent token compromise."
+},
 "14caa111ee": {
 "cves": [],
 "date": "2026-11-11",
@@ -1483,6 +1490,13 @@
 "headline": "SonicWall SonicOS SSLVPN auth bypass added to CISA KEV",
 "sev": "critical",
 "summary": "SonicWall SonicOS SSLVPN contains a single-factor authentication flaw allowing users with valid alternate credentials to bypass SAML authentication and MFA controls. The vulnerability is now tracked in CISA's Known Exploited Vulnerabilities catalog. Organizations must apply vendor mitigations or discontinue use of the product per BOD 26-04 guidance. Federal agencies have until November 20, 2026 to patch."
+},
+"76496683be": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Market research firm Ipsos investigating internal system breach",
+"sev": "high",
+"summary": "Ipsos, a global market research company, is investigating a breach of its internal systems. The incident was disclosed publicly on November 16, five days after the company filed a complaint with authorities. Details about the scope, affected data, or compromise timeline remain limited. Organizations should monitor for potential impacts if Ipsos data is involved in their operations."
 },
 "77d976efa8": {
 "cves": [

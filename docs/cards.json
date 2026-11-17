@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-17T15:00:44Z",
+ "updated": "2026-11-17T15:30:40Z",
  "cards": [
+  {
+   "id": "148f7e8fc3",
+   "headline": "Phishing kits steal and replay Microsoft 365 session tokens",
+   "summary": "Huntress researchers analyzed phishing kits including EvilTokens, Knight Office, and Kali365 that target Microsoft 365 users by capturing and replaying session tokens. These tools automate credential theft and session hijacking attacks. Defenders should enforce conditional access policies, monitor for suspicious token usage, and educate users on phishing indicators to prevent token compromise.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [
+    "Microsoft 365"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+   "published": "2026-11-17T15:01:11Z",
+   "added": "2026-11-17T15:30:39Z",
+   "also": []
+  },
+  {
+   "id": "76496683be",
+   "headline": "Market research firm Ipsos investigating internal system breach",
+   "summary": "Ipsos, a global market research company, is investigating a breach of its internal systems. The incident was disclosed publicly on November 16, five days after the company filed a complaint with authorities. Details about the scope, affected data, or compromise timeline remain limited. Organizations should monitor for potential impacts if Ipsos data is involved in their operations.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+   "published": "2026-11-17T14:55:30Z",
+   "added": "2026-11-17T15:30:39Z",
+   "also": []
+  },
   {
    "id": "054aa61d19",
    "headline": "Pakistani SpaceCobra targets Indian defense with GravityRAT spyware",
@@ -4173,52 +4203,6 @@
     {
      "source": "Dark Reading",
      "url": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise"
-    }
-   ]
-  },
-  {
-   "id": "63d055e30b",
-   "headline": "cPGuard update channel hijacked to backdoor Linux servers",
-   "summary": "An attacker compromised the update system for cPGuard security tool on November 2, delivering a malicious script to Linux servers running version 5.88.25 and later. The script installed a backdoor and exfiltrated password hashes and sensitive files. OPSSHIELD confirmed the breach. Users should update from a trusted source and audit affected systems for unauthorized access.",
-   "severity": "critical",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-   "published": "2026-11-03T15:16:32Z",
-   "added": "2026-11-03T16:00:39Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/"
-    }
-   ]
-  },
-  {
-   "id": "36b3d0baf9",
-   "headline": "Barracuda critical flaws allow root command execution",
-   "summary": "Barracuda Networks discovered two critical vulnerabilities enabling remote command execution with root privileges on affected devices. The flaws impact Barracuda security appliances widely used by enterprises. The company has advised customers to apply patches immediately. Organizations running Barracuda devices should prioritize updates to prevent unauthorized access and system compromise.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-   "published": "2026-11-03T15:06:16Z",
-   "added": "2026-11-03T15:30:36Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/"
     }
    ]
   }
