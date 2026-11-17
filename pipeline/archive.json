@@ -839,6 +839,13 @@
 "sev": "critical",
 "summary": "A critical vulnerability in Red Hat Quay allows attackers to steal private container images, overwrite repositories, and establish persistent access. Organizations using Quay should apply patches immediately. The exact CVE and technical details require patching to prevent unauthorized access to containerized applications and infrastructure compromise."
 },
+"389f46b9e9": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Access Dental breach exposes 340,000 personal records",
+"sev": "high",
+"summary": "Hackers breached Access Dental's network and stole personal, health, and insurance information from over 340,000 individuals. The attack compromised sensitive data including patient records and payment information. Access Dental is investigating the incident. Affected individuals should monitor for identity theft and fraudulent healthcare or insurance claims."
+},
 "39749d757e": {
 "cves": [],
 "date": "2026-11-02",

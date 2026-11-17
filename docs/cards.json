@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-17T12:30:37Z",
+ "updated": "2026-11-17T13:00:33Z",
  "cards": [
+  {
+   "id": "389f46b9e9",
+   "headline": "Access Dental breach exposes 340,000 personal records",
+   "summary": "Hackers breached Access Dental's network and stole personal, health, and insurance information from over 340,000 individuals. The attack compromised sensitive data including patient records and payment information. Access Dental is investigating the incident. Affected individuals should monitor for identity theft and fraudulent healthcare or insurance claims.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
+   "published": "2026-11-17T12:59:04Z",
+   "added": "2026-11-17T13:00:32Z",
+   "also": []
+  },
   {
    "id": "b69860df42",
    "headline": "iPhone microphone flaw let apps record despite denial",
