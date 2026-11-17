@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-17T06:30:32Z",
+ "updated": "2026-11-17T07:00:36Z",
  "cards": [
+  {
+   "id": "e5f38235f3",
+   "headline": "ConnectWise ScreenConnect attacks persist despite updates",
+   "summary": "ConnectWise completed its investigation into unauthorized access targeting partner ScreenConnect environments. The company recommends customers upgrade technician client to version 26.6.5 or later. Additional attacks on on-premises environments continue as identified third-party extensions remain enabled. Defenders should immediately patch and audit extension configurations for any unauthorized access.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+   "published": "2026-11-17T06:29:27Z",
+   "added": "2026-11-17T07:00:36Z",
+   "also": []
+  },
   {
    "id": "1ef65dbe39",
    "headline": "N-able patches 17 N-central critical flaws",

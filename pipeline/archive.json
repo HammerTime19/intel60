@@ -2560,6 +2560,13 @@
 "sev": "high",
 "summary": "The Department of Justice and FBI announced coordinated actions against North Korea-linked cryptocurrency theft operations. Federal authorities seized $1.2 billion in stolen cryptocurrency from a Binance breach and dismantled FaceStealer tools used by attackers. The operations target cryptocurrency exchanges and related infrastructure. Defenders should review cryptocurrency security policies and monitor for tool variants."
 },
+"e5f38235f3": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "ConnectWise ScreenConnect attacks persist despite updates",
+"sev": "critical",
+"summary": "ConnectWise completed its investigation into unauthorized access targeting partner ScreenConnect environments. The company recommends customers upgrade technician client to version 26.6.5 or later. Additional attacks on on-premises environments continue as identified third-party extensions remain enabled. Defenders should immediately patch and audit extension configurations for any unauthorized access."
+},
 "e61330c977": {
 "cves": [
 "CVE-2026-123218",
