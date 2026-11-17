@@ -551,6 +551,13 @@
 "sev": "info",
 "summary": "The FBI shut down a bulletproof hosting provider used to facilitate cybercrimes including money laundering and distribution of child sexual abuse material. The seizure targeted the domain of an infrastructure provider that offered services specifically designed to evade law enforcement. This action disrupts services relied upon by criminal networks and demonstrates continued law enforcement focus on tackling hosting infrastructure abuse."
 },
+"126567e065": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Java4Shell critical RCE flaw in OpenJDK affects Jenkins, Jira",
+"sev": "critical",
+"summary": "A critical vulnerability in OpenJDK allows unauthenticated remote code execution on enterprise applications including Jenkins, Atlassian Jira, Confluence, and Keycloak. Java4Shell exposes widely deployed software to direct attack. Developers should apply patches immediately when available and prioritize systems running vulnerable versions."
+},
 "1413af0079": {
 "cves": [],
 "date": "2026-11-04",

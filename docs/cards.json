@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-17T23:00:36Z",
+ "updated": "2026-11-17T23:30:38Z",
  "cards": [
+  {
+   "id": "126567e065",
+   "headline": "Java4Shell critical RCE flaw in OpenJDK affects Jenkins, Jira",
+   "summary": "A critical vulnerability in OpenJDK allows unauthenticated remote code execution on enterprise applications including Jenkins, Atlassian Jira, Confluence, and Keycloak. Java4Shell exposes widely deployed software to direct attack. Developers should apply patches immediately when available and prioritize systems running vulnerable versions.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+   "published": "2026-11-17T23:04:21Z",
+   "added": "2026-11-17T23:30:37Z",
+   "also": []
+  },
   {
    "id": "ddec81ba80",
    "headline": "Leaked Docker Hub credentials exploited within seconds",
