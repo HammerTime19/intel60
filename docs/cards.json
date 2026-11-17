@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-17T16:30:32Z",
+ "updated": "2026-11-17T17:00:40Z",
  "cards": [
+  {
+   "id": "bb59c1759a",
+   "headline": "NSA classified network NSA Net suffers disruptions",
+   "summary": "NSA's classified internal network NSA Net is experiencing unspecified disruptions. The agency has ordered staggered arrivals at Fort Meade headquarters while technicians work to restore full service. No details on the cause—whether due to cyberattack, infrastructure failure, or other incident—have been disclosed. The situation remains under investigation.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/nsa-net-disruptions",
+   "published": "2026-11-17T16:21:00Z",
+   "added": "2026-11-17T17:00:40Z",
+   "also": []
+  },
   {
    "id": "148f7e8fc3",
    "headline": "Phishing kits steal and replay Microsoft 365 session tokens",
@@ -4163,29 +4177,6 @@
    "published": "2026-11-03T18:16:19Z",
    "added": "2026-11-03T19:00:57Z",
    "also": []
-  },
-  {
-   "id": "848edcd7f6",
-   "headline": "North Korea steals $6.3B from Binance in months-long campaign",
-   "summary": "North Korean threat actors conducted a prolonged campaign targeting Binance, resulting in the theft of $6.3 billion in cryptocurrency. The attackers used social engineering tactics including fake recruitment interviews alongside other techniques. Binance discovered the breach in October 2026. North Korea has denied responsibility for the attack. This represents one of the largest cryptocurrency thefts to date.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
-   "published": "2026-11-03T16:42:00Z",
-   "added": "2026-11-03T17:00:41Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/"
-    }
-   ]
   }
  ]
 }

@@ -2275,6 +2275,13 @@
 "sev": "high",
 "summary": "Apple released security updates addressing multiple iMessage vulnerabilities affecting iPhone XS, XS Max, XR and iPad (7th generation). One flaw could allow a remote attacker to join a group chat and receive messages; another could let added members access previously sent messages. Updates are available across affected devices. Users should install patches immediately."
 },
+"bb59c1759a": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "NSA classified network NSA Net suffers disruptions",
+"sev": "high",
+"summary": "NSA's classified internal network NSA Net is experiencing unspecified disruptions. The agency has ordered staggered arrivals at Fort Meade headquarters while technicians work to restore full service. No details on the cause—whether due to cyberattack, infrastructure failure, or other incident—have been disclosed. The situation remains under investigation."
+},
 "bb609cd39a": {
 "cves": [],
 "date": "2026-10-30",
