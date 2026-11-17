@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T10:30:37Z",
+ "updated": "2026-11-17T11:00:41Z",
  "cards": [
   {
    "id": "d51a92f2bc",
@@ -59,6 +59,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/"
     }
    ]
   },
@@ -4225,20 +4229,6 @@
    "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
    "published": "2026-11-03T11:00:45Z",
    "added": "2026-11-03T13:00:39Z",
-   "also": []
-  },
-  {
-   "id": "8491f2b2e0",
-   "headline": "Harvard University breach exposes 851K alumni accounts",
-   "summary": "Hackers breached Harvard University's Alumni Affairs and Development systems in November 2025, stealing data linked to more than 850,000 unique email addresses. The compromised information is now tracked in breach notification service Have I Been Pwned. Harvard has not disclosed additional details about the data categories affected or remediation steps. Affected individuals should monitor for phishing and credential misuse.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
-   "published": "2026-11-03T10:53:25Z",
-   "added": "2026-11-03T11:00:36Z",
    "also": []
   }
  ]
