@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T07:30:34Z",
+ "updated": "2026-11-17T08:00:38Z",
  "cards": [
   {
    "id": "d51a92f2bc",
@@ -55,7 +55,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
    "published": "2026-11-17T02:12:17Z",
    "added": "2026-11-17T02:30:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
+    }
+   ]
   },
   {
    "id": "79ee839f9c",
