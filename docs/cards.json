@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:00:38Z",
+ "updated": "2026-11-17T20:30:29Z",
  "cards": [
   {
    "id": "3910748ba8",
@@ -533,7 +533,12 @@
    "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
    "published": "2026-11-16T12:48:03Z",
    "added": "2026-11-16T13:00:44Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html"
+    }
+   ]
   },
   {
    "id": "119c79e2a8",
