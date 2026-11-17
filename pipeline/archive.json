@@ -2152,6 +2152,13 @@
 "sev": "info",
 "summary": "Ukrainian cyber police arrested four men, including the alleged leader of a scam call center targeting German victims in a $5 million cryptocurrency fraud scheme. The operation is part of ongoing efforts to dismantle organized cyber-fraud networks. This represents law enforcement action against active financial crime affecting international victims."
 },
+"b69860df42": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "iPhone microphone flaw let apps record despite denial",
+"sev": "high",
+"summary": "A patched vulnerability in Apple's audio service allowed iPhone and iPad apps to record audio even when users denied microphone permissions. The flaw was fixed in security updates released August 17 and disclosed by Meta Red Team X researcher Nik Tsytsarkin. No reports indicate the vulnerability was exploited in attacks. Users should ensure their devices are updated to the latest iOS and iPadOS versions."
+},
 "b80a24c893": {
 "cves": [],
 "date": "2026-11-11",
