@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-17T13:30:34Z",
+ "updated": "2026-11-17T14:00:45Z",
  "cards": [
+  {
+   "id": "054aa61d19",
+   "headline": "Pakistani SpaceCobra targets Indian defense with GravityRAT spyware",
+   "summary": "Pakistani-aligned threat actor SpaceCobra has conducted a 12-month cyberespionage campaign targeting Indian defense contractors and military personnel using GravityRAT malware. The group created convincing fake job recruitment websites impersonating defense firms like Lockheed Martin and BAE Systems to trick victims into downloading malware. The campaign tactics could affect defense sectors globally.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/pakistani-hackers-defense-workers-fake-job-sites/",
+   "published": "2026-11-17T14:00:00Z",
+   "added": "2026-11-17T14:00:45Z",
+   "also": []
+  },
+  {
+   "id": "69b76f0fd1",
+   "headline": "NIST finalizes post-quantum cryptography guidance, GAO warns agencies lag",
+   "summary": "NIST has finalized guidance on post-quantum cryptography to prepare for threats that will break current encryption standards. A GAO report shows US agencies are behind schedule in implementing these new defenses. Organizations should begin transitioning to post-quantum algorithms to protect sensitive data against future quantum-enabled attacks.",
+   "severity": "high",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cyber-risk/nist-finalizes-post-quantum-cryptography-guidance-gao-offers-a-reality-check",
+   "published": "2026-11-17T13:22:15Z",
+   "added": "2026-11-17T14:00:45Z",
+   "also": []
+  },
   {
    "id": "389f46b9e9",
    "headline": "Access Dental breach exposes 340,000 personal records",
@@ -4194,39 +4222,6 @@
    "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
    "published": "2026-11-03T14:32:38Z",
    "added": "2026-11-03T14:36:13Z",
-   "also": []
-  },
-  {
-   "id": "ccddb3cec5",
-   "headline": "3AM ransomware affiliate uses AI to automate school attacks",
-   "summary": "The 3AM ransomware affiliate group has integrated AI-like automation into its European school attacks, using machine learning models to generate and revise malicious commands during breaches. Researchers identified evidence of AI-driven loop logic in attack sequences, though full automation remains unconfirmed. Schools should strengthen endpoint detection and review recent breach logs for automated command patterns.",
-   "severity": "high",
-   "category": "Ransomware",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
-   "published": "2026-11-03T14:00:00Z",
-   "added": "2026-11-03T14:00:36Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/"
-    }
-   ]
-  },
-  {
-   "id": "266dc1112b",
-   "headline": "Russia-linked hackers target Ukraine war crimes investigations",
-   "summary": "Russian cyber spies are conducting targeted attacks against Ukrainian organizations handling war crimes investigations and military aid logistics. The campaign uses simple malware to steal sensitive documents, credentials, and intelligence from targets near the front line and Russian border. Ukraine should enhance security monitoring at military-adjacent organizations and investigate compromised systems for data theft.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/russia-linked-cyber-spies-target-ukraine-war-support",
-   "published": "2026-11-03T13:39:00Z",
-   "added": "2026-11-03T14:00:36Z",
    "also": []
   }
  ]
