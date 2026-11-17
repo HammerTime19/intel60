@@ -607,6 +607,13 @@
 "sev": "high",
 "summary": "BAE Systems confirmed that its incident disrupting US bankruptcy court notice systems for weeks did not result in data extraction or personal information breaches. The company disclosed no further operational impact. Courts have resumed normal operations. Organizations should monitor for follow-up disclosures on system integrity."
 },
+"1ef65dbe39": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "N-able patches 17 N-central critical flaws",
+"sev": "critical",
+"summary": "N-able released security update 2026.4 Hotfix 3 addressing 17 critical vulnerabilities in N-central remote monitoring and management platform. The flaws were actively exploited by attackers to deploy cryptocurrency miners. Administrators should apply the patch immediately to affected N-central instances. The update enhances security for the RMM and UEM platform used by managed service providers."
+},
 "1f2870fb86": {
 "cves": [],
 "date": "2026-10-31",

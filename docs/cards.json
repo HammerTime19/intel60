@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-17T05:00:38Z",
+ "updated": "2026-11-17T05:30:36Z",
  "cards": [
+  {
+   "id": "1ef65dbe39",
+   "headline": "N-able patches 17 N-central critical flaws",
+   "summary": "N-able released security update 2026.4 Hotfix 3 addressing 17 critical vulnerabilities in N-central remote monitoring and management platform. The flaws were actively exploited by attackers to deploy cryptocurrency miners. Administrators should apply the patch immediately to affected N-central instances. The update enhances security for the RMM and UEM platform used by managed service providers.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+   "published": "2026-11-17T05:00:34Z",
+   "added": "2026-11-17T05:30:35Z",
+   "also": []
+  },
   {
    "id": "05b6417e27",
    "headline": "Optimizely supply chain attack hits Zoom, CNN, BBC",
