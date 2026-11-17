@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T19:00:39Z",
+ "updated": "2026-11-17T19:30:41Z",
  "cards": [
   {
    "id": "3910748ba8",
@@ -71,6 +71,44 @@
    "url": "https://therecord.media/nsa-net-disruptions",
    "published": "2026-11-17T16:21:00Z",
    "added": "2026-11-17T17:00:40Z",
+   "also": []
+  },
+  {
+   "id": "7a7b2eaa4a",
+   "headline": "Oracle patches 11 Java flaws including critical RCE",
+   "summary": "Oracle is releasing patches for 11 vulnerabilities in Java SE, all remotely exploitable without authentication. CVE-2026-114938, a critical OpenJDK RCE flaw, is being reported alongside 10 other flaws with a maximum CVSS score of 8.1. Administrators should apply Oracle's November 17 patches to Java SE installations immediately to prevent exploitation.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-114938"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+   "published": "2026-11-17T15:17:36Z",
+   "added": "2026-11-17T19:30:39Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-114938": {
+     "kev": false,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-11-17T19:30:40Z"
+  },
+  {
+   "id": "033b7c10af",
+   "headline": "Trigram campaign targets devs with AI, blockchain infostealers",
+   "summary": "A large-scale phishing campaign called Trigram impersonates about 50 brands in the AI and blockchain sectors to trick developers into executing infostealer malware. The campaign targets developers across Europe and the U.S. Organizations should train staff to verify brand authenticity and avoid executing suspicious code, particularly when contacted about software tools.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+   "published": "2026-11-17T15:17:28Z",
+   "added": "2026-11-17T19:30:39Z",
    "also": []
   },
   {
@@ -213,7 +251,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
    "published": "2026-11-17T07:25:44Z",
    "added": "2026-11-17T07:30:34Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx"
+    }
+   ]
   },
   {
    "id": "e5f38235f3",

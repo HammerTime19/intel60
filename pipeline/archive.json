@@ -186,6 +186,10 @@
 "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
 "sev": "high"
 },
+"CVE-2026-114938": {
+"date": "2026-11-17",
+"kev": false
+},
 "CVE-2026-115731": {
 "cvss": 9.4,
 "date": "2026-11-17",
@@ -424,6 +428,13 @@
 "headline": "European supermarket freezers hacked in second targeted wave",
 "sev": "high",
 "summary": "Refrigeration systems across European supermarkets and grocery stores were compromised in a second coordinated attack within recent weeks. Attackers manipulated temperature controls to spoil food inventory. The incidents suggest organized targeting of retail infrastructure. Affected retailers should audit IoT device access controls, change default credentials, and implement network segmentation for critical systems."
+},
+"033b7c10af": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Trigram campaign targets devs with AI, blockchain infostealers",
+"sev": "high",
+"summary": "A large-scale phishing campaign called Trigram impersonates about 50 brands in the AI and blockchain sectors to trick developers into executing infostealer malware. The campaign targets developers across Europe and the U.S. Organizations should train staff to verify brand authenticity and avoid executing suspicious code, particularly when contacted about software tools."
 },
 "04dad7bd60": {
 "cves": [],
@@ -1590,6 +1601,15 @@
 "headline": "Coles Group investigates cybersecurity incident in Australia",
 "sev": "info",
 "summary": "Coles Group Limited, Australia's second-largest retailer, is investigating a cybersecurity incident that the company says has not impacted store operations. No details on the incident scope, nature, or data affected have been disclosed. Organizations should await further statements from Coles to understand whether customer data was compromised and what remediation steps are needed."
+},
+"7a7b2eaa4a": {
+"cves": [
+"CVE-2026-114938"
+],
+"date": "2026-11-17",
+"headline": "Oracle patches 11 Java flaws including critical RCE",
+"sev": "critical",
+"summary": "Oracle is releasing patches for 11 vulnerabilities in Java SE, all remotely exploitable without authentication. CVE-2026-114938, a critical OpenJDK RCE flaw, is being reported alongside 10 other flaws with a maximum CVSS score of 8.1. Administrators should apply Oracle's November 17 patches to Java SE installations immediately to prevent exploitation."
 },
 "7ba871700f": {
 "cves": [],
