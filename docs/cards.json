@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-17T07:00:36Z",
+ "updated": "2026-11-17T07:30:34Z",
  "cards": [
+  {
+   "id": "d51a92f2bc",
+   "headline": "Kazakh ransomware affiliate extradited to US, faces 27 years",
+   "summary": "A Kazakh national was extradited from Italy to face US charges for ransomware attacks targeting schools, hospitals, and healthcare entities. The suspect is a ransomware affiliate accused of targeting critical infrastructure and sensitive institutions. Extradition and prosecution represent law enforcement efforts against ransomware operators. Organizations should maintain incident response plans and backup isolation strategies.",
+   "severity": "high",
+   "category": "Ransomware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+   "published": "2026-11-17T07:25:44Z",
+   "added": "2026-11-17T07:30:34Z",
+   "also": []
+  },
   {
    "id": "e5f38235f3",
    "headline": "ConnectWise ScreenConnect attacks persist despite updates",

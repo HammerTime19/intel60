@@ -2421,6 +2421,13 @@
 "sev": "critical",
 "summary": "Threat actors are actively exploiting CVE-2026-81648, a maximum-severity flaw in the CryptoPayment Gateway WordPress plugin with a CVSS score of 10.0. The vulnerability allows unauthenticated attackers to delete arbitrary files and extract wallet credentials. Organizations using this plugin should immediately apply available patches or disable the plugin until fixes are released."
 },
+"d51a92f2bc": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Kazakh ransomware affiliate extradited to US, faces 27 years",
+"sev": "high",
+"summary": "A Kazakh national was extradited from Italy to face US charges for ransomware attacks targeting schools, hospitals, and healthcare entities. The suspect is a ransomware affiliate accused of targeting critical infrastructure and sensitive institutions. Extradition and prosecution represent law enforcement efforts against ransomware operators. Organizations should maintain incident response plans and backup isolation strategies."
+},
 "d596e3f2ba": {
 "cves": [],
 "date": "2026-11-02",
