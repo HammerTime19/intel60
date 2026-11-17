@@ -2328,6 +2328,13 @@
 "sev": "high",
 "summary": "York University disclosed a breach in which a threat actor accessed personal information submitted through online forms, with exposure dating back to 2007. The incident affected multiple individuals over nearly two decades. The university is investigating the scope and has likely notified affected parties."
 },
+"ba36bcaaae": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "TheMailer phishing kit uses AI to personalize attacks",
+"sev": "high",
+"summary": "TheMailer is a commercial phishing kit that leverages attacker-supplied AI models to personalize lures, evade spam filters, and scale campaigns to tens of thousands of targets. The kit enables attackers to conduct more sophisticated and widespread phishing campaigns with minimal manual effort. Organizations should enhance email security controls and user training to detect AI-enhanced phishing attempts."
+},
 "ba55b05e53": {
 "cves": [],
 "date": "2026-10-31",
@@ -2645,6 +2652,13 @@
 "headline": "Moldova government cyberattack under investigation for foreign involvement",
 "sev": "high",
 "summary": "Moldova's Prime Minister Vasile Tofan reported a significant cyberattack targeting government digital infrastructure and citizens' personal data. The investigation suggests possible foreign involvement and indicates this may be part of a broader campaign. Details about the attack scope, affected systems, and compromised data remain under investigation."
+},
+"ddec81ba80": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Leaked Docker Hub credentials exploited within seconds",
+"sev": "high",
+"summary": "Attackers are automatically extracting and exploiting credentials exposed in public Docker Hub images within eight seconds of publication. Cloud API keys and access secrets in container images are immediately harvested and used for unauthorized access. Organizations must scan images for sensitive data before pushing to registries and implement secret management solutions to prevent credential exposure."
 },
 "de8bbdd0e3": {
 "cves": [],

@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-17T21:00:38Z",
+ "updated": "2026-11-17T21:30:33Z",
  "cards": [
+  {
+   "id": "ddec81ba80",
+   "headline": "Leaked Docker Hub credentials exploited within seconds",
+   "summary": "Attackers are automatically extracting and exploiting credentials exposed in public Docker Hub images within eight seconds of publication. Cloud API keys and access secrets in container images are immediately harvested and used for unauthorized access. Organizations must scan images for sensitive data before pushing to registries and implement secret management solutions to prevent credential exposure.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+   "published": "2026-11-17T21:27:17Z",
+   "added": "2026-11-17T21:30:33Z",
+   "also": []
+  },
+  {
+   "id": "ba36bcaaae",
+   "headline": "TheMailer phishing kit uses AI to personalize attacks",
+   "summary": "TheMailer is a commercial phishing kit that leverages attacker-supplied AI models to personalize lures, evade spam filters, and scale campaigns to tens of thousands of targets. The kit enables attackers to conduct more sophisticated and widespread phishing campaigns with minimal manual effort. Organizations should enhance email security controls and user training to detect AI-enhanced phishing attempts.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
+   "published": "2026-11-17T20:58:13Z",
+   "added": "2026-11-17T21:30:33Z",
+   "also": []
+  },
   {
    "id": "1dff6dd6c9",
    "headline": "Japan takes Fugaku supercomputer offline after cyberattack",
@@ -330,6 +358,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/optimizely-malicious-code-customer-sites"
     }
    ]
   },
@@ -4264,29 +4296,6 @@
    "published": "2026-11-03T21:49:51Z",
    "added": "2026-11-03T22:00:35Z",
    "also": []
-  },
-  {
-   "id": "27b11b6379",
-   "headline": "WorkOS developer platform breached via ARTEX AI attack",
-   "summary": "WorkOS, a developer platform, suffered a data breach where threat actors accessed business contact records and summaries of customer communications. The attacker leveraged ARTEX AI in the breach. WorkOS has not disclosed the full scope of exposed data or customer impact. Organizations using WorkOS should monitor for compromised contact information and change credentials if affected.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-   "published": "2026-11-03T21:28:44Z",
-   "added": "2026-11-03T21:30:50Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html"
-    }
-   ]
   }
  ]
 }
