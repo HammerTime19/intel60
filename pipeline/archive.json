@@ -642,6 +642,13 @@
 "sev": "high",
 "summary": "BAE Systems confirmed that its incident disrupting US bankruptcy court notice systems for weeks did not result in data extraction or personal information breaches. The company disclosed no further operational impact. Courts have resumed normal operations. Organizations should monitor for follow-up disclosures on system integrity."
 },
+"1dff6dd6c9": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Japan takes Fugaku supercomputer offline after cyberattack",
+"sev": "high",
+"summary": "Japan's RIKEN Center for Computational Science took its Fugaku supercomputer offline following a security breach. Fugaku is one of the world's most powerful supercomputers used for computational research. The nature of the breach and affected data remain unclear pending investigation. Organizations should monitor for any public disclosures about compromised research data."
+},
 "1ef65dbe39": {
 "cves": [],
 "date": "2026-11-17",

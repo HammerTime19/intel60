@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-17T20:30:29Z",
+ "updated": "2026-11-17T21:00:38Z",
  "cards": [
+  {
+   "id": "1dff6dd6c9",
+   "headline": "Japan takes Fugaku supercomputer offline after cyberattack",
+   "summary": "Japan's RIKEN Center for Computational Science took its Fugaku supercomputer offline following a security breach. Fugaku is one of the world's most powerful supercomputers used for computational research. The nature of the breach and affected data remain unclear pending investigation. Organizations should monitor for any public disclosures about compromised research data.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+   "published": "2026-11-17T20:51:21Z",
+   "added": "2026-11-17T21:00:37Z",
+   "also": []
+  },
   {
    "id": "3910748ba8",
    "headline": "Chinese state group develops automated AI attack tool",
