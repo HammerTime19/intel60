@@ -870,6 +870,13 @@
 "sev": "high",
 "summary": "Hackers breached Access Dental's network and stole personal, health, and insurance information from over 340,000 individuals. The attack compromised sensitive data including patient records and payment information. Access Dental is investigating the incident. Affected individuals should monitor for identity theft and fraudulent healthcare or insurance claims."
 },
+"3910748ba8": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Chinese state group develops automated AI attack tool",
+"sev": "high",
+"summary": "Google's AI Threat Tracker report identifies a Chinese state-sponsored threat actor developing autonomous multi-agent offensive frameworks including Artex, CAIRN, CyberStrikeAI, and PentAGI for multi-stage intrusions. These tools enable faster, more complex cyberattacks with minimal manual intervention. Organizations should enhance detection for multi-stage campaigns and implement AI-aware threat hunting capabilities."
+},
 "39749d757e": {
 "cves": [],
 "date": "2026-11-02",
@@ -2707,6 +2714,13 @@
 "headline": "Ransomware attack hits ActiveCloud customer services",
 "sev": "high",
 "summary": "ActiveCloud, a Belarusian cloud infrastructure provider, suffered a ransomware attack that disrupted customer services for several days. Hackers breached the company's systems and encrypted parts of its cloud infrastructure, preventing customers from accessing key services. The incident appears to have been resolved. Customers should review access logs and consider reviewing backup and disaster recovery procedures."
+},
+"e7c273fee4": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Compromised Fireworks key exposes Cursor data, credentials",
+"sev": "high",
+"summary": "A threat actor used a compromised API key issued to AI infrastructure provider Fireworks to gain unauthorized access to Cursor's systems and credentials. The breach was traced to a third-party provider. Cursor users may face credential compromise risks. Organizations should review third-party access controls and monitor for unauthorized activity in their environments."
 },
 "e8082cc54d": {
 "cves": [],
