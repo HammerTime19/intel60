@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-17T18:00:46Z",
+ "updated": "2026-11-17T18:26:06Z",
  "cards": [
+  {
+   "id": "a2076d4177",
+   "headline": "Hugging Face account hijacked for Kokoro AI model",
+   "summary": "Researchers exploited Hugging Face's lack of ownership verification to hijack the account controlling Kokoro, a popular text-to-speech AI model used by Google, NVIDIA, AMD, Intel, and AWS. The unauthorized access demonstrates supply chain risks in AI model repositories. Hugging Face and affected organizations should implement stronger account security controls.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "AWS"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+   "published": "2026-11-17T18:21:24Z",
+   "added": "2026-11-17T18:26:05Z",
+   "also": []
+  },
   {
    "id": "7e0cfef95a",
    "headline": "California fines Hertz $1.5 million data privacy violation",
@@ -271,7 +287,12 @@
    "url": "https://cyberscoop.com/google-fully-automated-ai-cyberattack/",
    "published": "2026-11-16T22:51:33Z",
    "added": "2026-11-16T23:00:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/"
+    }
+   ]
   },
   {
    "id": "6cd4bc50c4",
@@ -562,7 +583,12 @@
    "url": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
    "published": "2026-11-16T08:55:32Z",
    "added": "2026-11-16T09:00:37Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/"
+    }
+   ]
   },
   {
    "id": "47ca43e224",
@@ -4202,20 +4228,6 @@
    "source": "The Record",
    "url": "https://therecord.media/german-officials-among-apple-spyware-warning-recipients",
    "published": "2026-11-03T18:44:00Z",
-   "added": "2026-11-03T19:00:57Z",
-   "also": []
-  },
-  {
-   "id": "8afc2fab59",
-   "headline": "Chainstack blockchain infrastructure hit by cyberattack",
-   "summary": "Blockchain infrastructure provider Chainstack disclosed unauthorized access to parts of its production systems, exposing customer data and password hashes. The breach is attributed to a large-scale, AI-powered attack campaign uncovered last week. Chainstack customers should review account security, change passwords, and monitor for suspicious activity related to their blockchain infrastructure deployments.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-   "published": "2026-11-03T18:16:19Z",
    "added": "2026-11-03T19:00:57Z",
    "also": []
   }

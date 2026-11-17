@@ -2076,6 +2076,13 @@
 "sev": "critical",
 "summary": "A security vulnerability in Web3Auth, which powers Google and Apple sign-in for Keplr crypto wallet, was exploited to steal funds from users who created wallets through those methods. Web3Auth discovered the breach and proactively emptied other at-risk wallets to prevent further theft. Users should secure their accounts and enable additional authentication factors."
 },
+"a2076d4177": {
+"cves": [],
+"date": "2026-11-17",
+"headline": "Hugging Face account hijacked for Kokoro AI model",
+"sev": "high",
+"summary": "Researchers exploited Hugging Face's lack of ownership verification to hijack the account controlling Kokoro, a popular text-to-speech AI model used by Google, NVIDIA, AMD, Intel, and AWS. The unauthorized access demonstrates supply chain risks in AI model repositories. Hugging Face and affected organizations should implement stronger account security controls."
+},
 "a2c922a06d": {
 "cves": [],
 "date": "2026-11-09",
