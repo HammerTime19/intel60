@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T13:00:33Z",
+ "updated": "2026-11-17T13:30:34Z",
  "cards": [
   {
    "id": "389f46b9e9",
@@ -83,7 +83,12 @@
    "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
    "published": "2026-11-17T06:29:27Z",
    "added": "2026-11-17T07:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/"
+    }
+   ]
   },
   {
    "id": "1ef65dbe39",
