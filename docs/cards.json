@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T15:30:40Z",
+ "updated": "2026-11-17T16:00:36Z",
  "cards": [
   {
    "id": "148f7e8fc3",
@@ -4184,25 +4184,6 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/"
-    }
-   ]
-  },
-  {
-   "id": "310fe7a6e4",
-   "headline": "LLMjacking attacks cost enterprises up to $1M in cloud charges",
-   "summary": "Google warns that threat actors are hijacking enterprise LLM access to fraudulently consume expensive cloud computing resources in attacks called LLMjacking. Attackers obtain API keys via phishing, code leaks, misconfigurations, or exposed client-side code, then run unauthorized AI workloads. Organizations should audit API key access, enforce strong authentication, monitor cloud usage anomalies, and implement resource limits.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-   "published": "2026-11-03T15:41:53Z",
-   "added": "2026-11-03T16:00:39Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise"
     }
    ]
   }
