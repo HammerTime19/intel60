@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:00:41Z",
+ "updated": "2026-11-18T21:30:35Z",
  "cards": [
   {
    "id": "f83f4afbf7",
@@ -4307,20 +4307,6 @@
    "url": "https://therecord.media/ukraine-fires-senior-security-officials-amid-scam-center-corruption-investigation",
    "published": "2026-11-05T00:00:00Z",
    "added": "2026-11-05T11:30:31Z",
-   "also": []
-  },
-  {
-   "id": "71b12d4849",
-   "headline": "Amadeus breach hits six major Asian airlines",
-   "summary": "Six Asian airlines—Japan Airlines, Cathay Pacific, Korean Air, Asiana Airlines, Singapore Airlines, and Malaysia Airlines—disclosed data breaches linked to a cyberattack on Amadeus IT Group, which provides flight reservation, ticketing, and check-in systems. The breach exposed passenger and booking data across multiple carriers. Airlines are investigating the scope of compromised information and implementing incident response measures.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
-   "published": "2026-11-04T21:30:00Z",
-   "added": "2026-11-04T21:49:14Z",
    "also": []
   }
  ]
