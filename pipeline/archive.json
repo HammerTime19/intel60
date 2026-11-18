@@ -6,6 +6,16 @@
 "epss": 0.07799,
 "kev": false
 },
+"CVE-2024-10441": {
+"cvss": 9.8,
+"date": "2026-11-18",
+"desc": "Improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) before 1.1-65374 and Synology DiskStation Manager (DSM) before 7.2-64570-4, 7.2.1-69057-6 and 7.2.2-72806-1 allows remote attackers to execute arbitrary code via unspecified vectors.",
+"due": "2026-11-21",
+"epss": 0.01251,
+"kev": true,
+"name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+"sev": "critical"
+},
 "CVE-2024-27834": {
 "cvss": 5.5,
 "date": "2026-11-04",
@@ -343,6 +353,16 @@
 "kev": true,
 "sev": "critical"
 },
+"CVE-2026-40217": {
+"cvss": 8.8,
+"date": "2026-11-18",
+"desc": "LiteLLM through 2026-04-08 allows remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+"due": "2026-12-02",
+"epss": 0.1702,
+"kev": true,
+"name": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+"sev": "high"
+},
 "CVE-2026-41709": {
 "cvss": 2.7,
 "date": "2026-10-28",
@@ -413,6 +433,26 @@
 "epss": 0.00384,
 "kev": false,
 "sev": "high"
+},
+"CVE-2026-90436": {
+"cvss": 9.8,
+"date": "2026-11-18",
+"desc": "** UNSUPPORTED WHEN ASSIGNED ** Deserialization of an inbound SOAP fault in Apache Axis 1.x allows unauthenticated remote class instantiation. When a SOAP carries a element, Axis loads the named class and, if a String element is also present, instantiates it through its String constructor before checking that it is an AxisFault. Loading alone runs the class's static initializer. With a suitable class on the application's classpath this leads to remote code execution. The fault is parsed while the engine resolves the target service, before any per-service handler chain runs, so authentication…",
+"due": "2026-11-21",
+"epss": 0.01128,
+"kev": true,
+"name": "Apache Axis Unsafe Reflection Vulnerability",
+"sev": "critical"
+},
+"CVE-2026-90817": {
+"cvss": 9.8,
+"date": "2026-11-18",
+"desc": "An unauthenticated Remote Code Execution vulnerability was found in the survey passthrough routing and Data Import processing logic, in which a malicious user could potentially exploit it by manipulating HTTP requests to access an unintended controller route from a public survey context and by supplying a crafted file-path/stream parameter during import handling. If successfully exploited, this could allow the attacker to remotely execute arbitrary code on the REDCap server. The attacker does not have to be authenticated in order to exploit this, but exploitation requires knowledge of a valid…",
+"due": "2026-11-21",
+"epss": 0.03749,
+"kev": true,
+"name": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+"sev": "critical"
 },
 "CVE-2026-97229": {
 "cvss": 10.0,
@@ -568,6 +608,13 @@
 "sev": "critical",
 "summary": "Six unauthenticated remote code execution vulnerabilities exist in Danfoss AK-SM800A refrigeration controllers, according to Midnight Blue. The newest firmware version 5.4.0 does not address these flaws, and no patches are available. Belgian, Irish, and German cybersecurity agencies have alerted operators. Affected organizations should isolate vulnerable controllers from untrusted networks and monitor vendor announcements for patches."
 },
+"11aa6bef2b": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "F5 BIG-IP six critical flaws crash traffic, enable RCE",
+"sev": "critical",
+"summary": "F5 disclosed six critical vulnerabilities in BIG-IP that allow unauthenticated attackers to crash the Traffic Management Microkernel without authentication, disrupting traffic until restart. Some flaws require specific configurations involving iRules or APM policies. Patches are available; organizations should apply updates based on their BIG-IP configuration."
+},
 "12185b0bd2": {
 "cves": [],
 "date": "2026-10-28",
@@ -637,6 +684,15 @@
 "headline": "Skyw4lker device code phishing targets U.S. organizations",
 "sev": "high",
 "summary": "A phishing campaign dubbed Skyw4lker targets American businesses by abusing legitimate cloud services and authentication mechanisms rather than traditional credential theft. Attackers exploit trusted business workflows to compromise corporate accounts while minimizing detection. ANY.RUN's analysis exposed the technique. Organizations should implement device code phishing protections and review cloud service integrations for anomalous activity."
+},
+"175ea91a08": {
+"cves": [
+"CVE-2024-10441"
+],
+"date": "2026-11-18",
+"headline": "Synology DSM improper encoding RCE, CISA KEV",
+"sev": "critical",
+"summary": "Synology DiskStation Manager contains an improper encoding or escaping vulnerability in the system plugin daemon that allows remote attackers to execute arbitrary code. CISA added this to the KEV catalog with a federal patching deadline of November 21, 2026."
 },
 "18836a2757": {
 "cves": [],
@@ -797,6 +853,15 @@
 "headline": "Operation Serengeti leads to 1,462 arrests across 20 countries",
 "sev": "info",
 "summary": "Interpol's third Operation Serengeti targeting financial cybercrime resulted in 1,462 arrests across 20 African countries and the US. The operation recovered $105 million in stolen funds. The multi-year initiative demonstrates sustained international cooperation against organized cyber financial crime networks. SOC teams should monitor for disrupted threat actors regrouping or shifting tactics."
+},
+"2767467965": {
+"cves": [
+"CVE-2026-40217"
+],
+"date": "2026-11-18",
+"headline": "BerriAI LiteLLM RCE via bytecode rewriting, CISA KEV",
+"sev": "critical",
+"summary": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability at the /guardrails/test_custom_code URI that allows remote attackers to execute arbitrary code via bytecode rewriting. CISA added this to the KEV catalog with a federal patching deadline of December 2, 2026."
 },
 "27b11b6379": {
 "cves": [],
@@ -1849,6 +1914,15 @@
 "sev": "high",
 "summary": "Osaka, Japan's third-largest city, confirmed a data breach impacting approximately 1 million residents. The breach is part of a wave of cyber incidents affecting multiple Japanese organizations. Residents were advised to watch for suspicious emails impersonating the local government. The scope of compromised data and the responsible threat actor remain under investigation. Monitor for phishing attempts and credential misuse."
 },
+"816726b4ad": {
+"cves": [
+"CVE-2026-90817"
+],
+"date": "2026-11-18",
+"headline": "REDCap code injection flaw enables RCE, CISA KEV",
+"sev": "critical",
+"summary": "Vanderbilt University's REDCap research data platform contains a code injection vulnerability allowing unauthenticated attackers to execute arbitrary code on servers. Exploitation requires knowledge of a valid public survey hash. CISA added this to the KEV catalog with a federal patching deadline of November 21, 2026."
+},
 "81c7c458d7": {
 "cves": [],
 "date": "2026-11-16",
@@ -2291,6 +2365,15 @@
 "headline": "GM settles 36-state lawsuit for selling driver data",
 "sev": "info",
 "summary": "General Motors agreed to pay $220 million to settle allegations by 36 state attorneys general that the company unlawfully sold driver behavior information to third parties. The settlement includes payment of the fine and commitments to implement reforms. This reflects growing regulatory scrutiny over how automakers monetize customer data and privacy violations."
+},
+"ab9bbe7f3a": {
+"cves": [
+"CVE-2026-90436"
+],
+"date": "2026-11-18",
+"headline": "Apache Axis unsafe reflection enables RCE, CISA KEV",
+"sev": "critical",
+"summary": "Apache Axis contains an unsafe reflection vulnerability allowing unauthenticated remote attackers to execute arbitrary code via crafted SOAP fault messages. The flaw affects end-of-life products; affected organizations should discontinue use or transition to supported versions. CISA added this to the Known Exploited Vulnerabilities catalog with a federal patching deadline of November 21, 2026."
 },
 "ac7a12437b": {
 "cves": [],
@@ -3083,6 +3166,15 @@
 "headline": "SEGA newsletter provider breach exposes 2.2 million emails",
 "sev": "high",
 "summary": "SEGA disclosed that a third-party newsletter provider, ARARA, suffered a data breach exposing email addresses of 2.2 million newsletter subscribers. The incident affected the Japanese gaming company's customer communications infrastructure. SEGA has notified affected users and is working with the provider on remediation. Subscribers should monitor for phishing and consider email address security precautions."
+},
+"fb8b318a04": {
+"cves": [
+"CVE-2026-123007"
+],
+"date": "2026-11-18",
+"headline": "NGINX HTTP/2 flaw enables unauthenticated RCE",
+"sev": "critical",
+"summary": "A decade-old flaw in NGINX's HTTP/2 support, CVE-2026-123007 dubbed \"nginx2root,\" allows unauthenticated attackers to execute arbitrary code on servers with HTTP/2 enabled. Present since NGINX 1.9.5 released in September 2015, fixed versions 1.31.9 and 1.30.7 were released November 18, 2026. Organizations should upgrade NGINX immediately."
 },
 "fcadd0dd5c": {
 "cves": [],

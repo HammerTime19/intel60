@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:00:46Z",
+ "updated": "2026-11-18T19:31:33Z",
  "cards": [
   {
    "id": "ad35669340",
@@ -25,6 +25,45 @@
     }
    },
    "cve_checked": "2026-11-18T19:00:45Z"
+  },
+  {
+   "id": "fb8b318a04",
+   "headline": "NGINX HTTP/2 flaw enables unauthenticated RCE",
+   "summary": "A decade-old flaw in NGINX's HTTP/2 support, CVE-2026-123007 dubbed \"nginx2root,\" allows unauthenticated attackers to execute arbitrary code on servers with HTTP/2 enabled. Present since NGINX 1.9.5 released in September 2015, fixed versions 1.31.9 and 1.30.7 were released November 18, 2026. Organizations should upgrade NGINX immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-123007"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+   "published": "2026-11-18T18:31:17Z",
+   "added": "2026-11-18T19:30:51Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-123007": {
+     "kev": false,
+     "cvss": 8.1,
+     "sev": "high",
+     "desc": "This issue affects NGINX Plus or NGINX Open Source configurations that use HTTP/2. When NGINX processes undisclosed traffic, the flow control window can exceed the allowed threshold, potentially resulting in a heap buffer overflow typically followed by an NGINX worker segmentation fault. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR. Impact: An attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or potentially execute code remotely. There is no…"
+    }
+   },
+   "cve_checked": "2026-11-18T19:30:59Z"
+  },
+  {
+   "id": "11aa6bef2b",
+   "headline": "F5 BIG-IP six critical flaws crash traffic, enable RCE",
+   "summary": "F5 disclosed six critical vulnerabilities in BIG-IP that allow unauthenticated attackers to crash the Traffic Management Microkernel without authentication, disrupting traffic until restart. Some flaws require specific configurations involving iRules or APM policies. Patches are available; organizations should apply updates based on their BIG-IP configuration.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+   "published": "2026-11-18T18:15:39Z",
+   "added": "2026-11-18T19:30:51Z",
+   "also": []
   },
   {
    "id": "9611180895",
@@ -228,6 +267,114 @@
    "published": "2026-11-18T05:58:04Z",
    "added": "2026-11-18T06:30:39Z",
    "also": []
+  },
+  {
+   "id": "ab9bbe7f3a",
+   "headline": "Apache Axis unsafe reflection enables RCE, CISA KEV",
+   "summary": "Apache Axis contains an unsafe reflection vulnerability allowing unauthenticated remote attackers to execute arbitrary code via crafted SOAP fault messages. The flaw affects end-of-life products; affected organizations should discontinue use or transition to supported versions. CISA added this to the Known Exploited Vulnerabilities catalog with a federal patching deadline of November 21, 2026.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-90436"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
+   "published": "2026-11-18T00:00:00Z",
+   "added": "2026-11-18T19:30:51Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-90436": {
+     "kev": true,
+     "epss": 0.01128,
+     "pct": 0.67007,
+     "cvss": 9.8,
+     "sev": "critical",
+     "desc": "** UNSUPPORTED WHEN ASSIGNED ** Deserialization of an inbound SOAP fault in Apache Axis 1.x allows unauthenticated remote class instantiation. When a SOAP carries a element, Axis loads the named class and, if a String element is also present, instantiates it through its String constructor before checking that it is an AxisFault. Loading alone runs the class's static initializer. With a suitable class on the application's classpath this leads to remote code execution. The fault is parsed while the engine resolves the target service, before any per-service handler chain runs, so authentication…"
+    }
+   },
+   "cve_checked": "2026-11-18T19:31:07Z"
+  },
+  {
+   "id": "816726b4ad",
+   "headline": "REDCap code injection flaw enables RCE, CISA KEV",
+   "summary": "Vanderbilt University's REDCap research data platform contains a code injection vulnerability allowing unauthenticated attackers to execute arbitrary code on servers. Exploitation requires knowledge of a valid public survey hash. CISA added this to the KEV catalog with a federal patching deadline of November 21, 2026.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-90817"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
+   "published": "2026-11-18T00:00:00Z",
+   "added": "2026-11-18T19:30:51Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-90817": {
+     "kev": true,
+     "epss": 0.03749,
+     "pct": 0.90092,
+     "cvss": 9.8,
+     "sev": "critical",
+     "desc": "An unauthenticated Remote Code Execution vulnerability was found in the survey passthrough routing and Data Import processing logic, in which a malicious user could potentially exploit it by manipulating HTTP requests to access an unintended controller route from a public survey context and by supplying a crafted file-path/stream parameter during import handling. If successfully exploited, this could allow the attacker to remotely execute arbitrary code on the REDCap server. The attacker does not have to be authenticated in order to exploit this, but exploitation requires knowledge of a valid…"
+    }
+   },
+   "cve_checked": "2026-11-18T19:31:14Z"
+  },
+  {
+   "id": "2767467965",
+   "headline": "BerriAI LiteLLM RCE via bytecode rewriting, CISA KEV",
+   "summary": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability at the /guardrails/test_custom_code URI that allows remote attackers to execute arbitrary code via bytecode rewriting. CISA added this to the KEV catalog with a federal patching deadline of December 2, 2026.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-40217"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
+   "published": "2026-11-18T00:00:00Z",
+   "added": "2026-11-18T19:30:51Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-40217": {
+     "kev": true,
+     "epss": 0.1702,
+     "pct": 0.97134,
+     "cvss": 8.8,
+     "sev": "high",
+     "desc": "LiteLLM through 2026-04-08 allows remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI."
+    }
+   },
+   "cve_checked": "2026-11-18T19:31:21Z"
+  },
+  {
+   "id": "175ea91a08",
+   "headline": "Synology DSM improper encoding RCE, CISA KEV",
+   "summary": "Synology DiskStation Manager contains an improper encoding or escaping vulnerability in the system plugin daemon that allows remote attackers to execute arbitrary code. CISA added this to the KEV catalog with a federal patching deadline of November 21, 2026.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2024-10441"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
+   "published": "2026-11-18T00:00:00Z",
+   "added": "2026-11-18T19:30:51Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2024-10441": {
+     "kev": true,
+     "epss": 0.01251,
+     "pct": 0.70014,
+     "cvss": 9.8,
+     "sev": "critical",
+     "desc": "Improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) before 1.1-65374 and Synology DiskStation Manager (DSM) before 7.2-64570-4, 7.2.1-69057-6 and 7.2.2-72806-1 allows remote attackers to execute arbitrary code via unspecified vectors."
+    }
+   },
+   "cve_checked": "2026-11-18T19:31:28Z"
   },
   {
    "id": "126567e065",
@@ -4140,20 +4287,6 @@
      "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/"
     }
    ]
-  },
-  {
-   "id": "1413af0079",
-   "headline": "DreamHost breach exposes FTP credentials and webmail sessions",
-   "summary": "DreamHost disclosed a data breach where attackers accessed the File Manager platform for two months, stealing customers' FTP/SFTP usernames, passwords, and webmail sessions. The exposure of authentication credentials poses a direct risk to customer accounts and hosted services. Affected users should immediately rotate compromised credentials.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-   "published": "2026-11-04T19:05:19Z",
-   "added": "2026-11-04T19:30:46Z",
-   "also": []
   }
  ]
 }
