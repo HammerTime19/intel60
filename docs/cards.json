@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T15:30:35Z",
+ "updated": "2026-11-18T16:00:37Z",
  "cards": [
+  {
+   "id": "9611180895",
+   "headline": "Russian cyber-espionage group impersonates contacts via stolen cloud data",
+   "summary": "Russian state-backed hackers are leveraging stolen cloud account information to impersonate trusted contacts and conduct espionage attacks against victims' professional networks, according to Google research. The threat actors use compromised credentials to gain initial access, then exploit trust relationships to target broader organizational networks. Organizations should enforce multi-factor authentication, monitor for suspicious cloud account activity, and educate users about unusual contact requests.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/russia-cyber-espionage-google",
+   "published": "2026-11-18T15:15:00Z",
+   "added": "2026-11-18T16:00:37Z",
+   "also": []
+  },
   {
    "id": "69958fa42a",
    "headline": "British hacker sentenced six years for $11.6M crypto theft",

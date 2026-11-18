@@ -2049,6 +2049,13 @@
 "sev": "info",
 "summary": "The International Ice Hockey Federation (IIHF) website was hacked, with the homepage replaced by a message supporting Russia's return to international competitions. The attack appears politically motivated rather than financially driven. This is a web defacement with limited technical impact, though it reflects broader geopolitical tensions in cyberspace."
 },
+"9611180895": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Russian cyber-espionage group impersonates contacts via stolen cloud data",
+"sev": "high",
+"summary": "Russian state-backed hackers are leveraging stolen cloud account information to impersonate trusted contacts and conduct espionage attacks against victims' professional networks, according to Google research. The threat actors use compromised credentials to gain initial access, then exploit trust relationships to target broader organizational networks. Organizations should enforce multi-factor authentication, monitor for suspicious cloud account activity, and educate users about unusual contact requests."
+},
 "96515b09df": {
 "cves": [],
 "date": "2026-11-02",
