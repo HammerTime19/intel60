@@ -652,6 +652,13 @@
 "sev": "high",
 "summary": "BAE Systems confirmed that its incident disrupting US bankruptcy court notice systems for weeks did not result in data extraction or personal information breaches. The company disclosed no further operational impact. Courts have resumed normal operations. Organizations should monitor for follow-up disclosures on system integrity."
 },
+"1df53018af": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Microsoft Agent Framework PyPI package compromised, steals credentials",
+"sev": "critical",
+"summary": "Attackers compromised Microsoft's agent-framework package on PyPI, pushing malicious versions 1.26.1 and 1.26.2 to steal cloud credentials. The packages execute a credential stealer on every Python start. Published 33 minutes apart on November 17, 2026, the compromise was detected by multiple security firms including Wiz and Endor Labs. Developers using these versions should immediately update to a patched release and rotate cloud credentials."
+},
 "1dff6dd6c9": {
 "cves": [],
 "date": "2026-11-17",

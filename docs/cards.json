@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T07:00:34Z",
+ "updated": "2026-11-18T07:30:36Z",
  "cards": [
+  {
+   "id": "1df53018af",
+   "headline": "Microsoft Agent Framework PyPI package compromised, steals credentials",
+   "summary": "Attackers compromised Microsoft's agent-framework package on PyPI, pushing malicious versions 1.26.1 and 1.26.2 to steal cloud credentials. The packages execute a credential stealer on every Python start. Published 33 minutes apart on November 17, 2026, the compromise was detected by multiple security firms including Wiz and Endor Labs. Developers using these versions should immediately update to a patched release and rotate cloud credentials.",
+   "severity": "critical",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+   "published": "2026-11-18T06:45:26Z",
+   "added": "2026-11-18T07:30:36Z",
+   "also": []
+  },
   {
    "id": "ee9a23761b",
    "headline": "Cold Relic breaches second US org via stolen Google Workspace",
