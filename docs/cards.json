@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T14:30:32Z",
+ "updated": "2026-11-18T15:00:39Z",
  "cards": [
+  {
+   "id": "55016e2da8",
+   "headline": "Chinese APT rebuilds EggStreme malware to target Philippines",
+   "summary": "A suspected Chinese APT group has updated its EggStreme malware toolkit to evade security detection while targeting government organizations in the Philippines. The group rotates file hashes and infrastructure after exposure to maintain operational effectiveness. Organizations should monitor for evolved variants and strengthen detection mechanisms focusing on behavioral indicators rather than static signatures.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+   "published": "2026-11-18T14:11:28Z",
+   "added": "2026-11-18T15:00:39Z",
+   "also": []
+  },
   {
    "id": "8368f98056",
    "headline": "Brazilian digital signature apps enable RCE, fraud",
@@ -4167,45 +4181,6 @@
    "published": "2026-11-04T16:06:43Z",
    "added": "2026-11-04T17:30:38Z",
    "also": []
-  },
-  {
-   "id": "d6dd46466a",
-   "headline": "Google Calendar phishing hijacks sessions, bypasses MFA",
-   "summary": "A phishing campaign leveraged Google Calendar invites and trusted redirects to lure users to fake login pages, compromising corporate Google sessions and bypassing multi-factor authentication. Operation CloudFire tracked the attacks across nearly 900 malicious domains. Security researchers blocked the malicious messages and helped take down the infrastructure. Organizations should educate users on calendar invite risks and enforce additional verification for sensitive account access.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-   "published": "2026-11-04T15:00:10Z",
-   "added": "2026-11-04T15:30:31Z",
-   "also": []
-  },
-  {
-   "id": "63cdf286f0",
-   "headline": "SonicWall GMS end-of-life flaws will not be patched",
-   "summary": "SonicWall disclosed two security vulnerabilities affecting end-of-life Global Management System (GMS) software that will not receive patches. The vendor confirmed that affected systems are out of support. Organizations running legacy GMS instances should assess their exposure and consider upgrading to supported versions or implementing compensating controls. No active exploitation has been reported at this time.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "SonicWall"
-   ],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-   "published": "2026-11-04T14:42:25Z",
-   "added": "2026-11-04T15:00:40Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/"
-    }
-   ]
   }
  ]
 }

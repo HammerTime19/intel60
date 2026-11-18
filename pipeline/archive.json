@@ -1307,6 +1307,13 @@
 "sev": "info",
 "summary": "Ukrainian law enforcement arrested four suspects operating a network of cryptocurrency investment scam call centers that stole over €4.3 million from victims. The operation used social engineering and false investment promises to defraud customers. Authorities disrupted the infrastructure used to conduct the fraud. This case highlights the ongoing threat of organized crypto scams targeting victims globally."
 },
+"55016e2da8": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Chinese APT rebuilds EggStreme malware to target Philippines",
+"sev": "high",
+"summary": "A suspected Chinese APT group has updated its EggStreme malware toolkit to evade security detection while targeting government organizations in the Philippines. The group rotates file hashes and infrastructure after exposure to maintain operational effectiveness. Organizations should monitor for evolved variants and strengthen detection mechanisms focusing on behavioral indicators rather than static signatures."
+},
 "56ef05760e": {
 "cves": [],
 "date": "2026-10-29",
