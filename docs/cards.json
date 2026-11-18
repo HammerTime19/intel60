@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T11:30:30Z",
+ "updated": "2026-11-18T12:00:52Z",
  "cards": [
+  {
+   "id": "ac7a12437b",
+   "headline": "Chrome 158 patches 204 vulnerabilities",
+   "summary": "Google released Chrome 158 with patches for 204 vulnerabilities. The company paid $11,000 for five externally reported flaws but has not yet determined reward amounts for 36 additional bugs. Users should update to the latest version to receive security fixes and mitigate potential exploitation risks.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
+   "published": "2026-11-18T11:43:22Z",
+   "added": "2026-11-18T12:00:51Z",
+   "also": []
+  },
   {
    "id": "4f4cc6f190",
    "headline": "Apache Roller RCE flaw exploited in active attacks",
@@ -4232,20 +4246,6 @@
      "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers"
     }
    ]
-  },
-  {
-   "id": "de8bbdd0e3",
-   "headline": "Xen hypervisor flaws allow VM memory access",
-   "summary": "Two critical flaws in Xen hypervisor allow a malicious guest virtual machine to read and write memory of other VMs on the same host, including dom0. All Xen versions 4.6 and later are vulnerable. Patches are available with no known workaround. Administrators should apply patches immediately and isolate untrusted VMs until updates are deployed.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-   "published": "2026-11-04T11:46:27Z",
-   "added": "2026-11-04T12:30:35Z",
-   "also": []
   }
  ]
 }

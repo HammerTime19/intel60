@@ -2236,6 +2236,13 @@
 "sev": "info",
 "summary": "General Motors agreed to pay $220 million to settle allegations by 36 state attorneys general that the company unlawfully sold driver behavior information to third parties. The settlement includes payment of the fine and commitments to implement reforms. This reflects growing regulatory scrutiny over how automakers monetize customer data and privacy violations."
 },
+"ac7a12437b": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Chrome 158 patches 204 vulnerabilities",
+"sev": "high",
+"summary": "Google released Chrome 158 with patches for 204 vulnerabilities. The company paid $11,000 for five externally reported flaws but has not yet determined reward amounts for 36 additional bugs. Users should update to the latest version to receive security fixes and mitigate potential exploitation risks."
+},
 "acbef9b6b6": {
 "cves": [],
 "date": "2026-11-02",
