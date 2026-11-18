@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T08:00:35Z",
+ "updated": "2026-11-18T08:30:37Z",
  "cards": [
+  {
+   "id": "0ad69605a8",
+   "headline": "Scattered Spider leader sentenced six years for hacks",
+   "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in US federal prison for stealing millions in cryptocurrency and participating in coordinated attacks against multiple companies. Scattered Spider is known for targeting financial institutions and tech companies through social engineering and credential theft. This sentencing represents ongoing law enforcement action against the group's members.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+   "published": "2026-11-18T08:24:18Z",
+   "added": "2026-11-18T08:30:37Z",
+   "also": []
+  },
   {
    "id": "1df53018af",
    "headline": "Microsoft Agent Framework PyPI package compromised, steals credentials",
@@ -4254,20 +4268,6 @@
      "url": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users"
     }
    ]
-  },
-  {
-   "id": "40a5a2749a",
-   "headline": "Russian police arrest three VasyGrek threat actor members",
-   "summary": "Russian authorities arrested three suspected members of VasyGrek, also known as Fluffy Wolf, a threat group targeting Russian and international companies since 2016. The Ministry of Internal Affairs dismantled the group's criminal infrastructure. Members are suspected of embezzling funds from victims through hacking operations.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-   "published": "2026-11-04T08:17:11Z",
-   "added": "2026-11-04T09:30:33Z",
-   "also": []
   }
  ]
 }
