@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T12:00:52Z",
+ "updated": "2026-11-18T12:30:36Z",
  "cards": [
   {
    "id": "ac7a12437b",
@@ -4200,52 +4200,6 @@
     }
    },
    "cve_checked": "2026-11-11T10:30:31Z"
-  },
-  {
-   "id": "9c24410329",
-   "headline": "Canadian extradited for university supercomputer cryptomining",
-   "summary": "A Canadian man was extradited to the United States following federal indictment for hijacking university supercomputers to secretly mine Electroneum cryptocurrency. Another Canadian co-conspirator was also indicted. This case highlights the ongoing threat of compromise infrastructure for illicit cryptomining operations.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
-   "published": "2026-11-04T12:27:58Z",
-   "added": "2026-11-04T12:30:35Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/canadian-extradited-cryptomining-universities/"
-    }
-   ]
-  },
-  {
-   "id": "d013e25bf4",
-   "headline": "Ruby on Rails critical file write flaw via ImageMagick",
-   "summary": "A critical vulnerability in Ruby on Rails Active Storage allows unauthenticated attackers to write arbitrary files to an app server by uploading a crafted file processed by ImageMagick. Rails 8.1.4.1 and 8.0.5.2 patch the flaw. Applications using file uploads with ImageMagick processing should update immediately or disable file upload functionality.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-   "published": "2026-11-04T12:07:04Z",
-   "added": "2026-11-04T12:30:35Z",
-   "also": [
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers"
-    }
-   ]
   }
  ]
 }
