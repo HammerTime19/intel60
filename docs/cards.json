@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T16:30:33Z",
+ "updated": "2026-11-18T17:00:38Z",
  "cards": [
   {
    "id": "9611180895",
@@ -181,7 +181,12 @@
    "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
    "published": "2026-11-18T06:45:26Z",
    "added": "2026-11-18T07:30:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/"
+    }
+   ]
   },
   {
    "id": "ee9a23761b",
@@ -4152,20 +4157,6 @@
    "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
    "published": "2026-11-04T17:00:46Z",
    "added": "2026-11-04T17:30:38Z",
-   "also": []
-  },
-  {
-   "id": "9c8bdd95a7",
-   "headline": "NIKKE PC launcher compromised in supply chain attack",
-   "summary": "The game launcher for Goddess of Victory: NIKKE was compromised in a supply-chain attack that distributed remote access trojans and data-stealing malware. Hackers modified launcher scripts to steal credentials and cryptocurrency wallet data from players. Users should update their game client and review any exposed crypto wallets or credentials.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-   "published": "2026-11-04T16:58:46Z",
-   "added": "2026-11-04T17:00:35Z",
    "also": []
   }
  ]
