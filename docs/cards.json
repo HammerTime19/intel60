@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T22:00:35Z",
+ "updated": "2026-11-18T22:30:35Z",
  "cards": [
   {
    "id": "f83f4afbf7",
@@ -324,7 +324,12 @@
    "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
    "published": "2026-11-18T05:58:04Z",
    "added": "2026-11-18T06:30:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another"
+    }
+   ]
   },
   {
    "id": "ab9bbe7f3a",
