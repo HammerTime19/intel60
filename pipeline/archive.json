@@ -2454,6 +2454,13 @@
 "sev": "high",
 "summary": "Polymarket suffered a compromise on October 29 that resulted in user losses. The platform announced it will reimburse affected users and provide compensation for downtime. No details on the breach mechanism or scope were disclosed. Users should monitor their accounts for unauthorized activity."
 },
+"b326b8531a": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Ukraine, FBI arrest ransomware gang members tied $40.5M",
+"sev": "high",
+"summary": "Ukrainian authorities and the FBI arrested four suspected members of an international ransomware organization connected to over $40.5 million in ransom payments from at least 28 companies worldwide. The gang operated across multiple countries, targeting organizations globally. Law enforcement coordination between Ukraine and the US led to the arrests. Organizations should review ransom payment records and strengthen incident response capabilities."
+},
 "b3306983de": {
 "cves": [],
 "date": "2026-10-29",

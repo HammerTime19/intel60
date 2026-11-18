@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T23:00:34Z",
+ "updated": "2026-11-18T23:30:34Z",
  "cards": [
+  {
+   "id": "b326b8531a",
+   "headline": "Ukraine, FBI arrest ransomware gang members tied $40.5M",
+   "summary": "Ukrainian authorities and the FBI arrested four suspected members of an international ransomware organization connected to over $40.5 million in ransom payments from at least 28 companies worldwide. The gang operated across multiple countries, targeting organizations globally. Law enforcement coordination between Ukraine and the US led to the arrests. Organizations should review ransom payment records and strengthen incident response capabilities.",
+   "severity": "high",
+   "category": "Ransomware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+   "published": "2026-11-18T23:08:33Z",
+   "added": "2026-11-18T23:30:34Z",
+   "also": []
+  },
   {
    "id": "f83f4afbf7",
    "headline": "Tech outages linked to AI-accelerated vulnerability patching race",
