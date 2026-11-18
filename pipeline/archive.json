@@ -2264,6 +2264,13 @@
 "sev": "high",
 "summary": "Four previously hidden vulnerabilities were discovered and patched in EPICS Base control software used at particle accelerators and fusion research facilities. An autonomous system identified the flaws, which could allow attackers to crash critical processes. Patch deployment recommended for all affected research infrastructure."
 },
+"9f639cd353": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Wellington IT breach impacts 50 Irish credit unions",
+"sev": "high",
+"summary": "A cyberattack on Wellington IT, an IT provider, exposed sensitive information of members across approximately 50 credit unions, with the majority located in Ireland. The breach affected multiple financial institutions that relied on the provider's services. Credit union members should monitor accounts for fraudulent activity. Organizations should assess their own vendor relationships and consider incident response protocols."
+},
 "9fe769e3c9": {
 "cves": [],
 "date": "2026-11-06",

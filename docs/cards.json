@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T19:31:33Z",
+ "updated": "2026-11-18T20:00:45Z",
  "cards": [
+  {
+   "id": "9f639cd353",
+   "headline": "Wellington IT breach impacts 50 Irish credit unions",
+   "summary": "A cyberattack on Wellington IT, an IT provider, exposed sensitive information of members across approximately 50 credit unions, with the majority located in Ireland. The breach affected multiple financial institutions that relied on the provider's services. Credit union members should monitor accounts for fraudulent activity. Organizations should assess their own vendor relationships and consider incident response protocols.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+   "published": "2026-11-18T19:39:33Z",
+   "added": "2026-11-18T20:00:45Z",
+   "also": []
+  },
   {
    "id": "ad35669340",
    "headline": "NGINX critical integer underflow enables remote code execution",
