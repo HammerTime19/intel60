@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T09:30:40Z",
+ "updated": "2026-11-18T10:00:39Z",
  "cards": [
   {
    "id": "0dd01d7b39",
@@ -479,7 +479,12 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
    "published": "2026-11-17T00:00:00Z",
    "added": "2026-11-17T18:00:39Z",
-   "also": [],
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
+    }
+   ],
    "cve_info": {
     "CVE-2026-115731": {
      "kev": true,
@@ -4251,37 +4256,6 @@
    "published": "2026-11-04T10:38:46Z",
    "added": "2026-11-04T11:30:30Z",
    "also": []
-  },
-  {
-   "id": "955f969e9d",
-   "headline": "Russian hackers target iOS, Android via watering hole attacks",
-   "summary": "Russian-linked threat actors conducted large-scale watering hole attacks targeting iOS and Android users through compromised websites and fake portals impersonating legitimate services. The attacks exploited n-day vulnerabilities in zero-click attack chains. Users visiting compromised or spoofed sites face infection risk. Defenders should implement network-based threat detection, educate users on phishing risks, and ensure devices run latest security patches.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-   "published": "2026-11-04T09:39:54Z",
-   "added": "2026-11-04T10:00:33Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/russia-hackers-smartphone-cyberattacks"
-    },
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users"
-    }
-   ]
   }
  ]
 }
