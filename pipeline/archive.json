@@ -1314,6 +1314,13 @@
 "sev": "high",
 "summary": "University of New Mexico restored healthcare systems disrupted by a cyberattack that forced ambulance diversions and medical school cancellations. Systems have been restored to operation. The university advised staff and patients against contacting attackers and recommended standard incident response practices. Investigation is ongoing."
 },
+"58112a1964": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Cyberattack hits Norwegian energy giant Equinor",
+"sev": "high",
+"summary": "Equinor, a major Norwegian energy company, experienced a cyberattack affecting its IT systems. The company reports no impact to oil and gas production. The attack's scope, attackers, and specific systems compromised remain undisclosed. Defenders at critical energy infrastructure should monitor for indicators of compromise and review incident response protocols."
+},
 "588033e85e": {
 "cves": [
 "CVE-2026-20320"
@@ -1835,6 +1842,13 @@
 "sev": "critical",
 "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited to grant administrator privileges and take over XCP-ng virtualization hosts. Attackers can gain full control of virtual machine infrastructure through the flaw. Active exploitation is confirmed. Organizations running Xen Orchestra should prioritize patching and restrict network access to the management interface."
 },
+"8368f98056": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Brazilian digital signature apps enable RCE, fraud",
+"sev": "critical",
+"summary": "Brazilian government-sanctioned digital signature and authentication middleware used for high-value legal documents contains remote code execution vulnerabilities. The flaws could enable attackers to execute arbitrary code or perpetrate fraud on critical documents. Organizations using these applications should demand emergency patches from vendors and implement compensating controls."
+},
 "8384c224e8": {
 "cves": [],
 "date": "2026-11-04",
@@ -2013,6 +2027,13 @@
 "headline": "Russian hackers target iOS, Android via watering hole attacks",
 "sev": "high",
 "summary": "Russian-linked threat actors conducted large-scale watering hole attacks targeting iOS and Android users through compromised websites and fake portals impersonating legitimate services. The attacks exploited n-day vulnerabilities in zero-click attack chains. Users visiting compromised or spoofed sites face infection risk. Defenders should implement network-based threat detection, educate users on phishing risks, and ensure devices run latest security patches."
+},
+"959698f193": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "International Ice Hockey Federation website defaced",
+"sev": "info",
+"summary": "The International Ice Hockey Federation (IIHF) website was hacked, with the homepage replaced by a message supporting Russia's return to international competitions. The attack appears politically motivated rather than financially driven. This is a web defacement with limited technical impact, though it reflects broader geopolitical tensions in cyberspace."
 },
 "96515b09df": {
 "cves": [],
@@ -2718,6 +2739,13 @@
 "headline": "Xen hypervisor flaws allow VM memory access",
 "sev": "critical",
 "summary": "Two critical flaws in Xen hypervisor allow a malicious guest virtual machine to read and write memory of other VMs on the same host, including dom0. All Xen versions 4.6 and later are vulnerable. Patches are available with no known workaround. Administrators should apply patches immediately and isolate untrusted VMs until updates are deployed."
+},
+"dfcd48a830": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Star Blizzard uses stolen identities to breach US org",
+"sev": "high",
+"summary": "Russian APT Star Blizzard weaponized credentials and data stolen from a previous breach in late 2025 to phish and compromise another US organization. The campaign demonstrates supply-chain exploitation tactics leveraging compromised identities. Organizations should implement strong email authentication controls, multi-factor authentication, and monitor for unusual account activities from trusted partner accounts."
 },
 "e05f7a78ce": {
 "cves": [

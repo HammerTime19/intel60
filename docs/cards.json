@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-18T13:30:36Z",
+ "updated": "2026-11-18T14:00:42Z",
  "cards": [
+  {
+   "id": "8368f98056",
+   "headline": "Brazilian digital signature apps enable RCE, fraud",
+   "summary": "Brazilian government-sanctioned digital signature and authentication middleware used for high-value legal documents contains remote code execution vulnerabilities. The flaws could enable attackers to execute arbitrary code or perpetrate fraud on critical documents. Organizations using these applications should demand emergency patches from vendors and implement compensating controls.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
+   "published": "2026-11-18T14:00:00Z",
+   "added": "2026-11-18T14:00:41Z",
+   "also": []
+  },
+  {
+   "id": "959698f193",
+   "headline": "International Ice Hockey Federation website defaced",
+   "summary": "The International Ice Hockey Federation (IIHF) website was hacked, with the homepage replaced by a message supporting Russia's return to international competitions. The attack appears politically motivated rather than financially driven. This is a web defacement with limited technical impact, though it reflects broader geopolitical tensions in cyberspace.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/russia-hockey-cyberattack-championships",
+   "published": "2026-11-18T13:45:00Z",
+   "added": "2026-11-18T14:00:41Z",
+   "also": []
+  },
+  {
+   "id": "dfcd48a830",
+   "headline": "Star Blizzard uses stolen identities to breach US org",
+   "summary": "Russian APT Star Blizzard weaponized credentials and data stolen from a previous breach in late 2025 to phish and compromise another US organization. The campaign demonstrates supply-chain exploitation tactics leveraging compromised identities. Organizations should implement strong email authentication controls, multi-factor authentication, and monitor for unusual account activities from trusted partner accounts.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
+   "published": "2026-11-18T13:33:47Z",
+   "added": "2026-11-18T14:00:41Z",
+   "also": []
+  },
+  {
+   "id": "58112a1964",
+   "headline": "Cyberattack hits Norwegian energy giant Equinor",
+   "summary": "Equinor, a major Norwegian energy company, experienced a cyberattack affecting its IT systems. The company reports no impact to oil and gas production. The attack's scope, attackers, and specific systems compromised remain undisclosed. Defenders at critical energy infrastructure should monitor for indicators of compromise and review incident response protocols.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/norway-equinor-cyberattack-energy",
+   "published": "2026-11-18T13:30:00Z",
+   "added": "2026-11-18T14:00:41Z",
+   "also": []
+  },
   {
    "id": "74d12e4423",
    "headline": "TPM lockout bypass cracks Windows Hello BitLocker PINs",
@@ -4148,43 +4204,6 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/"
-    }
-   ]
-  },
-  {
-   "id": "4448a4360e",
-   "headline": "Russian hosting provider Beget suffers data-destroying cyberattack",
-   "summary": "Beget, a major Russian web hosting provider, experienced a cyberattack that destroyed data across its cloud infrastructure and disrupted hundreds of hosted websites. The attack caused significant service outages. Restoration efforts are underway but recovery timeline is unclear. Customers are facing data loss and extended downtime across their hosted services.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/russia-cyberattack-beget-cloud",
-   "published": "2026-11-04T14:00:00Z",
-   "added": "2026-11-04T14:00:48Z",
-   "also": []
-  },
-  {
-   "id": "3d23258051",
-   "headline": "French blood service sites hit by refrigeration cyberattacks",
-   "summary": "Temperature controls were altered at three French national blood service facilities during a wave of cyberattacks targeting refrigeration systems across Europe. The attacks disrupted critical blood storage infrastructure. No details on attacker identity or whether blood supply was compromised. Health authorities are investigating and implementing additional security measures to protect blood inventory.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/france-cyberattack-blood-refrigeration",
-   "published": "2026-11-04T13:45:00Z",
-   "added": "2026-11-04T14:00:48Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/"
     }
    ]
   }
