@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T13:00:33Z",
+ "updated": "2026-11-18T13:30:36Z",
  "cards": [
+  {
+   "id": "74d12e4423",
+   "headline": "TPM lockout bypass cracks Windows Hello BitLocker PINs",
+   "summary": "Researchers at Technische Universität Berlin discovered that TPM lockout protection for Windows Hello and BitLocker PINs on AMD and some Intel PCs can be reset by physically opening the case. In lab tests, attackers successfully cracked a four-digit Hello PIN and a six-digit BitLocker PIN within days. Users should use longer PINs and ensure physical device security.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+   "published": "2026-11-18T12:28:30Z",
+   "added": "2026-11-18T13:30:36Z",
+   "also": []
+  },
   {
    "id": "ac7a12437b",
    "headline": "Chrome 158 patches 204 vulnerabilities",
@@ -4173,33 +4187,6 @@
      "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/"
     }
    ]
-  },
-  {
-   "id": "7dcd83260d",
-   "headline": "Legacy email scripts targeted by spammers in honeypot scans",
-   "summary": "Researchers detected a resurgence in scans targeting vulnerable email CGI scripts on honeypots, similar to CVE-2000-0411 and related flaws. Attackers probe for test scripts like sendmail.php and testemail.php left behind during development, attempting to set arbitrary email headers or achieve code execution. Organizations should remove development test scripts and validate email form implementations.",
-   "severity": "info",
-   "category": "Research",
-   "cves": [
-    "CVE-2000-0411"
-   ],
-   "watch": [],
-   "source": "SANS ISC",
-   "url": "https://isc.sans.edu/diary/rss/33488",
-   "published": "2026-11-04T13:24:13Z",
-   "added": "2026-11-04T13:30:34Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2000-0411": {
-     "kev": false,
-     "epss": 0.07799,
-     "pct": 0.94709,
-     "cvss": null,
-     "sev": null,
-     "desc": "Matt Wright's FormMail CGI script allows remote attackers to obtain environmental variables via the env_report parameter."
-    }
-   },
-   "cve_checked": "2026-11-11T10:30:31Z"
   }
  ]
 }

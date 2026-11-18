@@ -1564,6 +1564,13 @@
 "sev": "critical",
 "summary": "SonicWall SonicOS SSLVPN contains a single-factor authentication flaw allowing users with valid alternate credentials to bypass SAML authentication and MFA controls. The vulnerability is now tracked in CISA's Known Exploited Vulnerabilities catalog. Organizations must apply vendor mitigations or discontinue use of the product per BOD 26-04 guidance. Federal agencies have until November 20, 2026 to patch."
 },
+"74d12e4423": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "TPM lockout bypass cracks Windows Hello BitLocker PINs",
+"sev": "high",
+"summary": "Researchers at Technische Universität Berlin discovered that TPM lockout protection for Windows Hello and BitLocker PINs on AMD and some Intel PCs can be reset by physically opening the case. In lab tests, attackers successfully cracked a four-digit Hello PIN and a six-digit BitLocker PIN within days. Users should use longer PINs and ensure physical device security."
+},
 "76496683be": {
 "cves": [],
 "date": "2026-11-17",
