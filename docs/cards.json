@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T10:30:42Z",
+ "updated": "2026-11-18T11:00:39Z",
  "cards": [
+  {
+   "id": "4f4cc6f190",
+   "headline": "Apache Roller RCE flaw exploited in active attacks",
+   "summary": "Apache Roller contains a critical remote code execution vulnerability being actively exploited by threat actors to compromise vulnerable servers. The flaw allows attackers to execute arbitrary code and gain control of affected systems. Apache has released security updates to address the issue. Organizations running Roller should apply patches immediately to mitigate risk.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+   "published": "2026-11-18T10:35:05Z",
+   "added": "2026-11-18T11:00:38Z",
+   "also": []
+  },
   {
    "id": "0dd01d7b39",
    "headline": "Oracle patches 640 vulnerabilities in November CSPU",
@@ -483,6 +497,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/"
     }
    ],
    "cve_info": {
@@ -4241,20 +4259,6 @@
    "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
    "published": "2026-11-04T11:24:31Z",
    "added": "2026-11-04T12:30:35Z",
-   "also": []
-  },
-  {
-   "id": "493913be8a",
-   "headline": "Chrome 157 released with 213 security fixes",
-   "summary": "Google Chrome 157 addresses 213 security vulnerabilities, including seven rated critical. The update resolves multiple memory safety bugs and incorrect or missing authorization issues. Users should apply the patch immediately to mitigate potential exploitation of these flaws in the widely deployed browser.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
-   "published": "2026-11-04T10:38:46Z",
-   "added": "2026-11-04T11:30:30Z",
    "also": []
   }
  ]

@@ -1219,6 +1219,13 @@
 "sev": "critical",
 "summary": "A Trezor Safe 5 hardware wallet purchased from reseller CryptoBilis contains a malicious circuit board that transmits recovery phrases via mobile network. Trezor has not yet examined the device but is urging customers who bought from CryptoBilis since March 2026 to immediately transfer funds to new wallets with fresh recovery phrases. This represents a serious supply chain compromise targeting cryptocurrency users."
 },
+"4f4cc6f190": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Apache Roller RCE flaw exploited in active attacks",
+"sev": "critical",
+"summary": "Apache Roller contains a critical remote code execution vulnerability being actively exploited by threat actors to compromise vulnerable servers. The flaw allows attackers to execute arbitrary code and gain control of affected systems. Apache has released security updates to address the issue. Organizations running Roller should apply patches immediately to mitigate risk."
+},
 "504c4dbc53": {
 "cves": [],
 "date": "2026-11-12",
