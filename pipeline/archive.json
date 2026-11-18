@@ -1481,6 +1481,13 @@
 "sev": "high",
 "summary": "VulnCheck researchers disclosed 14 vulnerabilities in Dixell and Copeland refrigeration supervision systems affecting supermarkets across France and Europe. The flaws have CVSS scores between 8 and 9.8, with at least two actively exploited in the wild. They grant root access to attackers. Companies running affected units are recovering from recent hacking incidents. Organizations should prioritize patching and network segmentation for internet-connected refrigeration devices."
 },
+"69958fa42a": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "British hacker sentenced six years for $11.6M crypto theft",
+"sev": "info",
+"summary": "Tyler Robert Buchanan, 24, from Scotland, was sentenced to six years for his role as a suspected ringleader of a hacking collective that conducted a major cryptocurrency theft scheme worth $11.6 million. Microsoft had described the group as \"one of the most dangerous financial criminal groups.\" Buchanan's sentencing follows law enforcement investigation into the organized cybercriminal operation targeting digital assets."
+},
 "699d6dc9b6": {
 "cves": [],
 "date": "2026-11-03",

@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T15:00:39Z",
+ "updated": "2026-11-18T15:30:35Z",
  "cards": [
+  {
+   "id": "69958fa42a",
+   "headline": "British hacker sentenced six years for $11.6M crypto theft",
+   "summary": "Tyler Robert Buchanan, 24, from Scotland, was sentenced to six years for his role as a suspected ringleader of a hacking collective that conducted a major cryptocurrency theft scheme worth $11.6 million. Microsoft had described the group as \"one of the most dangerous financial criminal groups.\" Buchanan's sentencing follows law enforcement investigation into the organized cybercriminal operation targeting digital assets.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/british-hacker-gets-six-year-sentence-scattered-spider",
+   "published": "2026-11-18T14:48:00Z",
+   "added": "2026-11-18T15:30:35Z",
+   "also": []
+  },
   {
    "id": "55016e2da8",
    "headline": "Chinese APT rebuilds EggStreme malware to target Philippines",
