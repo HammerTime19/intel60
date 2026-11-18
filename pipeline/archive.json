@@ -516,6 +516,13 @@
 "sev": "high",
 "summary": "Chinese-linked threat actors chained PHP2Shell and Fragnesia exploits to compromise two servers belonging to a US government-affiliated organization. The attackers achieved root-level access to firewalls through the PHP2Shell vulnerability. Organizations should prioritize patching PHP and firewall systems, and deploy monitoring to detect exploitation attempts of known code execution flaws."
 },
+"0dd01d7b39": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Oracle patches 640 vulnerabilities in November CSPU",
+"sev": "high",
+"summary": "Oracle released its November 2026 Critical Patch Update fixing 640 vulnerabilities across its product portfolio. Over 300 patches address unauthenticated, remotely exploitable flaws, with 62 fixes for critical-severity issues. Organizations running Oracle products should prioritize patching critical flaws immediately, particularly those affecting internet-facing systems. Review the advisory to identify patches applicable to your environment."
+},
 "0e899e1e6c": {
 "cves": [],
 "date": "2026-11-10",

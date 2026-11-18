@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-18T08:30:37Z",
+ "updated": "2026-11-18T09:00:39Z",
  "cards": [
+  {
+   "id": "0dd01d7b39",
+   "headline": "Oracle patches 640 vulnerabilities in November CSPU",
+   "summary": "Oracle released its November 2026 Critical Patch Update fixing 640 vulnerabilities across its product portfolio. Over 300 patches address unauthenticated, remotely exploitable flaws, with 62 fixes for critical-severity issues. Organizations running Oracle products should prioritize patching critical flaws immediately, particularly those affecting internet-facing systems. Review the advisory to identify patches applicable to your environment.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+   "published": "2026-11-18T08:47:18Z",
+   "added": "2026-11-18T09:00:38Z",
+   "also": []
+  },
   {
    "id": "0ad69605a8",
    "headline": "Scattered Spider leader sentenced six years for hacks",
