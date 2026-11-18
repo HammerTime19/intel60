@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T05:00:34Z",
+ "updated": "2026-11-18T05:30:29Z",
  "cards": [
   {
    "id": "126567e065",
@@ -13,7 +13,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
    "published": "2026-11-17T23:04:21Z",
    "added": "2026-11-17T23:30:37Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+    }
+   ]
   },
   {
    "id": "ddec81ba80",
