@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T17:00:38Z",
+ "updated": "2026-11-18T17:30:33Z",
  "cards": [
   {
    "id": "9611180895",
@@ -224,6 +224,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem"
     }
    ]
   },
@@ -4144,20 +4148,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/"
     }
    ]
-  },
-  {
-   "id": "3632eace05",
-   "headline": "Debian and Ubuntu APT flaw enables root code execution",
-   "summary": "A vulnerability in APT package manager allows man-in-the-middle attackers to swap verified packages with malicious ones that execute as root. Affecting Debian and Ubuntu systems with default retry behavior, the flaw exploits failed download retries. APT developers have released patches. Users should update APT immediately and ensure secure network configurations.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-   "published": "2026-11-04T17:00:46Z",
-   "added": "2026-11-04T17:30:38Z",
-   "also": []
   }
  ]
 }
