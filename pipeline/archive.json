@@ -263,6 +263,13 @@
 "name": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
 "sev": "high"
 },
+"CVE-2026-123007": {
+"cvss": 8.1,
+"date": "2026-11-18",
+"desc": "This issue affects NGINX Plus or NGINX Open Source configurations that use HTTP/2. When NGINX processes undisclosed traffic, the flow control window can exceed the allowed threshold, potentially resulting in a heap buffer overflow typically followed by an NGINX worker segmentation fault. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR. Impact: An attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or potentially execute code remotely. There is no…",
+"kev": false,
+"sev": "high"
+},
 "CVE-2026-123039": {
 "cvss": 7.8,
 "date": "2026-11-13",
@@ -2312,6 +2319,15 @@
 "headline": "Langflow authentication bypass and RCE in all versions through 1.12.8",
 "sev": "critical",
 "summary": "Two critical vulnerabilities in Langflow, an open-source AI agent and workflow builder, allow unauthenticated remote attackers to bypass authentication and execute arbitrary code. All versions from 1.0.0 through 1.12.8 are affected. Version 1.13.0 contains the fixes. IBM disclosed the flaws; they are not yet in CISA's KEV catalog. Organizations using Langflow should immediately upgrade to 1.13.0."
+},
+"ad35669340": {
+"cves": [
+"CVE-2026-123007"
+],
+"date": "2026-11-18",
+"headline": "NGINX critical integer underflow enables remote code execution",
+"sev": "critical",
+"summary": "Five vulnerabilities discovered in NGINX, used by roughly one-third of all websites. The most severe, CVE-2026-123007 (CVSS 9.2), is an integer underflow in HTTP/2 allowing unauthenticated remote code execution. Researchers demonstrated chaining it with a Linux kernel flaw for complete machine compromise. F5 released patches Tuesday. Administrators should apply updates immediately."
 },
 "ad9757975f": {
 "cves": [],

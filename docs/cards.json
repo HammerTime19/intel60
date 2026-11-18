@@ -1,6 +1,31 @@
 {
- "updated": "2026-11-18T18:30:35Z",
+ "updated": "2026-11-18T19:00:46Z",
  "cards": [
+  {
+   "id": "ad35669340",
+   "headline": "NGINX critical integer underflow enables remote code execution",
+   "summary": "Five vulnerabilities discovered in NGINX, used by roughly one-third of all websites. The most severe, CVE-2026-123007 (CVSS 9.2), is an integer underflow in HTTP/2 allowing unauthenticated remote code execution. Researchers demonstrated chaining it with a Linux kernel flaw for complete machine compromise. F5 released patches Tuesday. Administrators should apply updates immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-123007"
+   ],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/nginx-critical-vulnerabilities-exploits/",
+   "published": "2026-11-18T18:54:12Z",
+   "added": "2026-11-18T19:00:40Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-123007": {
+     "kev": false,
+     "cvss": 8.1,
+     "sev": "high",
+     "desc": "This issue affects NGINX Plus or NGINX Open Source configurations that use HTTP/2. When NGINX processes undisclosed traffic, the flow control window can exceed the allowed threshold, potentially resulting in a heap buffer overflow typically followed by an NGINX worker segmentation fault. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR. Impact: An attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or potentially execute code remotely. There is no…"
+    }
+   },
+   "cve_checked": "2026-11-18T19:00:45Z"
+  },
   {
    "id": "9611180895",
    "headline": "Russian cyber-espionage group impersonates contacts via stolen cloud data",
@@ -4129,25 +4154,6 @@
    "published": "2026-11-04T19:05:19Z",
    "added": "2026-11-04T19:30:46Z",
    "also": []
-  },
-  {
-   "id": "462ec96575",
-   "headline": "Crédit Mutuel Arkéa reports $133M cyber heist",
-   "summary": "Crédit Mutuel Arkéa confirmed a cyber heist that resulted in an estimated $133 million stolen. Attackers compromised an unnamed supplier and used the bank's own account to conduct transfers. This represents a significant breach of a major French financial institution. Organizations should audit third-party access to critical systems.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/french-bank-confirms-cyber-heist",
-   "published": "2026-11-04T18:58:00Z",
-   "added": "2026-11-04T19:30:46Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/"
-    }
-   ]
   }
  ]
 }
