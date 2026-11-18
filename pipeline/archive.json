@@ -187,8 +187,11 @@
 "sev": "high"
 },
 "CVE-2026-114938": {
+"cvss": 8.1,
 "date": "2026-11-17",
-"kev": false
+"desc": "Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler). Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and 21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Successful attacks of this…",
+"kev": false,
+"sev": "high"
 },
 "CVE-2026-115731": {
 "cvss": 9.4,

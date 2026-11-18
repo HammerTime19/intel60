@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T01:30:31Z",
+ "updated": "2026-11-18T02:00:43Z",
  "cards": [
   {
    "id": "126567e065",
@@ -152,11 +152,12 @@
    "cve_info": {
     "CVE-2026-114938": {
      "kev": false,
-     "cvss": null,
-     "sev": null
+     "cvss": 8.1,
+     "sev": "high",
+     "desc": "Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler). Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and 21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Successful attacks of this…"
     }
    },
-   "cve_checked": "2026-11-17T19:30:40Z"
+   "cve_checked": "2026-11-18T02:00:43Z"
   },
   {
    "id": "033b7c10af",
@@ -4246,20 +4247,6 @@
     }
    },
    "cve_checked": "2026-11-11T00:30:30Z"
-  },
-  {
-   "id": "ed421e39d3",
-   "headline": "Philippine Overseas Employment Administration breached, 69GB leaked",
-   "summary": "An unknown attacker exfiltrated SQL Server backups from the Philippine Overseas Employment Administration, likely exposing migrant worker data. The breach occurred rapidly, reportedly in under 30 minutes. No attribution or additional details about access method are provided. Organizations handling sensitive government records should review access controls and backup security.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
-   "published": "2026-11-04T02:00:00Z",
-   "added": "2026-11-04T02:00:42Z",
-   "also": []
   }
  ]
 }
