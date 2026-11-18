@@ -2852,6 +2852,13 @@
 "sev": "critical",
 "summary": "Hackers exploited a third-party software flaw to breach Frontline Education, a widely used school district platform. The attack exposed personal information of over 1.3 million school staff and students, including names, contact details, and potentially social security numbers. No ransomware demand reported yet. Districts should audit access logs, reset credentials, and monitor accounts for suspicious activity."
 },
+"ee9a23761b": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Cold Relic breaches second US org via stolen Google Workspace",
+"sev": "high",
+"summary": "Russia-linked cyber espionage group Cold Relic (also known as COLDRIVER and UNC4057) has compromised a second U.S. organization by weaponizing stolen Google Workspace credentials from an initial cloud compromise. The group used the breached account as a launchpad for follow-on intrusions. Google Mandiant and GTIG investigated the 2026 incident. Organizations should prioritize securing cloud credentials and monitoring for lateral movement from compromised accounts."
+},
 "f00273d9e0": {
 "cves": [],
 "date": "2026-11-10",

@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-18T06:00:42Z",
+ "updated": "2026-11-18T06:30:40Z",
  "cards": [
+  {
+   "id": "ee9a23761b",
+   "headline": "Cold Relic breaches second US org via stolen Google Workspace",
+   "summary": "Russia-linked cyber espionage group Cold Relic (also known as COLDRIVER and UNC4057) has compromised a second U.S. organization by weaponizing stolen Google Workspace credentials from an initial cloud compromise. The group used the breached account as a launchpad for follow-on intrusions. Google Mandiant and GTIG investigated the 2026 incident. Organizations should prioritize securing cloud credentials and monitoring for lateral movement from compromised accounts.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "Google Workspace"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+   "published": "2026-11-18T05:58:04Z",
+   "added": "2026-11-18T06:30:39Z",
+   "also": []
+  },
   {
    "id": "126567e065",
    "headline": "Java4Shell critical RCE flaw in OpenJDK affects Jenkins, Jira",
