@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T02:30:33Z",
+ "updated": "2026-11-18T03:00:33Z",
  "cards": [
   {
    "id": "126567e065",
@@ -391,6 +391,10 @@
     {
      "source": "Dark Reading",
      "url": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks"
+    },
+    {
+     "source": "Krebs on Security",
+     "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/"
     }
    ]
   },
