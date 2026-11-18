@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T11:00:39Z",
+ "updated": "2026-11-18T11:30:30Z",
  "cards": [
   {
    "id": "4f4cc6f190",
@@ -4244,20 +4244,6 @@
    "source": "The Hacker News",
    "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
    "published": "2026-11-04T11:46:27Z",
-   "added": "2026-11-04T12:30:35Z",
-   "also": []
-  },
-  {
-   "id": "8384c224e8",
-   "headline": "SlippyNunchucks hijacks Sogou Input Method DNS",
-   "summary": "China-aligned threat actor SlippyNunchucks exploited insecure HTTP communications in Windows versions of Sogou Input Method to hijack DNS requests and deploy the DarkVigil backdoor implant. The surveillance campaign targeted organizations starting July 2026. Sogou users should update to the latest version and consider disabling the input method if patching is unavailable.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-   "published": "2026-11-04T11:24:31Z",
    "added": "2026-11-04T12:30:35Z",
    "also": []
   }
