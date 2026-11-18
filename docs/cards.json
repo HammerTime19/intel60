@@ -1,6 +1,50 @@
 {
- "updated": "2026-11-18T20:30:35Z",
+ "updated": "2026-11-18T21:00:41Z",
  "cards": [
+  {
+   "id": "f83f4afbf7",
+   "headline": "Tech outages linked to AI-accelerated vulnerability patching race",
+   "summary": "Trump administration officials and congressional Democrats attribute recent major tech outages—including aviation groundstops and banking disruptions—not to cyberattacks but to AI-accelerated vulnerability discovery creating patch management strain. AI tools are identifying vulnerabilities across systems at unprecedented speed, forcing companies to patch simultaneously at a pace legacy systems cannot handle. The analysis highlights unintended consequences of rapid AI-driven security vulnerability identification.",
+   "severity": "info",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/tech-outages-ai-vulnerability-patching/",
+   "published": "2026-11-18T20:56:55Z",
+   "added": "2026-11-18T21:00:41Z",
+   "also": []
+  },
+  {
+   "id": "ede0adf4c5",
+   "headline": "Coinbase blocks $4.7M in deepfake Musk scam transfers",
+   "summary": "Coinbase prevented $4.7 million in cryptocurrency transfers to scammers running an Elon Musk deepfake giveaway scam during a Tesla livestream that reached over 500,000 viewers. The AI-generated deepfake was used to fraudulently solicit cryptocurrency from victims. The exchange's fraud detection systems successfully identified and blocked the malicious transfers before completion.",
+   "severity": "info",
+   "category": "Malware",
+   "cves": [],
+   "watch": [
+    "Exchange"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+   "published": "2026-11-18T20:49:32Z",
+   "added": "2026-11-18T21:00:41Z",
+   "also": []
+  },
+  {
+   "id": "27e5f548c7",
+   "headline": "Iranian state groups hand network access for destructive attacks",
+   "summary": "AttackIQ research analyzed 20 Iranian state-sponsored threat groups revealing how they coordinate across espionage, ransomware, and hacktivism operations. The groups use initial network access obtained through espionage to enable ransomware and other destructive attacks. This demonstrates the intersection of different attack types within Iranian state cyber campaigns and illustrates operational handoff tactics used by nation-state actors.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
+   "published": "2026-11-18T20:38:42Z",
+   "added": "2026-11-18T21:00:41Z",
+   "also": []
+  },
   {
    "id": "9f639cd353",
    "headline": "Wellington IT breach impacts 50 Irish credit unions",
@@ -4278,29 +4322,6 @@
    "published": "2026-11-04T21:30:00Z",
    "added": "2026-11-04T21:49:14Z",
    "also": []
-  },
-  {
-   "id": "0fd87eaf33",
-   "headline": "Zyxel zero-day compromised 1,000 network switches",
-   "summary": "Zyxel patched a zero-day vulnerability in GS1900 series network switches that attackers exploited to compromise nearly 1,000 devices worldwide. The flaw allowed hackers to steal configuration files and credentials from affected switches. Organizations using Zyxel GS1900 switches should apply the patch immediately to prevent unauthorized access to network infrastructure and data theft.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-   "published": "2026-11-04T20:58:19Z",
-   "added": "2026-11-04T21:00:32Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/"
-    }
-   ]
   }
  ]
 }

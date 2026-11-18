@@ -877,6 +877,13 @@
 "sev": "high",
 "summary": "Vulnerabilities in SS7 and Diameter signaling protocols allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising devices. The attacks exploit trust relationships between telecom networks. Organizations should implement robust defenses for mobile services and consider security-focused carriers to mitigate these signaling protocol risks."
 },
+"27e5f548c7": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Iranian state groups hand network access for destructive attacks",
+"sev": "high",
+"summary": "AttackIQ research analyzed 20 Iranian state-sponsored threat groups revealing how they coordinate across espionage, ransomware, and hacktivism operations. The groups use initial network access obtained through espionage to enable ransomware and other destructive attacks. This demonstrates the intersection of different attack types within Iranian state cyber campaigns and illustrates operational handoff tactics used by nation-state actors."
+},
 "2b1b80c8b8": {
 "cves": [],
 "date": "2026-11-16",
@@ -3049,6 +3056,13 @@
 "sev": "critical",
 "summary": "Hackers exploited a third-party software flaw to breach Frontline Education, a widely used school district platform. The attack exposed personal information of over 1.3 million school staff and students, including names, contact details, and potentially social security numbers. No ransomware demand reported yet. Districts should audit access logs, reset credentials, and monitor accounts for suspicious activity."
 },
+"ede0adf4c5": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Coinbase blocks $4.7M in deepfake Musk scam transfers",
+"sev": "info",
+"summary": "Coinbase prevented $4.7 million in cryptocurrency transfers to scammers running an Elon Musk deepfake giveaway scam during a Tesla livestream that reached over 500,000 viewers. The AI-generated deepfake was used to fraudulently solicit cryptocurrency from victims. The exchange's fraud detection systems successfully identified and blocked the malicious transfers before completion."
+},
 "ee9a23761b": {
 "cves": [],
 "date": "2026-11-18",
@@ -3152,6 +3166,13 @@
 "headline": "Google sessions hijacked via phishing since August 2026",
 "sev": "high",
 "summary": "A phishing campaign tracked as Operation CloudFire has stolen live Google sessions from corporate users since mid-August 2026. The attacker designed clean-looking calendar invite links that bypassed standard email security checks. Material Security researchers identified hundreds of malicious domains and took them down. Organizations should implement additional session validation and user awareness training."
+},
+"f83f4afbf7": {
+"cves": [],
+"date": "2026-11-18",
+"headline": "Tech outages linked to AI-accelerated vulnerability patching race",
+"sev": "info",
+"summary": "Trump administration officials and congressional Democrats attribute recent major tech outages—including aviation groundstops and banking disruptions—not to cyberattacks but to AI-accelerated vulnerability discovery creating patch management strain. AI tools are identifying vulnerabilities across systems at unprecedented speed, forcing companies to patch simultaneously at a pace legacy systems cannot handle. The analysis highlights unintended consequences of rapid AI-driven security vulnerability identification."
 },
 "f88082b891": {
 "cves": [],
