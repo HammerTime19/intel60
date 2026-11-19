@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-19T12:00:40Z",
+ "updated": "2026-11-19T12:30:37Z",
  "cards": [
+  {
+   "id": "d02f8572d5",
+   "headline": "Apache Roller, Axis exploited in active attacks",
+   "summary": "Attackers are actively exploiting critical vulnerabilities in Apache Roller and an Axis flaw in Confluence Data Center. Both flaws enable remote code execution. Apache and Atlassian have issued warnings about ongoing attacks. Organizations running these products should prioritize patching immediately and monitor for indicators of compromise.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+   "published": "2026-11-19T12:13:24Z",
+   "added": "2026-11-19T12:30:36Z",
+   "also": []
+  },
   {
    "id": "2aa6fa29c7",
    "headline": "Splunk patches 140 flaws across three core products",

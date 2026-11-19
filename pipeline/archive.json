@@ -2775,6 +2775,13 @@
 "sev": "critical",
 "summary": "A critical vulnerability in Ruby on Rails Active Storage allows unauthenticated attackers to write arbitrary files to an app server by uploading a crafted file processed by ImageMagick. Rails 8.1.4.1 and 8.0.5.2 patch the flaw. Applications using file uploads with ImageMagick processing should update immediately or disable file upload functionality."
 },
+"d02f8572d5": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "Apache Roller, Axis exploited in active attacks",
+"sev": "critical",
+"summary": "Attackers are actively exploiting critical vulnerabilities in Apache Roller and an Axis flaw in Confluence Data Center. Both flaws enable remote code execution. Apache and Atlassian have issued warnings about ongoing attacks. Organizations running these products should prioritize patching immediately and monitor for indicators of compromise."
+},
 "d0b8b49f25": {
 "cves": [],
 "date": "2026-11-06",
