@@ -2749,6 +2749,13 @@
 "sev": "critical",
 "summary": "CVE-2026-111585, an integer overflow in TeamViewer, allows malicious hosts to execute arbitrary code on a support technician's system. The flaw enables attackers to take control of the viewer's machine during a remote support session. Organizations using TeamViewer should update to the latest patched version and verify all support sessions for suspicious activity."
 },
+"d1202d3392": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "PHP critical flaws patched across all supported versions",
+"sev": "critical",
+"summary": "PHP maintainers announced security fixes for critical vulnerabilities affecting all supported PHP versions, with patches released on November 19, 2026. The flaws impact the widely deployed server-side scripting language used in millions of websites. PHP users should update immediately when patches become available. Details on specific vulnerabilities were not disclosed prior to release."
+},
 "d29e040f40": {
 "cves": [],
 "date": "2026-11-16",

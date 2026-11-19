@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-19T04:30:38Z",
+ "updated": "2026-11-19T05:00:39Z",
  "cards": [
+  {
+   "id": "d1202d3392",
+   "headline": "PHP critical flaws patched across all supported versions",
+   "summary": "PHP maintainers announced security fixes for critical vulnerabilities affecting all supported PHP versions, with patches released on November 19, 2026. The flaws impact the widely deployed server-side scripting language used in millions of websites. PHP users should update immediately when patches become available. Details on specific vulnerabilities were not disclosed prior to release.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+   "published": "2026-11-19T04:33:46Z",
+   "added": "2026-11-19T05:00:38Z",
+   "also": []
+  },
   {
    "id": "b326b8531a",
    "headline": "Ukraine, FBI arrest ransomware gang members tied $40.5M",
@@ -4256,39 +4270,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
    "published": "2026-11-05T09:18:29Z",
    "added": "2026-11-05T09:30:29Z",
-   "also": []
-  },
-  {
-   "id": "49bf8b366c",
-   "headline": "White House staffers infected with Infatica residential proxy malware",
-   "summary": "Security researchers detected residential proxy nodes beaconing from White House networks (AS2650) between October and November. Multiple Windows 11 installations of Infatica, a proxy service often bundled with free applications, were found running. The malware rents out the infected devices' IP addresses to third parties. Infatica's Russian founder previously operated hosting infrastructure used in 2016 election system cyberattacks. Organizations should audit employee devices for unauthorized proxy services and enforce application security policies.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "Krebs on Security",
-   "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
-   "published": "2026-11-05T04:36:17Z",
-   "added": "2026-11-05T05:00:33Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/"
-    }
-   ]
-  },
-  {
-   "id": "25c3eda20c",
-   "headline": "OpenAI AI pipeline validates 948 Linux privilege escalation exploits",
-   "summary": "OpenAI's cyber-focused AI model identified and reproduced 1,724 vulnerabilities in the Linux kernel, generating 948 local privilege escalation (LPE) exploits in a 30-hour run costing $1.2 million in API fees. The pipeline analyzed 2,308 candidate findings, dynamically reproduced flaws, and produced working LPE exploits. This demonstrates AI's capability in vulnerability research and validation at scale, highlighting both the potential for accelerated security discovery and the risks of AI-assisted exploit development.",
-   "severity": "info",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-   "published": "2026-11-05T04:31:16Z",
-   "added": "2026-11-05T05:30:29Z",
    "also": []
   }
  ]
