@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-19T21:00:34Z",
+ "updated": "2026-11-19T21:30:37Z",
  "cards": [
+  {
+   "id": "3797ecb529",
+   "headline": "ASUS Control Center Express critical hard-coded key flaw",
+   "summary": "ASUS released Control Center Express v1.7.29 to address three critical vulnerabilities affecting the management console. The flaws involve hard-coded keys that could allow remote attackers to gain administrative control of the management console and connected devices. Organizations using this software should update immediately to the patched version.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+   "published": "2026-11-19T21:15:59Z",
+   "added": "2026-11-19T21:30:37Z",
+   "also": []
+  },
   {
    "id": "1977168802",
    "headline": "Transport for London Oyster card breach exposes 265k users",
@@ -4391,20 +4405,6 @@
    "source": "Dark Reading",
    "url": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
    "published": "2026-11-05T21:35:05Z",
-   "added": "2026-11-05T22:00:33Z",
-   "also": []
-  },
-  {
-   "id": "886e940667",
-   "headline": "Fake OpenAI SpaceX events steal Microsoft Google credentials",
-   "summary": "Attackers deploy phishing-as-a-service platforms to impersonate OpenAI, SpaceX, and Anthropic with fake event invitations targeting employees. The campaign aims to harvest Microsoft and Google account credentials and authentication sessions. Organizations should warn employees about suspicious event invitations and verify communications through official channels before sharing credentials.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
-   "published": "2026-11-05T21:30:30Z",
    "added": "2026-11-05T22:00:33Z",
    "also": []
   }

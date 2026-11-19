@@ -1031,6 +1031,13 @@
 "sev": "critical",
 "summary": "A critical vulnerability in Red Hat Quay allows attackers to steal private container images, overwrite repositories, and establish persistent access. Organizations using Quay should apply patches immediately. The exact CVE and technical details require patching to prevent unauthorized access to containerized applications and infrastructure compromise."
 },
+"3797ecb529": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "ASUS Control Center Express critical hard-coded key flaw",
+"sev": "critical",
+"summary": "ASUS released Control Center Express v1.7.29 to address three critical vulnerabilities affecting the management console. The flaws involve hard-coded keys that could allow remote attackers to gain administrative control of the management console and connected devices. Organizations using this software should update immediately to the patched version."
+},
 "389f46b9e9": {
 "cves": [],
 "date": "2026-11-17",
