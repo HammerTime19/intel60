@@ -1770,6 +1770,13 @@
 "sev": "critical",
 "summary": "Oracle is releasing patches for 11 vulnerabilities in Java SE, all remotely exploitable without authentication. CVE-2026-114938, a critical OpenJDK RCE flaw, is being reported alongside 10 other flaws with a maximum CVSS score of 8.1. Administrators should apply Oracle's November 17 patches to Java SE installations immediately to prevent exploitation."
 },
+"7aba46b2e2": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "NVIDIA investigating Gentlemen ransomware breach claims",
+"sev": "high",
+"summary": "NVIDIA is investigating claims of a security breach after Gentlemen ransomware group claimed to have stolen company data and listed NVIDIA on its dark web data leak site. The company has not yet confirmed the breach or provided details on the scope of the incident. Organizations should monitor for further updates and assess potential exposure if customer or partner information is released."
+},
 "7ba871700f": {
 "cves": [],
 "date": "2026-11-11",
