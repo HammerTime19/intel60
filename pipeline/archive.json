@@ -1227,6 +1227,13 @@
 "sev": "high",
 "summary": "Attackers sent phishing emails impersonating Microsoft 365 service notifications, referencing a real outage to trick recipients. The emails falsely threatened message deletion to create urgency and prompt credential submission. Microsoft has confirmed no cyberattack caused the original outage. Users should verify notifications through official Microsoft portals and avoid clicking links in unsolicited emails."
 },
+"4811bbf2d3": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "Russian charged with Palantir employee surveillance campaign",
+"sev": "high",
+"summary": "Igor Andreevich D'iu, a Russian national, has been charged in the United States with acting as a Moscow agent in a surveillance campaign targeting Palantir Technologies employees. D'iu was reportedly recruited through Telegram to conduct espionage operations. This represents a targeted cyber-espionage effort against a major US defense technology company and signals continued Russian intelligence gathering efforts against critical infrastructure vendors."
+},
 "4854dc1468": {
 "cves": [
 "CVE-2026-111357",

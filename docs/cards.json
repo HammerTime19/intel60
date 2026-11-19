@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T11:30:32Z",
+ "updated": "2026-11-19T12:00:40Z",
  "cards": [
   {
    "id": "2aa6fa29c7",
@@ -103,6 +103,20 @@
      "url": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/"
     }
    ]
+  },
+  {
+   "id": "4811bbf2d3",
+   "headline": "Russian charged with Palantir employee surveillance campaign",
+   "summary": "Igor Andreevich D'iu, a Russian national, has been charged in the United States with acting as a Moscow agent in a surveillance campaign targeting Palantir Technologies employees. D'iu was reportedly recruited through Telegram to conduct espionage operations. This represents a targeted cyber-espionage effort against a major US defense technology company and signals continued Russian intelligence gathering efforts against critical infrastructure vendors.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/russian-charged-with-spying-on-palantir-for-moscow",
+   "published": "2026-11-19T00:00:00Z",
+   "added": "2026-11-19T12:00:40Z",
+   "also": []
   },
   {
    "id": "b326b8531a",
