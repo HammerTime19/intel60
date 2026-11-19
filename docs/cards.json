@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:30:37Z",
+ "updated": "2026-11-19T22:00:33Z",
  "cards": [
   {
    "id": "3797ecb529",
@@ -4392,20 +4392,6 @@
    "url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
    "published": "2026-11-05T22:08:00Z",
    "added": "2026-11-05T22:30:33Z",
-   "also": []
-  },
-  {
-   "id": "c5d8bcb2d0",
-   "headline": "DNS typos expose US government email systems to abuse",
-   "summary": "Erroneous or outdated DNS records in US government email infrastructure create security gaps that attackers can exploit to gain unauthorized access and control. The misconfiguration affects email systems across government organizations. Administrators should audit DNS records for accuracy and implement monitoring to detect unauthorized changes.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
-   "published": "2026-11-05T21:35:05Z",
-   "added": "2026-11-05T22:00:33Z",
    "also": []
   }
  ]
