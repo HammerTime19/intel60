@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-19T08:30:33Z",
+ "updated": "2026-11-19T09:00:38Z",
  "cards": [
+  {
+   "id": "ef3cecb6fd",
+   "headline": "Ruby patches seven regex and string flaws with RCE",
+   "summary": "Ruby released fixes for seven memory-safety vulnerabilities in its regular expression engine and string case-conversion code. Five of the flaws have public proof-of-concept exploits demonstrating remote code execution via crafted input. Ruby maintainers confirmed awareness of working RCE exploits. Applications using affected Ruby versions should update immediately to mitigate exploitation risk.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+   "published": "2026-11-19T08:42:11Z",
+   "added": "2026-11-19T09:00:36Z",
+   "also": []
+  },
+  {
+   "id": "3d3c584590",
+   "headline": "PostgreSQL MySQL Oracle vulnerable to low-privilege RCE",
+   "summary": "A researcher demonstrated memory-corruption vulnerabilities in PostgreSQL, MySQL, Oracle, and ClickHouse that allow low-privilege database accounts to execute arbitrary code on the database server. The exploits target engine-level flaws exploitable through ordinary SQL queries. Proof-of-concept code has been published. Database administrators should review access controls and consider applying patches when available.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+   "published": "2026-11-19T08:14:00Z",
+   "added": "2026-11-19T09:00:36Z",
+   "also": []
+  },
   {
    "id": "d1202d3392",
    "headline": "PHP critical flaws patched across all supported versions",

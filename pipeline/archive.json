@@ -1061,6 +1061,13 @@
 "sev": "critical",
 "summary": "Temperature controls were altered at three French national blood service facilities during a wave of cyberattacks targeting refrigeration systems across Europe. The attacks disrupted critical blood storage infrastructure. No details on attacker identity or whether blood supply was compromised. Health authorities are investigating and implementing additional security measures to protect blood inventory."
 },
+"3d3c584590": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "PostgreSQL MySQL Oracle vulnerable to low-privilege RCE",
+"sev": "critical",
+"summary": "A researcher demonstrated memory-corruption vulnerabilities in PostgreSQL, MySQL, Oracle, and ClickHouse that allow low-privilege database accounts to execute arbitrary code on the database server. The exploits target engine-level flaws exploitable through ordinary SQL queries. Proof-of-concept code has been published. Database administrators should review access controls and consider applying patches when available."
+},
 "3dfcf9840f": {
 "cves": [],
 "date": "2026-11-11",
@@ -3083,6 +3090,13 @@
 "headline": "Cold Relic breaches second US org via stolen Google Workspace",
 "sev": "high",
 "summary": "Russia-linked cyber espionage group Cold Relic (also known as COLDRIVER and UNC4057) has compromised a second U.S. organization by weaponizing stolen Google Workspace credentials from an initial cloud compromise. The group used the breached account as a launchpad for follow-on intrusions. Google Mandiant and GTIG investigated the 2026 incident. Organizations should prioritize securing cloud credentials and monitoring for lateral movement from compromised accounts."
+},
+"ef3cecb6fd": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "Ruby patches seven regex and string flaws with RCE",
+"sev": "critical",
+"summary": "Ruby released fixes for seven memory-safety vulnerabilities in its regular expression engine and string case-conversion code. Five of the flaws have public proof-of-concept exploits demonstrating remote code execution via crafted input. Ruby maintainers confirmed awareness of working RCE exploits. Applications using affected Ruby versions should update immediately to mitigate exploitation risk."
 },
 "f00273d9e0": {
 "cves": [],
