@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:30:36Z",
+ "updated": "2026-11-19T15:00:43Z",
  "cards": [
   {
    "id": "5e668a3027",
@@ -325,6 +325,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/"
     }
    ],
    "cve_info": {
