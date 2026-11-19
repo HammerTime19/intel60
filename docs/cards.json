@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-19T10:00:36Z",
+ "updated": "2026-11-19T10:30:39Z",
  "cards": [
+  {
+   "id": "67401cc888",
+   "headline": "N-able Mail Assure cloud server breached, management disrupted",
+   "summary": "Unknown threat actors gained unauthorized access to an N-able cloud server hosting Mail Assure and Spam Experts, disabling management interfaces and APIs across three regions. The breach disrupted email security management services. N-able has begun mitigation and investigation efforts. Affected customers should verify their email security configurations and monitor for unauthorized changes.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+   "published": "2026-11-19T09:31:26Z",
+   "added": "2026-11-19T10:30:38Z",
+   "also": []
+  },
   {
    "id": "7aba46b2e2",
    "headline": "NVIDIA investigating Gentlemen ransomware breach claims",
@@ -173,7 +187,12 @@
    "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
    "published": "2026-11-18T18:31:17Z",
    "added": "2026-11-18T19:30:51Z",
-   "also": [],
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-123007": {
      "kev": false,

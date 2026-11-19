@@ -1560,6 +1560,13 @@
 "sev": "info",
 "summary": "Ahmad Umar Agha, a Syrian Electronic Army member known as Th3Pr0, was sentenced to 42 months in prison for hacking Western news outlets. The conspiracy, organized by members of former Syrian President Bashar al-Assad's inner circle, included the commander of Syria's General Intelligence Directorate. Agha's attack triggered a false tweet that caused a $136 billion market drop. The case reflects state-sponsored cyber operations targeting financial markets and media infrastructure."
 },
+"67401cc888": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "N-able Mail Assure cloud server breached, management disrupted",
+"sev": "high",
+"summary": "Unknown threat actors gained unauthorized access to an N-able cloud server hosting Mail Assure and Spam Experts, disabling management interfaces and APIs across three regions. The breach disrupted email security management services. N-able has begun mitigation and investigation efforts. Affected customers should verify their email security configurations and monitor for unauthorized changes."
+},
 "67e222e81e": {
 "cves": [],
 "date": "2026-11-13",
