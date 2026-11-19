@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:00:39Z",
+ "updated": "2026-11-19T14:30:36Z",
  "cards": [
   {
    "id": "5e668a3027",
@@ -137,7 +137,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
    "published": "2026-11-19T09:23:21Z",
    "added": "2026-11-19T09:30:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/"
+    }
+   ]
   },
   {
    "id": "ef3cecb6fd",
