@@ -1695,6 +1695,13 @@
 "sev": "info",
 "summary": "The Trump administration implemented a new rule requiring overseas data centers serving companies in China, Russia, Iran, and Cuba to identify their end users. This policy aims to prevent indirect access to American AI technology through third-party infrastructure. Data centers in sanctioned nations must comply with the identification requirements to maintain operations."
 },
+"7008c485fa": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "VMware vCenter authentication bypass flaw patched",
+"sev": "critical",
+"summary": "VMware vCenter contains a critical authentication bypass vulnerability (CVSS 9.8) allowing network attackers to gain unauthorized access without credentials. Broadcom released fixed versions for all supported branches with no workaround available. vCenter manages ESX hosts and virtual machines across organizations. Administrators should update immediately to prevent unauthorized system access."
+},
 "70a17c1d3a": {
 "cves": [],
 "date": "2026-10-28",
