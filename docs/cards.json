@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-19T22:00:33Z",
+ "updated": "2026-11-19T22:30:31Z",
  "cards": [
+  {
+   "id": "df29d71aed",
+   "headline": "SBC Medical Group breach exposes 1.6 million people",
+   "summary": "SBC Medical Group disclosed two cybersecurity incidents that exposed sensitive customer and employee information affecting 1.6 million people. The company filed notice with the U.S. Securities and Exchange Commission. No details were provided on the nature of the incidents, attackers' identities, or what specific data was compromised. Healthcare organizations should review access logs and monitor for identity theft or fraud among affected individuals.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "Exchange"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+   "published": "2026-11-19T22:25:42Z",
+   "added": "2026-11-19T22:30:30Z",
+   "also": []
+  },
   {
    "id": "3797ecb529",
    "headline": "ASUS Control Center Express critical hard-coded key flaw",
@@ -4365,34 +4381,6 @@
     }
    },
    "cve_checked": "2026-11-11T00:07:02Z"
-  },
-  {
-   "id": "7bee44827e",
-   "headline": "Russian influence campaign targets Latin America schools",
-   "summary": "A Russian operation using AI-generated content deployed fake emails and forged government documents to target schools in Peru, Ecuador, and other Latin American countries. The campaign created fake local organizations to amplify reach and credibility. Defenders should enhance email authentication controls, train staff on document verification, and monitor for similar fake organizational entities targeting education institutions.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cyberattacks-data-breaches/opera-o-de-influ-ncia-russa-tem-como-alvo-generalizado-a-am-rica-latina",
-   "published": "2026-11-05T22:13:23Z",
-   "added": "2026-11-06T22:00:33Z",
-   "also": []
-  },
-  {
-   "id": "3189ce2b4e",
-   "headline": "Queens Public Library hit by ransomware attack",
-   "summary": "A ransomware attack disrupted the Queens Public Library system, affecting 66 branches serving 2.3 million residents in the borough. The attack disrupted Wi-Fi and on-site computers, forcing the library to publish multiple alerts on Wednesday confirming the incident. No details on attacker identity, ransom demand, or data exposure status were provided. Libraries should review backup procedures and incident response plans.",
-   "severity": "high",
-   "category": "Ransomware",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
-   "published": "2026-11-05T22:08:00Z",
-   "added": "2026-11-05T22:30:33Z",
-   "also": []
   }
  ]
 }

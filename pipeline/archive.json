@@ -3000,6 +3000,13 @@
 "sev": "critical",
 "summary": "Two critical flaws in Xen hypervisor allow a malicious guest virtual machine to read and write memory of other VMs on the same host, including dom0. All Xen versions 4.6 and later are vulnerable. Patches are available with no known workaround. Administrators should apply patches immediately and isolate untrusted VMs until updates are deployed."
 },
+"df29d71aed": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "SBC Medical Group breach exposes 1.6 million people",
+"sev": "high",
+"summary": "SBC Medical Group disclosed two cybersecurity incidents that exposed sensitive customer and employee information affecting 1.6 million people. The company filed notice with the U.S. Securities and Exchange Commission. No details were provided on the nature of the incidents, attackers' identities, or what specific data was compromised. Healthcare organizations should review access logs and monitor for identity theft or fraud among affected individuals."
+},
 "df5a560c1b": {
 "cves": [],
 "date": "2026-11-19",
