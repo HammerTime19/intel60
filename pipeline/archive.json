@@ -328,6 +328,13 @@
 "kev": false,
 "sev": "critical"
 },
+"CVE-2026-126714": {
+"cvss": 9.2,
+"date": "2026-11-19",
+"desc": "Partially overwritten session files can lead to remote code execution. The files session save handler, which is the default, writes updated session data into the existing session file without first clearing it. If a write is interrupted, the file can contain the beginning of the new session followed by the end of the old one, and bytes of an ordinary string can later be unserialized as objects. An attacker who can influence the session data, for example through session upload progress, and interrupt a write at a suitable point may inject objects, which can lead to code execution when the…",
+"kev": false,
+"sev": "critical"
+},
 "CVE-2026-19868": {
 "cvss": 7.5,
 "date": "2026-11-06",
@@ -1567,6 +1574,15 @@
 "headline": "cPGuard update channel hijacked to backdoor Linux servers",
 "sev": "critical",
 "summary": "An attacker compromised the update system for cPGuard security tool on November 2, delivering a malicious script to Linux servers running version 5.88.25 and later. The script installed a backdoor and exfiltrated password hashes and sensitive files. OPSSHIELD confirmed the breach. Users should update from a trusted source and audit affected systems for unauthorized access."
+},
+"648f474625": {
+"cves": [
+"CVE-2026-126714"
+],
+"date": "2026-11-19",
+"headline": "PHP fixes phpAfterShell session object injection flaw",
+"sev": "high",
+"summary": "PHP patches CVE-2026-126714, a flaw in default file-based session storage that allows attackers to inject chosen objects by interrupting session writes. When combined with gadget chains in applications, the injected objects enable remote code execution. The vulnerability affects PHP's core session handling. Administrators should apply PHP patches immediately."
 },
 "649e0d8b07": {
 "cves": [

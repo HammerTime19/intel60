@@ -1,6 +1,31 @@
 {
- "updated": "2026-11-19T17:30:32Z",
+ "updated": "2026-11-19T18:00:43Z",
  "cards": [
+  {
+   "id": "648f474625",
+   "headline": "PHP fixes phpAfterShell session object injection flaw",
+   "summary": "PHP patches CVE-2026-126714, a flaw in default file-based session storage that allows attackers to inject chosen objects by interrupting session writes. When combined with gadget chains in applications, the injected objects enable remote code execution. The vulnerability affects PHP's core session handling. Administrators should apply PHP patches immediately.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-126714"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+   "published": "2026-11-19T16:59:56Z",
+   "added": "2026-11-19T18:00:41Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-126714": {
+     "kev": false,
+     "cvss": 9.2,
+     "sev": "critical",
+     "desc": "Partially overwritten session files can lead to remote code execution. The files session save handler, which is the default, writes updated session data into the existing session file without first clearing it. If a write is interrupted, the file can contain the beginning of the new session followed by the end of the old one, and bytes of an ordinary string can later be unserialized as objects. An attacker who can influence the session data, for example through session upload progress, and interrupt a write at a suitable point may inject objects, which can lead to code execution when the…"
+    }
+   },
+   "cve_checked": "2026-11-19T18:00:42Z"
+  },
   {
    "id": "6ddd580a09",
    "headline": "UK government served Apple secret encryption notice",
@@ -4408,29 +4433,6 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/"
-    }
-   ]
-  },
-  {
-   "id": "671b07a9ce",
-   "headline": "OpenSSH flaw bypasses password-disabled account protection",
-   "summary": "A vulnerability in OpenSSH, dubbed \"*sshole\", allows unauthenticated attackers to log into Alpine Linux and other musl-based systems configured to block password authentication. The flaw is triggered by submitting an oversized password that bypasses the account's security settings. System administrators should update OpenSSH and review authentication configurations on affected systems.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-   "published": "2026-11-05T17:45:29Z",
-   "added": "2026-11-05T17:57:11Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/"
     }
    ]
   }
