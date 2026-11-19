@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:30:34Z",
+ "updated": "2026-11-19T00:00:42Z",
  "cards": [
   {
    "id": "b326b8531a",
@@ -4289,43 +4289,6 @@
    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
    "published": "2026-11-05T04:31:16Z",
    "added": "2026-11-05T05:30:29Z",
-   "also": []
-  },
-  {
-   "id": "350327fdd7",
-   "headline": "Chainalysis hit in cyber breach affecting all users",
-   "summary": "Chainalysis, a blockchain analytics platform serving law enforcement and national security sectors, confirmed a cyberattack exposed information belonging to all users. The attack employed \"agentic\" techniques. The company disclosed the breach on Wednesday but did not provide details on the scope of exposed data or timeline for remediation. Users should reset credentials and monitor accounts.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
-   "published": "2026-11-05T00:00:00Z",
-   "added": "2026-11-05T10:30:29Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/"
-    }
-   ]
-  },
-  {
-   "id": "260025e601",
-   "headline": "Ukraine security fires officials in call center graft probe",
-   "summary": "Ukraine's security service dismissed two senior officials during a corruption investigation targeting an alleged criminal network that bribed law enforcement to protect fraudulent call centers and illegal operations. The probe reveals systemic corruption enabling organized crime. Ukraine's government and international partners should strengthen oversight of law enforcement agencies and prosecute involved officials to restore institutional integrity.",
-   "severity": "info",
-   "category": "Policy",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/ukraine-fires-senior-security-officials-amid-scam-center-corruption-investigation",
-   "published": "2026-11-05T00:00:00Z",
-   "added": "2026-11-05T11:30:31Z",
    "also": []
   }
  ]
