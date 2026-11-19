@@ -87,7 +87,8 @@
 },
 "CVE-2026-109618": {
 "cvss": 9.8,
-"date": "2026-10-28",
+"date": "2026-11-19",
+"desc": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE).",
 "due": "2026-10-29",
 "epss": 0.99999,
 "kev": true,
@@ -96,7 +97,8 @@
 },
 "CVE-2026-109619": {
 "cvss": 8.1,
-"date": "2026-10-28",
+"date": "2026-11-19",
+"desc": "PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated after being reset. The global state may then refer to request memory even after it has been freed. Subsequent requests may read or branch on this stale state before it is fully initialized. Multiple strategies can trigger this condition and produce remote code execution (RCE).",
 "due": "2026-10-29",
 "epss": 0.99999,
 "kev": true,
@@ -707,6 +709,16 @@
 "headline": "Microsoft 365 outage caused by July software bug",
 "sev": "high",
 "summary": "Microsoft disclosed that a software bug introduced in July triggered last week's global Microsoft 365 outage, causing cascading failures that left over 80% of networking gateway servers unresponsive. The widespread service disruption affected millions of users relying on Office 365, Teams, and related cloud services. While Microsoft has since restored services, this incident highlights risks from deployment of untested code. Organizations should monitor for continued stability and review Microsoft's incident reports for detailed remediation steps."
+},
+"193208e890": {
+"cves": [
+"CVE-2026-109618",
+"CVE-2026-109619"
+],
+"date": "2026-11-19",
+"headline": "Palo Alto Networks PAN-OS management exploited via PHP flaws",
+"sev": "critical",
+"summary": "Attackers exploited two unauthenticated remote code execution flaws in Palo Alto Networks PAN-OS management interfaces exposed to the internet. CVE-2026-109618 and CVE-2026-109619 allow code execution on the web server without authentication. Organizations should immediately patch and restrict access to PAN-OS management interfaces."
 },
 "196b1e6052": {
 "cves": [],

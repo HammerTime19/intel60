@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T12:30:37Z",
+ "updated": "2026-11-19T13:00:54Z",
  "cards": [
   {
    "id": "d02f8572d5",
@@ -14,6 +14,44 @@
    "published": "2026-11-19T12:13:24Z",
    "added": "2026-11-19T12:30:36Z",
    "also": []
+  },
+  {
+   "id": "193208e890",
+   "headline": "Palo Alto Networks PAN-OS management exploited via PHP flaws",
+   "summary": "Attackers exploited two unauthenticated remote code execution flaws in Palo Alto Networks PAN-OS management interfaces exposed to the internet. CVE-2026-109618 and CVE-2026-109619 allow code execution on the web server without authentication. Organizations should immediately patch and restrict access to PAN-OS management interfaces.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "watch": [
+    "Palo Alto"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+   "published": "2026-11-19T11:52:23Z",
+   "added": "2026-11-19T13:00:39Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-109618": {
+     "kev": true,
+     "epss": 0.99999,
+     "pct": 0.99999,
+     "cvss": 9.8,
+     "sev": "critical",
+     "desc": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE)."
+    },
+    "CVE-2026-109619": {
+     "kev": true,
+     "epss": 0.99999,
+     "pct": 0.99999,
+     "cvss": 8.1,
+     "sev": "high",
+     "desc": "PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated after being reset. The global state may then refer to request memory even after it has been freed. Subsequent requests may read or branch on this stale state before it is fully initialized. Multiple strategies can trigger this condition and produce remote code execution (RCE)."
+    }
+   },
+   "cve_checked": "2026-11-19T13:00:53Z"
   },
   {
    "id": "2aa6fa29c7",
