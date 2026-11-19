@@ -757,6 +757,13 @@
 "sev": "high",
 "summary": "Blockchain analysis firm Chainalysis confirmed a cybersecurity incident where an external actor accessed non-sensitive customer identity data. The breach did not compromise investigation content, authentication credentials, or session tokens. The company detected the intrusion this month and is investigating the scope. Customers should monitor for identity-related issues and await further disclosure from Chainalysis."
 },
+"1fc34cf648": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "Windows 11 hotpatch breaks app installation, launch",
+"sev": "info",
+"summary": "Microsoft's latest Windows 11 hotpatch caused issues with app installations and launches affecting Office and third-party applications. The company has acknowledged the problem and provided a workaround for affected users. No indication of security-related impact or malicious activity. Users experiencing problems should apply the recommended workaround immediately."
+},
 "1fd1d86ac6": {
 "cves": [],
 "date": "2026-11-10",
@@ -883,6 +890,13 @@
 "headline": "Iranian state groups hand network access for destructive attacks",
 "sev": "high",
 "summary": "AttackIQ research analyzed 20 Iranian state-sponsored threat groups revealing how they coordinate across espionage, ransomware, and hacktivism operations. The groups use initial network access obtained through espionage to enable ransomware and other destructive attacks. This demonstrates the intersection of different attack types within Iranian state cyber campaigns and illustrates operational handoff tactics used by nation-state actors."
+},
+"2aa6fa29c7": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "Splunk patches 140 flaws across three core products",
+"sev": "high",
+"summary": "Splunk released security updates resolving nearly 140 vulnerabilities across three core products, including critical and high-severity issues. The flaws enable authentication bypass, remote code execution, and privilege escalation. Organizations running affected Splunk products should prioritize patching immediately, particularly for critical and high-severity issues that could allow unauthenticated RCE."
 },
 "2b1b80c8b8": {
 "cves": [],

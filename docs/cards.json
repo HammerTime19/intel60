@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-19T10:30:39Z",
+ "updated": "2026-11-19T11:00:42Z",
  "cards": [
+  {
+   "id": "2aa6fa29c7",
+   "headline": "Splunk patches 140 flaws across three core products",
+   "summary": "Splunk released security updates resolving nearly 140 vulnerabilities across three core products, including critical and high-severity issues. The flaws enable authentication bypass, remote code execution, and privilege escalation. Organizations running affected Splunk products should prioritize patching immediately, particularly for critical and high-severity issues that could allow unauthenticated RCE.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
+   "published": "2026-11-19T10:41:05Z",
+   "added": "2026-11-19T11:00:41Z",
+   "also": []
+  },
+  {
+   "id": "1fc34cf648",
+   "headline": "Windows 11 hotpatch breaks app installation, launch",
+   "summary": "Microsoft's latest Windows 11 hotpatch caused issues with app installations and launches affecting Office and third-party applications. The company has acknowledged the problem and provided a workaround for affected users. No indication of security-related impact or malicious activity. Users experiencing problems should apply the recommended workaround immediately.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+   "published": "2026-11-19T10:35:05Z",
+   "added": "2026-11-19T11:00:41Z",
+   "also": []
+  },
   {
    "id": "67401cc888",
    "headline": "N-able Mail Assure cloud server breached, management disrupted",
