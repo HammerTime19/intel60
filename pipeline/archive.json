@@ -734,6 +734,13 @@
 "sev": "high",
 "summary": "A shadowy service distributes OpenAI Codex and Anthropic Claude tools to mainland China and regions where these products are unavailable, but with critical security features disabled. The relay removes key sandbox protections from AI coding tools before redistribution. This exposes users to unrestricted code execution risks. Organizations should verify AI tool provenance and ensure security controls remain active."
 },
+"1977168802": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "Transport for London Oyster card breach exposes 265k users",
+"sev": "high",
+"summary": "Transport for London suffered a data breach affecting approximately 265,000 Oyster photocard customers. The incident exposed account details of affected users. TfL has announced the breach and is investigating the incident. Users should monitor their accounts for suspicious activity and consider changing passwords associated with their TfL accounts."
+},
 "1a13d7025b": {
 "cves": [],
 "date": "2026-11-16",

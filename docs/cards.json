@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-19T18:00:43Z",
+ "updated": "2026-11-19T18:30:36Z",
  "cards": [
+  {
+   "id": "1977168802",
+   "headline": "Transport for London Oyster card breach exposes 265k users",
+   "summary": "Transport for London suffered a data breach affecting approximately 265,000 Oyster photocard customers. The incident exposed account details of affected users. TfL has announced the breach and is investigating the incident. Users should monitor their accounts for suspicious activity and consider changing passwords associated with their TfL accounts.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+   "published": "2026-11-19T18:20:01Z",
+   "added": "2026-11-19T18:30:36Z",
+   "also": []
+  },
   {
    "id": "648f474625",
    "headline": "PHP fixes phpAfterShell session object injection flaw",
