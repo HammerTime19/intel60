@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-19T16:00:36Z",
+ "updated": "2026-11-19T16:30:44Z",
  "cards": [
+  {
+   "id": "6ddd580a09",
+   "headline": "UK government served Apple secret encryption notice",
+   "summary": "A British tribunal confirmed that the UK government issued a secret legal notice to Apple targeting iCloud cryptographic protections. The notice, widely reported but officially unacknowledged for nearly two years, marks the government's formal acknowledgment of surveillance capabilities demands. The specific targets and scope of the encrypted data request remain unclear.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/apple-uk-encryption-notice",
+   "published": "2026-11-19T16:15:00Z",
+   "added": "2026-11-19T16:30:44Z",
+   "also": []
+  },
   {
    "id": "7008c485fa",
    "headline": "VMware vCenter authentication bypass flaw patched",
@@ -207,6 +221,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/"
     }
    ]
   },
@@ -4429,43 +4447,6 @@
    "published": "2026-11-05T16:42:32Z",
    "added": "2026-11-05T21:30:34Z",
    "also": []
-  },
-  {
-   "id": "5263a8e99f",
-   "headline": "CWPdoor malware trojanizes Control Web Panel server",
-   "summary": "A new Linux malware called CWPdoor is distributed through a trojanized version of cwpsrv, the web server component of Control Web Panel (CWP) management software. Attackers backdoor Linux servers when administrators install the compromised version. Organizations running CWP should verify their server integrity and check for unauthorized access. Update to official, uncompromised versions immediately.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
-   "published": "2026-11-05T16:24:26Z",
-   "added": "2026-11-05T16:30:39Z",
-   "also": []
-  },
-  {
-   "id": "6b1d9cd5a0",
-   "headline": "DigiCert data breach exposes customer identity documents",
-   "summary": "DigiCert suffered a data breach when a server migration mistakenly exposed an internal business system to the internet. Unauthorized attackers gained access to customer information and identity documents. DigiCert is investigating the incident and notifying affected customers. Organizations using DigiCert services should monitor for potential misuse of exposed data and review their certificate management practices.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
-   "published": "2026-11-05T16:12:46Z",
-   "added": "2026-11-05T16:30:39Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach"
-    }
-   ]
   }
  ]
 }
