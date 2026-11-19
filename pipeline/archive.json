@@ -1491,6 +1491,13 @@
 "sev": "high",
 "summary": "Kaspersky identified Operation ShadowCloud, a campaign targeting government sectors in Asia and Africa using previously undocumented backdoors: GitDoor and GraphDoor. The malware abuses Microsoft SharePoint and GitHub as covert command-and-control channels. The campaign was active since early 2026. Organizations should monitor for suspicious activity on GitHub and SharePoint accounts."
 },
+"5e668a3027": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "Hackers exploit Cisco Expressway flaw after PoC release",
+"sev": "critical",
+"summary": "Attackers exploited a Cisco Expressway vulnerability to compromise clustered devices at a Russian organization shortly after a proof-of-concept was released. Threat actors prepared tooling for lateral movement through the breached infrastructure. Organizations running Cisco Expressway should prioritize patching and monitor for signs of compromise."
+},
 "5e7c3d53ea": {
 "cves": [],
 "date": "2026-11-12",
@@ -2948,6 +2955,13 @@
 "headline": "Xen hypervisor flaws allow VM memory access",
 "sev": "critical",
 "summary": "Two critical flaws in Xen hypervisor allow a malicious guest virtual machine to read and write memory of other VMs on the same host, including dom0. All Xen versions 4.6 and later are vulnerable. Patches are available with no known workaround. Administrators should apply patches immediately and isolate untrusted VMs until updates are deployed."
+},
+"df5a560c1b": {
+"cves": [],
+"date": "2026-11-19",
+"headline": "Drupal patches critical RCE flaw",
+"sev": "critical",
+"summary": "Drupal Security Team released a patch for a critical remote code execution vulnerability that allows attackers to execute arbitrary code and take over vulnerable Drupal sites. The flaw poses significant risk as exploits may surface quickly following the patch release. Site administrators should apply the security update immediately to prevent compromise."
 },
 "dfcd48a830": {
 "cves": [],

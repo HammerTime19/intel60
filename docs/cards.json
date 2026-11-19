@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-19T13:00:54Z",
+ "updated": "2026-11-19T13:30:38Z",
  "cards": [
+  {
+   "id": "5e668a3027",
+   "headline": "Hackers exploit Cisco Expressway flaw after PoC release",
+   "summary": "Attackers exploited a Cisco Expressway vulnerability to compromise clustered devices at a Russian organization shortly after a proof-of-concept was released. Threat actors prepared tooling for lateral movement through the breached infrastructure. Organizations running Cisco Expressway should prioritize patching and monitor for signs of compromise.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [
+    "Cisco"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+   "published": "2026-11-19T13:12:20Z",
+   "added": "2026-11-19T13:30:37Z",
+   "also": []
+  },
+  {
+   "id": "df5a560c1b",
+   "headline": "Drupal patches critical RCE flaw",
+   "summary": "Drupal Security Team released a patch for a critical remote code execution vulnerability that allows attackers to execute arbitrary code and take over vulnerable Drupal sites. The flaw poses significant risk as exploits may surface quickly following the patch release. Site administrators should apply the security update immediately to prevent compromise.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+   "published": "2026-11-19T13:08:08Z",
+   "added": "2026-11-19T13:30:37Z",
+   "also": []
+  },
   {
    "id": "d02f8572d5",
    "headline": "Apache Roller, Axis exploited in active attacks",
@@ -4403,20 +4433,6 @@
      "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach"
     }
    ]
-  },
-  {
-   "id": "2dacffdc48",
-   "headline": "Bank phishing sites evade takedowns with fake suspension pages",
-   "summary": "Cybercriminals are deploying phishing sites that serve legitimate-looking 'suspended' pages to visitors who return, while showing phishing content to first-time visitors. Over 200 sites used this evasion technique. This prevents automated takedown systems and security researchers from detecting the phishing infrastructure. Organizations should educate users to verify bank URLs directly and enable MFA to mitigate phishing risks.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
-   "published": "2026-11-05T13:22:12Z",
-   "added": "2026-11-05T13:30:33Z",
-   "also": []
   }
  ]
 }
