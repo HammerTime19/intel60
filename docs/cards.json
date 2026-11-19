@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:00:36Z",
+ "updated": "2026-11-19T20:30:33Z",
  "cards": [
   {
    "id": "1977168802",
@@ -4406,34 +4406,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
    "published": "2026-11-05T21:30:30Z",
    "added": "2026-11-05T22:00:33Z",
-   "also": []
-  },
-  {
-   "id": "58f4053a1b",
-   "headline": "Truffle Security revokes 1.4 million exposed API secrets",
-   "summary": "Truffle Security launched the Secrets Revocation Program, a free service enabling API key issuers to revoke 1.4 million publicly exposed secrets still in active use. The program addresses the risk of leaked credentials remaining valid and exploitable. Affected organizations can use the service to identify and invalidate their compromised credentials. API key holders should check if their secrets are on the list and rotate them immediately.",
-   "severity": "high",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
-   "published": "2026-11-05T20:15:08Z",
-   "added": "2026-11-05T20:30:35Z",
-   "also": []
-  },
-  {
-   "id": "8b7832becd",
-   "headline": "US sanctions Prince Group scam center affiliates",
-   "summary": "The US government imposed sanctions on four individuals and 41 companies affiliated with Prince Group, a Cambodian operation running a billion-dollar scam scheme. The action targets financial networks supporting the fraudulent enterprise. Prince Group has been identified as a major organized crime operation exploiting victims globally. Organizations should monitor for connections to sanctioned entities and report suspicious transactions.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/us-issues-more-sanctions-against-prince-group-scammers",
-   "published": "2026-11-05T20:11:00Z",
-   "added": "2026-11-05T20:30:35Z",
    "also": []
   }
  ]
