@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T14:00:36Z",
+ "updated": "2026-11-20T14:30:35Z",
  "cards": [
   {
    "id": "f80afcc478",
@@ -518,7 +518,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
    "published": "2026-11-18T19:39:33Z",
    "added": "2026-11-18T20:00:45Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach"
+    }
+   ]
   },
   {
    "id": "ad35669340",
