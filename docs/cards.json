@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T15:00:37Z",
+ "updated": "2026-11-20T15:30:41Z",
  "cards": [
   {
    "id": "f80afcc478",
@@ -699,7 +699,12 @@
    "url": "https://therecord.media/norway-equinor-cyberattack-energy",
    "published": "2026-11-18T13:30:00Z",
    "added": "2026-11-18T14:00:41Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/"
+    }
+   ]
   },
   {
    "id": "74d12e4423",
