@@ -3355,6 +3355,13 @@
 "sev": "high",
 "summary": "REF3364, a financially motivated threat actor, deployed SANSAR, a Rust-based malware that orchestrates CPU and GPU mining operations while concealing GPU workloads from detection. The malware receives commands via TOR and tampers with system monitoring to avoid discovery. Organizations running Linux infrastructure should monitor for unusual GPU resource consumption and analyze network traffic for TOR communications."
 },
+"f0b8696c25": {
+"cves": [],
+"date": "2026-11-20",
+"headline": "West Virginia Legislature hit with cyber incident",
+"sev": "high",
+"summary": "The West Virginia Legislature experienced a cybersecurity incident beginning Thursday that disrupted its IT systems and remained ongoing as of Friday. Officials confirmed the disruption was contained to the Legislature and did not spread to other state government entities. The nature of the incident and attack vector have not been disclosed. No information is available about recovery efforts or timeline for restoration."
+},
 "f0f23fdb08": {
 "cves": [],
 "date": "2026-11-13",
