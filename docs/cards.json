@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:00:36Z",
+ "updated": "2026-11-20T00:30:42Z",
  "cards": [
   {
    "id": "df29d71aed",
@@ -100,6 +100,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
     }
    ]
   },
