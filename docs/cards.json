@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T15:30:41Z",
+ "updated": "2026-11-20T16:00:35Z",
  "cards": [
   {
    "id": "f80afcc478",
@@ -70,7 +70,12 @@
    "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
    "published": "2026-11-20T07:35:46Z",
    "added": "2026-11-20T08:00:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/"
+    }
+   ]
   },
   {
    "id": "ba74506a96",
