@@ -355,6 +355,10 @@
 "name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
 "sev": "high"
 },
+"CVE-2026-23871": {
+"date": "2026-11-20",
+"kev": false
+},
 "CVE-2026-35273": {
 "cvss": 9.8,
 "date": "2026-10-28",
@@ -2580,6 +2584,15 @@
 "headline": "Polymarket prediction market breach forces $3.9M reimbursement",
 "sev": "high",
 "summary": "Polymarket suffered a compromise on October 29 that resulted in user losses. The platform announced it will reimburse affected users and provide compensation for downtime. No details on the breach mechanism or scope were disclosed. Users should monitor their accounts for unauthorized activity."
+},
+"b3099b7219": {
+"cves": [
+"CVE-2026-23871"
+],
+"date": "2026-11-20",
+"headline": "WhatsApp fixes flaw used in scam disruption",
+"sev": "high",
+"summary": "WhatsApp's security team discovered CVE-2026-23871, a vulnerability that may have been exploited to make scam messages appear more credible. The flaw has been fixed. WhatsApp did not disclose technical details of the vulnerability or its severity. Users should ensure their app is updated to the latest version."
 },
 "b326b8531a": {
 "cves": [],

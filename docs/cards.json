@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-20T16:01:58Z",
+ "updated": "2026-11-20T16:30:39Z",
  "cards": [
+  {
+   "id": "b3099b7219",
+   "headline": "WhatsApp fixes flaw used in scam disruption",
+   "summary": "WhatsApp's security team discovered CVE-2026-23871, a vulnerability that may have been exploited to make scam messages appear more credible. The flaw has been fixed. WhatsApp did not disclose technical details of the vulnerability or its severity. Users should ensure their app is updated to the latest version.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-23871"
+   ],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+   "published": "2026-11-20T16:01:02Z",
+   "added": "2026-11-20T16:30:38Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-23871": {
+     "kev": false,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-11-20T16:30:38Z"
+  },
   {
    "id": "f80afcc478",
    "headline": "Linux KVM flaw leaks host memory on AMD hosts",
@@ -4323,20 +4347,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/"
     }
    ]
-  },
-  {
-   "id": "9fe769e3c9",
-   "headline": "WordPress patch installation enables code execution window",
-   "summary": "A researcher discovered that installing WordPress patches for an actively exploited vulnerability leaves a temporary attack window. The update unpacks files using the old unpatched code before applying the fix, allowing attackers to execute code on servers during the installation process. Site administrators should take web access offline or block external traffic before patching to prevent exploitation during this critical window.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-   "published": "2026-11-06T16:08:38Z",
-   "added": "2026-11-06T17:00:34Z",
-   "also": []
   }
  ]
 }
