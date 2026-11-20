@@ -1,6 +1,33 @@
 {
- "updated": "2026-11-20T12:30:35Z",
+ "updated": "2026-11-20T13:00:51Z",
  "cards": [
+  {
+   "id": "f80afcc478",
+   "headline": "Linux KVM flaw leaks host memory on AMD hosts",
+   "summary": "A flaw in KVM (CVE-2026-99312) allows guest virtual machines to read up to 127 GB of host memory on AMD processors with nested virtualization enabled. This affects shared cloud servers where memory could contain other customers' VMs. The vulnerability is specific to AMD hosts. Fixed kernels have been released; users should update their Linux kernel versions immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-99312"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+   "published": "2026-11-20T12:20:00Z",
+   "added": "2026-11-20T13:00:49Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-99312": {
+     "kev": false,
+     "epss": 0.00187,
+     "pct": 0.08393,
+     "cvss": 8.8,
+     "sev": "high",
+     "desc": "In the Linux kernel, the following vulnerability has been resolved: KVM: x86: Unconditionally reset MMU context when emulating INIT Force an MMU reset when emulating an INIT even if paging was already disabled, as the MMU page role includes guest_mode (L2), i.e. an INIT while L2 is running with CR0.PG=0 will result in KVM running L1 with a stale MMU context. Alternatively, the reset could be scoped strictly to paging being enabled or L2 being active, but SMM is also encoded in the page role. Even though it _should_ be impossible for the vCPU to be INIT'd while SMM is active, there's zero…"
+    }
+   },
+   "cve_checked": "2026-11-20T13:00:50Z"
+  },
   {
    "id": "2be32b97a1",
    "headline": "European Commission suffers AI-assisted cyberattack",
@@ -4290,34 +4317,6 @@
    "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
    "published": "2026-11-06T16:08:38Z",
    "added": "2026-11-06T17:00:34Z",
-   "also": []
-  },
-  {
-   "id": "8694430c3b",
-   "headline": "Ahold Delhaize estimates €250M loss from October cyberattack",
-   "summary": "Grocery giant Ahold Delhaize quantified financial impact from an October cyberattack, estimating €250 million in fourth-quarter sales reduction and prompting downward revision of 2026 financial outlook. The company's retail operations and supply chain were significantly disrupted. Full investigation details and attribution remain limited.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
-   "published": "2026-11-06T12:47:55Z",
-   "added": "2026-11-06T13:00:40Z",
-   "also": []
-  },
-  {
-   "id": "d0b8b49f25",
-   "headline": "D-Link DGS-3130 switches affected by multiple zero-days",
-   "summary": "D-Link disclosed multiple unpatched zero-day vulnerabilities affecting DGS-3130 series managed Gigabit stackable switches. The company issued mitigation measures but patches are not yet available. Organizations deploying these switches should apply recommended mitigations immediately and monitor for exploitation.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-   "published": "2026-11-06T12:37:22Z",
-   "added": "2026-11-06T13:00:40Z",
    "also": []
   }
  ]

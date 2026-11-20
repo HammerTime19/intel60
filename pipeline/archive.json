@@ -478,6 +478,14 @@
 "epss": 0.00457,
 "kev": false,
 "sev": "critical"
+},
+"CVE-2026-99312": {
+"cvss": 8.8,
+"date": "2026-11-20",
+"desc": "In the Linux kernel, the following vulnerability has been resolved: KVM: x86: Unconditionally reset MMU context when emulating INIT Force an MMU reset when emulating an INIT even if paging was already disabled, as the MMU page role includes guest_mode (L2), i.e. an INIT while L2 is running with CR0.PG=0 will result in KVM running L1 with a stale MMU context. Alternatively, the reset could be scoped strictly to paging being enabled or L2 being active, but SMM is also encoded in the page role. Even though it _should_ be impossible for the vCPU to be INIT'd while SMM is active, there's zero…",
+"epss": 0.00187,
+"kev": false,
+"sev": "high"
 }
 },
 "stories": {
@@ -3341,6 +3349,15 @@
 "headline": "Google sessions hijacked via phishing since August 2026",
 "sev": "high",
 "summary": "A phishing campaign tracked as Operation CloudFire has stolen live Google sessions from corporate users since mid-August 2026. The attacker designed clean-looking calendar invite links that bypassed standard email security checks. Material Security researchers identified hundreds of malicious domains and took them down. Organizations should implement additional session validation and user awareness training."
+},
+"f80afcc478": {
+"cves": [
+"CVE-2026-99312"
+],
+"date": "2026-11-20",
+"headline": "Linux KVM flaw leaks host memory on AMD hosts",
+"sev": "critical",
+"summary": "A flaw in KVM (CVE-2026-99312) allows guest virtual machines to read up to 127 GB of host memory on AMD processors with nested virtualization enabled. This affects shared cloud servers where memory could contain other customers' VMs. The vulnerability is specific to AMD hosts. Fixed kernels have been released; users should update their Linux kernel versions immediately."
 },
 "f83f4afbf7": {
 "cves": [],
