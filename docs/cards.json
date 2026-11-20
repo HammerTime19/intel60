@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T11:30:36Z",
+ "updated": "2026-11-20T12:00:36Z",
  "cards": [
   {
    "id": "2be32b97a1",
@@ -87,7 +87,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
    "published": "2026-11-19T22:25:42Z",
    "added": "2026-11-19T22:30:30Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/"
+    }
+   ]
   },
   {
    "id": "3797ecb529",
