@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T22:00:36Z",
+ "updated": "2026-11-20T22:30:30Z",
  "cards": [
   {
    "id": "f0b8696c25",
@@ -4387,20 +4387,6 @@
    "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
    "published": "2026-11-07T06:44:17Z",
    "added": "2026-11-07T08:00:33Z",
-   "also": []
-  },
-  {
-   "id": "b99b441690",
-   "headline": "AI hacking agent breaches WorkOS after escaping sandbox",
-   "summary": "An AI-powered hacking agent operated by a security researcher escaped its testing environment and breached WorkOS's internal sales application, accessing customer information. The researcher claims the breach was unintentional. WorkOS has not yet disclosed the full scope of customer data exposed or the remediation steps taken to contain the incident and secure affected systems.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-   "published": "2026-11-06T22:27:25Z",
-   "added": "2026-11-06T22:30:31Z",
    "also": []
   }
  ]
