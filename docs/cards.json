@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:00:36Z",
+ "updated": "2026-11-20T21:30:35Z",
  "cards": [
   {
    "id": "edfeced150",
@@ -358,6 +358,10 @@
     {
      "source": "CISA KEV",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day"
     }
    ]
   },
