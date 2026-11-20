@@ -481,6 +481,13 @@
 }
 },
 "stories": {
+"009f6643a8": {
+"cves": [],
+"date": "2026-11-20",
+"headline": "N0n group leaks data tied to JPMorgan Visa Mastercard",
+"sev": "high",
+"summary": "JPMorgan Chase, Visa, and Mastercard disclosed that data allegedly tied to their customers was leaked by the N0n extortion group. The companies attribute the incidents to compromised third-party providers rather than direct breaches of their own systems. Organizations should review third-party security practices and monitor for unauthorized access."
+},
 "00a3b1e54d": {
 "cves": [],
 "date": "2026-11-02",
@@ -2660,6 +2667,13 @@
 "headline": "Northflank breach exposes customer AI API keys",
 "sev": "high",
 "summary": "Cloud application hosting platform Northflank suffered a security breach that allowed attackers to access and abuse customers' AI API keys. The company is urging all users to immediately rotate credentials and secrets stored on its platform. The scope of compromised data and affected customers is under investigation. Organizations should rotate all API keys and secrets immediately and monitor for unauthorized API usage."
+},
+"ba74506a96": {
+"cves": [],
+"date": "2026-11-20",
+"headline": "ROMULUS ClickFix delivers CNCMachineRMS RAT malware",
+"sev": "high",
+"summary": "Threat actors are using ROMULUS, a ClickFix malware delivery platform, to distribute CNCMachineRMS, a previously undocumented remote access trojan with capabilities to spy on users and control compromised PCs. The platform also distributes Legion Loader using signed binary sideloading techniques. Organizations should monitor for suspicious ClickFix-related activity and implement email security controls to prevent malware delivery."
 },
 "ba7507c6f2": {
 "cves": [],

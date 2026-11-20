@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-20T07:30:34Z",
+ "updated": "2026-11-20T08:00:39Z",
  "cards": [
+  {
+   "id": "009f6643a8",
+   "headline": "N0n group leaks data tied to JPMorgan Visa Mastercard",
+   "summary": "JPMorgan Chase, Visa, and Mastercard disclosed that data allegedly tied to their customers was leaked by the N0n extortion group. The companies attribute the incidents to compromised third-party providers rather than direct breaches of their own systems. Organizations should review third-party security practices and monitor for unauthorized access.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+   "published": "2026-11-20T07:35:46Z",
+   "added": "2026-11-20T08:00:38Z",
+   "also": []
+  },
+  {
+   "id": "ba74506a96",
+   "headline": "ROMULUS ClickFix delivers CNCMachineRMS RAT malware",
+   "summary": "Threat actors are using ROMULUS, a ClickFix malware delivery platform, to distribute CNCMachineRMS, a previously undocumented remote access trojan with capabilities to spy on users and control compromised PCs. The platform also distributes Legion Loader using signed binary sideloading techniques. Organizations should monitor for suspicious ClickFix-related activity and implement email security controls to prevent malware delivery.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+   "published": "2026-11-20T07:11:39Z",
+   "added": "2026-11-20T08:00:38Z",
+   "also": []
+  },
   {
    "id": "fa700a4eb8",
    "headline": "Windows FastUnlock zero-day bypasses lock screen",
