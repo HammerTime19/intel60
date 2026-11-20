@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-20T05:30:29Z",
+ "updated": "2026-11-20T06:00:34Z",
  "cards": [
+  {
+   "id": "fa700a4eb8",
+   "headline": "Windows FastUnlock zero-day bypasses lock screen",
+   "summary": "A newly disclosed unpatched zero-day technique called FastUnlock allows an attacker with physical access to a locked Windows computer to execute programs without authentication. The method grants only limited user privileges, not administrator access. Researchers MSNightmare and Nightmare Eclipse disclosed the vulnerability, with ThreatLocker providing endpoint security context. Users should restrict physical access to locked devices and monitor for unauthorized program execution.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+   "published": "2026-11-20T05:30:01Z",
+   "added": "2026-11-20T06:00:33Z",
+   "also": []
+  },
   {
    "id": "df29d71aed",
    "headline": "SBC Medical Group breach exposes 1.6 million people",
@@ -4279,33 +4293,6 @@
    "published": "2026-11-06T09:33:51Z",
    "added": "2026-11-06T10:00:32Z",
    "also": []
-  },
-  {
-   "id": "a382c3d13c",
-   "headline": "Barracuda Email Security Gateway chained flaws enable root access",
-   "summary": "Two vulnerabilities in Barracuda's Email Security Gateway can be chained to grant unauthenticated attackers root-level command execution. CVE-2026-116606, an authorization bypass, allows unauthorized access without login. Barracuda released patches Monday; watchTowr disclosed full attack details Thursday. Organizations running the appliance should apply patches immediately to prevent remote compromise.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-116606"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-   "published": "2026-11-06T05:39:10Z",
-   "added": "2026-11-06T07:30:32Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-116606": {
-     "kev": true,
-     "epss": 0.01602,
-     "pct": 0.76026,
-     "cvss": 9.3,
-     "sev": "critical",
-     "desc": "An authentication bypass in Barracuda Email Security Gateway versions earlier than 9.4.0.030 allows an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration."
-    }
-   },
-   "cve_checked": "2026-11-11T00:06:55Z"
   }
  ]
 }
