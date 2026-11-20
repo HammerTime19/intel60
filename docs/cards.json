@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-20T19:30:33Z",
+ "updated": "2026-11-20T20:00:37Z",
  "cards": [
+  {
+   "id": "edfeced150",
+   "headline": "Container Store restores systems after cyberattack",
+   "summary": "Container Store parent company Neighborhood Intelligence confirmed a cybersecurity incident affecting the retailer over the weekend. Systems and website have been restored to normal operations. No details provided on attack type, data exposure, or extent of disruption. Organizations should monitor for ransom demands or customer data leaks associated with this incident.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/container-store-restores-systems-cyberattack",
+   "published": "2026-11-20T19:32:00Z",
+   "added": "2026-11-20T20:00:37Z",
+   "also": []
+  },
   {
    "id": "6c623452a1",
    "headline": "Bell Canada confirms breach stealing enterprise customer data",

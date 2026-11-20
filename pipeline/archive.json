@@ -3311,6 +3311,13 @@
 "sev": "info",
 "summary": "Coinbase prevented $4.7 million in cryptocurrency transfers to scammers running an Elon Musk deepfake giveaway scam during a Tesla livestream that reached over 500,000 viewers. The AI-generated deepfake was used to fraudulently solicit cryptocurrency from victims. The exchange's fraud detection systems successfully identified and blocked the malicious transfers before completion."
 },
+"edfeced150": {
+"cves": [],
+"date": "2026-11-20",
+"headline": "Container Store restores systems after cyberattack",
+"sev": "high",
+"summary": "Container Store parent company Neighborhood Intelligence confirmed a cybersecurity incident affecting the retailer over the weekend. Systems and website have been restored to normal operations. No details provided on attack type, data exposure, or extent of disruption. Organizations should monitor for ransom demands or customer data leaks associated with this incident."
+},
 "ee9a23761b": {
 "cves": [],
 "date": "2026-11-18",
