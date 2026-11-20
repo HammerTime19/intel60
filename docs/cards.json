@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T09:00:35Z",
+ "updated": "2026-11-20T09:30:34Z",
  "cards": [
   {
    "id": "009f6643a8",
@@ -276,7 +276,12 @@
    "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
    "published": "2026-11-19T09:31:26Z",
    "added": "2026-11-19T10:30:38Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/"
+    }
+   ]
   },
   {
    "id": "7aba46b2e2",
