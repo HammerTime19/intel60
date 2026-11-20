@@ -1,6 +1,25 @@
 {
- "updated": "2026-11-20T17:30:32Z",
+ "updated": "2026-11-20T18:01:06Z",
  "cards": [
+  {
+   "id": "cd038ca0a2",
+   "headline": "China-linked hackers use AI tool Cairn to find zero-day",
+   "summary": "Chinese threat actors exploited the open-source AI penetration-testing framework Cairn to attack two universities and discover an apparent zero-day vulnerability in a medical imaging application. The incident demonstrates adversarial use of autonomous AI tools for vulnerability discovery. Defenders should monitor for Cairn misuse and secure medical imaging applications against AI-assisted reconnaissance.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+   "published": "2026-11-20T17:30:00Z",
+   "added": "2026-11-20T18:00:54Z",
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
+    }
+   ]
+  },
   {
    "id": "9dbbebdeb6",
    "headline": "Bazuka Android malware uses fake overlays for theft",
@@ -144,6 +163,62 @@
    "also": []
   },
   {
+   "id": "5eeea3c7e1",
+   "headline": "Cisco Expressway hard-coded credentials flaw added to KEV",
+   "summary": "CISA added CVE-2026-76466 to its Known Exploited Vulnerabilities catalog. The flaw in Cisco Expressway Series allows unauthenticated remote attackers with persistent cookies to execute commands as root via the database service. Organizations must apply vendor mitigations and comply with CISA BOD 26-04 patching guidance by November 23, 2026. No ransomware use reported yet.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-76466"
+   ],
+   "watch": [
+    "Cisco"
+   ],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+   "published": "2026-11-20T00:00:00Z",
+   "added": "2026-11-20T18:00:54Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-76466": {
+     "kev": true,
+     "epss": 0.00417,
+     "pct": 0.36836,
+     "cvss": 9.8,
+     "sev": "critical",
+     "desc": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as root. This vulnerability is due to the use of persistent cookies. Additionally, there is insufficient validation of client certificates when the TLS Verify Mode is set to Enabled for clustering, which means that client certificates are not validated. An attacker with possession of the cookies could exploit this vulnerability by connecting to the database service and invoking…"
+    }
+   },
+   "cve_checked": "2026-11-20T18:00:57Z"
+  },
+  {
+   "id": "7f0512cdfd",
+   "headline": "SAP NetWeaver JNDI injection flaw added to KEV catalog",
+   "summary": "CISA added CVE-2025-42884 to the Known Exploited Vulnerabilities catalog. The improper neutralization flaw in SAP NetWeaver Enterprise Portal allows unauthenticated attackers to disclose or modify server information via injected JNDI environment properties. Organizations must apply vendor mitigations and comply with BOD 26-04 guidance by November 23, 2026. No ransomware exploitation reported.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2025-42884"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
+   "published": "2026-11-20T00:00:00Z",
+   "added": "2026-11-20T18:00:54Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2025-42884": {
+     "kev": true,
+     "epss": 0.00276,
+     "pct": 0.2048,
+     "cvss": 6.5,
+     "sev": "medium",
+     "desc": "SAP NetWeaver Enterprise Portal allows an unauthenticated attacker to inject JNDI environment properties or pass a URL used during JNDI lookup operations, enabling access to an unintended JNDI provider.�This could further lead to disclosure or modification of information about the server. There is no impact on availability."
+    }
+   },
+   "cve_checked": "2026-11-20T18:01:04Z"
+  },
+  {
    "id": "df29d71aed",
    "headline": "SBC Medical Group breach exposes 1.6 million people",
    "summary": "SBC Medical Group disclosed two cybersecurity incidents that exposed sensitive customer and employee information affecting 1.6 million people. The company filed notice with the U.S. Securities and Exchange Commission. No details were provided on the nature of the incidents, attackers' identities, or what specific data was compromised. Healthcare organizations should review access logs and monitor for identity theft or fraud among affected individuals.",
@@ -251,6 +326,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
     }
    ]
   },
@@ -306,7 +385,12 @@
    "url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
    "published": "2026-11-19T12:13:24Z",
    "added": "2026-11-19T12:30:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+    }
+   ]
   },
   {
    "id": "193208e890",

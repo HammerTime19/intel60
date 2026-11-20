@@ -33,6 +33,16 @@
 "kev": true,
 "sev": "critical"
 },
+"CVE-2025-42884": {
+"cvss": 6.5,
+"date": "2026-11-20",
+"desc": "SAP NetWeaver Enterprise Portal allows an unauthenticated attacker to inject JNDI environment properties or pass a URL used during JNDI lookup operations, enabling access to an unintended JNDI provider.�This could further lead to disclosure or modification of information about the server. There is no impact on availability.",
+"due": "2026-11-23",
+"epss": 0.00276,
+"kev": true,
+"name": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+"sev": "medium"
+},
 "CVE-2026-101767": {
 "cvss": 9.8,
 "date": "2026-10-28",
@@ -431,6 +441,16 @@
 "kev": true,
 "name": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
 "sev": "high"
+},
+"CVE-2026-76466": {
+"cvss": 9.8,
+"date": "2026-11-20",
+"desc": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as root. This vulnerability is due to the use of persistent cookies. Additionally, there is insufficient validation of client certificates when the TLS Verify Mode is set to Enabled for clustering, which means that client certificates are not validated. An attacker with possession of the cookies could exploit this vulnerability by connecting to the database service and invoking…",
+"due": "2026-11-23",
+"epss": 0.00417,
+"kev": true,
+"name": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+"sev": "critical"
 },
 "CVE-2026-81648": {
 "cvss": 10.0,
@@ -1559,6 +1579,15 @@
 "sev": "critical",
 "summary": "Over 22.6 million instances running PHP are exposed to critical flaws actively exploited in PHP2Shell attacks targeting Palo Alto Networks firewalls. The campaign has been ongoing for more than a week. Attacks successfully compromise Palo Alto firewalls but fail against WordPress targets. Organizations using affected PHP versions should apply security patches immediately and monitor for unauthorized access."
 },
+"5eeea3c7e1": {
+"cves": [
+"CVE-2026-76466"
+],
+"date": "2026-11-20",
+"headline": "Cisco Expressway hard-coded credentials flaw added to KEV",
+"sev": "critical",
+"summary": "CISA added CVE-2026-76466 to its Known Exploited Vulnerabilities catalog. The flaw in Cisco Expressway Series allows unauthenticated remote attackers with persistent cookies to execute commands as root via the database service. Organizations must apply vendor mitigations and comply with CISA BOD 26-04 patching guidance by November 23, 2026. No ransomware use reported yet."
+},
 "60ccd3ca4d": {
 "cves": [],
 "date": "2026-11-11",
@@ -2009,6 +2038,15 @@
 "headline": "US Treasury bans MEXC crypto exchange for sanctions evasion",
 "sev": "info",
 "summary": "The US Department of the Treasury has severed MEXC Global's access to the US financial system, citing sanctions evasion and connections to cybercrime organizations. The exchange's use by bad actors for money laundering and financing illegal activities prompted the enforcement action. Crypto traders using MEXC should migrate assets and accounts to compliant platforms to avoid being locked out of USD transactions."
+},
+"7f0512cdfd": {
+"cves": [
+"CVE-2025-42884"
+],
+"date": "2026-11-20",
+"headline": "SAP NetWeaver JNDI injection flaw added to KEV catalog",
+"sev": "critical",
+"summary": "CISA added CVE-2025-42884 to the Known Exploited Vulnerabilities catalog. The improper neutralization flaw in SAP NetWeaver Enterprise Portal allows unauthenticated attackers to disclose or modify server information via injected JNDI environment properties. Organizations must apply vendor mitigations and comply with BOD 26-04 guidance by November 23, 2026. No ransomware exploitation reported."
 },
 "7f241c94ac": {
 "cves": [],
@@ -2856,6 +2894,13 @@
 "headline": "3AM ransomware affiliate uses AI to automate school attacks",
 "sev": "high",
 "summary": "The 3AM ransomware affiliate group has integrated AI-like automation into its European school attacks, using machine learning models to generate and revise malicious commands during breaches. Researchers identified evidence of AI-driven loop logic in attack sequences, though full automation remains unconfirmed. Schools should strengthen endpoint detection and review recent breach logs for automated command patterns."
+},
+"cd038ca0a2": {
+"cves": [],
+"date": "2026-11-20",
+"headline": "China-linked hackers use AI tool Cairn to find zero-day",
+"sev": "high",
+"summary": "Chinese threat actors exploited the open-source AI penetration-testing framework Cairn to attack two universities and discover an apparent zero-day vulnerability in a medical imaging application. The incident demonstrates adversarial use of autonomous AI tools for vulnerability discovery. Defenders should monitor for Cairn misuse and secure medical imaging applications against AI-assisted reconnaissance."
 },
 "cd96a1792e": {
 "cves": [],
