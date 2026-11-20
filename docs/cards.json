@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T16:30:39Z",
+ "updated": "2026-11-20T17:00:36Z",
  "cards": [
   {
    "id": "b3099b7219",
@@ -4328,25 +4328,6 @@
    "published": "2026-11-06T17:04:23Z",
    "added": "2026-11-06T17:30:35Z",
    "also": []
-  },
-  {
-   "id": "88525575b6",
-   "headline": "FBI agent pleads guilty to stealing $2.4M crypto",
-   "summary": "Patrick Steven Yaroch, a 37-year-old FBI agent, admitted to stealing over $2.4 million in cryptocurrency from nation-state hackers using his position on an investigative squad to cover personal debts. He faces up to 20 years in prison on wire fraud and money laundering charges. The case highlights internal security risks within federal law enforcement agencies.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
-   "published": "2026-11-06T16:53:00Z",
-   "added": "2026-11-06T17:30:35Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/"
-    }
-   ]
   }
  ]
 }
