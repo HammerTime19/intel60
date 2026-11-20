@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-20T10:30:43Z",
+ "updated": "2026-11-20T11:00:42Z",
  "cards": [
+  {
+   "id": "2be32b97a1",
+   "headline": "European Commission suffers AI-assisted cyberattack",
+   "summary": "The European Commission experienced a cyberattack leveraging AI assistance that disrupted services, prompting the organization to take affected services offline as a containment measure. No evidence of data breach has been found. The incident highlights evolving threats using artificial intelligence in attack operations.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+   "published": "2026-11-20T10:51:42Z",
+   "added": "2026-11-20T11:00:40Z",
+   "also": []
+  },
   {
    "id": "009f6643a8",
    "headline": "N0n group leaks data tied to JPMorgan Visa Mastercard",
@@ -314,7 +328,12 @@
    "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
    "published": "2026-11-19T08:42:11Z",
    "added": "2026-11-19T09:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/"
+    }
+   ]
   },
   {
    "id": "3d3c584590",
@@ -515,7 +534,12 @@
    "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
    "published": "2026-11-18T18:15:39Z",
    "added": "2026-11-18T19:30:51Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/"
+    }
+   ]
   },
   {
    "id": "9611180895",

@@ -945,6 +945,13 @@
 "sev": "high",
 "summary": "Poland's ePUAP nationwide government services platform was taken offline following a cyberattack. The system allows citizens to submit official documents, communicate with agencies, and complete administrative procedures online. No details on attacker identity or data breach scope were disclosed. The impact on government operations and citizen services remains unclear."
 },
+"2be32b97a1": {
+"cves": [],
+"date": "2026-11-20",
+"headline": "European Commission suffers AI-assisted cyberattack",
+"sev": "high",
+"summary": "The European Commission experienced a cyberattack leveraging AI assistance that disrupted services, prompting the organization to take affected services offline as a containment measure. No evidence of data breach has been found. The incident highlights evolving threats using artificial intelligence in attack operations."
+},
 "2dacffdc48": {
 "cves": [],
 "date": "2026-11-05",
