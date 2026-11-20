@@ -39,7 +39,7 @@
 "desc": "SAP NetWeaver Enterprise Portal allows an unauthenticated attacker to inject JNDI environment properties or pass a URL used during JNDI lookup operations, enabling access to an unintended JNDI provider.�This could further lead to disclosure or modification of information about the server. There is no impact on availability.",
 "due": "2026-11-23",
 "epss": 0.00276,
-"kev": true,
+"kev": false,
 "name": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
 "sev": "medium"
 },
@@ -448,7 +448,7 @@
 "desc": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as root. This vulnerability is due to the use of persistent cookies. Additionally, there is insufficient validation of client certificates when the TLS Verify Mode is set to Enabled for clustering, which means that client certificates are not validated. An attacker with possession of the cookies could exploit this vulnerability by connecting to the database service and invoking…",
 "due": "2026-11-23",
 "epss": 0.00417,
-"kev": true,
+"kev": false,
 "name": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
 "sev": "critical"
 },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:01:06Z",
+ "updated": "2026-11-20T18:30:29Z",
  "cards": [
   {
    "id": "cd038ca0a2",
@@ -181,7 +181,7 @@
    "also": [],
    "cve_info": {
     "CVE-2026-76466": {
-     "kev": true,
+     "kev": false,
      "epss": 0.00417,
      "pct": 0.36836,
      "cvss": 9.8,
@@ -208,7 +208,7 @@
    "also": [],
    "cve_info": {
     "CVE-2025-42884": {
-     "kev": true,
+     "kev": false,
      "epss": 0.00276,
      "pct": 0.2048,
      "cvss": 6.5,
@@ -4382,34 +4382,6 @@
    "source": "BleepingComputer",
    "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
    "published": "2026-11-06T18:46:52Z",
-   "added": "2026-11-06T19:00:40Z",
-   "also": []
-  },
-  {
-   "id": "d9a0f8bfa3",
-   "headline": "Japan launches emergency cybersecurity package after attack wave",
-   "summary": "Japan announced an emergency cybersecurity package following a wave of attacks targeting dozens of companies and government agencies. The incidents involved unauthorized access to systems and leaks of client data, creating widespread concern across the country. Details on affected sectors and the nature of attacks remain limited; organizations should monitor for broader attribution and coordinated campaign indicators.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
-   "published": "2026-11-06T18:28:41Z",
-   "added": "2026-11-06T19:00:40Z",
-   "also": []
-  },
-  {
-   "id": "3c3dad9eec",
-   "headline": "AI training on security records creates enterprise data risks",
-   "summary": "Vendors are increasingly using enterprise security records and incident archives to train their AI models, potentially exposing sensitive information. This practice creates risks for organizations that store detailed breach logs, forensic data, and security incidents in vendor systems. Enterprises should review data retention policies and vendor agreements to limit what historical security records are used for model training.",
-   "severity": "high",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
-   "published": "2026-11-06T18:27:30Z",
    "added": "2026-11-06T19:00:40Z",
    "also": []
   }
