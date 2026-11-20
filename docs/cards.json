@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T23:45:15Z",
+ "updated": "2026-11-20T00:00:36Z",
  "cards": [
   {
    "id": "df29d71aed",
@@ -4339,48 +4339,6 @@
      "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html"
     }
    ]
-  },
-  {
-   "id": "7340dbad9c",
-   "headline": "SonicWall SonicOS SSLVPN auth bypass added to CISA KEV",
-   "summary": "SonicWall SonicOS SSLVPN contains a single-factor authentication flaw allowing users with valid alternate credentials to bypass SAML authentication and MFA controls. The vulnerability is now tracked in CISA's Known Exploited Vulnerabilities catalog. Organizations must apply vendor mitigations or discontinue use of the product per BOD 26-04 guidance. Federal agencies have until November 20, 2026 to patch.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-19868"
-   ],
-   "watch": [
-    "SonicWall"
-   ],
-   "source": "CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
-   "published": "2026-11-06T00:00:00Z",
-   "added": "2026-11-06T20:30:30Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-19868": {
-     "kev": true,
-     "cvss": 7.5,
-     "sev": "high",
-     "epss": 0.00532,
-     "pct": 0.45297,
-     "desc": "An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA)."
-    }
-   },
-   "cve_checked": "2026-11-11T00:07:02Z"
   }
  ]
 }
