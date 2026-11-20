@@ -2601,6 +2601,13 @@
 "sev": "high",
 "summary": "A patched vulnerability in Apple's audio service allowed iPhone and iPad apps to record audio even when users denied microphone permissions. The flaw was fixed in security updates released August 17 and disclosed by Meta Red Team X researcher Nik Tsytsarkin. No reports indicate the vulnerability was exploited in attacks. Users should ensure their devices are updated to the latest iOS and iPadOS versions."
 },
+"b6dced9e8b": {
+"cves": [],
+"date": "2026-11-20",
+"headline": "SonicWall Gen 6 firewalls receive no more security patches",
+"sev": "high",
+"summary": "SonicWall has ended security support for Generation 6 firewalls and urges customers to retire and replace them immediately. The devices will no longer receive patches even for critical vulnerabilities. With AI-assisted attacks accelerating exploitation of unsupported edge devices, internet-facing Gen 6 firewalls face imminent active targeting. Organizations must decommission these devices or accept elevated security risk."
+},
 "b80a24c893": {
 "cves": [],
 "date": "2026-11-11",

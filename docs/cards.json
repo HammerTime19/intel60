@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T11:00:42Z",
+ "updated": "2026-11-20T11:30:36Z",
  "cards": [
   {
    "id": "2be32b97a1",
@@ -13,6 +13,22 @@
    "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
    "published": "2026-11-20T10:51:42Z",
    "added": "2026-11-20T11:00:40Z",
+   "also": []
+  },
+  {
+   "id": "b6dced9e8b",
+   "headline": "SonicWall Gen 6 firewalls receive no more security patches",
+   "summary": "SonicWall has ended security support for Generation 6 firewalls and urges customers to retire and replace them immediately. The devices will no longer receive patches even for critical vulnerabilities. With AI-assisted attacks accelerating exploitation of unsupported edge devices, internet-facing Gen 6 firewalls face imminent active targeting. Organizations must decommission these devices or accept elevated security risk.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [
+    "SonicWall"
+   ],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+   "published": "2026-11-20T10:38:22Z",
+   "added": "2026-11-20T11:30:35Z",
    "also": []
   },
   {
@@ -177,7 +193,12 @@
    "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
    "published": "2026-11-19T13:12:20Z",
    "added": "2026-11-19T13:30:37Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+    }
+   ]
   },
   {
    "id": "df5a560c1b",
