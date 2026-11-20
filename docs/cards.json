@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-20T17:00:36Z",
+ "updated": "2026-11-20T17:30:32Z",
  "cards": [
+  {
+   "id": "9dbbebdeb6",
+   "headline": "Bazuka Android malware uses fake overlays for theft",
+   "summary": "Bazuka is a previously unknown Android malware framework discovered by ThreatFabric in October 2026. The malware uses fake screen overlays to hide credential theft and device control capabilities, and integrates large language models for scaled victim management. Mobile device users should enable two-factor authentication, avoid untrusted app sources, and keep devices patched.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+   "published": "2026-11-20T16:58:16Z",
+   "added": "2026-11-20T17:30:32Z",
+   "also": []
+  },
   {
    "id": "b3099b7219",
    "headline": "WhatsApp fixes flaw used in scam disruption",
@@ -4313,20 +4327,6 @@
    "url": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
    "published": "2026-11-06T18:27:30Z",
    "added": "2026-11-06T19:00:40Z",
-   "also": []
-  },
-  {
-   "id": "c4daeac5c9",
-   "headline": "QNAP NAS devices compromised via Plex2Shell attacks",
-   "summary": "QNAP is warning users of active exploitation targeting NAS devices through the Plex2Shell vulnerability chain affecting Plex Media Server. Attackers are breaching QNAP devices by exploiting this flaw. Users must immediately update Plex Media Server to the latest version available in the QNAP App Center to remediate the vulnerability and prevent unauthorized access.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-   "published": "2026-11-06T17:04:23Z",
-   "added": "2026-11-06T17:30:35Z",
    "also": []
   }
  ]

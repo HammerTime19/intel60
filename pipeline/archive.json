@@ -2388,6 +2388,13 @@
 "sev": "high",
 "summary": "Hackers compromised a third-party services provider used by Uber and stole personal data from 150,000 people, including names, addresses, and driver's license numbers. The breach was confirmed by Uber, which notified affected individuals. The incident highlights risks from supply chain dependencies in ride-sharing operations. Users should monitor accounts for suspicious activity and consider fraud monitoring services."
 },
+"9dbbebdeb6": {
+"cves": [],
+"date": "2026-11-20",
+"headline": "Bazuka Android malware uses fake overlays for theft",
+"sev": "high",
+"summary": "Bazuka is a previously unknown Android malware framework discovered by ThreatFabric in October 2026. The malware uses fake screen overlays to hide credential theft and device control capabilities, and integrates large language models for scaled victim management. Mobile device users should enable two-factor authentication, avoid untrusted app sources, and keep devices patched."
+},
 "9dcdf8c175": {
 "cves": [],
 "date": "2026-10-30",
