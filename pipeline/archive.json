@@ -1368,6 +1368,13 @@
 "sev": "high",
 "summary": "Security researchers detected residential proxy nodes beaconing from White House networks (AS2650) between October and November. Multiple Windows 11 installations of Infatica, a proxy service often bundled with free applications, were found running. The malware rents out the infected devices' IP addresses to third parties. Infatica's Russian founder previously operated hosting infrastructure used in 2016 election system cyberattacks. Organizations should audit employee devices for unauthorized proxy services and enforce application security policies."
 },
+"4b6021947b": {
+"cves": [],
+"date": "2026-11-21",
+"headline": "BADBOX 3.0 botnet resurges with 40 billion daily ad requests",
+"sev": "high",
+"summary": "BADBOX malware infecting generic Android TV boxes has returned to large-scale ad-fraud operations following disruptions from last year. The botnet generates fraudulent advertising impressions at massive scale, compromising affected devices and generating revenue through fake traffic. Users should update Android TV box firmware and consider factory resets on suspicious devices. Security researchers monitoring the campaign report unprecedented volumes."
+},
 "4bf9426962": {
 "cves": [],
 "date": "2026-10-30",

@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-21T15:00:34Z",
+ "updated": "2026-11-21T15:30:31Z",
  "cards": [
+  {
+   "id": "4b6021947b",
+   "headline": "BADBOX 3.0 botnet resurges with 40 billion daily ad requests",
+   "summary": "BADBOX malware infecting generic Android TV boxes has returned to large-scale ad-fraud operations following disruptions from last year. The botnet generates fraudulent advertising impressions at massive scale, compromising affected devices and generating revenue through fake traffic. Users should update Android TV box firmware and consider factory resets on suspicious devices. Security researchers monitoring the campaign report unprecedented volumes.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+   "published": "2026-11-21T15:17:27Z",
+   "added": "2026-11-21T15:30:31Z",
+   "also": []
+  },
   {
    "id": "efef5bd50b",
    "headline": "FBI National Crime Information Center breached again",
