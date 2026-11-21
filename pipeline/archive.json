@@ -2498,6 +2498,13 @@
 "sev": "high",
 "summary": "Four previously hidden vulnerabilities were discovered and patched in EPICS Base control software used at particle accelerators and fusion research facilities. An autonomous system identified the flaws, which could allow attackers to crash critical processes. Patch deployment recommended for all affected research infrastructure."
 },
+"9f2af01a2a": {
+"cves": [],
+"date": "2026-11-21",
+"headline": "Rackspace Spot breach exposes customer Kubernetes secrets",
+"sev": "critical",
+"summary": "Rackspace Spot cloud platform was breached via compromised credentials, allowing attackers to deploy unauthorized workloads and access Kubernetes secrets stored in customer clusters. The scope of affected customers and data remains under investigation. Organizations using Rackspace Spot should audit cluster access logs, rotate Kubernetes credentials, and review container deployments for unauthorized activity."
+},
 "9f639cd353": {
 "cves": [],
 "date": "2026-11-18",

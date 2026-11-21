@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-21T22:30:29Z",
+ "updated": "2026-11-21T23:00:38Z",
  "cards": [
+  {
+   "id": "9f2af01a2a",
+   "headline": "Rackspace Spot breach exposes customer Kubernetes secrets",
+   "summary": "Rackspace Spot cloud platform was breached via compromised credentials, allowing attackers to deploy unauthorized workloads and access Kubernetes secrets stored in customer clusters. The scope of affected customers and data remains under investigation. Organizations using Rackspace Spot should audit cluster access logs, rotate Kubernetes credentials, and review container deployments for unauthorized activity.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+   "published": "2026-11-21T22:59:58Z",
+   "added": "2026-11-21T23:00:37Z",
+   "also": []
+  },
   {
    "id": "1e1dbef95d",
    "headline": "Microsoft Entra Connect Health breached via vulnerability exploit",
