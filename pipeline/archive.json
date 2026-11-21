@@ -2295,6 +2295,13 @@
 "sev": "critical",
 "summary": "Russian cyberespionage group Turla has deployed a new modular toolset called 'Cereal' to target government Exchange servers in Kazakhstan and Romania. The malware exploits legitimate Microsoft Exchange, Windows, and .NET functions to silently pilfer emails. Notably, it repurposes compromised Exchange servers as command-and-control infrastructure, avoiding external C&C detection. Organizations running Exchange servers should review access logs and implement email security monitoring."
 },
+"93138fbb4d": {
+"cves": [],
+"date": "2026-11-21",
+"headline": "RansomwareHelp CTO indicted for wire fraud scheme",
+"sev": "info",
+"summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six-year-old Florida company claiming to decrypt ransomware-locked data, has been charged with wire fraud. An FBI sting found the company was simply buying decryption keys from attackers and charging victims a markup for work never performed, contradicting its claims of proprietary cryptographic recovery methods."
+},
 "948be6f589": {
 "cves": [],
 "date": "2026-11-02",

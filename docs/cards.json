@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-21T00:30:28Z",
+ "updated": "2026-11-21T01:00:47Z",
  "cards": [
+  {
+   "id": "93138fbb4d",
+   "headline": "RansomwareHelp CTO indicted for wire fraud scheme",
+   "summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six-year-old Florida company claiming to decrypt ransomware-locked data, has been charged with wire fraud. An FBI sting found the company was simply buying decryption keys from attackers and charging victims a markup for work never performed, contradicting its claims of proprietary cryptographic recovery methods.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Krebs on Security",
+   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "published": "2026-11-21T00:36:39Z",
+   "added": "2026-11-21T01:00:47Z",
+   "also": []
+  },
   {
    "id": "f0b8696c25",
    "headline": "West Virginia Legislature hit with cyber incident",
