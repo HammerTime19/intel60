@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-21T12:00:34Z",
+ "updated": "2026-11-21T12:30:34Z",
  "cards": [
+  {
+   "id": "0ad755f268",
+   "headline": "Malicious webpage hijacks Meta Muse private chats",
+   "summary": "A malicious webpage could extract private conversations and memories from Meta Muse users without approval prompts, researchers demonstrated in a lab environment. The same attack could potentially access stored credentials for connected accounts. No real-world exploitation has been reported. Meta Muse users should avoid clicking suspicious links and review connected app permissions.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+   "published": "2026-11-21T11:53:07Z",
+   "added": "2026-11-21T12:30:33Z",
+   "also": []
+  },
   {
    "id": "761885e6c0",
    "headline": "GPGME critical flaw exposes app data via malicious keys",
@@ -101,6 +115,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/"
     }
    ]
   },
