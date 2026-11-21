@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-21T18:00:32Z",
+ "updated": "2026-11-21T18:30:35Z",
  "cards": [
+  {
+   "id": "1e1dbef95d",
+   "headline": "Microsoft Entra Connect Health breached via vulnerability exploit",
+   "summary": "Microsoft's Entra Connect Health service was exploited by attackers to access administrator email addresses and tenant configuration information from multiple organizations. The flaw allowed unauthorized access to sensitive data. Organizations using Entra Connect Health should review access logs, reset credentials for affected accounts, and apply patches when available. Microsoft has not disclosed CVE details or remediation timeline.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "Entra"
+   ],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+   "published": "2026-11-21T18:01:58Z",
+   "added": "2026-11-21T18:30:34Z",
+   "also": []
+  },
   {
    "id": "4b6021947b",
    "headline": "BADBOX 3.0 botnet resurges with 40 billion daily ad requests",

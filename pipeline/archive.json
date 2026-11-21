@@ -822,6 +822,13 @@
 "sev": "high",
 "summary": "Japan's RIKEN Center for Computational Science took its Fugaku supercomputer offline following a security breach. Fugaku is one of the world's most powerful supercomputers used for computational research. The nature of the breach and affected data remain unclear pending investigation. Organizations should monitor for any public disclosures about compromised research data."
 },
+"1e1dbef95d": {
+"cves": [],
+"date": "2026-11-21",
+"headline": "Microsoft Entra Connect Health breached via vulnerability exploit",
+"sev": "critical",
+"summary": "Microsoft's Entra Connect Health service was exploited by attackers to access administrator email addresses and tenant configuration information from multiple organizations. The flaw allowed unauthorized access to sensitive data. Organizations using Entra Connect Health should review access logs, reset credentials for affected accounts, and apply patches when available. Microsoft has not disclosed CVE details or remediation timeline."
+},
 "1ef65dbe39": {
 "cves": [],
 "date": "2026-11-17",
