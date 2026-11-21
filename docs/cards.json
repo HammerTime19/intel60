@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-21T14:00:31Z",
+ "updated": "2026-11-21T14:30:33Z",
  "cards": [
+  {
+   "id": "efef5bd50b",
+   "headline": "FBI National Crime Information Center breached again",
+   "summary": "The FBI's National Crime Information Center (NCIC), a database used by local, state, and federal law enforcement to share critical information, has been breached in the second incident affecting FBI systems in two months. NCIC is a vital infrastructure resource that impacts law enforcement operations nationwide. The scope of compromised data and attribution are still under investigation. Organizations should monitor for law enforcement-related threat activity and prepare incident response procedures.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+   "published": "2026-11-21T14:26:04Z",
+   "added": "2026-11-21T14:30:32Z",
+   "also": []
+  },
   {
    "id": "0ad755f268",
    "headline": "Malicious webpage hijacks Meta Muse private chats",

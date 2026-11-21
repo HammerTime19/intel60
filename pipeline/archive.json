@@ -3362,6 +3362,13 @@
 "sev": "critical",
 "summary": "Ruby released fixes for seven memory-safety vulnerabilities in its regular expression engine and string case-conversion code. Five of the flaws have public proof-of-concept exploits demonstrating remote code execution via crafted input. Ruby maintainers confirmed awareness of working RCE exploits. Applications using affected Ruby versions should update immediately to mitigate exploitation risk."
 },
+"efef5bd50b": {
+"cves": [],
+"date": "2026-11-21",
+"headline": "FBI National Crime Information Center breached again",
+"sev": "critical",
+"summary": "The FBI's National Crime Information Center (NCIC), a database used by local, state, and federal law enforcement to share critical information, has been breached in the second incident affecting FBI systems in two months. NCIC is a vital infrastructure resource that impacts law enforcement operations nationwide. The scope of compromised data and attribution are still under investigation. Organizations should monitor for law enforcement-related threat activity and prepare incident response procedures."
+},
 "f00273d9e0": {
 "cves": [],
 "date": "2026-11-10",
