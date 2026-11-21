@@ -345,6 +345,10 @@
 "kev": false,
 "sev": "critical"
 },
+"CVE-2026-129975": {
+"date": "2026-11-21",
+"kev": false
+},
 "CVE-2026-19868": {
 "cvss": 7.5,
 "date": "2026-11-06",
@@ -1833,6 +1837,15 @@
 "headline": "TPM lockout bypass cracks Windows Hello BitLocker PINs",
 "sev": "high",
 "summary": "Researchers at Technische Universität Berlin discovered that TPM lockout protection for Windows Hello and BitLocker PINs on AMD and some Intel PCs can be reset by physically opening the case. In lab tests, attackers successfully cracked a four-digit Hello PIN and a six-digit BitLocker PIN within days. Users should use longer PINs and ensure physical device security."
+},
+"761885e6c0": {
+"cves": [
+"CVE-2026-129975"
+],
+"date": "2026-11-21",
+"headline": "GPGME critical flaw exposes app data via malicious keys",
+"sev": "critical",
+"summary": "A critical memory bug in GPGME, GnuPG's standard library used by many applications, can be triggered by malicious OpenPGP keys with unusually long user IDs. The flaw (CVE-2026-129975) affects GPGME before version 2.3.0 and could allow attackers to steal data from affected applications. GnuPG has released patched versions. Applications using GPGME should update immediately."
 },
 "76496683be": {
 "cves": [],

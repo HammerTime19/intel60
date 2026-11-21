@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-21T11:00:33Z",
+ "updated": "2026-11-21T11:30:33Z",
  "cards": [
+  {
+   "id": "761885e6c0",
+   "headline": "GPGME critical flaw exposes app data via malicious keys",
+   "summary": "A critical memory bug in GPGME, GnuPG's standard library used by many applications, can be triggered by malicious OpenPGP keys with unusually long user IDs. The flaw (CVE-2026-129975) affects GPGME before version 2.3.0 and could allow attackers to steal data from affected applications. GnuPG has released patched versions. Applications using GPGME should update immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-129975"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+   "published": "2026-11-21T11:05:53Z",
+   "added": "2026-11-21T11:30:31Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-129975": {
+     "kev": false,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-11-21T11:30:32Z"
+  },
   {
    "id": "93138fbb4d",
    "headline": "RansomwareHelp CTO indicted for wire fraud scheme",
@@ -73,6 +97,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
     }
    ]
   },
