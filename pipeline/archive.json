@@ -609,6 +609,13 @@
 "sev": "critical",
 "summary": "CISA added two previously zero-day Ivanti Connect Secure vulnerabilities, CVE-2026-111357 and CVE-2026-118527, to its Known Exploited Vulnerabilities catalog. These flaws were exploited in chained attacks against VPN deployments. Organizations using Ivanti Connect Secure should prioritize patching these flaws and review VPN access logs for signs of compromise."
 },
+"0be8ff22df": {
+"cves": [],
+"date": "2026-11-22",
+"headline": "Ghostscript sandbox-escape RCE via file uploads patched",
+"sev": "high",
+"summary": "A patched flaw in Ghostscript, used by Linux servers to process uploaded PDFs and images, allowed attackers to escape the security sandbox and execute commands. The vulnerability affects systems processing user-submitted files across popular applications. Organizations running Ghostscript should apply available patches immediately."
+},
 "0c134491b8": {
 "cves": [
 "CVE-2026-111793"
@@ -1892,6 +1899,13 @@
 "headline": "Linux TCP RCE flaw patched by Red Hat, Ubuntu testing",
 "sev": "critical",
 "summary": "Red Hat has released fixes for CVE-2026-98432, a critical use-after-free vulnerability in the Linux kernel's IPv4 TCP code affecting RHEL 8, 9, and 10. The flaw allows unauthenticated remote attackers to execute code. Ubuntu has fixes in its testing channel but no general release date yet. Administrators should prioritize updating Red Hat systems immediately; Ubuntu users should track testing updates closely."
+},
+"78074d39df": {
+"cves": [],
+"date": "2026-11-22",
+"headline": "AI providers breached, months of prompts stolen undetected",
+"sev": "high",
+"summary": "Researchers discovered attackers stole data from three AI inference providers for months without detection, including prompts marked for zero data retention. OpenRouter, an AI request gateway, dropped the three affected providers. The breach highlights security gaps in AI infrastructure and the need for better monitoring and incident detection at hosting firms."
 },
 "7881f7cab7": {
 "cves": [],

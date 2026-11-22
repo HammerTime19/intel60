@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-22T06:00:37Z",
+ "updated": "2026-11-22T06:30:26Z",
  "cards": [
+  {
+   "id": "78074d39df",
+   "headline": "AI providers breached, months of prompts stolen undetected",
+   "summary": "Researchers discovered attackers stole data from three AI inference providers for months without detection, including prompts marked for zero data retention. OpenRouter, an AI request gateway, dropped the three affected providers. The breach highlights security gaps in AI infrastructure and the need for better monitoring and incident detection at hosting firms.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "published": "2026-11-22T05:06:55Z",
+   "added": "2026-11-22T06:30:25Z",
+   "also": []
+  },
+  {
+   "id": "0be8ff22df",
+   "headline": "Ghostscript sandbox-escape RCE via file uploads patched",
+   "summary": "A patched flaw in Ghostscript, used by Linux servers to process uploaded PDFs and images, allowed attackers to escape the security sandbox and execute commands. The vulnerability affects systems processing user-submitted files across popular applications. Organizations running Ghostscript should apply available patches immediately.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+   "published": "2026-11-22T05:03:41Z",
+   "added": "2026-11-22T06:30:25Z",
+   "also": []
+  },
   {
    "id": "9f2af01a2a",
    "headline": "Rackspace Spot breach exposes customer Kubernetes secrets",
