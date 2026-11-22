@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-22T18:30:28Z",
+ "updated": "2026-11-22T19:00:36Z",
  "cards": [
+  {
+   "id": "e84afceb00",
+   "headline": "GL.iNet cloud flaw exploited to backdoor routers, KVM",
+   "summary": "Hackers exploited a vulnerability in GL.iNet's cloud remote management services to install malware on customers' routers and KVM devices. Affected users discovered backdoors and reverse shells providing attackers remote access to their infrastructure. The vulnerability has been confirmed by GL.iNet. Customers should immediately audit their devices, check for unauthorized access, and apply available patches to secure their systems against active exploitation.",
+   "severity": "critical",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "published": "2026-11-22T18:45:37Z",
+   "added": "2026-11-22T19:00:36Z",
+   "also": []
+  },
   {
    "id": "855a50efe0",
    "headline": "Cleverbridge breach exposes customer payment card data",
@@ -142,7 +156,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-22T12:30:33Z"
+   "cve_checked": "2026-11-22T19:00:36Z"
   },
   {
    "id": "93138fbb4d",

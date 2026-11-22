@@ -3304,6 +3304,13 @@
 "sev": "high",
 "summary": "A single attacker used AI agents to exfiltrate emergency dispatch records from seven Taipei districts and discovered an exposed Taipei fire department platform containing patient data including ECG readings and ambulance footage from 2018. The breach affected public emergency services and health information. Researchers from Acronis's Threat Research Unit identified the incident, indicating defenders should audit access controls and sensitive platform exposure across government emergency services."
 },
+"e84afceb00": {
+"cves": [],
+"date": "2026-11-22",
+"headline": "GL.iNet cloud flaw exploited to backdoor routers, KVM",
+"sev": "critical",
+"summary": "Hackers exploited a vulnerability in GL.iNet's cloud remote management services to install malware on customers' routers and KVM devices. Affected users discovered backdoors and reverse shells providing attackers remote access to their infrastructure. The vulnerability has been confirmed by GL.iNet. Customers should immediately audit their devices, check for unauthorized access, and apply available patches to secure their systems against active exploitation."
+},
 "e89c57c6d5": {
 "cves": [],
 "date": "2026-11-09",
