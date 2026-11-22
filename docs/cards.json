@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T00:30:28Z",
+ "updated": "2026-11-22T01:00:37Z",
  "cards": [
   {
    "id": "9f2af01a2a",
@@ -57,7 +57,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
    "published": "2026-11-21T14:26:04Z",
    "added": "2026-11-21T14:30:32Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/"
+    }
+   ]
   },
   {
    "id": "0ad755f268",
