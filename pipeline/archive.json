@@ -2222,6 +2222,13 @@
 "sev": "high",
 "summary": "Fashion retailer Resolve disclosed a breach exposing customer payment card information. The company targets Millennial and Generation Z consumers. No details were provided about the number of affected cardholders, breach timeline, or attribution. Customers should monitor accounts for unauthorized charges and consider payment card replacement."
 },
+"855a50efe0": {
+"cves": [],
+"date": "2026-11-22",
+"headline": "Cleverbridge breach exposes customer payment card data",
+"sev": "high",
+"summary": "E-commerce platform Cleverbridge disclosed a data breach affecting customer payment systems. Attackers stole credit card numbers and CVV security codes from compromised systems. The breach exposed sensitive financial information used by customers for transactions. Organizations using Cleverbridge should monitor payment card activity for fraud and consider reissuing affected cards to customers as a preventive measure."
+},
 "8694430c3b": {
 "cves": [],
 "date": "2026-11-06",

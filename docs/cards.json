@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-22T15:30:33Z",
+ "updated": "2026-11-22T16:00:35Z",
  "cards": [
+  {
+   "id": "855a50efe0",
+   "headline": "Cleverbridge breach exposes customer payment card data",
+   "summary": "E-commerce platform Cleverbridge disclosed a data breach affecting customer payment systems. Attackers stole credit card numbers and CVV security codes from compromised systems. The breach exposed sensitive financial information used by customers for transactions. Organizations using Cleverbridge should monitor payment card activity for fraud and consider reissuing affected cards to customers as a preventive measure.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+   "published": "2026-11-22T15:43:04Z",
+   "added": "2026-11-22T16:00:35Z",
+   "also": []
+  },
   {
    "id": "78074d39df",
    "headline": "AI providers breached, months of prompts stolen undetected",
@@ -4467,65 +4481,6 @@
     }
    },
    "cve_checked": "2026-11-11T00:06:31Z"
-  },
-  {
-   "id": "4c6744ea78",
-   "headline": "CVE-2026-123158 sshole exploitation rising in SSH attacks",
-   "summary": "Research from SANS Internet Storm Center honeypots shows a sharp increase in exploitation attempts for the sshole vulnerability (CVE-2026-123158) starting November 1st. Attackers are using unusually long passwords to exploit the flaw, with daily scan counts rising from 23 attempts on November 1st to 713 by November 6th. The attacks coincide with malware distribution campaigns targeting vulnerable systems. Organizations running SSH services should apply patches and monitor for exploitation attempts.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-123158"
-   ],
-   "watch": [],
-   "source": "SANS ISC",
-   "url": "https://isc.sans.edu/diary/rss/33498",
-   "published": "2026-11-08T15:44:33Z",
-   "added": "2026-11-08T16:00:34Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/"
-    },
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-123158": {
-     "kev": true,
-     "epss": 0.16501,
-     "pct": 0.97016,
-     "cvss": 8.1,
-     "sev": "high",
-     "desc": "sshd in OpenSSH before 10.6p2 on Linux, when musl libc is used without PAM, lacks a workaround for a password authentication bypass (related to misinterpretation of whether a string is intended to be a password hash). For some configurations of accounts, any password between 256 and 1024 characters succeeds. An example of a platform using musl libc without PAM is Alpine Linux."
-    }
-   },
-   "cve_checked": "2026-11-11T00:06:41Z"
-  },
-  {
-   "id": "840fc9184c",
-   "headline": "Iris Ohyama data breach exposes 7.7 million customers",
-   "summary": "Japanese manufacturer Iris Ohyama disclosed unauthorized access to a third-party cloud service used by its Iris Plaza shopping platform, exposing personal information of approximately 7.7 million customers. The breach was discovered after the company detected unauthorized access to the cloud infrastructure. Iris Ohyama is investigating the incident and notifying affected customers. Organizations should review third-party cloud service security controls and implement additional monitoring.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-   "published": "2026-11-08T15:43:08Z",
-   "added": "2026-11-08T16:00:34Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/"
-    }
-   ]
   }
  ]
 }
