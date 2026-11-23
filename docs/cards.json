@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:01:04Z",
+ "updated": "2026-11-23T14:30:32Z",
  "cards": [
   {
    "id": "cb673b121b",
@@ -4419,34 +4419,6 @@
    "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
    "published": "2026-11-09T14:31:29Z",
    "added": "2026-11-09T15:30:36Z",
-   "also": []
-  },
-  {
-   "id": "e9e255b082",
-   "headline": "AI-aided attack exploits assistant interface at German web host",
-   "summary": "Hackers reportedly used AI assistance to breach a German web hosting company by exploiting a customer-facing tool designed to integrate AI assistants into user accounts. The attack leveraged the interface's integration capabilities to gain unauthorized access. Customer data exposure scope remains unclear. Customers should verify account access and review authorization logs for suspicious activity.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/cyberattack-germany-ai-mittwald",
-   "published": "2026-11-09T14:15:00Z",
-   "added": "2026-11-09T14:30:36Z",
-   "also": []
-  },
-  {
-   "id": "7cf7e23f88",
-   "headline": "Revolve online fashion retailer breach hits 1.5 million",
-   "summary": "Online fashion retailer Revolve disclosed that a September cyberattack exposed personal data of 1.5 million individuals. The company reported victim count to regulators following the incident. Affected customers should monitor accounts for fraudulent activity and consider credit monitoring. Revolve has not detailed specific data exfiltrated or remediation measures taken.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
-   "published": "2026-11-09T14:08:08Z",
-   "added": "2026-11-09T14:30:36Z",
    "also": []
   }
  ]
