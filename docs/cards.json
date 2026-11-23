@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:00:36Z",
+ "updated": "2026-11-23T18:30:31Z",
  "cards": [
   {
    "id": "0af9a75101",
@@ -4288,70 +4288,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
    "published": "2026-11-09T18:32:42Z",
    "added": "2026-11-09T19:00:40Z",
-   "also": []
-  },
-  {
-   "id": "2fdab4abb5",
-   "headline": "Vanderbilt University announces cyberattack affecting campus systems",
-   "summary": "Vanderbilt University disclosed a cyberattack impacting campus devices and systems, warning students and employees of potential compromise. The university has not disclosed the scope of affected systems, the threat actor responsible, or specific actions taken in response. Affected users should monitor accounts for unauthorized activity and follow institutional guidance on credential changes.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
-   "published": "2026-11-09T18:30:00Z",
-   "added": "2026-11-09T19:00:40Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/vanderbilt-university-ransomware-attack-byod/"
-    }
-   ]
-  },
-  {
-   "id": "49097f3f34",
-   "headline": "SAP NetWeaver webshell campaign exploits CVE-2025-31324",
-   "summary": "Attackers are actively scanning for and exploiting SAP NetWeaver vulnerability CVE-2025-31324 to upload webshells. The flaw allows unauthenticated file uploads with a CVSS score of 10. Webshells typically end up in /irj/servlet_jsp/irj/root/ directories. Organizations running SAP NetWeaver should patch immediately and audit for webshells.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2025-31324"
-   ],
-   "watch": [],
-   "source": "SANS ISC",
-   "url": "https://isc.sans.edu/diary/rss/33502",
-   "published": "2026-11-09T18:18:15Z",
-   "added": "2026-11-09T18:30:38Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2025-31324": {
-     "kev": true,
-     "epss": 0.99486,
-     "pct": 0.99944,
-     "cvss": 9.8,
-     "sev": "critical",
-     "desc": "SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system."
-    }
-   },
-   "cve_checked": "2026-11-11T00:06:06Z"
-  },
-  {
-   "id": "adccb074fb",
-   "headline": "Claude document-processing flaw enables Linux code execution",
-   "summary": "A flaw in Claude's document-processing tool allows attackers to create temporary files that Anthropic's AI assistant can access and execute on a user's machine. The vulnerability enables arbitrary code execution on systems running the affected tool. Users should avoid processing untrusted documents.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
-   "published": "2026-11-09T18:08:30Z",
-   "added": "2026-11-09T18:30:38Z",
    "also": []
   }
  ]
