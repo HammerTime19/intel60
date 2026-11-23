@@ -372,6 +372,13 @@
 "kev": false,
 "sev": "critical"
 },
+"CVE-2026-134814": {
+"cvss": 8.1,
+"date": "2026-11-23",
+"desc": "binary-parser before 2.3.1 contains a code injection vulnerability that allows attackers controlling parser definitions to inject JavaScript through string-typed options passed unvalidated by Context.generateOption(). Attackers can supply crafted length, lengthInBytes, key, tag, offset, or namely() alias values to execute arbitrary JavaScript in the Node.js process when the parser is compiled.",
+"kev": false,
+"sev": "high"
+},
 "CVE-2026-19868": {
 "cvss": 7.5,
 "date": "2026-11-06",
@@ -3033,6 +3040,15 @@
 "headline": "26,400 valid cloud AI credentials exposed Gitee repos",
 "sev": "high",
 "summary": "A researcher found 26,400 working developer credentials left in public code repositories on Gitee, a Chinese code-hosting platform. Scanning 7.25 million public repos revealed mostly cloud and AI service keys that attackers could abuse immediately. Anyone with access to these repositories could use the exposed credentials to compromise accounts and cloud infrastructure. Developers should rotate exposed credentials urgently and use secrets management tools to prevent similar leaks."
+},
+"cb673b121b": {
+"cves": [
+"CVE-2026-134814"
+],
+"date": "2026-11-23",
+"headline": "binary-parser library code injection enables RCE",
+"sev": "critical",
+"summary": "A critical code injection vulnerability in binary-parser versions before 2.3.1 allows attackers who control parser definitions to execute arbitrary JavaScript code. Tracked as CVE-2026-134814 with a CVSS score of 9.2, the flaw affects applications using untrusted parser definitions. Users should upgrade to version 2.3.1 or later immediately to prevent exploitation."
 },
 "cb74b2746c": {
 "cves": [],
