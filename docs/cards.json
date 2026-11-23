@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:30:34Z",
+ "updated": "2026-11-23T00:00:35Z",
  "cards": [
   {
    "id": "e84afceb00",
@@ -4414,87 +4414,6 @@
    "published": "2026-11-09T07:05:48Z",
    "added": "2026-11-09T08:00:36Z",
    "also": []
-  },
-  {
-   "id": "0955fa7f8e",
-   "headline": "CISA adds SignalWire FreeSwitch injection to KEV",
-   "summary": "SignalWire FreeSwitch contains a code injection vulnerability enabling credential disclosure, arbitrary call control, and command execution. CISA added CVE-2026-116779 to its Known Exploited Vulnerabilities catalog. Federal agencies must apply vendor mitigations by November 12, 2026, following BOD 26-04 guidance or discontinue use if patches are unavailable. Defenders should prioritize patching this widely-deployed VoIP component.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-116779"
-   ],
-   "watch": [],
-   "source": "CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
-   "published": "2026-11-09T00:00:00Z",
-   "added": "2026-11-09T17:00:37Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-116779": {
-     "kev": true,
-     "epss": 0.02177,
-     "pct": 0.82481,
-     "cvss": 9.8,
-     "sev": "critical",
-     "desc": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.3, sofia_presence_handle_sip_i_message() split the To user of an inbound SIP MESSAGE on a plus sign and treated the left side as a chat protocol selector. Selecting the api chat proto reached switch_api_execute(), allowing a peer whose MESSAGE was accepted to run FreeSWITCH API commands, including operating-system command sinks, with the daemon's privileges. Inbound chat is enabled on the stock…"
-    }
-   },
-   "cve_checked": "2026-11-11T00:06:13Z"
-  },
-  {
-   "id": "a4fa5d886e",
-   "headline": "CISA adds GPUStack auth bypass to KEV catalog",
-   "summary": "GPUStack contains an improper authentication vulnerability allowing unauthenticated administrative access, including persistent API key creation and code execution via POST /v2/inference-backends/from-yaml. CISA added CVE-2026-102895 to its Known Exploited Vulnerabilities catalog with a federal patch deadline of November 12, 2026. Organizations running GPUStack should immediately apply patches or remove the service from internet exposure.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-102895"
-   ],
-   "watch": [],
-   "source": "CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
-   "published": "2026-11-09T00:00:00Z",
-   "added": "2026-11-09T17:00:37Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-102895": {
-     "kev": true,
-     "epss": 0.00555,
-     "pct": 0.46664,
-     "cvss": 9.8,
-     "sev": "critical",
-     "desc": "GPUStack is an open-source GPU cluster manager for AI model serving and GPU instance provisioning. Prior to 2.2.0, get_current_user in gpustack/api/auth.py treated a loopback request source as the built-in administrator when force_auth_localhost was false, which was the default. A remote request could appear to originate from 127.0.0.1 because client_ip_getter accepted a same-host reverse proxy peer or a client-supplied X-GPUStack-Real-IP loopback value. The bypass allowed unauthenticated administrative access, including user and model changes, persistent administrator API-key creation…"
-    }
-   },
-   "cve_checked": "2026-11-11T00:06:24Z"
-  },
-  {
-   "id": "2464fd9dd1",
-   "headline": "CISA adds IBM Aspera Faspex authorization flaw to KEV",
-   "summary": "IBM Aspera Faspex contains an incorrect authorization vulnerability allowing authenticated users to bypass authorization checks and escalate privileges. Federal agencies must apply vendor mitigations by November 12, 2026, or discontinue use. CISA's BOD 26-04 prioritization guidance applies. Known ransomware exploitation is not reported.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-123218"
-   ],
-   "watch": [],
-   "source": "CISA KEV",
-   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
-   "published": "2026-11-09T00:00:00Z",
-   "added": "2026-11-09T21:00:33Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-123218": {
-     "kev": true,
-     "epss": 0.00705,
-     "pct": 0.53668,
-     "cvss": 9.8,
-     "sev": "critical",
-     "desc": "IBM Aspera Faspex 5.0.0 through 5.0.19 could allow an authorized user to craft a specific message to bypass user authorization and gain full administrative privileges."
-    }
-   },
-   "cve_checked": "2026-11-11T00:06:31Z"
   }
  ]
 }
