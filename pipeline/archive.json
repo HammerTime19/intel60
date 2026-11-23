@@ -3626,6 +3626,13 @@
 "sev": "high",
 "summary": "Quantum Systems, a German defense technology company, confirmed detection of a cyberattack in late October affecting its operations by hostile actors. The incident disrupted German military drone operations. No details about attacker identity, methods, or extent of impact have been disclosed."
 },
+"f714b48247": {
+"cves": [],
+"date": "2026-11-23",
+"headline": "LaLiga confirms hackers stole soccer fans personal data",
+"sev": "high",
+"summary": "Spanish football league LaLiga disclosed a data breach affecting users of its services and affiliated clubs' platforms. Attackers stole personal information belonging to soccer fans. LaLiga has confirmed the incident and is investigating the scope. Users should monitor accounts and enable account security features."
+},
 "f7229d9101": {
 "cves": [],
 "date": "2026-11-16",
