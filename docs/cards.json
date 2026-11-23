@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:00:41Z",
+ "updated": "2026-11-23T16:30:33Z",
  "cards": [
   {
    "id": "bcc6ff74f5",
@@ -4387,22 +4387,6 @@
    "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
    "published": "2026-11-09T17:36:28Z",
    "added": "2026-11-09T18:30:38Z",
-   "also": []
-  },
-  {
-   "id": "0946092397",
-   "headline": "Binance denies alleged ShinyHunters data breach claim",
-   "summary": "Binance, the world's largest cryptocurrency exchange, has denied claims of a new security breach attributed to threat actor ShinyHunters on an underground cybercrime forum. The exchange disputed the allegations but provided no technical details. If confirmed, a breach at Binance could expose millions of users' personal and financial data. Users should enable two-factor authentication and monitor accounts for unauthorized activity.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [
-    "Exchange"
-   ],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-   "published": "2026-11-09T16:12:39Z",
-   "added": "2026-11-09T16:30:34Z",
    "also": []
   }
  ]
