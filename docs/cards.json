@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:30:35Z",
+ "updated": "2026-11-23T18:00:36Z",
  "cards": [
   {
    "id": "0af9a75101",
@@ -4351,59 +4351,6 @@
    "source": "Dark Reading",
    "url": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
    "published": "2026-11-09T18:08:30Z",
-   "added": "2026-11-09T18:30:38Z",
-   "also": []
-  },
-  {
-   "id": "bd73ebc7b8",
-   "headline": "Qubole breach exposes customer AWS accounts and secrets",
-   "summary": "An attacker compromised AWS accounts of multiple Qubole customers between October 14 and October 26, stealing stored secrets and data. The attacker used credentials for an AWS account that Qubole's data lake platform uses to access customer environments. How the attacker obtained Qubole's credentials remains undisclosed.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [
-    "AWS"
-   ],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-   "published": "2026-11-09T17:51:21Z",
-   "added": "2026-11-09T18:30:38Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/"
-    }
-   ]
-  },
-  {
-   "id": "073e03d22d",
-   "headline": "Russian cloud firm Beget rebuilds after data wiper attack",
-   "summary": "Russian cloud services provider Beget suffered a data-wiping malware attack that destroyed customer data and forced the company to rebuild its infrastructure from scratch. The incident affected customers using Beget's cloud hosting and related services. The company is currently in recovery. Customers should consider migrating critical workloads and verify data integrity once services are restored.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
-   "published": "2026-11-09T17:50:32Z",
-   "added": "2026-11-09T18:00:38Z",
-   "also": []
-  },
-  {
-   "id": "7cd796fba4",
-   "headline": "Ethersphere bee-js and Swarm Desktop compromised",
-   "summary": "Attackers compromised Ethersphere's release automation to publish malicious versions of bee-js 13.3.0 and Swarm Desktop 0.56.2. The malware steals wallet keys, stored passwords, and installs a backdoor on affected users' systems. Users of the Swarm decentralized storage network should avoid these versions and verify their wallet security.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-   "published": "2026-11-09T17:36:28Z",
    "added": "2026-11-09T18:30:38Z",
    "also": []
   }
