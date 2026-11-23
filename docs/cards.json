@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:00:44Z",
+ "updated": "2026-11-23T12:30:32Z",
  "cards": [
   {
    "id": "bc11c30f89",
@@ -86,6 +86,20 @@
    "also": []
   },
   {
+   "id": "5e4209ae37",
+   "headline": "Austrian Foreign Ministry website breached, diplomats' data stolen",
+   "summary": "Hackers breached Austria's Foreign Ministry website and accessed names and official contact information of employees at Vienna headquarters and diplomatic missions abroad. The ministry disclosed the incident late in the week. No details on the breach method, attacker identity, or remediation steps were provided. The exposure of diplomat contact information poses security and privacy risks.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
+   "published": "2026-11-23T00:00:00Z",
+   "added": "2026-11-23T12:30:32Z",
+   "also": []
+  },
+  {
    "id": "e84afceb00",
    "headline": "GL.iNet cloud flaw exploited to backdoor routers, KVM",
    "summary": "Hackers exploited a vulnerability in GL.iNet's cloud remote management services to install malware on customers' routers and KVM devices. Affected users discovered backdoors and reverse shells providing attackers remote access to their infrastructure. The vulnerability has been confirmed by GL.iNet. Customers should immediately audit their devices, check for unauthorized access, and apply available patches to secure their systems against active exploitation.",
@@ -130,7 +144,12 @@
    "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
    "published": "2026-11-22T05:06:55Z",
    "added": "2026-11-22T06:30:25Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/"
+    }
+   ]
   },
   {
    "id": "0be8ff22df",
@@ -4363,34 +4382,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
    "published": "2026-11-09T13:28:56Z",
    "added": "2026-11-09T14:00:34Z",
-   "also": []
-  },
-  {
-   "id": "a3066db4d1",
-   "headline": "Pro-Russian hackers leak Italian Foreign Minister data",
-   "summary": "Italian Foreign Minister Antonio Tajani's personal data was leaked on the dark web. Italian authorities attributed the breach to pro-Russian hackers. The incident raises concerns about state-level targeting of government officials. Italy is investigating the source and scope of the leaked information to assess potential national security implications.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
-   "published": "2026-11-09T12:22:12Z",
-   "added": "2026-11-09T12:30:33Z",
-   "also": []
-  },
-  {
-   "id": "53877e7ba1",
-   "headline": "Ukraine dismantles crypto investment scam network",
-   "summary": "Ukrainian law enforcement arrested four suspects operating a network of cryptocurrency investment scam call centers that stole over €4.3 million from victims. The operation used social engineering and false investment promises to defraud customers. Authorities disrupted the infrastructure used to conduct the fraud. This case highlights the ongoing threat of organized crypto scams targeting victims globally.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
-   "published": "2026-11-09T12:16:13Z",
-   "added": "2026-11-09T12:30:33Z",
    "also": []
   }
  ]

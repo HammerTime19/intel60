@@ -1620,6 +1620,13 @@
 "sev": "high",
 "summary": "Three individuals nicknamed \"Rocky Balboa,\" \"Superman Cash,\" and \"Fat Boy\" were charged for using AI to impersonate CEOs and attorneys in a fraud scheme that stole $129 million. The attackers primarily targeted company accounting departments with convincing impersonations. Law enforcement has taken action against the perpetrators involved in this coordinated fraud campaign."
 },
+"5e4209ae37": {
+"cves": [],
+"date": "2026-11-23",
+"headline": "Austrian Foreign Ministry website breached, diplomats' data stolen",
+"sev": "high",
+"summary": "Hackers breached Austria's Foreign Ministry website and accessed names and official contact information of employees at Vienna headquarters and diplomatic missions abroad. The ministry disclosed the incident late in the week. No details on the breach method, attacker identity, or remediation steps were provided. The exposure of diplomat contact information poses security and privacy risks."
+},
 "5e43b1695a": {
 "cves": [],
 "date": "2026-11-17",
