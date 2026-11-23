@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:00:32Z",
+ "updated": "2026-11-23T07:30:30Z",
  "cards": [
   {
    "id": "e84afceb00",
@@ -4399,20 +4399,6 @@
    "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
    "published": "2026-11-09T08:35:50Z",
    "added": "2026-11-09T09:00:38Z",
-   "also": []
-  },
-  {
-   "id": "a2c922a06d",
-   "headline": "OpenAI engineer pleads not guilty to planting recording device",
-   "summary": "Abdulrahman Alfozan, a Saudi national and former OpenAI engineer, pleaded not guilty in San Francisco federal court to charges of planting a covert audio recording device in the company's office. The incident was discovered last month. His next hearing is scheduled for November 17, 2026. Details about the investigation's scope or motivation remain unclear from available reports.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
-   "published": "2026-11-09T07:05:48Z",
-   "added": "2026-11-09T08:00:36Z",
    "also": []
   }
  ]
