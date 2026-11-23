@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-23T11:30:38Z",
+ "updated": "2026-11-23T12:00:44Z",
  "cards": [
+  {
+   "id": "bc11c30f89",
+   "headline": "SAP NetWeaver and Cisco Expressway exploited in attacks",
+   "summary": "Threat actors are actively exploiting SAP NetWeaver JNDI injection and Cisco Expressway hard-coded credential flaws to leak or modify server information and execute commands as root. Both vulnerabilities have been added to CISA's Known Exploited Vulnerabilities catalog. Organizations running affected SAP and Cisco systems should apply patches immediately to prevent unauthorized access.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [
+    "Cisco"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+   "published": "2026-11-23T11:35:15Z",
+   "added": "2026-11-23T12:00:42Z",
+   "also": []
+  },
   {
    "id": "1cfea13344",
    "headline": "WPIDE WordPress plugin CSRF nonce bypass allows RCE",
@@ -172,7 +188,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
    "published": "2026-11-21T15:17:27Z",
    "added": "2026-11-21T15:30:31Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/"
+    }
+   ]
   },
   {
    "id": "efef5bd50b",

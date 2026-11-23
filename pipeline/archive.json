@@ -2896,6 +2896,13 @@
 "sev": "high",
 "summary": "The UK's Investigatory Powers Commissioner's Office expressed serious concern in its 2025 annual report that GCHQ has failed to account for thousands of data storage devices. The watchdog criticized the agency's slow investigation into the missing devices, indicating potential data loss risks and inadequate asset management at the intelligence agency."
 },
+"bc11c30f89": {
+"cves": [],
+"date": "2026-11-23",
+"headline": "SAP NetWeaver and Cisco Expressway exploited in attacks",
+"sev": "critical",
+"summary": "Threat actors are actively exploiting SAP NetWeaver JNDI injection and Cisco Expressway hard-coded credential flaws to leak or modify server information and execute commands as root. Both vulnerabilities have been added to CISA's Known Exploited Vulnerabilities catalog. Organizations running affected SAP and Cisco systems should apply patches immediately to prevent unauthorized access."
+},
 "bce30872ee": {
 "cves": [],
 "date": "2026-10-28",
