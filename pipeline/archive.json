@@ -2141,6 +2141,13 @@
 "sev": "high",
 "summary": "Anthropic's Claude Code assistant stores commands verbatim in project settings files when users select \"Don't ask again,\" exposing passwords and API keys. Security firm Apiiro discovered 1,122 public GitHub copies containing exposed secrets. Developers should review their Claude Code projects, disable auto-approval for sensitive commands, and rotate any exposed credentials immediately."
 },
+"80927b607c": {
+"cves": [],
+"date": "2026-11-23",
+"headline": "AI-assisted attacks drain Indian banks and fintechs",
+"sev": "critical",
+"summary": "Threat actors are conducting AI-assisted cyberattacks against Indian banking, fintech, and technology service providers, resulting in unauthorized financial transactions. CERT-In has issued a warning about the campaign targeting ICT assets nationwide. The scope and attribution remain under investigation. Organizations should implement enhanced monitoring for suspicious transaction patterns and strengthen authentication mechanisms."
+},
 "810ecd44c3": {
 "cves": [],
 "date": "2026-11-13",

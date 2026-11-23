@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-23T08:30:31Z",
+ "updated": "2026-11-23T09:00:37Z",
  "cards": [
+  {
+   "id": "80927b607c",
+   "headline": "AI-assisted attacks drain Indian banks and fintechs",
+   "summary": "Threat actors are conducting AI-assisted cyberattacks against Indian banking, fintech, and technology service providers, resulting in unauthorized financial transactions. CERT-In has issued a warning about the campaign targeting ICT assets nationwide. The scope and attribution remain under investigation. Organizations should implement enhanced monitoring for suspicious transaction patterns and strengthen authentication mechanisms.",
+   "severity": "critical",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+   "published": "2026-11-23T08:24:15Z",
+   "added": "2026-11-23T09:00:37Z",
+   "also": []
+  },
   {
    "id": "e84afceb00",
    "headline": "GL.iNet cloud flaw exploited to backdoor routers, KVM",
@@ -4389,20 +4403,6 @@
    "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
    "published": "2026-11-09T09:01:50Z",
    "added": "2026-11-09T10:00:33Z",
-   "also": []
-  },
-  {
-   "id": "33c824e207",
-   "headline": "DeepMind AI agents break RSA-1024 cryptography more cheaply",
-   "summary": "Google DeepMind's AI agents, working with cryptographers, discovered cheaper methods to forge RSA-1024 signatures and factor keys. While RSA-1024 is deprecated in modern systems, the research demonstrates AI's growing capability in cryptanalytic attacks. Organizations still relying on RSA-1024 should prioritize migration to RSA-2048 or stronger algorithms immediately.",
-   "severity": "high",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
-   "published": "2026-11-09T08:35:50Z",
-   "added": "2026-11-09T09:00:38Z",
    "also": []
   }
  ]
