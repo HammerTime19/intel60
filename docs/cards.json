@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-23T16:30:33Z",
+ "updated": "2026-11-23T17:00:49Z",
  "cards": [
+  {
+   "id": "0af9a75101",
+   "headline": "GlobeTopper breached, attackers steal $70k in gift cards",
+   "summary": "GlobeTopper, a B2B digital top-up solutions provider, suffered a cyberattack that disrupted operations and resulted in $2.5 million in lost revenue. Attackers also redeemed $70,000 worth of stolen digital gift cards. The incident highlights the financial impact of supply chain attacks against payment and retail services. Organizations should monitor for unauthorized gift card redemptions and enforce multi-factor authentication.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+   "published": "2026-11-23T16:50:01Z",
+   "added": "2026-11-23T17:00:48Z",
+   "also": []
+  },
   {
    "id": "bcc6ff74f5",
    "headline": "Microsoft Azure flaw exploited against Norwegian energy firms",
@@ -446,6 +460,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/"
+    },
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes"
     }
    ]
   },

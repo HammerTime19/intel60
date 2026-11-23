@@ -637,6 +637,13 @@
 "sev": "high",
 "summary": "A malicious webpage could extract private conversations and memories from Meta Muse users without approval prompts, researchers demonstrated in a lab environment. The same attack could potentially access stored credentials for connected accounts. No real-world exploitation has been reported. Meta Muse users should avoid clicking suspicious links and review connected app permissions."
 },
+"0af9a75101": {
+"cves": [],
+"date": "2026-11-23",
+"headline": "GlobeTopper breached, attackers steal $70k in gift cards",
+"sev": "high",
+"summary": "GlobeTopper, a B2B digital top-up solutions provider, suffered a cyberattack that disrupted operations and resulted in $2.5 million in lost revenue. Attackers also redeemed $70,000 worth of stolen digital gift cards. The incident highlights the financial impact of supply chain attacks against payment and retail services. Organizations should monitor for unauthorized gift card redemptions and enforce multi-factor authentication."
+},
 "0bc09b4235": {
 "cves": [
 "CVE-2026-111357",
