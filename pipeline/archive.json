@@ -368,11 +368,23 @@
 "kev": false,
 "sev": "critical"
 },
+"CVE-2026-133968": {
+"cvss": 9.8,
+"date": "2026-11-23",
+"desc": "monailabel (aka MONAI Label) before 0.8.6 allows directory traversal, with resultant remote code execution, via the image parameter to the PUT /datastore/image endpoint, as exploited in the wild starting in September 2026.",
+"due": "2026-11-26",
+"epss": 0.03664,
+"kev": true,
+"name": "Project MONAI MONAI Label Path Traversal Vulnerability",
+"sev": "critical"
+},
 "CVE-2026-134624": {
 "cvss": 9.3,
 "date": "2026-11-23",
 "desc": "N-able MailAssure (SpamExperts) before 20261121.1943 does not restrict the destination of the LDAP synchronisation connection check performed when a relay is configured. An authenticated API user can cause the server to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
-"kev": false,
+"due": "2026-11-26",
+"kev": true,
+"name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
 "sev": "critical"
 },
 "CVE-2026-134814": {
@@ -1279,6 +1291,15 @@
 "headline": "Siemens IoT2050 Advanced devices exploited for remote command backdoors",
 "sev": "critical",
 "summary": "CVE-2026-58115, a critical missing authentication flaw in Siemens SIMATIC IoT2050 Advanced devices, is under active exploitation. The CVSS 10.0 vulnerability allows unauthenticated remote attackers to execute arbitrary code and establish backdoors. Siemens customers should prioritize patching affected systems and monitor for suspicious command execution activity."
+},
+"3f1b87c2ef": {
+"cves": [
+"CVE-2026-133968"
+],
+"date": "2026-11-23",
+"headline": "Project MONAI MONAI Label path traversal enables RCE",
+"sev": "critical",
+"summary": "Project MONAI MONAI Label contains a path traversal vulnerability allowing unauthenticated remote attackers to write arbitrary files outside the intended directory, potentially achieving remote code execution. The flaw was added to CISA's Known Exploited Vulnerabilities catalog with a federal patching deadline. Administrators should apply vendor-provided mitigations immediately and evaluate internet exposure of affected systems."
 },
 "3f9c6dce42": {
 "cves": [
@@ -3575,6 +3596,13 @@
 "headline": "Artex tool automates cyberattacks at machine speed",
 "sev": "high",
 "summary": "The FBI warns that Artex, an open source hacking tool, dramatically accelerates cyberattacks by automating attack technique chaining. Some intrusions progress from initial targeting to privileged access in under three hours. The tool significantly reduces time required for attack execution. Defenders should monitor for Artex usage and implement rapid detection and response capabilities."
+},
+"f1397973b7": {
+"cves": [],
+"date": "2026-11-23",
+"headline": "KEPCO data breach exposes 1.5 million South Koreans",
+"sev": "high",
+"summary": "Korea Electric Power Corporation (KEPCO) suffered a network breach exposing customer, employee, and contractor data affecting 1.5 million people. The threat actor accessed two internal systems. No details on data handling or impact timeline were disclosed. Affected individuals should monitor for phishing and identity theft."
 },
 "f159cf23a7": {
 "cves": [],

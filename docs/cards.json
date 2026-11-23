@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-23T20:30:31Z",
+ "updated": "2026-11-23T21:00:47Z",
  "cards": [
+  {
+   "id": "f1397973b7",
+   "headline": "KEPCO data breach exposes 1.5 million South Koreans",
+   "summary": "Korea Electric Power Corporation (KEPCO) suffered a network breach exposing customer, employee, and contractor data affecting 1.5 million people. The threat actor accessed two internal systems. No details on data handling or impact timeline were disclosed. Affected individuals should monitor for phishing and identity theft.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+   "published": "2026-11-23T20:54:51Z",
+   "added": "2026-11-23T21:00:45Z",
+   "also": []
+  },
   {
    "id": "f714b48247",
    "headline": "LaLiga confirms hackers stole soccer fans personal data",
@@ -114,10 +128,15 @@
    "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
    "published": "2026-11-23T12:28:09Z",
    "added": "2026-11-23T13:00:37Z",
-   "also": [],
+   "also": [
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+    }
+   ],
    "cve_info": {
     "CVE-2026-134624": {
-     "kev": false,
+     "kev": true,
      "cvss": 9.3,
      "sev": "critical",
      "desc": "N-able MailAssure (SpamExperts) before 20261121.1943 does not restrict the destination of the LDAP synchronisation connection check performed when a relay is configured. An authenticated API user can cause the server to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services."
@@ -222,6 +241,33 @@
    "published": "2026-11-23T00:00:00Z",
    "added": "2026-11-23T12:30:32Z",
    "also": []
+  },
+  {
+   "id": "3f1b87c2ef",
+   "headline": "Project MONAI MONAI Label path traversal enables RCE",
+   "summary": "Project MONAI MONAI Label contains a path traversal vulnerability allowing unauthenticated remote attackers to write arbitrary files outside the intended directory, potentially achieving remote code execution. The flaw was added to CISA's Known Exploited Vulnerabilities catalog with a federal patching deadline. Administrators should apply vendor-provided mitigations immediately and evaluate internet exposure of affected systems.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-133968"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+   "published": "2026-11-23T00:00:00Z",
+   "added": "2026-11-23T21:00:45Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-133968": {
+     "kev": true,
+     "epss": 0.03664,
+     "pct": 0.89921,
+     "cvss": 9.8,
+     "sev": "critical",
+     "desc": "monailabel (aka MONAI Label) before 0.8.6 allows directory traversal, with resultant remote code execution, via the image parameter to the PUT /datastore/image endpoint, as exploited in the wild starting in September 2026."
+    }
+   },
+   "cve_checked": "2026-11-23T21:00:46Z"
   },
   {
    "id": "e84afceb00",
