@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:00:47Z",
+ "updated": "2026-11-23T21:30:29Z",
  "cards": [
   {
    "id": "f1397973b7",
@@ -4278,53 +4278,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
    "published": "2026-11-09T22:09:33Z",
    "added": "2026-11-09T22:30:32Z",
-   "also": []
-  },
-  {
-   "id": "8d206c962e",
-   "headline": "N-able takes N-central offline after 30-plus zero-days disclosed",
-   "summary": "N-able took its hosted N-central environments offline after a security researcher publicly disclosed over 30 zero-day vulnerabilities in the platform, including remote code execution exploits. The company urged on-premises customers to shut down servers immediately. Organizations running N-central should assess exposure and implement mitigation steps.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-   "published": "2026-11-09T21:26:25Z",
-   "added": "2026-11-09T21:30:38Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/"
-    }
-   ]
-  },
-  {
-   "id": "b9b072a1ed",
-   "headline": "York University breach exposes personal information since 2007",
-   "summary": "York University disclosed a breach in which a threat actor accessed personal information submitted through online forms, with exposure dating back to 2007. The incident affected multiple individuals over nearly two decades. The university is investigating the scope and has likely notified affected parties.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
-   "published": "2026-11-09T21:22:31Z",
-   "added": "2026-11-09T21:30:38Z",
-   "also": []
-  },
-  {
-   "id": "eae4ff98ab",
-   "headline": "Microsoft patch fixes RCE bug in Windows Paint",
-   "summary": "Microsoft has released a patch for a remote code execution vulnerability in Microsoft Paint that was disclosed last month with unclear messaging about availability. The fix addresses a serious flaw in widely deployed software. Users should apply the patch promptly to mitigate exploitation risk.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
-   "published": "2026-11-09T21:12:24Z",
-   "added": "2026-11-09T21:30:38Z",
    "also": []
   }
  ]
