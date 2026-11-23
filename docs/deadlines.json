@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T13:00:46Z",
+ "updated": "2026-11-23T13:30:35Z",
  "items": [
   {
    "cve": "CVE-2026-129448",
@@ -63,7 +63,7 @@
    "name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
    "added": "2026-11-18",
    "due": "2026-11-21",
-   "ransomware": false,
+   "ransomware": true,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
    "card": "175ea91a08"
   },
