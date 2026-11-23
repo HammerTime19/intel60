@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:00:36Z",
+ "updated": "2026-11-23T20:30:31Z",
  "cards": [
   {
    "id": "f714b48247",
@@ -401,11 +401,12 @@
    "cve_info": {
     "CVE-2026-129975": {
      "kev": false,
-     "cvss": null,
-     "sev": null
+     "cvss": 8.1,
+     "sev": "high",
+     "desc": "A flaw was found in gpgme. When processing crafted input, an early return following memory reallocation can leave internal buffer pointers referencing previously freed memory, resulting in a double-free condition during cleanup. A remote attacker could exploit this vulnerability to corrupt process memory, potentially leading to arbitrary code execution or a Denial of Service (DoS) crash."
     }
    },
-   "cve_checked": "2026-11-23T14:01:03Z"
+   "cve_checked": "2026-11-23T20:30:31Z"
   },
   {
    "id": "93138fbb4d",
