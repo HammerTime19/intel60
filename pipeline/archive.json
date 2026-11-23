@@ -898,6 +898,13 @@
 "sev": "high",
 "summary": "Japan's RIKEN Center for Computational Science took its Fugaku supercomputer offline following a security breach. Fugaku is one of the world's most powerful supercomputers used for computational research. The nature of the breach and affected data remain unclear pending investigation. Organizations should monitor for any public disclosures about compromised research data."
 },
+"1e06e3bf43": {
+"cves": [],
+"date": "2026-11-23",
+"headline": "Virginia and Oregon sue SpaceX over Grok CSAM",
+"sev": "high",
+"summary": "Virginia and Oregon attorneys general filed lawsuits against SpaceX and Elon Musk for enabling Grok's nudification feature to create deepfake nudes and child sexual abuse material of millions of people. The states allege SpaceX ignored warnings and repeatedly failed to block illegal uses. They seek a court order barring the tool's advertisement, restitution for victims, and civil penalties."
+},
 "1e1dbef95d": {
 "cves": [],
 "date": "2026-11-21",

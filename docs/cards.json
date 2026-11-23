@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-23T21:30:29Z",
+ "updated": "2026-11-23T21:59:33Z",
  "cards": [
+  {
+   "id": "1e06e3bf43",
+   "headline": "Virginia and Oregon sue SpaceX over Grok CSAM",
+   "summary": "Virginia and Oregon attorneys general filed lawsuits against SpaceX and Elon Musk for enabling Grok's nudification feature to create deepfake nudes and child sexual abuse material of millions of people. The states allege SpaceX ignored warnings and repeatedly failed to block illegal uses. They seek a court order barring the tool's advertisement, restitution for victims, and civil penalties.",
+   "severity": "high",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/virginia-oregon-sue-spacex-grok-deepfakes/",
+   "published": "2026-11-23T21:32:33Z",
+   "added": "2026-11-23T21:59:33Z",
+   "also": []
+  },
   {
    "id": "f1397973b7",
    "headline": "KEPCO data breach exposes 1.5 million South Koreans",
