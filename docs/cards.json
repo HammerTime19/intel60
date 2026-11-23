@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:00:37Z",
+ "updated": "2026-11-23T09:30:30Z",
  "cards": [
   {
    "id": "80927b607c",
@@ -4389,20 +4389,6 @@
    "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
    "published": "2026-11-09T10:01:21Z",
    "added": "2026-11-09T11:00:37Z",
-   "also": []
-  },
-  {
-   "id": "e8082cc54d",
-   "headline": "Taiwan attacker steals Taipei emergency dispatch records using AI agents",
-   "summary": "A single attacker used AI agents to exfiltrate emergency dispatch records from seven Taipei districts and discovered an exposed Taipei fire department platform containing patient data including ECG readings and ambulance footage from 2018. The breach affected public emergency services and health information. Researchers from Acronis's Threat Research Unit identified the incident, indicating defenders should audit access controls and sensitive platform exposure across government emergency services.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-   "published": "2026-11-09T09:01:50Z",
-   "added": "2026-11-09T10:00:33Z",
    "also": []
   }
  ]
