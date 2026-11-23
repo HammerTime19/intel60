@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:30:36Z",
+ "updated": "2026-11-23T11:00:34Z",
  "cards": [
   {
    "id": "31afdc96e8",
@@ -4377,20 +4377,6 @@
      "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach"
     }
    ]
-  },
-  {
-   "id": "a02fb0af29",
-   "headline": "Web3Auth flaw exploited to steal Keplr crypto wallets",
-   "summary": "A security vulnerability in Web3Auth, which powers Google and Apple sign-in for Keplr crypto wallet, was exploited to steal funds from users who created wallets through those methods. Web3Auth discovered the breach and proactively emptied other at-risk wallets to prevent further theft. Users should secure their accounts and enable additional authentication factors.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
-   "published": "2026-11-09T10:56:25Z",
-   "added": "2026-11-09T12:00:38Z",
-   "also": []
   }
  ]
 }
