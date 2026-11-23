@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:30:30Z",
+ "updated": "2026-11-23T20:00:36Z",
  "cards": [
   {
    "id": "f714b48247",
@@ -41,7 +41,12 @@
    "url": "https://therecord.media/norway-microsoft-cyberattack-equinor",
    "published": "2026-11-23T15:45:00Z",
    "added": "2026-11-23T16:00:41Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/"
+    }
+   ]
   },
   {
    "id": "cb673b121b",
@@ -271,6 +276,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/"
     }
    ]
   },
