@@ -331,6 +331,14 @@
 "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
 "sev": "medium"
 },
+"CVE-2026-124251": {
+"cvss": 8.8,
+"date": "2026-11-23",
+"desc": "Cross-Site Request Forgery (CSRF) vulnerability in XplodedThemes WPIDE – File Manager & Code Editor wpide allows Cross Site Request Forgery.This issue affects WPIDE – File Manager & Code Editor: from n/a through 3.6.4.",
+"epss": 0.00177,
+"kev": false,
+"sev": "high"
+},
 "CVE-2026-126325": {
 "cvss": 9.0,
 "date": "2026-11-12",
@@ -822,6 +830,15 @@
 "headline": "BAE Systems incident hit bankruptcy courts no data extracted",
 "sev": "high",
 "summary": "BAE Systems confirmed that its incident disrupting US bankruptcy court notice systems for weeks did not result in data extraction or personal information breaches. The company disclosed no further operational impact. Courts have resumed normal operations. Organizations should monitor for follow-up disclosures on system integrity."
+},
+"1cfea13344": {
+"cves": [
+"CVE-2026-124251"
+],
+"date": "2026-11-23",
+"headline": "WPIDE WordPress plugin CSRF nonce bypass allows RCE",
+"sev": "critical",
+"summary": "WPIDE file manager and code editor plugin for WordPress versions 3.6.0–3.6.4 contain a CSRF nonce bypass flaw that allows unauthenticated remote code execution. The vulnerability, CVE-2026-124251, results from an incomplete fix to CVE-2026-57766 where nonce validation was scoped too narrowly. Version 3.6.5 patches the issue. Sites running affected versions should update immediately."
 },
 "1df53018af": {
 "cves": [],
