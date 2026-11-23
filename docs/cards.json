@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:30:30Z",
+ "updated": "2026-11-23T08:00:45Z",
  "cards": [
   {
    "id": "e84afceb00",
@@ -156,7 +156,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-23T01:30:31Z"
+   "cve_checked": "2026-11-23T08:00:45Z"
   },
   {
    "id": "93138fbb4d",
@@ -577,6 +577,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
     }
    ]
   },
