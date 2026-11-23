@@ -4,9 +4,11 @@
   <url><loc>https://intel60.app/cve/</loc></url>
   <url><loc>https://intel60.app/story/1cfea13344</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://intel60.app/story/31afdc96e8</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://intel60.app/story/5e4209ae37</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://intel60.app/story/80927b607c</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://intel60.app/story/bc11c30f89</loc><lastmod>2026-11-23</lastmod></url>
-  <url><loc>https://intel60.app/story/5e4209ae37</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://intel60.app/story/33d65726f5</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://intel60.app/story/759d50b400</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://intel60.app/story/0be8ff22df</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://intel60.app/story/78074d39df</loc><lastmod>2026-11-22</lastmod></url>
   <url><loc>https://intel60.app/story/855a50efe0</loc><lastmod>2026-11-22</lastmod></url>
@@ -470,6 +472,7 @@
   <url><loc>https://intel60.app/cve/CVE-2026-126714</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://intel60.app/cve/CVE-2026-129975</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://intel60.app/cve/CVE-2026-131914</loc><lastmod>2026-11-23</lastmod></url>
+  <url><loc>https://intel60.app/cve/CVE-2026-134624</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://intel60.app/cve/CVE-2026-19868</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://intel60.app/cve/CVE-2026-20320</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://intel60.app/cve/CVE-2026-23871</loc><lastmod>2026-11-20</lastmod></url>
@@ -485,6 +488,7 @@
   <url><loc>https://intel60.app/cve/CVE-2026-76466</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://intel60.app/cve/CVE-2026-81648</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://intel60.app/cve/CVE-2026-83844</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://intel60.app/cve/CVE-2026-84869</loc><lastmod>2026-11-23</lastmod></url>
   <url><loc>https://intel60.app/cve/CVE-2026-90436</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://intel60.app/cve/CVE-2026-90817</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://intel60.app/cve/CVE-2026-97229</loc><lastmod>2026-10-30</lastmod></url>

@@ -365,6 +365,13 @@
 "kev": false,
 "sev": "critical"
 },
+"CVE-2026-134624": {
+"cvss": 9.3,
+"date": "2026-11-23",
+"desc": "N-able MailAssure (SpamExperts) before 20261121.1943 does not restrict the destination of the LDAP synchronisation connection check performed when a relay is configured. An authenticated API user can cause the server to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
+"kev": false,
+"sev": "critical"
+},
 "CVE-2026-19868": {
 "cvss": 7.5,
 "date": "2026-11-06",
@@ -489,6 +496,14 @@
 "epss": 0.00384,
 "kev": false,
 "sev": "high"
+},
+"CVE-2026-84869": {
+"cvss": 9.9,
+"date": "2026-11-23",
+"desc": "A condition in the ScreenConnect client may allow files to be transferred and executed through an active remote session without authorization or Host confirmation in certain circumstances. ScreenConnect servers are not impacted.",
+"epss": 0.01173,
+"kev": true,
+"sev": "critical"
 },
 "CVE-2026-90436": {
 "cvss": 9.8,
@@ -1096,6 +1111,15 @@
 "headline": "DeepMind AI agents break RSA-1024 cryptography more cheaply",
 "sev": "high",
 "summary": "Google DeepMind's AI agents, working with cryptographers, discovered cheaper methods to forge RSA-1024 signatures and factor keys. While RSA-1024 is deprecated in modern systems, the research demonstrates AI's growing capability in cryptanalytic attacks. Organizations still relying on RSA-1024 should prioritize migration to RSA-2048 or stronger algorithms immediately."
+},
+"33d65726f5": {
+"cves": [
+"CVE-2026-84869"
+],
+"date": "2026-11-23",
+"headline": "ConnectWise ScreenConnect flaw exploited to hijack MSP PCs",
+"sev": "critical",
+"summary": "Threat actors are exploiting CVE-2026-84869, a critical vulnerability in ConnectWise ScreenConnect with CVSS 9.9. The flaw allows an unauthenticated guest to transfer and execute malicious payloads on connecting technician's machines. Exploitation began in November 2026 targeting managed service provider servers. Patches are available; MSPs should prioritize deployment to prevent technician workstations from compromise."
 },
 "342c74932b": {
 "cves": [],
@@ -1906,6 +1930,15 @@
 "headline": "TPM lockout bypass cracks Windows Hello BitLocker PINs",
 "sev": "high",
 "summary": "Researchers at Technische Universität Berlin discovered that TPM lockout protection for Windows Hello and BitLocker PINs on AMD and some Intel PCs can be reset by physically opening the case. In lab tests, attackers successfully cracked a four-digit Hello PIN and a six-digit BitLocker PIN within days. Users should use longer PINs and ensure physical device security."
+},
+"759d50b400": {
+"cves": [
+"CVE-2026-134624"
+],
+"date": "2026-11-23",
+"headline": "N-able Mail Assure critical SSRF flaw disclosed",
+"sev": "critical",
+"summary": "N-able disclosed CVE-2026-134624, a critical server-side request forgery flaw in its Mail Assure and SpamExperts Hosted Cloud email filtering service. The vulnerability allowed users with high-level API access to open connections to internal systems. The flaw was discovered during investigation of a breach affecting the hosted cloud service. Administrators should apply available patches immediately."
 },
 "761885e6c0": {
 "cves": [

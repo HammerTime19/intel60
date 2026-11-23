@@ -1,6 +1,58 @@
 {
- "updated": "2026-11-23T12:30:32Z",
+ "updated": "2026-11-23T13:00:47Z",
  "cards": [
+  {
+   "id": "33d65726f5",
+   "headline": "ConnectWise ScreenConnect flaw exploited to hijack MSP PCs",
+   "summary": "Threat actors are exploiting CVE-2026-84869, a critical vulnerability in ConnectWise ScreenConnect with CVSS 9.9. The flaw allows an unauthenticated guest to transfer and execute malicious payloads on connecting technician's machines. Exploitation began in November 2026 targeting managed service provider servers. Patches are available; MSPs should prioritize deployment to prevent technician workstations from compromise.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-84869"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+   "published": "2026-11-23T12:41:04Z",
+   "added": "2026-11-23T13:00:37Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-84869": {
+     "kev": true,
+     "epss": 0.01173,
+     "pct": 0.6827,
+     "cvss": 9.9,
+     "sev": "critical",
+     "desc": "A condition in the ScreenConnect client may allow files to be transferred and executed through an active remote session without authorization or Host confirmation in certain circumstances. ScreenConnect servers are not impacted."
+    }
+   },
+   "cve_checked": "2026-11-23T13:00:39Z"
+  },
+  {
+   "id": "759d50b400",
+   "headline": "N-able Mail Assure critical SSRF flaw disclosed",
+   "summary": "N-able disclosed CVE-2026-134624, a critical server-side request forgery flaw in its Mail Assure and SpamExperts Hosted Cloud email filtering service. The vulnerability allowed users with high-level API access to open connections to internal systems. The flaw was discovered during investigation of a breach affecting the hosted cloud service. Administrators should apply available patches immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-134624"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+   "published": "2026-11-23T12:28:09Z",
+   "added": "2026-11-23T13:00:37Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-134624": {
+     "kev": false,
+     "cvss": 9.3,
+     "sev": "critical",
+     "desc": "N-able MailAssure (SpamExperts) before 20261121.1943 does not restrict the destination of the LDAP synchronisation connection check performed when a relay is configured. An authenticated API user can cause the server to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services."
+    }
+   },
+   "cve_checked": "2026-11-23T13:00:46Z"
+  },
   {
    "id": "bc11c30f89",
    "headline": "SAP NetWeaver and Cisco Expressway exploited in attacks",
