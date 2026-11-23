@@ -1865,6 +1865,13 @@
 "sev": "high",
 "summary": "NIST has finalized guidance on post-quantum cryptography to prepare for threats that will break current encryption standards. A GAO report shows US agencies are behind schedule in implementing these new defenses. Organizations should begin transitioning to post-quantum algorithms to protect sensitive data against future quantum-enabled attacks."
 },
+"6a57f5edfd": {
+"cves": [],
+"date": "2026-11-23",
+"headline": "Industrial serial gateways broadcast insecure status",
+"sev": "high",
+"summary": "Critical operational technology access devices are broadcasting their authentication status to any observer, with many revealing they lack proper security protections. This discovery exposes vulnerabilities in industrial control system infrastructure. Organizations using serial gateways should audit their devices, enable authentication mechanisms, and restrict access to these management interfaces to prevent unauthorized access and potential OT network compromise."
+},
 "6b1c381ae9": {
 "cves": [
 "CVE-2026-102895"

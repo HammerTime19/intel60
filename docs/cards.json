@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-23T22:00:31Z",
+ "updated": "2026-11-23T22:30:31Z",
  "cards": [
+  {
+   "id": "6a57f5edfd",
+   "headline": "Industrial serial gateways broadcast insecure status",
+   "summary": "Critical operational technology access devices are broadcasting their authentication status to any observer, with many revealing they lack proper security protections. This discovery exposes vulnerabilities in industrial control system infrastructure. Organizations using serial gateways should audit their devices, enable authentication mechanisms, and restrict access to these management interfaces to prevent unauthorized access and potential OT network compromise.",
+   "severity": "high",
+   "category": "Research",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
+   "published": "2026-11-23T22:02:46Z",
+   "added": "2026-11-23T22:30:31Z",
+   "also": []
+  },
   {
    "id": "1e06e3bf43",
    "headline": "Virginia and Oregon sue SpaceX over Grok CSAM",
@@ -4279,20 +4293,6 @@
     }
    },
    "cve_checked": "2026-11-11T02:02:20Z"
-  },
-  {
-   "id": "fb65eccd75",
-   "headline": "SEGA newsletter provider breach exposes 2.2 million emails",
-   "summary": "SEGA disclosed that a third-party newsletter provider, ARARA, suffered a data breach exposing email addresses of 2.2 million newsletter subscribers. The incident affected the Japanese gaming company's customer communications infrastructure. SEGA has notified affected users and is working with the provider on remediation. Subscribers should monitor for phishing and consider email address security precautions.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-   "published": "2026-11-09T22:09:33Z",
-   "added": "2026-11-09T22:30:32Z",
-   "also": []
   }
  ]
 }
