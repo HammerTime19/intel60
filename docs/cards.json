@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-23T15:30:33Z",
+ "updated": "2026-11-23T16:00:41Z",
  "cards": [
+  {
+   "id": "bcc6ff74f5",
+   "headline": "Microsoft Azure flaw exploited against Norwegian energy firms",
+   "summary": "Hackers exploited a Microsoft cloud security vulnerability to target sensitive credentials at Norwegian energy companies Equinor and Skagerak Energi. Norwegian cybersecurity authorities confirmed the attacks affected energy sector infrastructure. Microsoft has closed the flaw. Other sectors were also impacted. Organizations should review access logs and rotate compromised credentials.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/norway-microsoft-cyberattack-equinor",
+   "published": "2026-11-23T15:45:00Z",
+   "added": "2026-11-23T16:00:41Z",
+   "also": []
+  },
   {
    "id": "cb673b121b",
    "headline": "binary-parser library code injection enables RCE",

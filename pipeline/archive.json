@@ -2950,6 +2950,13 @@
 "sev": "critical",
 "summary": "Threat actors are actively exploiting SAP NetWeaver JNDI injection and Cisco Expressway hard-coded credential flaws to leak or modify server information and execute commands as root. Both vulnerabilities have been added to CISA's Known Exploited Vulnerabilities catalog. Organizations running affected SAP and Cisco systems should apply patches immediately to prevent unauthorized access."
 },
+"bcc6ff74f5": {
+"cves": [],
+"date": "2026-11-23",
+"headline": "Microsoft Azure flaw exploited against Norwegian energy firms",
+"sev": "high",
+"summary": "Hackers exploited a Microsoft cloud security vulnerability to target sensitive credentials at Norwegian energy companies Equinor and Skagerak Energi. Norwegian cybersecurity authorities confirmed the attacks affected energy sector infrastructure. Microsoft has closed the flaw. Other sectors were also impacted. Organizations should review access logs and rotate compromised credentials."
+},
 "bce30872ee": {
 "cves": [],
 "date": "2026-10-28",
