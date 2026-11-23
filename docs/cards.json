@@ -1,6 +1,33 @@
 {
- "updated": "2026-11-23T10:00:35Z",
+ "updated": "2026-11-23T10:30:36Z",
  "cards": [
+  {
+   "id": "31afdc96e8",
+   "headline": "ASP.NET anti-CSRF library exploited for unauthenticated RCE",
+   "summary": "A critical vulnerability in the legacy Idunno.AntiCsrf ASP.NET library (CVE-2026-131914, CVSS 9.3) is being exploited in the wild. The flaw affects versions 0.9.1.0 and 0.9.1 Beta and allows unauthenticated remote code execution. Users should immediately discontinue use of this library. Organizations using affected versions should isolate vulnerable systems and apply alternative CSRF protection mechanisms.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-131914"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+   "published": "2026-11-23T09:11:56Z",
+   "added": "2026-11-23T10:30:35Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-131914": {
+     "kev": false,
+     "epss": 0.00614,
+     "pct": 0.50368,
+     "cvss": 9.3,
+     "sev": "critical",
+     "desc": "Deserialization of untrusted data in double-submit cookie vs. form field validation in Idunno.AntiCsrf versions through 0.9.1 Beta on ASP.NET allows remote unauthenticated attackers to execute code via object injection"
+    }
+   },
+   "cve_checked": "2026-11-23T10:30:35Z"
+  },
   {
    "id": "80927b607c",
    "headline": "AI-assisted attacks drain Indian banks and fintechs",
@@ -27,7 +54,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
    "published": "2026-11-22T18:45:37Z",
    "added": "2026-11-22T19:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html"
+    }
+   ]
   },
   {
    "id": "855a50efe0",
@@ -4358,37 +4390,6 @@
    "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
    "published": "2026-11-09T10:56:25Z",
    "added": "2026-11-09T12:00:38Z",
-   "also": []
-  },
-  {
-   "id": "3c0c651efe",
-   "headline": "Frontline Education breach exposes 3 million school staff and students",
-   "summary": "Frontline Education disclosed an August data breach affecting over 3 million individuals including school district staff and students in Indiana. The breach impacts K-12 education institutions. Frontline Education has not yet detailed what data was compromised or available remediation steps. Affected individuals should monitor for identity theft and change credentials used with Frontline systems.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [
-    "K-12",
-    "school district"
-   ],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
-   "published": "2026-11-09T10:09:02Z",
-   "added": "2026-11-09T10:30:30Z",
-   "also": []
-  },
-  {
-   "id": "62af4291e1",
-   "headline": "LNbits Bitcoin Lightning wallet servers under active attack",
-   "summary": "LNbits, an open-source Bitcoin Lightning wallet system, faces active exploitation and has urged all operators to immediately shut down their servers. Attackers are exploiting a flaw to withdraw funds from affected instances. The project announced upcoming security patches but operators should take servers offline until fixes are available. Defenders running LNbits must shut down immediately and await security updates.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-   "published": "2026-11-09T10:01:21Z",
-   "added": "2026-11-09T11:00:37Z",
    "also": []
   }
  ]

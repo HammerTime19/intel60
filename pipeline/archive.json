@@ -349,6 +349,14 @@
 "date": "2026-11-21",
 "kev": false
 },
+"CVE-2026-131914": {
+"cvss": 9.3,
+"date": "2026-11-23",
+"desc": "Deserialization of untrusted data in double-submit cookie vs. form field validation in Idunno.AntiCsrf versions through 0.9.1 Beta on ASP.NET allows remote unauthenticated attackers to execute code via object injection",
+"epss": 0.00614,
+"kev": false,
+"sev": "critical"
+},
 "CVE-2026-19868": {
 "cvss": 7.5,
 "date": "2026-11-06",
@@ -1046,6 +1054,15 @@
 "headline": "Queens Public Library hit by ransomware attack",
 "sev": "high",
 "summary": "A ransomware attack disrupted the Queens Public Library system, affecting 66 branches serving 2.3 million residents in the borough. The attack disrupted Wi-Fi and on-site computers, forcing the library to publish multiple alerts on Wednesday confirming the incident. No details on attacker identity, ransom demand, or data exposure status were provided. Libraries should review backup procedures and incident response plans."
+},
+"31afdc96e8": {
+"cves": [
+"CVE-2026-131914"
+],
+"date": "2026-11-23",
+"headline": "ASP.NET anti-CSRF library exploited for unauthenticated RCE",
+"sev": "critical",
+"summary": "A critical vulnerability in the legacy Idunno.AntiCsrf ASP.NET library (CVE-2026-131914, CVSS 9.3) is being exploited in the wild. The flaw affects versions 0.9.1.0 and 0.9.1 Beta and allows unauthenticated remote code execution. Users should immediately discontinue use of this library. Organizations using affected versions should isolate vulnerable systems and apply alternative CSRF protection mechanisms."
 },
 "32c90d2f09": {
 "cves": [
