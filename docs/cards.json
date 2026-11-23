@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T15:00:37Z",
+ "updated": "2026-11-23T15:30:33Z",
  "cards": [
   {
    "id": "cb673b121b",
@@ -4389,20 +4389,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
    "published": "2026-11-09T16:12:39Z",
    "added": "2026-11-09T16:30:34Z",
-   "also": []
-  },
-  {
-   "id": "b5262f310e",
-   "headline": "Ukraine arrests four in $5M crypto scam ring",
-   "summary": "Ukrainian cyber police arrested four men, including the alleged leader of a scam call center targeting German victims in a $5 million cryptocurrency fraud scheme. The operation is part of ongoing efforts to dismantle organized cyber-fraud networks. This represents law enforcement action against active financial crime affecting international victims.",
-   "severity": "info",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
-   "published": "2026-11-09T15:24:00Z",
-   "added": "2026-11-09T16:00:35Z",
    "also": []
   }
  ]
