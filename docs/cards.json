@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T12:00:38Z",
+ "updated": "2026-11-24T12:30:30Z",
  "cards": [
   {
    "id": "a36fd360c1",
@@ -4049,25 +4049,6 @@
     }
    },
    "cve_checked": "2026-11-12T23:00:48Z"
-  },
-  {
-   "id": "4271579dde",
-   "headline": "iOS sandbox escape exposes crypto wallet keys to malicious apps",
-   "summary": "A sandbox escape vulnerability on iPhones running iOS 26 and 27 allows malicious apps to read other apps' files, potentially exposing seed phrases, private keys, and login credentials. Binance warned of the risk after researcher forcequit published the exploit on GitHub. Apple's latest updates do not include a fix, leaving users vulnerable.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
-   "published": "2026-11-10T12:15:31Z",
-   "added": "2026-11-10T13:00:39Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/"
-    }
-   ]
   }
  ]
 }
