@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-24T20:30:32Z",
+ "updated": "2026-11-24T21:00:37Z",
  "cards": [
+  {
+   "id": "2f99e3ac26",
+   "headline": "Colorado myColorado app cyberattack exposes 150,000 users",
+   "summary": "Colorado's myColorado digital ID and government services platform suffered a cyberattack affecting approximately 150,000 users. The incident compromised personal data stored through the app, which residents use for digital identification, document storage, and accessing state services. The attack has taken down the application. Colorado authorities have not disclosed technical details or recovery timeline.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/mycolorado-app-down-data-breach",
+   "published": "2026-11-24T20:52:00Z",
+   "added": "2026-11-24T21:00:36Z",
+   "also": []
+  },
   {
    "id": "5f76ac4f7c",
    "headline": "Turnitin discloses cyberattack on customer-facing systems",
@@ -4013,20 +4027,6 @@
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
    "published": "2026-11-10T21:01:14Z",
    "added": "2026-11-10T21:30:34Z",
-   "also": []
-  },
-  {
-   "id": "230bcad0fa",
-   "headline": "Nitori breach exposes 37.6 million customer records",
-   "summary": "Nitori, a major Japanese furniture and home accessories retailer, disclosed that attackers accessed its network and may have stolen 37.62 million customer records. The incident represents one of the largest retail data breaches affecting a single retailer. Customers may face identity theft and fraud risks. Affected individuals should monitor accounts for unauthorized activity and consider credit monitoring services.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
-   "published": "2026-11-10T20:54:55Z",
-   "added": "2026-11-10T21:00:35Z",
    "also": []
   }
  ]

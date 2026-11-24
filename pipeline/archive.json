@@ -1183,6 +1183,13 @@
 "sev": "high",
 "summary": "Cybercriminals are deploying phishing sites that serve legitimate-looking 'suspended' pages to visitors who return, while showing phishing content to first-time visitors. Over 200 sites used this evasion technique. This prevents automated takedown systems and security researchers from detecting the phishing infrastructure. Organizations should educate users to verify bank URLs directly and enable MFA to mitigate phishing risks."
 },
+"2f99e3ac26": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "Colorado myColorado app cyberattack exposes 150,000 users",
+"sev": "high",
+"summary": "Colorado's myColorado digital ID and government services platform suffered a cyberattack affecting approximately 150,000 users. The incident compromised personal data stored through the app, which residents use for digital identification, document storage, and accessing state services. The attack has taken down the application. Colorado authorities have not disclosed technical details or recovery timeline."
+},
 "2fdab4abb5": {
 "cves": [],
 "date": "2026-11-09",
