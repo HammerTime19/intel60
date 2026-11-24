@@ -3281,6 +3281,13 @@
 "sev": "critical",
 "summary": "PHP maintainers announced security fixes for critical vulnerabilities affecting all supported PHP versions, with patches released on November 19, 2026. The flaws impact the widely deployed server-side scripting language used in millions of websites. PHP users should update immediately when patches become available. Details on specific vulnerabilities were not disclosed prior to release."
 },
+"d2294fb10f": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "European Commission AI-assisted attack exposes EU Academy users",
+"sev": "high",
+"summary": "An AI-assisted cyberattack discovered in October by the European Commission has exposed names and email addresses of EU Academy users. The incident was disclosed following an investigation into the breach. The European Commission detected the attack and subsequently uncovered the data exposure. Users should monitor their accounts for suspicious activity and consider credential changes if affected."
+},
 "d29e040f40": {
 "cves": [],
 "date": "2026-11-16",
