@@ -1,6 +1,39 @@
 {
- "updated": "2026-11-24T18:00:39Z",
+ "updated": "2026-11-24T18:30:50Z",
  "items": [
+  {
+   "cve": "CVE-2026-132224",
+   "vendor": "Optimizely",
+   "product": "Web Experimentation",
+   "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+   "added": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "15ad0cfbac"
+  },
+  {
+   "cve": "CVE-2026-131914",
+   "vendor": "Idunno",
+   "product": "AntiCsrf",
+   "name": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+   "added": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "bcdfeee02e"
+  },
+  {
+   "cve": "CVE-2026-132165",
+   "vendor": "Drupal",
+   "product": "Core",
+   "name": "Drupal Core Remote Code Execution Vulnerability",
+   "added": "2026-11-24",
+   "due": "2026-11-27",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "9705b45f38"
+  },
   {
    "cve": "CVE-2026-133968",
    "vendor": "Project MONAI",

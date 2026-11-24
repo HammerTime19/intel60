@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:00:40Z",
+ "updated": "2026-11-24T18:30:51Z",
  "cards": [
   {
    "id": "adb18ca6ae",
@@ -262,6 +262,84 @@
    "also": []
   },
   {
+   "id": "9705b45f38",
+   "headline": "CISA adds Drupal Core RCE flaw to KEV catalog",
+   "summary": "CISA added CVE-2026-132165, an unauthenticated RCE in Drupal Core, to the Known Exploited Vulnerabilities catalog. The flaw in Drupal's installer could allow attackers to reinstall Drupal and execute arbitrary code on affected sites. Federal agencies must patch by November 27, 2026, following BOD 26-04 guidance. Organizations should prioritize patching or discontinue use if mitigations are unavailable.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-132165"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+   "published": "2026-11-24T00:00:00Z",
+   "added": "2026-11-24T18:30:36Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-132165": {
+     "kev": true,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-11-24T18:30:37Z"
+  },
+  {
+   "id": "bcdfeee02e",
+   "headline": "CISA adds Idunno AntiCsrf deserialization RCE to KEV",
+   "summary": "CISA added CVE-2026-131914, an unauthenticated RCE flaw in Idunno AntiCsrf, to the Known Exploited Vulnerabilities catalog. The deserialization vulnerability allows remote attackers to execute arbitrary code via object injection. The product may be end-of-life; users should discontinue use or upgrade. Federal agencies must patch by November 27, 2026, per BOD 26-04 guidance.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-131914"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+   "published": "2026-11-24T00:00:00Z",
+   "added": "2026-11-24T18:30:36Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-131914": {
+     "kev": true,
+     "epss": 0.00614,
+     "pct": 0.50152,
+     "cvss": 9.3,
+     "sev": "critical",
+     "desc": "Deserialization of untrusted data in double-submit cookie vs. form field validation in Idunno.AntiCsrf versions through 0.9.1 Beta on ASP.NET allows remote unauthenticated attackers to execute code via object injection"
+    }
+   },
+   "cve_checked": "2026-11-24T18:30:43Z"
+  },
+  {
+   "id": "15ad0cfbac",
+   "headline": "CISA adds Optimizely Web Experimentation account takeover flaw",
+   "summary": "CISA added CVE-2026-132224 to the Known Exploited Vulnerabilities catalog. The flaw in Optimizely Web Experimentation's signup flow allows attackers to impersonate users and inject malicious JavaScript into customer websites. This JavaScript is distributed through Optimizely-hosted assets and executed in visitor browsers. Federal agencies must patch by November 27, 2026, following BOD 26-04 guidance.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-132224"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+   "published": "2026-11-24T00:00:00Z",
+   "added": "2026-11-24T18:30:36Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-132224": {
+     "kev": true,
+     "epss": 0.00411,
+     "pct": 0.35845,
+     "cvss": 8.7,
+     "sev": "high",
+     "desc": "Optimizely Web Experimentation before 2026-11-17 mishandles the account signup flow, leading to presence of attacker-controlled code in the projectJS (aka Project JavaScript) field of certain cdn.optimizely.com assets."
+    }
+   },
+   "cve_checked": "2026-11-24T18:30:50Z"
+  },
+  {
    "id": "6a57f5edfd",
    "headline": "Industrial serial gateways broadcast insecure status",
    "summary": "Critical operational technology access devices are broadcasting their authentication status to any observer, with many revealing they lack proper security protections. This discovery exposes vulnerabilities in industrial control system infrastructure. Organizations using serial gateways should audit their devices, enable authentication mechanisms, and restrict access to these management interfaces to prevent unauthorized access and potential OT network compromise.",
@@ -510,7 +588,7 @@
    "also": [],
    "cve_info": {
     "CVE-2026-131914": {
-     "kev": false,
+     "kev": true,
      "epss": 0.00614,
      "pct": 0.50368,
      "cvss": 9.3,
@@ -4042,20 +4120,6 @@
    "url": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
    "published": "2026-11-10T18:46:22Z",
    "added": "2026-11-10T19:00:37Z",
-   "also": []
-  },
-  {
-   "id": "4893b7f645",
-   "headline": "Adobe patches 110 vulnerabilities across nine products",
-   "summary": "Adobe released security updates addressing 110 vulnerabilities across nine products including AEM, Premiere, Photoshop, After Effects, Connect, Audition, Dimension, Content Credentials SDK, and Media Encoder. The bulletin does not specify severity levels or exploitation status for individual flaws. Users should apply updates prioritizing products they actively use in their environments.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
-   "published": "2026-11-10T18:11:54Z",
-   "added": "2026-11-10T18:30:33Z",
    "also": []
   }
  ]
