@@ -1828,6 +1828,13 @@
 "sev": "critical",
 "summary": "CISA added CVE-2026-76466 to its Known Exploited Vulnerabilities catalog. The flaw in Cisco Expressway Series allows unauthenticated remote attackers with persistent cookies to execute commands as root via the database service. Organizations must apply vendor mitigations and comply with CISA BOD 26-04 patching guidance by November 23, 2026. No ransomware use reported yet."
 },
+"5f76ac4f7c": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "Turnitin discloses cyberattack on customer-facing systems",
+"sev": "high",
+"summary": "Turnitin, an academic integrity and plagiarism detection platform, confirmed it detected unauthorized access to certain customer-facing systems. The company detected the unauthorized activity during routine security monitoring. The scope and affected data remain unclear pending investigation. Customers should monitor account activity and change credentials if they suspect compromise."
+},
 "60ccd3ca4d": {
 "cves": [],
 "date": "2026-11-11",

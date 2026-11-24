@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-24T18:30:51Z",
+ "updated": "2026-11-24T19:00:41Z",
  "cards": [
+  {
+   "id": "5f76ac4f7c",
+   "headline": "Turnitin discloses cyberattack on customer-facing systems",
+   "summary": "Turnitin, an academic integrity and plagiarism detection platform, confirmed it detected unauthorized access to certain customer-facing systems. The company detected the unauthorized activity during routine security monitoring. The scope and affected data remain unclear pending investigation. Customers should monitor account activity and change credentials if they suspect compromise.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+   "published": "2026-11-24T18:59:52Z",
+   "added": "2026-11-24T19:00:41Z",
+   "also": []
+  },
   {
    "id": "adb18ca6ae",
    "headline": "Radware breach exposes customer cloud WAF access keys",
@@ -4107,20 +4121,6 @@
     }
    },
    "cve_checked": "2026-11-11T02:00:52Z"
-  },
-  {
-   "id": "80496ac214",
-   "headline": "Claude Code inadvertently leaks credentials to GitHub",
-   "summary": "AI coding assistants using Claude Code have leaked thousands of secrets, including credentials and sensitive data, to public Git repositories. The tool's default behavior saves files without filtering sensitive information. Organizations using Claude for code generation should audit their public repositories for exposed credentials and implement secret scanning to detect and remediate leaked data.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
-   "published": "2026-11-10T18:46:22Z",
-   "added": "2026-11-10T19:00:37Z",
-   "also": []
   }
  ]
 }
