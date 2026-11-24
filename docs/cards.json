@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T09:30:30Z",
+ "updated": "2026-11-24T10:00:40Z",
  "cards": [
   {
    "id": "3e9064fe72",
@@ -69,7 +69,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
    "published": "2026-11-23T18:38:40Z",
    "added": "2026-11-23T19:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident"
+    }
+   ]
   },
   {
    "id": "0af9a75101",
@@ -4076,63 +4081,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/"
     }
    ]
-  },
-  {
-   "id": "923e1bc8d6",
-   "headline": "Russian Turla group uses Cereal toolset on government servers",
-   "summary": "Russian cyberespionage group Turla has deployed a new modular toolset called 'Cereal' to target government Exchange servers in Kazakhstan and Romania. The malware exploits legitimate Microsoft Exchange, Windows, and .NET functions to silently pilfer emails. Notably, it repurposes compromised Exchange servers as command-and-control infrastructure, avoiding external C&C detection. Organizations running Exchange servers should review access logs and implement email security monitoring.",
-   "severity": "critical",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [
-    "Exchange"
-   ],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/russian-turla-group-used-new-toolset-to-silently-pilfer-emails-from-kazakhstan-romanian-governments/",
-   "published": "2026-11-10T10:00:00Z",
-   "added": "2026-11-10T10:30:38Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"
-    }
-   ]
-  },
-  {
-   "id": "e61330c977",
-   "headline": "CISA adds IBM Aspera Faspex to KEV",
-   "summary": "CISA added CVE-2026-123218 and CVE-2026-116779 affecting IBM Aspera Faspex and SignalWire FreeSwitch to its Known Exploited Vulnerabilities catalog. Both vulnerabilities are exploited in active attacks. Federal agencies must patch within three days. Prioritize patching if you deploy these products in internet-facing environments.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-123218",
-    "CVE-2026-116779"
-   ],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
-   "published": "2026-11-10T09:42:27Z",
-   "added": "2026-11-10T10:00:40Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-123218": {
-     "kev": true,
-     "epss": 0.00705,
-     "pct": 0.53668,
-     "cvss": 9.8,
-     "sev": "critical",
-     "desc": "IBM Aspera Faspex 5.0.0 through 5.0.19 could allow an authorized user to craft a specific message to bypass user authorization and gain full administrative privileges."
-    },
-    "CVE-2026-116779": {
-     "kev": true,
-     "epss": 0.02177,
-     "pct": 0.82481,
-     "cvss": 9.8,
-     "sev": "critical",
-     "desc": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.3, sofia_presence_handle_sip_i_message() split the To user of an inbound SIP MESSAGE on a plus sign and treated the left side as a chat protocol selector. Selecting the api chat proto reached switch_api_execute(), allowing a peer whose MESSAGE was accepted to run FreeSWITCH API commands, including operating-system command sinks, with the daemon's privileges. Inbound chat is enabled on the stock…"
-    }
-   },
-   "cve_checked": "2026-11-11T00:05:55Z"
   }
  ]
 }
