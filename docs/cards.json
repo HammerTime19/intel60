@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-24T11:00:43Z",
+ "updated": "2026-11-24T11:30:32Z",
  "cards": [
+  {
+   "id": "a36fd360c1",
+   "headline": "Attackers exploit internet-exposed refrigeration controllers across Europe",
+   "summary": "Threat actors compromised refrigeration systems in supermarkets across nine European countries and French blood banks by exploiting publicly exposed admin interfaces, unpatched systems, and default credentials. The attacks forced facilities to discard spoiled inventory. FBI and CISA had recently warned of active targeting of internet-exposed refrigeration and temperature controllers. Organizations should prioritize removing unnecessary internet exposure, patching known vulnerabilities, and changing default credentials on critical infrastructure.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/ot-security-post-quantum-cryptography-op-ed/",
+   "published": "2026-11-24T11:00:00Z",
+   "added": "2026-11-24T11:30:32Z",
+   "also": []
+  },
   {
    "id": "15b8b56834",
    "headline": "Elecbrakes Bluetooth flaws enable remote trailer forced braking",
