@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-24T10:30:42Z",
+ "updated": "2026-11-24T11:00:43Z",
  "cards": [
+  {
+   "id": "15b8b56834",
+   "headline": "Elecbrakes Bluetooth flaws enable remote trailer forced braking",
+   "summary": "Critical Bluetooth vulnerabilities in Elecbrakes brake controllers allow nearby attackers to remotely force trailer braking, potentially causing accidents. The vulnerabilities affect trailer safety systems and can be exploited without authentication. Affected trailer operators should update firmware immediately and consider network isolation until patches are available.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
+   "published": "2026-11-24T10:44:44Z",
+   "added": "2026-11-24T11:00:43Z",
+   "also": []
+  },
+  {
+   "id": "20534b25c7",
+   "headline": "Peninsula Energy halts trading after Wyoming uranium mine cyberattack",
+   "summary": "Peninsula Energy suspended trading on the Australian Securities Exchange following a cybersecurity incident at its Wyoming uranium project. The attack temporarily disrupted operations at the US uranium mine. The company notified regulators but details on the attack's scope, perpetrators, and affected systems remain unclear. Peninsula Energy is investigating the incident.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [
+    "Exchange"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
+   "published": "2026-11-24T10:35:04Z",
+   "added": "2026-11-24T11:00:43Z",
+   "also": []
+  },
   {
    "id": "06ddd1a688",
    "headline": "WHMCS SQL injection exposes customer data, admin hashes",
@@ -120,6 +150,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html"
     }
    ]
   },
@@ -4013,25 +4047,6 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/"
-    }
-   ]
-  },
-  {
-   "id": "1fd1d86ac6",
-   "headline": "Spyware attacks increasingly target ordinary citizens, not just high-value targets",
-   "summary": "Spyware campaigns are becoming more indiscriminate, affecting everyday people rather than traditionally high-value targets. The AdFection spyware demonstrated this by infecting anyone visiting websites with advertising. Apple Threat Notifications analyzed by iVerify reveal cases like a bus driver's children and a stay-at-home mom in Ottawa, and a limousine driver in Australia—people with no obvious reason to be targeted. This trend suggests enterprise employees now face elevated spyware risk regardless of job sensitivity or public profile.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/spyware-attacks-trend-everyday-people-iverify-report/",
-   "published": "2026-11-10T11:00:00Z",
-   "added": "2026-11-10T11:30:35Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/spyware-cyber-crime-iverify"
     }
    ]
   }

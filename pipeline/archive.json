@@ -800,6 +800,13 @@
 "sev": "high",
 "summary": "Amplifon Americas suffered a data breach affecting 1.3 million individuals. Attackers stole personal, health, and insurance information including Social Security numbers from internal systems. The breach exposes sensitive data for hearing aid customers. Affected individuals should monitor credit reports and consider identity theft protection services."
 },
+"15b8b56834": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "Elecbrakes Bluetooth flaws enable remote trailer forced braking",
+"sev": "critical",
+"summary": "Critical Bluetooth vulnerabilities in Elecbrakes brake controllers allow nearby attackers to remotely force trailer braking, potentially causing accidents. The vulnerabilities affect trailer safety systems and can be exploited without authentication. Affected trailer operators should update firmware immediately and consider network isolation until patches are available."
+},
 "15da1f8e31": {
 "cves": [],
 "date": "2026-11-10",
@@ -946,6 +953,13 @@
 "headline": "Spyware attacks increasingly target ordinary citizens, not just high-value targets",
 "sev": "high",
 "summary": "Spyware campaigns are becoming more indiscriminate, affecting everyday people rather than traditionally high-value targets. The AdFection spyware demonstrated this by infecting anyone visiting websites with advertising. Apple Threat Notifications analyzed by iVerify reveal cases like a bus driver's children and a stay-at-home mom in Ottawa, and a limousine driver in Australia—people with no obvious reason to be targeted. This trend suggests enterprise employees now face elevated spyware risk regardless of job sensitivity or public profile."
+},
+"20534b25c7": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "Peninsula Energy halts trading after Wyoming uranium mine cyberattack",
+"sev": "high",
+"summary": "Peninsula Energy suspended trading on the Australian Securities Exchange following a cybersecurity incident at its Wyoming uranium project. The attack temporarily disrupted operations at the US uranium mine. The company notified regulators but details on the attack's scope, perpetrators, and affected systems remain unclear. Peninsula Energy is investigating the incident."
 },
 "21ad2182a1": {
 "cves": [],
