@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:30:34Z",
+ "updated": "2026-11-24T16:00:35Z",
  "cards": [
   {
    "id": "d2294fb10f",
@@ -4060,20 +4060,6 @@
     }
    },
    "cve_checked": "2026-11-11T00:05:42Z"
-  },
-  {
-   "id": "7e413807cc",
-   "headline": "Blind Eagle sends fake court notices with RAT across Latin America",
-   "summary": "The threat actor Blind Eagle is targeting organizations in Latin America with phishing emails disguised as court notifications, fiscalía notices, and tutela proceedings. Emails deliver a remote access trojan related to AsyncRAT and DCRat, written in Portuguese and Spanish. The campaign appears active and ongoing. Organizations should train staff on judicial-themed phishing and inspect emails from unfamiliar senders.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
-   "published": "2026-11-10T15:58:44Z",
-   "added": "2026-11-10T16:30:35Z",
-   "also": []
   }
  ]
 }
