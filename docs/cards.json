@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:30:27Z",
+ "updated": "2026-11-24T08:00:31Z",
  "cards": [
   {
    "id": "6a57f5edfd",
@@ -4136,25 +4136,6 @@
     {
      "source": "CISA KEV",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
-    }
-   ]
-  },
-  {
-   "id": "7d2482c885",
-   "headline": "Fireworks AI discloses breach via cloud provider hack",
-   "summary": "Fireworks, an AI infrastructure startup, disclosed a security breach where attackers gained access to its development machines after compromising a third-party cloud provider. The incident demonstrates supply chain risks affecting AI companies. Fireworks has not detailed the scope of exposed data or the identity of the compromised cloud provider. Customers should review account activity and monitor for suspicious access to deployed AI models.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
-   "published": "2026-11-10T07:49:58Z",
-   "added": "2026-11-10T08:00:40Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html"
     }
    ]
   }
