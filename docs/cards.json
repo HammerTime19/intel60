@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-24T16:00:35Z",
+ "updated": "2026-11-24T16:30:46Z",
  "cards": [
+  {
+   "id": "076062d7e0",
+   "headline": "Carnegie Endowment breach via Soapbox Engage compromise",
+   "summary": "Hackers breached Soapbox Engage, a third-party vendor, and accessed donor information belonging to the Carnegie Endowment for International Peace. The attack resulted in the leak of donation-related data from an unspecified number of donors. The Carnegie Endowment has acknowledged the incident and is working with affected parties.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/carnegie-endowment-data-breach",
+   "published": "2026-11-24T16:00:00Z",
+   "added": "2026-11-24T16:30:45Z",
+   "also": []
+  },
   {
    "id": "d2294fb10f",
    "headline": "European Commission AI-assisted attack exposes EU Academy users",
@@ -13,7 +27,12 @@
    "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
    "published": "2026-11-24T14:49:59Z",
    "added": "2026-11-24T15:00:42Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/"
+    }
+   ]
   },
   {
    "id": "22bf6552c3",
@@ -27,7 +46,12 @@
    "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
    "published": "2026-11-24T14:21:56Z",
    "added": "2026-11-24T14:30:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/"
+    }
+   ]
   },
   {
    "id": "f11098c507",
@@ -79,7 +103,12 @@
    "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
    "published": "2026-11-24T13:28:21Z",
    "added": "2026-11-24T14:00:43Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/"
+    }
+   ]
   },
   {
    "id": "17faeada10",
@@ -4005,61 +4034,6 @@
    "published": "2026-11-10T17:43:23Z",
    "added": "2026-11-10T19:37:55Z",
    "also": []
-  },
-  {
-   "id": "82b5e1a648",
-   "headline": "Xen Orchestra auth bypass actively exploited for VM hijacking",
-   "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited to grant administrator privileges and take over XCP-ng virtualization hosts. Attackers can gain full control of virtual machine infrastructure through the flaw. Active exploitation is confirmed. Organizations running Xen Orchestra should prioritize patching and restrict network access to the management interface.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
-   "published": "2026-11-10T16:17:16Z",
-   "added": "2026-11-10T16:30:35Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
-    }
-   ]
-  },
-  {
-   "id": "0eb55bf159",
-   "headline": "Attackers exploit AhsayCBS flaws to deploy Python backdoor",
-   "summary": "Researchers disclosed attacks exploiting two patched vulnerabilities in AhsayCBS backup software to deliver a Python-based backdoor. The chain of CVE-2026-105133 and CVE-2026-105134 bypasses authentication and executes arbitrary commands on affected systems. Attackers actively exploited the flaws in October 2026 before patches became available. Organizations should apply patches immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-105133",
-    "CVE-2026-105134"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-   "published": "2026-11-10T16:00:55Z",
-   "added": "2026-11-10T16:30:35Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-105133": {
-     "kev": true,
-     "epss": 0.84478,
-     "pct": 0.99704,
-     "cvss": 7.3,
-     "sev": "high",
-     "desc": "A vulnerability was detected in Ahsay AhsayCBS up to 9.15.2.69/10.3.4.44. This affects the function checkSysPwd of the file com/ahsay/obs/api/ApiStructsAction.java of the component API. Performing a manipulation of the argument random results in improper authentication. It is possible to initiate the attack remotely. The exploit is now public and may be used. Upgrading to version 9.15.2.70 and 10.3.4.45 is able to mitigate this issue. It is recommended to upgrade the affected component. The initial patch did not fix the security vulnerability properly. An update of the CVE entry to reflect…"
-    },
-    "CVE-2026-105134": {
-     "kev": true,
-     "epss": 0.81763,
-     "pct": 0.99649,
-     "cvss": 10.0,
-     "sev": "critical",
-     "desc": "A flaw has been found in Ahsay AhsayCBS up to 9.15.2.69/10.3.4.44. This vulnerability affects unknown code of the file /rps/api/json/UpdateReceivers.do of the component Replication Receiver. Executing a manipulation of the argument random can lead to os command injection. It is possible to launch the attack remotely. The exploit has been published and may be used. Upgrading to version 9.15.2.70 and 10.3.4.45 is able to resolve this issue. Upgrading the affected component is advised. The initial patch did not fix the security vulnerability properly. An update of the CVE entry to reflect this…"
-    }
-   },
-   "cve_checked": "2026-11-11T00:05:42Z"
   }
  ]
 }

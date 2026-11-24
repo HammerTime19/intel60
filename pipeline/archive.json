@@ -641,6 +641,13 @@
 "sev": "high",
 "summary": "Russian cloud services provider Beget suffered a data-wiping malware attack that destroyed customer data and forced the company to rebuild its infrastructure from scratch. The incident affected customers using Beget's cloud hosting and related services. The company is currently in recovery. Customers should consider migrating critical workloads and verify data integrity once services are restored."
 },
+"076062d7e0": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "Carnegie Endowment breach via Soapbox Engage compromise",
+"sev": "high",
+"summary": "Hackers breached Soapbox Engage, a third-party vendor, and accessed donor information belonging to the Carnegie Endowment for International Peace. The attack resulted in the leak of donation-related data from an unspecified number of donors. The Carnegie Endowment has acknowledged the incident and is working with affected parties."
+},
 "0946092397": {
 "cves": [],
 "date": "2026-11-09",
