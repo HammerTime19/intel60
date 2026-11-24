@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-24T10:00:40Z",
+ "updated": "2026-11-24T10:30:42Z",
  "cards": [
+  {
+   "id": "06ddd1a688",
+   "headline": "WHMCS SQL injection exposes customer data, admin hashes",
+   "summary": "A SQL injection vulnerability in WHMCS's billing and automation platform allows unauthenticated attackers to retrieve customer records and administrator password hashes from affected databases without authentication. WHMCS disclosed the flaw along with two additional vulnerabilities requiring logged-in access. The platform is widely used by web hosting companies for business operations. Organizations running WHMCS should update immediately to patched versions.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+   "published": "2026-11-24T08:34:20Z",
+   "added": "2026-11-24T10:30:42Z",
+   "also": []
+  },
   {
    "id": "3e9064fe72",
    "headline": "GTA VI hacker sentenced to seven years, released same day",
@@ -4018,67 +4032,6 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/spyware-cyber-crime-iverify"
-    }
-   ]
-  },
-  {
-   "id": "ba7507c6f2",
-   "headline": "Apple patches iMessage group chat privacy flaws",
-   "summary": "Apple released security updates addressing multiple iMessage vulnerabilities affecting iPhone XS, XS Max, XR and iPad (7th generation). One flaw could allow a remote attacker to join a group chat and receive messages; another could let added members access previously sent messages. Updates are available across affected devices. Users should install patches immediately.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
-   "published": "2026-11-10T10:16:51Z",
-   "added": "2026-11-10T11:00:38Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/"
-    }
-   ]
-  },
-  {
-   "id": "0e899e1e6c",
-   "headline": "Hackers actively exploit Barracuda ESG critical flaws for root access",
-   "summary": "Barracuda Networks confirmed that attackers are actively exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that allow remote code execution with root privileges. The flaws are critical and being exploited in the wild. Organizations using Barracuda ESG should immediately apply the latest security patches if not already deployed.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-   "published": "2026-11-10T10:10:20Z",
-   "added": "2026-11-10T10:30:38Z",
-   "also": [
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/"
-    }
-   ]
-  },
-  {
-   "id": "ce0b470d4d",
-   "headline": "SAP patches four CVSS 10.0 flaws in NetWeaver and Web Dispatcher",
-   "summary": "SAP released critical patches for four maximum-severity flaws in NetWeaver application server and Web Dispatcher, all rated CVSS 10.0. Two flaws enable unauthenticated remote code execution. These vulnerabilities are exploitable without authentication, affecting widely deployed enterprise software. Organizations running SAP systems should apply patches immediately as exploitation risk is extremely high.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-   "published": "2026-11-10T10:02:40Z",
-   "added": "2026-11-10T10:30:38Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/"
     }
    ]
   }

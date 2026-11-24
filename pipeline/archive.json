@@ -615,6 +615,13 @@
 "sev": "critical",
 "summary": "A supply chain attack on Optimizely injected malicious JavaScript into major websites including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab. The malware targets visitors to steal cryptocurrency and payment card information and exploit iOS device vulnerabilities. Defenders should clear browser cache and monitor accounts for suspicious activity."
 },
+"06ddd1a688": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "WHMCS SQL injection exposes customer data, admin hashes",
+"sev": "critical",
+"summary": "A SQL injection vulnerability in WHMCS's billing and automation platform allows unauthenticated attackers to retrieve customer records and administrator password hashes from affected databases without authentication. WHMCS disclosed the flaw along with two additional vulnerabilities requiring logged-in access. The platform is widely used by web hosting companies for business operations. Organizations running WHMCS should update immediately to patched versions."
+},
 "073e03d22d": {
 "cves": [],
 "date": "2026-11-09",
