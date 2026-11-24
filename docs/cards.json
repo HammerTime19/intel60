@@ -1,6 +1,58 @@
 {
- "updated": "2026-11-24T13:30:30Z",
+ "updated": "2026-11-24T14:00:45Z",
  "cards": [
+  {
+   "id": "f11098c507",
+   "headline": "UK cyber agency warns of marked rise in AI-driven attacks",
+   "summary": "Britain's National Cyber Security Centre has observed a marked increase in cyberattacks assisted by artificial intelligence since September. The agency warns that AI is amplifying attacker capabilities by increasing speed, scale, and persistence in campaigns. Organizations should expect defenders to face more sophisticated and faster-moving threats.",
+   "severity": "info",
+   "category": "Policy",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/cyberattacks-uk-artificial-intelligence",
+   "published": "2026-11-24T13:45:00Z",
+   "added": "2026-11-24T14:00:43Z",
+   "also": []
+  },
+  {
+   "id": "db22ce6bdf",
+   "headline": "VMware vCenter auth bypass flaw exploited in the wild",
+   "summary": "Broadcom patched a critical 9.8-rated authentication bypass vulnerability in VMware vCenter's Directory Service (CVE-2026-123903). The flaw is being actively exploited and allows unauthenticated access. Broadcom released fixes for 23 vulnerabilities across vCenter, ESX, Workstation, Fusion, and Avi Load Balancer. Administrators should prioritize patching this critical flaw immediately.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-123903"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+   "published": "2026-11-24T13:28:26Z",
+   "added": "2026-11-24T14:00:43Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-123903": {
+     "kev": false,
+     "cvss": null,
+     "sev": null
+    }
+   },
+   "cve_checked": "2026-11-24T14:00:44Z"
+  },
+  {
+   "id": "0c4445d4cc",
+   "headline": "ShinyHunters rebrands as INCEPTION, continues vishing attacks",
+   "summary": "A threat cluster affiliated with the ShinyHunters extortion group has rebranded under the name INCEPTION, according to Okta's Threat Intelligence team. The group, tracked as O-UNC-053, uses voice phishing attacks to trick targets into entering credentials on phishing pages and approving authentication requests. The campaign continues the same operational tactics under new branding.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+   "published": "2026-11-24T13:28:21Z",
+   "added": "2026-11-24T14:00:43Z",
+   "also": []
+  },
   {
    "id": "17faeada10",
    "headline": "McDonald's Japan breach exposes purchase and location data",

@@ -322,6 +322,10 @@
 "name": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
 "sev": "critical"
 },
+"CVE-2026-123903": {
+"date": "2026-11-24",
+"kev": false
+},
 "CVE-2026-124194": {
 "cvss": 6.5,
 "date": "2026-11-10",
@@ -699,6 +703,13 @@
 "headline": "CISA adds Openwave Webtop Media Transcoder flaw",
 "sev": "high",
 "summary": "CISA added CVE-2026-111793, an improper resource transfer vulnerability in Openwave Messaging Limited Webtop Media Transcoder, to the KEV catalog. Authenticated users can process and convert unintended document types by bypassing the Webmail interface. Federal patch deadline is November 24, 2026."
+},
+"0c4445d4cc": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "ShinyHunters rebrands as INCEPTION, continues vishing attacks",
+"sev": "high",
+"summary": "A threat cluster affiliated with the ShinyHunters extortion group has rebranded under the name INCEPTION, according to Okta's Threat Intelligence team. The group, tracked as O-UNC-053, uses voice phishing attacks to trick targets into entering credentials on phishing pages and approving authentication requests. The campaign continues the same operational tactics under new branding."
 },
 "0d8d39d2f1": {
 "cves": [],
@@ -3358,6 +3369,15 @@
 "sev": "high",
 "summary": "A flaw in Android allows attackers to force devices into continuous boot loops through a specially crafted app that requires no permissions to install. The attack requires only app installation and no elevated privileges. Affected Android devices remain unusable until manually recovered. Users should avoid installing apps from untrusted sources and keep devices updated."
 },
+"db22ce6bdf": {
+"cves": [
+"CVE-2026-123903"
+],
+"date": "2026-11-24",
+"headline": "VMware vCenter auth bypass flaw exploited in the wild",
+"sev": "critical",
+"summary": "Broadcom patched a critical 9.8-rated authentication bypass vulnerability in VMware vCenter's Directory Service (CVE-2026-123903). The flaw is being actively exploited and allows unauthenticated access. Broadcom released fixes for 23 vulnerabilities across vCenter, ESX, Workstation, Fusion, and Avi Load Balancer. Administrators should prioritize patching this critical flaw immediately."
+},
 "dd1c518d70": {
 "cves": [],
 "date": "2026-10-29",
@@ -3669,6 +3689,13 @@
 "headline": "Artex tool automates cyberattacks at machine speed",
 "sev": "high",
 "summary": "The FBI warns that Artex, an open source hacking tool, dramatically accelerates cyberattacks by automating attack technique chaining. Some intrusions progress from initial targeting to privileged access in under three hours. The tool significantly reduces time required for attack execution. Defenders should monitor for Artex usage and implement rapid detection and response capabilities."
+},
+"f11098c507": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "UK cyber agency warns of marked rise in AI-driven attacks",
+"sev": "info",
+"summary": "Britain's National Cyber Security Centre has observed a marked increase in cyberattacks assisted by artificial intelligence since September. The agency warns that AI is amplifying attacker capabilities by increasing speed, scale, and persistence in campaigns. Organizations should expect defenders to face more sophisticated and faster-moving threats."
 },
 "f1397973b7": {
 "cves": [],
