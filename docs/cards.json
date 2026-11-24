@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:30:32Z",
+ "updated": "2026-11-24T12:00:38Z",
  "cards": [
   {
    "id": "a36fd360c1",
@@ -113,7 +113,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
    "published": "2026-11-23T20:54:51Z",
    "added": "2026-11-23T21:00:45Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/"
+    }
+   ]
   },
   {
    "id": "f714b48247",
