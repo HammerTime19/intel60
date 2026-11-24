@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-24T08:30:33Z",
+ "updated": "2026-11-24T09:00:34Z",
  "cards": [
+  {
+   "id": "3e9064fe72",
+   "headline": "GTA VI hacker sentenced to seven years, released same day",
+   "summary": "A British cybercriminal who hacked Rockstar Games and leaked Grand Theft Auto VI footage was sentenced to seven years in prison on Monday but released immediately due to time served. The attacker had previously stolen and distributed unreleased game footage, causing significant damage to the studio. This marks the resolution of a high-profile gaming industry breach case.",
+   "severity": "info",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
+   "published": "2026-11-24T00:00:00Z",
+   "added": "2026-11-24T09:00:34Z",
+   "also": []
+  },
   {
    "id": "6a57f5edfd",
    "headline": "Industrial serial gateways broadcast insecure status",
@@ -4119,25 +4133,6 @@
     }
    },
    "cve_checked": "2026-11-11T00:05:55Z"
-  },
-  {
-   "id": "7e1f9b33c6",
-   "headline": "Google patches eighth Chrome zero-day exploited",
-   "summary": "Google released emergency updates for Chrome to fix a new zero-day vulnerability actively exploited in the wild. This marks the eighth Chrome zero-day patched since the start of 2026. The vulnerability details were not disclosed in the story. Users should update Chrome immediately to the latest version.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-   "published": "2026-11-10T08:51:25Z",
-   "added": "2026-11-10T09:00:36Z",
-   "also": [
-    {
-     "source": "CISA KEV",
-     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
-    }
-   ]
   }
  ]
 }

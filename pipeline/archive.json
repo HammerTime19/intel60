@@ -1299,6 +1299,13 @@
 "sev": "critical",
 "summary": "CVE-2026-58115, a critical missing authentication flaw in Siemens SIMATIC IoT2050 Advanced devices, is under active exploitation. The CVSS 10.0 vulnerability allows unauthenticated remote attackers to execute arbitrary code and establish backdoors. Siemens customers should prioritize patching affected systems and monitor for suspicious command execution activity."
 },
+"3e9064fe72": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "GTA VI hacker sentenced to seven years, released same day",
+"sev": "info",
+"summary": "A British cybercriminal who hacked Rockstar Games and leaked Grand Theft Auto VI footage was sentenced to seven years in prison on Monday but released immediately due to time served. The attacker had previously stolen and distributed unreleased game footage, causing significant damage to the studio. This marks the resolution of a high-profile gaming industry breach case."
+},
 "3f1b87c2ef": {
 "cves": [
 "CVE-2026-133968"
