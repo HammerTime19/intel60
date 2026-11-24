@@ -3833,6 +3833,13 @@
 "sev": "info",
 "summary": "Italy's data protection authority fined Meta €765 million for accessing Android users' gallery photos and videos on Facebook without proper consent. The violation concerns the smartphone privacy directive requiring free and informed consent for such access. This is a significant enforcement action against unauthorized data collection practices on the Android platform."
 },
+"f52a74730b": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "CIA and ODNI breach exposes unclassified intelligence analysis data",
+"sev": "high",
+"summary": "The CIA and Office of the Director of National Intelligence discovered a breach of an open-source intelligence analysis system, exposing unclassified information. Classified networks and other systems were not compromised. While labeled unclassified, the exposed data includes sensitive OSINT materials like satellite imagery and commercial data feeds that reveal analytical priorities to adversaries. The breach is the latest in a series affecting U.S. security agencies."
+},
 "f53dd46908": {
 "cves": [
 "CVE-2026-118527",

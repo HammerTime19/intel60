@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-24T22:00:38Z",
+ "updated": "2026-11-24T22:30:43Z",
  "cards": [
+  {
+   "id": "f52a74730b",
+   "headline": "CIA and ODNI breach exposes unclassified intelligence analysis data",
+   "summary": "The CIA and Office of the Director of National Intelligence discovered a breach of an open-source intelligence analysis system, exposing unclassified information. Classified networks and other systems were not compromised. While labeled unclassified, the exposed data includes sensitive OSINT materials like satellite imagery and commercial data feeds that reveal analytical priorities to adversaries. The breach is the latest in a series affecting U.S. security agencies.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "CyberScoop",
+   "url": "https://cyberscoop.com/cia-odni-osint-data-breach/",
+   "published": "2026-11-24T22:01:23Z",
+   "added": "2026-11-24T22:30:43Z",
+   "also": []
+  },
   {
    "id": "7f8f5938b0",
    "headline": "China-aligned Webworm APT customizes SoftEther VPN for attacks",
@@ -4009,25 +4023,6 @@
    "published": "2026-11-11T07:21:05Z",
    "added": "2026-11-11T09:00:37Z",
    "also": []
-  },
-  {
-   "id": "16367edd00",
-   "headline": "Railway breach exposes 100k workspaces, $740k fraud",
-   "summary": "Cloud hosting provider Railway disclosed hackers exploited infrastructure vulnerabilities to steal customer authentication secrets. Attackers generated approximately $740,000 in fraudulent AI usage charges. Up to 100,000 workspaces may be affected with exposed credentials. Railway is investigating the breach scope and has begun notifying affected customers. Organizations using Railway should rotate credentials immediately and review account activity for unauthorized access.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
-   "published": "2026-11-10T22:20:19Z",
-   "added": "2026-11-10T22:30:31Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
-    }
-   ]
   }
  ]
 }
