@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-24T17:30:32Z",
+ "updated": "2026-11-24T18:00:40Z",
  "cards": [
+  {
+   "id": "adb18ca6ae",
+   "headline": "Radware breach exposes customer cloud WAF access keys",
+   "summary": "Radware disclosed a breach where attackers gained access to customer account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API left exposed online. The compromised keys could grant unauthorized access to customers' cloud environments. Affected customers should immediately rotate their cloud access keys and audit recent API activity for signs of unauthorized access.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+   "published": "2026-11-24T17:49:05Z",
+   "added": "2026-11-24T18:00:39Z",
+   "also": []
+  },
+  {
+   "id": "6b48789d11",
+   "headline": "Iran-aligned Volant Manticore uses IPFS backdoor KuboShell",
+   "summary": "Volant Manticore, an Iran-aligned cyber espionage group, targeted telecommunications companies, airlines, and critical infrastructure in Cyprus using a backdoor called KuboShell. The malware uses the InterPlanetary File System (IPFS) for command-and-control communications and deploys Homa, a post-compromise framework. No patch or immediate mitigation is available; organizations in targeted sectors should monitor for suspicious IPFS-based communications and strengthen access controls.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+   "published": "2026-11-24T16:54:07Z",
+   "added": "2026-11-24T18:00:39Z",
+   "also": []
+  },
   {
    "id": "076062d7e0",
    "headline": "Carnegie Endowment breach via Soapbox Engage compromise",
@@ -690,6 +718,10 @@
     {
      "source": "The Record",
      "url": "https://therecord.media/fbi-cyberattack-data-breach"
+    },
+    {
+     "source": "CyberScoop",
+     "url": "https://cyberscoop.com/kash-patel-fbi-ncic-database-hack/"
     }
    ]
   },
@@ -4024,20 +4056,6 @@
    "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
    "published": "2026-11-10T18:11:54Z",
    "added": "2026-11-10T18:30:33Z",
-   "also": []
-  },
-  {
-   "id": "3ac35ff647",
-   "headline": "Three China-nexus espionage campaigns linked via Sparrow",
-   "summary": "Check Point Research identified three distinct espionage clusters sharing infrastructure and malware code, tracked as SilentDelivery and other names, targeting telecommunications, government, military, research, and critical infrastructure across Latin America, Asia, and Europe over the past year. The campaigns use the Sparrow malware ecosystem for coordinated operations against multiple regions and sectors.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-   "published": "2026-11-10T17:43:23Z",
-   "added": "2026-11-10T19:37:55Z",
    "also": []
   }
  ]

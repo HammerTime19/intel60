@@ -1956,6 +1956,13 @@
 "sev": "high",
 "summary": "DigiCert suffered a data breach when a server migration mistakenly exposed an internal business system to the internet. Unauthorized attackers gained access to customer information and identity documents. DigiCert is investigating the incident and notifying affected customers. Organizations using DigiCert services should monitor for potential misuse of exposed data and review their certificate management practices."
 },
+"6b48789d11": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "Iran-aligned Volant Manticore uses IPFS backdoor KuboShell",
+"sev": "high",
+"summary": "Volant Manticore, an Iran-aligned cyber espionage group, targeted telecommunications companies, airlines, and critical infrastructure in Cyprus using a backdoor called KuboShell. The malware uses the InterPlanetary File System (IPFS) for command-and-control communications and deploys Homa, a post-compromise framework. No patch or immediate mitigation is available; organizations in targeted sectors should monitor for suspicious IPFS-based communications and strengthen access controls."
+},
 "6c321513c1": {
 "cves": [],
 "date": "2026-11-11",
@@ -2895,6 +2902,13 @@
 "headline": "Windows SignDrop zero-day grants SYSTEM privileges",
 "sev": "critical",
 "summary": "Security researcher Abdelhamid Naceri released a Windows zero-day exploit allowing attackers to gain SYSTEM privileges. The vulnerability, named SignDrop, has been publicly disclosed with proof-of-concept code. Windows users should monitor security bulletins for patches and consider restricting user privileges pending mitigation to reduce exploitation risk."
+},
+"adb18ca6ae": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "Radware breach exposes customer cloud WAF access keys",
+"sev": "high",
+"summary": "Radware disclosed a breach where attackers gained access to customer account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API left exposed online. The compromised keys could grant unauthorized access to customers' cloud environments. Affected customers should immediately rotate their cloud access keys and audit recent API activity for signs of unauthorized access."
 },
 "adcc13fa97": {
 "cves": [],
