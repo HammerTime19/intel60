@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-24T14:00:45Z",
+ "updated": "2026-11-24T14:30:36Z",
  "cards": [
+  {
+   "id": "22bf6552c3",
+   "headline": "Check Point Security Management Servers breached via AI campaign",
+   "summary": "Attackers compromised Check Point Security Management Servers using an AI-assisted campaign originating from 99 IP addresses, targeting organizations globally across multiple sectors. The breach's scope and impact remain under investigation. Organizations using Check Point security infrastructure should review access logs, reset credentials, and patch systems to identify and prevent further compromise.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+   "published": "2026-11-24T14:21:56Z",
+   "added": "2026-11-24T14:30:36Z",
+   "also": []
+  },
   {
    "id": "f11098c507",
    "headline": "UK cyber agency warns of marked rise in AI-driven attacks",
@@ -65,7 +79,12 @@
    "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach",
    "published": "2026-11-24T13:00:00Z",
    "added": "2026-11-24T13:00:40Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/"
+    }
+   ]
   },
   {
    "id": "bb2efaa9d0",

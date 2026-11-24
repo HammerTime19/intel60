@@ -1008,6 +1008,13 @@
 "sev": "info",
 "summary": "The U.S. Treasury Department sanctioned Russian and North Korean nationals for laundering earnings of illicit IT workers on behalf of Pyongyang. The sanctions target the financial networks used to obscure proceeds from state-sponsored cyber operations and criminal activities conducted by North Korean operatives."
 },
+"22bf6552c3": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "Check Point Security Management Servers breached via AI campaign",
+"sev": "high",
+"summary": "Attackers compromised Check Point Security Management Servers using an AI-assisted campaign originating from 99 IP addresses, targeting organizations globally across multiple sectors. The breach's scope and impact remain under investigation. Organizations using Check Point security infrastructure should review access logs, reset credentials, and patch systems to identify and prevent further compromise."
+},
 "230bcad0fa": {
 "cves": [],
 "date": "2026-11-10",
