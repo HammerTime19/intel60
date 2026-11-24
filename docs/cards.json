@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:00:41Z",
+ "updated": "2026-11-24T19:30:31Z",
  "cards": [
   {
    "id": "5f76ac4f7c",
@@ -4028,99 +4028,6 @@
    "published": "2026-11-10T20:54:55Z",
    "added": "2026-11-10T21:00:35Z",
    "also": []
-  },
-  {
-   "id": "b86930e183",
-   "headline": "Git patches integer truncation in recursive clone",
-   "summary": "Git fixed an integer truncation flaw in its index handling that allows malicious repositories to execute arbitrary code when cloned recursively with submodules. The vulnerability, CVE-2026-111760, was patched in Git 2.56.1 and backported to versions 2.50.2 through 2.55.1. Users should update immediately to prevent code execution during repository cloning.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-111760"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-   "published": "2026-11-10T19:23:10Z",
-   "added": "2026-11-10T19:38:05Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-111760": {
-     "kev": false,
-     "cvss": 8.0,
-     "sev": "high",
-     "desc": "Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. Prior to 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1, 2.55.1, and 2.56.1, an attacker-controlled repository hosted by the attacker rather than on a normal forge site can exploit git clone --recurse-submodules by causing Git to overwrite a submodule gitfile with a symbolic link. The symbolic link can point to a directory containing attacker-controlled Git configuration or hooks, allowing those hooks or configuration to execute code on…"
-    }
-   },
-   "cve_checked": "2026-11-17T00:30:35Z"
-  },
-  {
-   "id": "b958c22720",
-   "headline": "SGLang RCE exploited to breach NEAR AI servers",
-   "summary": "An attacker exploited a remote code execution vulnerability in SGLang, an open-source inference engine, to compromise one of NEAR AI's inference servers. The attacker gained access to processed requests, including some marked confidential and running inside trusted execution environments. At least 18 agents and approximately 100 users were potentially affected. NEAR AI disclosed the breach this week.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-   "published": "2026-11-10T19:19:39Z",
-   "added": "2026-11-10T19:38:05Z",
-   "also": []
-  },
-  {
-   "id": "50eb1dccf4",
-   "headline": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws",
-   "summary": "Microsoft released its November 2026 Patch Tuesday, addressing a record 1,235 vulnerabilities including an actively exploited Microsoft Outlook zero-day (CVE-2026-124194). The patch surge includes critical RCE flaws in LDAP, Queuing services, and Windows TCP/IP. Organizations should prioritize patching Outlook and critical vulnerabilities immediately, especially for internet-facing systems.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-124194"
-   ],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
-   "published": "2026-11-10T19:07:36Z",
-   "added": "2026-11-10T19:30:37Z",
-   "also": [
-    {
-     "source": "SANS ISC",
-     "url": "https://isc.sans.edu/diary/rss/33508"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/microsoft-patch-tuesday-november-2026/"
-    },
-    {
-     "source": "Krebs on Security",
-     "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/"
-    },
-    {
-     "source": "Dark Reading",
-     "url": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-124194": {
-     "kev": true,
-     "cvss": 6.5,
-     "sev": "medium",
-     "desc": "Product ui does not warn user of unsafe actions in Microsoft Office Outlook allows an unauthorized attacker to perform spoofing over a network."
-    }
-   },
-   "cve_checked": "2026-11-11T02:00:52Z"
   }
  ]
 }
