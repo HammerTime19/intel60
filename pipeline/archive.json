@@ -527,6 +527,14 @@
 "kev": true,
 "sev": "critical"
 },
+"CVE-2026-87268": {
+"cvss": 7.8,
+"date": "2026-11-24",
+"desc": "Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is 7.2.16. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. Note: This vulnerability applies to Windows host only. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+"epss": 0.00161,
+"kev": false,
+"sev": "high"
+},
 "CVE-2026-90436": {
 "cvss": 9.8,
 "date": "2026-11-18",
@@ -836,6 +844,13 @@
 "headline": "Synology DSM improper encoding RCE, CISA KEV",
 "sev": "critical",
 "summary": "Synology DiskStation Manager contains an improper encoding or escaping vulnerability in the system plugin daemon that allows remote attackers to execute arbitrary code. CISA added this to the KEV catalog with a federal patching deadline of November 21, 2026."
+},
+"17faeada10": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "McDonald's Japan breach exposes purchase and location data",
+"sev": "high",
+"summary": "McDonald's Japan disclosed a cybersecurity breach exposing customers' purchase histories and mobile device location data. The breach was discovered and disclosed to customers. No details on the number of affected individuals, attack method, or remediation steps were provided in the initial disclosure."
 },
 "18836a2757": {
 "cves": [],
@@ -3008,6 +3023,15 @@
 "headline": "Apple patches iMessage group chat privacy flaws",
 "sev": "high",
 "summary": "Apple released security updates addressing multiple iMessage vulnerabilities affecting iPhone XS, XS Max, XR and iPad (7th generation). One flaw could allow a remote attacker to join a group chat and receive messages; another could let added members access previously sent messages. Updates are available across affected devices. Users should install patches immediately."
+},
+"bb2efaa9d0": {
+"cves": [
+"CVE-2026-87268"
+],
+"date": "2026-11-24",
+"headline": ".NET Framework bit flip bypasses Windows code integrity",
+"sev": "high",
+"summary": "A flaw in how the .NET Framework loads program files allows a local attacker to execute untrusted code despite Windows code integrity protections. Google Project Zero researcher James Forshaw demonstrated the same behavior also bypassed Oracle VirtualBox hardening on Windows. The issue affects .NET loading mechanisms and requires local access to exploit."
 },
 "bb59c1759a": {
 "cves": [],

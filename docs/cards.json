@@ -1,6 +1,47 @@
 {
- "updated": "2026-11-24T12:30:30Z",
+ "updated": "2026-11-24T13:00:41Z",
  "cards": [
+  {
+   "id": "17faeada10",
+   "headline": "McDonald's Japan breach exposes purchase and location data",
+   "summary": "McDonald's Japan disclosed a cybersecurity breach exposing customers' purchase histories and mobile device location data. The breach was discovered and disclosed to customers. No details on the number of affected individuals, attack method, or remediation steps were provided in the initial disclosure.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach",
+   "published": "2026-11-24T13:00:00Z",
+   "added": "2026-11-24T13:00:40Z",
+   "also": []
+  },
+  {
+   "id": "bb2efaa9d0",
+   "headline": ".NET Framework bit flip bypasses Windows code integrity",
+   "summary": "A flaw in how the .NET Framework loads program files allows a local attacker to execute untrusted code despite Windows code integrity protections. Google Project Zero researcher James Forshaw demonstrated the same behavior also bypassed Oracle VirtualBox hardening on Windows. The issue affects .NET loading mechanisms and requires local access to exploit.",
+   "severity": "high",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-87268"
+   ],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+   "published": "2026-11-24T12:02:00Z",
+   "added": "2026-11-24T13:00:40Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-87268": {
+     "kev": false,
+     "epss": 0.00161,
+     "pct": 0.05227,
+     "cvss": 7.8,
+     "sev": "high",
+     "desc": "Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is 7.2.16. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. Note: This vulnerability applies to Windows host only. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H)."
+    }
+   },
+   "cve_checked": "2026-11-24T13:00:40Z"
+  },
   {
    "id": "a36fd360c1",
    "headline": "Attackers exploit internet-exposed refrigeration controllers across Europe",
@@ -3972,83 +4013,6 @@
    "published": "2026-11-10T14:31:00Z",
    "added": "2026-11-10T15:00:37Z",
    "also": []
-  },
-  {
-   "id": "633b52d336",
-   "headline": "Russian hackers breach Romania, Kazakhstan government email servers",
-   "summary": "Russian state-linked hackers compromised government email servers in Romania and Kazakhstan to intercept NATO and EU correspondence. The breach enabled espionage on sensitive diplomatic communications between Eastern European governments and Western institutions. No immediate remediation details were disclosed. Organizations should conduct forensic investigations, rotate credentials, and review email logs for unauthorized access.",
-   "severity": "critical",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan",
-   "published": "2026-11-10T13:00:00Z",
-   "added": "2026-11-10T13:30:35Z",
-   "also": []
-  },
-  {
-   "id": "4197e6ee02",
-   "headline": "Apple patches nine vulnerabilities across iOS, macOS, watchOS",
-   "summary": "Apple released updates fixing nine vulnerabilities across iOS 26, 27, iPadOS, macOS, watchOS, and visionOS. CVE-2026-113960 and CVE-2026-113961 enable message access in iMessage group chats. CVE-2026-113963 allows app access to sensitive user data. CVE-2026-113964 bypasses Bluetooth pairing code rate limits. Apply updates to patch privacy and authentication flaws.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-113960",
-    "CVE-2026-113961",
-    "CVE-2026-113963",
-    "CVE-2026-113964",
-    "CVE-2026-113971"
-   ],
-   "watch": [],
-   "source": "SANS ISC",
-   "url": "https://isc.sans.edu/diary/rss/33506",
-   "published": "2026-11-10T12:48:55Z",
-   "added": "2026-11-10T13:00:39Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-113960": {
-     "kev": false,
-     "cvss": 6.5,
-     "sev": "medium",
-     "epss": 0.00181,
-     "pct": 0.07737,
-     "desc": "This issue was addressed by removing the vulnerable code. This issue is fixed in HomeView Software Version 27.2, iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A user added to an iMessage group may be able to access messages sent before they joined."
-    },
-    "CVE-2026-113961": {
-     "kev": false,
-     "cvss": 7.5,
-     "sev": "high",
-     "epss": 0.00612,
-     "pct": 0.49839,
-     "desc": "An authorization issue was addressed with improved validation. This issue is fixed in iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 27.2.1. A remote attacker may be able to join an iMessage group chat and receive its messages."
-    },
-    "CVE-2026-113963": {
-     "kev": false,
-     "cvss": 5.5,
-     "sev": "medium",
-     "epss": 0.00138,
-     "pct": 0.03262,
-     "desc": "An authorization issue was addressed with improved state management. This issue is fixed in iOS 27.2.1 and iPadOS 27.2.1, visionOS 27.2.1, watchOS 27.2.1. An app may be able to access sensitive user data."
-    },
-    "CVE-2026-113964": {
-     "kev": false,
-     "cvss": 5.4,
-     "sev": "medium",
-     "epss": 0.00323,
-     "pct": 0.25629,
-     "desc": "A logic issue was addressed with improved state management. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.7.3 and iPadOS 26.7.3, iOS 27.2.1 and iPadOS 27.2.1, macOS Golden Gate 27.2.1, macOS Sequoia 15.8.3, macOS Tahoe 26.7.3, visionOS 27.2.1, watchOS 26.6.1, watchOS 27.2.1. An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction."
-    },
-    "CVE-2026-113971": {
-     "kev": false,
-     "cvss": 3.5,
-     "sev": "low",
-     "epss": 0.00158,
-     "pct": 0.05,
-     "desc": "This issue was addressed by restricting options offered on a locked device. This issue is fixed in iOS 18.7.12 and iPadOS 18.7.12, iOS 26.5 and iPadOS 26.5. An attacker with physical access may be able to pair a device with an AirPlay receiver from the lock screen."
-    }
-   },
-   "cve_checked": "2026-11-12T23:00:48Z"
   }
  ]
 }
