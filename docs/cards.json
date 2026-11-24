@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:30:46Z",
+ "updated": "2026-11-24T17:00:34Z",
  "cards": [
   {
    "id": "076062d7e0",
@@ -81,7 +81,12 @@
    "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
    "published": "2026-11-24T13:28:26Z",
    "added": "2026-11-24T14:00:43Z",
-   "also": [],
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-123903": {
      "kev": false,
