@@ -1336,6 +1336,13 @@
 "sev": "high",
 "summary": "Check Point Research identified three distinct espionage clusters sharing infrastructure and malware code, tracked as SilentDelivery and other names, targeting telecommunications, government, military, research, and critical infrastructure across Latin America, Asia, and Europe over the past year. The campaigns use the Sparrow malware ecosystem for coordinated operations against multiple regions and sectors."
 },
+"3b8d0a7e0d": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "Immigration systems in six African countries vulnerable to takeover",
+"sev": "critical",
+"summary": "Visa and immigration systems in Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji, and Ghana contain flaws that could allow attackers to disrupt traveler entry. The vulnerabilities affect online processing systems critical to border control. Patches are likely needed; affected countries should prioritize remediation of these critical entry-point systems."
+},
 "3c0c651efe": {
 "cves": [],
 "date": "2026-11-09",
@@ -2361,6 +2368,13 @@
 "headline": "Microsoft urges Entra ID migration to phishing-resistant passkeys",
 "sev": "info",
 "summary": "Microsoft is pushing Entra ID administrators to migrate users to passkeys before retiring SMS and voice authentication in February 2027. The move aims to reduce sign-in disruptions and improve security by replacing weaker phone-based authentication. Passkeys offer phishing-resistant authentication compared to traditional passwords or SMS codes. Admins should begin migration planning now to meet the February 2027 deadline."
+},
+"7f8f5938b0": {
+"cves": [],
+"date": "2026-11-24",
+"headline": "China-aligned Webworm APT customizes SoftEther VPN for attacks",
+"sev": "high",
+"summary": "Webworm, a China-aligned espionage group, has rebuilt open-source SoftEther VPN from source code, removing security artifacts that typically expose malware to detection. The customized VPN serves as an intrusion tool. Organizations should monitor for unusual VPN traffic and implement network segmentation to limit lateral movement."
 },
 "7fc0ff6aee": {
 "cves": [],
