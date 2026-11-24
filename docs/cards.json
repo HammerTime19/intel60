@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:30:43Z",
+ "updated": "2026-11-24T23:00:36Z",
  "cards": [
   {
    "id": "f52a74730b",
@@ -13,7 +13,12 @@
    "url": "https://cyberscoop.com/cia-odni-osint-data-breach/",
    "published": "2026-11-24T22:01:23Z",
    "added": "2026-11-24T22:30:43Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/"
+    }
+   ]
   },
   {
    "id": "7f8f5938b0",
