@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:00:43Z",
+ "updated": "2026-11-24T15:30:34Z",
  "cards": [
   {
    "id": "d2294fb10f",
@@ -372,6 +372,10 @@
     {
      "source": "CISA KEV",
      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+    },
+    {
+     "source": "The Record",
+     "url": "https://therecord.media/cisa-nable-cybersecurity-bug"
     }
    ],
    "cve_info": {
