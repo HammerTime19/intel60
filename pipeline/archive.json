@@ -6,6 +6,16 @@
 "epss": 0.07799,
 "kev": false
 },
+"CVE-2023-25915": {
+"cvss": 8.8,
+"date": "2026-11-25",
+"desc": "Due to improper input validation, an authenticated remote attacker could execute arbitrary commands on the target system.",
+"due": "2026-11-28",
+"epss": 0.01431,
+"kev": true,
+"name": "Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+"sev": "high"
+},
 "CVE-2024-10441": {
 "cvss": 9.8,
 "date": "2026-11-18",
@@ -407,6 +417,26 @@
 "kev": true,
 "name": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
 "sev": "high"
+},
+"CVE-2026-133323": {
+"cvss": 9.8,
+"date": "2026-11-25",
+"desc": "A vulnerability in the Audio, Web, and Video Conferencing (AWV) component of Mitel MiCollab through 10.3 (10.3.0.18) could allow an unauthenticated attacker to conduct a blind command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands within the context of the system. This is MTLVULN-1864.",
+"due": "2026-11-28",
+"epss": 0.02546,
+"kev": true,
+"name": "Mitel MiCollab OS Command Injection Vulnerability",
+"sev": "critical"
+},
+"CVE-2026-133469": {
+"cvss": 9.8,
+"date": "2026-11-25",
+"desc": "XO (Xen Orchestra) is a solution to visualize, manage, backup and delegate your XCP-ng (or XenServer) infrastructure. Prior to 6.9.2 and 6.10.1, REST cookie parsing turns authenticationToken=j:%7B%7D into {}. REST authentication passes that object to the XO token provider without requiring a string. The token collection treats {} as an unfiltered lookup and returns its first token; the provider authenticates as that token's owner if it is unexpired. The authenticated /rest/v0/users/me/authentication_tokens route then returns reusable login token IDs. This vulnerability is actively exploited…",
+"due": "2026-11-28",
+"epss": 0.01101,
+"kev": true,
+"name": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+"sev": "critical"
 },
 "CVE-2026-133968": {
 "cvss": 9.8,
@@ -1795,6 +1825,15 @@
 "sev": "high",
 "summary": "A suspected Chinese APT group has updated its EggStreme malware toolkit to evade security detection while targeting government organizations in the Philippines. The group rotates file hashes and infrastructure after exposure to maintain operational effectiveness. Organizations should monitor for evolved variants and strengthen detection mechanisms focusing on behavioral indicators rather than static signatures."
 },
+"55254ad047": {
+"cves": [
+"CVE-2023-25915"
+],
+"date": "2026-11-25",
+"headline": "Danfoss AK-SM 800A input validation flaw added to KEV",
+"sev": "critical",
+"summary": "CISA added CVE-2023-25915, an improper input validation vulnerability in Danfoss AK-SM 800A Series refrigeration controllers, to its Known Exploited Vulnerabilities catalog. The flaw allows remote attackers to execute arbitrary commands on affected systems. Organizations must apply vendor mitigations by November 28, 2026, per CISA BOD 26-04 guidance."
+},
 "56ef05760e": {
 "cves": [],
 "date": "2026-10-29",
@@ -2712,6 +2751,15 @@
 "headline": "RansomwareHelp CTO indicted for wire fraud scheme",
 "sev": "info",
 "summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six-year-old Florida company claiming to decrypt ransomware-locked data, has been charged with wire fraud. An FBI sting found the company was simply buying decryption keys from attackers and charging victims a markup for work never performed, contradicting its claims of proprietary cryptographic recovery methods."
+},
+"934910d428": {
+"cves": [
+"CVE-2026-133323"
+],
+"date": "2026-11-25",
+"headline": "Mitel MiCollab OS command injection added to CISA KEV",
+"sev": "critical",
+"summary": "CISA added CVE-2026-133323, an unauthenticated OS command injection flaw in Mitel MiCollab's Audio, Web, and Video Conferencing component, to its Known Exploited Vulnerabilities catalog. The vulnerability allows remote attackers to execute arbitrary system commands. Organizations using MiCollab must apply vendor mitigations by November 28, 2026, per CISA BOD 26-04 guidance."
 },
 "948be6f589": {
 "cves": [],
@@ -3659,6 +3707,15 @@
 "headline": "ArcticRAT malware expands to full device control with AI",
 "sev": "high",
 "summary": "ArcticRAT, an Android malware, has evolved beyond cryptocurrency theft to achieve complete device control. The cybercrime gang now uses AI to profile and analyze stolen financial information from victims. The malware's expanded capabilities represent an increased threat to mobile device security and financial data protection. Users should apply security patches and avoid installing apps from untrusted sources."
+},
+"e1ea851135": {
+"cves": [
+"CVE-2026-133469"
+],
+"date": "2026-11-25",
+"headline": "Vates Xen Orchestra authentication bypass added to CISA KEV",
+"sev": "critical",
+"summary": "Vates Xen Orchestra contains an improper input validation flaw allowing unauthenticated attackers to bypass authentication and gain administrative privileges using specially crafted authentication tokens with empty JSON objects. The vulnerability has been added to CISA's Known Exploited Vulnerabilities catalog with a federal patching deadline of November 28, 2026. Organizations should apply vendor mitigations immediately or discontinue use if patches are unavailable."
 },
 "e23f07d99f": {
 "cves": [],

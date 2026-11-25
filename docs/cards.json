@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T20:06:41Z",
+ "updated": "2026-11-25T20:31:08Z",
  "cards": [
   {
    "id": "63da0c2dc0",
@@ -213,6 +213,87 @@
     }
    },
    "cve_checked": "2026-11-25T15:00:43Z"
+  },
+  {
+   "id": "934910d428",
+   "headline": "Mitel MiCollab OS command injection added to CISA KEV",
+   "summary": "CISA added CVE-2026-133323, an unauthenticated OS command injection flaw in Mitel MiCollab's Audio, Web, and Video Conferencing component, to its Known Exploited Vulnerabilities catalog. The vulnerability allows remote attackers to execute arbitrary system commands. Organizations using MiCollab must apply vendor mitigations by November 28, 2026, per CISA BOD 26-04 guidance.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-133323"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+   "published": "2026-11-25T00:00:00Z",
+   "added": "2026-11-25T20:30:45Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-133323": {
+     "kev": true,
+     "epss": 0.02546,
+     "pct": 0.85725,
+     "cvss": 9.8,
+     "sev": "critical",
+     "desc": "A vulnerability in the Audio, Web, and Video Conferencing (AWV) component of Mitel MiCollab through 10.3 (10.3.0.18) could allow an unauthenticated attacker to conduct a blind command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands within the context of the system. This is MTLVULN-1864."
+    }
+   },
+   "cve_checked": "2026-11-25T20:30:53Z"
+  },
+  {
+   "id": "55254ad047",
+   "headline": "Danfoss AK-SM 800A input validation flaw added to KEV",
+   "summary": "CISA added CVE-2023-25915, an improper input validation vulnerability in Danfoss AK-SM 800A Series refrigeration controllers, to its Known Exploited Vulnerabilities catalog. The flaw allows remote attackers to execute arbitrary commands on affected systems. Organizations must apply vendor mitigations by November 28, 2026, per CISA BOD 26-04 guidance.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2023-25915"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915",
+   "published": "2026-11-25T00:00:00Z",
+   "added": "2026-11-25T20:30:45Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2023-25915": {
+     "kev": true,
+     "epss": 0.01431,
+     "pct": 0.73235,
+     "cvss": 8.8,
+     "sev": "high",
+     "desc": "Due to improper input validation, an authenticated remote attacker could execute arbitrary commands on the target system."
+    }
+   },
+   "cve_checked": "2026-11-25T20:30:59Z"
+  },
+  {
+   "id": "e1ea851135",
+   "headline": "Vates Xen Orchestra authentication bypass added to CISA KEV",
+   "summary": "Vates Xen Orchestra contains an improper input validation flaw allowing unauthenticated attackers to bypass authentication and gain administrative privileges using specially crafted authentication tokens with empty JSON objects. The vulnerability has been added to CISA's Known Exploited Vulnerabilities catalog with a federal patching deadline of November 28, 2026. Organizations should apply vendor mitigations immediately or discontinue use if patches are unavailable.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-133469"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
+   "published": "2026-11-25T00:00:00Z",
+   "added": "2026-11-25T20:30:52Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-133469": {
+     "kev": true,
+     "epss": 0.01101,
+     "pct": 0.65258,
+     "cvss": 9.8,
+     "sev": "critical",
+     "desc": "XO (Xen Orchestra) is a solution to visualize, manage, backup and delegate your XCP-ng (or XenServer) infrastructure. Prior to 6.9.2 and 6.10.1, REST cookie parsing turns authenticationToken=j:%7B%7D into {}. REST authentication passes that object to the XO token provider without requiring a string. The token collection treats {} as an unfiltered lookup and returns its first token; the provider authenticates as that token's owner if it is unexpired. The authenticated /rest/v0/users/me/authentication_tokens route then returns reusable login token IDs. This vulnerability is actively exploited…"
+    }
+   },
+   "cve_checked": "2026-11-25T20:31:06Z"
   },
   {
    "id": "f52a74730b",
