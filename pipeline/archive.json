@@ -1700,6 +1700,13 @@
 "sev": "critical",
 "summary": "Apache Roller contains a critical remote code execution vulnerability being actively exploited by threat actors to compromise vulnerable servers. The flaw allows attackers to execute arbitrary code and gain control of affected systems. Apache has released security updates to address the issue. Organizations running Roller should apply patches immediately to mitigate risk."
 },
+"4fcf01c313": {
+"cves": [],
+"date": "2026-11-25",
+"headline": "Florida ransomware recovery CEO indicted for ransom payments",
+"sev": "info",
+"summary": "A federal grand jury indicted the CEO of a ransomware recovery firm on allegations he lied about his services and paid ransoms to cybercriminals. The indictment addresses concerns about firms operating in the ransomware recovery space and their compliance with legal obligations regarding criminal payments."
+},
 "504c4dbc53": {
 "cves": [],
 "date": "2026-11-12",
