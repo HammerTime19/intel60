@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T20:00:56Z",
+ "updated": "2026-11-25T20:06:41Z",
  "cards": [
   {
    "id": "63da0c2dc0",
@@ -3987,29 +3987,6 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/"
-    }
-   ]
-  },
-  {
-   "id": "e2b7ebdc24",
-   "headline": "N-able patches 33 N-central RMM vulnerabilities",
-   "summary": "N-able discovered 33 flaws in its N-central remote monitoring and management platform, allegedly including zero-day vulnerabilities allowing attacker takeover. The company took the platform offline and released a hotfix as a recommended mitigation. Public exploits are reportedly circulating for these vulnerabilities. Organizations using N-central should apply the hotfix immediately.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
-   "published": "2026-11-11T20:05:18Z",
-   "added": "2026-11-11T21:00:40Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
     }
    ]
   }
