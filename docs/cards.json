@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-25T20:31:08Z",
+ "updated": "2026-11-25T21:00:52Z",
  "cards": [
+  {
+   "id": "dbfa2402c8",
+   "headline": "FIFA breach exposes personal and business information",
+   "summary": "FIFA, soccer's international governing body, confirmed that hackers accessed a limited set of personal and business information. The organization is working with authorities and law enforcement to investigate the incident. No details were provided about the number of affected individuals, data types accessed, or the attackers' identity. FIFA urged stakeholders to monitor for suspicious activity and offered guidance on account security.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/fifa-data-breach-limited",
+   "published": "2026-11-25T20:40:00Z",
+   "added": "2026-11-25T21:00:51Z",
+   "also": []
+  },
   {
    "id": "63da0c2dc0",
    "headline": "Italy and Switzerland warn of AI-driven cyberattacks",
@@ -4049,25 +4063,6 @@
     {
      "source": "CyberScoop",
      "url": "https://cyberscoop.com/connectwise-screenconnect-sckit-attack/"
-    }
-   ]
-  },
-  {
-   "id": "4555dea146",
-   "headline": "Fireworks AI breach leaks Notion AI chat transcripts",
-   "summary": "Notion disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts stored by a small number of workspaces. The breach affected Notion's AI service but did not compromise the main Notion platform. Users of Notion AI should review their chat history for potentially exposed sensitive information.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-   "published": "2026-11-11T20:54:20Z",
-   "added": "2026-11-11T21:00:40Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/"
     }
    ]
   }

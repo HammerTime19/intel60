@@ -3634,6 +3634,13 @@
 "sev": "critical",
 "summary": "Broadcom patched a critical 9.8-rated authentication bypass vulnerability in VMware vCenter's Directory Service (CVE-2026-123903). The flaw is being actively exploited and allows unauthenticated access. Broadcom released fixes for 23 vulnerabilities across vCenter, ESX, Workstation, Fusion, and Avi Load Balancer. Administrators should prioritize patching this critical flaw immediately."
 },
+"dbfa2402c8": {
+"cves": [],
+"date": "2026-11-25",
+"headline": "FIFA breach exposes personal and business information",
+"sev": "high",
+"summary": "FIFA, soccer's international governing body, confirmed that hackers accessed a limited set of personal and business information. The organization is working with authorities and law enforcement to investigate the incident. No details were provided about the number of affected individuals, data types accessed, or the attackers' identity. FIFA urged stakeholders to monitor for suspicious activity and offered guidance on account security."
+},
 "dd1c518d70": {
 "cves": [],
 "date": "2026-10-29",
