@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:30:32Z",
+ "updated": "2026-11-25T23:00:36Z",
  "cards": [
   {
    "id": "70f66acc3d",
@@ -4067,37 +4067,6 @@
    "published": "2026-11-11T23:01:31Z",
    "added": "2026-11-11T23:30:40Z",
    "also": []
-  },
-  {
-   "id": "ccdd6c7f3f",
-   "headline": "ScreenConnect attacks breach MSPs, deploy rogue access clients",
-   "summary": "ConnectWise is investigating active malware attacks against managed service providers exploiting compromised ScreenConnect environments. Attackers deploy rogue remote-access clients to customer devices, potentially affecting dozens of organizations. The campaign specifically targets MSPs, leveraging their trusted access to customer networks. Organizations should review ScreenConnect logs for unauthorized access and verify the legitimacy of remote-access clients on systems.",
-   "severity": "critical",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-   "published": "2026-11-11T22:56:21Z",
-   "added": "2026-11-11T23:00:36Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html"
-    },
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool"
-    },
-    {
-     "source": "CyberScoop",
-     "url": "https://cyberscoop.com/connectwise-screenconnect-sckit-attack/"
-    }
-   ]
   }
  ]
 }
