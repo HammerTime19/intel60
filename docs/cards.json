@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:30:34Z",
+ "updated": "2026-11-25T17:00:33Z",
  "cards": [
   {
    "id": "75d3be5138",
@@ -3997,20 +3997,6 @@
    "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
    "published": "2026-11-11T18:06:01Z",
    "added": "2026-11-11T18:30:32Z",
-   "also": []
-  },
-  {
-   "id": "d62040292e",
-   "headline": "Iran-backed network directed London synagogue attacks",
-   "summary": "An indictment unsealed by US prosecutors links an Iran-backed network to attacks targeting Jewish and American sites across Europe, including synagogues in Belgium, the Netherlands, and London, as well as U.S. bank buildings in Amsterdam and Paris. The campaign used FaceTime to direct operations. Investigation and prosecution are ongoing.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/iran-backed-network-directed-london-attacks-over-facetime",
-   "published": "2026-11-11T16:57:00Z",
-   "added": "2026-11-11T17:30:36Z",
    "also": []
   }
  ]
