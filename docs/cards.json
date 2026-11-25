@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:00:34Z",
+ "updated": "2026-11-25T10:23:26Z",
  "cards": [
   {
    "id": "916629091c",
@@ -57,6 +57,20 @@
    "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
    "published": "2026-11-25T06:21:12Z",
    "added": "2026-11-25T06:30:33Z",
+   "also": []
+  },
+  {
+   "id": "44ee8f3c74",
+   "headline": "Treasury FinCEN systems taken offline after cyberattack",
+   "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has taken systems offline following an unauthorized access incident affecting a limited subset of systems. No details were disclosed about the scope of the breach, affected data, or attribution. The Treasury is investigating the incident and assessing systems before bringing them back online.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
+   "published": "2026-11-25T00:00:00Z",
+   "added": "2026-11-25T10:23:26Z",
    "also": []
   },
   {
@@ -416,7 +430,12 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
    "published": "2026-11-24T00:00:00Z",
    "added": "2026-11-24T18:30:36Z",
-   "also": [],
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-132165": {
      "kev": true,
