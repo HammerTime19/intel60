@@ -617,6 +617,13 @@
 "sev": "high",
 "summary": "Refrigeration systems across European supermarkets and grocery stores were compromised in a second coordinated attack within recent weeks. Attackers manipulated temperature controls to spoil food inventory. The incidents suggest organized targeting of retail infrastructure. Affected retailers should audit IoT device access controls, change default credentials, and implement network segmentation for critical systems."
 },
+"00f16364ac": {
+"cves": [],
+"date": "2026-11-25",
+"headline": "Microsoft November updates cause authentication issues",
+"sev": "high",
+"summary": "Microsoft confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. The issue affects systems that have deployed the patches. Microsoft is investigating the problem. Affected users should monitor their authentication systems and consider delaying updates until a resolution is confirmed."
+},
 "033b7c10af": {
 "cves": [],
 "date": "2026-11-17",
