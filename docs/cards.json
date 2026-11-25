@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:00:33Z",
+ "updated": "2026-11-25T22:30:32Z",
  "cards": [
   {
    "id": "70f66acc3d",
@@ -190,7 +190,12 @@
    "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
    "published": "2026-11-25T08:12:24Z",
    "added": "2026-11-25T08:30:31Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/"
+    }
+   ]
   },
   {
    "id": "d52512d72b",
@@ -546,7 +551,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-25T16:00:38Z"
+   "cve_checked": "2026-11-25T22:30:32Z"
   },
   {
    "id": "0c4445d4cc",
