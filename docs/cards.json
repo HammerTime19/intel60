@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-25T06:00:34Z",
+ "updated": "2026-11-25T06:30:33Z",
  "cards": [
+  {
+   "id": "d52512d72b",
+   "headline": "WordPress blocks six backdoored WP Connect plugins",
+   "summary": "WordPress removed six plugins from WP Connect after their developer account was compromised on November 22, 2026, allowing attackers to inject malicious code for arbitrary code execution. The WordPress plugins team detected and blocked the threat before official release. Sites with these plugins installed face code execution risk. Update immediately if installed.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+   "published": "2026-11-25T06:21:12Z",
+   "added": "2026-11-25T06:30:33Z",
+   "also": []
+  },
   {
    "id": "f52a74730b",
    "headline": "CIA and ODNI breach exposes unclassified intelligence analysis data",
