@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-25T21:30:31Z",
+ "updated": "2026-11-25T22:00:33Z",
  "cards": [
+  {
+   "id": "70f66acc3d",
+   "headline": "1Password customer data stolen via employee GitHub compromise",
+   "summary": "1Password disclosed a breach after attackers compromised an employee's corporate GitHub account and used it to deploy malicious code to backend services, stealing customer data. The company detected the unauthorized access and malicious code deployment. Affected customers should monitor for suspicious activity and consider changing master passwords. Organizations should enforce strong authentication, audit GitHub access logs, and monitor code deployments for unauthorized changes.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+   "published": "2026-11-25T21:33:33Z",
+   "added": "2026-11-25T22:00:32Z",
+   "also": []
+  },
   {
    "id": "17a805c0d6",
    "headline": "China's Salt Typhoon integrates Artex AI tool into attacks",

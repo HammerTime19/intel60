@@ -2191,6 +2191,13 @@
 "sev": "high",
 "summary": "An attacker impersonated chatbot services from OpenAI, Anthropic, Meta and others to scan for exposed credentials. The attacker used fake bot identities to search databases and repositories for sensitive data. This technique exploits trust placed in major AI vendors to access information more easily. Organizations should monitor for unusual authentication attempts and review access logs for suspicious bot activity."
 },
+"70f66acc3d": {
+"cves": [],
+"date": "2026-11-25",
+"headline": "1Password customer data stolen via employee GitHub compromise",
+"sev": "high",
+"summary": "1Password disclosed a breach after attackers compromised an employee's corporate GitHub account and used it to deploy malicious code to backend services, stealing customer data. The company detected the unauthorized access and malicious code deployment. Affected customers should monitor for suspicious activity and consider changing master passwords. Organizations should enforce strong authentication, audit GitHub access logs, and monitor code deployments for unauthorized changes."
+},
 "71b12d4849": {
 "cves": [],
 "date": "2026-11-04",
