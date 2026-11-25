@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:00:46Z",
+ "updated": "2026-11-25T07:30:42Z",
  "cards": [
   {
    "id": "d52512d72b",
@@ -167,6 +167,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
     }
    ]
   },
@@ -4026,20 +4030,6 @@
    "source": "SecurityWeek",
    "url": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
    "published": "2026-11-11T08:42:44Z",
-   "added": "2026-11-11T09:00:37Z",
-   "also": []
-  },
-  {
-   "id": "e23f07d99f",
-   "headline": "Microsoft researchers show AI agents backdoored via neurons",
-   "summary": "Researchers demonstrated that AI models can be compromised by editing fewer than 10 rarely used neurons without retraining, injecting hidden backdoors. When a trigger appears, the model executes attacker commands with the agent's own permissions. The attack requires ability to modify model weights. This technique highlights emerging supply-chain risks for organizations deploying AI agents, particularly where model integrity cannot be verified.",
-   "severity": "high",
-   "category": "Research",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
-   "published": "2026-11-11T07:21:05Z",
    "added": "2026-11-11T09:00:37Z",
    "also": []
   }
