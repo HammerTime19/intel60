@@ -1953,6 +1953,13 @@
 "sev": "critical",
 "summary": "An attacker compromised the update system for cPGuard security tool on November 2, delivering a malicious script to Linux servers running version 5.88.25 and later. The script installed a backdoor and exfiltrated password hashes and sensitive files. OPSSHIELD confirmed the breach. Users should update from a trusted source and audit affected systems for unauthorized access."
 },
+"63da0c2dc0": {
+"cves": [],
+"date": "2026-11-25",
+"headline": "Italy and Switzerland warn of AI-driven cyberattacks",
+"sev": "high",
+"summary": "Swiss and Italian cybersecurity agencies have warned about automated cyberattacks powered by autonomous AI agents targeting critical infrastructure organizations. The agencies highlight the emerging threat of AI-driven attacks that operate with minimal human intervention. While specific victims or incidents are not detailed, defenders in critical infrastructure sectors should enhance monitoring for sophisticated automated attack patterns and prepare incident response procedures accordingly."
+},
 "648f474625": {
 "cves": [
 "CVE-2026-126714"
