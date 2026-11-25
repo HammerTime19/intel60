@@ -60,6 +60,16 @@
 "name": "GPUStack Improper Authentication Vulnerability",
 "sev": "critical"
 },
+"CVE-2026-103406": {
+"cvss": 9.8,
+"date": "2026-11-25",
+"desc": "An Improper Neutralization of Special Elements used in an OS Command vulnerability in the AutomatedProvisioner in Juniper Networks Session Smart Conductor allows a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+"due": "2026-11-28",
+"epss": 0.0086,
+"kev": true,
+"name": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+"sev": "critical"
+},
 "CVE-2026-104351": {
 "cvss": 9.9,
 "date": "2026-10-28",
@@ -1301,6 +1311,15 @@
 "headline": "Barracuda critical flaws allow root command execution",
 "sev": "critical",
 "summary": "Barracuda Networks discovered two critical vulnerabilities enabling remote command execution with root privileges on affected devices. The flaws impact Barracuda security appliances widely used by enterprises. The company has advised customers to apply patches immediately. Organizations running Barracuda devices should prioritize updates to prevent unauthorized access and system compromise."
+},
+"375390acfc": {
+"cves": [
+"CVE-2026-103406"
+],
+"date": "2026-11-25",
+"headline": "HPE Juniper Session Smart RCE added to CISA KEV",
+"sev": "critical",
+"summary": "Hewlett Packard Enterprise Juniper Session Smart Conductor and Router contain an OS command injection vulnerability allowing remote attackers to execute arbitrary commands as root via crafted salt minion IDs. CISA added this to the Known Exploited Vulnerabilities catalog with a federal patching deadline of November 28, 2026. Organizations must apply vendor mitigations or discontinue product use if unavailable."
 },
 "3773dc5512": {
 "cves": [],

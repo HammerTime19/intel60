@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:30:32Z",
+ "updated": "2026-11-25T15:00:44Z",
  "cards": [
   {
    "id": "7c0a300934",
@@ -139,6 +139,33 @@
      "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/"
     }
    ]
+  },
+  {
+   "id": "375390acfc",
+   "headline": "HPE Juniper Session Smart RCE added to CISA KEV",
+   "summary": "Hewlett Packard Enterprise Juniper Session Smart Conductor and Router contain an OS command injection vulnerability allowing remote attackers to execute arbitrary commands as root via crafted salt minion IDs. CISA added this to the Known Exploited Vulnerabilities catalog with a federal patching deadline of November 28, 2026. Organizations must apply vendor mitigations or discontinue product use if unavailable.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [
+    "CVE-2026-103406"
+   ],
+   "watch": [],
+   "source": "CISA KEV",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+   "published": "2026-11-25T00:00:00Z",
+   "added": "2026-11-25T15:00:39Z",
+   "also": [],
+   "cve_info": {
+    "CVE-2026-103406": {
+     "kev": true,
+     "epss": 0.0086,
+     "pct": 0.56019,
+     "cvss": 9.8,
+     "sev": "critical",
+     "desc": "An Improper Neutralization of Special Elements used in an OS Command vulnerability in the AutomatedProvisioner in Juniper Networks Session Smart Conductor allows a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID."
+    }
+   },
+   "cve_checked": "2026-11-25T15:00:43Z"
   },
   {
    "id": "f52a74730b",

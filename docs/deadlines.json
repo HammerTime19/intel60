@@ -1,6 +1,17 @@
 {
- "updated": "2026-11-25T14:30:32Z",
+ "updated": "2026-11-25T15:00:43Z",
  "items": [
+  {
+   "cve": "CVE-2026-103406",
+   "vendor": "Hewlett Packard Enterprise (HPE)",
+   "product": "Juniper Session Smart Conductor and Session Smart Router",
+   "name": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+   "added": "2026-11-25",
+   "due": "2026-11-28",
+   "ransomware": false,
+   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
+   "card": "375390acfc"
+  },
   {
    "cve": "CVE-2026-132224",
    "vendor": "Optimizely",
