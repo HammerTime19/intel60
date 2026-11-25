@@ -285,6 +285,10 @@
 "name": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
 "sev": "high"
 },
+"CVE-2026-120705": {
+"date": "2026-11-25",
+"kev": false
+},
 "CVE-2026-123007": {
 "cvss": 8.1,
 "date": "2026-11-18",
@@ -356,6 +360,10 @@
 "desc": "Partially overwritten session files can lead to remote code execution. The files session save handler, which is the default, writes updated session data into the existing session file without first clearing it. If a write is interrupted, the file can contain the beginning of the new session followed by the end of the old one, and bytes of an ordinary string can later be unserialized as objects. An attacker who can influence the session data, for example through session upload progress, and interrupt a write at a suitable point may inject objects, which can lead to code execution when the…",
 "kev": false,
 "sev": "critical"
+},
+"CVE-2026-129243": {
+"date": "2026-11-25",
+"kev": false
 },
 "CVE-2026-129975": {
 "cvss": 8.1,
@@ -2640,6 +2648,16 @@
 "headline": "Russian Turla group uses Cereal toolset on government servers",
 "sev": "critical",
 "summary": "Russian cyberespionage group Turla has deployed a new modular toolset called 'Cereal' to target government Exchange servers in Kazakhstan and Romania. The malware exploits legitimate Microsoft Exchange, Windows, and .NET functions to silently pilfer emails. Notably, it repurposes compromised Exchange servers as command-and-control infrastructure, avoiding external C&C detection. Organizations running Exchange servers should review access logs and implement email security monitoring."
+},
+"92db407f26": {
+"cves": [
+"CVE-2026-120705",
+"CVE-2026-129243"
+],
+"date": "2026-11-25",
+"headline": "GeoServer RCE flaws exploited in active attacks",
+"sev": "critical",
+"summary": "Threat actors are actively exploiting two newly patched vulnerabilities in GeoServer: CVE-2026-120705 (CVSS 8.6, arbitrary file read) and CVE-2026-129243. These flaws enable unauthenticated remote code execution chains. Organizations should prioritize patching GeoServer instances to the latest version and monitor for exploitation attempts."
 },
 "93138fbb4d": {
 "cves": [],
