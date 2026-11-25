@@ -2620,6 +2620,13 @@
 "sev": "high",
 "summary": "A new Windows infostealer called VOLTA-AUTODOXER leverages Claude, Gemini, and Kimi AI models to categorize stolen credentials by monetization value. The malware harvests passwords and cookies from Chromium browsers, Outlook profiles, and Slack workspaces. Researchers discovered this AI-enhanced targeting approach among typical data theft capabilities. The use of LLMs to prioritize victims based on financial value represents an escalation in infostealer sophistication and attack efficiency."
 },
+"916629091c": {
+"cves": [],
+"date": "2026-11-25",
+"headline": "Hex.pm package registry servers compromised via RCE flaw",
+"sev": "critical",
+"summary": "Attackers exploited a CVSS 10.0 remote code execution vulnerability in Hex.pm, the package registry for Elixir and Erlang developers, to compromise six production servers. The flaw existed since February 2016. The Hex.pm team patched all affected servers within 15 minutes of detecting the malicious request. Developers should verify package integrity and monitor for supply chain impacts."
+},
 "923e1bc8d6": {
 "cves": [],
 "date": "2026-11-10",

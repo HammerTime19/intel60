@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-25T09:30:47Z",
+ "updated": "2026-11-25T10:00:34Z",
  "cards": [
+  {
+   "id": "916629091c",
+   "headline": "Hex.pm package registry servers compromised via RCE flaw",
+   "summary": "Attackers exploited a CVSS 10.0 remote code execution vulnerability in Hex.pm, the package registry for Elixir and Erlang developers, to compromise six production servers. The flaw existed since February 2016. The Hex.pm team patched all affected servers within 15 minutes of detecting the malicious request. Developers should verify package integrity and monitor for supply chain impacts.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+   "published": "2026-11-25T09:06:59Z",
+   "added": "2026-11-25T10:00:33Z",
+   "also": []
+  },
   {
    "id": "00f16364ac",
    "headline": "Microsoft November updates cause authentication issues",
