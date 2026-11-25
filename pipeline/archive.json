@@ -1981,6 +1981,13 @@
 "sev": "high",
 "summary": "NIST has finalized guidance on post-quantum cryptography to prepare for threats that will break current encryption standards. A GAO report shows US agencies are behind schedule in implementing these new defenses. Organizations should begin transitioning to post-quantum algorithms to protect sensitive data against future quantum-enabled attacks."
 },
+"6a20b92f56": {
+"cves": [],
+"date": "2026-11-25",
+"headline": "Palo Alto Networks Fragnesia flaw exploited in 25 servers",
+"sev": "critical",
+"summary": "China-linked attackers exploited the Fragnesia vulnerability in Palo Alto Networks firewalls to gain root access. The attackers chained Fragnesia with PHP2Shell in AI-assisted attacks affecting 25 servers. Palo Alto Networks has released patches. Organizations should prioritize patching to prevent firmware-level compromise and lateral network movement."
+},
 "6a57f5edfd": {
 "cves": [],
 "date": "2026-11-23",

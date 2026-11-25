@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-25T08:00:34Z",
+ "updated": "2026-11-25T08:30:32Z",
  "cards": [
+  {
+   "id": "6a20b92f56",
+   "headline": "Palo Alto Networks Fragnesia flaw exploited in 25 servers",
+   "summary": "China-linked attackers exploited the Fragnesia vulnerability in Palo Alto Networks firewalls to gain root access. The attackers chained Fragnesia with PHP2Shell in AI-assisted attacks affecting 25 servers. Palo Alto Networks has released patches. Organizations should prioritize patching to prevent firmware-level compromise and lateral network movement.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [
+    "Palo Alto"
+   ],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+   "published": "2026-11-25T08:12:24Z",
+   "added": "2026-11-25T08:30:31Z",
+   "also": []
+  },
   {
    "id": "d52512d72b",
    "headline": "WordPress blocks six backdoored WP Connect plugins",
