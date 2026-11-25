@@ -945,6 +945,13 @@
 "sev": "critical",
 "summary": "Synology DiskStation Manager contains an improper encoding or escaping vulnerability in the system plugin daemon that allows remote attackers to execute arbitrary code. CISA added this to the KEV catalog with a federal patching deadline of November 21, 2026."
 },
+"17a805c0d6": {
+"cves": [],
+"date": "2026-11-25",
+"headline": "China's Salt Typhoon integrates Artex AI tool into attacks",
+"sev": "high",
+"summary": "Microsoft reports that an AI tool named Artex, previously implicated in high-profile breaches, is being rapidly integrated into hacking toolkits by Chinese and North Korean threat groups. The development signals an escalation in AI-assisted cyber operations by state-aligned adversaries. Organizations should monitor for unusual AI-generated phishing, reconnaissance, and exploitation patterns."
+},
 "17faeada10": {
 "cves": [],
 "date": "2026-11-24",

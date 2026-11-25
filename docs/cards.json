@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-25T21:00:52Z",
+ "updated": "2026-11-25T21:30:31Z",
  "cards": [
+  {
+   "id": "17a805c0d6",
+   "headline": "China's Salt Typhoon integrates Artex AI tool into attacks",
+   "summary": "Microsoft reports that an AI tool named Artex, previously implicated in high-profile breaches, is being rapidly integrated into hacking toolkits by Chinese and North Korean threat groups. The development signals an escalation in AI-assisted cyber operations by state-aligned adversaries. Organizations should monitor for unusual AI-generated phishing, reconnaissance, and exploitation patterns.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+   "published": "2026-11-25T21:18:00Z",
+   "added": "2026-11-25T21:30:31Z",
+   "also": []
+  },
   {
    "id": "dbfa2402c8",
    "headline": "FIFA breach exposes personal and business information",
