@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:30:32Z",
+ "updated": "2026-11-25T09:00:32Z",
  "cards": [
   {
    "id": "6a20b92f56",
@@ -4037,20 +4037,6 @@
    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
    "published": "2026-11-11T09:07:27Z",
    "added": "2026-11-11T09:30:35Z",
-   "also": []
-  },
-  {
-   "id": "6c321513c1",
-   "headline": "Intel, AMD patch over 200 vulnerabilities including critical TDX flaws",
-   "summary": "Intel and AMD released patches addressing more than 200 vulnerabilities in November Patch Tuesday. Intel's patches include critical flaws in TDX software, while AMD addresses numerous graphics processor bugs. Organizations running Intel or AMD processors should prioritize updates for TDX and GPU-related patches to mitigate potential privilege escalation and system compromise risks.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
-   "published": "2026-11-11T08:42:44Z",
-   "added": "2026-11-11T09:00:37Z",
    "also": []
   }
  ]
