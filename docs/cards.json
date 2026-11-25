@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T12:00:46Z",
+ "updated": "2026-11-25T12:30:34Z",
  "cards": [
   {
    "id": "916629091c",
@@ -4016,55 +4016,6 @@
    "published": "2026-11-11T13:18:00Z",
    "added": "2026-11-11T13:30:35Z",
    "also": []
-  },
-  {
-   "id": "14caa111ee",
-   "headline": "35k Grok-built apps exposed leaking passwords",
-   "summary": "Researchers found 35,578 of 37,571 Grok AI-built apps publicly accessible without authentication. About 10% contained sensitive data including passwords, internal business information, and confidential records. The exposed apps included tools built by X and SpaceX staff. Users should audit any Grok apps they've deployed and verify access controls are properly configured.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-   "published": "2026-11-11T12:19:40Z",
-   "added": "2026-11-11T13:30:35Z",
-   "also": []
-  },
-  {
-   "id": "6efa2d9b4d",
-   "headline": "Fortinet patches nearly 100 vulnerabilities",
-   "summary": "Fortinet released patches for nearly 100 vulnerabilities across its products. The significant increase in patched flaws follows the company's integration of frontier AI models into its product security testing processes. Details on severity levels and affected products were not disclosed in the announcement.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "Fortinet"
-   ],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
-   "published": "2026-11-11T12:10:14Z",
-   "added": "2026-11-11T12:30:39Z",
-   "also": []
-  },
-  {
-   "id": "b80a24c893",
-   "headline": "eMudhra revokes 8 more CAs after key compromise",
-   "summary": "eMudhra has revoked 8 additional intermediate certificate authorities following its October key compromise incident. Although the 8 CAs' private keys were not directly weakened, a malicious in-house Python script affected them. The company had initially declared these CAs unaffected but subsequently revoked them. This represents an escalating impact from the initial compromise event.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-   "published": "2026-11-11T12:00:53Z",
-   "added": "2026-11-11T12:30:39Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/"
-    }
-   ]
   }
  ]
 }
