@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:30:42Z",
+ "updated": "2026-11-25T08:00:34Z",
  "cards": [
   {
    "id": "d52512d72b",
@@ -31,6 +31,10 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/"
+    },
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/"
     }
    ]
   },
