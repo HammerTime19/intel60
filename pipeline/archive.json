@@ -2287,6 +2287,13 @@
 "sev": "high",
 "summary": "A Russian operation using AI-generated content deployed fake emails and forged government documents to target schools in Peru, Ecuador, and other Latin American countries. The campaign created fake local organizations to amplify reach and credibility. Defenders should enhance email authentication controls, train staff on document verification, and monitor for similar fake organizational entities targeting education institutions."
 },
+"7c0a300934": {
+"cves": [],
+"date": "2026-11-25",
+"headline": "Cyberattacks target ports, pipelines in Latin America",
+"sev": "high",
+"summary": "Critical infrastructure in Latin America, including the Port of Santos in Brazil and a pipeline in Argentina, is facing increasing cyberattack activity targeting industrial systems. The attacks affect multiple industrial sectors across the region. Organizations should strengthen monitoring and incident response capabilities for operational technology systems."
+},
 "7ca8ed11e0": {
 "cves": [
 "CVE-2026-115731"
@@ -3968,6 +3975,13 @@
 "headline": "UK reports record cyber incidents to privacy regulator",
 "sev": "info",
 "summary": "British organizations reported the highest number of cyber incidents ever to the UK's Information Commissioner's Office in 2026. Cybersecurity firms attribute the surge to increased data extortion campaigns and artificial intelligence-powered attacks. The record demonstrates escalating threats to UK entities as threat actors adopt more sophisticated and automated techniques."
+},
+"fa1f50764b": {
+"cves": [],
+"date": "2026-11-25",
+"headline": "Ransomware attack disrupts Guadeloupe hospital cancer care",
+"sev": "critical",
+"summary": "A suspected ransomware attack compromised computer systems at the University Hospital of Guadeloupe, forcing postponement of surgeries and suspension of some cancer treatments. Staff reverted to manual operations. France's national cybersecurity agency is investigating the incident. Healthcare organizations should ensure robust backup systems and ransomware response plans are in place."
 },
 "fa700a4eb8": {
 "cves": [],

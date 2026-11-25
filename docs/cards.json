@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-25T13:30:53Z",
+ "updated": "2026-11-25T14:00:45Z",
  "cards": [
+  {
+   "id": "7c0a300934",
+   "headline": "Cyberattacks target ports, pipelines in Latin America",
+   "summary": "Critical infrastructure in Latin America, including the Port of Santos in Brazil and a pipeline in Argentina, is facing increasing cyberattack activity targeting industrial systems. The attacks affect multiple industrial sectors across the region. Organizations should strengthen monitoring and incident response capabilities for operational technology systems.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "Dark Reading",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+   "published": "2026-11-25T14:00:00Z",
+   "added": "2026-11-25T14:00:45Z",
+   "also": []
+  },
+  {
+   "id": "fa1f50764b",
+   "headline": "Ransomware attack disrupts Guadeloupe hospital cancer care",
+   "summary": "A suspected ransomware attack compromised computer systems at the University Hospital of Guadeloupe, forcing postponement of surgeries and suspension of some cancer treatments. Staff reverted to manual operations. France's national cybersecurity agency is investigating the incident. Healthcare organizations should ensure robust backup systems and ransomware response plans are in place.",
+   "severity": "critical",
+   "category": "Ransomware",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+   "published": "2026-11-25T13:30:00Z",
+   "added": "2026-11-25T14:00:45Z",
+   "also": []
+  },
   {
    "id": "92db407f26",
    "headline": "GeoServer RCE flaws exploited in active attacks",
@@ -105,6 +133,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/"
     }
    ]
   },
@@ -3996,47 +4028,6 @@
    "published": "2026-11-11T14:01:00Z",
    "added": "2026-11-11T14:30:35Z",
    "also": []
-  },
-  {
-   "id": "7ba871700f",
-   "headline": "Asus and Zoom release security patches",
-   "summary": "Asus and Zoom have released security updates addressing multiple vulnerabilities that could enable command execution, memory overwrites, and privilege escalation. Specific CVE details and affected product versions are not provided in the available information. Organizations using these products should apply patches promptly to mitigate exploitation risks.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
-   "published": "2026-11-11T13:58:38Z",
-   "added": "2026-11-11T14:30:35Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html"
-    }
-   ]
-  },
-  {
-   "id": "60ccd3ca4d",
-   "headline": "Citrix and Ivanti patch critical and high-severity flaws",
-   "summary": "Citrix and Ivanti have released patches addressing critical and high-severity vulnerabilities. The flaws could allow attackers to tamper with certificate entries, achieve remote code execution, and compromise affected hosts. Details on specific CVEs and affected products are limited in available reporting. Organizations using Citrix and Ivanti solutions should apply patches promptly to mitigate exploitation risks.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [
-    "Ivanti",
-    "Citrix"
-   ],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
-   "published": "2026-11-11T13:37:19Z",
-   "added": "2026-11-11T14:00:35Z",
-   "also": [
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
-    }
-   ]
   }
  ]
 }
