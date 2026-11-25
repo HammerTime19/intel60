@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T15:00:44Z",
+ "updated": "2026-11-25T15:30:40Z",
  "cards": [
   {
    "id": "7c0a300934",
@@ -44,7 +44,12 @@
    "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
    "published": "2026-11-25T12:48:54Z",
    "added": "2026-11-25T13:30:38Z",
-   "also": [],
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-120705": {
      "kev": false,
@@ -4011,36 +4016,6 @@
      "url": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system"
     }
    ]
-  },
-  {
-   "id": "9c9df925ad",
-   "headline": "AntiFox AI agents hosted on AWS for credential theft",
-   "summary": "Attackers are deploying AntiFox, an open-source agentic penetration-testing platform, on Alibaba Cloud instances to target web services and AWS environments. The tool automates reconnaissance and exploitation tasks, enabling attackers to steal credentials at scale. Organizations should monitor for suspicious AntiFox activity, restrict cloud IAM permissions, and implement multi-factor authentication to mitigate credential theft risks in AWS environments.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [
-    "AWS"
-   ],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
-   "published": "2026-11-11T15:12:59Z",
-   "added": "2026-11-11T15:30:36Z",
-   "also": []
-  },
-  {
-   "id": "a9021fd433",
-   "headline": "Underground actors adopt eBPF Linux rootkits for evasion",
-   "summary": "Threat actors are increasingly using eBPF (extended Berkeley Packet Filter) rootkits to hide malicious activity on Linux systems while evading traditional detection methods. Unlike traditional rootkits, eBPF malware runs without loading kernel modules, making it harder to detect. Security researchers at Flare discovered the techniques spreading through underground forums, where attackers share rootkit source code, tutorials, and exploits targeting Linux infrastructure.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
-   "published": "2026-11-11T15:01:11Z",
-   "added": "2026-11-11T15:03:48Z",
-   "also": []
   }
  ]
 }
