@@ -2163,6 +2163,13 @@
 "sev": "critical",
 "summary": "N-able disclosed CVE-2026-134624, a critical server-side request forgery flaw in its Mail Assure and SpamExperts Hosted Cloud email filtering service. The vulnerability allowed users with high-level API access to open connections to internal systems. The flaw was discovered during investigation of a breach affecting the hosted cloud service. Administrators should apply available patches immediately."
 },
+"75d3be5138": {
+"cves": [],
+"date": "2026-11-25",
+"headline": "Attackers poison NuGet packages targeting .NET developers",
+"sev": "high",
+"summary": "Researchers identified 13 malicious packages on NuGet, Microsoft's package manager, deployed as part of a fake recruitment campaign. The poisoned packages deliver malware to developers' machines, giving attackers system access. .NET developers should audit installed packages, especially those from unknown sources or unusual names, and verify package integrity before deployment."
+},
 "761885e6c0": {
 "cves": [
 "CVE-2026-129975"
