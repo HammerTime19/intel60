@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:00:45Z",
+ "updated": "2026-11-25T14:30:32Z",
  "cards": [
   {
    "id": "7c0a300934",
@@ -4013,20 +4013,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
    "published": "2026-11-11T15:01:11Z",
    "added": "2026-11-11T15:03:48Z",
-   "also": []
-  },
-  {
-   "id": "7fc0ff6aee",
-   "headline": "Threat actors target Qlik Sense with reverse shells",
-   "summary": "Threat actors targeted Qlik Sense servers with PowerShell reverse shell commands during a narrow window in October 2026, primarily against E.U.-based customers. The campaign attempted to stage exploits for Apache ActiveMQ and Veeam but was unsuccessful in delivering payloads. Organizations should monitor Qlik Sense deployments for suspicious activity and ensure patching of underlying vulnerabilities.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-   "published": "2026-11-11T14:01:00Z",
-   "added": "2026-11-11T14:30:35Z",
    "also": []
   }
  ]
