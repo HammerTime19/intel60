@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-26T17:00:35Z",
+ "updated": "2026-11-26T17:30:34Z",
  "cards": [
+  {
+   "id": "42756c94ce",
+   "headline": "GoodGuys phishing campaign targets Google Okta credentials",
+   "summary": "Attackers are running a phishing campaign called \"GoodGuys\" that impersonates major brands including Google, Nvidia, Accenture, and SpaceX. They send fake invitations to paid expert interviews and webinars to trick employees into revealing corporate Google and Okta credentials. Defenders should educate users about these impersonation tactics and enforce additional authentication for credential entry.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+   "published": "2026-11-26T17:15:27Z",
+   "added": "2026-11-26T17:30:34Z",
+   "also": []
+  },
   {
    "id": "17ea7e9dd6",
    "headline": "Remus infostealer harvests Gmail via fake Google Sheets extension",

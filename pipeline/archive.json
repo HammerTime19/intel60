@@ -1571,6 +1571,13 @@
 "sev": "critical",
 "summary": "A sandbox escape vulnerability on iPhones running iOS 26 and 27 allows malicious apps to read other apps' files, potentially exposing seed phrases, private keys, and login credentials. Binance warned of the risk after researcher forcequit published the exploit on GitHub. Apple's latest updates do not include a fix, leaving users vulnerable."
 },
+"42756c94ce": {
+"cves": [],
+"date": "2026-11-26",
+"headline": "GoodGuys phishing campaign targets Google Okta credentials",
+"sev": "high",
+"summary": "Attackers are running a phishing campaign called \"GoodGuys\" that impersonates major brands including Google, Nvidia, Accenture, and SpaceX. They send fake invitations to paid expert interviews and webinars to trick employees into revealing corporate Google and Okta credentials. Defenders should educate users about these impersonation tactics and enforce additional authentication for credential entry."
+},
 "42a9e60af1": {
 "cves": [
 "CVE-2026-104351"
