@@ -1122,6 +1122,13 @@
 "sev": "high",
 "summary": "Nitori, a major Japanese furniture and home accessories retailer, disclosed that attackers accessed its network and may have stolen 37.62 million customer records. The incident represents one of the largest retail data breaches affecting a single retailer. Customers may face identity theft and fraud risks. Affected individuals should monitor accounts for unauthorized activity and consider credit monitoring services."
 },
+"23ec231ca0": {
+"cves": [],
+"date": "2026-11-26",
+"headline": "SYS01 infostealer abuses browser management to steal email",
+"sev": "high",
+"summary": "A new variant of SYS01 infostealer malware, distributed via Meta ads, enrolls browsers into enterprise management to force installation of a credential-stealing extension. The malware targets Gmail and Outlook credentials. Defenders should monitor for unusual browser management enrollment and block malicious Meta ads."
+},
 "2464fd9dd1": {
 "cves": [
 "CVE-2026-123218"

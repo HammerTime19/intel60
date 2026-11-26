@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-26T11:30:33Z",
+ "updated": "2026-11-26T12:00:40Z",
  "cards": [
+  {
+   "id": "23ec231ca0",
+   "headline": "SYS01 infostealer abuses browser management to steal email",
+   "summary": "A new variant of SYS01 infostealer malware, distributed via Meta ads, enrolls browsers into enterprise management to force installation of a credential-stealing extension. The malware targets Gmail and Outlook credentials. Defenders should monitor for unusual browser management enrollment and block malicious Meta ads.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+   "published": "2026-11-26T11:50:17Z",
+   "added": "2026-11-26T12:00:39Z",
+   "also": []
+  },
   {
    "id": "70f66acc3d",
    "headline": "1Password customer data stolen via employee GitHub compromise",
@@ -284,7 +298,12 @@
    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
    "published": "2026-11-25T00:00:00Z",
    "added": "2026-11-25T20:30:45Z",
-   "also": [],
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/"
+    }
+   ],
    "cve_info": {
     "CVE-2026-133323": {
      "kev": true,
@@ -3864,72 +3883,6 @@
    "published": "2026-11-12T12:09:14Z",
    "added": "2026-11-12T13:00:41Z",
    "also": []
-  },
-  {
-   "id": "6b1c381ae9",
-   "headline": "GPUStack authentication bypass exploited in the wild",
-   "summary": "CVE-2026-102895, an authentication bypass in GPUStack GPU cluster management software, is being actively exploited. The vulnerability allows attackers to spoof the X-Gpustack-Real-IP header to bypass authentication by spoofing loopback addresses. Affected versions are prior to 2.2.0 released June 2026. GPUStack administrators should upgrade immediately to patch systems managing AI workloads.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-102895"
-   ],
-   "watch": [],
-   "source": "SANS ISC",
-   "url": "https://isc.sans.edu/diary/rss/33514",
-   "published": "2026-11-12T11:56:24Z",
-   "added": "2026-11-12T12:00:35Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-102895": {
-     "kev": true,
-     "epss": 0.00555,
-     "pct": 0.46664,
-     "cvss": 9.8,
-     "sev": "critical",
-     "desc": "GPUStack is an open-source GPU cluster manager for AI model serving and GPU instance provisioning. Prior to 2.2.0, get_current_user in gpustack/api/auth.py treated a loopback request source as the built-in administrator when force_auth_localhost was false, which was the default. A remote request could appear to originate from 127.0.0.1 because client_ip_getter accepted a same-host reverse proxy peer or a client-supplied X-GPUStack-Real-IP loopback value. The bypass allowed unauthenticated administrative access, including user and model changes, persistent administrator API-key creation…"
-    }
-   },
-   "cve_checked": "2026-11-12T12:00:44Z"
-  },
-  {
-   "id": "f7cf57082e",
-   "headline": "Google sessions hijacked via phishing since August 2026",
-   "summary": "A phishing campaign tracked as Operation CloudFire has stolen live Google sessions from corporate users since mid-August 2026. The attacker designed clean-looking calendar invite links that bypassed standard email security checks. Material Security researchers identified hundreds of malicious domains and took them down. Organizations should implement additional session validation and user awareness training.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-   "published": "2026-11-12T11:51:31Z",
-   "added": "2026-11-12T13:00:41Z",
-   "also": []
-  },
-  {
-   "id": "988b46d175",
-   "headline": "PTC patches critical Windchill and FlexPLM RCE flaw",
-   "summary": "PTC released patches for CVE-2026-126325, a critical vulnerability in Windchill and FlexPLM caused by improper input validation and untrusted data deserialization. The flaw has a CVSS score of 9.2 and enables remote code execution. Administrators should apply patches immediately to prevent exploitation of these widely deployed product lifecycle management tools.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-126325"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-   "published": "2026-11-12T11:33:15Z",
-   "added": "2026-11-12T13:00:41Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-126325": {
-     "kev": false,
-     "cvss": 9.0,
-     "sev": "critical",
-     "desc": "A critical remote code execution (RCE) vulnerability has been reported in PTC Windchill and PTC FlexPLM. The vulnerability may be exploited through the deserialization of untrusted data."
-    }
-   },
-   "cve_checked": "2026-11-12T13:00:42Z"
   }
  ]
 }
