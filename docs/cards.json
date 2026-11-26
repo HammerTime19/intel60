@@ -1,6 +1,34 @@
 {
- "updated": "2026-11-26T15:00:36Z",
+ "updated": "2026-11-26T15:31:01Z",
  "cards": [
+  {
+   "id": "17ea7e9dd6",
+   "headline": "Remus infostealer harvests Gmail via fake Google Sheets extension",
+   "summary": "Remus, an infostealer, is stealing Gmail messages through a malicious Chrome extension impersonating Google Sheets. Threat actors marketed the capability as a zero-day vulnerability in Gmail. Users should audit Chrome extensions for legitimacy and review Gmail account activity. Organizations should enforce browser extension policies and monitor for suspicious Chrome installations.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+   "published": "2026-11-26T15:23:28Z",
+   "added": "2026-11-26T15:30:47Z",
+   "also": []
+  },
+  {
+   "id": "f5eee8a53f",
+   "headline": "North Korea-linked PolinRider poisons 7600 GitHub repositories",
+   "summary": "PolinRider, a North Korea-linked threat actor, has compromised over 7,600 GitHub repositories by injecting a Python loader into utility packages and conftest.py files. The malware disguises itself in legitimate Python imports, with evidence suggesting activity began as early as February 2025. Developers should audit GitHub projects for suspicious dependencies and loader signatures in package configurations.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+   "published": "2026-11-26T15:13:41Z",
+   "added": "2026-11-26T15:30:47Z",
+   "also": []
+  },
   {
    "id": "23ec231ca0",
    "headline": "SYS01 infostealer abuses browser management to steal email",
@@ -169,7 +197,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-26T09:01:01Z"
+   "cve_checked": "2026-11-26T15:30:54Z"
   },
   {
    "id": "916629091c",
@@ -767,10 +795,12 @@
      "kev": true,
      "cvss": null,
      "sev": null,
-     "desc": "Missing Authentication for Critical Function vulnerability in Drupal Drupal core allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Drupal core versions: from 0.0.0 to 10.6.22, from 11.0.0 to 11.3.22, from 11.4.0 to 11.4.13."
+     "desc": "Missing Authentication for Critical Function vulnerability in Drupal Drupal core allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Drupal core versions: from 0.0.0 to 10.6.22, from 11.0.0 to 11.3.22, from 11.4.0 to 11.4.13.",
+     "epss": 0.11053,
+     "pct": 0.96627
     }
    },
-   "cve_checked": "2026-11-26T09:01:08Z"
+   "cve_checked": "2026-11-26T15:31:01Z"
   },
   {
    "id": "bcdfeee02e",
@@ -3748,52 +3778,6 @@
    "published": "2026-11-12T16:04:00Z",
    "added": "2026-11-12T16:30:43Z",
    "also": []
-  },
-  {
-   "id": "50b7d482cf",
-   "headline": "186 fake AI domains deliver ClickFix malware and hijackers",
-   "summary": "Researchers discovered 186 lookalike domains impersonating AI tools to deliver ClickFix-style lures, browser-hijacking malware, and search-hijacking extensions. Dubbed TypoPrompting, the campaign exploits typosquatting to trick users into visiting fraudulent sites. Users should verify URLs carefully, disable suspicious browser extensions, and consider DNS filtering to block known malicious domains.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
-   "published": "2026-11-12T15:15:40Z",
-   "added": "2026-11-12T16:30:43Z",
-   "also": [
-    {
-     "source": "SANS ISC",
-     "url": "https://isc.sans.edu/diary/rss/33518"
-    }
-   ]
-  },
-  {
-   "id": "62ff99ae77",
-   "headline": "Police dismantle Gootloader, CastleRAT, StealC infrastructure",
-   "summary": "Europol and law enforcement from nine countries seized hundreds of servers and domains used by Gootloader, CastleRAT, and StealC malware operations. These campaigns have targeted thousands of organizations globally with information-stealing malware and remote access trojans. The coordinated takedown disrupts major malware distribution networks. Organizations should scan for indicators of compromise from these known malware families and patch vulnerable systems.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-   "published": "2026-11-12T15:07:20Z",
-   "added": "2026-11-12T15:30:32Z",
-   "also": [
-    {
-     "source": "The Record",
-     "url": "https://therecord.media/european-authorities-take-down-stealic-malware-second-time"
-    },
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
-    }
-   ]
   }
  ]
 }

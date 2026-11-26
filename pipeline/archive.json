@@ -409,6 +409,7 @@
 "date": "2026-11-24",
 "desc": "Missing Authentication for Critical Function vulnerability in Drupal Drupal core allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Drupal core versions: from 0.0.0 to 10.6.22, from 11.0.0 to 11.3.22, from 11.4.0 to 11.4.13.",
 "due": "2026-11-27",
+"epss": 0.11053,
 "kev": true,
 "name": "Drupal Core Remote Code Execution Vulnerability"
 },
@@ -955,6 +956,13 @@
 "headline": "China's Salt Typhoon integrates Artex AI tool into attacks",
 "sev": "high",
 "summary": "Microsoft reports that an AI tool named Artex, previously implicated in high-profile breaches, is being rapidly integrated into hacking toolkits by Chinese and North Korean threat groups. The development signals an escalation in AI-assisted cyber operations by state-aligned adversaries. Organizations should monitor for unusual AI-generated phishing, reconnaissance, and exploitation patterns."
+},
+"17ea7e9dd6": {
+"cves": [],
+"date": "2026-11-26",
+"headline": "Remus infostealer harvests Gmail via fake Google Sheets extension",
+"sev": "high",
+"summary": "Remus, an infostealer, is stealing Gmail messages through a malicious Chrome extension impersonating Google Sheets. Threat actors marketed the capability as a zero-day vulnerability in Gmail. Users should audit Chrome extensions for legitimacy and review Gmail account activity. Organizations should enforce browser extension policies and monitor for suspicious Chrome installations."
 },
 "17faeada10": {
 "cves": [],
@@ -4039,6 +4047,13 @@
 "headline": "CISA adds Ivanti Connect Secure upload flaw to KEV",
 "sev": "critical",
 "summary": "CISA added CVE-2026-118527 to its Known Exploited Vulnerabilities catalog. The vulnerability in Ivanti Connect Secure allows authenticated remote attackers to upload files with attacker-controlled content to known disk locations. Exploitable in chains with two other CVEs. Federal agencies must mitigate by November 13, 2026, per BOD 26-04 guidance or discontinue use."
+},
+"f5eee8a53f": {
+"cves": [],
+"date": "2026-11-26",
+"headline": "North Korea-linked PolinRider poisons 7600 GitHub repositories",
+"sev": "high",
+"summary": "PolinRider, a North Korea-linked threat actor, has compromised over 7,600 GitHub repositories by injecting a Python loader into utility packages and conftest.py files. The malware disguises itself in legitimate Python imports, with evidence suggesting activity began as early as February 2025. Developers should audit GitHub projects for suspicious dependencies and loader signatures in package configurations."
 },
 "f66e964ba9": {
 "cves": [],
