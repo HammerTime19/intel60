@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T13:30:31Z",
+ "updated": "2026-11-26T14:00:35Z",
  "cards": [
   {
    "id": "23ec231ca0",
@@ -3827,20 +3827,6 @@
      "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/"
     }
    ]
-  },
-  {
-   "id": "116311b702",
-   "headline": "Chrome and Firefox patch over 180 vulnerabilities",
-   "summary": "Google released Chrome 157 with 83 security fixes, and Mozilla released Firefox 160 addressing 99 vulnerabilities. The updates cover critical and high-severity flaws across both browsers. Users should install updates immediately through automatic update mechanisms or manual checking in browser settings.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
-   "published": "2026-11-12T13:42:09Z",
-   "added": "2026-11-12T14:00:41Z",
-   "also": []
   }
  ]
 }
