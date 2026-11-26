@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T12:00:40Z",
+ "updated": "2026-11-26T12:13:33Z",
  "cards": [
   {
    "id": "23ec231ca0",
@@ -3869,20 +3869,6 @@
      "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
     }
    ]
-  },
-  {
-   "id": "5af74d5ce6",
-   "headline": "AMD Turin CPU flaws leak VM data cross-process",
-   "summary": "Google Cloud identified three CPU side-channel flaws in AMD Turin processors that allow attackers with code on the same processor core to infer data from other processes or the kernel within a VM. Google has mitigated inter-VM and VM-to-host attacks. Customers must apply guest OS patches and perform stop-start operations to protect individual VMs from intra-process attacks.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-   "published": "2026-11-12T12:09:14Z",
-   "added": "2026-11-12T13:00:41Z",
-   "also": []
   }
  ]
 }
