@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T07:30:29Z",
+ "updated": "2026-11-26T08:00:38Z",
  "cards": [
   {
    "id": "70f66acc3d",
@@ -457,7 +457,12 @@
    "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
    "published": "2026-11-24T16:54:07Z",
    "added": "2026-11-24T18:00:39Z",
-   "also": []
+   "also": [
+    {
+     "source": "Dark Reading",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers"
+    }
+   ]
   },
   {
    "id": "076062d7e0",
@@ -718,6 +723,10 @@
     {
      "source": "BleepingComputer",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/"
+    },
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
     }
    ],
    "cve_info": {
