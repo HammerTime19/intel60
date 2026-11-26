@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:00:34Z",
+ "updated": "2026-11-26T20:30:32Z",
  "cards": [
   {
    "id": "42756c94ce",
@@ -3745,20 +3745,6 @@
      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/"
     }
    ]
-  },
-  {
-   "id": "43b2bb31ce",
-   "headline": "Luna Moth extortion group retargets law firms for Microsoft tokens",
-   "summary": "Extortion group Luna Moth is conducting a second campaign against law firms that previously declined to pay ransoms. The threat actors are using social engineering tactics to steal Microsoft access tokens, potentially gaining unauthorized access to victim networks. Law firms should implement stronger access controls and educate staff on token theft techniques.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
-   "published": "2026-11-12T20:09:41Z",
-   "added": "2026-11-12T21:00:40Z",
-   "also": []
   }
  ]
 }
