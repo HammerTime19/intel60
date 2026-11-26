@@ -347,8 +347,11 @@
 "sev": "critical"
 },
 "CVE-2026-123903": {
+"cvss": 9.8,
 "date": "2026-11-24",
-"kev": false
+"desc": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8. Affected versions: VMware vCenter Server 9.1.x.x: fixed in 9.1.2 VMware vCenter Server 9.0.x.x: fixed in 9.0.2.0300 VMware vCenter Server 8.0: fixed in 8.0 U3m VMware Cloud Foundation 5.x: fixed in 5.2.5 VMware Telco Cloud Platform 3.0: fixed in KB463501 VMware Telco Cloud Platform 4.x: fixed in KB463501 VMware Telco Cloud Platform 5.0.x: fixed in KB463501 VMware Telco…",
+"kev": false,
+"sev": "critical"
 },
 "CVE-2026-124194": {
 "cvss": 6.5,
