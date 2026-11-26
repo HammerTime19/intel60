@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T08:30:32Z",
+ "updated": "2026-11-26T09:01:08Z",
  "cards": [
   {
    "id": "70f66acc3d",
@@ -17,6 +17,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/"
     }
    ]
   },
@@ -151,7 +155,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-26T02:30:37Z"
+   "cve_checked": "2026-11-26T09:01:01Z"
   },
   {
    "id": "916629091c",
@@ -737,7 +741,7 @@
      "desc": "Missing Authentication for Critical Function vulnerability in Drupal Drupal core allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Drupal core versions: from 0.0.0 to 10.6.22, from 11.0.0 to 11.3.22, from 11.4.0 to 11.4.13."
     }
    },
-   "cve_checked": "2026-11-26T02:30:44Z"
+   "cve_checked": "2026-11-26T09:01:08Z"
   },
   {
    "id": "bcdfeee02e",
