@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:30:33Z",
+ "updated": "2026-11-26T21:52:50Z",
  "cards": [
   {
    "id": "42756c94ce",
@@ -211,7 +211,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-26T15:30:54Z"
+   "cve_checked": "2026-11-26T21:52:44Z"
   },
   {
    "id": "916629091c",
@@ -814,7 +814,7 @@
      "pct": 0.96627
     }
    },
-   "cve_checked": "2026-11-26T15:31:01Z"
+   "cve_checked": "2026-11-26T21:52:50Z"
   },
   {
    "id": "bcdfeee02e",
@@ -3718,33 +3718,6 @@
     }
    },
    "cve_checked": "2026-11-13T19:00:44Z"
-  },
-  {
-   "id": "e52fb1952d",
-   "headline": "US seizes $1.2B from Binance theft, shuts FaceStealer",
-   "summary": "The Department of Justice and FBI announced coordinated actions against North Korea-linked cryptocurrency theft operations. Federal authorities seized $1.2 billion in stolen cryptocurrency from a Binance breach and dismantled FaceStealer tools used by attackers. The operations target cryptocurrency exchanges and related infrastructure. Defenders should review cryptocurrency security policies and monitor for tool variants.",
-   "severity": "high",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
-   "published": "2026-11-12T21:42:00Z",
-   "added": "2026-11-12T22:00:33Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/"
-    },
-    {
-     "source": "The Hacker News",
-     "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
-    },
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/"
-    }
-   ]
   }
  ]
 }
