@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:30:29Z",
+ "updated": "2026-11-26T20:00:34Z",
  "cards": [
   {
    "id": "42756c94ce",
@@ -3759,25 +3759,6 @@
    "published": "2026-11-12T20:09:41Z",
    "added": "2026-11-12T21:00:40Z",
    "also": []
-  },
-  {
-   "id": "5e7c3d53ea",
-   "headline": "N-able N-central zero-day exploited for miner deployment",
-   "summary": "A newly disclosed zero-day vulnerability in N-able N-central, dubbed \"4EverAble2Shell,\" is being actively exploited to compromise servers and deploy cryptocurrency miners. At least 21 systems have been affected, including 19 running the latest security update. Defenders should prioritize patching and monitoring for unauthorized miner activity on N-central installations.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-   "published": "2026-11-12T19:51:16Z",
-   "added": "2026-11-12T20:00:45Z",
-   "also": [
-    {
-     "source": "SecurityWeek",
-     "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/"
-    }
-   ]
   }
  ]
 }
