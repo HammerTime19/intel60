@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T09:01:08Z",
+ "updated": "2026-11-26T09:30:35Z",
  "cards": [
   {
    "id": "70f66acc3d",
@@ -731,6 +731,10 @@
     {
      "source": "The Hacker News",
      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
+    },
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/"
     }
    ],
    "cve_info": {
@@ -3952,47 +3956,6 @@
    "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
    "published": "2026-11-12T09:38:00Z",
    "added": "2026-11-12T10:00:37Z",
-   "also": []
-  },
-  {
-   "id": "26d811aac8",
-   "headline": "MongoDB pre-auth flaw crashes servers on failover",
-   "summary": "A critical unauthenticated vulnerability in MongoDB Server (CVE-2026-118383) allows attackers to send two requests that crash the database when it is elected to become the primary server during replica set failover. MongoDB has released patches. Administrators should apply fixes promptly to prevent denial of service attacks targeting replica set infrastructure.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-118383"
-   ],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-   "published": "2026-11-12T09:25:00Z",
-   "added": "2026-11-12T10:00:37Z",
-   "also": [],
-   "cve_info": {
-    "CVE-2026-118383": {
-     "kev": false,
-     "epss": 0.00714,
-     "pct": 0.54155,
-     "cvss": 9.0,
-     "sev": "critical",
-     "desc": "A use-after-free in the replication component of MongoDB Server can occur when a newly elected replica set primary completes catch-up. The condition can be caused by requests that do not require authentication, and may result in the server terminating unexpectedly or, under certain conditions, arbitrary code execution in the context of the server process. Replica set members are affected, including the shard and config server replica set members of sharded clusters; standalone mongod instances are not."
-    }
-   },
-   "cve_checked": "2026-11-12T16:30:48Z"
-  },
-  {
-   "id": "3773dc5512",
-   "headline": "Red Hat Quay critical flaw exposes private container images",
-   "summary": "A critical vulnerability in Red Hat Quay allows attackers to steal private container images, overwrite repositories, and establish persistent access. Organizations using Quay should apply patches immediately. The exact CVE and technical details require patching to prevent unauthorized access to containerized applications and infrastructure compromise.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
-   "published": "2026-11-12T09:23:21Z",
-   "added": "2026-11-12T09:30:30Z",
    "also": []
   }
  ]
