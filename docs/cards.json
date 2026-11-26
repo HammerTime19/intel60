@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T09:30:35Z",
+ "updated": "2026-11-26T10:00:32Z",
  "cards": [
   {
    "id": "70f66acc3d",
@@ -3942,20 +3942,6 @@
    "url": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
    "published": "2026-11-12T11:00:00Z",
    "added": "2026-11-12T11:00:39Z",
-   "also": []
-  },
-  {
-   "id": "3ca0085eba",
-   "headline": "Threat actors abuse GSocket for persistent Linux access",
-   "summary": "Multiple threat actors are exploiting GSocket, a legitimate open-source remote access tool, to maintain persistence on Linux servers after gaining initial access through vulnerabilities. The tool's legitimate functionality allows attackers to evade detection even after patching the initial entry points. Organizations should monitor for unauthorized GSocket usage and restrict tool execution.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-   "published": "2026-11-12T09:38:00Z",
-   "added": "2026-11-12T10:00:37Z",
    "also": []
   }
  ]
