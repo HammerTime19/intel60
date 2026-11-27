@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-27T10:00:37Z",
+ "updated": "2026-11-27T10:30:43Z",
  "cards": [
+  {
+   "id": "30a43f231a",
+   "headline": "Drupal critical flaw exploited in active site takeovers",
+   "summary": "Drupal announced a critical vulnerability being actively exploited to breach and takeover unpatched websites. The flaw allows attackers to compromise Drupal installations without authentication. Website administrators should apply security updates immediately. This is the second critical Drupal vulnerability recently exploited in the wild.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+   "published": "2026-11-27T10:10:15Z",
+   "added": "2026-11-27T10:30:29Z",
+   "also": []
+  },
   {
    "id": "15e93fc59e",
    "headline": "Linux kernel NFS server RCE allows remote root access",
@@ -276,7 +290,7 @@
      "sev": null
     }
    },
-   "cve_checked": "2026-11-27T04:00:54Z"
+   "cve_checked": "2026-11-27T10:30:36Z"
   },
   {
    "id": "916629091c",
@@ -889,7 +903,7 @@
      "pct": 0.96627
     }
    },
-   "cve_checked": "2026-11-27T04:01:04Z"
+   "cve_checked": "2026-11-27T10:30:43Z"
   },
   {
    "id": "bcdfeee02e",

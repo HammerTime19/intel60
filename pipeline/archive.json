@@ -1302,6 +1302,13 @@
 "sev": "high",
 "summary": "Researchers disclosed a now-patched vulnerability in OpenAI's ChatGPT that bypassed Lockdown Mode, a feature introduced in June 2026 to prevent data theft from prompt injections. The flaw could enable attackers to silently exfiltrate chat data and conduct phishing attacks without user interaction. OpenAI has patched the vulnerability. Users should verify they are running the latest version of ChatGPT."
 },
+"30a43f231a": {
+"cves": [],
+"date": "2026-11-27",
+"headline": "Drupal critical flaw exploited in active site takeovers",
+"sev": "critical",
+"summary": "Drupal announced a critical vulnerability being actively exploited to breach and takeover unpatched websites. The flaw allows attackers to compromise Drupal installations without authentication. Website administrators should apply security updates immediately. This is the second critical Drupal vulnerability recently exploited in the wild."
+},
 "310fe7a6e4": {
 "cves": [],
 "date": "2026-11-03",
