@@ -2210,6 +2210,13 @@
 "sev": "critical",
 "summary": "VMware vCenter contains a critical authentication bypass vulnerability (CVSS 9.8) allowing network attackers to gain unauthorized access without credentials. Broadcom released fixed versions for all supported branches with no workaround available. vCenter manages ESX hosts and virtual machines across organizations. Administrators should update immediately to prevent unauthorized system access."
 },
+"706168821f": {
+"cves": [],
+"date": "2026-11-27",
+"headline": "Cacti zero-day RCE exploitable via guest access unauthenticated",
+"sev": "critical",
+"summary": "An unpatched zero-day vulnerability in Cacti, an open-source network monitoring tool, enables remote code execution through unauthenticated guest access in just four HTTP requests. No CVE has been assigned yet. The vulnerability is tracked as 4HTTP2SHELL and 4HTTP2ROOT. Organizations using Cacti should immediately investigate exposure and restrict guest access until an official patch is released."
+},
 "70a17c1d3a": {
 "cves": [],
 "date": "2026-10-28",

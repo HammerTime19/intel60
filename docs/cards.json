@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-27T06:00:35Z",
+ "updated": "2026-11-27T06:30:35Z",
  "cards": [
+  {
+   "id": "706168821f",
+   "headline": "Cacti zero-day RCE exploitable via guest access unauthenticated",
+   "summary": "An unpatched zero-day vulnerability in Cacti, an open-source network monitoring tool, enables remote code execution through unauthenticated guest access in just four HTTP requests. No CVE has been assigned yet. The vulnerability is tracked as 4HTTP2SHELL and 4HTTP2ROOT. Organizations using Cacti should immediately investigate exposure and restrict guest access until an official patch is released.",
+   "severity": "critical",
+   "category": "Vulnerability",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+   "published": "2026-11-27T05:48:20Z",
+   "added": "2026-11-27T06:30:35Z",
+   "also": []
+  },
   {
    "id": "42756c94ce",
    "headline": "GoodGuys phishing campaign targets Google Okta credentials",
@@ -120,7 +134,12 @@
    "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
    "published": "2026-11-25T19:39:31Z",
    "added": "2026-11-25T20:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"
+    }
+   ]
   },
   {
    "id": "4fcf01c313",
