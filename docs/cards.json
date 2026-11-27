@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:00:41Z",
+ "updated": "2026-11-27T20:30:30Z",
  "cards": [
   {
    "id": "c33ac200ed",
@@ -3637,20 +3637,6 @@
    "url": "https://cyberscoop.com/copeland-dixell-refrigeration-vulnerabilities/",
    "published": "2026-11-13T21:20:51Z",
    "added": "2026-11-13T21:30:32Z",
-   "also": []
-  },
-  {
-   "id": "e12779d580",
-   "headline": "ArcticRAT malware expands to full device control with AI",
-   "summary": "ArcticRAT, an Android malware, has evolved beyond cryptocurrency theft to achieve complete device control. The cybercrime gang now uses AI to profile and analyze stolen financial information from victims. The malware's expanded capabilities represent an increased threat to mobile device security and financial data protection. Users should apply security patches and avoid installing apps from untrusted sources.",
-   "severity": "high",
-   "category": "Malware",
-   "cves": [],
-   "watch": [],
-   "source": "Dark Reading",
-   "url": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
-   "published": "2026-11-13T20:20:27Z",
-   "added": "2026-11-13T23:00:37Z",
    "also": []
   }
  ]
