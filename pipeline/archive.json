@@ -1225,6 +1225,13 @@
 "sev": "critical",
 "summary": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability at the /guardrails/test_custom_code URI that allows remote attackers to execute arbitrary code via bytecode rewriting. CISA added this to the KEV catalog with a federal patching deadline of December 2, 2026."
 },
+"2778b393e6": {
+"cves": [],
+"date": "2026-11-27",
+"headline": "US Air Force Cloud One platform reportedly breached",
+"sev": "critical",
+"summary": "Hackers have compromised the US Air Force's Cloud One computing platform in what appears to be part of a broader campaign targeting US government agencies. The breach follows recent attacks on the FBI, CIA, and Treasury Department systems. Details on the scope of the compromise and affected data remain limited. Organizations should monitor official government advisories for incident details and recommended mitigations."
+},
 "27b11b6379": {
 "cves": [],
 "date": "2026-11-03",

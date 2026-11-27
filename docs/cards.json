@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-27T15:00:37Z",
+ "updated": "2026-11-27T15:30:37Z",
  "cards": [
+  {
+   "id": "2778b393e6",
+   "headline": "US Air Force Cloud One platform reportedly breached",
+   "summary": "Hackers have compromised the US Air Force's Cloud One computing platform in what appears to be part of a broader campaign targeting US government agencies. The breach follows recent attacks on the FBI, CIA, and Treasury Department systems. Details on the scope of the compromise and affected data remain limited. Organizations should monitor official government advisories for incident details and recommended mitigations.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "published": "2026-11-27T15:09:40Z",
+   "added": "2026-11-27T15:30:37Z",
+   "also": []
+  },
   {
    "id": "4a82d37230",
    "headline": "Japan education ministry government procurement system breached",
@@ -3670,39 +3684,6 @@
    "published": "2026-11-13T16:32:00Z",
    "added": "2026-11-13T17:00:39Z",
    "also": []
-  },
-  {
-   "id": "fb5ac890be",
-   "headline": "Mior and Skyfall attacks breach AMD SEV-SNP VMs",
-   "summary": "Researchers disclosed two attacks exploiting AMD SEV-SNP encrypted virtual machines. Mior requires hypervisor and BIOS control to read VM data and modify memory, while Skyfall needs only hypervisor access. Both bypass security guarantees designed to isolate VMs from malicious hosts. No patch availability mentioned. Organizations using SEV-SNP should investigate exploit requirements and mitigation options.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "The Hacker News",
-   "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
-   "published": "2026-11-13T15:27:05Z",
-   "added": "2026-11-13T16:30:36Z",
-   "also": []
-  },
-  {
-   "id": "e8d212e2e3",
-   "headline": "TSMC confirms employee data breach via cloud provider",
-   "summary": "Taiwan Semiconductor Manufacturing Company confirmed a data breach affecting employee information stored in a third-party cloud service provider, not its own systems. The breach contains no customer or operational data related to TSMC's core business. TSMC customers and supply chain partners face no direct impact; focus remediation on affected employees and cloud provider security review.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
-   "published": "2026-11-13T15:06:00Z",
-   "added": "2026-11-13T15:41:42Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/"
-    }
-   ]
   }
  ]
 }
