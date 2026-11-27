@@ -1997,6 +1997,13 @@
 "sev": "critical",
 "summary": "LNbits, an open-source Bitcoin Lightning wallet system, faces active exploitation and has urged all operators to immediately shut down their servers. Attackers are exploiting a flaw to withdraw funds from affected instances. The project announced upcoming security patches but operators should take servers offline until fixes are available. Defenders running LNbits must shut down immediately and await security updates."
 },
+"62ce00fb3a": {
+"cves": [],
+"date": "2026-11-27",
+"headline": "SAP source code altered via stolen GitHub employee tokens",
+"sev": "critical",
+"summary": "SAP detected suspicious activity on GitHub where attackers used compromised employee credentials to access and modify source code repositories. The incident involved unauthorized copying and alteration of SAP's proprietary code. This represents a significant supply chain risk given SAP's enterprise software prominence. Organizations running SAP systems should monitor for supply chain implications and await official remediation guidance from SAP."
+},
 "62ff99ae77": {
 "cves": [],
 "date": "2026-11-12",

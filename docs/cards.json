@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-27T07:30:30Z",
+ "updated": "2026-11-27T08:00:38Z",
  "cards": [
+  {
+   "id": "62ce00fb3a",
+   "headline": "SAP source code altered via stolen GitHub employee tokens",
+   "summary": "SAP detected suspicious activity on GitHub where attackers used compromised employee credentials to access and modify source code repositories. The incident involved unauthorized copying and alteration of SAP's proprietary code. This represents a significant supply chain risk given SAP's enterprise software prominence. Organizations running SAP systems should monitor for supply chain implications and await official remediation guidance from SAP.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+   "published": "2026-11-27T07:36:14Z",
+   "added": "2026-11-27T08:00:37Z",
+   "also": []
+  },
   {
    "id": "706168821f",
    "headline": "Cacti zero-day RCE exploitable via guest access unauthenticated",
@@ -244,7 +258,12 @@
    "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
    "published": "2026-11-25T09:06:59Z",
    "added": "2026-11-25T10:00:33Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/"
+    }
+   ]
   },
   {
    "id": "00f16364ac",
@@ -3634,36 +3653,6 @@
    "published": "2026-11-13T08:34:20Z",
    "added": "2026-11-13T09:00:33Z",
    "also": []
-  },
-  {
-   "id": "d9f7469060",
-   "headline": "PHP2Shell and privilege escalation hit Check Point Gateways",
-   "summary": "Attackers exploited PHP2Shell for initial access to Check Point Gateway appliances, then used CVE-2026-123039 to escalate privileges to root. The attacks were destructive in nature. Organizations running affected Check Point Gateway instances should investigate for signs of compromise and apply available patches immediately to mitigate exploitation risk.",
-   "severity": "critical",
-   "category": "Vulnerability",
-   "cves": [
-    "CVE-2026-123039"
-   ],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
-   "published": "2026-11-13T07:39:04Z",
-   "added": "2026-11-13T08:00:36Z",
-   "also": [
-    {
-     "source": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
-    }
-   ],
-   "cve_info": {
-    "CVE-2026-123039": {
-     "kev": true,
-     "cvss": 7.8,
-     "sev": "high",
-     "desc": "The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket) without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root."
-    }
-   },
-   "cve_checked": "2026-11-13T08:00:48Z"
   }
  ]
 }
