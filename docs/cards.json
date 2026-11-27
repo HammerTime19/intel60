@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T09:30:30Z",
+ "updated": "2026-11-27T10:00:37Z",
  "cards": [
   {
    "id": "15e93fc59e",
@@ -40,7 +40,12 @@
    "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
    "published": "2026-11-27T07:36:14Z",
    "added": "2026-11-27T08:00:37Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/"
+    }
+   ]
   },
   {
    "id": "706168821f",
@@ -545,7 +550,12 @@
    "url": "https://therecord.media/mycolorado-app-down-data-breach",
    "published": "2026-11-24T20:52:00Z",
    "added": "2026-11-24T21:00:36Z",
-   "also": []
+   "also": [
+    {
+     "source": "SecurityWeek",
+     "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/"
+    }
+   ]
   },
   {
    "id": "5f76ac4f7c",
@@ -3651,20 +3661,6 @@
    "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
    "published": "2026-11-13T12:20:28Z",
    "added": "2026-11-13T12:30:35Z",
-   "also": []
-  },
-  {
-   "id": "8762a201a2",
-   "headline": "Microsoft Windows activation fails after November patches",
-   "summary": "Microsoft's November 2026 Patch Tuesday updates are causing Windows activation and licensing failures, with affected systems displaying 0x80041008 error codes. The issue impacts users attempting to activate or validate Windows licenses after installing the security updates. Microsoft has confirmed the problem and is investigating. Users experiencing activation issues should defer updates or check Microsoft's support pages for workarounds while a fix is prepared.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
-   "published": "2026-11-13T09:36:18Z",
-   "added": "2026-11-13T10:00:41Z",
    "also": []
   }
  ]
