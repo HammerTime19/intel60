@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:00:37Z",
+ "updated": "2026-11-27T12:30:36Z",
  "cards": [
   {
    "id": "30a43f231a",
@@ -101,6 +101,20 @@
    "url": "https://therecord.media/uk-department-work-pensions-cyber-incident",
    "published": "2026-11-27T00:00:00Z",
    "added": "2026-11-27T11:00:45Z",
+   "also": []
+  },
+  {
+   "id": "f957113622",
+   "headline": "Agence France-Presse news distribution platform disrupted by cyberattack",
+   "summary": "French news agency AFP suffered a cyberattack that forced the shutdown of a primary platform used to distribute news to media organizations globally. The incident disrupted international news distribution but specific details about the attack vector, data exposure, or attribution remain unreported. AFP's recovery status and timeline are unknown at this time.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/france-afp-hit-by-cyberattack",
+   "published": "2026-11-27T00:00:00Z",
+   "added": "2026-11-27T12:30:36Z",
    "also": []
   },
   {
@@ -3690,20 +3704,6 @@
      "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/"
     }
    ]
-  },
-  {
-   "id": "5273269960",
-   "headline": "SilentAir hackers intercept calls, SMS inside mobile networks",
-   "summary": "SilentAir attackers hijacked mobile network nodes to intercept calls and SMS messages, targeting Taiwanese mobile subscribers. The vulnerability allowed threat actors to operate from inside carrier infrastructure. Enea disclosed the attack method. Mobile operators should audit network node security and monitor for unauthorized access attempts to communications infrastructure.",
-   "severity": "critical",
-   "category": "Threat actor",
-   "cves": [],
-   "watch": [],
-   "source": "SecurityWeek",
-   "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
-   "published": "2026-11-13T12:20:28Z",
-   "added": "2026-11-13T12:30:35Z",
-   "also": []
   }
  ]
 }

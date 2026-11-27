@@ -4179,6 +4179,13 @@
 "sev": "info",
 "summary": "British organizations reported the highest number of cyber incidents ever to the UK's Information Commissioner's Office in 2026. Cybersecurity firms attribute the surge to increased data extortion campaigns and artificial intelligence-powered attacks. The record demonstrates escalating threats to UK entities as threat actors adopt more sophisticated and automated techniques."
 },
+"f957113622": {
+"cves": [],
+"date": "2026-11-27",
+"headline": "Agence France-Presse news distribution platform disrupted by cyberattack",
+"sev": "high",
+"summary": "French news agency AFP suffered a cyberattack that forced the shutdown of a primary platform used to distribute news to media organizations globally. The incident disrupted international news distribution but specific details about the attack vector, data exposure, or attribution remain unreported. AFP's recovery status and timeline are unknown at this time."
+},
 "fa1f50764b": {
 "cves": [],
 "date": "2026-11-25",
