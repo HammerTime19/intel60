@@ -307,7 +307,9 @@
 },
 "CVE-2026-120705": {
 "date": "2026-11-25",
-"kev": false
+"due": "2026-11-30",
+"kev": true,
+"name": "OSGeo GeoServer XML Injection Vulnerability"
 },
 "CVE-2026-123007": {
 "cvss": 8.1,
@@ -386,7 +388,9 @@
 },
 "CVE-2026-129243": {
 "date": "2026-11-25",
-"kev": false
+"due": "2026-11-30",
+"kev": true,
+"name": "OSGeo GeoServer Incorrect Authorization Vulnerability"
 },
 "CVE-2026-129975": {
 "cvss": 8.1,

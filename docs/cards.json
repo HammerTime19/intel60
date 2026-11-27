@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:00:34Z",
+ "updated": "2026-11-27T18:30:38Z",
  "cards": [
   {
    "id": "f01224df1f",
@@ -383,16 +383,20 @@
     {
      "source": "SecurityWeek",
      "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/"
+    },
+    {
+     "source": "CISA KEV",
+     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716"
     }
    ],
    "cve_info": {
     "CVE-2026-120705": {
-     "kev": false,
+     "kev": true,
      "cvss": null,
      "sev": null
     },
     "CVE-2026-129243": {
-     "kev": false,
+     "kev": true,
      "cvss": null,
      "sev": null
     }
