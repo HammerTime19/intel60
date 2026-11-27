@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T11:00:45Z",
+ "updated": "2026-11-27T11:30:37Z",
  "cards": [
   {
    "id": "30a43f231a",
@@ -13,6 +13,20 @@
    "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
    "published": "2026-11-27T10:10:15Z",
    "added": "2026-11-27T10:30:29Z",
+   "also": []
+  },
+  {
+   "id": "99bc87f821",
+   "headline": "Q-Dir and DesktopOK downloads trojanized with remote access malware",
+   "summary": "Official installation files for Q-Dir and DesktopOK from SoftwareOK website have been compromised to deliver remote access malware. The attack affected both direct downloads and automatic updates of previously installed software. Users of these Windows utilities should verify file integrity and check systems for indicators of compromise.",
+   "severity": "high",
+   "category": "Malware",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+   "published": "2026-11-27T09:29:30Z",
+   "added": "2026-11-27T11:30:37Z",
    "also": []
   },
   {

@@ -2931,6 +2931,13 @@
 "sev": "critical",
 "summary": "CISA added CVE-2026-46300 to the Known Exploited Vulnerabilities catalog. A missing variable initialization in Linux Kernel's socket buffer coalescing can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and execute commands as root. Apply patches immediately per BOD 26-04 guidelines. Federal due date: October 31, 2026."
 },
+"99bc87f821": {
+"cves": [],
+"date": "2026-11-27",
+"headline": "Q-Dir and DesktopOK downloads trojanized with remote access malware",
+"sev": "high",
+"summary": "Official installation files for Q-Dir and DesktopOK from SoftwareOK website have been compromised to deliver remote access malware. The attack affected both direct downloads and automatic updates of previously installed software. Users of these Windows utilities should verify file integrity and check systems for indicators of compromise."
+},
 "99f6b8af60": {
 "cves": [],
 "date": "2026-11-04",
