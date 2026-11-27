@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:30:32Z",
+ "updated": "2026-11-27T00:00:34Z",
  "items": [
   {
    "cve": "CVE-2025-41450",
@@ -492,28 +492,6 @@
    "name": "Linux Kernel Missing Initialization of a Variable Vulnerability",
    "added": "2026-10-28",
    "due": "2026-10-31",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2026-48356",
-   "vendor": "Adobe",
-   "product": "Commerce and Magento",
-   "name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-   "added": "2026-10-27",
-   "due": "2026-11-10",
-   "ransomware": false,
-   "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
-   "card": null
-  },
-  {
-   "cve": "CVE-2026-111497",
-   "vendor": "Google",
-   "product": "Brotli",
-   "name": "Google Brotli Unchecked Return Value Vulnerability",
-   "added": "2026-10-27",
-   "due": "2026-11-10",
    "ransomware": false,
    "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see ",
    "card": null
