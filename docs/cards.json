@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:30:43Z",
+ "updated": "2026-11-27T11:00:45Z",
  "cards": [
   {
    "id": "30a43f231a",
@@ -73,6 +73,20 @@
    "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
    "published": "2026-11-27T05:48:20Z",
    "added": "2026-11-27T06:30:35Z",
+   "also": []
+  },
+  {
+   "id": "875b913eba",
+   "headline": "UK Department for Work and Pensions hit by cyber incident",
+   "summary": "The British Department for Work and Pensions (DWP) confirmed a cyber incident and took several services offline as a precautionary measure. No details were provided about the nature of the attack, affected systems, or data exposure. Authorities are investigating the incident. Users should monitor official DWP communications for updates on service restoration and any data breach notifications.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "The Record",
+   "url": "https://therecord.media/uk-department-work-pensions-cyber-incident",
+   "published": "2026-11-27T00:00:00Z",
+   "added": "2026-11-27T11:00:45Z",
    "also": []
   },
   {

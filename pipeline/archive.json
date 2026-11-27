@@ -2692,6 +2692,13 @@
 "sev": "high",
 "summary": "Grocery giant Ahold Delhaize quantified financial impact from an October cyberattack, estimating €250 million in fourth-quarter sales reduction and prompting downward revision of 2026 financial outlook. The company's retail operations and supply chain were significantly disrupted. Full investigation details and attribution remain limited."
 },
+"875b913eba": {
+"cves": [],
+"date": "2026-11-27",
+"headline": "UK Department for Work and Pensions hit by cyber incident",
+"sev": "high",
+"summary": "The British Department for Work and Pensions (DWP) confirmed a cyber incident and took several services offline as a precautionary measure. No details were provided about the nature of the attack, affected systems, or data exposure. Authorities are investigating the incident. Users should monitor official DWP communications for updates on service restoration and any data breach notifications."
+},
 "8762a201a2": {
 "cves": [],
 "date": "2026-11-13",
