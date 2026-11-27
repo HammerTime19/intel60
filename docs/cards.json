@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:00:32Z",
+ "updated": "2026-11-27T21:30:30Z",
  "cards": [
   {
    "id": "c33ac200ed",
@@ -3624,20 +3624,6 @@
      "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks"
     }
    ]
-  },
-  {
-   "id": "67e222e81e",
-   "headline": "Dixell refrigeration units have 14 serious root flaws",
-   "summary": "VulnCheck researchers disclosed 14 vulnerabilities in Dixell and Copeland refrigeration supervision systems affecting supermarkets across France and Europe. The flaws have CVSS scores between 8 and 9.8, with at least two actively exploited in the wild. They grant root access to attackers. Companies running affected units are recovering from recent hacking incidents. Organizations should prioritize patching and network segmentation for internet-connected refrigeration devices.",
-   "severity": "high",
-   "category": "Vulnerability",
-   "cves": [],
-   "watch": [],
-   "source": "CyberScoop",
-   "url": "https://cyberscoop.com/copeland-dixell-refrigeration-vulnerabilities/",
-   "published": "2026-11-13T21:20:51Z",
-   "added": "2026-11-13T21:30:32Z",
-   "also": []
   }
  ]
 }
