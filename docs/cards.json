@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-27T17:00:50Z",
+ "updated": "2026-11-27T17:30:32Z",
  "cards": [
+  {
+   "id": "f01224df1f",
+   "headline": "Vietnam-linked WeaveLotus targets Southeast Asia South China Sea espionage",
+   "summary": "Vietnam-sponsored hacking group WeaveLotus has conducted intrusions against Southeast Asian military, government, and legislative organizations to gather intelligence on South China Sea defense and military agreements. Five confirmed intrusions in Thailand have been documented by SOCRadar. The campaign targets geopolitical intelligence related to regional security arrangements and military coordination efforts.",
+   "severity": "high",
+   "category": "Threat actor",
+   "cves": [],
+   "watch": [],
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+   "published": "2026-11-27T16:36:11Z",
+   "added": "2026-11-27T17:30:32Z",
+   "also": []
+  },
   {
    "id": "2778b393e6",
    "headline": "US Air Force Cloud One platform reportedly breached",
@@ -133,7 +147,12 @@
    "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
    "published": "2026-11-27T05:48:20Z",
    "added": "2026-11-27T06:30:35Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/"
+    }
+   ]
   },
   {
    "id": "875b913eba",
@@ -3627,20 +3646,6 @@
    "source": "BleepingComputer",
    "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
    "published": "2026-11-13T17:31:56Z",
-   "added": "2026-11-13T18:00:41Z",
-   "also": []
-  },
-  {
-   "id": "4c8fe02bd0",
-   "headline": "University of Texas at Arlington suffers data breach",
-   "summary": "University of Texas at Arlington confirmed personal information was stolen during a cyberattack. An investigation verified data theft occurred but details on what information was compromised remain undisclosed. No information about the attacker, attack timeline, or affected individuals has been released publicly.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/university-of-texas-arlington-warns-data-breach",
-   "published": "2026-11-13T17:26:00Z",
    "added": "2026-11-13T18:00:41Z",
    "also": []
   }

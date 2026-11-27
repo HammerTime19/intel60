@@ -4047,6 +4047,13 @@
 "sev": "info",
 "summary": "Michael LoSapio, chief information officer at Palantir, has been officially nominated by President Donald Trump to lead the Cybersecurity and Infrastructure Security Agency. His confirmation requires Senate approval, though the lame-duck session timeline creates uncertainty around the vote. This leadership change comes as CISA continues managing critical infrastructure protection and vulnerability disclosure responsibilities."
 },
+"f01224df1f": {
+"cves": [],
+"date": "2026-11-27",
+"headline": "Vietnam-linked WeaveLotus targets Southeast Asia South China Sea espionage",
+"sev": "high",
+"summary": "Vietnam-sponsored hacking group WeaveLotus has conducted intrusions against Southeast Asian military, government, and legislative organizations to gather intelligence on South China Sea defense and military agreements. Five confirmed intrusions in Thailand have been documented by SOCRadar. The campaign targets geopolitical intelligence related to regional security arrangements and military coordination efforts."
+},
 "f01e6eed43": {
 "cves": [
 "CVE-2026-35273"
