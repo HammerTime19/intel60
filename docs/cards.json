@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:30:32Z",
+ "updated": "2026-11-27T18:00:34Z",
  "cards": [
   {
    "id": "f01224df1f",
@@ -3633,20 +3633,6 @@
    "url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
    "published": "2026-11-13T19:43:00Z",
    "added": "2026-11-13T20:00:35Z",
-   "also": []
-  },
-  {
-   "id": "f6f4a6d64a",
-   "headline": "Cyberattack disrupts German military drone operations",
-   "summary": "Quantum Systems, a German defense technology company, confirmed detection of a cyberattack in late October affecting its operations by hostile actors. The incident disrupted German military drone operations. No details about attacker identity, methods, or extent of impact have been disclosed.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "BleepingComputer",
-   "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-   "published": "2026-11-13T17:31:56Z",
-   "added": "2026-11-13T18:00:41Z",
    "also": []
   }
  ]
