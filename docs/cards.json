@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-27T19:00:40Z",
+ "updated": "2026-11-27T19:30:43Z",
  "cards": [
+  {
+   "id": "c33ac200ed",
+   "headline": "pCloud Pass password manager confirms cyberattack",
+   "summary": "pCloud Pass users reported unauthorized device access to accounts despite two-factor authentication being enabled, confirming a cyberattack on the password manager. The breach suggests attackers bypassed or compromised 2FA protections, raising concerns about credential security. Users should change their pCloud Pass master password immediately and review account activity. Those who reused passwords across services should update them on other platforms.",
+   "severity": "critical",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+   "published": "2026-11-27T19:26:04Z",
+   "added": "2026-11-27T19:30:42Z",
+   "also": []
+  },
   {
    "id": "72cf1a5347",
    "headline": "Boston Scientific breach exposes personal medical information",
