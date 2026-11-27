@@ -653,6 +653,14 @@
 "epss": 0.00187,
 "kev": false,
 "sev": "high"
+},
+"CVE-2026-99362": {
+"cvss": 9.8,
+"date": "2026-11-27",
+"desc": "In the Linux kernel, the following vulnerability has been resolved: nfsd: preflight SEQUENCE replies before accepting a slot nfsd4_sequence() narrows the reply buffer to the session's cached reply limit before it accepts the slot seqid. A client may negotiate ca_maxresponsesize_cached down to NFSD_MIN_HDR_SEQ_SZ, and nfsd4_alloc_slot() then gives every slot a zero-length sl_data[]. A COMPOUND tag can fill that narrowed buffer until it holds the SEQUENCE opcode but not the status word that follows. nfsd4_encode_operation() returns without running nfsd4_encode_sequence(), so cstate.data_offset…",
+"epss": 0.00755,
+"kev": false,
+"sev": "critical"
 }
 },
 "stories": {
@@ -926,6 +934,15 @@
 "headline": "US Army soldier arrested for alleged Russian espionage",
 "sev": "info",
 "summary": "An unnamed US Army member was arrested in the UK by British counterterrorism police working with the FBI and US military on allegations of spying for Russia. The arrest represents an ongoing counterintelligence concern regarding foreign recruitment of US military personnel. No further details on the nature or scope of the alleged espionage were disclosed."
+},
+"15e93fc59e": {
+"cves": [
+"CVE-2026-99362"
+],
+"date": "2026-11-27",
+"headline": "Linux kernel NFS server RCE allows remote root access",
+"sev": "critical",
+"summary": "A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. The flaw has been undetected for over a decade, affecting systems running vulnerable NFS server implementations. Administrators should apply kernel patches immediately and restrict NFS access to trusted networks where possible."
 },
 "16367edd00": {
 "cves": [],
