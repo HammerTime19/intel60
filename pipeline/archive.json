@@ -1699,6 +1699,13 @@
 "sev": "high",
 "summary": "Adobe released security updates addressing 110 vulnerabilities across nine products including AEM, Premiere, Photoshop, After Effects, Connect, Audition, Dimension, Content Credentials SDK, and Media Encoder. The bulletin does not specify severity levels or exploitation status for individual flaws. Users should apply updates prioritizing products they actively use in their environments."
 },
+"4895aa5a5b": {
+"cves": [],
+"date": "2026-11-27",
+"headline": "Vinci RAT distributed via Microsoft Store malicious app",
+"sev": "high",
+"summary": "A threat actor compromised a Microsoft Store application to deliver Vinci RAT, a remote access trojan enabling system control. Users were redirected to a fake sniping tool website (snipp.codes-team[.]com) where they downloaded a Microsoft-signed installer. The malware provides attackers remote access and control capabilities. Users should verify application authenticity before installation and monitor for suspicious system access."
+},
 "49097f3f34": {
 "cves": [
 "CVE-2025-31324"
