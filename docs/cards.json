@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-27T18:30:38Z",
+ "updated": "2026-11-27T19:00:40Z",
  "cards": [
+  {
+   "id": "72cf1a5347",
+   "headline": "Boston Scientific breach exposes personal medical information",
+   "summary": "Medical technology company Boston Scientific notified individuals of a cyberattack affecting their systems. The breach compromised personal and medical information. Boston Scientific is sending data breach notices to affected individuals. Patients and customers should monitor their personal information for misuse and consider credit monitoring services as a precautionary measure.",
+   "severity": "high",
+   "category": "Breach",
+   "cves": [],
+   "watch": [],
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "published": "2026-11-27T18:57:42Z",
+   "added": "2026-11-27T19:00:40Z",
+   "also": []
+  },
   {
    "id": "f01224df1f",
    "headline": "Vietnam-linked WeaveLotus targets Southeast Asia South China Sea espionage",

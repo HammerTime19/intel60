@@ -2296,6 +2296,13 @@
 "sev": "high",
 "summary": "Six Asian airlines—Japan Airlines, Cathay Pacific, Korean Air, Asiana Airlines, Singapore Airlines, and Malaysia Airlines—disclosed data breaches linked to a cyberattack on Amadeus IT Group, which provides flight reservation, ticketing, and check-in systems. The breach exposed passenger and booking data across multiple carriers. Airlines are investigating the scope of compromised information and implementing incident response measures."
 },
+"72cf1a5347": {
+"cves": [],
+"date": "2026-11-27",
+"headline": "Boston Scientific breach exposes personal medical information",
+"sev": "high",
+"summary": "Medical technology company Boston Scientific notified individuals of a cyberattack affecting their systems. The breach compromised personal and medical information. Boston Scientific is sending data breach notices to affected individuals. Patients and customers should monitor their personal information for misuse and consider credit monitoring services as a precautionary measure."
+},
 "7340dbad9c": {
 "cves": [
 "CVE-2026-19868"
