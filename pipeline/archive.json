@@ -1729,6 +1729,13 @@
 "sev": "high",
 "summary": "Security researchers detected residential proxy nodes beaconing from White House networks (AS2650) between October and November. Multiple Windows 11 installations of Infatica, a proxy service often bundled with free applications, were found running. The malware rents out the infected devices' IP addresses to third parties. Infatica's Russian founder previously operated hosting infrastructure used in 2016 election system cyberattacks. Organizations should audit employee devices for unauthorized proxy services and enforce application security policies."
 },
+"4a82d37230": {
+"cves": [],
+"date": "2026-11-27",
+"headline": "Japan education ministry government procurement system breached",
+"sev": "high",
+"summary": "Japan's education ministry disclosed a breach of its government procurement system that potentially exposed business information and email addresses. The scope of affected records and the identity of the attackers remain unclear. Organizations should monitor their procurement interactions with Japanese education entities and prepare for potential phishing or social engineering attempts using exposed contact information."
+},
 "4b6021947b": {
 "cves": [],
 "date": "2026-11-21",
