@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:30:43Z",
+ "updated": "2026-11-27T20:00:41Z",
  "cards": [
   {
    "id": "c33ac200ed",
@@ -3651,20 +3651,6 @@
    "url": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
    "published": "2026-11-13T20:20:27Z",
    "added": "2026-11-13T23:00:37Z",
-   "also": []
-  },
-  {
-   "id": "810ecd44c3",
-   "headline": "City of Osaka suffers data breach affecting 1 million",
-   "summary": "Osaka, Japan's third-largest city, confirmed a data breach impacting approximately 1 million residents. The breach is part of a wave of cyber incidents affecting multiple Japanese organizations. Residents were advised to watch for suspicious emails impersonating the local government. The scope of compromised data and the responsible threat actor remain under investigation. Monitor for phishing attempts and credential misuse.",
-   "severity": "high",
-   "category": "Breach",
-   "cves": [],
-   "watch": [],
-   "source": "The Record",
-   "url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
-   "published": "2026-11-13T19:43:00Z",
-   "added": "2026-11-13T20:00:35Z",
    "also": []
   }
  ]
