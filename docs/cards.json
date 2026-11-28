@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T15:30:27Z",
+ "updated": "2026-11-28T16:00:33Z",
  "cards": [
   {
    "id": "c33ac200ed",
@@ -111,7 +111,12 @@
    "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
    "published": "2026-11-27T09:29:30Z",
    "added": "2026-11-27T11:30:37Z",
-   "also": []
+   "also": [
+    {
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/security/q-dir-and-desktopok-windows-utilities-compromised-to-push-python-rat/"
+    }
+   ]
   },
   {
    "id": "15e93fc59e",
