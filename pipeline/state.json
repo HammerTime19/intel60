@@ -1138,9 +1138,7 @@
  "last_digest": "2026-11-27",
  "last_digest_at": "2026-11-27T12:00:37Z",
  "health": {
-  "feeds": {
-   "Krebs on Security": 1
-  },
+  "feeds": {},
   "alerted": {
    "ai": "2026-10-08T14:00:37Z"
   }
